@@ -22,5 +22,9 @@
 		"prettier": "^3.0.3",
 		"prettier-plugin-svelte": "^3.0.3",
 		"typescript": "~5.2.2"
+	},
+	"dependencies": {
+		"fp-ts": "^2.16.1",
+		"fs": "0.0.1-security"
 	}
 }
