@@ -50,3 +50,7 @@ export interface Unit extends HandbookThing {
 	offerings: TeachingPeriod[]
 	requisites: Requisite[]
 }
+
+export interface Specialisation extends HandbookThing {
+	requirement: UnitRequirement
+}
