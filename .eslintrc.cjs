@@ -30,7 +30,7 @@ module.exports = {
 				'plugin:@typescript-eslint/strict-type-checked',
 			],
 			parserOptions: {
-				projects: [
+				project: [
 					'frontend/tsconfig.json',
 					'backend/tsconfig.json',
 					'shared/tsconfig.json',
