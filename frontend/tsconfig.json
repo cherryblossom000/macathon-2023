@@ -5,5 +5,8 @@
 		"outDir": "dist",
 		"module": "ES2022",
 		"moduleResolution": "Bundler",
-	}
+	},
+	"references": [
+		{"path": "../shared/tsconfig.json"}
+	]
 }
