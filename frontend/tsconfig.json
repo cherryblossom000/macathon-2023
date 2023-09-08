@@ -4,9 +4,7 @@
 		"rootDir": "src",
 		"outDir": "dist",
 		"module": "ES2022",
-		"moduleResolution": "Bundler",
+		"moduleResolution": "Bundler"
 	},
-	"references": [
-		{"path": "../shared/tsconfig.json"}
-	]
+	"references": [{"path": "../shared/tsconfig.json"}]
 }

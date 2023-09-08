@@ -1,10 +1,10 @@
 {
-  "name": "frontend",
-  "version": "1.0.0",
-  "main": "dist/index.js",
-  "scripts": {
+	"name": "frontend",
+	"version": "1.0.0",
+	"main": "dist/index.js",
+	"scripts": {
 		"build": "tsc -b",
 		"watch": "tsc -bw",
-    "lint": "eslint --ext cjs,ts ."
+		"lint": "eslint --ext cjs,ts ."
 	}
 }
