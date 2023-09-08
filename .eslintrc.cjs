@@ -23,7 +23,7 @@ module.exports = {
 			env: {node: true},
 		},
 		{
-			files: '{backend,frontend,shared}/**/*.ts',
+			files: '{backend,frontend,shared,scraper}/**/*.ts',
 			extends: [
 				'plugin:@typescript-eslint/recommended-type-checked',
 				'plugin:@typescript-eslint/stylistic-type-checked',
@@ -40,9 +40,10 @@ module.exports = {
 			},
 			parserOptions: {
 				project: [
+					'backend/tsconfig.json',
 					'frontend/tsconfig.json',
 					'frontend/tsconfig.node.json',
-					'backend/tsconfig.json',
+					'scraper/tsconfig.json',
 					'shared/tsconfig.json',
 				],
 				tsconfigRootDir: __dirname,
