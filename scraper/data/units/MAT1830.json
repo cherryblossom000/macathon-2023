@@ -1,0 +1,23 @@
+{
+	"code": "MAT1830",
+	"title": "Discrete mathematics for computer science",
+	"offerings": [
+		"First semester"
+	],
+	"requisites": [
+		{
+			"type": "prohibitions",
+			"requirement": {
+				"operator": "AND",
+				"items": [
+					{
+						"operator": "AND",
+						"items": [
+							"ITI9004"
+						]
+					}
+				]
+			}
+		}
+	]
+}

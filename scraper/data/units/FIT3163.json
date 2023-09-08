@@ -1,0 +1,62 @@
+{
+	"code": "FIT3163",
+	"title": "Data science project 1",
+	"offerings": [
+		"Second semester",
+		"First semester"
+	],
+	"requisites": [
+		{
+			"type": "prohibitions",
+			"requirement": {
+				"operator": "AND",
+				"items": [
+					{
+						"operator": "AND",
+						"items": [
+							"FIT3161",
+							"FIT3144"
+						]
+					}
+				]
+			}
+		},
+		{
+			"type": "prerequisite",
+			"requirement": {
+				"operator": "AND",
+				"items": [
+					{
+						"operator": "AND",
+						"items": [
+							{
+								"operator": "OR",
+								"items": [
+									"FIT1055",
+									"FIT1049"
+								]
+							},
+							"FIT1043",
+							"FIT2004",
+							"FIT2094"
+						]
+					}
+				]
+			}
+		},
+		{
+			"type": "corequisite",
+			"requirement": {
+				"operator": "AND",
+				"items": [
+					{
+						"operator": "AND",
+						"items": [
+							"FIT2086"
+						]
+					}
+				]
+			}
+		}
+	]
+}

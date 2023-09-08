@@ -1,0 +1,23 @@
+{
+	"code": "MAT1841",
+	"title": "Continuous mathematics for computer science",
+	"offerings": [
+		"Second semester"
+	],
+	"requisites": [
+		{
+			"type": "prohibitions",
+			"requirement": {
+				"operator": "AND",
+				"items": [
+					{
+						"operator": "AND",
+						"items": [
+							"ITI9004"
+						]
+					}
+				]
+			}
+		}
+	]
+}

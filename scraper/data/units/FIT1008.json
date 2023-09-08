@@ -1,0 +1,40 @@
+{
+	"code": "FIT1008",
+	"title": "Introduction to computer science",
+	"offerings": [
+		"Second semester",
+		"First semester"
+	],
+	"requisites": [
+		{
+			"type": "prohibitions",
+			"requirement": {
+				"operator": "AND",
+				"items": [
+					{
+						"operator": "AND",
+						"items": [
+							"FIT2085",
+							"FIT1054"
+						]
+					}
+				]
+			}
+		},
+		{
+			"type": "prerequisite",
+			"requirement": {
+				"operator": "AND",
+				"items": [
+					{
+						"operator": "OR",
+						"items": [
+							"FIT1045",
+							"FIT1053"
+						]
+					}
+				]
+			}
+		}
+	]
+}

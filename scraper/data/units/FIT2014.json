@@ -1,0 +1,42 @@
+{
+	"code": "FIT2014",
+	"title": "Theory of computation",
+	"offerings": [
+		"Second semester"
+	],
+	"requisites": [
+		{
+			"type": "prerequisite",
+			"requirement": {
+				"operator": "AND",
+				"items": [
+					{
+						"operator": "AND",
+						"items": [
+							{
+								"operator": "OR",
+								"items": [
+									"FIT1051",
+									"FIT1045",
+									"FIT1053",
+									"ENG1013",
+									"FIT1048",
+									"ENG1003"
+								]
+							},
+							{
+								"operator": "OR",
+								"items": [
+									"MAT1830",
+									"MTH1030",
+									"MTH1035",
+									"ENG1005"
+								]
+							}
+						]
+					}
+				]
+			}
+		}
+	]
+}

@@ -1,0 +1,38 @@
+{
+	"code": "FIT3164",
+	"title": "Data science project 2",
+	"offerings": [
+		"Second semester",
+		"First semester"
+	],
+	"requisites": [
+		{
+			"type": "prerequisite",
+			"requirement": {
+				"operator": "AND",
+				"items": [
+					{
+						"operator": "AND",
+						"items": [
+							"FIT3163"
+						]
+					}
+				]
+			}
+		},
+		{
+			"type": "prohibitions",
+			"requirement": {
+				"operator": "AND",
+				"items": [
+					{
+						"operator": "AND",
+						"items": [
+							"FIT3144"
+						]
+					}
+				]
+			}
+		}
+	]
+}

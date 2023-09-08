@@ -1,0 +1,2321 @@
+{
+	"contentTypeLabel": "Course",
+	"implementation_year": "2023",
+	"asced_detailed": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"accrediting_bodies": [],
+	"english_language_requirements": {
+		"value": "",
+		"cl_id": "919c14094fb987409e2bfd501310c744",
+		"key": "text"
+	},
+	"code": "C2001",
+	"student_types": [],
+	"asced_broad": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"quota": "",
+	"owning_org": {
+		"value": "",
+		"cl_id": null,
+		"key": "name"
+	},
+	"published_in_handbook": {
+		"label": "Yes",
+		"value": "1"
+	},
+	"partner_academic_orgs": [],
+	"academic_org": {
+		"value": "",
+		"cl_id": null,
+		"key": "name"
+	},
+	"end_date": "",
+	"status": {
+		"label": "Accredited",
+		"value": "Active"
+	},
+	"school": {
+		"value": "Faculty of Information Technology",
+		"cl_id": "c5684a53dba8a3406add773c349619a1",
+		"key": "name"
+	},
+	"international_availability_clarification": {
+		"value": "",
+		"cl_id": null,
+		"key": "text"
+	},
+	"entry_requirements_transnational": "",
+	"inherent_requirements": "",
+	"callista_version": "",
+	"enrolment_restrictions": {
+		"value": "",
+		"cl_id": null,
+		"key": "text"
+	},
+	"sms_version": "",
+	"type": {
+		"label": "UG specialist",
+		"value": "203"
+	},
+	"sms_status": {
+		"label": null,
+		"value": null
+	},
+	"description": "",
+	"other_course_costs": "",
+	"cl_id": "15c165d7db38e9502bdd077cd3961956",
+	"asced_narrow": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"title": "Bachelor of Computer Science",
+	"version": "4",
+	"subclass": {
+		"label": "Course",
+		"value": "course"
+	},
+	"professional_recognition": null,
+	"abbreviated_name_and_major": "",
+	"enrolment_patterns": [],
+	"version_name": "2023.04",
+	"start_date": "",
+	"areas_of_employment": [],
+	"course_code": "C2001",
+	"abbreviated_name": "BCompSci",
+	"entry_requirements_onshore": "",
+	"special_requirements": "",
+	"ext_id": "",
+	"source": {
+		"value": "5a6a4e14dbb86d10101196cbd39619e6",
+		"cl_id": "5a6a4e14dbb86d10101196cbd39619e6",
+		"key": ""
+	},
+	"active": "false",
+	"class_name": "courses",
+	"effective_date": "2023-01-01",
+	"govt_special_course_type": {
+		"label": null,
+		"value": null
+	},
+	"research_areas": null,
+	"exit": null,
+	"part_time": "true",
+	"structure": "<p>The course develops through the themes of computer science foundation study, professional skills study, specialist discipline knowledge, problem-solving and analytic skills study, which come together in applied practice. <br /><br /><strong> Part A. Computer science foundation study </strong><br /><br />This study will develop your understanding of the role and theoretical basis of computer science and computational methods. <br /><br /><strong> Part B. Professional skills study </strong><br /><br />This study develops professional skills by providing an understanding and appreciation of the ethical and professional guidelines applicable to computer science, developing the ability to work as an effective team member, developing the ability to communicate proficiently and appropriately for professional practice, and developing formal project management skills. <br /><br /><strong> Part C. Specialist discipline knowledge </strong><br /><br />This study will develop your in-depth knowledge of the specific computer science methods of your specialised field within computer science. <br /><br /><strong> Part D. Problem solving and analytical skills study </strong><br /><br />This study will develop your ability to apply appropriate methodologies in computer science and develop efficient computational solutions. It develops strong problem-solving skills and the ability to apply analytical thinking. <br /><br /><strong> Part E. Applied practice </strong><br /><br />The above knowledge and skills are integrated and consolidated in applied practice as demonstrated in a computer or data science project, and in some cases in an industry-based learning placement. <br /><br /><strong> Part F. Free elective study </strong><br /><br />These elective units will enable you to broaden and deepen your knowledge of computer science, or to select units from across the University in which you are eligible to enrol. <br /><br />If you are in a double degree courses, some units required for the partner degree are credited as electives towards the computer science degree.</p>\n<p><strong>Course progression map</strong></p>\n<p>The course progression map <a href=\"https://www.monash.edu/it/current-students/enrolment/course-maps-and-handbooks/2023-course-maps\" rel=\"nofollow\">(Clayton)</a> (<a href=\"https://www.monash.edu.my/it/current-students/Course-Offered/undergraduates/course-maps\" rel=\"nofollow\">Malaysia</a>) provides guidance on unit enrolment for each semester of study.</p>",
+	"no_enrolment": "false",
+	"publication_information": "",
+	"internship_placement": null,
+	"cricos_code": "079336A",
+	"specialisations": "<p><strong>Advanced computer science</strong></p>\n<p>Availability: Clayton, Malaysia</p>\n<p>In this specialisation you will learn advanced aspects of computer science including a detailed study of programming paradigms, especially object-oriented programming and parallel computing. This will be enhanced with experience in constructing, manipulating and analysing the performance of advanced algorithms and data-structures. As part of this specialisation you choose an elective unit from a broad range of level 3 offerings within the faculty of IT, and undertake a full-year computer science project utilising the skills and knowledge acquired during the course. <br /><br /><strong>Data science</strong></p>\n<p>Availability: Clayton, Malaysia<br /><br />Data science addresses aspects of how to capture, manage and use the huge volumes of data generated by businesses, organisations and science in the information age. This specialisation spans technical areas such as programming and databases, through modelling, visualisation and analysis, as well as legal and ethical issues. You will select two additional units from a set of level 3 data science offerings, and undertake a full-year data science project utilising the skills and knowledge acquired during the course.</p>",
+	"entry_list": [],
+	"entry_guarantee": "false",
+	"police_check": "false",
+	"year_12_prerequisites": "",
+	"last_review_date": "",
+	"career_opportunities": null,
+	"fees_description": null,
+	"location": "Clayton, Malaysia",
+	"aqf_level": {
+		"label": null,
+		"value": null
+	},
+	"progression": null,
+	"english_language": "<p>Monash Level A, that is:  IELTS (Academic): 6.5 overall (no band lower than 6.0); or Pearson Test of English (Academic): score of 58 overall with no band lower than 50; or TOEFL Internet-based test: score of 79 overall with minimum scores: Writing: 21, Listening: 12, Reading: 13 and Speaking: 18; or Equivalent approved English test</p>",
+	"ib_maths": "Level 3, that is: \nAt least 4 in Mathematics SL or 3 in Mathematics HL or 3 in Further Mathematics HL",
+	"requirements": "<p>This course comprises 144 points, of which 96 points must be from computer science study and 48 points are used to provide additional depth or breadth through elective study. <br /><br />The course develops through theme studies in: Part A. Foundational computer science study (42 points), Part B. Professional skills study (6 points), Part C. Specialist discipline knowledge and Part D. Problem solving and analytical skills (36 points), Part E. Applied practice (12 points), and Part F. Free elective study (48 points). <br /><br />Elective units may be at any level, however, no more than ten units (60 points) can be credited to the computer science course at level 1 and a minimum of 36 points must be completed in computer science at level 3. <br /><br />Note: Students at the Malaysia campus are required to have completed an industry placement in order to graduate. This can either be the Industry-based learning unit (Part E) or a zero credit point unit FIT3199 Industry work experience. This unit will provide a framework for all undergraduate information technology students at the Malaysia Campus to complete the compulsory industry experience as required by the Malaysian Qualifications Agency.</p>\n<p>Units are 6 points unless otherwise stated. <br /><br /><strong>Part A. Foundational computer science study (42 points)</strong><br /><br />You must complete:</p>\n<ul><li>FIT1045 Introduction to programming</li><li>FIT1047 Introduction to computer systems, networks and security</li><li>FIT1008 Introduction to computer science</li><li>FIT2004 Algorithms and data structures *</li><li>FIT2014 Theory of computation</li><li>MAT1830 Discrete mathematics for computer science *</li><li>MAT1841 Continuous mathematics for computer science ** </li></ul>\n<p>* If you are in the double degree course with the Bachelor of Engineering (Honours) completing the software engineering specialisation you must replace FIT2004 and MAT1830 with two FIT-coded electives of which at least one must be at level 2 (FIT2004 and MAT1830 will be completed in the software engineering specialisation).</p>\n<p>** If you are in the double degree course with the Bachelor of Engineering (Honours) you must replace MAT1841 with an FIT-coded elective at any year level. MAT1841 will be replaced with ENG1005 in the engineering component of the double degree. If you are in the double degree course with the Bachelor of Science you can replace MAT1841 with MTH1030. This unit will count towards the computer science component of the double degree.<br /><br /><strong>Part B. Professional skills study (6 points)</strong></p>\n<p>You must complete:</p>\n<ul><li>FIT1049 IT professional practice or FIT1055 IT professional practice</li></ul>\n<p><br /><strong>Part C. Specialist discipline knowledge and Part D. Problem solving and analytical skills (36 points)</strong><br /><br />You must complete one of the following specialisations.<br /><br /><strong>Advanced computer science</strong></p>\n<p>Note: if you are in the double degree with the Bachelor of Engineering (Honours) studying the software engineering specialisation you should refer to the section below titled &#39;Advanced computer science requirements for software engineering double degree students&#39;.</p>\n<p>You must complete:</p>\n<p>a. The following five units (30 points):</p>\n<ul><li>FIT2099 Object-oriented design and implementation</li><li>FIT2102 Programming paradigms</li><li>FIT3143 Parallel computing</li><li>FIT3155 Advanced data structures and algorithms</li><li>FIT3171 Databases</li></ul>\n<p>b. One of the following level 3 elective units (6 points): </p>\n<ul><li>FIT3031 Network security</li><li>FIT3077 Software engineering: architecture and design</li><li>FIT3080 Intelligent systems</li><li>FIT3081 Image processing</li><li>FIT3088 Computer graphics</li><li>FIT3094 Artificial life, artificial intelligence and virtual environments</li><li>FIT3139 Computational modelling and simulation</li><li>FIT3142 Distributed computing</li><li>FIT3146 Maker lab</li><li>FIT3152 Data analytics</li><li>FIT3159 Computer architecture</li><li>FIT3165 Computer networks</li><li>FIT3173 Software security</li><li>FIT3175 Usability</li><li>FIT3181 Deep learning</li><li>FIT3182 Big data management and processing</li><li>FIT3183 Malicious AI and dark side security</li><li>MTH3170 Network mathematics</li><li>MTH3175 Network mathematics (Advanced)</li></ul>\n<p>Note: Not all elective units in this list will be offered each year.</p>\n<p><strong>Advanced computer science requirements for software engineering double degree students</strong></p>\n<p>You must complete:</p>\n<p>a. The following three units (18 points):</p>\n<ul><li>FIT2102 Programming paradigms</li><li>FIT3143 Parallel computing</li><li>FIT3155 Advanced data structures and algorithms</li></ul>\n<p>b. One level 2 [[http://www.monash.edu.au/pubs/handbooks/units/index-byfaculty-it.html][FIT-coded]] unit (6 points)</p>\n<p>c. Two of the following level 3 elective units (12 points):</p>\n<ul><li>FIT3031 Network security</li><li>FIT3077 Software engineering: architecture and design</li><li>FIT3080 Intelligent systems</li><li>FIT3081 Image processing</li><li>FIT3088 Computer graphics</li><li>FIT3094 Artificial life, artificial intelligence and virtual environments</li><li>FIT3139 Computational modelling and simulation</li><li>FIT3142 Distributed computing</li><li>FIT3146 Maker lab</li><li>FIT3152 Data analytics</li><li>FIT3159 Computer architecture</li><li>FIT3165 Computer networks</li><li>FIT3173 Software security</li><li>FIT3175 Usability</li><li>FIT3181 Deep learning</li><li>FIT3182 Big data management and processing</li><li>FIT3183 Malicious AI and dark side security</li><li>MTH3170 Network mathematics</li><li>MTH3175 Network mathematics (Advanced)</li></ul>\n<p><strong>Data science</strong></p>\n<p>You must complete:</p>\n<p>a. The following four units (24 points):</p>\n<ul><li>FIT1043 Introduction to data science</li><li>FIT2086 Modelling for data analysis</li><li>FIT2094 Databases</li><li>FIT3179 Data visualisation</li></ul>\n<p>b. Two of the following level 3 units (12 points):</p>\n<ul><li>FIT3003 Business intelligence and data warehousing</li><li>FIT3139 Computational modelling and simulation</li><li>FIT3152 Data analytics</li><li>FIT3154 Advanced data analysis</li><li>FIT3181 Deep learning</li><li>FIT3182 Big data management and processing</li><li>FIT3183 Malicious AI and dark side security</li></ul>\n<p><strong>Part E. Applied practice (12 points)</strong><br /><br /></p>\n<p>Clayton students complete a full-year project (12 points) relevant to their specialisation, or the industry-based learning unit (18 points):</p>\n<ul><li>FIT3161 Computer science project 1 and FIT3162 Computer science project 2</li><li>FIT3163 Data science project 1 and FIT3164 Data science project 2</li><li>FIT3045 Industry-based learning* (18 points)</li></ul>\n<p>* This option is available only if you are selected to participate in the IBL placement program. It will require the use of one elective unit space from your discipline study. You must complete one unit over summer semester or overload in one semester by one unit in order to complete the degree within three years.<br /><br /></p>\n<p>Malaysia students complete a full-year project (12 points) relevant to their specialisation and the industry-based learning unit (18 points) or the industry work experience unit (0 points):</p>\n<ul><li>FIT3161 Computer science project 1 and FIT3162 Computer science project 2; or</li><li>FIT3163 Data science project 1 and FIT3164 Data science project 2</li><li>FIT3045 Industry-based learning* (18 points); or</li><li>FIT3199 Industry work experience** (0 points)</li></ul>\n<p>* This option is available only if you are selected to participate in the IBL placement program. It will require the use of one elective unit space from your discipline study. You must complete one unit over summer semester or overload in one semester by one unit in order to complete the degree within three years. <br /><br />**This unit must be completed over the Summer vacation period between second and third year.<br /><br /><strong>Part F. Free elective study (48 points)</strong><br /><br />Your elective units may be chosen from the faculty or across the University as long as you have completed the prerequisites and there are no restrictions on enrolment in the units, including choosing to complete a major or minor from other courses. The units may be at any level, however, no more than 10 units (60 points) at level 1 may be credited to the Bachelor of Computer Science and a minimum 36 points must be at level 3.</p>\n<p>Free electives can be identified using the [[http://www.monash.edu.au/pubs/handbooks/units/search][browse units]] tool and [[http://www.monash.edu.au/pubs/handbooks/units/][indexes of units]] in the current edition of the Handbook. [[http://www.monash.edu.au/pubs/handbooks/aos/index-bydomain_type-major.html][Majors]] and [[http://www.monash.edu.au/pubs/handbooks/aos/index-bydomain_type-minor.html][minors]] can also be identified using the Handbook indexes. The level of the unit is indicated by the first number in the unit code; undergraduate units are those that commence with the numbers 1-3. You need permission from the owning faculty to enrol in some units taught by other faculties. </p>\n<p><br />If you are in a double degree course, some units required for the partner degree are credited as electives towards the computer science degree.</p>",
+	"qualification_requirement": "",
+	"articulation_arrangement": null,
+	"working_with_children_check": "false",
+	"partner_faculty": {
+		"label": null,
+		"value": null
+	},
+	"full_time": "true",
+	"qualifications": "",
+	"international_students": "true",
+	"special_admission": null,
+	"entry": "<p>Diploma of Higher Education Studies - Computer Science (offered at Malaysia)<br /><br />Monash College -  Diploma of Information Technology</p>\n<p>Monash Transition Program </p>",
+	"atar": "70; International: UERT Year 12/Foundation Band 3 (80-82.49); UERT Post-Secondary Band 2+ (High Credit)",
+	"course_data_updated": "2023-02-09T04:25:53",
+	"prior_learning_recognition": null,
+	"vce_other": "",
+	"award_titles": "Bachelor of Computer Science\nBachelor of Computer Science in Data Science",
+	"on_campus": "true",
+	"accreditation_start_date": "",
+	"participation_enrolment": null,
+	"vce_english": "Level 1, that is: \nUnits 3 & 4: a study score of at least 27 in English (EAL) or 25 in English other than EAL",
+	"ib_other": "",
+	"online": "false",
+	"progress_to_masters": "",
+	"additional_info": null,
+	"cricos_disclaimer_applicable": "false",
+	"other_description": "",
+	"other": "false",
+	"health_records_and_privacy": "false",
+	"information_declaration": "false",
+	"ahegs": "<p>The Bachelor of Computer Science is an undergraduate degree. The course is taught in English and normally takes three years of full-time study or six years of part-time study. The degree provides graduates with in-depth computing knowledge. It focuses on software, hardware and the underlying theory of computing and its applications to scientific and technical problem-solving and to information processing in commerce and industry. The Bachelor of Computer Science is a Level 7 Australian Qualifications Framework (AQF) qualification. The minimum requirements for admission are set out in the Monash University (Academic Board) Regulations.</p>\n<p>The Bachelor of Computer Science in Data Science is an undergraduate degree. The course is taught in English and normally takes three years of full-time study or six years of part-time study. The degree provides graduates with in-depth computing and data science knowledge. It focuses on software, hardware and the underlying theory of computing and its applications to scientific and technical problem-solving and to information processing in commerce and industry. The Bachelor of Computer Science in Data Science is a Level 7 Australian Qualifications Framework (AQF) qualification. The minimum requirements for admission are set out in the Monash University (Academic Board) Regulations.</p>\n<p> </p>",
+	"part_time_duration": "6",
+	"cricos_status": {
+		"label": null,
+		"value": null
+	},
+	"full_time_duration": "3",
+	"prohibited_employment_declaration": "false",
+	"minimum_entry_requirements": "",
+	"accreditation_end_date": "2028-12-31",
+	"accreditation_end": "2028-12-31",
+	"post_nominals": "BCompSci\nBCSDataSci",
+	"ib_english": "Level 1, that is:\nAt least 4 in English SL or 3 in English HL or 5 in English B SL or 4 in English B HL",
+	"credit_arrangements": null,
+	"outcomes": "<p>These course outcomes are aligned with the Australian Qualifications Framework level 8 and Monash Graduate Attributes. <br /><br />Upon successful completion of the Bachelor of Computer Science it is expected that students will be able to:<br /><br />1. demonstrate knowledge of the role of computer science and computational methods, and recognise the importance of theoretical underpinning for practical work<br /><br />2. demonstrate understanding of ethical and legal issues in the chosen specialisation and its historical, contemporary and likely future scientific, industrial and social context<br /><br />3. analyse problems, design algorithms to solve them, and program efficient software solutions<br /><br />4. apply problem solving strategies to develop efficient solutions in their area of specialisation; in particular:<br /><br /></p>\n<ul><li>computer science students will be able to design and implement substantial pieces of software using a range of programming paradigms, advanced data structures and algorithms</li><li>data science students will be able to design, implement and apply methods for capturing, managing and analysing data</li></ul>\n<p><br />5. communicate and coordinate proficiently by: listening, speaking, reading and writing English and utilising diagrams, graphics and interactive visualisations for professional practice; working as an effective member or leader of teams; and using basic tools and practices of formal project management<br /><br />6. manage time and processes effectively by prioritising competing demands to achieve personal and team goals, with regular review of personal performance as a primary means of managing continuing professional development; behave in an ethical and professional manner; and be able to adapt readily to changing technologies.</p>",
+	"maximum_duration": "8",
+	"majors_minors": null,
+	"vce_maths": "Level 3, that is: \nUnits 3 & 4: a study score of at least 25 in one of Mathematical Methods  or Specialist Mathematics",
+	"non_year_12_entry": "<p>All applicants must satisfy the equivalence of the VCE subject prerequisites.<br /><br />VET Diploma graduates: To be considered, applicants who are applying with a diploma, in any field of study, will require a minimum average result of at least 60%. Preference will be given to students whose prior studies are related to the course in which they are seeking admission. Programs that involve competency-based assessment without grades or marks will not meet the admission requirements. IT related diplomas may receive up to a maximum of 48 points of first year level credit.<br /><br />VET Certificate IV graduates: Preference will be given to students whose prior studies are related to the course in which they are seeking admission. To be considered, applicants will normally require at least 70% average. Programs that involve competency-based assessment without grades or marks will not meet the admission requirements.<br /><br />University single units: Two single approved information technology related units at an Australian higher education institution may satisfy minimum entry requirements, but more units will be useful for selection. Applicants should have at least a 60% average in their studies. Studies must have been completed within two years of intended commencement of the course.<br /><br />University course transfers: Applicants who already meet the minimum entry requirements of the course with their previous Year 12 (or equivalent) qualification require at least two completed university units to be considered for admission.<br /><br />Applicants who do not meet the minimum entry requirements of the course with their previous Year 12 (or equivalent) qualification must complete at least one academic year with at least a 60% average.<br /><br />Applicants without the prerequisite Year 12-level mathematics must undertake at least a mathematics unit in their current degree.<br /><br />STAT: The STAT can be used to complement an applicant's overall academic background. It cannot be used as the sole pathway of admission into the course.</p>",
+	"overview": "<p>The course is designed for students who wish to study computing in depth. Computer science is the theory and practice of applying computers and software to problem-solving. Its practical applications span all disciplines including science, engineering, business and commerce, creative and performing arts and the humanities. You will learn how to think like a computer scientist about processes and their descriptions. This will enable you to design algorithms (instructions for computers) and data structures (ways to store information). You will also acquire practical programming skills to implement these in efficient software that solves real-world problems. The course provides strong foundations in the theory of computation and its connection to mathematics. <br /><br />This flexible course offers you a choice of two specialisations, either advanced computer science studies including graphics, intelligent systems and networks, or a specialisation in data science to handle the massive datasets of the information age. Your studies will conclude with a significant project in the area of your specialisation. <br /><br />If you are an eligible student, you may apply for the industry-based learning (IBL) placement program, in which you undertake a 22-week, full-time industry placement as part of the curriculum. Through the IBL placement program you will apply the computer science skills and knowledge you have gained to real-world problems in a professional organisation.</p>",
+	"double_degrees": "<p>The Bachelor of Computer Science course can be taken in combination with the following courses:</p>\n<ul>\n<li>Bachelor of Commerce</li>\n<li>Bachelor of Engineering (Honours)</li>\n<li>Bachelor of Laws (Honours)</li>\n<li>Bachelor of Science</li>\n</ul>\n<p>This will lead to the award of two degrees, your chosen specialist computer science degree (Bachelor of Computer Science or Bachelor of Computer Science in Data Science) and the degree awarded by the partner course. <br /><br />Note the double degree course with the Bachelor of Engineering (Honours) is only available with the advanced computer science specialisation and the electrical and computer systems engineering specialisation and software engineering specialisations.</p>\n<p>The requirements for the award of each of the degrees are generally the same whether the award is earned through a single or double degree course, in the case of the double degree with engineering, this is achieved by cross crediting of some study. You should refer to the relevant double degree handbook entry and the course map for the specific requirements.</p>",
+	"degrees_awarded": "<p>Bachelor of Computer Science<br />Bachelor of Computer Science in Data Science</p>",
+	"special_statements": "",
+	"recognition_of_prior_learning": "",
+	"credit_restrictions": "",
+	"diploma_awarded": "",
+	"honours_entry_requirements": "",
+	"lo_additional_information": "<p>These course outcomes are aligned with the <a href=\"https://www.monash.edu/students/handbooks/outcomes\">Australian Qualifications Framework level 7 and Monash Graduate Attributes</a>. <br /><br />Upon successful completion of this course it is expected that you will be able to:</p>",
+	"credit_points": "144",
+	"course_duration_notes": "<p>You have a maximum of 8 years to complete this course including any periods of intermission and suspension, and must be continuously enrolled throughout.</p>",
+	"award_notes": "",
+	"Progression_to_further_studies": "<p>Successful completion of the Bachelor of Computer Science may provide a pathway to the one year honours course C3702 Bachelor of Computer Science (Honours). To be eligible to apply for entry into the Bachelor of Computer Science (Honours), you must have successful completion of a relevant Australian bachelor degree (or equivalent) with an average of at least 70% overall or equivalent qualifications and experience approved by the faculty. </p>",
+	"Professional_accreditation": "<p>This course is accredited by the Australian Computer Society (ACS) as meeting the standard of knowledge for professional-level membership.</p>",
+	"Course_offering_notes": "",
+	"alternative_exits": "",
+	"min_course_pass_grade": "",
+	"fieldwork": "",
+	"Special_notes_to_students": "",
+	"mshc2_cl_id": "91c165d7db38e9502bdd077cd3961958",
+	"min_articulation_pass_grade": "",
+	"articulated_associated_items": [],
+	"related_associated_items": [],
+	"academic_contacts": [
+		{
+			"active": "true",
+			"contact_department": "",
+			"start_date": "",
+			"offering": {
+				"value": "",
+				"cl_id": null,
+				"key": "display_name"
+			},
+			"contact_role": {
+				"label": "Academic Coordinator",
+				"value": "academic_coordinator"
+			},
+			"contact_name": "Daniel Harabor",
+			"role_detail": "",
+			"contact_organisation": "",
+			"contact_title": "Dr",
+			"order": "2",
+			"contact_phone": "",
+			"end_date": "",
+			"location": {
+				"value": "",
+				"cl_id": null,
+				"key": "name"
+			},
+			"contact_email": "Daniel.Harabor@monash.edu",
+			"contact_url": "",
+			"user": {
+				"value": "Daniel Harabor",
+				"cl_id": "abbbf889db8ff3801092bd16f49619ad",
+				"key": ""
+			},
+			"offerings": [],
+			"applies_to_all_offerings": "true",
+			"linking_id": "8ac45c541b712890f1eca68b274bcbb1",
+			"cl_id": "25c1a5d7db38e9502bdd077cd3961909",
+			"display_details": "Daniel.Harabor@monash.edu",
+			"display_name": "Dr Daniel Harabor ",
+			"offerings_formatted_contact": "<ul><li>Applies to all offerings</ul></li>",
+			"display_role_plural": "Academic Coordinator(s)"
+		},
+		{
+			"active": "true",
+			"contact_department": "",
+			"start_date": "",
+			"offering": {
+				"value": "",
+				"cl_id": null,
+				"key": "display_name"
+			},
+			"contact_role": {
+				"label": "Academic Coordinator",
+				"value": "academic_coordinator"
+			},
+			"contact_name": "Muhammad Fermi Pasha",
+			"role_detail": "",
+			"contact_organisation": "",
+			"contact_title": "Dr",
+			"order": "1",
+			"contact_phone": "Malaysia",
+			"end_date": "",
+			"location": {
+				"value": "",
+				"cl_id": null,
+				"key": "name"
+			},
+			"contact_email": "Muhammad.FermiPasha@monash.edu",
+			"contact_url": "",
+			"user": {
+				"value": "Muhammad Fermi Pasha",
+				"cl_id": "18b9d8c01b5654904a942f002d4bcbab",
+				"key": ""
+			},
+			"offerings": [],
+			"applies_to_all_offerings": "true",
+			"linking_id": "81ed627e1bc02894f1eca68b274bcb12",
+			"cl_id": "a9c165d7db38e9502bdd077cd396195a",
+			"display_details": "Muhammad.FermiPasha@monash.edu<br/>Malaysia",
+			"display_name": "Dr Muhammad Fermi Pasha ",
+			"offerings_formatted_contact": "<ul><li>Applies to all offerings</ul></li>",
+			"display_role_plural": "Academic Coordinator(s)"
+		}
+	],
+	"organisational_contact_information_course": [
+		{
+			"attendance_requirements": "",
+			"workload_requirements": "",
+			"organisational_contact_information": "",
+			"handbook_synopsis": "",
+			"special_note_to_students": "",
+			"undergrad_postgrad_both": {
+				"label": null,
+				"value": null
+			},
+			"cl_id": "d1c165d7db38e9502bdd077cd3961957"
+		}
+	],
+	"offering": [
+		{
+			"mode": {
+				"value": "On campus",
+				"cl_id": "a3081311db8deb406add773c34961910",
+				"key": "description"
+			},
+			"admission_calendar": {
+				"label": null,
+				"value": null
+			},
+			"clarification_to_appear_in_handbook": "",
+			"start_date": "",
+			"end_date": "",
+			"comments": "",
+			"language_of_instruction": {
+				"label": "English",
+				"value": "en"
+			},
+			"ext_id": "",
+			"publish": "true",
+			"status": {
+				"label": null,
+				"value": null
+			},
+			"offered": "true",
+			"linking_id": "d09b98acdbc173002b414837059619e9",
+			"cl_id": "6dc165d7db38e9502bdd077cd3961959",
+			"display_name": "C2001",
+			"location": {
+				"value": "Clayton",
+				"cl_id": "37f321e1db30a7406add773c3496192e",
+				"key": "name"
+			},
+			"name": "C2001",
+			"order": "1",
+			"attendance_type": [
+				{
+					"label": "na",
+					"value": "na"
+				}
+			],
+			"academic_item": {
+				"value": "C2001",
+				"cl_id": "15c165d7db38e9502bdd077cd3961956",
+				"key": "code"
+			},
+			"year": "",
+			"entry_point": "false"
+		},
+		{
+			"mode": {
+				"value": "On campus",
+				"cl_id": "a3081311db8deb406add773c34961910",
+				"key": "description"
+			},
+			"admission_calendar": {
+				"label": null,
+				"value": null
+			},
+			"clarification_to_appear_in_handbook": "",
+			"start_date": "",
+			"end_date": "",
+			"comments": "",
+			"language_of_instruction": {
+				"label": "English",
+				"value": "en"
+			},
+			"ext_id": "",
+			"publish": "true",
+			"status": {
+				"label": null,
+				"value": null
+			},
+			"offered": "true",
+			"linking_id": "dc9b98acdbc173002b414837059619e9",
+			"cl_id": "a5c165d7db38e9502bdd077cd396195a",
+			"display_name": "C2001",
+			"location": {
+				"value": "Malaysia",
+				"cl_id": "7bf321e1db30a7406add773c3496192f",
+				"key": "name"
+			},
+			"name": "C2001",
+			"order": "1",
+			"attendance_type": [
+				{
+					"label": "na",
+					"value": "na"
+				}
+			],
+			"academic_item": {
+				"value": "C2001",
+				"cl_id": "15c165d7db38e9502bdd077cd3961956",
+				"key": "code"
+			},
+			"year": "",
+			"entry_point": "false"
+		}
+	],
+	"school_org_unit_data": [
+		{
+			"parent": {
+				"value": "",
+				"cl_id": null,
+				"key": "name"
+			},
+			"url": "https://www.monash.edu/it",
+			"name": "Faculty of Information Technology",
+			"cl_id": "c5684a53dba8a3406add773c349619a1"
+		}
+	],
+	"learning_outcomes": [
+		{
+			"number": "6",
+			"order": "6",
+			"linking_id": "63ca51addbc833003d3e403c3a9619ff",
+			"offerings": [],
+			"lo_cl_id": "2dc1a5d7db38e9502bdd077cd3961909",
+			"academic_item": {
+				"value": "C2001",
+				"cl_id": "15c165d7db38e9502bdd077cd3961956",
+				"key": "code"
+			},
+			"lo_domain": [],
+			"code": "CLO6",
+			"description": "<p>manage time and processes effectively by prioritising competing demands to achieve personal and team goals, with regular review of personal performance as a primary means of managing continuing professional development; behave in an ethical and professional manner; and be able to adapt readily to changing technologies.</p>\n<p> </p>",
+			"cl_id": "2dc1a5d7db38e9502bdd077cd3961909",
+			"ga_map": []
+		},
+		{
+			"number": "3",
+			"order": "3",
+			"linking_id": "2bca51addbc833003d3e403c3a9619fe",
+			"offerings": [],
+			"lo_cl_id": "2dc1a5d7db38e9502bdd077cd396190a",
+			"academic_item": {
+				"value": "C2001",
+				"cl_id": "15c165d7db38e9502bdd077cd3961956",
+				"key": "code"
+			},
+			"lo_domain": [],
+			"code": "CLO3",
+			"description": "<p>analyse problems, design algorithms to solve them, and program efficient software solutions</p>",
+			"cl_id": "2dc1a5d7db38e9502bdd077cd396190a",
+			"ga_map": []
+		},
+		{
+			"number": "2",
+			"order": "2",
+			"linking_id": "67ca51addbc833003d3e403c3a9619fe",
+			"offerings": [],
+			"lo_cl_id": "69c1a5d7db38e9502bdd077cd396190a",
+			"academic_item": {
+				"value": "C2001",
+				"cl_id": "15c165d7db38e9502bdd077cd3961956",
+				"key": "code"
+			},
+			"lo_domain": [],
+			"code": "CLO2",
+			"description": "<p>demonstrate understanding of ethical and legal issues in the chosen specialisation and its historical, contemporary and likely future scientific, industrial and social context</p>",
+			"cl_id": "69c1a5d7db38e9502bdd077cd396190a",
+			"ga_map": []
+		},
+		{
+			"number": "1",
+			"order": "1",
+			"linking_id": "23ca51addbc833003d3e403c3a9619fe",
+			"offerings": [],
+			"lo_cl_id": "a5c1a5d7db38e9502bdd077cd396190a",
+			"academic_item": {
+				"value": "C2001",
+				"cl_id": "15c165d7db38e9502bdd077cd3961956",
+				"key": "code"
+			},
+			"lo_domain": [],
+			"code": "CLO1",
+			"description": "<p>demonstrate knowledge of the role of computer science and computational methods, and recognise the importance of theoretical underpinning for practical work</p>",
+			"cl_id": "a5c1a5d7db38e9502bdd077cd396190a",
+			"ga_map": []
+		},
+		{
+			"number": "4",
+			"order": "4",
+			"linking_id": "ebca51addbc833003d3e403c3a9619fe",
+			"offerings": [],
+			"lo_cl_id": "e1c1a5d7db38e9502bdd077cd396190a",
+			"academic_item": {
+				"value": "C2001",
+				"cl_id": "15c165d7db38e9502bdd077cd3961956",
+				"key": "code"
+			},
+			"lo_domain": [],
+			"code": "CLO4",
+			"description": "<p>apply problem solving strategies to develop efficient solutions in their area of specialisation; in particular:</p>\n<ul>\n<li>computer science students will be able to design and implement substantial pieces of software using a range of programming paradigms, advanced data structures and algorithms</li>\n<li>data science students will be able to design, implement and apply methods for capturing, managing and analysing data</li>\n</ul>",
+			"cl_id": "e1c1a5d7db38e9502bdd077cd396190a",
+			"ga_map": []
+		},
+		{
+			"number": "5",
+			"order": "5",
+			"linking_id": "afca51addbc833003d3e403c3a9619fe",
+			"offerings": [],
+			"lo_cl_id": "edc1a5d7db38e9502bdd077cd396190a",
+			"academic_item": {
+				"value": "C2001",
+				"cl_id": "15c165d7db38e9502bdd077cd3961956",
+				"key": "code"
+			},
+			"lo_domain": [],
+			"code": "CLO5",
+			"description": "<p>communicate and coordinate proficiently by: listening, speaking, reading and writing English and utilising diagrams, graphics and interactive visualisations for professional practice; working as an effective member or leader of teams; and using basic tools and practices of formal project management</p>",
+			"cl_id": "edc1a5d7db38e9502bdd077cd396190a",
+			"ga_map": []
+		}
+	],
+	"course_search_title": "C2001 - Bachelor of Computer Science",
+	"associations_grouped": [],
+	"search_title": "C2001 - Bachelor of Computer Science",
+	"academic_item_type": "Course",
+	"partner_org_unit_data": [],
+	"modes": [
+		{
+			"mode": "On campus",
+			"locations": ["Clayton", "Malaysia"],
+			"offerings": [
+				{
+					"mode": {
+						"value": "On campus",
+						"cl_id": "a3081311db8deb406add773c34961910",
+						"key": "description"
+					},
+					"admission_calendar": {
+						"label": null,
+						"value": null
+					},
+					"clarification_to_appear_in_handbook": "",
+					"start_date": "",
+					"end_date": "",
+					"comments": "",
+					"language_of_instruction": {
+						"label": "English",
+						"value": "en"
+					},
+					"ext_id": "",
+					"publish": "true",
+					"status": {
+						"label": null,
+						"value": null
+					},
+					"offered": "true",
+					"linking_id": "d09b98acdbc173002b414837059619e9",
+					"cl_id": "6dc165d7db38e9502bdd077cd3961959",
+					"display_name": "C2001",
+					"location": {
+						"value": "Clayton",
+						"cl_id": "37f321e1db30a7406add773c3496192e",
+						"key": "name"
+					},
+					"name": "C2001",
+					"order": "1",
+					"attendance_type": [
+						{
+							"label": "na",
+							"value": "na"
+						}
+					],
+					"academic_item": {
+						"value": "C2001",
+						"cl_id": "15c165d7db38e9502bdd077cd3961956",
+						"key": "code"
+					},
+					"year": "",
+					"entry_point": "false",
+					"links": []
+				},
+				{
+					"mode": {
+						"value": "On campus",
+						"cl_id": "a3081311db8deb406add773c34961910",
+						"key": "description"
+					},
+					"admission_calendar": {
+						"label": null,
+						"value": null
+					},
+					"clarification_to_appear_in_handbook": "",
+					"start_date": "",
+					"end_date": "",
+					"comments": "",
+					"language_of_instruction": {
+						"label": "English",
+						"value": "en"
+					},
+					"ext_id": "",
+					"publish": "true",
+					"status": {
+						"label": null,
+						"value": null
+					},
+					"offered": "true",
+					"linking_id": "dc9b98acdbc173002b414837059619e9",
+					"cl_id": "a5c165d7db38e9502bdd077cd396195a",
+					"display_name": "C2001",
+					"location": {
+						"value": "Malaysia",
+						"cl_id": "7bf321e1db30a7406add773c3496192f",
+						"key": "name"
+					},
+					"name": "C2001",
+					"order": "1",
+					"attendance_type": [
+						{
+							"label": "na",
+							"value": "na"
+						}
+					],
+					"academic_item": {
+						"value": "C2001",
+						"cl_id": "15c165d7db38e9502bdd077cd3961956",
+						"key": "code"
+					},
+					"year": "",
+					"entry_point": "false",
+					"links": []
+				}
+			],
+			"locationsDisplay": "Clayton, Malaysia"
+		}
+	],
+	"academic_contact_roles": [
+		{
+			"role": "Academic Coordinator",
+			"contacts": [
+				{
+					"active": "true",
+					"contact_department": "",
+					"start_date": "",
+					"offering": {
+						"value": "",
+						"cl_id": null,
+						"key": "display_name"
+					},
+					"contact_role": {
+						"label": "Academic Coordinator",
+						"value": "academic_coordinator"
+					},
+					"contact_name": "Daniel Harabor",
+					"role_detail": "",
+					"contact_organisation": "",
+					"contact_title": "Dr",
+					"order": "2",
+					"contact_phone": "",
+					"end_date": "",
+					"location": {
+						"value": "",
+						"cl_id": null,
+						"key": "name"
+					},
+					"contact_email": "Daniel.Harabor@monash.edu",
+					"contact_url": "",
+					"user": {
+						"value": "Daniel Harabor",
+						"cl_id": "abbbf889db8ff3801092bd16f49619ad",
+						"key": ""
+					},
+					"offerings": [],
+					"applies_to_all_offerings": "true",
+					"linking_id": "8ac45c541b712890f1eca68b274bcbb1",
+					"cl_id": "25c1a5d7db38e9502bdd077cd3961909",
+					"display_details": "Daniel.Harabor@monash.edu",
+					"display_name": "Dr Daniel Harabor ",
+					"offerings_formatted_contact": "<ul><li>Applies to all offerings</ul></li>",
+					"display_role_plural": "Academic Coordinator(s)",
+					"links": []
+				},
+				{
+					"active": "true",
+					"contact_department": "",
+					"start_date": "",
+					"offering": {
+						"value": "",
+						"cl_id": null,
+						"key": "display_name"
+					},
+					"contact_role": {
+						"label": "Academic Coordinator",
+						"value": "academic_coordinator"
+					},
+					"contact_name": "Muhammad Fermi Pasha",
+					"role_detail": "",
+					"contact_organisation": "",
+					"contact_title": "Dr",
+					"order": "1",
+					"contact_phone": "Malaysia",
+					"end_date": "",
+					"location": {
+						"value": "",
+						"cl_id": null,
+						"key": "name"
+					},
+					"contact_email": "Muhammad.FermiPasha@monash.edu",
+					"contact_url": "",
+					"user": {
+						"value": "Muhammad Fermi Pasha",
+						"cl_id": "18b9d8c01b5654904a942f002d4bcbab",
+						"key": ""
+					},
+					"offerings": [],
+					"applies_to_all_offerings": "true",
+					"linking_id": "81ed627e1bc02894f1eca68b274bcb12",
+					"cl_id": "a9c165d7db38e9502bdd077cd396195a",
+					"display_details": "Muhammad.FermiPasha@monash.edu<br/>Malaysia",
+					"display_name": "Dr Muhammad Fermi Pasha ",
+					"offerings_formatted_contact": "<ul><li>Applies to all offerings</ul></li>",
+					"display_role_plural": "Academic Coordinator(s)",
+					"links": []
+				}
+			]
+		}
+	],
+	"links": [],
+	"curriculumStructure": {
+		"curriculum_structure": {
+			"value": "",
+			"cl_id": "0952211bdb38e9502bdd077cd3961970",
+			"key": "version_code"
+		},
+		"ai_to_cs_cl_id": "efc1a5d7db38e9502bdd077cd39619b7",
+		"pe_remote_id": "",
+		"cl_id": {
+			"value": "C2001",
+			"cl_id": "15c165d7db38e9502bdd077cd3961956",
+			"key": "code"
+		},
+		"name": "Structure",
+		"credit_points": "144",
+		"parent_id": {
+			"value": "",
+			"cl_id": null,
+			"key": "",
+			"type": null
+		},
+		"effective_date": "",
+		"structure_cl_id": "0952211bdb38e9502bdd077cd3961970",
+		"source": {
+			"value": "",
+			"cl_id": null,
+			"key": ""
+		},
+		"parent_table": "",
+		"container": [
+			{
+				"title": "Part F. Free elective study",
+				"horizontal_grouping": {
+					"label": null,
+					"value": null
+				},
+				"preface": "",
+				"dynamic_query": "",
+				"child_table": "",
+				"vertical_grouping": {
+					"label": null,
+					"value": null
+				},
+				"child_record": {
+					"value": "",
+					"cl_id": null,
+					"key": "",
+					"type": null
+				},
+				"footnote": "",
+				"credit_points_max": "",
+				"cl_id": "0d52211bdb38e9502bdd077cd3961974",
+				"map_type": "",
+				"credit_points": "48",
+				"parent_record": {
+					"value": "Curriculum Structure: ",
+					"cl_id": "0952211bdb38e9502bdd077cd3961970",
+					"key": "version_code",
+					"type": "x_f5sl_cl_curriculum_structure"
+				},
+				"parent_table": "x_f5sl_cl_curriculum_structure",
+				"parent_connector": {
+					"label": "AND",
+					"value": "AND"
+				},
+				"relationship": [],
+				"container": [],
+				"order": "400",
+				"description": "You must complete 48 credit points of free electives from across the university, provided you satisfy the unit rules, including choosing to complete a major or minor from other courses. <br /><br />The units may be at any level, however, no more than 10 units (60 credit points) at level 1 may be credited to the Bachelor of Computer Science and a minimum 36 credit points must be at level 3.<br /><br />If you are in a double degree course, some units required for the partner degree are credited as electives towards the computer science degree"
+			},
+			{
+				"title": "Part E. Applied practice",
+				"horizontal_grouping": {
+					"label": null,
+					"value": null
+				},
+				"preface": "",
+				"dynamic_query": "",
+				"child_table": "",
+				"vertical_grouping": {
+					"label": null,
+					"value": null
+				},
+				"child_record": {
+					"value": "",
+					"cl_id": null,
+					"key": "",
+					"type": null
+				},
+				"footnote": "",
+				"credit_points_max": "",
+				"cl_id": "4952211bdb38e9502bdd077cd3961975",
+				"map_type": "",
+				"credit_points": "12",
+				"parent_record": {
+					"value": "Curriculum Structure: ",
+					"cl_id": "0952211bdb38e9502bdd077cd3961970",
+					"key": "version_code",
+					"type": "x_f5sl_cl_curriculum_structure"
+				},
+				"parent_table": "x_f5sl_cl_curriculum_structure",
+				"parent_connector": {
+					"label": "AND",
+					"value": "AND"
+				},
+				"relationship": [],
+				"container": [
+					{
+						"title": "Malaysia option",
+						"horizontal_grouping": {
+							"label": null,
+							"value": null
+						},
+						"preface": "",
+						"dynamic_query": "",
+						"child_table": "",
+						"vertical_grouping": {
+							"label": null,
+							"value": null
+						},
+						"child_record": {
+							"value": "",
+							"cl_id": null,
+							"key": "",
+							"type": null
+						},
+						"footnote": "",
+						"credit_points_max": "",
+						"cl_id": "4d52211bdb38e9502bdd077cd3961975",
+						"map_type": "",
+						"credit_points": "12",
+						"parent_record": {
+							"value": "Curriculum Structure Container: Part E. Applied practice",
+							"cl_id": "4952211bdb38e9502bdd077cd3961975",
+							"key": "title",
+							"type": "x_f5sl_cl_cs_container"
+						},
+						"parent_table": "x_f5sl_cl_cs_container",
+						"parent_connector": {
+							"label": "OR",
+							"value": "OR"
+						},
+						"relationship": [],
+						"container": [
+							{
+								"title": "Data science project",
+								"horizontal_grouping": {
+									"label": null,
+									"value": null
+								},
+								"preface": "",
+								"dynamic_query": "",
+								"child_table": "",
+								"vertical_grouping": {
+									"label": "Unit",
+									"value": "unit"
+								},
+								"child_record": {
+									"value": "",
+									"cl_id": null,
+									"key": "",
+									"type": null
+								},
+								"footnote": "",
+								"credit_points_max": "",
+								"cl_id": "4152211bdb38e9502bdd077cd3961976",
+								"map_type": "",
+								"credit_points": "12",
+								"parent_record": {
+									"value": "Curriculum Structure Container: Malaysia option",
+									"cl_id": "4d52211bdb38e9502bdd077cd3961975",
+									"key": "title",
+									"type": "x_f5sl_cl_cs_container"
+								},
+								"parent_table": "x_f5sl_cl_cs_container",
+								"parent_connector": {
+									"label": "OR",
+									"value": "OR"
+								},
+								"relationship": [
+									{
+										"cl_id": "0952211bdb38e9502bdd077cd3961976",
+										"vertical_grouping": {
+											"label": null,
+											"value": null
+										},
+										"parent_connector": {
+											"label": "AND",
+											"value": "AND"
+										},
+										"parent_record": {
+											"value": "Curriculum Structure Container: Data science project",
+											"cl_id": "4152211bdb38e9502bdd077cd3961976",
+											"key": "title",
+											"type": "x_f5sl_cl_cs_container"
+										},
+										"owning_structure": {
+											"value": "",
+											"cl_id": "0952211bdb38e9502bdd077cd3961970",
+											"key": "version_code"
+										},
+										"child_record": {
+											"value": "Unit: FIT3163",
+											"cl_id": "70ab41a9db1b3f8082e291f38a961960",
+											"key": "code",
+											"type": "x_f5sl_cl_subjects"
+										},
+										"credit_points": "",
+										"child_table": "x_f5sl_cl_subjects",
+										"description": "",
+										"parent_table": "x_f5sl_cl_cs_container",
+										"academic_item_type": {
+											"label": "Unit",
+											"value": "subject"
+										},
+										"abbr_name": "DATA SC PROJ 1",
+										"academic_item_version_name": "2020.01RO",
+										"academic_item_credit_points": "6",
+										"abbreviated_name_and_major": null,
+										"academic_item_name": "Data science project 1",
+										"academic_item_code": "FIT3163",
+										"academic_item_url": "/2020/units/FIT3163",
+										"order": "0"
+									},
+									{
+										"cl_id": "4552211bdb38e9502bdd077cd3961976",
+										"vertical_grouping": {
+											"label": null,
+											"value": null
+										},
+										"parent_connector": {
+											"label": "AND",
+											"value": "AND"
+										},
+										"parent_record": {
+											"value": "Curriculum Structure Container: Data science project",
+											"cl_id": "4152211bdb38e9502bdd077cd3961976",
+											"key": "title",
+											"type": "x_f5sl_cl_cs_container"
+										},
+										"owning_structure": {
+											"value": "",
+											"cl_id": "0952211bdb38e9502bdd077cd3961970",
+											"key": "version_code"
+										},
+										"child_record": {
+											"value": "Unit: FIT3164",
+											"cl_id": "718b4969db1b3f8082e291f38a961957",
+											"key": "code",
+											"type": "x_f5sl_cl_subjects"
+										},
+										"credit_points": "",
+										"child_table": "x_f5sl_cl_subjects",
+										"description": "",
+										"parent_table": "x_f5sl_cl_cs_container",
+										"academic_item_type": {
+											"label": "Unit",
+											"value": "subject"
+										},
+										"abbr_name": "DATA SC PROJ 2",
+										"academic_item_version_name": "2020.01RO",
+										"academic_item_credit_points": "6",
+										"abbreviated_name_and_major": null,
+										"academic_item_name": "Data science project 2",
+										"academic_item_code": "FIT3164",
+										"academic_item_url": "/2020/units/FIT3164",
+										"order": "100"
+									}
+								],
+								"container": [],
+								"order": "100",
+								"description": ""
+							},
+							{
+								"title": "Industry based learning",
+								"horizontal_grouping": {
+									"label": null,
+									"value": null
+								},
+								"preface": "",
+								"dynamic_query": "",
+								"child_table": "",
+								"vertical_grouping": {
+									"label": "Unit",
+									"value": "unit"
+								},
+								"child_record": {
+									"value": "",
+									"cl_id": null,
+									"key": "",
+									"type": null
+								},
+								"footnote": "",
+								"credit_points_max": "",
+								"cl_id": "4552211bdb38e9502bdd077cd3961977",
+								"map_type": "",
+								"credit_points": "18",
+								"parent_record": {
+									"value": "Curriculum Structure Container: Malaysia option",
+									"cl_id": "4d52211bdb38e9502bdd077cd3961975",
+									"key": "title",
+									"type": "x_f5sl_cl_cs_container"
+								},
+								"parent_table": "x_f5sl_cl_cs_container",
+								"parent_connector": {
+									"label": "AND",
+									"value": "AND"
+								},
+								"relationship": [
+									{
+										"cl_id": "0d52211bdb38e9502bdd077cd3961977",
+										"vertical_grouping": {
+											"label": null,
+											"value": null
+										},
+										"parent_connector": {
+											"label": "AND",
+											"value": "AND"
+										},
+										"parent_record": {
+											"value": "Curriculum Structure Container: Industry based learning",
+											"cl_id": "4552211bdb38e9502bdd077cd3961977",
+											"key": "title",
+											"type": "x_f5sl_cl_cs_container"
+										},
+										"owning_structure": {
+											"value": "",
+											"cl_id": "0952211bdb38e9502bdd077cd3961970",
+											"key": "version_code"
+										},
+										"child_record": {
+											"value": "Unit: FIT3045",
+											"cl_id": "753909e9dbd73f8082e291f38a9619dc",
+											"key": "code",
+											"type": "x_f5sl_cl_subjects"
+										},
+										"credit_points": "",
+										"child_table": "x_f5sl_cl_subjects",
+										"description": "",
+										"parent_table": "x_f5sl_cl_cs_container",
+										"academic_item_type": {
+											"label": "Unit",
+											"value": "subject"
+										},
+										"abbr_name": "IBL 3",
+										"academic_item_version_name": "2020.01RO",
+										"academic_item_credit_points": "18",
+										"abbreviated_name_and_major": null,
+										"academic_item_name": "Industry-based learning",
+										"academic_item_code": "FIT3045",
+										"academic_item_url": "/2020/units/FIT3045",
+										"order": "0"
+									},
+									{
+										"cl_id": "4952211bdb38e9502bdd077cd3961977",
+										"vertical_grouping": {
+											"label": null,
+											"value": null
+										},
+										"parent_connector": {
+											"label": "AND",
+											"value": "AND"
+										},
+										"parent_record": {
+											"value": "Curriculum Structure Container: Industry based learning",
+											"cl_id": "4552211bdb38e9502bdd077cd3961977",
+											"key": "title",
+											"type": "x_f5sl_cl_cs_container"
+										},
+										"owning_structure": {
+											"value": "",
+											"cl_id": "0952211bdb38e9502bdd077cd3961970",
+											"key": "version_code"
+										},
+										"child_record": {
+											"value": "Unit: FIT3199",
+											"cl_id": "7081c30b1b35dc5013b555b81d4bcb45",
+											"key": "code",
+											"type": "x_f5sl_cl_subjects"
+										},
+										"credit_points": "",
+										"child_table": "x_f5sl_cl_subjects",
+										"description": "",
+										"parent_table": "x_f5sl_cl_cs_container",
+										"academic_item_type": {
+											"label": "Unit",
+											"value": "subject"
+										},
+										"abbr_name": "INDWORKEXP",
+										"academic_item_version_name": "2020.04",
+										"academic_item_credit_points": "0",
+										"abbreviated_name_and_major": null,
+										"academic_item_name": "Industry work experience",
+										"academic_item_code": "FIT3199",
+										"academic_item_url": "/2020/units/FIT3199",
+										"order": "100"
+									}
+								],
+								"container": [],
+								"order": "200",
+								"description": "You must complete one of the following units. FIT3045 is only available if you are selected to participate in the IBL placement program. It will require the use of one elective unit space from your discipline study. <br /><br />You must complete one unit over summer semester or overload in one semester by one unit in order to complete the degree within three years. <br /><br />FIT3199 must be completed over the summer vacation period between second and third year. This unit will provide a framework for all undergraduate information technology students at the Malaysia campus to complete the compulsory industry experience as required by the Malaysian Qualifications Agency."
+							},
+							{
+								"title": "Computer science project",
+								"horizontal_grouping": {
+									"label": null,
+									"value": null
+								},
+								"preface": "",
+								"dynamic_query": "",
+								"child_table": "",
+								"vertical_grouping": {
+									"label": "Unit",
+									"value": "unit"
+								},
+								"child_record": {
+									"value": "",
+									"cl_id": null,
+									"key": "",
+									"type": null
+								},
+								"footnote": "",
+								"credit_points_max": "",
+								"cl_id": "c952211bdb38e9502bdd077cd3961976",
+								"map_type": "",
+								"credit_points": "12",
+								"parent_record": {
+									"value": "Curriculum Structure Container: Malaysia option",
+									"cl_id": "4d52211bdb38e9502bdd077cd3961975",
+									"key": "title",
+									"type": "x_f5sl_cl_cs_container"
+								},
+								"parent_table": "x_f5sl_cl_cs_container",
+								"parent_connector": {
+									"label": "OR",
+									"value": "OR"
+								},
+								"relationship": [
+									{
+										"cl_id": "8152211bdb38e9502bdd077cd3961977",
+										"vertical_grouping": {
+											"label": null,
+											"value": null
+										},
+										"parent_connector": {
+											"label": "AND",
+											"value": "AND"
+										},
+										"parent_record": {
+											"value": "Curriculum Structure Container: Computer science project",
+											"cl_id": "c952211bdb38e9502bdd077cd3961976",
+											"key": "title",
+											"type": "x_f5sl_cl_cs_container"
+										},
+										"owning_structure": {
+											"value": "",
+											"cl_id": "0952211bdb38e9502bdd077cd3961970",
+											"key": "version_code"
+										},
+										"child_record": {
+											"value": "Unit: FIT3161",
+											"cl_id": "b05405eddb573f8082e291f38a961998",
+											"key": "code",
+											"type": "x_f5sl_cl_subjects"
+										},
+										"credit_points": "",
+										"child_table": "x_f5sl_cl_subjects",
+										"description": "",
+										"parent_table": "x_f5sl_cl_cs_container",
+										"academic_item_type": {
+											"label": "Unit",
+											"value": "subject"
+										},
+										"abbr_name": "COMP SC PROJ 1",
+										"academic_item_version_name": "2020.01RO",
+										"academic_item_credit_points": "6",
+										"abbreviated_name_and_major": null,
+										"academic_item_name": "Computer science project 1",
+										"academic_item_code": "FIT3161",
+										"academic_item_url": "/2020/units/FIT3161",
+										"order": "0"
+									},
+									{
+										"cl_id": "cd52211bdb38e9502bdd077cd3961976",
+										"vertical_grouping": {
+											"label": null,
+											"value": null
+										},
+										"parent_connector": {
+											"label": "AND",
+											"value": "AND"
+										},
+										"parent_record": {
+											"value": "Curriculum Structure Container: Computer science project",
+											"cl_id": "c952211bdb38e9502bdd077cd3961976",
+											"key": "title",
+											"type": "x_f5sl_cl_cs_container"
+										},
+										"owning_structure": {
+											"value": "",
+											"cl_id": "0952211bdb38e9502bdd077cd3961970",
+											"key": "version_code"
+										},
+										"child_record": {
+											"value": "Unit: FIT3162",
+											"cl_id": "4f0905a9dbd73f8082e291f38a9619a6",
+											"key": "code",
+											"type": "x_f5sl_cl_subjects"
+										},
+										"credit_points": "",
+										"child_table": "x_f5sl_cl_subjects",
+										"description": "",
+										"parent_table": "x_f5sl_cl_cs_container",
+										"academic_item_type": {
+											"label": "Unit",
+											"value": "subject"
+										},
+										"abbr_name": "COMP SC PROJ 2",
+										"academic_item_version_name": "2020.01RO",
+										"academic_item_credit_points": "6",
+										"abbreviated_name_and_major": null,
+										"academic_item_name": "Computer science project 2",
+										"academic_item_code": "FIT3162",
+										"academic_item_url": "/2020/units/FIT3162",
+										"order": "100"
+									}
+								],
+								"container": [],
+								"order": "0",
+								"description": ""
+							}
+						],
+						"order": "100",
+						"description": "Students at the Malaysia campus are required to have completed an industry placement in order to graduate. This can either be the Industry based learning unit or a zero credit point unit FIT3199 Industry work experience. <br /><br />Therefore, you must complete either the Computer science project or Data science project and either FIT3045 IBL placement or FIT3199 Industry work experience."
+					},
+					{
+						"title": "Clayton option",
+						"horizontal_grouping": {
+							"label": null,
+							"value": null
+						},
+						"preface": "",
+						"dynamic_query": "",
+						"child_table": "",
+						"vertical_grouping": {
+							"label": null,
+							"value": null
+						},
+						"child_record": {
+							"value": "",
+							"cl_id": null,
+							"key": "",
+							"type": null
+						},
+						"footnote": "",
+						"credit_points_max": "",
+						"cl_id": "cd52211bdb38e9502bdd077cd3961977",
+						"map_type": "",
+						"credit_points": "12",
+						"parent_record": {
+							"value": "Curriculum Structure Container: Part E. Applied practice",
+							"cl_id": "4952211bdb38e9502bdd077cd3961975",
+							"key": "title",
+							"type": "x_f5sl_cl_cs_container"
+						},
+						"parent_table": "x_f5sl_cl_cs_container",
+						"parent_connector": {
+							"label": "OR",
+							"value": "OR"
+						},
+						"relationship": [],
+						"container": [
+							{
+								"title": "Data science",
+								"horizontal_grouping": {
+									"label": null,
+									"value": null
+								},
+								"preface": "",
+								"dynamic_query": "",
+								"child_table": "",
+								"vertical_grouping": {
+									"label": "Unit",
+									"value": "unit"
+								},
+								"child_record": {
+									"value": "",
+									"cl_id": null,
+									"key": "",
+									"type": null
+								},
+								"footnote": "",
+								"credit_points_max": "",
+								"cl_id": "0552211bdb38e9502bdd077cd3961979",
+								"map_type": "",
+								"credit_points": "12",
+								"parent_record": {
+									"value": "Curriculum Structure Container: Clayton option",
+									"cl_id": "cd52211bdb38e9502bdd077cd3961977",
+									"key": "title",
+									"type": "x_f5sl_cl_cs_container"
+								},
+								"parent_table": "x_f5sl_cl_cs_container",
+								"parent_connector": {
+									"label": "OR",
+									"value": "OR"
+								},
+								"relationship": [
+									{
+										"cl_id": "0952211bdb38e9502bdd077cd3961979",
+										"vertical_grouping": {
+											"label": null,
+											"value": null
+										},
+										"parent_connector": {
+											"label": "AND",
+											"value": "AND"
+										},
+										"parent_record": {
+											"value": "Curriculum Structure Container: Data science",
+											"cl_id": "0552211bdb38e9502bdd077cd3961979",
+											"key": "title",
+											"type": "x_f5sl_cl_cs_container"
+										},
+										"owning_structure": {
+											"value": "",
+											"cl_id": "0952211bdb38e9502bdd077cd3961970",
+											"key": "version_code"
+										},
+										"child_record": {
+											"value": "Unit: FIT3164",
+											"cl_id": "718b4969db1b3f8082e291f38a961957",
+											"key": "code",
+											"type": "x_f5sl_cl_subjects"
+										},
+										"credit_points": "",
+										"child_table": "x_f5sl_cl_subjects",
+										"description": "",
+										"parent_table": "x_f5sl_cl_cs_container",
+										"academic_item_type": {
+											"label": "Unit",
+											"value": "subject"
+										},
+										"abbr_name": "DATA SC PROJ 2",
+										"academic_item_version_name": "2020.01RO",
+										"academic_item_credit_points": "6",
+										"abbreviated_name_and_major": null,
+										"academic_item_name": "Data science project 2",
+										"academic_item_code": "FIT3164",
+										"academic_item_url": "/2020/units/FIT3164",
+										"order": "100"
+									},
+									{
+										"cl_id": "c952211bdb38e9502bdd077cd3961979",
+										"vertical_grouping": {
+											"label": null,
+											"value": null
+										},
+										"parent_connector": {
+											"label": "AND",
+											"value": "AND"
+										},
+										"parent_record": {
+											"value": "Curriculum Structure Container: Data science",
+											"cl_id": "0552211bdb38e9502bdd077cd3961979",
+											"key": "title",
+											"type": "x_f5sl_cl_cs_container"
+										},
+										"owning_structure": {
+											"value": "",
+											"cl_id": "0952211bdb38e9502bdd077cd3961970",
+											"key": "version_code"
+										},
+										"child_record": {
+											"value": "Unit: FIT3163",
+											"cl_id": "70ab41a9db1b3f8082e291f38a961960",
+											"key": "code",
+											"type": "x_f5sl_cl_subjects"
+										},
+										"credit_points": "",
+										"child_table": "x_f5sl_cl_subjects",
+										"description": "",
+										"parent_table": "x_f5sl_cl_cs_container",
+										"academic_item_type": {
+											"label": "Unit",
+											"value": "subject"
+										},
+										"abbr_name": "DATA SC PROJ 1",
+										"academic_item_version_name": "2020.01RO",
+										"academic_item_credit_points": "6",
+										"abbreviated_name_and_major": null,
+										"academic_item_name": "Data science project 1",
+										"academic_item_code": "FIT3163",
+										"academic_item_url": "/2020/units/FIT3163",
+										"order": "0"
+									}
+								],
+								"container": [],
+								"order": "100",
+								"description": ""
+							},
+							{
+								"title": "Industry based learning",
+								"horizontal_grouping": {
+									"label": null,
+									"value": null
+								},
+								"preface": "",
+								"dynamic_query": "",
+								"child_table": "",
+								"vertical_grouping": {
+									"label": "Unit",
+									"value": "unit"
+								},
+								"child_record": {
+									"value": "",
+									"cl_id": null,
+									"key": "",
+									"type": null
+								},
+								"footnote": "",
+								"credit_points_max": "",
+								"cl_id": "4d52211bdb38e9502bdd077cd3961978",
+								"map_type": "",
+								"credit_points": "18",
+								"parent_record": {
+									"value": "Curriculum Structure Container: Clayton option",
+									"cl_id": "cd52211bdb38e9502bdd077cd3961977",
+									"key": "title",
+									"type": "x_f5sl_cl_cs_container"
+								},
+								"parent_table": "x_f5sl_cl_cs_container",
+								"parent_connector": {
+									"label": "OR",
+									"value": "OR"
+								},
+								"relationship": [
+									{
+										"cl_id": "4152211bdb38e9502bdd077cd3961979",
+										"vertical_grouping": {
+											"label": null,
+											"value": null
+										},
+										"parent_connector": {
+											"label": "AND",
+											"value": "AND"
+										},
+										"parent_record": {
+											"value": "Curriculum Structure Container: Industry based learning",
+											"cl_id": "4d52211bdb38e9502bdd077cd3961978",
+											"key": "title",
+											"type": "x_f5sl_cl_cs_container"
+										},
+										"owning_structure": {
+											"value": "",
+											"cl_id": "0952211bdb38e9502bdd077cd3961970",
+											"key": "version_code"
+										},
+										"child_record": {
+											"value": "Unit: FIT3045",
+											"cl_id": "753909e9dbd73f8082e291f38a9619dc",
+											"key": "code",
+											"type": "x_f5sl_cl_subjects"
+										},
+										"credit_points": "",
+										"child_table": "x_f5sl_cl_subjects",
+										"description": "",
+										"parent_table": "x_f5sl_cl_cs_container",
+										"academic_item_type": {
+											"label": "Unit",
+											"value": "subject"
+										},
+										"abbr_name": "IBL 3",
+										"academic_item_version_name": "2020.01RO",
+										"academic_item_credit_points": "18",
+										"abbreviated_name_and_major": null,
+										"academic_item_name": "Industry-based learning",
+										"academic_item_code": "FIT3045",
+										"academic_item_url": "/2020/units/FIT3045",
+										"order": "0"
+									}
+								],
+								"container": [],
+								"order": "200",
+								"description": "This option is available only if you are selected to participate in the IBL placement program. It will require the use of one elective unit space from your discipline study. <br /><br />You must complete one unit over summer semester or overload in one semester by one unit in order to complete the degree within three years."
+							},
+							{
+								"title": "Computer science",
+								"horizontal_grouping": {
+									"label": null,
+									"value": null
+								},
+								"preface": "",
+								"dynamic_query": "",
+								"child_table": "",
+								"vertical_grouping": {
+									"label": "Unit",
+									"value": "unit"
+								},
+								"child_record": {
+									"value": "",
+									"cl_id": null,
+									"key": "",
+									"type": null
+								},
+								"footnote": "",
+								"credit_points_max": "",
+								"cl_id": "c152211bdb38e9502bdd077cd3961978",
+								"map_type": "",
+								"credit_points": "12",
+								"parent_record": {
+									"value": "Curriculum Structure Container: Clayton option",
+									"cl_id": "cd52211bdb38e9502bdd077cd3961977",
+									"key": "title",
+									"type": "x_f5sl_cl_cs_container"
+								},
+								"parent_table": "x_f5sl_cl_cs_container",
+								"parent_connector": {
+									"label": "OR",
+									"value": "OR"
+								},
+								"relationship": [
+									{
+										"cl_id": "8952211bdb38e9502bdd077cd3961978",
+										"vertical_grouping": {
+											"label": null,
+											"value": null
+										},
+										"parent_connector": {
+											"label": "AND",
+											"value": "AND"
+										},
+										"parent_record": {
+											"value": "Curriculum Structure Container: Computer science",
+											"cl_id": "c152211bdb38e9502bdd077cd3961978",
+											"key": "title",
+											"type": "x_f5sl_cl_cs_container"
+										},
+										"owning_structure": {
+											"value": "",
+											"cl_id": "0952211bdb38e9502bdd077cd3961970",
+											"key": "version_code"
+										},
+										"child_record": {
+											"value": "Unit: FIT3161",
+											"cl_id": "b05405eddb573f8082e291f38a961998",
+											"key": "code",
+											"type": "x_f5sl_cl_subjects"
+										},
+										"credit_points": "",
+										"child_table": "x_f5sl_cl_subjects",
+										"description": "",
+										"parent_table": "x_f5sl_cl_cs_container",
+										"academic_item_type": {
+											"label": "Unit",
+											"value": "subject"
+										},
+										"abbr_name": "COMP SC PROJ 1",
+										"academic_item_version_name": "2020.01RO",
+										"academic_item_credit_points": "6",
+										"abbreviated_name_and_major": null,
+										"academic_item_name": "Computer science project 1",
+										"academic_item_code": "FIT3161",
+										"academic_item_url": "/2020/units/FIT3161",
+										"order": "0"
+									},
+									{
+										"cl_id": "c552211bdb38e9502bdd077cd3961978",
+										"vertical_grouping": {
+											"label": null,
+											"value": null
+										},
+										"parent_connector": {
+											"label": "AND",
+											"value": "AND"
+										},
+										"parent_record": {
+											"value": "Curriculum Structure Container: Computer science",
+											"cl_id": "c152211bdb38e9502bdd077cd3961978",
+											"key": "title",
+											"type": "x_f5sl_cl_cs_container"
+										},
+										"owning_structure": {
+											"value": "",
+											"cl_id": "0952211bdb38e9502bdd077cd3961970",
+											"key": "version_code"
+										},
+										"child_record": {
+											"value": "Unit: FIT3162",
+											"cl_id": "4f0905a9dbd73f8082e291f38a9619a6",
+											"key": "code",
+											"type": "x_f5sl_cl_subjects"
+										},
+										"credit_points": "",
+										"child_table": "x_f5sl_cl_subjects",
+										"description": "",
+										"parent_table": "x_f5sl_cl_cs_container",
+										"academic_item_type": {
+											"label": "Unit",
+											"value": "subject"
+										},
+										"abbr_name": "COMP SC PROJ 2",
+										"academic_item_version_name": "2020.01RO",
+										"academic_item_credit_points": "6",
+										"abbreviated_name_and_major": null,
+										"academic_item_name": "Computer science project 2",
+										"academic_item_code": "FIT3162",
+										"academic_item_url": "/2020/units/FIT3162",
+										"order": "100"
+									}
+								],
+								"container": [],
+								"order": "0",
+								"description": ""
+							}
+						],
+						"order": "0",
+						"description": ""
+					}
+				],
+				"order": "300",
+				"description": "You must complete one of the following options"
+			},
+			{
+				"title": "Part C. Specialist discipline knowledge and Part D. Problem solving and analytical skills",
+				"horizontal_grouping": {
+					"label": null,
+					"value": null
+				},
+				"preface": "",
+				"dynamic_query": "",
+				"child_table": "",
+				"vertical_grouping": {
+					"label": "UG specialisation",
+					"value": "ug_specialisation"
+				},
+				"child_record": {
+					"value": "",
+					"cl_id": null,
+					"key": "",
+					"type": null
+				},
+				"footnote": "",
+				"credit_points_max": "",
+				"cl_id": "8d52211bdb38e9502bdd077cd3961979",
+				"map_type": "",
+				"credit_points": "36",
+				"parent_record": {
+					"value": "Curriculum Structure: ",
+					"cl_id": "0952211bdb38e9502bdd077cd3961970",
+					"key": "version_code",
+					"type": "x_f5sl_cl_curriculum_structure"
+				},
+				"parent_table": "x_f5sl_cl_curriculum_structure",
+				"parent_connector": {
+					"label": "AND",
+					"value": "AND"
+				},
+				"relationship": [
+					{
+						"cl_id": "4552211bdb38e9502bdd077cd396197a",
+						"vertical_grouping": {
+							"label": null,
+							"value": null
+						},
+						"parent_connector": {
+							"label": "AND",
+							"value": "AND"
+						},
+						"parent_record": {
+							"value": "Curriculum Structure Container: Part C. Specialist discipline knowledge and Part D. Problem solving and analytical skills",
+							"cl_id": "8d52211bdb38e9502bdd077cd3961979",
+							"key": "title",
+							"type": "x_f5sl_cl_cs_container"
+						},
+						"owning_structure": {
+							"value": "",
+							"cl_id": "0952211bdb38e9502bdd077cd3961970",
+							"key": "version_code"
+						},
+						"child_record": {
+							"value": "Area of study: DATASCI01",
+							"cl_id": "f2eb9bfb1b90545413b555b81d4bcb89",
+							"key": "code",
+							"type": "x_f5sl_cl_areas_of_study"
+						},
+						"credit_points": "",
+						"child_table": "x_f5sl_cl_areas_of_study",
+						"description": "",
+						"parent_table": "x_f5sl_cl_cs_container",
+						"academic_item_type": {
+							"label": "UG specialisation",
+							"value": "ug_specialisation"
+						},
+						"abbr_name": "",
+						"academic_item_version_name": "2020.07",
+						"academic_item_credit_points": "36",
+						"abbreviated_name_and_major": null,
+						"academic_item_name": "Data science",
+						"academic_item_code": "DATASCI01",
+						"academic_item_url": "/2020/aos/DATASCI01",
+						"order": "100"
+					},
+					{
+						"cl_id": "8152211bdb38e9502bdd077cd396197a",
+						"vertical_grouping": {
+							"label": null,
+							"value": null
+						},
+						"parent_connector": {
+							"label": "AND",
+							"value": "AND"
+						},
+						"parent_record": {
+							"value": "Curriculum Structure Container: Part C. Specialist discipline knowledge and Part D. Problem solving and analytical skills",
+							"cl_id": "8d52211bdb38e9502bdd077cd3961979",
+							"key": "title",
+							"type": "x_f5sl_cl_cs_container"
+						},
+						"owning_structure": {
+							"value": "",
+							"cl_id": "0952211bdb38e9502bdd077cd3961970",
+							"key": "version_code"
+						},
+						"child_record": {
+							"value": "Area of study: COMPSCI03",
+							"cl_id": "233b5fb71b90545413b555b81d4bcb3a",
+							"key": "code",
+							"type": "x_f5sl_cl_areas_of_study"
+						},
+						"credit_points": "",
+						"child_table": "x_f5sl_cl_areas_of_study",
+						"description": "",
+						"parent_table": "x_f5sl_cl_cs_container",
+						"academic_item_type": {
+							"label": "UG specialisation",
+							"value": "ug_specialisation"
+						},
+						"abbr_name": "",
+						"academic_item_version_name": "2020.09",
+						"academic_item_credit_points": "36",
+						"abbreviated_name_and_major": null,
+						"academic_item_name": "Advanced computer science",
+						"academic_item_code": "COMPSCI03",
+						"academic_item_url": "/2020/aos/COMPSCI03",
+						"order": "0"
+					}
+				],
+				"container": [],
+				"order": "200",
+				"description": "You must complete one of the following specialisations"
+			},
+			{
+				"title": "Part A. Foundational computer science study",
+				"horizontal_grouping": {
+					"label": null,
+					"value": null
+				},
+				"preface": "",
+				"dynamic_query": "",
+				"child_table": "",
+				"vertical_grouping": {
+					"label": "Component",
+					"value": "component"
+				},
+				"child_record": {
+					"value": "",
+					"cl_id": null,
+					"key": "",
+					"type": null
+				},
+				"footnote": "",
+				"credit_points_max": "",
+				"cl_id": "c552211bdb38e9502bdd077cd3961972",
+				"map_type": "",
+				"credit_points": "42",
+				"parent_record": {
+					"value": "Curriculum Structure: ",
+					"cl_id": "0952211bdb38e9502bdd077cd3961970",
+					"key": "version_code",
+					"type": "x_f5sl_cl_curriculum_structure"
+				},
+				"parent_table": "x_f5sl_cl_curriculum_structure",
+				"parent_connector": {
+					"label": "AND",
+					"value": "AND"
+				},
+				"relationship": [],
+				"container": [
+					{
+						"title": "Core units",
+						"horizontal_grouping": {
+							"label": null,
+							"value": null
+						},
+						"preface": "",
+						"dynamic_query": "",
+						"child_table": "",
+						"vertical_grouping": {
+							"label": "Unit",
+							"value": "unit"
+						},
+						"child_record": {
+							"value": "",
+							"cl_id": null,
+							"key": "",
+							"type": null
+						},
+						"footnote": "",
+						"credit_points_max": "",
+						"cl_id": "cd52211bdb38e9502bdd077cd3961972",
+						"map_type": "",
+						"credit_points": "42",
+						"parent_record": {
+							"value": "Curriculum Structure Container: Part A. Foundational computer science study",
+							"cl_id": "c552211bdb38e9502bdd077cd3961972",
+							"key": "title",
+							"type": "x_f5sl_cl_cs_container"
+						},
+						"parent_table": "x_f5sl_cl_cs_container",
+						"parent_connector": {
+							"label": "AND",
+							"value": "AND"
+						},
+						"relationship": [
+							{
+								"cl_id": "0152211bdb38e9502bdd077cd3961974",
+								"vertical_grouping": {
+									"label": null,
+									"value": null
+								},
+								"parent_connector": {
+									"label": "AND",
+									"value": "AND"
+								},
+								"parent_record": {
+									"value": "Curriculum Structure Container: Core units",
+									"cl_id": "cd52211bdb38e9502bdd077cd3961972",
+									"key": "title",
+									"type": "x_f5sl_cl_cs_container"
+								},
+								"owning_structure": {
+									"value": "",
+									"cl_id": "0952211bdb38e9502bdd077cd3961970",
+									"key": "version_code"
+								},
+								"child_record": {
+									"value": "Unit: MAT1830",
+									"cl_id": "7a55c165db973f8082e291f38a961961",
+									"key": "code",
+									"type": "x_f5sl_cl_subjects"
+								},
+								"credit_points": "",
+								"child_table": "x_f5sl_cl_subjects",
+								"description": "",
+								"parent_table": "x_f5sl_cl_cs_container",
+								"academic_item_type": {
+									"label": "Unit",
+									"value": "subject"
+								},
+								"abbr_name": "DISC MATH COMPSC",
+								"academic_item_version_name": "2020.01RO",
+								"academic_item_credit_points": "6",
+								"abbreviated_name_and_major": null,
+								"academic_item_name": "Discrete mathematics for computer science",
+								"academic_item_code": "MAT1830",
+								"academic_item_url": "/2020/units/MAT1830",
+								"order": "500"
+							},
+							{
+								"cl_id": "4952211bdb38e9502bdd077cd3961974",
+								"vertical_grouping": {
+									"label": null,
+									"value": null
+								},
+								"parent_connector": {
+									"label": "AND",
+									"value": "AND"
+								},
+								"parent_record": {
+									"value": "Curriculum Structure Container: Core units",
+									"cl_id": "cd52211bdb38e9502bdd077cd3961972",
+									"key": "title",
+									"type": "x_f5sl_cl_cs_container"
+								},
+								"owning_structure": {
+									"value": "",
+									"cl_id": "0952211bdb38e9502bdd077cd3961970",
+									"key": "version_code"
+								},
+								"child_record": {
+									"value": "Unit: FIT1047",
+									"cl_id": "ff6885a5dbd73f8082e291f38a961900",
+									"key": "code",
+									"type": "x_f5sl_cl_subjects"
+								},
+								"credit_points": "",
+								"child_table": "x_f5sl_cl_subjects",
+								"description": "",
+								"parent_table": "x_f5sl_cl_cs_container",
+								"academic_item_type": {
+									"label": "Unit",
+									"value": "subject"
+								},
+								"abbr_name": "INTRO CSN&SEC",
+								"academic_item_version_name": "2020.01RO",
+								"academic_item_credit_points": "6",
+								"abbreviated_name_and_major": null,
+								"academic_item_name": "Introduction to computer systems, networks and security",
+								"academic_item_code": "FIT1047",
+								"academic_item_url": "/2020/units/FIT1047",
+								"order": "200"
+							},
+							{
+								"cl_id": "4d52211bdb38e9502bdd077cd3961973",
+								"vertical_grouping": {
+									"label": null,
+									"value": null
+								},
+								"parent_connector": {
+									"label": "AND",
+									"value": "AND"
+								},
+								"parent_record": {
+									"value": "Curriculum Structure Container: Core units",
+									"cl_id": "cd52211bdb38e9502bdd077cd3961972",
+									"key": "title",
+									"type": "x_f5sl_cl_cs_container"
+								},
+								"owning_structure": {
+									"value": "",
+									"cl_id": "0952211bdb38e9502bdd077cd3961970",
+									"key": "version_code"
+								},
+								"child_record": {
+									"value": "Unit: FIT1045",
+									"cl_id": "2d3ee8591b6add10f1eca68b274bcbe9",
+									"key": "code",
+									"type": "x_f5sl_cl_subjects"
+								},
+								"credit_points": "",
+								"child_table": "x_f5sl_cl_subjects",
+								"description": "",
+								"parent_table": "x_f5sl_cl_cs_container",
+								"academic_item_type": {
+									"label": "Unit",
+									"value": "subject"
+								},
+								"abbr_name": "INTRO TO PROGRAMMING",
+								"academic_item_version_name": "2023.04",
+								"academic_item_credit_points": "6",
+								"abbreviated_name_and_major": null,
+								"academic_item_name": "Introduction to programming",
+								"academic_item_code": "FIT1045",
+								"academic_item_url": "/2023/units/FIT1045",
+								"order": "100"
+							},
+							{
+								"cl_id": "8552211bdb38e9502bdd077cd3961974",
+								"vertical_grouping": {
+									"label": null,
+									"value": null
+								},
+								"parent_connector": {
+									"label": "AND",
+									"value": "AND"
+								},
+								"parent_record": {
+									"value": "Curriculum Structure Container: Core units",
+									"cl_id": "cd52211bdb38e9502bdd077cd3961972",
+									"key": "title",
+									"type": "x_f5sl_cl_cs_container"
+								},
+								"owning_structure": {
+									"value": "",
+									"cl_id": "0952211bdb38e9502bdd077cd3961970",
+									"key": "version_code"
+								},
+								"child_record": {
+									"value": "Unit: MAT1841",
+									"cl_id": "c4f44da1db973f8082e291f38a961900",
+									"key": "code",
+									"type": "x_f5sl_cl_subjects"
+								},
+								"credit_points": "",
+								"child_table": "x_f5sl_cl_subjects",
+								"description": "",
+								"parent_table": "x_f5sl_cl_cs_container",
+								"academic_item_type": {
+									"label": "Unit",
+									"value": "subject"
+								},
+								"abbr_name": "CONT MATHS COMPSCI",
+								"academic_item_version_name": "2020.01RO",
+								"academic_item_credit_points": "6",
+								"abbreviated_name_and_major": null,
+								"academic_item_name": "Continuous mathematics for computer science",
+								"academic_item_code": "MAT1841",
+								"academic_item_url": "/2020/units/MAT1841",
+								"order": "600"
+							},
+							{
+								"cl_id": "8952211bdb38e9502bdd077cd3961973",
+								"vertical_grouping": {
+									"label": null,
+									"value": null
+								},
+								"parent_connector": {
+									"label": "AND",
+									"value": "AND"
+								},
+								"parent_record": {
+									"value": "Curriculum Structure Container: Core units",
+									"cl_id": "cd52211bdb38e9502bdd077cd3961972",
+									"key": "title",
+									"type": "x_f5sl_cl_cs_container"
+								},
+								"owning_structure": {
+									"value": "",
+									"cl_id": "0952211bdb38e9502bdd077cd3961970",
+									"key": "version_code"
+								},
+								"child_record": {
+									"value": "Unit: FIT1008",
+									"cl_id": "259b4d69db1b3f8082e291f38a9619f0",
+									"key": "code",
+									"type": "x_f5sl_cl_subjects"
+								},
+								"credit_points": "",
+								"child_table": "x_f5sl_cl_subjects",
+								"description": "",
+								"parent_table": "x_f5sl_cl_cs_container",
+								"academic_item_type": {
+									"label": "Unit",
+									"value": "subject"
+								},
+								"abbr_name": "INTRO COMP SCIENCE",
+								"academic_item_version_name": "2020.01RO",
+								"academic_item_credit_points": "6",
+								"abbreviated_name_and_major": null,
+								"academic_item_name": "Introduction to computer science",
+								"academic_item_code": "FIT1008",
+								"academic_item_url": "/2020/units/FIT1008",
+								"order": "0"
+							},
+							{
+								"cl_id": "c152211bdb38e9502bdd077cd3961973",
+								"vertical_grouping": {
+									"label": null,
+									"value": null
+								},
+								"parent_connector": {
+									"label": "AND",
+									"value": "AND"
+								},
+								"parent_record": {
+									"value": "Curriculum Structure Container: Core units",
+									"cl_id": "cd52211bdb38e9502bdd077cd3961972",
+									"key": "title",
+									"type": "x_f5sl_cl_cs_container"
+								},
+								"owning_structure": {
+									"value": "",
+									"cl_id": "0952211bdb38e9502bdd077cd3961970",
+									"key": "version_code"
+								},
+								"child_record": {
+									"value": "Unit: FIT2014",
+									"cl_id": "ad78c5a5dbd73f8082e291f38a9619e6",
+									"key": "code",
+									"type": "x_f5sl_cl_subjects"
+								},
+								"credit_points": "",
+								"child_table": "x_f5sl_cl_subjects",
+								"description": "",
+								"parent_table": "x_f5sl_cl_cs_container",
+								"academic_item_type": {
+									"label": "Unit",
+									"value": "subject"
+								},
+								"abbr_name": "THEORY COMPUTATION",
+								"academic_item_version_name": "2020.01RO",
+								"academic_item_credit_points": "6",
+								"abbreviated_name_and_major": null,
+								"academic_item_name": "Theory of computation",
+								"academic_item_code": "FIT2014",
+								"academic_item_url": "/2020/units/FIT2014",
+								"order": "400"
+							},
+							{
+								"cl_id": "c152211bdb38e9502bdd077cd3961974",
+								"vertical_grouping": {
+									"label": null,
+									"value": null
+								},
+								"parent_connector": {
+									"label": "AND",
+									"value": "AND"
+								},
+								"parent_record": {
+									"value": "Curriculum Structure Container: Core units",
+									"cl_id": "cd52211bdb38e9502bdd077cd3961972",
+									"key": "title",
+									"type": "x_f5sl_cl_cs_container"
+								},
+								"owning_structure": {
+									"value": "",
+									"cl_id": "0952211bdb38e9502bdd077cd3961970",
+									"key": "version_code"
+								},
+								"child_record": {
+									"value": "Unit: FIT2004",
+									"cl_id": "c39c8deddb1b3f8082e291f38a9619e5",
+									"key": "code",
+									"type": "x_f5sl_cl_subjects"
+								},
+								"credit_points": "",
+								"child_table": "x_f5sl_cl_subjects",
+								"description": "",
+								"parent_table": "x_f5sl_cl_cs_container",
+								"academic_item_type": {
+									"label": "Unit",
+									"value": "subject"
+								},
+								"abbr_name": "A&DS",
+								"academic_item_version_name": "2020.01RO",
+								"academic_item_credit_points": "6",
+								"abbreviated_name_and_major": null,
+								"academic_item_name": "Algorithms and data structures",
+								"academic_item_code": "FIT2004",
+								"academic_item_url": "/2020/units/FIT2004",
+								"order": "300"
+							}
+						],
+						"container": [],
+						"order": "0",
+						"description": "You must complete the following units"
+					}
+				],
+				"order": "0",
+				"description": "In the double degree course with the Bachelor of Engineering (Honours) completing the software engineering specialisation, you must replace FIT2004 and MAT1830 with two FIT-coded electives of which at least one must be at level 2 (FIT2004 and MAT1830 will be completed in the software engineering specialisation). <br /><br />In the double degree course with the Bachelor of Engineering (Honours), you must replace MAT1841 with an FIT-coded elective at any year level (MAT1841 will be replaced with ENG1005). <br /><br />In the double degree course with the Bachelor of Science, you can replace MAT1841 with MTH1030 which will count towards the computer science component of the double degree. "
+			},
+			{
+				"title": "Part B. Professional skills study ",
+				"horizontal_grouping": {
+					"label": null,
+					"value": null
+				},
+				"preface": "",
+				"dynamic_query": "",
+				"child_table": "",
+				"vertical_grouping": {
+					"label": "Unit",
+					"value": "unit"
+				},
+				"child_record": {
+					"value": "",
+					"cl_id": null,
+					"key": "",
+					"type": null
+				},
+				"footnote": "",
+				"credit_points_max": "",
+				"cl_id": "cd52211bdb38e9502bdd077cd3961974",
+				"map_type": "",
+				"credit_points": "6",
+				"parent_record": {
+					"value": "Curriculum Structure: ",
+					"cl_id": "0952211bdb38e9502bdd077cd3961970",
+					"key": "version_code",
+					"type": "x_f5sl_cl_curriculum_structure"
+				},
+				"parent_table": "x_f5sl_cl_curriculum_structure",
+				"parent_connector": {
+					"label": "AND",
+					"value": "AND"
+				},
+				"relationship": [
+					{
+						"cl_id": "8552211bdb38e9502bdd077cd3961975",
+						"vertical_grouping": {
+							"label": null,
+							"value": null
+						},
+						"parent_connector": {
+							"label": "AND",
+							"value": "AND"
+						},
+						"parent_record": {
+							"value": "Curriculum Structure Container: Part B. Professional skills study ",
+							"cl_id": "cd52211bdb38e9502bdd077cd3961974",
+							"key": "title",
+							"type": "x_f5sl_cl_cs_container"
+						},
+						"owning_structure": {
+							"value": "",
+							"cl_id": "0952211bdb38e9502bdd077cd3961970",
+							"key": "version_code"
+						},
+						"child_record": {
+							"value": "Unit: FIT1049",
+							"cl_id": "a91bc9a5db1b3f8082e291f38a96192c",
+							"key": "code",
+							"type": "x_f5sl_cl_subjects"
+						},
+						"credit_points": "",
+						"child_table": "x_f5sl_cl_subjects",
+						"description": "",
+						"parent_table": "x_f5sl_cl_cs_container",
+						"academic_item_type": {
+							"label": "Unit",
+							"value": "subject"
+						},
+						"abbr_name": "IT PROF PRAC",
+						"academic_item_version_name": "2020.01RO",
+						"academic_item_credit_points": "6",
+						"abbreviated_name_and_major": null,
+						"academic_item_name": "IT professional practice",
+						"academic_item_code": "FIT1049",
+						"academic_item_url": "/2020/units/FIT1049",
+						"order": "0"
+					},
+					{
+						"cl_id": "c152211bdb38e9502bdd077cd3961975",
+						"vertical_grouping": {
+							"label": null,
+							"value": null
+						},
+						"parent_connector": {
+							"label": "AND",
+							"value": "AND"
+						},
+						"parent_record": {
+							"value": "Curriculum Structure Container: Part B. Professional skills study ",
+							"cl_id": "cd52211bdb38e9502bdd077cd3961974",
+							"key": "title",
+							"type": "x_f5sl_cl_cs_container"
+						},
+						"owning_structure": {
+							"value": "",
+							"cl_id": "0952211bdb38e9502bdd077cd3961970",
+							"key": "version_code"
+						},
+						"child_record": {
+							"value": "Unit: FIT1055",
+							"cl_id": "970a4921db1b3f8082e291f38a9619d4",
+							"key": "code",
+							"type": "x_f5sl_cl_subjects"
+						},
+						"credit_points": "",
+						"child_table": "x_f5sl_cl_subjects",
+						"description": "",
+						"parent_table": "x_f5sl_cl_cs_container",
+						"academic_item_type": {
+							"label": "Unit",
+							"value": "subject"
+						},
+						"abbr_name": "IT PROF PRCTCE & ETH",
+						"academic_item_version_name": "2020.01RO",
+						"academic_item_credit_points": "6",
+						"abbreviated_name_and_major": null,
+						"academic_item_name": "IT professional practice and ethics",
+						"academic_item_code": "FIT1055",
+						"academic_item_url": "/2020/units/FIT1055",
+						"order": "100"
+					}
+				],
+				"container": [],
+				"order": "100",
+				"description": "You must complete one of the following units"
+			}
+		],
+		"links": []
+	},
+	"yearSwitcher": [
+		{
+			"label": "2020",
+			"value": "2020",
+			"href": "/2020/courses/C2001?year=2020"
+		},
+		{
+			"label": "2021",
+			"value": "2021",
+			"href": "/2021/courses/C2001?year=2021"
+		},
+		{
+			"label": "2022",
+			"value": "2022",
+			"href": "/2022/courses/C2001?year=2022"
+		},
+		{
+			"label": "2023",
+			"value": "2023",
+			"href": "/2023/courses/C2001?year=2023"
+		}
+	],
+	"university": "Monash University"
+}

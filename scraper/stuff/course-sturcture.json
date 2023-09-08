@@ -1,0 +1,1543 @@
+[
+	{
+		"title": "Part F. Free elective study",
+		"horizontal_grouping": {
+			"label": null,
+			"value": null
+		},
+		"preface": "",
+		"dynamic_query": "",
+		"child_table": "",
+		"vertical_grouping": {
+			"label": null,
+			"value": null
+		},
+		"child_record": {
+			"value": "",
+			"cl_id": null,
+			"key": "",
+			"type": null
+		},
+		"footnote": "",
+		"credit_points_max": "",
+		"cl_id": "0d52211bdb38e9502bdd077cd3961974",
+		"map_type": "",
+		"credit_points": "48",
+		"parent_record": {
+			"value": "Curriculum Structure: ",
+			"cl_id": "0952211bdb38e9502bdd077cd3961970",
+			"key": "version_code",
+			"type": "x_f5sl_cl_curriculum_structure"
+		},
+		"parent_table": "x_f5sl_cl_curriculum_structure",
+		"parent_connector": {
+			"label": "AND",
+			"value": "AND"
+		},
+		"relationship": [],
+		"container": [],
+		"order": "400",
+		"description": "You must complete 48 credit points of free electives from across the university, provided you satisfy the unit rules, including choosing to complete a major or minor from other courses. <br /><br />The units may be at any level, however, no more than 10 units (60 credit points) at level 1 may be credited to the Bachelor of Computer Science and a minimum 36 credit points must be at level 3.<br /><br />If you are in a double degree course, some units required for the partner degree are credited as electives towards the computer science degree"
+	},
+	{
+		"title": "Part E. Applied practice",
+		"horizontal_grouping": {
+			"label": null,
+			"value": null
+		},
+		"preface": "",
+		"dynamic_query": "",
+		"child_table": "",
+		"vertical_grouping": {
+			"label": null,
+			"value": null
+		},
+		"child_record": {
+			"value": "",
+			"cl_id": null,
+			"key": "",
+			"type": null
+		},
+		"footnote": "",
+		"credit_points_max": "",
+		"cl_id": "4952211bdb38e9502bdd077cd3961975",
+		"map_type": "",
+		"credit_points": "12",
+		"parent_record": {
+			"value": "Curriculum Structure: ",
+			"cl_id": "0952211bdb38e9502bdd077cd3961970",
+			"key": "version_code",
+			"type": "x_f5sl_cl_curriculum_structure"
+		},
+		"parent_table": "x_f5sl_cl_curriculum_structure",
+		"parent_connector": {
+			"label": "AND",
+			"value": "AND"
+		},
+		"relationship": [],
+		"container": [
+			{
+				"title": "Malaysia option",
+				"horizontal_grouping": {
+					"label": null,
+					"value": null
+				},
+				"preface": "",
+				"dynamic_query": "",
+				"child_table": "",
+				"vertical_grouping": {
+					"label": null,
+					"value": null
+				},
+				"child_record": {
+					"value": "",
+					"cl_id": null,
+					"key": "",
+					"type": null
+				},
+				"footnote": "",
+				"credit_points_max": "",
+				"cl_id": "4d52211bdb38e9502bdd077cd3961975",
+				"map_type": "",
+				"credit_points": "12",
+				"parent_record": {
+					"value": "Curriculum Structure Container: Part E. Applied practice",
+					"cl_id": "4952211bdb38e9502bdd077cd3961975",
+					"key": "title",
+					"type": "x_f5sl_cl_cs_container"
+				},
+				"parent_table": "x_f5sl_cl_cs_container",
+				"parent_connector": {
+					"label": "OR",
+					"value": "OR"
+				},
+				"relationship": [],
+				"container": [
+					{
+						"title": "Data science project",
+						"horizontal_grouping": {
+							"label": null,
+							"value": null
+						},
+						"preface": "",
+						"dynamic_query": "",
+						"child_table": "",
+						"vertical_grouping": {
+							"label": "Unit",
+							"value": "unit"
+						},
+						"child_record": {
+							"value": "",
+							"cl_id": null,
+							"key": "",
+							"type": null
+						},
+						"footnote": "",
+						"credit_points_max": "",
+						"cl_id": "4152211bdb38e9502bdd077cd3961976",
+						"map_type": "",
+						"credit_points": "12",
+						"parent_record": {
+							"value": "Curriculum Structure Container: Malaysia option",
+							"cl_id": "4d52211bdb38e9502bdd077cd3961975",
+							"key": "title",
+							"type": "x_f5sl_cl_cs_container"
+						},
+						"parent_table": "x_f5sl_cl_cs_container",
+						"parent_connector": {
+							"label": "OR",
+							"value": "OR"
+						},
+						"relationship": [
+							{
+								"cl_id": "0952211bdb38e9502bdd077cd3961976",
+								"vertical_grouping": {
+									"label": null,
+									"value": null
+								},
+								"parent_connector": {
+									"label": "AND",
+									"value": "AND"
+								},
+								"parent_record": {
+									"value": "Curriculum Structure Container: Data science project",
+									"cl_id": "4152211bdb38e9502bdd077cd3961976",
+									"key": "title",
+									"type": "x_f5sl_cl_cs_container"
+								},
+								"owning_structure": {
+									"value": "",
+									"cl_id": "0952211bdb38e9502bdd077cd3961970",
+									"key": "version_code"
+								},
+								"child_record": {
+									"value": "Unit: FIT3163",
+									"cl_id": "70ab41a9db1b3f8082e291f38a961960",
+									"key": "code",
+									"type": "x_f5sl_cl_subjects"
+								},
+								"credit_points": "",
+								"child_table": "x_f5sl_cl_subjects",
+								"description": "",
+								"parent_table": "x_f5sl_cl_cs_container",
+								"academic_item_type": {
+									"label": "Unit",
+									"value": "subject"
+								},
+								"abbr_name": "DATA SC PROJ 1",
+								"academic_item_version_name": "2020.01RO",
+								"academic_item_credit_points": "6",
+								"abbreviated_name_and_major": null,
+								"academic_item_name": "Data science project 1",
+								"academic_item_code": "FIT3163",
+								"academic_item_url": "/2020/units/FIT3163",
+								"order": "0"
+							},
+							{
+								"cl_id": "4552211bdb38e9502bdd077cd3961976",
+								"vertical_grouping": {
+									"label": null,
+									"value": null
+								},
+								"parent_connector": {
+									"label": "AND",
+									"value": "AND"
+								},
+								"parent_record": {
+									"value": "Curriculum Structure Container: Data science project",
+									"cl_id": "4152211bdb38e9502bdd077cd3961976",
+									"key": "title",
+									"type": "x_f5sl_cl_cs_container"
+								},
+								"owning_structure": {
+									"value": "",
+									"cl_id": "0952211bdb38e9502bdd077cd3961970",
+									"key": "version_code"
+								},
+								"child_record": {
+									"value": "Unit: FIT3164",
+									"cl_id": "718b4969db1b3f8082e291f38a961957",
+									"key": "code",
+									"type": "x_f5sl_cl_subjects"
+								},
+								"credit_points": "",
+								"child_table": "x_f5sl_cl_subjects",
+								"description": "",
+								"parent_table": "x_f5sl_cl_cs_container",
+								"academic_item_type": {
+									"label": "Unit",
+									"value": "subject"
+								},
+								"abbr_name": "DATA SC PROJ 2",
+								"academic_item_version_name": "2020.01RO",
+								"academic_item_credit_points": "6",
+								"abbreviated_name_and_major": null,
+								"academic_item_name": "Data science project 2",
+								"academic_item_code": "FIT3164",
+								"academic_item_url": "/2020/units/FIT3164",
+								"order": "100"
+							}
+						],
+						"container": [],
+						"order": "100",
+						"description": ""
+					},
+					{
+						"title": "Industry based learning",
+						"horizontal_grouping": {
+							"label": null,
+							"value": null
+						},
+						"preface": "",
+						"dynamic_query": "",
+						"child_table": "",
+						"vertical_grouping": {
+							"label": "Unit",
+							"value": "unit"
+						},
+						"child_record": {
+							"value": "",
+							"cl_id": null,
+							"key": "",
+							"type": null
+						},
+						"footnote": "",
+						"credit_points_max": "",
+						"cl_id": "4552211bdb38e9502bdd077cd3961977",
+						"map_type": "",
+						"credit_points": "18",
+						"parent_record": {
+							"value": "Curriculum Structure Container: Malaysia option",
+							"cl_id": "4d52211bdb38e9502bdd077cd3961975",
+							"key": "title",
+							"type": "x_f5sl_cl_cs_container"
+						},
+						"parent_table": "x_f5sl_cl_cs_container",
+						"parent_connector": {
+							"label": "AND",
+							"value": "AND"
+						},
+						"relationship": [
+							{
+								"cl_id": "0d52211bdb38e9502bdd077cd3961977",
+								"vertical_grouping": {
+									"label": null,
+									"value": null
+								},
+								"parent_connector": {
+									"label": "AND",
+									"value": "AND"
+								},
+								"parent_record": {
+									"value": "Curriculum Structure Container: Industry based learning",
+									"cl_id": "4552211bdb38e9502bdd077cd3961977",
+									"key": "title",
+									"type": "x_f5sl_cl_cs_container"
+								},
+								"owning_structure": {
+									"value": "",
+									"cl_id": "0952211bdb38e9502bdd077cd3961970",
+									"key": "version_code"
+								},
+								"child_record": {
+									"value": "Unit: FIT3045",
+									"cl_id": "753909e9dbd73f8082e291f38a9619dc",
+									"key": "code",
+									"type": "x_f5sl_cl_subjects"
+								},
+								"credit_points": "",
+								"child_table": "x_f5sl_cl_subjects",
+								"description": "",
+								"parent_table": "x_f5sl_cl_cs_container",
+								"academic_item_type": {
+									"label": "Unit",
+									"value": "subject"
+								},
+								"abbr_name": "IBL 3",
+								"academic_item_version_name": "2020.01RO",
+								"academic_item_credit_points": "18",
+								"abbreviated_name_and_major": null,
+								"academic_item_name": "Industry-based learning",
+								"academic_item_code": "FIT3045",
+								"academic_item_url": "/2020/units/FIT3045",
+								"order": "0"
+							},
+							{
+								"cl_id": "4952211bdb38e9502bdd077cd3961977",
+								"vertical_grouping": {
+									"label": null,
+									"value": null
+								},
+								"parent_connector": {
+									"label": "AND",
+									"value": "AND"
+								},
+								"parent_record": {
+									"value": "Curriculum Structure Container: Industry based learning",
+									"cl_id": "4552211bdb38e9502bdd077cd3961977",
+									"key": "title",
+									"type": "x_f5sl_cl_cs_container"
+								},
+								"owning_structure": {
+									"value": "",
+									"cl_id": "0952211bdb38e9502bdd077cd3961970",
+									"key": "version_code"
+								},
+								"child_record": {
+									"value": "Unit: FIT3199",
+									"cl_id": "7081c30b1b35dc5013b555b81d4bcb45",
+									"key": "code",
+									"type": "x_f5sl_cl_subjects"
+								},
+								"credit_points": "",
+								"child_table": "x_f5sl_cl_subjects",
+								"description": "",
+								"parent_table": "x_f5sl_cl_cs_container",
+								"academic_item_type": {
+									"label": "Unit",
+									"value": "subject"
+								},
+								"abbr_name": "INDWORKEXP",
+								"academic_item_version_name": "2020.04",
+								"academic_item_credit_points": "0",
+								"abbreviated_name_and_major": null,
+								"academic_item_name": "Industry work experience",
+								"academic_item_code": "FIT3199",
+								"academic_item_url": "/2020/units/FIT3199",
+								"order": "100"
+							}
+						],
+						"container": [],
+						"order": "200",
+						"description": "You must complete one of the following units. FIT3045 is only available if you are selected to participate in the IBL placement program. It will require the use of one elective unit space from your discipline study. <br /><br />You must complete one unit over summer semester or overload in one semester by one unit in order to complete the degree within three years. <br /><br />FIT3199 must be completed over the summer vacation period between second and third year. This unit will provide a framework for all undergraduate information technology students at the Malaysia campus to complete the compulsory industry experience as required by the Malaysian Qualifications Agency."
+					},
+					{
+						"title": "Computer science project",
+						"horizontal_grouping": {
+							"label": null,
+							"value": null
+						},
+						"preface": "",
+						"dynamic_query": "",
+						"child_table": "",
+						"vertical_grouping": {
+							"label": "Unit",
+							"value": "unit"
+						},
+						"child_record": {
+							"value": "",
+							"cl_id": null,
+							"key": "",
+							"type": null
+						},
+						"footnote": "",
+						"credit_points_max": "",
+						"cl_id": "c952211bdb38e9502bdd077cd3961976",
+						"map_type": "",
+						"credit_points": "12",
+						"parent_record": {
+							"value": "Curriculum Structure Container: Malaysia option",
+							"cl_id": "4d52211bdb38e9502bdd077cd3961975",
+							"key": "title",
+							"type": "x_f5sl_cl_cs_container"
+						},
+						"parent_table": "x_f5sl_cl_cs_container",
+						"parent_connector": {
+							"label": "OR",
+							"value": "OR"
+						},
+						"relationship": [
+							{
+								"cl_id": "8152211bdb38e9502bdd077cd3961977",
+								"vertical_grouping": {
+									"label": null,
+									"value": null
+								},
+								"parent_connector": {
+									"label": "AND",
+									"value": "AND"
+								},
+								"parent_record": {
+									"value": "Curriculum Structure Container: Computer science project",
+									"cl_id": "c952211bdb38e9502bdd077cd3961976",
+									"key": "title",
+									"type": "x_f5sl_cl_cs_container"
+								},
+								"owning_structure": {
+									"value": "",
+									"cl_id": "0952211bdb38e9502bdd077cd3961970",
+									"key": "version_code"
+								},
+								"child_record": {
+									"value": "Unit: FIT3161",
+									"cl_id": "b05405eddb573f8082e291f38a961998",
+									"key": "code",
+									"type": "x_f5sl_cl_subjects"
+								},
+								"credit_points": "",
+								"child_table": "x_f5sl_cl_subjects",
+								"description": "",
+								"parent_table": "x_f5sl_cl_cs_container",
+								"academic_item_type": {
+									"label": "Unit",
+									"value": "subject"
+								},
+								"abbr_name": "COMP SC PROJ 1",
+								"academic_item_version_name": "2020.01RO",
+								"academic_item_credit_points": "6",
+								"abbreviated_name_and_major": null,
+								"academic_item_name": "Computer science project 1",
+								"academic_item_code": "FIT3161",
+								"academic_item_url": "/2020/units/FIT3161",
+								"order": "0"
+							},
+							{
+								"cl_id": "cd52211bdb38e9502bdd077cd3961976",
+								"vertical_grouping": {
+									"label": null,
+									"value": null
+								},
+								"parent_connector": {
+									"label": "AND",
+									"value": "AND"
+								},
+								"parent_record": {
+									"value": "Curriculum Structure Container: Computer science project",
+									"cl_id": "c952211bdb38e9502bdd077cd3961976",
+									"key": "title",
+									"type": "x_f5sl_cl_cs_container"
+								},
+								"owning_structure": {
+									"value": "",
+									"cl_id": "0952211bdb38e9502bdd077cd3961970",
+									"key": "version_code"
+								},
+								"child_record": {
+									"value": "Unit: FIT3162",
+									"cl_id": "4f0905a9dbd73f8082e291f38a9619a6",
+									"key": "code",
+									"type": "x_f5sl_cl_subjects"
+								},
+								"credit_points": "",
+								"child_table": "x_f5sl_cl_subjects",
+								"description": "",
+								"parent_table": "x_f5sl_cl_cs_container",
+								"academic_item_type": {
+									"label": "Unit",
+									"value": "subject"
+								},
+								"abbr_name": "COMP SC PROJ 2",
+								"academic_item_version_name": "2020.01RO",
+								"academic_item_credit_points": "6",
+								"abbreviated_name_and_major": null,
+								"academic_item_name": "Computer science project 2",
+								"academic_item_code": "FIT3162",
+								"academic_item_url": "/2020/units/FIT3162",
+								"order": "100"
+							}
+						],
+						"container": [],
+						"order": "0",
+						"description": ""
+					}
+				],
+				"order": "100",
+				"description": "Students at the Malaysia campus are required to have completed an industry placement in order to graduate. This can either be the Industry based learning unit or a zero credit point unit FIT3199 Industry work experience. <br /><br />Therefore, you must complete either the Computer science project or Data science project and either FIT3045 IBL placement or FIT3199 Industry work experience."
+			},
+			{
+				"title": "Clayton option",
+				"horizontal_grouping": {
+					"label": null,
+					"value": null
+				},
+				"preface": "",
+				"dynamic_query": "",
+				"child_table": "",
+				"vertical_grouping": {
+					"label": null,
+					"value": null
+				},
+				"child_record": {
+					"value": "",
+					"cl_id": null,
+					"key": "",
+					"type": null
+				},
+				"footnote": "",
+				"credit_points_max": "",
+				"cl_id": "cd52211bdb38e9502bdd077cd3961977",
+				"map_type": "",
+				"credit_points": "12",
+				"parent_record": {
+					"value": "Curriculum Structure Container: Part E. Applied practice",
+					"cl_id": "4952211bdb38e9502bdd077cd3961975",
+					"key": "title",
+					"type": "x_f5sl_cl_cs_container"
+				},
+				"parent_table": "x_f5sl_cl_cs_container",
+				"parent_connector": {
+					"label": "OR",
+					"value": "OR"
+				},
+				"relationship": [],
+				"container": [
+					{
+						"title": "Data science",
+						"horizontal_grouping": {
+							"label": null,
+							"value": null
+						},
+						"preface": "",
+						"dynamic_query": "",
+						"child_table": "",
+						"vertical_grouping": {
+							"label": "Unit",
+							"value": "unit"
+						},
+						"child_record": {
+							"value": "",
+							"cl_id": null,
+							"key": "",
+							"type": null
+						},
+						"footnote": "",
+						"credit_points_max": "",
+						"cl_id": "0552211bdb38e9502bdd077cd3961979",
+						"map_type": "",
+						"credit_points": "12",
+						"parent_record": {
+							"value": "Curriculum Structure Container: Clayton option",
+							"cl_id": "cd52211bdb38e9502bdd077cd3961977",
+							"key": "title",
+							"type": "x_f5sl_cl_cs_container"
+						},
+						"parent_table": "x_f5sl_cl_cs_container",
+						"parent_connector": {
+							"label": "OR",
+							"value": "OR"
+						},
+						"relationship": [
+							{
+								"cl_id": "0952211bdb38e9502bdd077cd3961979",
+								"vertical_grouping": {
+									"label": null,
+									"value": null
+								},
+								"parent_connector": {
+									"label": "AND",
+									"value": "AND"
+								},
+								"parent_record": {
+									"value": "Curriculum Structure Container: Data science",
+									"cl_id": "0552211bdb38e9502bdd077cd3961979",
+									"key": "title",
+									"type": "x_f5sl_cl_cs_container"
+								},
+								"owning_structure": {
+									"value": "",
+									"cl_id": "0952211bdb38e9502bdd077cd3961970",
+									"key": "version_code"
+								},
+								"child_record": {
+									"value": "Unit: FIT3164",
+									"cl_id": "718b4969db1b3f8082e291f38a961957",
+									"key": "code",
+									"type": "x_f5sl_cl_subjects"
+								},
+								"credit_points": "",
+								"child_table": "x_f5sl_cl_subjects",
+								"description": "",
+								"parent_table": "x_f5sl_cl_cs_container",
+								"academic_item_type": {
+									"label": "Unit",
+									"value": "subject"
+								},
+								"abbr_name": "DATA SC PROJ 2",
+								"academic_item_version_name": "2020.01RO",
+								"academic_item_credit_points": "6",
+								"abbreviated_name_and_major": null,
+								"academic_item_name": "Data science project 2",
+								"academic_item_code": "FIT3164",
+								"academic_item_url": "/2020/units/FIT3164",
+								"order": "100"
+							},
+							{
+								"cl_id": "c952211bdb38e9502bdd077cd3961979",
+								"vertical_grouping": {
+									"label": null,
+									"value": null
+								},
+								"parent_connector": {
+									"label": "AND",
+									"value": "AND"
+								},
+								"parent_record": {
+									"value": "Curriculum Structure Container: Data science",
+									"cl_id": "0552211bdb38e9502bdd077cd3961979",
+									"key": "title",
+									"type": "x_f5sl_cl_cs_container"
+								},
+								"owning_structure": {
+									"value": "",
+									"cl_id": "0952211bdb38e9502bdd077cd3961970",
+									"key": "version_code"
+								},
+								"child_record": {
+									"value": "Unit: FIT3163",
+									"cl_id": "70ab41a9db1b3f8082e291f38a961960",
+									"key": "code",
+									"type": "x_f5sl_cl_subjects"
+								},
+								"credit_points": "",
+								"child_table": "x_f5sl_cl_subjects",
+								"description": "",
+								"parent_table": "x_f5sl_cl_cs_container",
+								"academic_item_type": {
+									"label": "Unit",
+									"value": "subject"
+								},
+								"abbr_name": "DATA SC PROJ 1",
+								"academic_item_version_name": "2020.01RO",
+								"academic_item_credit_points": "6",
+								"abbreviated_name_and_major": null,
+								"academic_item_name": "Data science project 1",
+								"academic_item_code": "FIT3163",
+								"academic_item_url": "/2020/units/FIT3163",
+								"order": "0"
+							}
+						],
+						"container": [],
+						"order": "100",
+						"description": ""
+					},
+					{
+						"title": "Industry based learning",
+						"horizontal_grouping": {
+							"label": null,
+							"value": null
+						},
+						"preface": "",
+						"dynamic_query": "",
+						"child_table": "",
+						"vertical_grouping": {
+							"label": "Unit",
+							"value": "unit"
+						},
+						"child_record": {
+							"value": "",
+							"cl_id": null,
+							"key": "",
+							"type": null
+						},
+						"footnote": "",
+						"credit_points_max": "",
+						"cl_id": "4d52211bdb38e9502bdd077cd3961978",
+						"map_type": "",
+						"credit_points": "18",
+						"parent_record": {
+							"value": "Curriculum Structure Container: Clayton option",
+							"cl_id": "cd52211bdb38e9502bdd077cd3961977",
+							"key": "title",
+							"type": "x_f5sl_cl_cs_container"
+						},
+						"parent_table": "x_f5sl_cl_cs_container",
+						"parent_connector": {
+							"label": "OR",
+							"value": "OR"
+						},
+						"relationship": [
+							{
+								"cl_id": "4152211bdb38e9502bdd077cd3961979",
+								"vertical_grouping": {
+									"label": null,
+									"value": null
+								},
+								"parent_connector": {
+									"label": "AND",
+									"value": "AND"
+								},
+								"parent_record": {
+									"value": "Curriculum Structure Container: Industry based learning",
+									"cl_id": "4d52211bdb38e9502bdd077cd3961978",
+									"key": "title",
+									"type": "x_f5sl_cl_cs_container"
+								},
+								"owning_structure": {
+									"value": "",
+									"cl_id": "0952211bdb38e9502bdd077cd3961970",
+									"key": "version_code"
+								},
+								"child_record": {
+									"value": "Unit: FIT3045",
+									"cl_id": "753909e9dbd73f8082e291f38a9619dc",
+									"key": "code",
+									"type": "x_f5sl_cl_subjects"
+								},
+								"credit_points": "",
+								"child_table": "x_f5sl_cl_subjects",
+								"description": "",
+								"parent_table": "x_f5sl_cl_cs_container",
+								"academic_item_type": {
+									"label": "Unit",
+									"value": "subject"
+								},
+								"abbr_name": "IBL 3",
+								"academic_item_version_name": "2020.01RO",
+								"academic_item_credit_points": "18",
+								"abbreviated_name_and_major": null,
+								"academic_item_name": "Industry-based learning",
+								"academic_item_code": "FIT3045",
+								"academic_item_url": "/2020/units/FIT3045",
+								"order": "0"
+							}
+						],
+						"container": [],
+						"order": "200",
+						"description": "This option is available only if you are selected to participate in the IBL placement program. It will require the use of one elective unit space from your discipline study. <br /><br />You must complete one unit over summer semester or overload in one semester by one unit in order to complete the degree within three years."
+					},
+					{
+						"title": "Computer science",
+						"horizontal_grouping": {
+							"label": null,
+							"value": null
+						},
+						"preface": "",
+						"dynamic_query": "",
+						"child_table": "",
+						"vertical_grouping": {
+							"label": "Unit",
+							"value": "unit"
+						},
+						"child_record": {
+							"value": "",
+							"cl_id": null,
+							"key": "",
+							"type": null
+						},
+						"footnote": "",
+						"credit_points_max": "",
+						"cl_id": "c152211bdb38e9502bdd077cd3961978",
+						"map_type": "",
+						"credit_points": "12",
+						"parent_record": {
+							"value": "Curriculum Structure Container: Clayton option",
+							"cl_id": "cd52211bdb38e9502bdd077cd3961977",
+							"key": "title",
+							"type": "x_f5sl_cl_cs_container"
+						},
+						"parent_table": "x_f5sl_cl_cs_container",
+						"parent_connector": {
+							"label": "OR",
+							"value": "OR"
+						},
+						"relationship": [
+							{
+								"cl_id": "8952211bdb38e9502bdd077cd3961978",
+								"vertical_grouping": {
+									"label": null,
+									"value": null
+								},
+								"parent_connector": {
+									"label": "AND",
+									"value": "AND"
+								},
+								"parent_record": {
+									"value": "Curriculum Structure Container: Computer science",
+									"cl_id": "c152211bdb38e9502bdd077cd3961978",
+									"key": "title",
+									"type": "x_f5sl_cl_cs_container"
+								},
+								"owning_structure": {
+									"value": "",
+									"cl_id": "0952211bdb38e9502bdd077cd3961970",
+									"key": "version_code"
+								},
+								"child_record": {
+									"value": "Unit: FIT3161",
+									"cl_id": "b05405eddb573f8082e291f38a961998",
+									"key": "code",
+									"type": "x_f5sl_cl_subjects"
+								},
+								"credit_points": "",
+								"child_table": "x_f5sl_cl_subjects",
+								"description": "",
+								"parent_table": "x_f5sl_cl_cs_container",
+								"academic_item_type": {
+									"label": "Unit",
+									"value": "subject"
+								},
+								"abbr_name": "COMP SC PROJ 1",
+								"academic_item_version_name": "2020.01RO",
+								"academic_item_credit_points": "6",
+								"abbreviated_name_and_major": null,
+								"academic_item_name": "Computer science project 1",
+								"academic_item_code": "FIT3161",
+								"academic_item_url": "/2020/units/FIT3161",
+								"order": "0"
+							},
+							{
+								"cl_id": "c552211bdb38e9502bdd077cd3961978",
+								"vertical_grouping": {
+									"label": null,
+									"value": null
+								},
+								"parent_connector": {
+									"label": "AND",
+									"value": "AND"
+								},
+								"parent_record": {
+									"value": "Curriculum Structure Container: Computer science",
+									"cl_id": "c152211bdb38e9502bdd077cd3961978",
+									"key": "title",
+									"type": "x_f5sl_cl_cs_container"
+								},
+								"owning_structure": {
+									"value": "",
+									"cl_id": "0952211bdb38e9502bdd077cd3961970",
+									"key": "version_code"
+								},
+								"child_record": {
+									"value": "Unit: FIT3162",
+									"cl_id": "4f0905a9dbd73f8082e291f38a9619a6",
+									"key": "code",
+									"type": "x_f5sl_cl_subjects"
+								},
+								"credit_points": "",
+								"child_table": "x_f5sl_cl_subjects",
+								"description": "",
+								"parent_table": "x_f5sl_cl_cs_container",
+								"academic_item_type": {
+									"label": "Unit",
+									"value": "subject"
+								},
+								"abbr_name": "COMP SC PROJ 2",
+								"academic_item_version_name": "2020.01RO",
+								"academic_item_credit_points": "6",
+								"abbreviated_name_and_major": null,
+								"academic_item_name": "Computer science project 2",
+								"academic_item_code": "FIT3162",
+								"academic_item_url": "/2020/units/FIT3162",
+								"order": "100"
+							}
+						],
+						"container": [],
+						"order": "0",
+						"description": ""
+					}
+				],
+				"order": "0",
+				"description": ""
+			}
+		],
+		"order": "300",
+		"description": "You must complete one of the following options"
+	},
+	{
+		"title": "Part C. Specialist discipline knowledge and Part D. Problem solving and analytical skills",
+		"horizontal_grouping": {
+			"label": null,
+			"value": null
+		},
+		"preface": "",
+		"dynamic_query": "",
+		"child_table": "",
+		"vertical_grouping": {
+			"label": "UG specialisation",
+			"value": "ug_specialisation"
+		},
+		"child_record": {
+			"value": "",
+			"cl_id": null,
+			"key": "",
+			"type": null
+		},
+		"footnote": "",
+		"credit_points_max": "",
+		"cl_id": "8d52211bdb38e9502bdd077cd3961979",
+		"map_type": "",
+		"credit_points": "36",
+		"parent_record": {
+			"value": "Curriculum Structure: ",
+			"cl_id": "0952211bdb38e9502bdd077cd3961970",
+			"key": "version_code",
+			"type": "x_f5sl_cl_curriculum_structure"
+		},
+		"parent_table": "x_f5sl_cl_curriculum_structure",
+		"parent_connector": {
+			"label": "AND",
+			"value": "AND"
+		},
+		"relationship": [
+			{
+				"cl_id": "4552211bdb38e9502bdd077cd396197a",
+				"vertical_grouping": {
+					"label": null,
+					"value": null
+				},
+				"parent_connector": {
+					"label": "AND",
+					"value": "AND"
+				},
+				"parent_record": {
+					"value": "Curriculum Structure Container: Part C. Specialist discipline knowledge and Part D. Problem solving and analytical skills",
+					"cl_id": "8d52211bdb38e9502bdd077cd3961979",
+					"key": "title",
+					"type": "x_f5sl_cl_cs_container"
+				},
+				"owning_structure": {
+					"value": "",
+					"cl_id": "0952211bdb38e9502bdd077cd3961970",
+					"key": "version_code"
+				},
+				"child_record": {
+					"value": "Area of study: DATASCI01",
+					"cl_id": "f2eb9bfb1b90545413b555b81d4bcb89",
+					"key": "code",
+					"type": "x_f5sl_cl_areas_of_study"
+				},
+				"credit_points": "",
+				"child_table": "x_f5sl_cl_areas_of_study",
+				"description": "",
+				"parent_table": "x_f5sl_cl_cs_container",
+				"academic_item_type": {
+					"label": "UG specialisation",
+					"value": "ug_specialisation"
+				},
+				"abbr_name": "",
+				"academic_item_version_name": "2020.07",
+				"academic_item_credit_points": "36",
+				"abbreviated_name_and_major": null,
+				"academic_item_name": "Data science",
+				"academic_item_code": "DATASCI01",
+				"academic_item_url": "/2020/aos/DATASCI01",
+				"order": "100"
+			},
+			{
+				"cl_id": "8152211bdb38e9502bdd077cd396197a",
+				"vertical_grouping": {
+					"label": null,
+					"value": null
+				},
+				"parent_connector": {
+					"label": "AND",
+					"value": "AND"
+				},
+				"parent_record": {
+					"value": "Curriculum Structure Container: Part C. Specialist discipline knowledge and Part D. Problem solving and analytical skills",
+					"cl_id": "8d52211bdb38e9502bdd077cd3961979",
+					"key": "title",
+					"type": "x_f5sl_cl_cs_container"
+				},
+				"owning_structure": {
+					"value": "",
+					"cl_id": "0952211bdb38e9502bdd077cd3961970",
+					"key": "version_code"
+				},
+				"child_record": {
+					"value": "Area of study: COMPSCI03",
+					"cl_id": "233b5fb71b90545413b555b81d4bcb3a",
+					"key": "code",
+					"type": "x_f5sl_cl_areas_of_study"
+				},
+				"credit_points": "",
+				"child_table": "x_f5sl_cl_areas_of_study",
+				"description": "",
+				"parent_table": "x_f5sl_cl_cs_container",
+				"academic_item_type": {
+					"label": "UG specialisation",
+					"value": "ug_specialisation"
+				},
+				"abbr_name": "",
+				"academic_item_version_name": "2020.09",
+				"academic_item_credit_points": "36",
+				"abbreviated_name_and_major": null,
+				"academic_item_name": "Advanced computer science",
+				"academic_item_code": "COMPSCI03",
+				"academic_item_url": "/2020/aos/COMPSCI03",
+				"order": "0"
+			}
+		],
+		"container": [],
+		"order": "200",
+		"description": "You must complete one of the following specialisations"
+	},
+	{
+		"title": "Part A. Foundational computer science study",
+		"horizontal_grouping": {
+			"label": null,
+			"value": null
+		},
+		"preface": "",
+		"dynamic_query": "",
+		"child_table": "",
+		"vertical_grouping": {
+			"label": "Component",
+			"value": "component"
+		},
+		"child_record": {
+			"value": "",
+			"cl_id": null,
+			"key": "",
+			"type": null
+		},
+		"footnote": "",
+		"credit_points_max": "",
+		"cl_id": "c552211bdb38e9502bdd077cd3961972",
+		"map_type": "",
+		"credit_points": "42",
+		"parent_record": {
+			"value": "Curriculum Structure: ",
+			"cl_id": "0952211bdb38e9502bdd077cd3961970",
+			"key": "version_code",
+			"type": "x_f5sl_cl_curriculum_structure"
+		},
+		"parent_table": "x_f5sl_cl_curriculum_structure",
+		"parent_connector": {
+			"label": "AND",
+			"value": "AND"
+		},
+		"relationship": [],
+		"container": [
+			{
+				"title": "Core units",
+				"horizontal_grouping": {
+					"label": null,
+					"value": null
+				},
+				"preface": "",
+				"dynamic_query": "",
+				"child_table": "",
+				"vertical_grouping": {
+					"label": "Unit",
+					"value": "unit"
+				},
+				"child_record": {
+					"value": "",
+					"cl_id": null,
+					"key": "",
+					"type": null
+				},
+				"footnote": "",
+				"credit_points_max": "",
+				"cl_id": "cd52211bdb38e9502bdd077cd3961972",
+				"map_type": "",
+				"credit_points": "42",
+				"parent_record": {
+					"value": "Curriculum Structure Container: Part A. Foundational computer science study",
+					"cl_id": "c552211bdb38e9502bdd077cd3961972",
+					"key": "title",
+					"type": "x_f5sl_cl_cs_container"
+				},
+				"parent_table": "x_f5sl_cl_cs_container",
+				"parent_connector": {
+					"label": "AND",
+					"value": "AND"
+				},
+				"relationship": [
+					{
+						"cl_id": "0152211bdb38e9502bdd077cd3961974",
+						"vertical_grouping": {
+							"label": null,
+							"value": null
+						},
+						"parent_connector": {
+							"label": "AND",
+							"value": "AND"
+						},
+						"parent_record": {
+							"value": "Curriculum Structure Container: Core units",
+							"cl_id": "cd52211bdb38e9502bdd077cd3961972",
+							"key": "title",
+							"type": "x_f5sl_cl_cs_container"
+						},
+						"owning_structure": {
+							"value": "",
+							"cl_id": "0952211bdb38e9502bdd077cd3961970",
+							"key": "version_code"
+						},
+						"child_record": {
+							"value": "Unit: MAT1830",
+							"cl_id": "7a55c165db973f8082e291f38a961961",
+							"key": "code",
+							"type": "x_f5sl_cl_subjects"
+						},
+						"credit_points": "",
+						"child_table": "x_f5sl_cl_subjects",
+						"description": "",
+						"parent_table": "x_f5sl_cl_cs_container",
+						"academic_item_type": {
+							"label": "Unit",
+							"value": "subject"
+						},
+						"abbr_name": "DISC MATH COMPSC",
+						"academic_item_version_name": "2020.01RO",
+						"academic_item_credit_points": "6",
+						"abbreviated_name_and_major": null,
+						"academic_item_name": "Discrete mathematics for computer science",
+						"academic_item_code": "MAT1830",
+						"academic_item_url": "/2020/units/MAT1830",
+						"order": "500"
+					},
+					{
+						"cl_id": "4952211bdb38e9502bdd077cd3961974",
+						"vertical_grouping": {
+							"label": null,
+							"value": null
+						},
+						"parent_connector": {
+							"label": "AND",
+							"value": "AND"
+						},
+						"parent_record": {
+							"value": "Curriculum Structure Container: Core units",
+							"cl_id": "cd52211bdb38e9502bdd077cd3961972",
+							"key": "title",
+							"type": "x_f5sl_cl_cs_container"
+						},
+						"owning_structure": {
+							"value": "",
+							"cl_id": "0952211bdb38e9502bdd077cd3961970",
+							"key": "version_code"
+						},
+						"child_record": {
+							"value": "Unit: FIT1047",
+							"cl_id": "ff6885a5dbd73f8082e291f38a961900",
+							"key": "code",
+							"type": "x_f5sl_cl_subjects"
+						},
+						"credit_points": "",
+						"child_table": "x_f5sl_cl_subjects",
+						"description": "",
+						"parent_table": "x_f5sl_cl_cs_container",
+						"academic_item_type": {
+							"label": "Unit",
+							"value": "subject"
+						},
+						"abbr_name": "INTRO CSN&SEC",
+						"academic_item_version_name": "2020.01RO",
+						"academic_item_credit_points": "6",
+						"abbreviated_name_and_major": null,
+						"academic_item_name": "Introduction to computer systems, networks and security",
+						"academic_item_code": "FIT1047",
+						"academic_item_url": "/2020/units/FIT1047",
+						"order": "200"
+					},
+					{
+						"cl_id": "4d52211bdb38e9502bdd077cd3961973",
+						"vertical_grouping": {
+							"label": null,
+							"value": null
+						},
+						"parent_connector": {
+							"label": "AND",
+							"value": "AND"
+						},
+						"parent_record": {
+							"value": "Curriculum Structure Container: Core units",
+							"cl_id": "cd52211bdb38e9502bdd077cd3961972",
+							"key": "title",
+							"type": "x_f5sl_cl_cs_container"
+						},
+						"owning_structure": {
+							"value": "",
+							"cl_id": "0952211bdb38e9502bdd077cd3961970",
+							"key": "version_code"
+						},
+						"child_record": {
+							"value": "Unit: FIT1045",
+							"cl_id": "2d3ee8591b6add10f1eca68b274bcbe9",
+							"key": "code",
+							"type": "x_f5sl_cl_subjects"
+						},
+						"credit_points": "",
+						"child_table": "x_f5sl_cl_subjects",
+						"description": "",
+						"parent_table": "x_f5sl_cl_cs_container",
+						"academic_item_type": {
+							"label": "Unit",
+							"value": "subject"
+						},
+						"abbr_name": "INTRO TO PROGRAMMING",
+						"academic_item_version_name": "2023.04",
+						"academic_item_credit_points": "6",
+						"abbreviated_name_and_major": null,
+						"academic_item_name": "Introduction to programming",
+						"academic_item_code": "FIT1045",
+						"academic_item_url": "/2023/units/FIT1045",
+						"order": "100"
+					},
+					{
+						"cl_id": "8552211bdb38e9502bdd077cd3961974",
+						"vertical_grouping": {
+							"label": null,
+							"value": null
+						},
+						"parent_connector": {
+							"label": "AND",
+							"value": "AND"
+						},
+						"parent_record": {
+							"value": "Curriculum Structure Container: Core units",
+							"cl_id": "cd52211bdb38e9502bdd077cd3961972",
+							"key": "title",
+							"type": "x_f5sl_cl_cs_container"
+						},
+						"owning_structure": {
+							"value": "",
+							"cl_id": "0952211bdb38e9502bdd077cd3961970",
+							"key": "version_code"
+						},
+						"child_record": {
+							"value": "Unit: MAT1841",
+							"cl_id": "c4f44da1db973f8082e291f38a961900",
+							"key": "code",
+							"type": "x_f5sl_cl_subjects"
+						},
+						"credit_points": "",
+						"child_table": "x_f5sl_cl_subjects",
+						"description": "",
+						"parent_table": "x_f5sl_cl_cs_container",
+						"academic_item_type": {
+							"label": "Unit",
+							"value": "subject"
+						},
+						"abbr_name": "CONT MATHS COMPSCI",
+						"academic_item_version_name": "2020.01RO",
+						"academic_item_credit_points": "6",
+						"abbreviated_name_and_major": null,
+						"academic_item_name": "Continuous mathematics for computer science",
+						"academic_item_code": "MAT1841",
+						"academic_item_url": "/2020/units/MAT1841",
+						"order": "600"
+					},
+					{
+						"cl_id": "8952211bdb38e9502bdd077cd3961973",
+						"vertical_grouping": {
+							"label": null,
+							"value": null
+						},
+						"parent_connector": {
+							"label": "AND",
+							"value": "AND"
+						},
+						"parent_record": {
+							"value": "Curriculum Structure Container: Core units",
+							"cl_id": "cd52211bdb38e9502bdd077cd3961972",
+							"key": "title",
+							"type": "x_f5sl_cl_cs_container"
+						},
+						"owning_structure": {
+							"value": "",
+							"cl_id": "0952211bdb38e9502bdd077cd3961970",
+							"key": "version_code"
+						},
+						"child_record": {
+							"value": "Unit: FIT1008",
+							"cl_id": "259b4d69db1b3f8082e291f38a9619f0",
+							"key": "code",
+							"type": "x_f5sl_cl_subjects"
+						},
+						"credit_points": "",
+						"child_table": "x_f5sl_cl_subjects",
+						"description": "",
+						"parent_table": "x_f5sl_cl_cs_container",
+						"academic_item_type": {
+							"label": "Unit",
+							"value": "subject"
+						},
+						"abbr_name": "INTRO COMP SCIENCE",
+						"academic_item_version_name": "2020.01RO",
+						"academic_item_credit_points": "6",
+						"abbreviated_name_and_major": null,
+						"academic_item_name": "Introduction to computer science",
+						"academic_item_code": "FIT1008",
+						"academic_item_url": "/2020/units/FIT1008",
+						"order": "0"
+					},
+					{
+						"cl_id": "c152211bdb38e9502bdd077cd3961973",
+						"vertical_grouping": {
+							"label": null,
+							"value": null
+						},
+						"parent_connector": {
+							"label": "AND",
+							"value": "AND"
+						},
+						"parent_record": {
+							"value": "Curriculum Structure Container: Core units",
+							"cl_id": "cd52211bdb38e9502bdd077cd3961972",
+							"key": "title",
+							"type": "x_f5sl_cl_cs_container"
+						},
+						"owning_structure": {
+							"value": "",
+							"cl_id": "0952211bdb38e9502bdd077cd3961970",
+							"key": "version_code"
+						},
+						"child_record": {
+							"value": "Unit: FIT2014",
+							"cl_id": "ad78c5a5dbd73f8082e291f38a9619e6",
+							"key": "code",
+							"type": "x_f5sl_cl_subjects"
+						},
+						"credit_points": "",
+						"child_table": "x_f5sl_cl_subjects",
+						"description": "",
+						"parent_table": "x_f5sl_cl_cs_container",
+						"academic_item_type": {
+							"label": "Unit",
+							"value": "subject"
+						},
+						"abbr_name": "THEORY COMPUTATION",
+						"academic_item_version_name": "2020.01RO",
+						"academic_item_credit_points": "6",
+						"abbreviated_name_and_major": null,
+						"academic_item_name": "Theory of computation",
+						"academic_item_code": "FIT2014",
+						"academic_item_url": "/2020/units/FIT2014",
+						"order": "400"
+					},
+					{
+						"cl_id": "c152211bdb38e9502bdd077cd3961974",
+						"vertical_grouping": {
+							"label": null,
+							"value": null
+						},
+						"parent_connector": {
+							"label": "AND",
+							"value": "AND"
+						},
+						"parent_record": {
+							"value": "Curriculum Structure Container: Core units",
+							"cl_id": "cd52211bdb38e9502bdd077cd3961972",
+							"key": "title",
+							"type": "x_f5sl_cl_cs_container"
+						},
+						"owning_structure": {
+							"value": "",
+							"cl_id": "0952211bdb38e9502bdd077cd3961970",
+							"key": "version_code"
+						},
+						"child_record": {
+							"value": "Unit: FIT2004",
+							"cl_id": "c39c8deddb1b3f8082e291f38a9619e5",
+							"key": "code",
+							"type": "x_f5sl_cl_subjects"
+						},
+						"credit_points": "",
+						"child_table": "x_f5sl_cl_subjects",
+						"description": "",
+						"parent_table": "x_f5sl_cl_cs_container",
+						"academic_item_type": {
+							"label": "Unit",
+							"value": "subject"
+						},
+						"abbr_name": "A&DS",
+						"academic_item_version_name": "2020.01RO",
+						"academic_item_credit_points": "6",
+						"abbreviated_name_and_major": null,
+						"academic_item_name": "Algorithms and data structures",
+						"academic_item_code": "FIT2004",
+						"academic_item_url": "/2020/units/FIT2004",
+						"order": "300"
+					}
+				],
+				"container": [],
+				"order": "0",
+				"description": "You must complete the following units"
+			}
+		],
+		"order": "0",
+		"description": "In the double degree course with the Bachelor of Engineering (Honours) completing the software engineering specialisation, you must replace FIT2004 and MAT1830 with two FIT-coded electives of which at least one must be at level 2 (FIT2004 and MAT1830 will be completed in the software engineering specialisation). <br /><br />In the double degree course with the Bachelor of Engineering (Honours), you must replace MAT1841 with an FIT-coded elective at any year level (MAT1841 will be replaced with ENG1005). <br /><br />In the double degree course with the Bachelor of Science, you can replace MAT1841 with MTH1030 which will count towards the computer science component of the double degree. "
+	},
+	{
+		"title": "Part B. Professional skills study ",
+		"horizontal_grouping": {
+			"label": null,
+			"value": null
+		},
+		"preface": "",
+		"dynamic_query": "",
+		"child_table": "",
+		"vertical_grouping": {
+			"label": "Unit",
+			"value": "unit"
+		},
+		"child_record": {
+			"value": "",
+			"cl_id": null,
+			"key": "",
+			"type": null
+		},
+		"footnote": "",
+		"credit_points_max": "",
+		"cl_id": "cd52211bdb38e9502bdd077cd3961974",
+		"map_type": "",
+		"credit_points": "6",
+		"parent_record": {
+			"value": "Curriculum Structure: ",
+			"cl_id": "0952211bdb38e9502bdd077cd3961970",
+			"key": "version_code",
+			"type": "x_f5sl_cl_curriculum_structure"
+		},
+		"parent_table": "x_f5sl_cl_curriculum_structure",
+		"parent_connector": {
+			"label": "AND",
+			"value": "AND"
+		},
+		"relationship": [
+			{
+				"cl_id": "8552211bdb38e9502bdd077cd3961975",
+				"vertical_grouping": {
+					"label": null,
+					"value": null
+				},
+				"parent_connector": {
+					"label": "AND",
+					"value": "AND"
+				},
+				"parent_record": {
+					"value": "Curriculum Structure Container: Part B. Professional skills study ",
+					"cl_id": "cd52211bdb38e9502bdd077cd3961974",
+					"key": "title",
+					"type": "x_f5sl_cl_cs_container"
+				},
+				"owning_structure": {
+					"value": "",
+					"cl_id": "0952211bdb38e9502bdd077cd3961970",
+					"key": "version_code"
+				},
+				"child_record": {
+					"value": "Unit: FIT1049",
+					"cl_id": "a91bc9a5db1b3f8082e291f38a96192c",
+					"key": "code",
+					"type": "x_f5sl_cl_subjects"
+				},
+				"credit_points": "",
+				"child_table": "x_f5sl_cl_subjects",
+				"description": "",
+				"parent_table": "x_f5sl_cl_cs_container",
+				"academic_item_type": {
+					"label": "Unit",
+					"value": "subject"
+				},
+				"abbr_name": "IT PROF PRAC",
+				"academic_item_version_name": "2020.01RO",
+				"academic_item_credit_points": "6",
+				"abbreviated_name_and_major": null,
+				"academic_item_name": "IT professional practice",
+				"academic_item_code": "FIT1049",
+				"academic_item_url": "/2020/units/FIT1049",
+				"order": "0"
+			},
+			{
+				"cl_id": "c152211bdb38e9502bdd077cd3961975",
+				"vertical_grouping": {
+					"label": null,
+					"value": null
+				},
+				"parent_connector": {
+					"label": "AND",
+					"value": "AND"
+				},
+				"parent_record": {
+					"value": "Curriculum Structure Container: Part B. Professional skills study ",
+					"cl_id": "cd52211bdb38e9502bdd077cd3961974",
+					"key": "title",
+					"type": "x_f5sl_cl_cs_container"
+				},
+				"owning_structure": {
+					"value": "",
+					"cl_id": "0952211bdb38e9502bdd077cd3961970",
+					"key": "version_code"
+				},
+				"child_record": {
+					"value": "Unit: FIT1055",
+					"cl_id": "970a4921db1b3f8082e291f38a9619d4",
+					"key": "code",
+					"type": "x_f5sl_cl_subjects"
+				},
+				"credit_points": "",
+				"child_table": "x_f5sl_cl_subjects",
+				"description": "",
+				"parent_table": "x_f5sl_cl_cs_container",
+				"academic_item_type": {
+					"label": "Unit",
+					"value": "subject"
+				},
+				"abbr_name": "IT PROF PRCTCE & ETH",
+				"academic_item_version_name": "2020.01RO",
+				"academic_item_credit_points": "6",
+				"abbreviated_name_and_major": null,
+				"academic_item_name": "IT professional practice and ethics",
+				"academic_item_code": "FIT1055",
+				"academic_item_url": "/2020/units/FIT1055",
+				"order": "100"
+			}
+		],
+		"container": [],
+		"order": "100",
+		"description": "You must complete one of the following units"
+	}
+]

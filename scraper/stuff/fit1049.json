@@ -1,0 +1,827 @@
+{
+	"contentTypeLabel": "Unit",
+	"published_in_handbook": {
+		"label": "Yes",
+		"value": "1"
+	},
+	"implementation_year": "2023",
+	"duration_ft_max": "",
+	"asced_detailed": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"grading_schema": {
+		"label": null,
+		"value": null
+	},
+	"study_level": [],
+	"quota_enrolment_requirements": "",
+	"status": {
+		"label": "Accredited",
+		"value": "Active"
+	},
+	"duration_pt_max": "",
+	"duration_pt_std": "",
+	"credit_points": "6",
+	"parent_id": {
+		"value": "Master Record: FIT1049",
+		"cl_id": "cb94aa10dbf4b300580f42a0149619dc",
+		"key": "code",
+		"type": "x_f5sl_cl_master_record"
+	},
+	"start_date": "",
+	"exclusions": "",
+	"unit_code": "FIT1049",
+	"academic_org": {
+		"value": "Faculty of Information Technology",
+		"cl_id": "c5684a53dba8a3406add773c349619a1",
+		"key": "name"
+	},
+	"sms_version": "",
+	"level": {
+		"label": "Level 1",
+		"value": "2"
+	},
+	"uac_code": "",
+	"special_requirements": "",
+	"duration_pt_min": "",
+	"special_unit_type": [],
+	"title": "IT professional practice",
+	"duration_ft_std": "",
+	"version": "8",
+	"learning_experiences": null,
+	"duration_ft_min": "",
+	"callista_version": "",
+	"duration_ft_period": {
+		"label": null,
+		"value": null
+	},
+	"asced_narrow": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"subclass": {
+		"label": "Unit",
+		"value": "subject"
+	},
+	"type": {
+		"label": "Coursework",
+		"value": "600"
+	},
+	"quota_rationale": "",
+	"version_name": "2023.08",
+	"timetable_this_unit": "true",
+	"work_integrated_learning": [
+		{
+			"value": "None",
+			"cl_id": "8ef5d77bdb122300e5cf3391f496191d",
+			"key": "label"
+		}
+	],
+	"cl_id": "e3d6a73adb10f590101196cbd396190a",
+	"school": {
+		"value": "Faculty of Information Technology",
+		"cl_id": "c5684a53dba8a3406add773c349619a1",
+		"key": "name"
+	},
+	"content": null,
+	"learning_and_teaching_resources": null,
+	"collaborating_disciplines": [],
+	"repeatable": "false",
+	"overview": "",
+	"end_date": "",
+	"duration_pt_period": {
+		"label": null,
+		"value": null
+	},
+	"sms_status": {
+		"label": null,
+		"value": null
+	},
+	"learning_materials": null,
+	"special_topic": "false",
+	"asced_broad": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"publish_tuition_fees": "true",
+	"placement_proportion": {
+		"label": null,
+		"value": null
+	},
+	"code": "FIT1049",
+	"other_unit_costs": "",
+	"eftsl": {
+		"label": "0.125",
+		"value": "0.125"
+	},
+	"contact_information": "",
+	"highest_sca_band": {
+		"label": "SCA Band 2",
+		"value": "2"
+	},
+	"lo_additional_information": "<p>On successful completion of this unit, you should be able to:</p>",
+	"handbook_assessment_summary": "",
+	"quota_information": "",
+	"attendance_requirements": "",
+	"workload_requirements": "<p>Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled\u00a0teaching\u00a0activities.</p>",
+	"organisational_contact_information": "",
+	"handbook_synopsis": "<p>This unit provides a practical and theoretical introduction to what it means to be an IT professional, or a professional with IT expertise today. Students will encounter a range of issues relevant to professional practice in the workplace, as well as an understanding of the wider responsibilities that professionals are called upon to uphold in society as they apply their IT expertise. Topics addressed include: the nature of IT as professional expertise; professional communications; situational management; teamwork in professional and organisational settings; problem solving and decision making; applications of professional ethics and relevant legal frameworks. Skills and knowledge will be developed and applied through a range of collaborative, individual and reflective tasks in relevant communication modes and formats.</p>",
+	"special_note_to_students": "",
+	"undergrad_postgrad_both": {
+		"label": "Undergraduate",
+		"value": "undergraduate"
+	},
+	"area_of_study_links": "Information and society<br />",
+	"fieldwork": "",
+	"unit_learning_outcomes": [
+		{
+			"lo_domain": [],
+			"order": "4",
+			"number": "4",
+			"code": "ULO4",
+			"lo_cl_id": "2bd6a73adb10f590101196cbd3961911",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "9e6b3420db38b3003a731c0e04961978",
+			"academic_item": {
+				"value": "FIT1049",
+				"cl_id": "e3d6a73adb10f590101196cbd396190a",
+				"key": "code"
+			},
+			"description": "<p>Effectively contribute professionally to teams using appropriate techniques, concepts and technologies;</p>",
+			"cl_id": "2bd6a73adb10f590101196cbd3961911",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "5",
+			"number": "5",
+			"code": "ULO5",
+			"lo_cl_id": "63d6a73adb10f590101196cbd3961912",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "1a9bf820db38b3003a731c0e04961988",
+			"academic_item": {
+				"value": "FIT1049",
+				"cl_id": "e3d6a73adb10f590101196cbd396190a",
+				"key": "code"
+			},
+			"description": "<p>Effectively conduct critical research for specific purposes within professional settings;</p>",
+			"cl_id": "63d6a73adb10f590101196cbd3961912",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "2",
+			"number": "2",
+			"code": "ULO2",
+			"lo_cl_id": "67d6a73adb10f590101196cbd3961911",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "6aca7cacdbf4b3003a731c0e0496196c",
+			"academic_item": {
+				"value": "FIT1049",
+				"cl_id": "e3d6a73adb10f590101196cbd396190a",
+				"key": "code"
+			},
+			"description": "<p>Understand how to make and justify decisions in various professional and organisational situations, by applying relevant professional ethics (e.g. the ACS Code of Ethics) and relevant legal frameworks;</p>",
+			"cl_id": "67d6a73adb10f590101196cbd3961911",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "3",
+			"number": "3",
+			"code": "ULO3",
+			"lo_cl_id": "afd6a73adb10f590101196cbd3961910",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "a54bfcecdbf4b3003a731c0e0496198d",
+			"academic_item": {
+				"value": "FIT1049",
+				"cl_id": "e3d6a73adb10f590101196cbd396190a",
+				"key": "code"
+			},
+			"description": "<p>Effectively plan, develop and deliver a range of professional communications using appropriate techniques, concepts and technologies;</p>",
+			"cl_id": "afd6a73adb10f590101196cbd3961910",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "1",
+			"number": "1",
+			"code": "ULO1",
+			"lo_cl_id": "afd6a73adb10f590101196cbd3961911",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "146afc6cdbf4b3003a731c0e04961958",
+			"academic_item": {
+				"value": "FIT1049",
+				"cl_id": "e3d6a73adb10f590101196cbd396190a",
+				"key": "code"
+			},
+			"description": "<p>Describe the social, ethical and legal implications of working with IT expertise in a professional capacity;</p>",
+			"cl_id": "afd6a73adb10f590101196cbd3961911",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "6",
+			"number": "6",
+			"code": "ULO6",
+			"lo_cl_id": "ebd6a73adb10f590101196cbd3961911",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "20fe8f111bac1550f1eca68b274bcbd1",
+			"academic_item": {
+				"value": "FIT1049",
+				"cl_id": "e3d6a73adb10f590101196cbd396190a",
+				"key": "code"
+			},
+			"description": "<p>Systematically develop and effectively communicate your personal and professional reflections to inform your current and future professional practice.</p>",
+			"cl_id": "ebd6a73adb10f590101196cbd3961911",
+			"ga_map": []
+		}
+	],
+	"school_org_unit_data": [
+		{
+			"parent": {
+				"value": "",
+				"cl_id": null,
+				"key": "name"
+			},
+			"url": "https://www.monash.edu/it",
+			"name": "Faculty of Information Technology",
+			"cl_id": "c5684a53dba8a3406add773c349619a1"
+		}
+	],
+	"assessments": [
+		{
+			"subject": {
+				"value": "FIT1049",
+				"cl_id": "e3d6a73adb10f590101196cbd396190a",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "4",
+			"weight": "20",
+			"cl_id": "27d6a73adb10f590101196cbd3961918",
+			"assessment_name": "Assignment 3: Team video & report",
+			"description": "<p>Students must make a 5 minute team video with accompanying brief report, relating to Responsible IT</p>",
+			"assessment_type": {
+				"label": "Report",
+				"value": "report"
+			},
+			"offerings_formatted": "<ul><li>Second semester, Clayton, On-campus</li></ul>"
+		},
+		{
+			"subject": {
+				"value": "FIT1049",
+				"cl_id": "e3d6a73adb10f590101196cbd396190a",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "8",
+			"weight": "10",
+			"cl_id": "2bd6a73adb10f590101196cbd3961917",
+			"assessment_name": " Research report",
+			"description": null,
+			"assessment_type": {
+				"label": "Report",
+				"value": "report"
+			},
+			"offerings_formatted": "<ul><li>First semester, Clayton, On-campus</li></ul>"
+		},
+		{
+			"subject": {
+				"value": "FIT1049",
+				"cl_id": "e3d6a73adb10f590101196cbd396190a",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "3",
+			"weight": "15",
+			"cl_id": "2fd6a73adb10f590101196cbd3961916",
+			"assessment_name": "Assignment 2: Individual presentation\t",
+			"description": "<p>An individual presentation. Students will conduct research on a topic relating to professional practice behaviour.</p>",
+			"assessment_type": {
+				"label": "Presentation",
+				"value": "presentation"
+			},
+			"offerings_formatted": "<ul><li>Second semester, Clayton, On-campus</li></ul>"
+		},
+		{
+			"subject": {
+				"value": "FIT1049",
+				"cl_id": "e3d6a73adb10f590101196cbd396190a",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "11",
+			"weight": "15",
+			"cl_id": "63d6a73adb10f590101196cbd3961918",
+			"assessment_name": "Reflective report ",
+			"description": null,
+			"assessment_type": {
+				"label": "Report",
+				"value": "report"
+			},
+			"offerings_formatted": "<ul><li>First semester, Clayton, On-campus</li></ul>"
+		},
+		{
+			"subject": {
+				"value": "FIT1049",
+				"cl_id": "e3d6a73adb10f590101196cbd396190a",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "12",
+			"weight": "20",
+			"cl_id": "67d6a73adb10f590101196cbd3961916",
+			"assessment_name": "Multiple choice quiz",
+			"description": null,
+			"assessment_type": {
+				"label": "Other",
+				"value": "other"
+			},
+			"offerings_formatted": "<ul><li>First semester, Clayton, On-campus</li></ul>"
+		},
+		{
+			"subject": {
+				"value": "FIT1049",
+				"cl_id": "e3d6a73adb10f590101196cbd396190a",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "5",
+			"weight": "15",
+			"cl_id": "67d6a73adb10f590101196cbd3961917",
+			"assessment_name": "Assignment 4: Individual reflective report",
+			"description": null,
+			"assessment_type": {
+				"label": "Assignment",
+				"value": "assignment"
+			},
+			"offerings_formatted": "<ul><li>Second semester, Clayton, On-campus</li></ul>"
+		},
+		{
+			"subject": {
+				"value": "FIT1049",
+				"cl_id": "e3d6a73adb10f590101196cbd396190a",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "7",
+			"weight": "25",
+			"cl_id": "a3d6a73adb10f590101196cbd3961917",
+			"assessment_name": "Tutorial exercises",
+			"description": null,
+			"assessment_type": {
+				"label": "Other",
+				"value": "other"
+			},
+			"offerings_formatted": "<ul><li>First semester, Clayton, On-campus</li></ul>"
+		},
+		{
+			"subject": {
+				"value": "FIT1049",
+				"cl_id": "e3d6a73adb10f590101196cbd396190a",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "2",
+			"weight": "10",
+			"cl_id": "abd6a73adb10f590101196cbd3961918",
+			"assessment_name": " Assignment 1: Individual research report",
+			"description": "<p>Students will conduct research on a selected IT related professional role, and produce a written report outlining their findings.</p>",
+			"assessment_type": {
+				"label": "Report",
+				"value": "report"
+			},
+			"offerings_formatted": "<ul><li>Second semester, Clayton, On-campus</li></ul>"
+		},
+		{
+			"subject": {
+				"value": "FIT1049",
+				"cl_id": "e3d6a73adb10f590101196cbd396190a",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "10",
+			"weight": "20",
+			"cl_id": "afd6a73adb10f590101196cbd3961917",
+			"assessment_name": "Team presentation",
+			"description": null,
+			"assessment_type": {
+				"label": "Presentation",
+				"value": "presentation"
+			},
+			"offerings_formatted": "<ul><li>First semester, Clayton, On-campus</li></ul>"
+		},
+		{
+			"subject": {
+				"value": "FIT1049",
+				"cl_id": "e3d6a73adb10f590101196cbd396190a",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "9",
+			"weight": "10",
+			"cl_id": "e7d6a73adb10f590101196cbd3961918",
+			"assessment_name": " Individual presentation",
+			"description": null,
+			"assessment_type": {
+				"label": "Presentation",
+				"value": "presentation"
+			},
+			"offerings_formatted": "<ul><li>First semester, Clayton, On-campus</li></ul>"
+		},
+		{
+			"subject": {
+				"value": "FIT1049",
+				"cl_id": "e3d6a73adb10f590101196cbd396190a",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "6",
+			"weight": "20",
+			"cl_id": "ebd6a73adb10f590101196cbd3961917",
+			"assessment_name": "End semester test",
+			"description": "<p>Timed, online, open-book MCQ. 20 questions in one hour.</p>",
+			"assessment_type": {
+				"label": "Other",
+				"value": "other"
+			},
+			"offerings_formatted": "<ul><li>Second semester, Clayton, On-campus</li></ul>"
+		},
+		{
+			"subject": {
+				"value": "FIT1049",
+				"cl_id": "e3d6a73adb10f590101196cbd396190a",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "1",
+			"weight": "20",
+			"cl_id": "efd6a73adb10f590101196cbd3961916",
+			"assessment_name": "Portfolio Exercises",
+			"description": "<p>20% &#61; 4x5% Students must produce a range of written documents arising from the applied session tasks.</p>",
+			"assessment_type": {
+				"label": "Other",
+				"value": "other"
+			},
+			"offerings_formatted": "<ul><li>Second semester, Clayton, On-campus</li></ul>"
+		}
+	],
+	"enrolment_rules": [
+		{
+			"description": "<p>Prerequisite: Completion of 12 credit points of FIT units.</p>",
+			"academic_item": {
+				"value": "FIT1049",
+				"cl_id": "e3d6a73adb10f590101196cbd396190a",
+				"key": "code"
+			},
+			"type": {
+				"label": "Enrolment Rule",
+				"value": "info"
+			},
+			"cl_id": "a7d6a73adb10f590101196cbd3961912"
+		}
+	],
+	"requisites": [],
+	"unit_offering": [
+		{
+			"fees_domestic": "",
+			"publish": "true",
+			"location": {
+				"value": "Clayton",
+				"cl_id": "37f321e1db30a7406add773c3496192e",
+				"key": "name"
+			},
+			"name": "FIT1049-S1-01-ON-CAMPUS-CLAYTON",
+			"clarification_to_appear_in_handbook": "",
+			"display_name": "S1-01-CLAYTON-ON-CAMPUS",
+			"teaching_period": {
+				"value": "First semester",
+				"cl_id": "0da429a1db30a7406add773c3496190c",
+				"key": "name"
+			},
+			"attendance_mode": {
+				"value": "On-campus",
+				"cl_id": "7bf2311bdb68a3406add773c349619bb",
+				"key": "description"
+			},
+			"quota_number": "",
+			"study_level": {
+				"label": null,
+				"value": null
+			},
+			"offered": "true",
+			"self_enrol": "true",
+			"academic_item": {
+				"value": "FIT1049",
+				"cl_id": "e3d6a73adb10f590101196cbd396190a",
+				"key": "code"
+			},
+			"fees_commonwealth": "",
+			"fees_international": "",
+			"course_restrictions": "",
+			"cl_id": "2bd6a73adb10f590101196cbd396190e"
+		},
+		{
+			"fees_domestic": "",
+			"publish": "true",
+			"location": {
+				"value": "Clayton",
+				"cl_id": "37f321e1db30a7406add773c3496192e",
+				"key": "name"
+			},
+			"name": "FIT1049-S2-01-ON-CAMPUS-CLAYTON",
+			"clarification_to_appear_in_handbook": "",
+			"display_name": "S2-01-CLAYTON-ON-CAMPUS",
+			"teaching_period": {
+				"value": "Second semester",
+				"cl_id": "85a429a1db30a7406add773c3496190d",
+				"key": "name"
+			},
+			"attendance_mode": {
+				"value": "On-campus",
+				"cl_id": "7bf2311bdb68a3406add773c349619bb",
+				"key": "description"
+			},
+			"quota_number": "",
+			"study_level": {
+				"label": null,
+				"value": null
+			},
+			"offered": "true",
+			"self_enrol": "true",
+			"academic_item": {
+				"value": "FIT1049",
+				"cl_id": "e3d6a73adb10f590101196cbd396190a",
+				"key": "code"
+			},
+			"fees_commonwealth": "",
+			"fees_international": "",
+			"course_restrictions": "",
+			"cl_id": "2fd6a73adb10f590101196cbd396190d"
+		}
+	],
+	"enrolment_rules_group": [
+		{
+			"rule_group": "Enrolment Rule",
+			"rules": [
+				{
+					"description": "<p>Prerequisite: Completion of 12 credit points of FIT units.</p>",
+					"academic_item": {
+						"value": "FIT1049",
+						"cl_id": "e3d6a73adb10f590101196cbd396190a",
+						"key": "code"
+					},
+					"type": {
+						"label": "Enrolment Rule",
+						"value": "info"
+					},
+					"cl_id": "a7d6a73adb10f590101196cbd3961912",
+					"links": []
+				}
+			]
+		}
+	],
+	"learning_resources_grouped": [
+		{
+			"type": "Technology resources",
+			"order": 2,
+			"resources": [
+				{
+					"description": "<p>Students will be expected to check Moodle for any administrative announcements made by the teaching staff, and they will also be expected to work and collaborate online in class (also see below under 'Bring your own device' for more information). You will also be submitting some of your assessment online via Moodle.</p>",
+					"type": {
+						"label": "Technology resources",
+						"value": "technology_resources"
+					},
+					"cl_id": "27d6a73adb10f590101196cbd3961913",
+					"academic_item": {
+						"value": "FIT1049",
+						"cl_id": "e3d6a73adb10f590101196cbd396190a",
+						"key": "code"
+					},
+					"links": []
+				}
+			]
+		}
+	],
+	"study_abroad_unit": "Yes",
+	"academic_item_type": "Unit",
+	"learning_activities_grouped": [
+		{
+			"activity_type": "Tutorials",
+			"activities": [
+				{
+					"subject": {
+						"value": "FIT1049",
+						"cl_id": "e3d6a73adb10f590101196cbd396190a",
+						"key": "code"
+					},
+					"cl_id": "23d6a73adb10f590101196cbd3961915",
+					"order": "1",
+					"description": "",
+					"activity_type": {
+						"label": "Tutorials",
+						"value": "tutorial"
+					},
+					"duration_display": "24 hours",
+					"offerings_formatted_teaching_activities": "<ul><li>First semester, Clayton, On-campus</li></ul>",
+					"links": []
+				}
+			]
+		},
+		{
+			"activity_type": "Workshops",
+			"activities": [
+				{
+					"subject": {
+						"value": "FIT1049",
+						"cl_id": "e3d6a73adb10f590101196cbd396190a",
+						"key": "code"
+					},
+					"cl_id": "23d6a73adb10f590101196cbd3961916",
+					"order": "0",
+					"description": "",
+					"activity_type": {
+						"label": "Workshops",
+						"value": "workshop"
+					},
+					"duration_display": "12 hours",
+					"offerings_formatted_teaching_activities": "<ul><li>Applies to all offerings</li></ul>",
+					"links": []
+				}
+			]
+		},
+		{
+			"activity_type": "Applied sessions",
+			"activities": [
+				{
+					"subject": {
+						"value": "FIT1049",
+						"cl_id": "e3d6a73adb10f590101196cbd396190a",
+						"key": "code"
+					},
+					"cl_id": "abd6a73adb10f590101196cbd3961915",
+					"order": "2",
+					"description": "",
+					"activity_type": {
+						"label": "Applied sessions",
+						"value": "applied"
+					},
+					"duration_display": "24 hours",
+					"offerings_formatted_teaching_activities": "<ul><li>Second semester, Clayton, On-campus</li></ul>",
+					"links": []
+				}
+			]
+		}
+	],
+	"search_title": "FIT1049 - IT professional practice",
+	"unit_search_title": "FIT1049 - IT professional practice",
+	"teaching_approaches": [
+		{
+			"type": {
+				"label": "Active learning",
+				"value": "active_learning"
+			},
+			"academic_item": {
+				"value": "FIT1049",
+				"cl_id": "e3d6a73adb10f590101196cbd396190a",
+				"key": "code"
+			},
+			"cl_id": "ebd6a73adb10f590101196cbd3961913",
+			"description": "<p>&nbsp;</p>",
+			"links": []
+		}
+	],
+	"handbook_statement": null,
+	"academic_contact_roles": [
+		{
+			"role": "Chief Examiner(s)",
+			"contacts": [
+				{
+					"active": "true",
+					"contact_department": "",
+					"start_date": "",
+					"offering": {
+						"value": "",
+						"cl_id": null,
+						"key": "display_name"
+					},
+					"contact_role": {
+						"label": "Chief Examiner",
+						"value": "chief_examiner"
+					},
+					"contact_name": "Helen Purchase",
+					"role_detail": "",
+					"contact_organisation": "",
+					"contact_title": "Dr",
+					"order": "1",
+					"contact_phone": "",
+					"end_date": "",
+					"location": {
+						"value": "",
+						"cl_id": null,
+						"key": "name"
+					},
+					"contact_email": "Helen.Purchase@monash.edu",
+					"contact_url": "",
+					"user": {
+						"value": "Helen Purchase",
+						"cl_id": "4107505fdb879550101196cbd3961961",
+						"key": ""
+					},
+					"offerings": [],
+					"applies_to_all_offerings": "true",
+					"linking_id": "79781457db0fd5502bdd077cd3961978",
+					"cl_id": "a7d6a73adb10f590101196cbd3961910",
+					"display_details": "Helen.Purchase@monash.edu",
+					"display_name": "Dr Helen Purchase ",
+					"offerings_formatted_contact": "<ul><li>Applies to all offerings</ul></li>",
+					"display_role_plural": "Chief Examiner(s)",
+					"links": []
+				}
+			]
+		}
+	],
+	"links": [],
+	"yearSwitcher": [
+		{
+			"label": "2020",
+			"value": "2020",
+			"href": "/2020/units/FIT1049?year=2020"
+		},
+		{
+			"label": "2021",
+			"value": "2021",
+			"href": "/2021/units/FIT1049?year=2021"
+		},
+		{
+			"label": "2022",
+			"value": "2022",
+			"href": "/2022/units/FIT1049?year=2022"
+		},
+		{
+			"label": "2023",
+			"value": "2023",
+			"href": "/2023/units/FIT1049?year=2023"
+		}
+	],
+	"university": "Monash University"
+}
