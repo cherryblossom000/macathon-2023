@@ -1,5 +1,13 @@
 import {writeFile} from 'node:fs/promises'
 import {parse} from 'node-html-parser'
+import type {
+	CourseRequirement,
+	RequisiteType,
+	TeachingPeriod,
+	Unit,
+	UnitCode,
+	UnitRequirement,
+} from 'shared'
 
 const courseCodes = ['C2001'] as const
 
@@ -76,28 +84,6 @@ const parseCourseRequirement = (
 			: undefined,
 })
 
-interface HandbookThing {
-	code: string
-	title: string
-}
-
-type UnitCode = string
-
-interface CourseRequirement {
-	title?: string | undefined
-	requirement?:
-		| {
-				operator: 'AND' | 'OR'
-				items: (UnitCode | CourseRequirement)[]
-		  }
-		| undefined
-}
-
-interface Course extends HandbookThing {
-	requirement: CourseRequirement
-	abbreviatedName: string
-}
-
 // const courses = await Promise.all(
 // 	courseCodes.map(async (code): Promise<Course> => {
 // 		const {title, abbreviated_name, curriculumStructure} =
@@ -132,16 +118,6 @@ type UnitRequisiteContainer = {
 		| {relationship: UnitRequisiteRelationship[]}
 		| {relationships: UnitRequisiteRelationship[]}
 	)
-
-type RequisiteType = 'prerequisite' | 'prohibitions'
-
-type Offering =
-	| 'First semester'
-	| 'Second semester'
-	| 'November teaching period'
-	| 'Summer semester A'
-	| 'Summer semester B'
-
 interface UnitResponse {
 	title: string
 	unit_code: string
@@ -153,28 +129,13 @@ interface UnitResponse {
 			value: string
 		}
 		teaching_period: {
-			value: Offering
+			value: TeachingPeriod
 		}
 	}[]
 	requisites: {
 		requisite_type: {value: RequisiteType}
 		container: UnitRequisiteContainer[]
 	}[]
-}
-
-interface UnitRequirement {
-	operator: 'AND' | 'OR'
-	items: (UnitCode | UnitRequirement)[]
-}
-
-interface Requisite {
-	type: RequisiteType
-	requirement: UnitRequirement
-}
-
-interface Unit extends HandbookThing {
-	offerings: Offering[]
-	requisites: Requisite[]
 }
 
 const parseUnitRequirement = (

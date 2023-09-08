@@ -38,12 +38,19 @@ importers:
       express:
         specifier: ^4.18.2
         version: 4.18.2
+      shared:
+        specifier: workspace:^1.0.0
+        version: link:../shared
     devDependencies:
       '@types/node':
         specifier: ^20.5.9
         version: 20.5.9
 
   frontend:
+    dependencies:
+      shared:
+        specifier: workspace:^1.0.0
+        version: link:../shared
     devDependencies:
       '@sveltejs/vite-plugin-svelte':
         specifier: ^2.4.2
@@ -72,6 +79,9 @@ importers:
       node-html-parser:
         specifier: ^6.1.8
         version: 6.1.8
+      shared:
+        specifier: workspace:^1.0.0
+        version: link:../shared
     devDependencies:
       '@types/node':
         specifier: ^20.5.9
@@ -79,6 +89,8 @@ importers:
       undici:
         specifier: ^5.23.0
         version: 5.23.0
+
+  shared: {}
 
 packages:
 

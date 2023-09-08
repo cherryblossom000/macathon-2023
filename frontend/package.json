@@ -9,6 +9,9 @@
 		"check": "svelte-check --tsconfig ./tsconfig.json",
 		"lint": "eslint --ext cjs,ts,svelte ."
 	},
+	"dependencies": {
+		"shared": "workspace:^1.0.0"
+	},
 	"devDependencies": {
 		"@sveltejs/vite-plugin-svelte": "^2.4.2",
 		"@tsconfig/svelte": "^5.0.0",
