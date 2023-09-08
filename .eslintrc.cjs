@@ -29,9 +29,19 @@ module.exports = {
 				'plugin:@typescript-eslint/stylistic-type-checked',
 				'plugin:@typescript-eslint/strict-type-checked',
 			],
+			settings: {
+				'import/resolver': {
+					typescript: {
+						project: projects.map(project =>
+							path.join(tsconfigRootDir, project),
+						),
+					},
+				},
+			},
 			parserOptions: {
 				project: [
 					'frontend/tsconfig.json',
+					'frontend/tsconfig.node.json',
 					'backend/tsconfig.json',
 					'shared/tsconfig.json',
 				],
@@ -42,15 +52,6 @@ module.exports = {
 			rules: {
 				'@typescript-eslint/no-confusing-void-expression': 0,
 				'@typescript-eslint/no-non-null-assertion': 0,
-			},
-			settings: {
-				'import/resolver': {
-					typescript: {
-						project: projects.map(project =>
-							path.join(tsconfigRootDir, project),
-						),
-					},
-				},
 			},
 		},
 	],

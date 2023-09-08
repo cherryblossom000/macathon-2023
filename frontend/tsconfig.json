@@ -1,10 +1,25 @@
 {
-	"extends": "../tsconfig.settings.json",
+	"include": ["src/**/*.d.ts", "src/**/*.ts", "src/**/*.js", "src/**/*.svelte"],
+	"extends": ["../tsconfig.settings.json", "@tsconfig/svelte/tsconfig.json"],
 	"compilerOptions": {
 		"rootDir": "src",
 		"outDir": "dist",
+		"lib": ["ES2023", "DOM"],
 		"module": "ES2022",
-		"moduleResolution": "Bundler"
+		"moduleResolution": "Bundler",
+		"resolveJsonModule": true,
+		/**
+		 * Typecheck JS in `.svelte` and `.js` files by default.
+		 * Disable checkJs if you'd like to use dynamic types in JS.
+		 * Note that setting allowJs false does not prevent the use
+		 * of JS in `.svelte` files.
+		 */
+		"allowJs": true,
+		"checkJs": true,
+		"isolatedModules": true
 	},
-	"references": [{"path": "../shared/tsconfig.json"}]
+	"references": [
+		{"path": "../shared/tsconfig.json"},
+		{"path": "./tsconfig.node.json"}
+	]
 }

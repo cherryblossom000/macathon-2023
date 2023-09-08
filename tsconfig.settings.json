@@ -7,7 +7,7 @@
 		"sourceMap": true,
 		"allowSyntheticDefaultImports": true,
 
-		"lib": ["ES2022"],
+		"lib": ["ES2023"],
 		"allowUnreachableCode": false,
 		"exactOptionalPropertyTypes": true,
 		"forceConsistentCasingInFileNames": true,

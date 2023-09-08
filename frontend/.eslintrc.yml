@@ -1,0 +1,8 @@
+overrides:
+- files: src/**/*.svelte
+  extends:
+  - plugin:svelte/recommended
+  - plugin:svelte/prettier
+  parser: svelte-eslint-parser
+  parserOptions:
+    parser: '@typescript-eslint/parser'

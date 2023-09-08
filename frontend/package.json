@@ -1,10 +1,21 @@
 {
 	"name": "frontend",
 	"version": "1.0.0",
-	"main": "dist/index.js",
+	"type": "module",
 	"scripts": {
-		"build": "tsc -b",
-		"watch": "tsc -bw",
-		"lint": "eslint --ext cjs,ts ."
+		"dev": "vite",
+		"build": "vite build",
+		"preview": "vite preview",
+		"check": "svelte-check --tsconfig ./tsconfig.json",
+		"lint": "eslint --ext cjs,ts,svelte ."
+	},
+	"devDependencies": {
+		"@sveltejs/vite-plugin-svelte": "^2.4.2",
+		"@tsconfig/svelte": "^5.0.0",
+		"eslint-plugin-svelte": "^2.33.0",
+		"svelte": "^4.0.5",
+		"svelte-check": "^3.4.6",
+		"tslib": "^2.6.0",
+		"vite": "^4.4.5"
 	}
 }
