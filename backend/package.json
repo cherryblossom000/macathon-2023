@@ -4,9 +4,12 @@
   "description": "",
   "main": "dist/index.js",
   "scripts": {
-		"build": "tsc -b",
-		"watch": "tsc -bw"
-	},
+    "build": "tsc -b",
+    "watch": "tsc -bw"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
   "devDependencies": {
     "@types/node": "^20.5.9"
   }
