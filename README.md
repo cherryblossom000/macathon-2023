@@ -7,6 +7,20 @@ This is a monorepo. To setup:
 
 You can run `pnpm run build` or `pnpm run lint` in any of the `backend`/`frontend`/`shared` directories as well.
 
-`shared` is for anything that we might need across both frontend and backend (e.g. types and other utility stuff).
-
 Prettier is set up here. You can get the Prettier VS Code extension or just run `pnpm run lint -- --fix` to fix things. You can also do `pnpm exec prettier -w **/*.{ts,svelte}`.
+
+## `frontend`
+
+follow instructions in `frontend/README.md`
+
+## `backend`
+
+`node .` to start
+
+## `shared`
+
+This is for anything that we might need across both frontend and backend (e.g. types and other utility stuff).
+
+## `scraper`
+
+`node .` to start
