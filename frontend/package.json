@@ -4,6 +4,7 @@
   "main": "dist/index.js",
   "scripts": {
 		"build": "tsc -b",
-		"watch": "tsc -bw"
+		"watch": "tsc -bw",
+    "lint": "eslint --ext cjs,ts ."
 	}
 }

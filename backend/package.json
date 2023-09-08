@@ -5,7 +5,8 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc -b",
-    "watch": "tsc -bw"
+    "watch": "tsc -bw",
+    "lint": "eslint --ext cjs,ts ."
   },
   "dependencies": {
     "express": "^4.18.2"

@@ -1,0 +1,4 @@
+- install pnpm
+- run `pnpm install`
+- run `pnpm run build` to build
+- run `pnpm run lint ` to lint
