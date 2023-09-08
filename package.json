@@ -10,7 +10,7 @@
 	},
 	"scripts": {
 		"build": "tsc -b",
-		"watch": "tsc -bw",
+		"watch": "tsc -b -w",
 		"lint": "eslint --ext cjs,ts,svelte ."
 	},
 	"devDependencies": {
