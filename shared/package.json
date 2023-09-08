@@ -1,13 +1,9 @@
 {
-  "name": "backend",
+  "name": "shared",
   "version": "1.0.0",
-  "description": "",
   "main": "dist/index.js",
   "scripts": {
 		"build": "tsc -b",
 		"watch": "tsc -bw"
-	},
-  "devDependencies": {
-    "@types/node": "^20.5.9"
-  }
+	}
 }
