@@ -202,17 +202,20 @@ const seq = async <T>(xs: readonly T[]): Promise<Awaited<T>[]> => {
 const dir = new URL('../data/', import.meta.url)
 
 const fetchUnit = async (code: UnitCode): Promise<void> => {
-	console.log(code)
+	// console.log(code)
 	const {title, unit_offering, requisites} = await getNextJSData<UnitResponse>(
 		`units/${code}`,
 	)
+	if (!unit_offering?.length) {
+		console.log(`${code} not offered`)
+		return
+	}
 	const unit: Unit = {
 		code,
 		title,
-		offerings:
-			unit_offering?.flatMap(o =>
-				o.location.value === 'Clayton' ? [o.teaching_period.value] : [],
-			) ?? [],
+		offerings: unit_offering.flatMap(o =>
+			o.location.value === 'Clayton' ? [o.teaching_period.value] : [],
+		),
 		requisites: requisites.map(r => ({
 			type: r.requisite_type.value,
 			requirement: {
