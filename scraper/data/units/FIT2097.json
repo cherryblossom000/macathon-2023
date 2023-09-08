@@ -1,0 +1,23 @@
+{
+	"code": "FIT2097",
+	"title": "Games programming 2",
+	"offerings": [
+		"Second semester"
+	],
+	"requisites": [
+		{
+			"type": "prerequisite",
+			"requirement": {
+				"operator": "AND",
+				"items": [
+					{
+						"operator": "AND",
+						"items": [
+							"FIT2096"
+						]
+					}
+				]
+			}
+		}
+	]
+}

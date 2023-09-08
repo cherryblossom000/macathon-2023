@@ -1,0 +1,50 @@
+{
+	"code": "FIT3077",
+	"title": "Software engineering: Architecture and design",
+	"offerings": [
+		"First semester"
+	],
+	"requisites": [
+		{
+			"type": "prohibitions",
+			"requirement": {
+				"operator": "AND",
+				"items": [
+					{
+						"operator": "AND",
+						"items": [
+							"FZA3077"
+						]
+					}
+				]
+			}
+		},
+		{
+			"type": "prerequisite",
+			"requirement": {
+				"operator": "AND",
+				"items": [
+					{
+						"operator": "OR",
+						"items": [
+							{
+								"operator": "AND",
+								"items": [
+									{
+										"operator": "OR",
+										"items": [
+											"FIT2004",
+											"FIT2081"
+										]
+									},
+									"FIT2001"
+								]
+							},
+							"FIT2099"
+						]
+					}
+				]
+			}
+		}
+	]
+}

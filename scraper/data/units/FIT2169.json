@@ -1,0 +1,35 @@
+{
+	"code": "FIT2169",
+	"title": "Immersive environments",
+	"offerings": [],
+	"requisites": [
+		{
+			"type": "prohibitions",
+			"requirement": {
+				"operator": "AND",
+				"items": [
+					{
+						"operator": "AND",
+						"items": [
+							"FIT3169"
+						]
+					}
+				]
+			}
+		},
+		{
+			"type": "prerequisite",
+			"requirement": {
+				"operator": "AND",
+				"items": [
+					{
+						"operator": "AND",
+						"items": [
+							"FIT1033"
+						]
+					}
+				]
+			}
+		}
+	]
+}

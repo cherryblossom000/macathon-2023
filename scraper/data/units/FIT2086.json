@@ -1,0 +1,38 @@
+{
+	"code": "FIT2086",
+	"title": "Modelling for data analysis",
+	"offerings": [
+		"Second semester"
+	],
+	"requisites": [
+		{
+			"type": "prerequisite",
+			"requirement": {
+				"operator": "AND",
+				"items": [
+					{
+						"operator": "AND",
+						"items": [
+							{
+								"operator": "OR",
+								"items": [
+									"FIT1053",
+									"FIT1045"
+								]
+							},
+							{
+								"operator": "OR",
+								"items": [
+									"MTH1035",
+									"ENG1005",
+									"MAT1841",
+									"MTH1030"
+								]
+							}
+						]
+					}
+				]
+			}
+		}
+	]
+}

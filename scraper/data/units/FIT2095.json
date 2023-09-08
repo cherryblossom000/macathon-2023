@@ -1,0 +1,31 @@
+{
+	"code": "FIT2095",
+	"title": "e-Business software technologies",
+	"offerings": [
+		"Second semester"
+	],
+	"requisites": [
+		{
+			"type": "prerequisite",
+			"requirement": {
+				"operator": "AND",
+				"items": [
+					{
+						"operator": "AND",
+						"items": [
+							{
+								"operator": "OR",
+								"items": [
+									"FIT1045",
+									"FIT1048",
+									"FIT1051",
+									"FIT1053"
+								]
+							}
+						]
+					}
+				]
+			}
+		}
+	]
+}

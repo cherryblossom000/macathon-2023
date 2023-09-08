@@ -1,0 +1,35 @@
+{
+	"code": "FIT3187",
+	"title": "3D character animation",
+	"offerings": [],
+	"requisites": [
+		{
+			"type": "prerequisite",
+			"requirement": {
+				"operator": "AND",
+				"items": [
+					{
+						"operator": "AND",
+						"items": [
+							"FIT1033"
+						]
+					}
+				]
+			}
+		},
+		{
+			"type": "prohibitions",
+			"requirement": {
+				"operator": "AND",
+				"items": [
+					{
+						"operator": "AND",
+						"items": [
+							"FIT2087"
+						]
+					}
+				]
+			}
+		}
+	]
+}

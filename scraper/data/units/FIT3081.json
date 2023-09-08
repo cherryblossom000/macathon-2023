@@ -1,0 +1,22 @@
+{
+	"code": "FIT3081",
+	"title": "Image processing",
+	"offerings": [],
+	"requisites": [
+		{
+			"type": "prerequisite",
+			"requirement": {
+				"operator": "AND",
+				"items": [
+					{
+						"operator": "OR",
+						"items": [
+							"FIT1008",
+							"FIT2085"
+						]
+					}
+				]
+			}
+		}
+	]
+}

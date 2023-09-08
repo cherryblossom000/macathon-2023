@@ -1,0 +1,24 @@
+{
+	"code": "FIT2098",
+	"title": "Virtual and augmented reality",
+	"offerings": [
+		"Second semester"
+	],
+	"requisites": [
+		{
+			"type": "prerequisite",
+			"requirement": {
+				"operator": "AND",
+				"items": [
+					{
+						"operator": "OR",
+						"items": [
+							"FIT1033",
+							"DIS1911"
+						]
+					}
+				]
+			}
+		}
+	]
+}

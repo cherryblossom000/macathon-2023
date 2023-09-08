@@ -1,0 +1,45 @@
+{
+	"code": "FIT3152",
+	"title": "Data analytics",
+	"offerings": [
+		"First semester"
+	],
+	"requisites": [
+		{
+			"type": "prohibitions",
+			"requirement": {
+				"operator": "AND",
+				"items": [
+					{
+						"operator": "AND",
+						"items": [
+							"ETX2250"
+						]
+					}
+				]
+			}
+		},
+		{
+			"type": "prerequisite",
+			"requirement": {
+				"operator": "AND",
+				"items": [
+					{
+						"operator": "OR",
+						"items": [
+							"ETC1000",
+							"ETW1000",
+							"ETF1100",
+							"ETW1010",
+							"FIT1006",
+							"FIT2086",
+							"ETW2111",
+							"ETC1010",
+							"STA1010"
+						]
+					}
+				]
+			}
+		}
+	]
+}

@@ -1,0 +1,52 @@
+{
+	"code": "FIT2085",
+	"title": "Introduction to computer science for engineers",
+	"offerings": [
+		"First semester",
+		"Second semester"
+	],
+	"requisites": [
+		{
+			"type": "prohibitions",
+			"requirement": {
+				"operator": "AND",
+				"items": [
+					{
+						"operator": "AND",
+						"items": [
+							"FIT1054",
+							"FIT1008"
+						]
+					}
+				]
+			}
+		},
+		{
+			"type": "prerequisite",
+			"requirement": {
+				"operator": "AND",
+				"items": [
+					{
+						"operator": "AND",
+						"items": [
+							{
+								"operator": "OR",
+								"items": [
+									"ENG1003",
+									"ENG1013"
+								]
+							},
+							{
+								"operator": "OR",
+								"items": [
+									"ENG1060",
+									"ENG1014"
+								]
+							}
+						]
+					}
+				]
+			}
+		}
+	]
+}

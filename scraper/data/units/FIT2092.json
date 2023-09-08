@@ -1,0 +1,23 @@
+{
+	"code": "FIT2092",
+	"title": "Interactive media studio 2",
+	"offerings": [
+		"Second semester"
+	],
+	"requisites": [
+		{
+			"type": "prerequisite",
+			"requirement": {
+				"operator": "AND",
+				"items": [
+					{
+						"operator": "AND",
+						"items": [
+							"FIT2091"
+						]
+					}
+				]
+			}
+		}
+	]
+}

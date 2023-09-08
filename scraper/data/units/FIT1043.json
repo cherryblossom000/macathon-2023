@@ -1,0 +1,23 @@
+{
+	"code": "FIT1043",
+	"title": "Introduction to data science",
+	"offerings": [
+		"Second semester"
+	],
+	"requisites": [
+		{
+			"type": "prohibitions",
+			"requirement": {
+				"operator": "AND",
+				"items": [
+					{
+						"operator": "AND",
+						"items": [
+							"FIT5145"
+						]
+					}
+				]
+			}
+		}
+	]
+}

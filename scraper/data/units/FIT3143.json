@@ -1,0 +1,23 @@
+{
+	"code": "FIT3143",
+	"title": "Parallel computing",
+	"offerings": [
+		"Second semester"
+	],
+	"requisites": [
+		{
+			"type": "prerequisite",
+			"requirement": {
+				"operator": "AND",
+				"items": [
+					{
+						"operator": "AND",
+						"items": [
+							"FIT2004"
+						]
+					}
+				]
+			}
+		}
+	]
+}

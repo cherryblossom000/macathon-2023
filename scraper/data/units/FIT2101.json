@@ -1,0 +1,45 @@
+{
+	"code": "FIT2101",
+	"title": "Software engineering process and management",
+	"offerings": [
+		"Second semester"
+	],
+	"requisites": [
+		{
+			"type": "prerequisite",
+			"requirement": {
+				"operator": "AND",
+				"items": [
+					{
+						"operator": "OR",
+						"items": [
+							{
+								"operator": "AND",
+								"items": [
+									{
+										"operator": "OR",
+										"items": [
+											"ENG1013",
+											"ENG1003"
+										]
+									},
+									{
+										"operator": "OR",
+										"items": [
+											"ENG1060",
+											"ENG1014"
+										]
+									}
+								]
+							},
+							"FIT1048",
+							"FIT1051",
+							"FIT1045",
+							"FIT1053"
+						]
+					}
+				]
+			}
+		}
+	]
+}

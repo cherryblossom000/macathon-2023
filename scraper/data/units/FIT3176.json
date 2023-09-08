@@ -1,0 +1,24 @@
+{
+	"code": "FIT3176",
+	"title": "Advanced database design",
+	"offerings": [
+		"Second semester"
+	],
+	"requisites": [
+		{
+			"type": "prerequisite",
+			"requirement": {
+				"operator": "AND",
+				"items": [
+					{
+						"operator": "OR",
+						"items": [
+							"FIT2094",
+							"FIT3171"
+						]
+					}
+				]
+			}
+		}
+	]
+}

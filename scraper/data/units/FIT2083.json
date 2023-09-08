@@ -1,0 +1,39 @@
+{
+	"code": "FIT2083",
+	"title": "Innovation and research in computer science",
+	"offerings": [
+		"First semester"
+	],
+	"requisites": [
+		{
+			"type": "prerequisite",
+			"requirement": {
+				"operator": "AND",
+				"items": [
+					{
+						"operator": "OR",
+						"items": [
+							"MAT1841",
+							"MTH1030",
+							"MTH1035"
+						]
+					}
+				]
+			}
+		},
+		{
+			"type": "prohibitions",
+			"requirement": {
+				"operator": "AND",
+				"items": [
+					{
+						"operator": "AND",
+						"items": [
+							"FIT4005"
+						]
+					}
+				]
+			}
+		}
+	]
+}

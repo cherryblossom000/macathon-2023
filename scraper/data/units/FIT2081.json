@@ -1,0 +1,40 @@
+{
+	"code": "FIT2081",
+	"title": "Mobile application development",
+	"offerings": [
+		"First semester"
+	],
+	"requisites": [
+		{
+			"type": "prohibitions",
+			"requirement": {
+				"operator": "AND",
+				"items": [
+					{
+						"operator": "AND",
+						"items": [
+							"FZA2081"
+						]
+					}
+				]
+			}
+		},
+		{
+			"type": "prerequisite",
+			"requirement": {
+				"operator": "AND",
+				"items": [
+					{
+						"operator": "OR",
+						"items": [
+							"FIT1045",
+							"FIT1048",
+							"FIT1051",
+							"FIT1053"
+						]
+					}
+				]
+			}
+		}
+	]
+}

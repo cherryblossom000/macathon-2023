@@ -1,0 +1,42 @@
+{
+	"code": "FIT2002",
+	"title": "IT project management",
+	"offerings": [
+		"Second semester"
+	],
+	"requisites": [
+		{
+			"type": "prerequisite",
+			"requirement": {
+				"operator": "AND",
+				"items": [
+					{
+						"operator": "OR",
+						"items": [
+							"FIT1045",
+							"ENG1003",
+							"FIT1048",
+							"ENG1013",
+							"FIT1051",
+							"FIT1053"
+						]
+					}
+				]
+			}
+		},
+		{
+			"type": "prohibitions",
+			"requirement": {
+				"operator": "AND",
+				"items": [
+					{
+						"operator": "AND",
+						"items": [
+							"FZA2002"
+						]
+					}
+				]
+			}
+		}
+	]
+}

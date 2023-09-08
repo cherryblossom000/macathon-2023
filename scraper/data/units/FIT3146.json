@@ -1,0 +1,28 @@
+{
+	"code": "FIT3146",
+	"title": "Maker lab",
+	"offerings": [
+		"Second semester"
+	],
+	"requisites": [
+		{
+			"type": "prerequisite",
+			"requirement": {
+				"operator": "AND",
+				"items": [
+					{
+						"operator": "OR",
+						"items": [
+							"ENG1003",
+							"ENG1013",
+							"FIT1048",
+							"FIT1053",
+							"FIT1051",
+							"FIT1045"
+						]
+					}
+				]
+			}
+		}
+	]
+}

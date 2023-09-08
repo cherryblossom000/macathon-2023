@@ -1,0 +1,23 @@
+{
+	"code": "FIT3094",
+	"title": "Artificial life, artificial intelligence and virtual environments",
+	"offerings": [
+		"First semester"
+	],
+	"requisites": [
+		{
+			"type": "prerequisite",
+			"requirement": {
+				"operator": "AND",
+				"items": [
+					{
+						"operator": "AND",
+						"items": [
+							"FIT2096"
+						]
+					}
+				]
+			}
+		}
+	]
+}

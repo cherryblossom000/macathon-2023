@@ -1,0 +1,41 @@
+{
+	"code": "FIT2094",
+	"title": "Databases",
+	"offerings": [
+		"Second semester",
+		"First semester"
+	],
+	"requisites": [
+		{
+			"type": "prohibitions",
+			"requirement": {
+				"operator": "AND",
+				"items": [
+					{
+						"operator": "AND",
+						"items": [
+							"FIT3171"
+						]
+					}
+				]
+			}
+		},
+		{
+			"type": "prerequisite",
+			"requirement": {
+				"operator": "AND",
+				"items": [
+					{
+						"operator": "OR",
+						"items": [
+							"FIT1051",
+							"FIT1045",
+							"FIT1053",
+							"FIT1048"
+						]
+					}
+				]
+			}
+		}
+	]
+}

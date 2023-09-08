@@ -1,0 +1,23 @@
+{
+	"code": "FIT3154",
+	"title": "Advanced data analysis",
+	"offerings": [
+		"Second semester"
+	],
+	"requisites": [
+		{
+			"type": "prerequisite",
+			"requirement": {
+				"operator": "AND",
+				"items": [
+					{
+						"operator": "AND",
+						"items": [
+							"FIT2086"
+						]
+					}
+				]
+			}
+		}
+	]
+}

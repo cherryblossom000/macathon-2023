@@ -1,0 +1,23 @@
+{
+	"code": "FIT3180",
+	"title": "Data management for health informatics",
+	"offerings": [
+		"Second semester"
+	],
+	"requisites": [
+		{
+			"type": "prerequisite",
+			"requirement": {
+				"operator": "AND",
+				"items": [
+					{
+						"operator": "AND",
+						"items": [
+							"FIT1052"
+						]
+					}
+				]
+			}
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"code": "FIT3157",
+	"title": "Advanced web design",
+	"offerings": [],
+	"requisites": [
+		{
+			"type": "prerequisite",
+			"requirement": {
+				"operator": "AND",
+				"items": [
+					{
+						"operator": "OR",
+						"items": [
+							"FIT1050",
+							"FIT2092",
+							"ENG1003",
+							"ENG1013"
+						]
+					}
+				]
+			}
+		}
+	]
+}

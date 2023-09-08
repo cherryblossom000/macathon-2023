@@ -1,0 +1,38 @@
+{
+	"code": "FIT3031",
+	"title": "Network security",
+	"offerings": [
+		"Second semester"
+	],
+	"requisites": [
+		{
+			"type": "prohibitions",
+			"requirement": {
+				"operator": "AND",
+				"items": [
+					{
+						"operator": "AND",
+						"items": [
+							"FZA3031"
+						]
+					}
+				]
+			}
+		},
+		{
+			"type": "prerequisite",
+			"requirement": {
+				"operator": "AND",
+				"items": [
+					{
+						"operator": "AND",
+						"items": [
+							"FIT1047",
+							"FIT2093"
+						]
+					}
+				]
+			}
+		}
+	]
+}

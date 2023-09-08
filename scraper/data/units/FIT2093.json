@@ -1,0 +1,37 @@
+{
+	"code": "FIT2093",
+	"title": "Introduction to cyber security",
+	"offerings": [
+		"First semester"
+	],
+	"requisites": [
+		{
+			"type": "prerequisite",
+			"requirement": {
+				"operator": "AND",
+				"items": [
+					{
+						"operator": "AND",
+						"items": [
+							{
+								"operator": "AND",
+								"items": [
+									"FIT1047"
+								]
+							},
+							{
+								"operator": "OR",
+								"items": [
+									"FIT1051",
+									"FIT1053",
+									"FIT1045",
+									"FIT1048"
+								]
+							}
+						]
+					}
+				]
+			}
+		}
+	]
+}

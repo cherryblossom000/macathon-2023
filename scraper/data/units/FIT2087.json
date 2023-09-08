@@ -1,0 +1,24 @@
+{
+	"code": "FIT2087",
+	"title": "3D character animation",
+	"offerings": [
+		"First semester"
+	],
+	"requisites": [
+		{
+			"type": "prerequisite",
+			"requirement": {
+				"operator": "AND",
+				"items": [
+					{
+						"operator": "OR",
+						"items": [
+							"DIS1911",
+							"FIT1033"
+						]
+					}
+				]
+			}
+		}
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"code": "FIT2082",
+	"title": "Computer science research project",
+	"offerings": [
+		"Second semester"
+	],
+	"requisites": [
+		{
+			"type": "prerequisite",
+			"requirement": {
+				"operator": "AND",
+				"items": [
+					{
+						"operator": "AND",
+						"items": [
+							"FIT2083"
+						]
+					}
+				]
+			}
+		}
+	]
+}

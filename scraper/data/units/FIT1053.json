@@ -1,0 +1,23 @@
+{
+	"code": "FIT1053",
+	"title": "Introduction to programming: Advanced",
+	"offerings": [
+		"First semester"
+	],
+	"requisites": [
+		{
+			"type": "prohibitions",
+			"requirement": {
+				"operator": "AND",
+				"items": [
+					{
+						"operator": "OR",
+						"items": [
+							"FIT1045"
+						]
+					}
+				]
+			}
+		}
+	]
+}

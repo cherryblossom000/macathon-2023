@@ -1,0 +1,24 @@
+{
+	"code": "FIT2001",
+	"title": "Systems development",
+	"offerings": [
+		"First semester",
+		"Second semester"
+	],
+	"requisites": [
+		{
+			"type": "prohibitions",
+			"requirement": {
+				"operator": "AND",
+				"items": [
+					{
+						"operator": "AND",
+						"items": [
+							"FZA2001"
+						]
+					}
+				]
+			}
+		}
+	]
+}
