@@ -14,6 +14,7 @@ import {
 	type GetSpecialisationResponse,
 } from 'shared/dist/api.js'
 import * as data from './data.js'
+import {construct_schedule} from './schedule.js'
 
 const app = express()
 
@@ -33,7 +34,6 @@ const handler =
 		Record<string, unknown>
 	> =>
 	(req, res) => {
-		console.log(req[prop])
 		pipe(
 			type.decode(req[prop]),
 			E.fold(
@@ -57,8 +57,10 @@ app.get(
 		HandbookThingRequest,
 		'query',
 		({code}): HandlerResult<GetCourseResponse> => {
-			const x = data.courses.find(c => c.code === code)
-			return x ? E.right(x) : E.left({code: 404, data: 'course not found'})
+			const course = data.courses.find(c => c.code === code)
+			return course
+				? E.right(course)
+				: E.left({code: 404, data: 'course not found'})
 		},
 	),
 )
@@ -68,8 +70,10 @@ app.get(
 		HandbookThingRequest,
 		'query',
 		({code}): HandlerResult<GetSpecialisationResponse> => {
-			const x = data.specialisations.find(c => c.code === code)
-			return x ? E.right(x) : E.left({code: 404, data: 'course not found'})
+			const specialisation = data.specialisations.find(c => c.code === code)
+			return specialisation
+				? E.right(specialisation)
+				: E.left({code: 404, data: 'specialisation not found'})
 		},
 	),
 )
@@ -80,9 +84,7 @@ app.get(
 		'query',
 		({code}): HandlerResult<GetUnitResponse> => {
 			const unit = data.units.find(c => c.code === code)
-			return unit
-				? E.right(unit)
-				: E.left({code: 404, data: 'course not found'})
+			return unit ? E.right(unit) : E.left({code: 404, data: 'unit not found'})
 		},
 	),
 )
@@ -92,8 +94,17 @@ app.post(
 	handler(
 		CreateScheduleRequest,
 		'body',
-		({courseCode, unitCodes}): HandlerResult<CreateScheduleResponse> => {
-			throw 0
+		(params): HandlerResult<CreateScheduleResponse> => {
+			return pipe(
+				construct_schedule(params),
+				E.mapLeft(data => ({code: 500, data: data})),
+				E.map(s => ({
+					years: s.years.map(y => ({
+						sem1_units: y.sem1_units.map(u => u.code),
+						sem2_units: y.sem2_units.map(u => u.code),
+					})),
+				})),
+			)
 		},
 	),
 )
