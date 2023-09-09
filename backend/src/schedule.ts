@@ -126,6 +126,10 @@ export let can_add = (
 		A.map(req => {
 			if (req.type == 'prerequisite') {
 				let s = can_add_prereq_helper(current, before, req.requirement)
+
+        if (unit.code == "FIT2107") {
+          console.log("GOT",s, before.map(x => x.code))
+        }
         return s;
 			}
 			return can_add_prohib_helper(current, req.requirement)
@@ -320,13 +324,13 @@ export let construct_schedules = (
 
     // REMOVE NULLS WITH ELECTIVES
     for (let i = 0; i < sorted.length; i++) {
-      let cred_before = Math.floor(i/4) * 48
+      let cred_before = Math.floor(i/4) * 24
 
       // Need to fill it up
       if (typeof sorted[i] == "undefined") {
         let possible = [];
         for (let unit of shuffled_units) {
-          if (can_add(sched, unit, before, i%8<4?"First semester":"Second semester") && (typeof unit.creditPointPrerequisite == "undefined" || unit.creditPointPrerequisite!.points < cred_before)) {
+          if (can_add(sched, unit, before, i%8<4?"First semester":"Second semester") && (typeof unit.creditPointPrerequisite == "undefined" || unit.creditPointPrerequisite!.points < cred_before) && sorted.find(f => f==unit) == undefined) {
             possible.push(unit);
           }
         }

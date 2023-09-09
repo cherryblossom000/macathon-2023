@@ -3,6 +3,7 @@
 	"extends": "../tsconfig.settings.json",
 	"compilerOptions": {
 //		"noEmit": true,
+		"outDir": "dist",
 		"module": "Node16",
 		"moduleResolution": "Node16"
 	},
