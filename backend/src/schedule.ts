@@ -136,91 +136,93 @@ export let construct_schedules = (
 
 	while (schedules.length < 200) {
 		// step 1: toposort important units
-		let sorted: (Unit | string)[] = toposort('C2001')
+		let sorted: (Unit | undefined)[] = toposort('C2001')
+
 		// step 2: add gaps inbetween
 		let gaps = params.num_years * 8 - sorted.length
 
+		// TODO: REMOVE, INDRA SHOULD SEND DATA
+		// THESE ARE NOT VALIDATED
+
+		let to_insert = []
+		let inds = []
+
 		for (let i = 0; i < gaps; i++) {
-			sorted.splice(Math.floor(Math.random() * sorted.length), 0, 'EMPTY')
+			let u = units[0]!
+			while (sorted.includes(u)) {
+				u = units[Math.floor(Math.random() * sorted.length)]!
+			}
+			to_insert.push(u)
+
+			inds.push(Math.floor(Math.random() * sorted.length))
+			sorted.splice(inds[inds.length - 1]!, 0, undefined)
+		}
+		let points = (a: Unit) => {
+			if (a.creditPointPrerequisite != undefined) {
+				return a.creditPointPrerequisite.points
+			}
+			return 0
 		}
 
+		to_insert.sort((a: Unit, b: Unit) => points(a) - points(b))
+
 		// step 3: add electives
-
 		let good = true
-		console.log(
-			sorted.map(u => {
-				if (typeof u == 'string') {
-					return '_'
-				} else {
-					return u.code + ' '
-				}
-			}),
-		)
 
-		// validate semesters
-		let year1 = [0, 0],
-			year2 = [0, 0],
-			fit = 0,
-			total = 0
-
+		let counter = 0
 		for (let i = 0; i < sorted.length; i++) {
-			let unit = sorted[i]!
-			let sem: TeachingPeriod =
-				Math.floor(i % 8) < 4 ? 'First semester' : 'Second semester'
-
-			if (typeof unit !== 'string') {
-				if (unit.creditPointPrerequisite != undefined) {
-					let prereq = unit.creditPointPrerequisite
-
-					// FIT only, on current level only
-					if (prereq.fitOnly && prereq.levelOnly) {
-						if (unit.code[3] == '1' && year1[1]! < prereq.points / 6) {
-							good = false
-						}
-						if (unit.code[3] == '2' && year2[1]! < prereq.points / 6) {
-							good = false
-						}
-					} else if (prereq.fitOnly && fit < prereq.points / 6) {
-						good = false
-					}
-
-					if (!prereq.fitOnly && prereq.levelOnly) {
-						if (unit.code[3] == '1' && year1[0]! < prereq.points / 6) {
-							good = false
-						}
-						if (unit.code[3] == '2' && year2[0]! < prereq.points / 6) {
-							good = false
-						}
-					} else if (!prereq.levelOnly && total < prereq.points / 6) {
-						good = false
-					}
-				}
-				if (!unit.offerings.includes(sem)) {
-					// console.log('Failed', unit.code, ' in ', sem)
+			let before = Math.floor(i / 4) * 24
+			if (typeof sorted[i] == 'undefined') {
+				if (before < points(to_insert[counter]!)) {
 					good = false
 					break
 				}
+				sorted[i] = to_insert[counter]
+				counter += 1
+			}
+		}
 
-				if (good == false) {
-					break
-				}
+		if (!good) {
+			continue
+		}
+		console.log('Got here')
+		let without_nulls = sorted.filter(x => x != undefined) as Unit[]
+		assert(without_nulls.length == sorted.length)
 
-				if (unit.code.startsWith('FIT')) {
-					fit++
-				}
-				total++
+		// Validate semesters
+		for (let i = 0; i < sorted.length; i++) {
+			let unit = without_nulls[i]!
+			let sem: TeachingPeriod =
+				Math.floor(i % 8) < 4 ? 'First semester' : 'Second semester'
 
-				if (unit.code[3] == '1') {
-					year1[+unit.code.startsWith('FIT')]++
+			if (unit.creditPointPrerequisite != undefined) {
+				let prereq = unit.creditPointPrerequisite
+				// FIT only, on current level only
+				let done_before = Math.floor(i / 4) * 24
+
+				if (done_before < prereq.points) {
+					good = false
 				}
-				if (unit.code[3] == '2') {
-					year2[+unit.code.startsWith('FIT')]++
-				}
+			}
+			if (!unit.offerings.includes(sem)) {
+				// console.log('Failed', unit.code, ' in ', sem)
+				good = false
+				break
 			}
 		}
 
 		if (good) {
-			schedules.push(sorted)
+			schedules.push(without_nulls)
+
+			console.log(
+				without_nulls.map(u => {
+					if (typeof u == 'string') {
+						return '_'
+					} else {
+						return u.code + ' '
+					}
+				}),
+			)
 		}
 		// step 4: profit??
 	}
