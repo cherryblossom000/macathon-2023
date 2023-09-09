@@ -14,12 +14,14 @@ export default handler(
 	(params): HandlerResult<api.CreateSchedulesResponse> => {
 		return pipe(
 			params.wantedElectives,
-			A.traverse(E.getApplicativeValidation(A.getSemigroup<string>()))(u =>
-				pipe(
-					data.unitsMap.get(u),
-					O.fromNullable,
-					E.fromOption(() => [u]),
-				),
+			A.traverse(E.getApplicativeValidation(A.getSemigroup<string>()))(
+				({code, semester}) =>
+					pipe(
+						data.unitsMap.get(code),
+						O.fromNullable,
+						E.fromOption(() => [code]),
+						E.map(u => ({...u, semester})),
+					),
 			),
 			E.fold(
 				us => E.left({code: 400, data: `invalid units: ${us.join(', ')}`}),

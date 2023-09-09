@@ -12,7 +12,7 @@ import type {
 } from 'shared'
 
 type ScheduleParameters = Omit<_ScheduleParameters, 'wantedElectives'> & {
-	wantedElectives: Unit[]
+	wantedElectives: (Unit & {semester: 1 | 2 | undefined})[]
 }
 
 interface Year {
