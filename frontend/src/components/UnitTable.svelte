@@ -1,7 +1,7 @@
 <script lang="ts">
 	import UnitBox from './UnitBox.svelte'
 
-	import {appState, } from '../scripts/index'
+	import {appState} from '../scripts/index'
 </script>
 
 <table class="w-full border-separate border-spacing-2">
@@ -9,7 +9,7 @@
 		<tr>
 			<!--TODO: ADD ID TO AVOID BUGS-->
 			{#each sem.units as unit}
-				<UnitBox {unit}/>
+				<UnitBox {unit} />
 			{/each}
 		</tr>
 	{/each}

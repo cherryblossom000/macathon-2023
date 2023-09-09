@@ -6,7 +6,7 @@
 	"scripts": {
 		"build": "tsc -b",
 		"watch": "tsc -b -w",
-		"lint": "eslint --ext cjs,ts ."
+		"lint": "eslint --cache --ext cjs,ts ."
 	},
 	"dependencies": {
 		"fp-ts": "^2.16.1",

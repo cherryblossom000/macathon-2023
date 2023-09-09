@@ -8,7 +8,7 @@
 	import {get} from 'svelte/store'
 
 	const toElectives = () => {
-		if (get(appState).formUnits.length == 16)
+		if (get(appState).formUnits.length === 16)
 			appState.update(s => ({...s, stage: 'Table'}))
 	}
 </script>

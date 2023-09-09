@@ -14,6 +14,7 @@ module.exports = {
 	reportUnusedDisableDirectives: true,
 	extends: ['eslint:recommended', 'plugin:prettier/recommended'],
 	rules: {
+		eqeqeq: 1,
 		'prettier/prettier': 1,
 	},
 	env: {es2023: true},

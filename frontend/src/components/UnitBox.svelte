@@ -12,15 +12,15 @@
 		? `text-white bg-blue-600 border-4 border-blue-600`
 		: `text-black border-dashed border-black border`}
 		{//TODO This is fucked
-	unit != undefined &&
-	$appState.selectedUnit != undefined &&
-	$appState.selectedUnit.code == unit.code
+	unit !== undefined &&
+	$appState.selectedUnit !== undefined &&
+	$appState.selectedUnit.code === unit.code
 		? `!border-green-500 border-4`
 		: ``}
 		"
 	on:click={() => selectUnit(unit)}
 >
-	{#if unit != undefined}
+	{#if unit !== undefined}
 		<b>
 			{unit.code}
 		</b>

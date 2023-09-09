@@ -16,7 +16,7 @@
 					? s.formUnits.includes(sel)
 						? s.formUnits
 						: [...s.formUnits, sel]
-					: s.formUnits.filter(v => v != sel),
+					: s.formUnits.filter(v => v !== sel),
 			}))
 		}
 	}
@@ -29,7 +29,7 @@
 					? s.formUnits.includes(sel)
 						? s.formUnits
 						: [...s.formUnits, sel]
-					: s.formUnits.filter(v => v != sel),
+					: s.formUnits.filter(v => v !== sel),
 			})),
 		)
 	}
@@ -38,7 +38,7 @@
 		onDestroy(() =>
 			appState.update(s => ({
 				...s,
-				formUnits: s.formUnits.filter(v => v != sel),
+				formUnits: s.formUnits.filter(v => v !== sel),
 			})),
 		)
 	}

@@ -7,7 +7,7 @@
 		"build": "pnpm -C ../shared build && vite build",
 		"preview": "vite preview",
 		"check": "svelte-check --tsconfig ./tsconfig.json",
-		"lint": "eslint --ext cjs,ts,svelte ."
+		"lint": "eslint --cache --ext cjs,ts,svelte ."
 	},
 	"dependencies": {
 		"shared": "workspace:^1.0.0"
