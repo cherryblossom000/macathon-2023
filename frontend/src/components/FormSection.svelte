@@ -5,7 +5,7 @@
 	export let cur: CourseRequirement
 	export let depth: number = 0
 
-	$: selected = undefined as undefined | string | CourseRequirement
+	let selected: undefined | string | CourseRequirement = undefined
 
 	const isNestedReq = (
 		req: CourseRequirement['requirement'],
@@ -24,7 +24,7 @@
 	{:else}
 		<div class="flex flex-row flex-wrap">
 			{#each cur.requirement.items as next (next)}
-				<FormBox sel={next} selected={true} unit={true} />
+				<FormBox value={next} selected={true} unit={true} />
 			{/each}
 		</div>
 	{/if}
@@ -34,7 +34,7 @@
 			<!--Inside is more requirements.-->
 			{#each cur.requirement.items as next (next.title)}
 				<FormBox
-					sel={next.title}
+					value={next.title}
 					selected={next.title === selected}
 					onclick={() => (selected = next.title)}
 				/>
@@ -44,7 +44,7 @@
 			{#each cur.requirement.items as next (next)}
 				<FormBox
 					unit={true}
-					sel={next}
+					value={next}
 					selected={next === selected}
 					onclick={() => (selected = next)}
 				/>

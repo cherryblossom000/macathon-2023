@@ -2,10 +2,8 @@
 	import {onDestroy, onMount} from 'svelte'
 	import {appState} from '../scripts/index'
 
-	export let sel: string
-
+	export let value: string
 	export let selected: boolean
-
 	export let unit = false
 
 	$: {
@@ -13,10 +11,10 @@
 			appState.update(s => ({
 				...s,
 				formUnits: selected
-					? s.formUnits.includes(sel)
+					? s.formUnits.includes(value)
 						? s.formUnits
-						: [...s.formUnits, sel]
-					: s.formUnits.filter(v => v !== sel),
+						: [...s.formUnits, value]
+					: s.formUnits.filter(v => v !== value),
 			}))
 		}
 	}
@@ -26,10 +24,10 @@
 			appState.update(s => ({
 				...s,
 				formUnits: selected
-					? s.formUnits.includes(sel)
+					? s.formUnits.includes(value)
 						? s.formUnits
-						: [...s.formUnits, sel]
-					: s.formUnits.filter(v => v !== sel),
+						: [...s.formUnits, value]
+					: s.formUnits.filter(v => v !== value),
 			})),
 		)
 	}
@@ -38,7 +36,7 @@
 		onDestroy(() =>
 			appState.update(s => ({
 				...s,
-				formUnits: s.formUnits.filter(v => v !== sel),
+				formUnits: s.formUnits.filter(v => v !== value),
 			})),
 		)
 	}
@@ -52,5 +50,5 @@
 {selected ? 'border-green-500' : ''}
 "
 >
-	{sel}
+	{value}
 </button>
