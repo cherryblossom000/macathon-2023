@@ -1,0 +1,813 @@
+{
+	"contentTypeLabel": "Unit",
+	"published_in_handbook": {
+		"label": "Yes",
+		"value": "1"
+	},
+	"implementation_year": "2023",
+	"duration_ft_max": "",
+	"asced_detailed": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"grading_schema": {
+		"label": null,
+		"value": null
+	},
+	"study_level": [],
+	"quota_enrolment_requirements": "",
+	"status": {
+		"label": "Accredited",
+		"value": "Active"
+	},
+	"duration_pt_max": "",
+	"duration_pt_std": "",
+	"credit_points": "6",
+	"parent_id": {
+		"value": "Master Record: FIT1043",
+		"cl_id": "6e94aa10dbf4b300580f42a014961915",
+		"key": "code",
+		"type": "x_f5sl_cl_master_record"
+	},
+	"start_date": "",
+	"exclusions": "",
+	"unit_code": "FIT1043",
+	"academic_org": {
+		"value": "Faculty of Information Technology",
+		"cl_id": "c5684a53dba8a3406add773c349619a1",
+		"key": "name"
+	},
+	"sms_version": "",
+	"level": {
+		"label": "Level 1",
+		"value": "2"
+	},
+	"uac_code": "",
+	"special_requirements": "",
+	"duration_pt_min": "",
+	"special_unit_type": [],
+	"title": "Introduction to data science",
+	"duration_ft_std": "",
+	"version": "6",
+	"learning_experiences": null,
+	"duration_ft_min": "",
+	"callista_version": "",
+	"duration_ft_period": {
+		"label": null,
+		"value": null
+	},
+	"asced_narrow": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"subclass": {
+		"label": "Unit",
+		"value": "subject"
+	},
+	"type": {
+		"label": "Coursework",
+		"value": "600"
+	},
+	"quota_rationale": "",
+	"version_name": "2023.06",
+	"timetable_this_unit": "true",
+	"work_integrated_learning": [
+		{
+			"value": "None",
+			"cl_id": "8ef5d77bdb122300e5cf3391f496191d",
+			"key": "label"
+		}
+	],
+	"cl_id": "a6212415dbe8fd90101196cbd3961980",
+	"school": {
+		"value": "Faculty of Information Technology",
+		"cl_id": "c5684a53dba8a3406add773c349619a1",
+		"key": "name"
+	},
+	"content": null,
+	"learning_and_teaching_resources": null,
+	"collaborating_disciplines": [],
+	"repeatable": "false",
+	"overview": "",
+	"end_date": "",
+	"duration_pt_period": {
+		"label": null,
+		"value": null
+	},
+	"sms_status": {
+		"label": null,
+		"value": null
+	},
+	"learning_materials": null,
+	"special_topic": "false",
+	"asced_broad": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"publish_tuition_fees": "true",
+	"placement_proportion": {
+		"label": null,
+		"value": null
+	},
+	"code": "FIT1043",
+	"other_unit_costs": "",
+	"eftsl": {
+		"label": "0.125",
+		"value": "0.125"
+	},
+	"contact_information": "",
+	"highest_sca_band": {
+		"label": "SCA Band 2",
+		"value": "2"
+	},
+	"lo_additional_information": "<p>On successful completion of this unit, you should be able to:</p>",
+	"handbook_assessment_summary": "<p>This unit has threshold mark hurdles. You must achieve at least 45% of the available marks in the final scheduled assessment, at least 45% in total for in-semester assessments, and an overall unit mark of 50% or more to be able to pass the unit. If you do not achieve the threshold mark, you will receive a fail grade (NH) and a maximum mark of 45 for the unit.</p>",
+	"quota_information": "",
+	"attendance_requirements": "",
+	"workload_requirements": "<p>Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled teaching activities.</p>",
+	"organisational_contact_information": "",
+	"handbook_synopsis": "<p>This unit looks at processes and case studies to understand the many facets of working with data, and the significant effort in Data Science over and above the core task of Data Analysis. Working with data as part of a business model and the lifecycle in an organisation is considered, as well as business processes and case studies. Data and its handling is also introduced: characteristic kinds of data and its collection, data storage and basic kinds of data preparation, data cleaning and data stream processing. Curation and management are reviewed: archival and architectural practice, policy, legal and ethical issues. Styles of data analysis and outcomes of successful data exploration and analysis are reviewed. Standards, tools and resources are also reviewed.</p>",
+	"special_note_to_students": "",
+	"undergrad_postgrad_both": {
+		"label": "Undergraduate",
+		"value": "undergraduate"
+	},
+	"area_of_study_links": "Data science<br />",
+	"fieldwork": "",
+	"unit_learning_outcomes": [
+		{
+			"lo_domain": [],
+			"order": "1",
+			"number": "1",
+			"code": "ULO1",
+			"lo_cl_id": "2221e415dbe8fd90101196cbd39619d5",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "977af0acdbf4b3003a731c0e04961927",
+			"academic_item": {
+				"value": "FIT1043",
+				"cl_id": "a6212415dbe8fd90101196cbd3961980",
+				"key": "code"
+			},
+			"description": "<p>Explain the role of data in different styles of business;</p>",
+			"cl_id": "2221e415dbe8fd90101196cbd39619d5",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "3",
+			"number": "3",
+			"code": "ULO3",
+			"lo_cl_id": "2221e415dbe8fd90101196cbd39619d6",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "fa3bbcecdbf4b3003a731c0e04961918",
+			"academic_item": {
+				"value": "FIT1043",
+				"cl_id": "a6212415dbe8fd90101196cbd3961980",
+				"key": "code"
+			},
+			"description": "<p>Identify tasks for data curation and management in an organisation;</p>",
+			"cl_id": "2221e415dbe8fd90101196cbd39619d6",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "5",
+			"number": "5",
+			"code": "ULO5",
+			"lo_cl_id": "6e21e415dbe8fd90101196cbd39619d5",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "5b9b3c20db38b3003a731c0e0496193c",
+			"academic_item": {
+				"value": "FIT1043",
+				"cl_id": "a6212415dbe8fd90101196cbd3961980",
+				"key": "code"
+			},
+			"description": "<p>Classify the kinds of data analysis and statistical methods available for a data science project;</p>",
+			"cl_id": "6e21e415dbe8fd90101196cbd39619d5",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "6",
+			"number": "6",
+			"code": "ULO6",
+			"lo_cl_id": "aa21e415dbe8fd90101196cbd39619d5",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "b8ebb460db38b3003a731c0e04961962",
+			"academic_item": {
+				"value": "FIT1043",
+				"cl_id": "a6212415dbe8fd90101196cbd3961980",
+				"key": "code"
+			},
+			"description": "<p>Locate suitable resources, software and tools for a data science project.</p>",
+			"cl_id": "aa21e415dbe8fd90101196cbd39619d5",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "2",
+			"number": "2",
+			"code": "ULO2",
+			"lo_cl_id": "e221e415dbe8fd90101196cbd39619d6",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "3fbaf8acdbf4b3003a731c0e049619fe",
+			"academic_item": {
+				"value": "FIT1043",
+				"cl_id": "a6212415dbe8fd90101196cbd3961980",
+				"key": "code"
+			},
+			"description": "<p>Demonstrate the size and scope of data storage and data processing, and classify the basic technologies in use;</p>",
+			"cl_id": "e221e415dbe8fd90101196cbd39619d6",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "4",
+			"number": "4",
+			"code": "ULO4",
+			"lo_cl_id": "e621e415dbe8fd90101196cbd39619d5",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "cf5bb020db38b3003a731c0e049619da",
+			"academic_item": {
+				"value": "FIT1043",
+				"cl_id": "a6212415dbe8fd90101196cbd3961980",
+				"key": "code"
+			},
+			"description": "<p>Classify participants in a data science project: such as statistician, archivist, analyst, and systems architect;</p>",
+			"cl_id": "e621e415dbe8fd90101196cbd39619d5",
+			"ga_map": []
+		}
+	],
+	"school_org_unit_data": [
+		{
+			"parent": {
+				"value": "",
+				"cl_id": null,
+				"key": "name"
+			},
+			"url": "https://www.monash.edu/it",
+			"name": "Faculty of Information Technology",
+			"cl_id": "c5684a53dba8a3406add773c349619a1"
+		}
+	],
+	"assessments": [
+		{
+			"subject": {
+				"value": "FIT1043",
+				"cl_id": "a6212415dbe8fd90101196cbd3961980",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": "Threshold",
+				"value": "threshold"
+			},
+			"hurdle_supplementary_assessment": "<p>This task is part of the in-semester assessment hurdle.</p>\n<p> </p>",
+			"number": "3",
+			"weight": "20",
+			"cl_id": "3221e415dbe8fd90101196cbd39619dc",
+			"assessment_name": "Assessment 3: Data science assignment 3",
+			"description": null,
+			"assessment_type": {
+				"label": "Assignment",
+				"value": "assignment"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT1043",
+				"cl_id": "a6212415dbe8fd90101196cbd3961980",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": "Threshold",
+				"value": "threshold"
+			},
+			"hurdle_supplementary_assessment": "<p>This task is part of the in-semester assessment hurdle.</p>\n<p> </p>",
+			"number": "2",
+			"weight": "20",
+			"cl_id": "7e21e415dbe8fd90101196cbd39619db",
+			"assessment_name": "Assessment 2: Data science assignment 2",
+			"description": null,
+			"assessment_type": {
+				"label": "Assignment",
+				"value": "assignment"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT1043",
+				"cl_id": "a6212415dbe8fd90101196cbd3961980",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": "Threshold",
+				"value": "threshold"
+			},
+			"hurdle_supplementary_assessment": "<p>This task is part of the in-semester assessment hurdle.</p>\n<p> </p>",
+			"number": "1",
+			"weight": "10",
+			"cl_id": "b621e415dbe8fd90101196cbd39619db",
+			"assessment_name": "Assessment 1: Data science assignment 1 ",
+			"description": null,
+			"assessment_type": {
+				"label": "Assignment",
+				"value": "assignment"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT1043",
+				"cl_id": "a6212415dbe8fd90101196cbd3961980",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": "Threshold",
+				"value": "threshold"
+			},
+			"hurdle_supplementary_assessment": "<p>The scheduled final assessment is a hurdle.</p>\n<p> </p>",
+			"number": "4",
+			"weight": "50",
+			"cl_id": "f221e415dbe8fd90101196cbd39619dc",
+			"assessment_name": "Scheduled final assessment (2 hours and 10 minutes)",
+			"description": null,
+			"assessment_type": {
+				"label": "Exam",
+				"value": "exam"
+			},
+			"offerings_formatted": ""
+		}
+	],
+	"enrolment_rules": [
+		{
+			"description": "<p>Prerequisite: MTH1010 or VCE Mathematics Methods or Specialist Mathematics units 3 &amp; 4 with a study score of 25 or equivalent.</p>",
+			"academic_item": {
+				"value": "FIT1043",
+				"cl_id": "a6212415dbe8fd90101196cbd3961980",
+				"key": "code"
+			},
+			"type": {
+				"label": "Enrolment Rule",
+				"value": "info"
+			},
+			"cl_id": "2a21e415dbe8fd90101196cbd39619d6"
+		}
+	],
+	"requisites": [
+		{
+			"academic_item_code": "FIT1043",
+			"active": "true",
+			"requisite_cl_id": "e2212415dbe8fd90101196cbd3961983",
+			"description": "",
+			"requisite_type": {
+				"label": "Prohibition",
+				"value": "prohibitions"
+			},
+			"cl_id": {
+				"value": "FIT1043",
+				"cl_id": "a6212415dbe8fd90101196cbd3961980",
+				"key": "code"
+			},
+			"academic_item_version_number": "2023.06",
+			"order": "1",
+			"start_date": "",
+			"end_date": "",
+			"container": [
+				{
+					"cl_id": "3e21e415dbe8fd90101196cbd3961969",
+					"parent_container_table": "x_f5sl_cl_requisite",
+					"parent_record": {
+						"value": "Relationship Builder: FIT1043",
+						"cl_id": "e2212415dbe8fd90101196cbd3961983",
+						"key": "academic_item",
+						"type": "x_f5sl_cl_requisite"
+					},
+					"title": "Container 1",
+					"parent_connector": {
+						"label": "AND",
+						"value": "AND"
+					},
+					"containers": [],
+					"relationships": [
+						{
+							"academic_item": {
+								"value": "Unit: FIT5145",
+								"cl_id": "ebe1a2321bc5d0d013b555b81d4bcb6e",
+								"key": "code",
+								"type": "x_f5sl_cl_subjects"
+							},
+							"parent_record": {
+								"value": "Container 1",
+								"cl_id": "3e21e415dbe8fd90101196cbd3961969",
+								"key": "title"
+							},
+							"order": "2",
+							"cl_id": "ebe1a2321bc5d0d013b555b81d4bcb6e",
+							"academic_item_type": {
+								"label": "Unit",
+								"value": "subject"
+							},
+							"abbr_name": "INTRO DATA SCIENCE",
+							"academic_item_version_name": "2020.06",
+							"academic_item_credit_points": "6",
+							"abbreviated_name_and_major": null,
+							"academic_item_name": "Introduction to data science",
+							"academic_item_code": "FIT5145",
+							"academic_item_url": "/2020/units/FIT5145"
+						}
+					]
+				}
+			]
+		}
+	],
+	"unit_offering": [
+		{
+			"fees_domestic": "",
+			"publish": "true",
+			"location": {
+				"value": "Clayton",
+				"cl_id": "37f321e1db30a7406add773c3496192e",
+				"key": "name"
+			},
+			"name": "FIT1043-S2-01-ON-CAMPUS-CLAYTON",
+			"clarification_to_appear_in_handbook": "",
+			"display_name": "S2-01-CLAYTON-ON-CAMPUS",
+			"teaching_period": {
+				"value": "Second semester",
+				"cl_id": "85a429a1db30a7406add773c3496190d",
+				"key": "name"
+			},
+			"attendance_mode": {
+				"value": "On-campus",
+				"cl_id": "7bf2311bdb68a3406add773c349619bb",
+				"key": "description"
+			},
+			"quota_number": "",
+			"study_level": {
+				"label": null,
+				"value": null
+			},
+			"offered": "true",
+			"self_enrol": "true",
+			"academic_item": {
+				"value": "FIT1043",
+				"cl_id": "a6212415dbe8fd90101196cbd3961980",
+				"key": "code"
+			},
+			"fees_commonwealth": "",
+			"fees_international": "",
+			"course_restrictions": "",
+			"cl_id": "66212415dbe8fd90101196cbd3961985"
+		},
+		{
+			"fees_domestic": "",
+			"publish": "true",
+			"location": {
+				"value": "Malaysia",
+				"cl_id": "7bf321e1db30a7406add773c3496192f",
+				"key": "name"
+			},
+			"name": "FIT1043-S2-01-ON-CAMPUS-MALAYSIA",
+			"clarification_to_appear_in_handbook": "",
+			"display_name": "S2-01-MALAYSIA-ON-CAMPUS",
+			"teaching_period": {
+				"value": "Second semester",
+				"cl_id": "85a429a1db30a7406add773c3496190d",
+				"key": "name"
+			},
+			"attendance_mode": {
+				"value": "On-campus",
+				"cl_id": "7bf2311bdb68a3406add773c349619bb",
+				"key": "description"
+			},
+			"quota_number": "",
+			"study_level": {
+				"label": null,
+				"value": null
+			},
+			"offered": "true",
+			"self_enrol": "true",
+			"academic_item": {
+				"value": "FIT1043",
+				"cl_id": "a6212415dbe8fd90101196cbd3961980",
+				"key": "code"
+			},
+			"fees_commonwealth": "",
+			"fees_international": "",
+			"course_restrictions": "",
+			"cl_id": "6a212415dbe8fd90101196cbd3961984"
+		},
+		{
+			"fees_domestic": "",
+			"publish": "true",
+			"location": {
+				"value": "Malaysia",
+				"cl_id": "7bf321e1db30a7406add773c3496192f",
+				"key": "name"
+			},
+			"name": "FIT1043-S1-01-ON-CAMPUS-MALAYSIA",
+			"clarification_to_appear_in_handbook": "",
+			"display_name": "S1-01-MALAYSIA-ON-CAMPUS",
+			"teaching_period": {
+				"value": "First semester",
+				"cl_id": "0da429a1db30a7406add773c3496190c",
+				"key": "name"
+			},
+			"attendance_mode": {
+				"value": "On-campus",
+				"cl_id": "7bf2311bdb68a3406add773c349619bb",
+				"key": "description"
+			},
+			"quota_number": "",
+			"study_level": {
+				"label": null,
+				"value": null
+			},
+			"offered": "true",
+			"self_enrol": "true",
+			"academic_item": {
+				"value": "FIT1043",
+				"cl_id": "a6212415dbe8fd90101196cbd3961980",
+				"key": "code"
+			},
+			"fees_commonwealth": "",
+			"fees_international": "",
+			"course_restrictions": "",
+			"cl_id": "6a212415dbe8fd90101196cbd3961985"
+		}
+	],
+	"enrolment_rules_group": [
+		{
+			"rule_group": "Enrolment Rule",
+			"rules": [
+				{
+					"description": "<p>Prerequisite: MTH1010 or VCE Mathematics Methods or Specialist Mathematics units 3 &amp; 4 with a study score of 25 or equivalent.</p>",
+					"academic_item": {
+						"value": "FIT1043",
+						"cl_id": "a6212415dbe8fd90101196cbd3961980",
+						"key": "code"
+					},
+					"type": {
+						"label": "Enrolment Rule",
+						"value": "info"
+					},
+					"cl_id": "2a21e415dbe8fd90101196cbd39619d6",
+					"links": []
+				}
+			]
+		}
+	],
+	"learning_resources_grouped": [
+		{
+			"type": "Technology resources",
+			"order": 2,
+			"resources": [
+				{
+					"description": "<p>Students must regularly check Moodle for announcements. Some content will be provided via videos, audio, PDF and ePUBs so students must have a suitable laptop or similar to access the content.</p>",
+					"type": {
+						"label": "Technology resources",
+						"value": "technology_resources"
+					},
+					"cl_id": "6e21e415dbe8fd90101196cbd39619d7",
+					"academic_item": {
+						"value": "FIT1043",
+						"cl_id": "a6212415dbe8fd90101196cbd3961980",
+						"key": "code"
+					},
+					"links": []
+				}
+			]
+		}
+	],
+	"study_abroad_unit": "Yes",
+	"academic_item_type": "Unit",
+	"learning_activities_grouped": [
+		{
+			"activity_type": "Applied sessions",
+			"activities": [
+				{
+					"subject": {
+						"value": "FIT1043",
+						"cl_id": "a6212415dbe8fd90101196cbd3961980",
+						"key": "code"
+					},
+					"cl_id": "6a21e415dbe8fd90101196cbd39619da",
+					"order": "2",
+					"description": "",
+					"activity_type": {
+						"label": "Applied sessions",
+						"value": "applied"
+					},
+					"duration_display": "24 hours",
+					"offerings_formatted_teaching_activities": "<ul><li>Second semester, Clayton, On-campus</li><li>Second semester, Malaysia, On-campus</li></ul>",
+					"links": []
+				}
+			]
+		},
+		{
+			"activity_type": "Tutorials",
+			"activities": [
+				{
+					"subject": {
+						"value": "FIT1043",
+						"cl_id": "a6212415dbe8fd90101196cbd3961980",
+						"key": "code"
+					},
+					"cl_id": "6e21e415dbe8fd90101196cbd39619d9",
+					"order": "1",
+					"description": "",
+					"activity_type": {
+						"label": "Tutorials",
+						"value": "tutorial"
+					},
+					"duration_display": "24 hours",
+					"offerings_formatted_teaching_activities": "<ul><li>First semester, Malaysia, On-campus</li></ul>",
+					"links": []
+				}
+			]
+		},
+		{
+			"activity_type": "Lectures",
+			"activities": [
+				{
+					"subject": {
+						"value": "FIT1043",
+						"cl_id": "a6212415dbe8fd90101196cbd3961980",
+						"key": "code"
+					},
+					"cl_id": "e621e415dbe8fd90101196cbd39619da",
+					"order": "0",
+					"description": "",
+					"activity_type": {
+						"label": "Lectures",
+						"value": "lecture"
+					},
+					"duration_display": "24 hours",
+					"offerings_formatted_teaching_activities": "<ul><li>Applies to all offerings</li></ul>",
+					"links": []
+				}
+			]
+		}
+	],
+	"search_title": "FIT1043 - Introduction to data science",
+	"unit_search_title": "FIT1043 - Introduction to data science",
+	"teaching_approaches": [
+		{
+			"type": {
+				"label": "Active learning",
+				"value": "active_learning"
+			},
+			"academic_item": {
+				"value": "FIT1043",
+				"cl_id": "a6212415dbe8fd90101196cbd3961980",
+				"key": "code"
+			},
+			"cl_id": "a621e415dbe8fd90101196cbd39619d7",
+			"description": "<p>&nbsp;</p>",
+			"links": []
+		}
+	],
+	"handbook_statement": null,
+	"academic_contact_roles": [
+		{
+			"role": "Unit Coordinator(s)",
+			"contacts": [
+				{
+					"active": "true",
+					"contact_department": "",
+					"start_date": "",
+					"offering": {
+						"value": "",
+						"cl_id": null,
+						"key": "display_name"
+					},
+					"contact_role": {
+						"label": "Unit Coordinator",
+						"value": "unit_coordinator"
+					},
+					"contact_name": "Ting Fung",
+					"role_detail": "",
+					"contact_organisation": "",
+					"contact_title": "Dr",
+					"order": "1",
+					"contact_phone": "",
+					"end_date": "",
+					"location": {
+						"value": "",
+						"cl_id": null,
+						"key": "name"
+					},
+					"contact_email": "Ting.Fung@monash.edu",
+					"contact_url": "",
+					"user": {
+						"value": "Ting Fung",
+						"cl_id": "7dbdce8cdb2ed090ffb02c530596195b",
+						"key": ""
+					},
+					"offerings": [
+						{
+							"value": "S2-01-MALAYSIA-ON-CAMPUS",
+							"cl_id": "6a212415dbe8fd90101196cbd3961984",
+							"key": "display_name"
+						},
+						{
+							"value": "S1-01-MALAYSIA-ON-CAMPUS",
+							"cl_id": "6a212415dbe8fd90101196cbd3961985",
+							"key": "display_name"
+						}
+					],
+					"applies_to_all_offerings": "false",
+					"linking_id": "43baa1881b68c110f1eca68b274bcb9a",
+					"cl_id": "26212415dbe8fd90101196cbd3961986",
+					"display_details": "Ting.Fung@monash.edu",
+					"display_name": "Dr Ting Fung ",
+					"offerings_formatted_contact": "<ul><li>First semester, Malaysia, On-campus</li><li>Second semester, Malaysia, On-campus</li></ul>",
+					"display_role_plural": "Unit Coordinator(s)",
+					"links": []
+				}
+			]
+		},
+		{
+			"role": "Chief Examiner(s)",
+			"contacts": [
+				{
+					"active": "true",
+					"contact_department": "",
+					"start_date": "",
+					"offering": {
+						"value": "",
+						"cl_id": null,
+						"key": "display_name"
+					},
+					"contact_role": {
+						"label": "Chief Examiner",
+						"value": "chief_examiner"
+					},
+					"contact_name": "Guanliang Chen",
+					"role_detail": "",
+					"contact_organisation": "",
+					"contact_title": "Dr",
+					"order": "1",
+					"contact_phone": "",
+					"end_date": "",
+					"location": {
+						"value": "",
+						"cl_id": null,
+						"key": "name"
+					},
+					"contact_email": "Guanliang.Chen@monash.edu",
+					"contact_url": "",
+					"user": {
+						"value": "Guanliang Chen",
+						"cl_id": "6f5b0909dbcff3801092bd16f49619d0",
+						"key": ""
+					},
+					"offerings": [],
+					"applies_to_all_offerings": "true",
+					"linking_id": "4f36e56ddb9711902bdd077cd396195d",
+					"cl_id": "ae212415dbe8fd90101196cbd3961985",
+					"display_details": "Guanliang.Chen@monash.edu",
+					"display_name": "Dr Guanliang Chen ",
+					"offerings_formatted_contact": "<ul><li>Applies to all offerings</ul></li>",
+					"display_role_plural": "Chief Examiner(s)",
+					"links": []
+				}
+			]
+		}
+	],
+	"links": [],
+	"yearSwitcher": [
+		{
+			"label": "2020",
+			"value": "2020",
+			"href": "/2020/units/FIT1043?year=2020"
+		},
+		{
+			"label": "2021",
+			"value": "2021",
+			"href": "/2021/units/FIT1043?year=2021"
+		},
+		{
+			"label": "2022",
+			"value": "2022",
+			"href": "/2022/units/FIT1043?year=2022"
+		},
+		{
+			"label": "2023",
+			"value": "2023",
+			"href": "/2023/units/FIT1043?year=2023"
+		}
+	],
+	"university": "Monash University"
+}

@@ -1,0 +1,37 @@
+{
+	"code": "COMPSCI03",
+	"title": "Advanced computer science",
+	"requirement": {
+		"operator": "AND",
+		"items": [
+			{
+				"operator": "AND",
+				"items": ["FIT2099", "FIT2102", "FIT3143", "FIT3155", "FIT3171"]
+			},
+			{
+				"operator": "OR",
+				"items": [
+					"FIT3031",
+					"FIT3077",
+					"FIT3080",
+					"FIT3081",
+					"FIT3088",
+					"FIT3094",
+					"FIT3139",
+					"FIT3142",
+					"FIT3146",
+					"FIT3152",
+					"FIT3159",
+					"FIT3165",
+					"FIT3173",
+					"FIT3175",
+					"FIT3181",
+					"FIT3182",
+					"FIT3183",
+					"MTH3170",
+					"MTH3175"
+				]
+			}
+		]
+	}
+}

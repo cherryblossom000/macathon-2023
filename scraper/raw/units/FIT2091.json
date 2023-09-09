@@ -1,0 +1,609 @@
+{
+	"contentTypeLabel": "Unit",
+	"published_in_handbook": {
+		"label": "Yes",
+		"value": "1"
+	},
+	"implementation_year": "2023",
+	"duration_ft_max": "",
+	"asced_detailed": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"grading_schema": {
+		"label": null,
+		"value": null
+	},
+	"study_level": [],
+	"quota_enrolment_requirements": "",
+	"status": {
+		"label": "Accredited",
+		"value": "Active"
+	},
+	"duration_pt_max": "",
+	"duration_pt_std": "",
+	"credit_points": "6",
+	"parent_id": {
+		"value": "Master Record: FIT2091",
+		"cl_id": "30a42250dbf4b300580f42a014961934",
+		"key": "code",
+		"type": "x_f5sl_cl_master_record"
+	},
+	"start_date": "",
+	"exclusions": "",
+	"unit_code": "FIT2091",
+	"academic_org": {
+		"value": "Faculty of Information Technology",
+		"cl_id": "c5684a53dba8a3406add773c349619a1",
+		"key": "name"
+	},
+	"sms_version": "",
+	"level": {
+		"label": "Level 2",
+		"value": "3"
+	},
+	"uac_code": "",
+	"special_requirements": "",
+	"duration_pt_min": "",
+	"special_unit_type": [],
+	"title": "Interactive media studio 1",
+	"duration_ft_std": "",
+	"version": "3",
+	"learning_experiences": null,
+	"duration_ft_min": "",
+	"callista_version": "",
+	"duration_ft_period": {
+		"label": null,
+		"value": null
+	},
+	"asced_narrow": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"subclass": {
+		"label": "Unit",
+		"value": "subject"
+	},
+	"type": {
+		"label": "Coursework",
+		"value": "600"
+	},
+	"quota_rationale": "",
+	"version_name": "2023.03",
+	"timetable_this_unit": "true",
+	"work_integrated_learning": [
+		{
+			"value": "None",
+			"cl_id": "8ef5d77bdb122300e5cf3391f496191d",
+			"key": "label"
+		}
+	],
+	"cl_id": "80146f81db0431502bdd077cd3961907",
+	"school": {
+		"value": "Faculty of Information Technology",
+		"cl_id": "c5684a53dba8a3406add773c349619a1",
+		"key": "name"
+	},
+	"content": null,
+	"learning_and_teaching_resources": null,
+	"collaborating_disciplines": [],
+	"repeatable": "false",
+	"overview": "",
+	"end_date": "",
+	"duration_pt_period": {
+		"label": null,
+		"value": null
+	},
+	"sms_status": {
+		"label": null,
+		"value": null
+	},
+	"learning_materials": null,
+	"special_topic": "false",
+	"asced_broad": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"publish_tuition_fees": "true",
+	"placement_proportion": {
+		"label": null,
+		"value": null
+	},
+	"code": "FIT2091",
+	"other_unit_costs": "",
+	"eftsl": {
+		"label": "0.125",
+		"value": "0.125"
+	},
+	"contact_information": "",
+	"highest_sca_band": {
+		"label": "SCA Band 2",
+		"value": "2"
+	},
+	"lo_additional_information": "<p>On successful completion of this unit, you should be able to:</p>",
+	"handbook_assessment_summary": "",
+	"quota_information": "",
+	"attendance_requirements": "",
+	"workload_requirements": "<p>Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled teaching activities.</p>",
+	"organisational_contact_information": "",
+	"handbook_synopsis": "<p>Interactive Media Studio 1 builds upon the skills learnt in Interactive Media Foundations and introduces students to production processes for video content used on the World Wide Web. The basics of web design and graphics production introduced in Interactive Media Foundations are extended in this unit. Students will undertake projects that integrate a range of media resources to design and develop original digital graphics, video and web content. Students will have opportunities to work in team to plan and execute large scale projects.</p>",
+	"special_note_to_students": "",
+	"undergrad_postgrad_both": {
+		"label": "Undergraduate",
+		"value": "undergraduate"
+	},
+	"area_of_study_links": "Interactive media<br />",
+	"fieldwork": "",
+	"unit_learning_outcomes": [
+		{
+			"lo_domain": [],
+			"order": "4",
+			"number": "4",
+			"code": "ULO4",
+			"lo_cl_id": "0814af81db0431502bdd077cd39619b4",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "8b8b7820db38b3003a731c0e049619a2",
+			"academic_item": {
+				"value": "FIT2091",
+				"cl_id": "80146f81db0431502bdd077cd3961907",
+				"key": "code"
+			},
+			"description": "<p>Create and optimise media resources for display in a web-based context.</p>",
+			"cl_id": "0814af81db0431502bdd077cd39619b4",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "2",
+			"number": "2",
+			"code": "ULO2",
+			"lo_cl_id": "4014af81db0431502bdd077cd39619b4",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "c4ca3cacdbf4b3003a731c0e04961920",
+			"academic_item": {
+				"value": "FIT2091",
+				"cl_id": "80146f81db0431502bdd077cd3961907",
+				"key": "code"
+			},
+			"description": "<p>Implement pre-production and production processes for large projects;</p>",
+			"cl_id": "4014af81db0431502bdd077cd39619b4",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "3",
+			"number": "3",
+			"code": "ULO3",
+			"lo_cl_id": "8c14af81db0431502bdd077cd39619b4",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "7d2bf8ecdbf4b3003a731c0e04961921",
+			"academic_item": {
+				"value": "FIT2091",
+				"cl_id": "80146f81db0431502bdd077cd3961907",
+				"key": "code"
+			},
+			"description": "<p>Evaluate software procedures for creation of digital video content;</p>",
+			"cl_id": "8c14af81db0431502bdd077cd39619b4",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "1",
+			"number": "1",
+			"code": "ULO1",
+			"lo_cl_id": "c814af81db0431502bdd077cd39619b4",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "c28a34acdbf4b3003a731c0e049619b7",
+			"academic_item": {
+				"value": "FIT2091",
+				"cl_id": "80146f81db0431502bdd077cd3961907",
+				"key": "code"
+			},
+			"description": "<p>Apply and extend digital graphics and web design techniques;</p>",
+			"cl_id": "c814af81db0431502bdd077cd39619b4",
+			"ga_map": []
+		}
+	],
+	"school_org_unit_data": [
+		{
+			"parent": {
+				"value": "",
+				"cl_id": null,
+				"key": "name"
+			},
+			"url": "https://www.monash.edu/it",
+			"name": "Faculty of Information Technology",
+			"cl_id": "c5684a53dba8a3406add773c349619a1"
+		}
+	],
+	"assessments": [
+		{
+			"subject": {
+				"value": "FIT2091",
+				"cl_id": "80146f81db0431502bdd077cd3961907",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "5",
+			"weight": "30",
+			"cl_id": "0c14af81db0431502bdd077cd39619b8",
+			"assessment_name": "Assignment 2b Website Design Project",
+			"description": null,
+			"assessment_type": {
+				"label": "Project",
+				"value": "project"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT2091",
+				"cl_id": "80146f81db0431502bdd077cd3961907",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "3",
+			"weight": "30",
+			"cl_id": "4814af81db0431502bdd077cd39619b8",
+			"assessment_name": "Assignment 1b Video Production Project",
+			"description": null,
+			"assessment_type": {
+				"label": "Project",
+				"value": "project"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT2091",
+				"cl_id": "80146f81db0431502bdd077cd3961907",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "2",
+			"weight": "10",
+			"cl_id": "8414af81db0431502bdd077cd39619b8",
+			"assessment_name": "Assignment 1a Presentation",
+			"description": null,
+			"assessment_type": {
+				"label": "Presentation",
+				"value": "presentation"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT2091",
+				"cl_id": "80146f81db0431502bdd077cd3961907",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "4",
+			"weight": "10",
+			"cl_id": "cc14af81db0431502bdd077cd39619b7",
+			"assessment_name": "Assignment 2a",
+			"description": null,
+			"assessment_type": {
+				"label": "Presentation",
+				"value": "presentation"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT2091",
+				"cl_id": "80146f81db0431502bdd077cd3961907",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "1",
+			"weight": "20",
+			"cl_id": "cc14af81db0431502bdd077cd39619b8",
+			"assessment_name": "Reflective journals",
+			"description": null,
+			"assessment_type": {
+				"label": "Other",
+				"value": "other"
+			},
+			"offerings_formatted": ""
+		}
+	],
+	"enrolment_rules": [],
+	"requisites": [
+		{
+			"academic_item_code": "FIT2091",
+			"active": "true",
+			"requisite_cl_id": "cc146f81db0431502bdd077cd3961909",
+			"description": "",
+			"requisite_type": {
+				"label": "Prerequisite",
+				"value": "prerequisite"
+			},
+			"cl_id": {
+				"value": "FIT2091",
+				"cl_id": "80146f81db0431502bdd077cd3961907",
+				"key": "code"
+			},
+			"academic_item_version_number": "2023.03",
+			"order": "",
+			"start_date": "",
+			"end_date": "",
+			"container": [
+				{
+					"cl_id": "1014af81db0431502bdd077cd3961922",
+					"parent_container_table": "x_f5sl_cl_requisite",
+					"parent_record": {
+						"value": "Relationship Builder: FIT2091",
+						"cl_id": "cc146f81db0431502bdd077cd3961909",
+						"key": "academic_item",
+						"type": "x_f5sl_cl_requisite"
+					},
+					"title": "Container 1",
+					"parent_connector": {
+						"label": "AND",
+						"value": "AND"
+					},
+					"containers": [],
+					"relationships": [
+						{
+							"academic_item": {
+								"value": "Unit: FIT1046",
+								"cl_id": "7a94aa10dbf4b300580f42a014961960",
+								"key": "code",
+								"type": "x_f5sl_cl_subjects"
+							},
+							"parent_record": {
+								"value": "Container 1",
+								"cl_id": "1014af81db0431502bdd077cd3961922",
+								"key": "title"
+							},
+							"order": "1",
+							"cl_id": "7a94aa10dbf4b300580f42a014961960",
+							"academic_item_type": {
+								"label": "Unit",
+								"value": "subject"
+							},
+							"abbr_name": "INTERACTIVE MEDIA",
+							"academic_item_version_name": "2019.01",
+							"academic_item_credit_points": "6",
+							"abbreviated_name_and_major": null,
+							"academic_item_name": "Interactive media foundations",
+							"academic_item_code": "FIT1046",
+							"academic_item_url": "/2019/units/FIT1046"
+						}
+					]
+				}
+			]
+		}
+	],
+	"unit_offering": [
+		{
+			"fees_domestic": "",
+			"publish": "true",
+			"location": {
+				"value": "Clayton",
+				"cl_id": "37f321e1db30a7406add773c3496192e",
+				"key": "name"
+			},
+			"name": "FIT2091-S1-01-ON-CAMPUS-CLAYTON",
+			"clarification_to_appear_in_handbook": "",
+			"display_name": "S1-01-CLAYTON-ON-CAMPUS",
+			"teaching_period": {
+				"value": "First semester",
+				"cl_id": "0da429a1db30a7406add773c3496190c",
+				"key": "name"
+			},
+			"attendance_mode": {
+				"value": "On-campus",
+				"cl_id": "7bf2311bdb68a3406add773c349619bb",
+				"key": "description"
+			},
+			"quota_number": "",
+			"study_level": {
+				"label": null,
+				"value": null
+			},
+			"offered": "true",
+			"self_enrol": "true",
+			"academic_item": {
+				"value": "FIT2091",
+				"cl_id": "80146f81db0431502bdd077cd3961907",
+				"key": "code"
+			},
+			"fees_commonwealth": "",
+			"fees_international": "",
+			"course_restrictions": "",
+			"cl_id": "0014af81db0431502bdd077cd39619b3"
+		}
+	],
+	"enrolment_rules_group": [],
+	"learning_resources_grouped": [
+		{
+			"type": "Technology resources",
+			"order": 2,
+			"resources": [
+				{
+					"description": "<p>Required software will be installed in the faculty computer labs for student use. Students will be informed about software requirements for use on personal devices at the start of the semester.</p>",
+					"type": {
+						"label": "Technology resources",
+						"value": "technology_resources"
+					},
+					"cl_id": "0814af81db0431502bdd077cd39619b5",
+					"academic_item": {
+						"value": "FIT2091",
+						"cl_id": "80146f81db0431502bdd077cd3961907",
+						"key": "code"
+					},
+					"links": []
+				}
+			]
+		}
+	],
+	"study_abroad_unit": "No",
+	"academic_item_type": "Unit",
+	"learning_activities_grouped": [
+		{
+			"activity_type": "Lectures",
+			"activities": [
+				{
+					"subject": {
+						"value": "FIT2091",
+						"cl_id": "80146f81db0431502bdd077cd3961907",
+						"key": "code"
+					},
+					"cl_id": "0414af81db0431502bdd077cd39619b7",
+					"order": "",
+					"description": "",
+					"activity_type": {
+						"label": "Lectures",
+						"value": "lecture"
+					},
+					"duration_display": "12 hours",
+					"offerings_formatted_teaching_activities": "<ul><li>Applies to all offerings</li></ul>",
+					"links": []
+				}
+			]
+		},
+		{
+			"activity_type": "Studio activities",
+			"activities": [
+				{
+					"subject": {
+						"value": "FIT2091",
+						"cl_id": "80146f81db0431502bdd077cd3961907",
+						"key": "code"
+					},
+					"cl_id": "8814af81db0431502bdd077cd39619b7",
+					"order": "",
+					"description": "",
+					"activity_type": {
+						"label": "Studio activities",
+						"value": "studio"
+					},
+					"duration_display": "36 hours",
+					"offerings_formatted_teaching_activities": "<ul><li>Applies to all offerings</li></ul>",
+					"links": []
+				}
+			]
+		}
+	],
+	"search_title": "FIT2091 - Interactive media studio 1",
+	"unit_search_title": "FIT2091 - Interactive media studio 1",
+	"teaching_approaches": [
+		{
+			"type": {
+				"label": "Active learning",
+				"value": "active_learning"
+			},
+			"academic_item": {
+				"value": "FIT2091",
+				"cl_id": "80146f81db0431502bdd077cd3961907",
+				"key": "code"
+			},
+			"cl_id": "cc14af81db0431502bdd077cd39619b5",
+			"description": "&nbsp;",
+			"links": []
+		}
+	],
+	"handbook_statement": null,
+	"academic_contact_roles": [
+		{
+			"role": "Chief Examiner(s)",
+			"contacts": [
+				{
+					"active": "true",
+					"contact_department": "",
+					"start_date": "",
+					"offering": {
+						"value": "",
+						"cl_id": null,
+						"key": "display_name"
+					},
+					"contact_role": {
+						"label": "Chief Examiner",
+						"value": "chief_examiner"
+					},
+					"contact_name": "William Lay",
+					"role_detail": "",
+					"contact_organisation": "",
+					"contact_title": "Mr",
+					"order": "1",
+					"contact_phone": "",
+					"end_date": "",
+					"location": {
+						"value": "",
+						"cl_id": null,
+						"key": "name"
+					},
+					"contact_email": "William.Lay@monash.edu",
+					"contact_url": "",
+					"user": {
+						"value": "William Lay",
+						"cl_id": "37120f50dbb8b300580f42a014961943",
+						"key": ""
+					},
+					"offerings": [],
+					"applies_to_all_offerings": "true",
+					"linking_id": "182049791b5240d013b555b81d4bcb5c",
+					"cl_id": "4414af81db0431502bdd077cd39619b3",
+					"display_details": "William.Lay@monash.edu",
+					"display_name": "Mr William Lay ",
+					"offerings_formatted_contact": "<ul><li>Applies to all offerings</ul></li>",
+					"display_role_plural": "Chief Examiner(s)",
+					"links": []
+				}
+			]
+		}
+	],
+	"links": [],
+	"yearSwitcher": [
+		{
+			"label": "2020",
+			"value": "2020",
+			"href": "/2020/units/FIT2091?year=2020"
+		},
+		{
+			"label": "2021",
+			"value": "2021",
+			"href": "/2021/units/FIT2091?year=2021"
+		},
+		{
+			"label": "2022",
+			"value": "2022",
+			"href": "/2022/units/FIT2091?year=2022"
+		},
+		{
+			"label": "2023",
+			"value": "2023",
+			"href": "/2023/units/FIT2091?year=2023"
+		}
+	],
+	"university": "Monash University"
+}

@@ -1,0 +1,1107 @@
+{
+	"contentTypeLabel": "Unit",
+	"published_in_handbook": {
+		"label": "Yes",
+		"value": "1"
+	},
+	"implementation_year": "2023",
+	"duration_ft_max": "",
+	"asced_detailed": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"grading_schema": {
+		"label": null,
+		"value": null
+	},
+	"study_level": [],
+	"quota_enrolment_requirements": "",
+	"status": {
+		"label": "Accredited",
+		"value": "Active"
+	},
+	"duration_pt_max": "",
+	"duration_pt_std": "",
+	"credit_points": "6",
+	"parent_id": {
+		"value": "Master Record: FIT3175",
+		"cl_id": "01b42a50dbf4b300580f42a014961936",
+		"key": "code",
+		"type": "x_f5sl_cl_master_record"
+	},
+	"start_date": "",
+	"exclusions": "",
+	"unit_code": "FIT3175",
+	"academic_org": {
+		"value": "Faculty of Information Technology",
+		"cl_id": "c5684a53dba8a3406add773c349619a1",
+		"key": "name"
+	},
+	"sms_version": "",
+	"level": {
+		"label": "Level 3",
+		"value": "4"
+	},
+	"uac_code": "",
+	"special_requirements": "",
+	"duration_pt_min": "",
+	"special_unit_type": [],
+	"title": "Usability",
+	"duration_ft_std": "",
+	"version": "9",
+	"learning_experiences": null,
+	"duration_ft_min": "",
+	"callista_version": "",
+	"duration_ft_period": {
+		"label": null,
+		"value": null
+	},
+	"asced_narrow": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"subclass": {
+		"label": "Unit",
+		"value": "subject"
+	},
+	"type": {
+		"label": "Coursework",
+		"value": "600"
+	},
+	"quota_rationale": "",
+	"version_name": "2023.09",
+	"timetable_this_unit": "true",
+	"work_integrated_learning": [
+		{
+			"value": "None",
+			"cl_id": "8ef5d77bdb122300e5cf3391f496191d",
+			"key": "label"
+		}
+	],
+	"cl_id": "22b3ef96db4c35502bdd077cd39619ae",
+	"school": {
+		"value": "Faculty of Information Technology",
+		"cl_id": "c5684a53dba8a3406add773c349619a1",
+		"key": "name"
+	},
+	"content": null,
+	"learning_and_teaching_resources": null,
+	"collaborating_disciplines": [],
+	"repeatable": "false",
+	"overview": "",
+	"end_date": "",
+	"duration_pt_period": {
+		"label": null,
+		"value": null
+	},
+	"sms_status": {
+		"label": null,
+		"value": null
+	},
+	"learning_materials": null,
+	"special_topic": "false",
+	"asced_broad": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"publish_tuition_fees": "true",
+	"placement_proportion": {
+		"label": null,
+		"value": null
+	},
+	"code": "FIT3175",
+	"other_unit_costs": "",
+	"eftsl": {
+		"label": "0.125",
+		"value": "0.125"
+	},
+	"contact_information": "",
+	"highest_sca_band": {
+		"label": "SCA Band 2",
+		"value": "2"
+	},
+	"lo_additional_information": "<p>On successful completion of this unit, you should be able to:</p>",
+	"handbook_assessment_summary": "",
+	"quota_information": "",
+	"attendance_requirements": "",
+	"workload_requirements": "<p>Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled teaching activities.</p>\n<p>Tutorials are scheduled from week 2 to week 12, except for Summer offerings where they start from week 1.</p>",
+	"organisational_contact_information": "",
+	"handbook_synopsis": "<p>This unit explores the underpinning theories, principles and practices of interface design to achieve usable computer-based systems. It examines issues in the design of system interfaces from a number of perspectives: user, programmer, designer. It explores the application of the relevant theories in practice. The unit will cover topics such as methods and tools for developing effective user interfaces, evaluation methods such as the conduct of usability and heuristic evaluations, design of appropriate interface elements including the design of menus and other interaction styles. The unit will also focus on designing for a diverse range of users and environments.</p>",
+	"special_note_to_students": "",
+	"undergrad_postgrad_both": {
+		"label": "Undergraduate",
+		"value": "undergraduate"
+	},
+	"area_of_study_links": "Advanced computer science<br />Mobile apps development<br />Software development<br />Web development<br />",
+	"fieldwork": "",
+	"unit_learning_outcomes": [
+		{
+			"lo_domain": [],
+			"order": "3",
+			"number": "3",
+			"code": "ULO3",
+			"lo_cl_id": "3ab323d6db4c35502bdd077cd3961901",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "3b3bbcecdbf4b3003a731c0e04961982",
+			"academic_item": {
+				"value": "FIT3175",
+				"cl_id": "22b3ef96db4c35502bdd077cd39619ae",
+				"key": "code"
+			},
+			"description": "<p>Design an interface for user diversity and accessibility;</p>",
+			"cl_id": "3ab323d6db4c35502bdd077cd3961901",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "2",
+			"number": "2",
+			"code": "ULO2",
+			"lo_cl_id": "72b323d6db4c35502bdd077cd3961901",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "8bda30ecdbf4b3003a731c0e04961943",
+			"academic_item": {
+				"value": "FIT3175",
+				"cl_id": "22b3ef96db4c35502bdd077cd39619ae",
+				"key": "code"
+			},
+			"description": "<p>Apply usability principles to the design of interfaces for Web, small screen and mobile devices;</p>",
+			"cl_id": "72b323d6db4c35502bdd077cd3961901",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "1",
+			"number": "1",
+			"code": "ULO1",
+			"lo_cl_id": "72b323d6db4c35502bdd077cd3961902",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "f99ab4acdbf4b3003a731c0e04961972",
+			"academic_item": {
+				"value": "FIT3175",
+				"cl_id": "22b3ef96db4c35502bdd077cd39619ae",
+				"key": "code"
+			},
+			"description": "<p>Explain the theories and principles of usability as applied to interface and interaction design;</p>",
+			"cl_id": "72b323d6db4c35502bdd077cd3961902",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "5",
+			"number": "5",
+			"code": "ULO5",
+			"lo_cl_id": "beb323d6db4c35502bdd077cd3961901",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "c3cbb060db38b3003a731c0e049619fa",
+			"academic_item": {
+				"value": "FIT3175",
+				"cl_id": "22b3ef96db4c35502bdd077cd39619ae",
+				"key": "code"
+			},
+			"description": "<p>Evaluate an interface and interaction design.</p>",
+			"cl_id": "beb323d6db4c35502bdd077cd3961901",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "4",
+			"number": "4",
+			"code": "ULO4",
+			"lo_cl_id": "fab323d6db4c35502bdd077cd3961901",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "997bb420db38b3003a731c0e0496191e",
+			"academic_item": {
+				"value": "FIT3175",
+				"cl_id": "22b3ef96db4c35502bdd077cd39619ae",
+				"key": "code"
+			},
+			"description": "<p>Employ user-centred design;</p>",
+			"cl_id": "fab323d6db4c35502bdd077cd3961901",
+			"ga_map": []
+		}
+	],
+	"school_org_unit_data": [
+		{
+			"parent": {
+				"value": "",
+				"cl_id": null,
+				"key": "name"
+			},
+			"url": "https://www.monash.edu/it",
+			"name": "Faculty of Information Technology",
+			"cl_id": "c5684a53dba8a3406add773c349619a1"
+		}
+	],
+	"assessments": [
+		{
+			"subject": {
+				"value": "FIT3175",
+				"cl_id": "22b3ef96db4c35502bdd077cd39619ae",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "8",
+			"weight": "25",
+			"cl_id": "03b323d6db4c35502bdd077cd3961953",
+			"assessment_name": "Low-level prototyping report",
+			"description": null,
+			"assessment_type": {
+				"label": "Report",
+				"value": "report"
+			},
+			"offerings_formatted": "<ul><li>Summer semester B, Clayton, On-campus</li></ul>"
+		},
+		{
+			"subject": {
+				"value": "FIT3175",
+				"cl_id": "22b3ef96db4c35502bdd077cd39619ae",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "2",
+			"weight": "25",
+			"cl_id": "07b323d6db4c35502bdd077cd3961952",
+			"assessment_name": "Low-level prototyping report",
+			"description": null,
+			"assessment_type": {
+				"label": "Report",
+				"value": "report"
+			},
+			"offerings_formatted": "<ul><li>First semester, Clayton, On-campus</li><li>First semester, Malaysia, On-campus</li></ul>"
+		},
+		{
+			"subject": {
+				"value": "FIT3175",
+				"cl_id": "22b3ef96db4c35502bdd077cd39619ae",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "5",
+			"weight": "15",
+			"cl_id": "43b323d6db4c35502bdd077cd3961952",
+			"assessment_name": "In-Semester Quizzes",
+			"description": null,
+			"assessment_type": {
+				"label": "Other",
+				"value": "other"
+			},
+			"offerings_formatted": "<ul><li>First semester, Clayton, On-campus</li><li>First semester, Malaysia, On-campus</li></ul>"
+		},
+		{
+			"subject": {
+				"value": "FIT3175",
+				"cl_id": "22b3ef96db4c35502bdd077cd39619ae",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "10",
+			"weight": "10",
+			"cl_id": "4bb323d6db4c35502bdd077cd3961953",
+			"assessment_name": "Presentation and demo",
+			"description": null,
+			"assessment_type": {
+				"label": "Presentation",
+				"value": "presentation"
+			},
+			"offerings_formatted": "<ul><li>Summer semester B, Clayton, On-campus</li></ul>"
+		},
+		{
+			"subject": {
+				"value": "FIT3175",
+				"cl_id": "22b3ef96db4c35502bdd077cd39619ae",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "7",
+			"weight": "30",
+			"cl_id": "4fb323d6db4c35502bdd077cd3961952",
+			"assessment_name": "Data gathering and user analysis report",
+			"description": null,
+			"assessment_type": {
+				"label": "Report",
+				"value": "report"
+			},
+			"offerings_formatted": "<ul><li>Summer semester B, Clayton, On-campus</li></ul>"
+		},
+		{
+			"subject": {
+				"value": "FIT3175",
+				"cl_id": "22b3ef96db4c35502bdd077cd39619ae",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "4",
+			"weight": "10",
+			"cl_id": "87b323d6db4c35502bdd077cd3961953",
+			"assessment_name": "Presentation and Demo",
+			"description": null,
+			"assessment_type": {
+				"label": "Presentation",
+				"value": "presentation"
+			},
+			"offerings_formatted": "<ul><li>First semester, Clayton, On-campus</li><li>First semester, Malaysia, On-campus</li></ul>"
+		},
+		{
+			"subject": {
+				"value": "FIT3175",
+				"cl_id": "22b3ef96db4c35502bdd077cd39619ae",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "3",
+			"weight": "30",
+			"cl_id": "8bb323d6db4c35502bdd077cd3961951",
+			"assessment_name": "High-fidelity prototyping and evaluation report ",
+			"description": null,
+			"assessment_type": {
+				"label": "Report",
+				"value": "report"
+			},
+			"offerings_formatted": "<ul><li>First semester, Clayton, On-campus</li><li>First semester, Malaysia, On-campus</li></ul>"
+		},
+		{
+			"subject": {
+				"value": "FIT3175",
+				"cl_id": "22b3ef96db4c35502bdd077cd39619ae",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "6",
+			"weight": "5",
+			"cl_id": "8bb323d6db4c35502bdd077cd3961952",
+			"assessment_name": "Discussion forums",
+			"description": null,
+			"assessment_type": {
+				"label": "Participation",
+				"value": "participation"
+			},
+			"offerings_formatted": "<ul><li>Summer semester B, Clayton, On-campus</li></ul>"
+		},
+		{
+			"subject": {
+				"value": "FIT3175",
+				"cl_id": "22b3ef96db4c35502bdd077cd39619ae",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "9",
+			"weight": "30",
+			"cl_id": "c3b323d6db4c35502bdd077cd3961953",
+			"assessment_name": "High level prototyping and evaluation report",
+			"description": null,
+			"assessment_type": {
+				"label": "Report",
+				"value": "report"
+			},
+			"offerings_formatted": "<ul><li>Summer semester B, Clayton, On-campus</li></ul>"
+		},
+		{
+			"subject": {
+				"value": "FIT3175",
+				"cl_id": "22b3ef96db4c35502bdd077cd39619ae",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "1",
+			"weight": "20",
+			"cl_id": "c7b323d6db4c35502bdd077cd3961952",
+			"assessment_name": "Data gathering and user analysis report",
+			"description": null,
+			"assessment_type": {
+				"label": "Report",
+				"value": "report"
+			},
+			"offerings_formatted": "<ul><li>First semester, Clayton, On-campus</li><li>First semester, Malaysia, On-campus</li></ul>"
+		}
+	],
+	"enrolment_rules": [],
+	"requisites": [
+		{
+			"academic_item_code": "FIT3175",
+			"active": "true",
+			"requisite_cl_id": "e6b3ef96db4c35502bdd077cd39619fb",
+			"description": "",
+			"requisite_type": {
+				"label": "Prerequisite",
+				"value": "prerequisite"
+			},
+			"cl_id": {
+				"value": "FIT3175",
+				"cl_id": "22b3ef96db4c35502bdd077cd39619ae",
+				"key": "code"
+			},
+			"academic_item_version_number": "2023.09",
+			"order": "",
+			"start_date": "",
+			"end_date": "",
+			"container": [
+				{
+					"cl_id": "32b3ef96db4c35502bdd077cd39619c4",
+					"parent_container_table": "x_f5sl_cl_requisite",
+					"parent_record": {
+						"value": "Relationship Builder: FIT3175",
+						"cl_id": "e6b3ef96db4c35502bdd077cd39619fb",
+						"key": "academic_item",
+						"type": "x_f5sl_cl_requisite"
+					},
+					"title": "Container 1",
+					"parent_connector": {
+						"label": "AND",
+						"value": "AND"
+					},
+					"containers": [
+						{
+							"cl_id": "7ab3ef96db4c35502bdd077cd39619c4",
+							"parent_container_table": "x_f5sl_cl_relationship_groups",
+							"parent_record": {
+								"value": "Relationship Groups: Container 1",
+								"cl_id": "32b3ef96db4c35502bdd077cd39619c4",
+								"key": "title",
+								"type": "x_f5sl_cl_relationship_groups"
+							},
+							"title": "Container 1.1",
+							"parent_connector": {
+								"label": "OR",
+								"value": "OR"
+							},
+							"containers": [],
+							"relationships": [
+								{
+									"academic_item": {
+										"value": "Unit: FIT1045",
+										"cl_id": "2d3ee8591b6add10f1eca68b274bcbe9",
+										"key": "code",
+										"type": "x_f5sl_cl_subjects"
+									},
+									"parent_record": {
+										"value": "Container 1.1",
+										"cl_id": "7ab3ef96db4c35502bdd077cd39619c4",
+										"key": "title"
+									},
+									"order": "1",
+									"cl_id": "2d3ee8591b6add10f1eca68b274bcbe9",
+									"academic_item_type": {
+										"label": "Unit",
+										"value": "subject"
+									},
+									"abbr_name": "INTRO TO PROGRAMMING",
+									"academic_item_version_name": "2023.04",
+									"academic_item_credit_points": "6",
+									"abbreviated_name_and_major": null,
+									"academic_item_name": "Introduction to programming",
+									"academic_item_code": "FIT1045",
+									"academic_item_url": "/2023/units/FIT1045"
+								},
+								{
+									"academic_item": {
+										"value": "Unit: FIT1053",
+										"cl_id": "e7984a2bdbc359502bdd077cd396199d",
+										"key": "code",
+										"type": "x_f5sl_cl_subjects"
+									},
+									"parent_record": {
+										"value": "Container 1.1",
+										"cl_id": "7ab3ef96db4c35502bdd077cd39619c4",
+										"key": "title"
+									},
+									"order": "4",
+									"cl_id": "e7984a2bdbc359502bdd077cd396199d",
+									"academic_item_type": {
+										"label": "Unit",
+										"value": "subject"
+									},
+									"abbr_name": "INTRO PROGRAMMING ADV",
+									"academic_item_version_name": "2023.03",
+									"academic_item_credit_points": "6",
+									"abbreviated_name_and_major": null,
+									"academic_item_name": "Introduction to programming: Advanced",
+									"academic_item_code": "FIT1053",
+									"academic_item_url": "/2023/units/FIT1053"
+								},
+								{
+									"academic_item": {
+										"value": "Unit: FIT2085",
+										"cl_id": "72e5a4a4db60b850101196cbd3961932",
+										"key": "code",
+										"type": "x_f5sl_cl_subjects"
+									},
+									"parent_record": {
+										"value": "Container 1.1",
+										"cl_id": "7ab3ef96db4c35502bdd077cd39619c4",
+										"key": "title"
+									},
+									"order": "5",
+									"cl_id": "72e5a4a4db60b850101196cbd3961932",
+									"academic_item_type": {
+										"label": "Unit",
+										"value": "subject"
+									},
+									"abbr_name": "INTRO COMP SCIENCE",
+									"academic_item_version_name": "2021.06",
+									"academic_item_credit_points": "6",
+									"abbreviated_name_and_major": null,
+									"academic_item_name": "Introduction to computer science for engineers",
+									"academic_item_code": "FIT2085",
+									"academic_item_url": "/2021/units/FIT2085"
+								},
+								{
+									"academic_item": {
+										"value": "Unit: FIT1048",
+										"cl_id": "0b94aa10dbf4b300580f42a014961996",
+										"key": "code",
+										"type": "x_f5sl_cl_subjects"
+									},
+									"parent_record": {
+										"value": "Container 1.1",
+										"cl_id": "7ab3ef96db4c35502bdd077cd39619c4",
+										"key": "title"
+									},
+									"order": "2",
+									"cl_id": "0b94aa10dbf4b300580f42a014961996",
+									"academic_item_type": {
+										"label": "Unit",
+										"value": "subject"
+									},
+									"abbr_name": "FUNDAMENTALS OF C++",
+									"academic_item_version_name": "2019.01",
+									"academic_item_credit_points": "6",
+									"abbreviated_name_and_major": null,
+									"academic_item_name": "Fundamentals of C++",
+									"academic_item_code": "FIT1048",
+									"academic_item_url": "/2019/units/FIT1048"
+								},
+								{
+									"academic_item": {
+										"value": "Unit: FIT1051",
+										"cl_id": "9f94ea10dbf4b300580f42a014961969",
+										"key": "code",
+										"type": "x_f5sl_cl_subjects"
+									},
+									"parent_record": {
+										"value": "Container 1.1",
+										"cl_id": "7ab3ef96db4c35502bdd077cd39619c4",
+										"key": "title"
+									},
+									"order": "3",
+									"cl_id": "9f94ea10dbf4b300580f42a014961969",
+									"academic_item_type": {
+										"label": "Unit",
+										"value": "subject"
+									},
+									"abbr_name": "PROGFUNDTALSINJAVA",
+									"academic_item_version_name": "2019.01",
+									"academic_item_credit_points": "6",
+									"abbreviated_name_and_major": null,
+									"academic_item_name": "Programming fundamentals in java",
+									"academic_item_code": "FIT1051",
+									"academic_item_url": "/2019/units/FIT1051"
+								}
+							]
+						}
+					],
+					"relationships": []
+				}
+			]
+		}
+	],
+	"unit_offering": [
+		{
+			"fees_domestic": "",
+			"publish": "true",
+			"location": {
+				"value": "Malaysia",
+				"cl_id": "7bf321e1db30a7406add773c3496192f",
+				"key": "name"
+			},
+			"name": "FIT3175-S1-01-ON-CAMPUS-MALAYSIA",
+			"clarification_to_appear_in_handbook": "",
+			"display_name": "S1-01-MALAYSIA-ON-CAMPUS",
+			"teaching_period": {
+				"value": "First semester",
+				"cl_id": "0da429a1db30a7406add773c3496190c",
+				"key": "name"
+			},
+			"attendance_mode": {
+				"value": "On-campus",
+				"cl_id": "7bf2311bdb68a3406add773c349619bb",
+				"key": "description"
+			},
+			"quota_number": "",
+			"study_level": {
+				"label": null,
+				"value": null
+			},
+			"offered": "true",
+			"self_enrol": "true",
+			"academic_item": {
+				"value": "FIT3175",
+				"cl_id": "22b3ef96db4c35502bdd077cd39619ae",
+				"key": "code"
+			},
+			"fees_commonwealth": "",
+			"fees_international": "",
+			"course_restrictions": "",
+			"cl_id": "bab3ef96db4c35502bdd077cd39619fd"
+		},
+		{
+			"fees_domestic": "",
+			"publish": "true",
+			"location": {
+				"value": "Clayton",
+				"cl_id": "37f321e1db30a7406add773c3496192e",
+				"key": "name"
+			},
+			"name": "FIT3175-SSB-01-ON-CAMPUS-CLAYTON",
+			"clarification_to_appear_in_handbook": "",
+			"display_name": "SSB-01-CLAYTON-ON-CAMPUS",
+			"teaching_period": {
+				"value": "Summer semester B",
+				"cl_id": "09a4a5e1db30a7406add773c34961957",
+				"key": "name"
+			},
+			"attendance_mode": {
+				"value": "On-campus",
+				"cl_id": "7bf2311bdb68a3406add773c349619bb",
+				"key": "description"
+			},
+			"quota_number": "",
+			"study_level": {
+				"label": null,
+				"value": null
+			},
+			"offered": "true",
+			"self_enrol": "true",
+			"academic_item": {
+				"value": "FIT3175",
+				"cl_id": "22b3ef96db4c35502bdd077cd39619ae",
+				"key": "code"
+			},
+			"fees_commonwealth": "",
+			"fees_international": "",
+			"course_restrictions": "",
+			"cl_id": "beb3ef96db4c35502bdd077cd39619fc"
+		},
+		{
+			"fees_domestic": "",
+			"publish": "true",
+			"location": {
+				"value": "Clayton",
+				"cl_id": "37f321e1db30a7406add773c3496192e",
+				"key": "name"
+			},
+			"name": "FIT3175-S1-01-ON-CAMPUS-CLAYTON",
+			"clarification_to_appear_in_handbook": "",
+			"display_name": "S1-01-CLAYTON-ON-CAMPUS",
+			"teaching_period": {
+				"value": "First semester",
+				"cl_id": "0da429a1db30a7406add773c3496190c",
+				"key": "name"
+			},
+			"attendance_mode": {
+				"value": "On-campus",
+				"cl_id": "7bf2311bdb68a3406add773c349619bb",
+				"key": "description"
+			},
+			"quota_number": "",
+			"study_level": {
+				"label": null,
+				"value": null
+			},
+			"offered": "true",
+			"self_enrol": "true",
+			"academic_item": {
+				"value": "FIT3175",
+				"cl_id": "22b3ef96db4c35502bdd077cd39619ae",
+				"key": "code"
+			},
+			"fees_commonwealth": "",
+			"fees_international": "",
+			"course_restrictions": "",
+			"cl_id": "f6b3ef96db4c35502bdd077cd39619fe"
+		}
+	],
+	"enrolment_rules_group": [],
+	"learning_resources_grouped": [
+		{
+			"type": "Required resources",
+			"order": 0,
+			"resources": [
+				{
+					"description": "<p>Pre-reading materials as well as other relevant study materials are provided on Moodle. Students must regularly check Moodle for announcements and updates. Computer labs contain the necessary software for student use.</p>",
+					"type": {
+						"label": "Required resources",
+						"value": "required_resources"
+					},
+					"cl_id": "3ab323d6db4c35502bdd077cd3961904",
+					"academic_item": {
+						"value": "FIT3175",
+						"cl_id": "22b3ef96db4c35502bdd077cd39619ae",
+						"key": "code"
+					},
+					"links": []
+				}
+			]
+		}
+	],
+	"study_abroad_unit": "Yes",
+	"academic_item_type": "Unit",
+	"learning_activities_grouped": [
+		{
+			"activity_type": "Tutorials",
+			"activities": [
+				{
+					"subject": {
+						"value": "FIT3175",
+						"cl_id": "22b3ef96db4c35502bdd077cd39619ae",
+						"key": "code"
+					},
+					"cl_id": "4fb323d6db4c35502bdd077cd3961950",
+					"order": "1",
+					"description": "",
+					"activity_type": {
+						"label": "Tutorials",
+						"value": "tutorial"
+					},
+					"duration_display": "22 hours",
+					"offerings_formatted_teaching_activities": "<ul><li>First semester, Clayton, On-campus</li><li>First semester, Malaysia, On-campus</li></ul>",
+					"links": []
+				},
+				{
+					"subject": {
+						"value": "FIT3175",
+						"cl_id": "22b3ef96db4c35502bdd077cd39619ae",
+						"key": "code"
+					},
+					"cl_id": "f6b323d6db4c35502bdd077cd3961950",
+					"order": "2",
+					"description": "",
+					"activity_type": {
+						"label": "Tutorials",
+						"value": "tutorial"
+					},
+					"duration_display": "24 hours",
+					"offerings_formatted_teaching_activities": "<ul><li>Summer semester B, Clayton, On-campus</li></ul>",
+					"links": []
+				}
+			]
+		},
+		{
+			"activity_type": "Lectures",
+			"activities": [
+				{
+					"subject": {
+						"value": "FIT3175",
+						"cl_id": "22b3ef96db4c35502bdd077cd39619ae",
+						"key": "code"
+					},
+					"cl_id": "72b323d6db4c35502bdd077cd3961950",
+					"order": "0",
+					"description": "",
+					"activity_type": {
+						"label": "Lectures",
+						"value": "lecture"
+					},
+					"duration_display": "24 hours",
+					"offerings_formatted_teaching_activities": "<ul><li>Applies to all offerings</li></ul>",
+					"links": []
+				}
+			]
+		}
+	],
+	"search_title": "FIT3175 - Usability",
+	"unit_search_title": "FIT3175 - Usability",
+	"teaching_approaches": [
+		{
+			"type": {
+				"label": "Active learning",
+				"value": "active_learning"
+			},
+			"academic_item": {
+				"value": "FIT3175",
+				"cl_id": "22b3ef96db4c35502bdd077cd39619ae",
+				"key": "code"
+			},
+			"cl_id": "fab323d6db4c35502bdd077cd3961902",
+			"description": "<p>&nbsp;</p>",
+			"links": []
+		}
+	],
+	"handbook_statement": null,
+	"academic_contact_roles": [
+		{
+			"role": "Chief Examiner(s)",
+			"contacts": [
+				{
+					"active": "true",
+					"contact_department": "",
+					"start_date": "",
+					"offering": {
+						"value": "",
+						"cl_id": null,
+						"key": "display_name"
+					},
+					"contact_role": {
+						"label": "Chief Examiner",
+						"value": "chief_examiner"
+					},
+					"contact_name": "Muhammad Fermi Pasha",
+					"role_detail": "",
+					"contact_organisation": "",
+					"contact_title": "Dr",
+					"order": "1",
+					"contact_phone": "",
+					"end_date": "",
+					"location": {
+						"value": "",
+						"cl_id": null,
+						"key": "name"
+					},
+					"contact_email": "Muhammad.FermiPasha@monash.edu",
+					"contact_url": "",
+					"user": {
+						"value": "Muhammad Fermi Pasha",
+						"cl_id": "18b9d8c01b5654904a942f002d4bcbab",
+						"key": ""
+					},
+					"offerings": [
+						{
+							"value": "SSB-01-CLAYTON-ON-CAMPUS",
+							"cl_id": "beb3ef96db4c35502bdd077cd39619fc",
+							"key": "display_name"
+						}
+					],
+					"applies_to_all_offerings": "false",
+					"linking_id": "d0e92ac2dbdb91902bdd077cd3961961",
+					"cl_id": "72b323d6db4c35502bdd077cd3961900",
+					"display_details": "Muhammad.FermiPasha@monash.edu",
+					"display_name": "Dr Muhammad Fermi Pasha ",
+					"offerings_formatted_contact": "<ul><li>Summer semester B, Clayton, On-campus</li></ul>",
+					"display_role_plural": "Chief Examiner(s)",
+					"links": []
+				},
+				{
+					"active": "true",
+					"contact_department": "",
+					"start_date": "",
+					"offering": {
+						"value": "",
+						"cl_id": null,
+						"key": "display_name"
+					},
+					"contact_role": {
+						"label": "Chief Examiner",
+						"value": "chief_examiner"
+					},
+					"contact_name": "Teresa Llano",
+					"role_detail": "(Semester 1, SSB)",
+					"contact_organisation": "",
+					"contact_title": "Dr",
+					"order": "0",
+					"contact_phone": "",
+					"end_date": "",
+					"location": {
+						"value": "",
+						"cl_id": null,
+						"key": "name"
+					},
+					"contact_email": "Teresa.Llano@monash.edu",
+					"contact_url": "",
+					"user": {
+						"value": "Teresa Llano",
+						"cl_id": "f51e1986db05fc502bdd077cd396191d",
+						"key": ""
+					},
+					"offerings": [
+						{
+							"value": "S1-01-CLAYTON-ON-CAMPUS",
+							"cl_id": "f6b3ef96db4c35502bdd077cd39619fe",
+							"key": "display_name"
+						}
+					],
+					"applies_to_all_offerings": "false",
+					"linking_id": "937f11cf1bc0c910f1eca68b274bcb13",
+					"cl_id": "7ab3ef96db4c35502bdd077cd39619ff",
+					"display_details": "Teresa.Llano@monash.edu",
+					"display_name": "Dr Teresa Llano ",
+					"offerings_formatted_contact": "<ul><li>First semester, Clayton, On-campus</li></ul>",
+					"display_role_plural": "Chief Examiner(s)",
+					"links": []
+				}
+			]
+		},
+		{
+			"role": "Unit Coordinator(s)",
+			"contacts": [
+				{
+					"active": "true",
+					"contact_department": "",
+					"start_date": "",
+					"offering": {
+						"value": "",
+						"cl_id": null,
+						"key": "display_name"
+					},
+					"contact_role": {
+						"label": "Unit Coordinator",
+						"value": "unit_coordinator"
+					},
+					"contact_name": "Ting Fung",
+					"role_detail": "(Malaysia) - Semester 2",
+					"contact_organisation": "",
+					"contact_title": "Dr",
+					"order": "1",
+					"contact_phone": "",
+					"end_date": "",
+					"location": {
+						"value": "",
+						"cl_id": null,
+						"key": "name"
+					},
+					"contact_email": "Ting.Fung@monash.edu",
+					"contact_url": "",
+					"user": {
+						"value": "Ting Fung",
+						"cl_id": "7dbdce8cdb2ed090ffb02c530596195b",
+						"key": ""
+					},
+					"offerings": [
+						{
+							"value": "S1-01-MALAYSIA-ON-CAMPUS",
+							"cl_id": "bab3ef96db4c35502bdd077cd39619fd",
+							"key": "display_name"
+						}
+					],
+					"applies_to_all_offerings": "false",
+					"linking_id": "09c59be4db24f850101196cbd3961952",
+					"cl_id": "f6b323d6db4c35502bdd077cd3961900",
+					"display_details": "Ting.Fung@monash.edu",
+					"display_name": "Dr Ting Fung ",
+					"offerings_formatted_contact": "<ul><li>First semester, Malaysia, On-campus</li></ul>",
+					"display_role_plural": "Unit Coordinator(s)",
+					"links": []
+				},
+				{
+					"active": "true",
+					"contact_department": "",
+					"start_date": "",
+					"offering": {
+						"value": "",
+						"cl_id": null,
+						"key": "display_name"
+					},
+					"contact_role": {
+						"label": "Unit Coordinator",
+						"value": "unit_coordinator"
+					},
+					"contact_name": "Swamy Ananthanarayan",
+					"role_detail": "",
+					"contact_organisation": "",
+					"contact_title": "Dr",
+					"order": "3",
+					"contact_phone": "",
+					"end_date": "",
+					"location": {
+						"value": "",
+						"cl_id": null,
+						"key": "name"
+					},
+					"contact_email": "Swamy.Ananthanarayan@monash.edu",
+					"contact_url": "",
+					"user": {
+						"value": "Swamy Ananthanarayan",
+						"cl_id": "5d9b590f1bcd4510653b206b274bcbd0",
+						"key": ""
+					},
+					"offerings": [
+						{
+							"value": "S1-01-CLAYTON-ON-CAMPUS",
+							"cl_id": "f6b3ef96db4c35502bdd077cd39619fe",
+							"key": "display_name"
+						}
+					],
+					"applies_to_all_offerings": "false",
+					"linking_id": "921946db1b89c510f1eca68b274bcb36",
+					"cl_id": "fab3ef96db4c35502bdd077cd39619fe",
+					"display_details": "Swamy.Ananthanarayan@monash.edu",
+					"display_name": "Dr Swamy Ananthanarayan ",
+					"offerings_formatted_contact": "<ul><li>First semester, Clayton, On-campus</li></ul>",
+					"display_role_plural": "Unit Coordinator(s)",
+					"links": []
+				}
+			]
+		}
+	],
+	"links": [],
+	"yearSwitcher": [
+		{
+			"label": "2020",
+			"value": "2020",
+			"href": "/2020/units/FIT3175?year=2020"
+		},
+		{
+			"label": "2021",
+			"value": "2021",
+			"href": "/2021/units/FIT3175?year=2021"
+		},
+		{
+			"label": "2022",
+			"value": "2022",
+			"href": "/2022/units/FIT3175?year=2022"
+		},
+		{
+			"label": "2023",
+			"value": "2023",
+			"href": "/2023/units/FIT3175?year=2023"
+		}
+	],
+	"university": "Monash University"
+}

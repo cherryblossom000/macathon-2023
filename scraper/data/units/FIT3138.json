@@ -1,8 +1,14 @@
 {
 	"code": "FIT3138",
 	"title": "Real time enterprise systems",
-	"offerings": [
-		"Second semester"
+	"offerings": ["Second semester"],
+	"enrolmentRules": [
+		"<p>Prerequisite: Completion of 12 points of level two units from Information Technology, Science or Engineering or equivalent.</p>"
 	],
-	"requisites": []
+	"requisites": [],
+	"creditPointPrerequisite": {
+		"points": 12,
+		"fitOnly": true,
+		"levelOnly": 2
+	}
 }

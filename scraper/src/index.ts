@@ -132,6 +132,7 @@ interface UnitResponse {
 			value: TeachingPeriod
 		}
 	}[]
+	enrolment_rules: {description: string}[]
 	requisites: {
 		requisite_type: {value: RequisiteType}
 		container: UnitRequisiteContainer[]
@@ -160,23 +161,23 @@ const seq = async <T>(xs: readonly T[]): Promise<Awaited<T>[]> => {
 	return r
 }
 
-const dir = new URL('../data/', import.meta.url)
+const dataDir = new URL('../data/', import.meta.url)
+const rawDir = new URL('../raw/', import.meta.url)
 
 const fetchUnit = async (code: UnitCode): Promise<void> => {
 	// console.log(code)
-	const {title, unit_offering, requisites} = await getNextJSData<UnitResponse>(
-		`units/${code}`,
-	)
-	if (!unit_offering?.length) {
-		console.log(`${code} not offered`)
+	const rawData = await getNextJSData<UnitResponse>(`units/${code}`)
+	const {title, unit_offering, enrolment_rules, requisites} = rawData
+	const offerings = unit_offering?.filter(o => o.location.value === 'Clayton')
+	if (!offerings?.length) {
+		console.log(`${code} not offered in Clayton`)
 		return
 	}
 	const unit: Unit = {
 		code,
 		title,
-		offerings: unit_offering.flatMap(o =>
-			o.location.value === 'Clayton' ? [o.teaching_period.value] : [],
-		),
+		offerings: offerings.map(o => o.teaching_period.value),
+		enrolmentRules: enrolment_rules.map(x => x.description),
 		requisites: requisites.map(r => ({
 			type: r.requisite_type.value,
 			requirement: {
@@ -185,31 +186,12 @@ const fetchUnit = async (code: UnitCode): Promise<void> => {
 			},
 		})),
 	}
-	await writeFile(
-		new URL(`units/${code}.json`, dir),
-		JSON.stringify(unit, null, '\t'),
-	)
+	const path = `units/${code}.json`
+	await Promise.all([
+		writeFile(new URL(path, dataDir), JSON.stringify(unit, null, '\t')),
+		writeFile(new URL(path, rawDir), JSON.stringify(rawData, null, '\t')),
+	])
 }
-
-const units = Promise.all(
-	[
-		...[
-			1006, 1008, 1013, 1033, 1043, 1045, 1046, 1047, 1048, 1049, 1050, 1051,
-			1052, 1053, 1054, 1055, 1056, 1073, 2001, 2002, 2004, 2014, 2032, 2073,
-			2081, 2082, 2083, 2085, 2086, 2087, 2090, 2091, 2092, 2093, 2094, 2095,
-			2096, 2097, 2098, 2099, 2100, 2101, 2102, 2104, 2105, 2107, 2108, 2145,
-			2169, 3003, 3031, 3039, 3040, 3045, 3047, 3048, 3077, 3080, 3081, 3094,
-			3097, 3098, 3134, 3138, 3139, 3143, 3144, 3145, 3146, 3152, 3154, 3155,
-			3157, 3158, 3159, 3161, 3162, 3163, 3164, 3165, 3168, 3169, 3170, 3171,
-			3172, 3173, 3174, 3175, 3176, 3178, 3179, 3180, 3181, 3182, 3183, 3187,
-		].map(n => `FIT${n}`),
-		'MAT1830',
-		'MAT1841',
-	]
-		// [...new Set(courses.flatMap(c => getUnits(c.requirement)))]
-		// 	.filter(code => code !== 'COMPSCI03' && code !== 'DATASCI01')
-		.map(fetchUnit),
-)
 
 await Promise.all([
 	// ...courses.map(async course =>
@@ -218,5 +200,23 @@ await Promise.all([
 	// 		JSON.stringify(course, null, '\t'),
 	// 	),
 	// ),
-	units,
+	Promise.all(
+		[
+			...[
+				1006, 1008, 1013, 1033, 1043, 1045, 1046, 1047, 1048, 1049, 1050, 1051,
+				1052, 1053, 1054, 1055, 1056, 1073, 2001, 2002, 2004, 2014, 2032, 2073,
+				2081, 2082, 2083, 2085, 2086, 2087, 2090, 2091, 2092, 2093, 2094, 2095,
+				2096, 2097, 2098, 2099, 2100, 2101, 2102, 2104, 2105, 2107, 2108, 2145,
+				2169, 3003, 3031, 3039, 3040, 3045, 3047, 3048, 3077, 3080, 3081, 3094,
+				3097, 3098, 3134, 3138, 3139, 3143, 3144, 3145, 3146, 3152, 3154, 3155,
+				3157, 3158, 3159, 3161, 3162, 3163, 3164, 3165, 3168, 3169, 3170, 3171,
+				3172, 3173, 3174, 3175, 3176, 3178, 3179, 3180, 3181, 3182, 3183, 3187,
+			].map(n => `FIT${n}`),
+			'MAT1830',
+			'MAT1841',
+		]
+			// [...new Set(courses.flatMap(c => getUnits(c.requirement)))]
+			// 	.filter(code => code !== 'COMPSCI03' && code !== 'DATASCI01')
+			.map(fetchUnit),
+	),
 ])

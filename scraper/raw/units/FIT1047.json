@@ -1,0 +1,849 @@
+{
+	"contentTypeLabel": "Unit",
+	"published_in_handbook": {
+		"label": "Yes",
+		"value": "1"
+	},
+	"implementation_year": "2023",
+	"duration_ft_max": "",
+	"asced_detailed": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"grading_schema": {
+		"label": null,
+		"value": null
+	},
+	"study_level": [],
+	"quota_enrolment_requirements": "",
+	"status": {
+		"label": "Accredited",
+		"value": "Active"
+	},
+	"duration_pt_max": "",
+	"duration_pt_std": "",
+	"credit_points": "6",
+	"parent_id": {
+		"value": "Master Record: FIT1047",
+		"cl_id": "7a94aa10dbf4b300580f42a014961981",
+		"key": "code",
+		"type": "x_f5sl_cl_master_record"
+	},
+	"start_date": "",
+	"exclusions": "",
+	"unit_code": "FIT1047",
+	"academic_org": {
+		"value": "Faculty of Information Technology",
+		"cl_id": "c5684a53dba8a3406add773c349619a1",
+		"key": "name"
+	},
+	"sms_version": "",
+	"level": {
+		"label": "Level 1",
+		"value": "2"
+	},
+	"uac_code": "",
+	"special_requirements": "",
+	"duration_pt_min": "",
+	"special_unit_type": [],
+	"title": "Introduction to computer systems, networks and security",
+	"duration_ft_std": "",
+	"version": "5",
+	"learning_experiences": null,
+	"duration_ft_min": "",
+	"callista_version": "",
+	"duration_ft_period": {
+		"label": null,
+		"value": null
+	},
+	"asced_narrow": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"subclass": {
+		"label": "Unit",
+		"value": "subject"
+	},
+	"type": {
+		"label": "Coursework",
+		"value": "600"
+	},
+	"quota_rationale": "",
+	"version_name": "2023.05",
+	"timetable_this_unit": "true",
+	"work_integrated_learning": [
+		{
+			"value": "None",
+			"cl_id": "8ef5d77bdb122300e5cf3391f496191d",
+			"key": "label"
+		}
+	],
+	"cl_id": "338df32ddb30bd10101196cbd3961989",
+	"school": {
+		"value": "Faculty of Information Technology",
+		"cl_id": "c5684a53dba8a3406add773c349619a1",
+		"key": "name"
+	},
+	"content": null,
+	"learning_and_teaching_resources": null,
+	"collaborating_disciplines": [],
+	"repeatable": "false",
+	"overview": "",
+	"end_date": "",
+	"duration_pt_period": {
+		"label": null,
+		"value": null
+	},
+	"sms_status": {
+		"label": null,
+		"value": null
+	},
+	"learning_materials": null,
+	"special_topic": "false",
+	"asced_broad": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"publish_tuition_fees": "true",
+	"placement_proportion": {
+		"label": null,
+		"value": null
+	},
+	"code": "FIT1047",
+	"other_unit_costs": "",
+	"eftsl": {
+		"label": "0.125",
+		"value": "0.125"
+	},
+	"contact_information": "",
+	"highest_sca_band": {
+		"label": "SCA Band 2",
+		"value": "2"
+	},
+	"lo_additional_information": "<p>On successful completion of this unit, you should be able to:</p>",
+	"handbook_assessment_summary": "",
+	"quota_information": "",
+	"attendance_requirements": "",
+	"workload_requirements": "<p>This unit has a requirement of 1-2 hours per week of asynchronous learning.</p>\n<p>Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled teaching activities.</p>",
+	"organisational_contact_information": "",
+	"handbook_synopsis": "<p>The unit introduces students to fundamentals of computer systems, networks and security. It provides basic knowledge of computer organisation and architecture, operating systems, networking architecture, technology and operation. It introduces the concepts of security goals for protecting common modern computer systems and communication networks from adversaries and the deployment of suitable countermeasures to achieve these goals.</p>",
+	"special_note_to_students": "<p>Optional <a href=\"https://www.monash.edu/about/mentoring/peer-assisted-study-sessions-pass\" target=\"_blank\">Peer Assisted Study Sessions (PASS)</a> run in this unit.</p>",
+	"undergrad_postgrad_both": {
+		"label": "Undergraduate",
+		"value": "undergraduate"
+	},
+	"area_of_study_links": "Computer networks and security<br />Cybersecurity<br />",
+	"fieldwork": "",
+	"unit_learning_outcomes": [
+		{
+			"lo_domain": [],
+			"order": "4",
+			"number": "4",
+			"code": "ULO4",
+			"lo_cl_id": "009df32ddb30bd10101196cbd39619d0",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "b88b3820db38b3003a731c0e04961928",
+			"academic_item": {
+				"value": "FIT1047",
+				"cl_id": "338df32ddb30bd10101196cbd3961989",
+				"key": "code"
+			},
+			"description": "<p>Explain the three major functions of an operating system (OS), namely, process management, memory management, and file management;</p>",
+			"cl_id": "009df32ddb30bd10101196cbd39619d0",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "6",
+			"number": "6",
+			"code": "ULO6",
+			"lo_cl_id": "0c9df32ddb30bd10101196cbd39619d0",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "345ec7641b3d4510f1eca68b274bcbcc",
+			"academic_item": {
+				"value": "FIT1047",
+				"cl_id": "338df32ddb30bd10101196cbd3961989",
+				"key": "code"
+			},
+			"description": "<p>Describe the functions and architectures of local area networks, wide area networks and the Internet.</p>",
+			"cl_id": "0c9df32ddb30bd10101196cbd39619d0",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "5",
+			"number": "5",
+			"code": "ULO5",
+			"lo_cl_id": "489df32ddb30bd10101196cbd39619d0",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "7dab7c20db38b3003a731c0e04961998",
+			"academic_item": {
+				"value": "FIT1047",
+				"cl_id": "338df32ddb30bd10101196cbd3961989",
+				"key": "code"
+			},
+			"description": "<p>Analyse networks using the underlying fundamental theories, models and protocols for data transmission;</p>",
+			"cl_id": "489df32ddb30bd10101196cbd39619d0",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "3",
+			"number": "3",
+			"code": "ULO3",
+			"lo_cl_id": "4c9df32ddb30bd10101196cbd39619cf",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "f51b38ecdbf4b3003a731c0e0496199c",
+			"academic_item": {
+				"value": "FIT1047",
+				"cl_id": "338df32ddb30bd10101196cbd3961989",
+				"key": "code"
+			},
+			"description": "<p>Program simple algorithms in assembly code;</p>",
+			"cl_id": "4c9df32ddb30bd10101196cbd39619cf",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "2",
+			"number": "2",
+			"code": "ULO2",
+			"lo_cl_id": "849df32ddb30bd10101196cbd39619d0",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "78ea70ecdbf4b3003a731c0e04961954",
+			"academic_item": {
+				"value": "FIT1047",
+				"cl_id": "338df32ddb30bd10101196cbd3961989",
+				"key": "code"
+			},
+			"description": "<p>Describe basic concepts of computer hardware and software architectures;</p>",
+			"cl_id": "849df32ddb30bd10101196cbd39619d0",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "1",
+			"number": "1",
+			"code": "ULO1",
+			"lo_cl_id": "c09df32ddb30bd10101196cbd3961991",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "9b6a30acdbf4b3003a731c0e049619f2",
+			"academic_item": {
+				"value": "FIT1047",
+				"cl_id": "338df32ddb30bd10101196cbd3961989",
+				"key": "code"
+			},
+			"description": "<p>Apply number representations and boolean algebra to analyse simple logic circuits;</p>",
+			"cl_id": "c09df32ddb30bd10101196cbd3961991",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "7",
+			"number": "7",
+			"code": "ULO7",
+			"lo_cl_id": "c09df32ddb30bd10101196cbd39619d0",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "ab390c781b318510f1eca68b274bcb86",
+			"academic_item": {
+				"value": "FIT1047",
+				"cl_id": "338df32ddb30bd10101196cbd3961989",
+				"key": "code"
+			},
+			"description": "<p>Discuss the fundamental concepts of cybersecurity, including common threats and countermeasures.</p>",
+			"cl_id": "c09df32ddb30bd10101196cbd39619d0",
+			"ga_map": []
+		}
+	],
+	"school_org_unit_data": [
+		{
+			"parent": {
+				"value": "",
+				"cl_id": null,
+				"key": "name"
+			},
+			"url": "https://www.monash.edu/it",
+			"name": "Faculty of Information Technology",
+			"cl_id": "c5684a53dba8a3406add773c349619a1"
+		}
+	],
+	"assessments": [
+		{
+			"subject": {
+				"value": "FIT1047",
+				"cl_id": "338df32ddb30bd10101196cbd3961989",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "1",
+			"weight": "15",
+			"cl_id": "0c9df32ddb30bd10101196cbd39619d4",
+			"assessment_name": "Assignment 1",
+			"description": null,
+			"assessment_type": {
+				"label": "Assignment",
+				"value": "assignment"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT1047",
+				"cl_id": "338df32ddb30bd10101196cbd3961989",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "4",
+			"weight": "30",
+			"cl_id": "489df32ddb30bd10101196cbd39619d5",
+			"assessment_name": "Assignment 4",
+			"description": null,
+			"assessment_type": {
+				"label": "Assignment",
+				"value": "assignment"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT1047",
+				"cl_id": "338df32ddb30bd10101196cbd3961989",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "2",
+			"weight": "25",
+			"cl_id": "849df32ddb30bd10101196cbd39619d5",
+			"assessment_name": "Assignment 2",
+			"description": null,
+			"assessment_type": {
+				"label": "Assignment",
+				"value": "assignment"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT1047",
+				"cl_id": "338df32ddb30bd10101196cbd3961989",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "3",
+			"weight": "30",
+			"cl_id": "c09df32ddb30bd10101196cbd39619d5",
+			"assessment_name": "Assignment 3",
+			"description": null,
+			"assessment_type": {
+				"label": "Assignment",
+				"value": "assignment"
+			},
+			"offerings_formatted": ""
+		}
+	],
+	"enrolment_rules": [],
+	"requisites": [],
+	"unit_offering": [
+		{
+			"fees_domestic": "",
+			"publish": "true",
+			"location": {
+				"value": "Clayton",
+				"cl_id": "37f321e1db30a7406add773c3496192e",
+				"key": "name"
+			},
+			"name": "FIT1047-S2-01-ON-CAMPUS-CLAYTON",
+			"clarification_to_appear_in_handbook": "",
+			"display_name": "S2-01-CLAYTON-ON-CAMPUS",
+			"teaching_period": {
+				"value": "Second semester",
+				"cl_id": "85a429a1db30a7406add773c3496190d",
+				"key": "name"
+			},
+			"attendance_mode": {
+				"value": "On-campus",
+				"cl_id": "7bf2311bdb68a3406add773c349619bb",
+				"key": "description"
+			},
+			"quota_number": "",
+			"study_level": {
+				"label": null,
+				"value": null
+			},
+			"offered": "true",
+			"self_enrol": "true",
+			"academic_item": {
+				"value": "FIT1047",
+				"cl_id": "338df32ddb30bd10101196cbd3961989",
+				"key": "code"
+			},
+			"fees_commonwealth": "",
+			"fees_international": "",
+			"course_restrictions": "",
+			"cl_id": "738df32ddb30bd10101196cbd396198e"
+		},
+		{
+			"fees_domestic": "",
+			"publish": "true",
+			"location": {
+				"value": "Malaysia",
+				"cl_id": "7bf321e1db30a7406add773c3496192f",
+				"key": "name"
+			},
+			"name": "FIT1047-OCT-MY-01-ON-CAMPUS-MALAYSIA",
+			"clarification_to_appear_in_handbook": "",
+			"display_name": "OCT-MY-01-MALAYSIA-ON-CAMPUS",
+			"teaching_period": {
+				"value": "October intake teaching period, Malaysia campus",
+				"cl_id": "81a429a1db30a7406add773c3496190c",
+				"key": "name"
+			},
+			"attendance_mode": {
+				"value": "On-campus",
+				"cl_id": "7bf2311bdb68a3406add773c349619bb",
+				"key": "description"
+			},
+			"quota_number": "",
+			"study_level": {
+				"label": null,
+				"value": null
+			},
+			"offered": "true",
+			"self_enrol": "true",
+			"academic_item": {
+				"value": "FIT1047",
+				"cl_id": "338df32ddb30bd10101196cbd3961989",
+				"key": "code"
+			},
+			"fees_commonwealth": "",
+			"fees_international": "",
+			"course_restrictions": "",
+			"cl_id": "778df32ddb30bd10101196cbd396198d"
+		},
+		{
+			"fees_domestic": "",
+			"publish": "true",
+			"location": {
+				"value": "Malaysia",
+				"cl_id": "7bf321e1db30a7406add773c3496192f",
+				"key": "name"
+			},
+			"name": "FIT1047-S2-01-ON-CAMPUS-MALAYSIA",
+			"clarification_to_appear_in_handbook": "",
+			"display_name": "S2-01-MALAYSIA-ON-CAMPUS",
+			"teaching_period": {
+				"value": "Second semester",
+				"cl_id": "85a429a1db30a7406add773c3496190d",
+				"key": "name"
+			},
+			"attendance_mode": {
+				"value": "On-campus",
+				"cl_id": "7bf2311bdb68a3406add773c349619bb",
+				"key": "description"
+			},
+			"quota_number": "",
+			"study_level": {
+				"label": null,
+				"value": null
+			},
+			"offered": "true",
+			"self_enrol": "true",
+			"academic_item": {
+				"value": "FIT1047",
+				"cl_id": "338df32ddb30bd10101196cbd3961989",
+				"key": "code"
+			},
+			"fees_commonwealth": "",
+			"fees_international": "",
+			"course_restrictions": "",
+			"cl_id": "7b8df32ddb30bd10101196cbd396198c"
+		},
+		{
+			"fees_domestic": "",
+			"publish": "true",
+			"location": {
+				"value": "Malaysia",
+				"cl_id": "7bf321e1db30a7406add773c3496192f",
+				"key": "name"
+			},
+			"name": "FIT1047-S1-01-ON-CAMPUS-MALAYSIA",
+			"clarification_to_appear_in_handbook": "",
+			"display_name": "S1-01-MALAYSIA-ON-CAMPUS",
+			"teaching_period": {
+				"value": "First semester",
+				"cl_id": "0da429a1db30a7406add773c3496190c",
+				"key": "name"
+			},
+			"attendance_mode": {
+				"value": "On-campus",
+				"cl_id": "7bf2311bdb68a3406add773c349619bb",
+				"key": "description"
+			},
+			"quota_number": "",
+			"study_level": {
+				"label": null,
+				"value": null
+			},
+			"offered": "true",
+			"self_enrol": "true",
+			"academic_item": {
+				"value": "FIT1047",
+				"cl_id": "338df32ddb30bd10101196cbd3961989",
+				"key": "code"
+			},
+			"fees_commonwealth": "",
+			"fees_international": "",
+			"course_restrictions": "",
+			"cl_id": "7b8df32ddb30bd10101196cbd396198d"
+		},
+		{
+			"fees_domestic": "",
+			"publish": "true",
+			"location": {
+				"value": "Clayton",
+				"cl_id": "37f321e1db30a7406add773c3496192e",
+				"key": "name"
+			},
+			"name": "FIT1047-S1-01-ON-CAMPUS-CLAYTON",
+			"clarification_to_appear_in_handbook": "",
+			"display_name": "S1-01-CLAYTON-ON-CAMPUS",
+			"teaching_period": {
+				"value": "First semester",
+				"cl_id": "0da429a1db30a7406add773c3496190c",
+				"key": "name"
+			},
+			"attendance_mode": {
+				"value": "On-campus",
+				"cl_id": "7bf2311bdb68a3406add773c349619bb",
+				"key": "description"
+			},
+			"quota_number": "",
+			"study_level": {
+				"label": null,
+				"value": null
+			},
+			"offered": "true",
+			"self_enrol": "true",
+			"academic_item": {
+				"value": "FIT1047",
+				"cl_id": "338df32ddb30bd10101196cbd3961989",
+				"key": "code"
+			},
+			"fees_commonwealth": "",
+			"fees_international": "",
+			"course_restrictions": "",
+			"cl_id": "7f8df32ddb30bd10101196cbd396198d"
+		}
+	],
+	"enrolment_rules_group": [],
+	"learning_resources_grouped": [
+		{
+			"type": "Recommended resources",
+			"order": 1,
+			"resources": [
+				{
+					"description": "<p>Linda Null, Julia Lobur. The essentials of computer organization and architecture. Fourth edition, 2015. Jones & Bartlett Learning. <br/>\nJerry FitzGerald and Alan Dennis. Business Data Communications & Networking. 12th Edition, 2014. Wiley. <br/>\nW. Stallings. (2016). Network Security Essentials: Applications and Standards . Global Edition (6e) Pearson International. <br/>\nRoss Anderson. Security Engineering. Second edition, 2008. Wiley. This book is also available for free online: http://www.cl.cam.ac.uk/~rja14/book.html</p>",
+					"type": {
+						"label": "Recommended resources",
+						"value": "recommended_resources"
+					},
+					"cl_id": "4c9df32ddb30bd10101196cbd39619d1",
+					"academic_item": {
+						"value": "FIT1047",
+						"cl_id": "338df32ddb30bd10101196cbd3961989",
+						"key": "code"
+					},
+					"links": []
+				}
+			]
+		}
+	],
+	"study_abroad_unit": "Yes",
+	"academic_item_type": "Unit",
+	"learning_activities_grouped": [
+		{
+			"activity_type": "Applied sessions",
+			"activities": [
+				{
+					"subject": {
+						"value": "FIT1047",
+						"cl_id": "338df32ddb30bd10101196cbd3961989",
+						"key": "code"
+					},
+					"cl_id": "409df32ddb30bd10101196cbd39619d4",
+					"order": "3",
+					"description": "",
+					"activity_type": {
+						"label": "Applied sessions",
+						"value": "applied"
+					},
+					"duration_display": "24 hours",
+					"offerings_formatted_teaching_activities": "<ul><li>Applies to all offerings</li></ul>",
+					"links": []
+				}
+			]
+		},
+		{
+			"activity_type": "Workshops",
+			"activities": [
+				{
+					"subject": {
+						"value": "FIT1047",
+						"cl_id": "338df32ddb30bd10101196cbd3961989",
+						"key": "code"
+					},
+					"cl_id": "c49df32ddb30bd10101196cbd39619d4",
+					"order": "2",
+					"description": "",
+					"activity_type": {
+						"label": "Workshops",
+						"value": "workshop"
+					},
+					"duration_display": "24 hours",
+					"offerings_formatted_teaching_activities": "<ul><li>Applies to all offerings</li></ul>",
+					"links": []
+				}
+			]
+		}
+	],
+	"search_title": "FIT1047 - Introduction to computer systems, networks and security",
+	"unit_search_title": "FIT1047 - Introduction to computer systems, networks and security",
+	"teaching_approaches": [
+		{
+			"type": {
+				"label": "Active learning",
+				"value": "active_learning"
+			},
+			"academic_item": {
+				"value": "FIT1047",
+				"cl_id": "338df32ddb30bd10101196cbd3961989",
+				"key": "code"
+			},
+			"cl_id": "c09df32ddb30bd10101196cbd39619d3",
+			"description": "<p>&nbsp;</p>",
+			"links": []
+		}
+	],
+	"handbook_statement": null,
+	"academic_contact_roles": [
+		{
+			"role": "Unit Coordinator(s)",
+			"contacts": [
+				{
+					"active": "true",
+					"contact_department": "",
+					"start_date": "",
+					"offering": {
+						"value": "",
+						"cl_id": null,
+						"key": "display_name"
+					},
+					"contact_role": {
+						"label": "Unit Coordinator",
+						"value": "unit_coordinator"
+					},
+					"contact_name": "ABM Russel",
+					"role_detail": "",
+					"contact_organisation": "",
+					"contact_title": "Mr",
+					"order": "3",
+					"contact_phone": "",
+					"end_date": "",
+					"location": {
+						"value": "",
+						"cl_id": null,
+						"key": "name"
+					},
+					"contact_email": "ABM.Russel@monash.edu",
+					"contact_url": "",
+					"user": {
+						"value": "ABM Russel",
+						"cl_id": "8dc143dcdb78b300580f42a0149619e3",
+						"key": ""
+					},
+					"offerings": [
+						{
+							"value": "S2-01-CLAYTON-ON-CAMPUS",
+							"cl_id": "738df32ddb30bd10101196cbd396198e",
+							"key": "display_name"
+						},
+						{
+							"value": "S1-01-CLAYTON-ON-CAMPUS",
+							"cl_id": "7f8df32ddb30bd10101196cbd396198d",
+							"key": "display_name"
+						}
+					],
+					"applies_to_all_offerings": "false",
+					"linking_id": "e77bfafe1b314d10f1eca68b274bcb1c",
+					"cl_id": "449df32ddb30bd10101196cbd3961990",
+					"display_details": "ABM.Russel@monash.edu",
+					"display_name": "Mr ABM Russel ",
+					"offerings_formatted_contact": "<ul><li>First semester, Clayton, On-campus</li><li>Second semester, Clayton, On-campus</li></ul>",
+					"display_role_plural": "Unit Coordinator(s)",
+					"links": []
+				},
+				{
+					"active": "true",
+					"contact_department": "",
+					"start_date": "",
+					"offering": {
+						"value": "",
+						"cl_id": null,
+						"key": "display_name"
+					},
+					"contact_role": {
+						"label": "Unit Coordinator",
+						"value": "unit_coordinator"
+					},
+					"contact_name": "Tan Chee Keong",
+					"role_detail": "( Malaysia)",
+					"contact_organisation": "",
+					"contact_title": "Dr",
+					"order": "1",
+					"contact_phone": "",
+					"end_date": "",
+					"location": {
+						"value": "",
+						"cl_id": null,
+						"key": "name"
+					},
+					"contact_email": "Tan.CheeKeong@monash.edu",
+					"contact_url": "",
+					"user": {
+						"value": "Tan Chee Keong",
+						"cl_id": "e32d0284db2ed090ffb02c5305961938",
+						"key": ""
+					},
+					"offerings": [
+						{
+							"value": "S2-01-MALAYSIA-ON-CAMPUS",
+							"cl_id": "7b8df32ddb30bd10101196cbd396198c",
+							"key": "display_name"
+						},
+						{
+							"value": "S1-01-MALAYSIA-ON-CAMPUS",
+							"cl_id": "7b8df32ddb30bd10101196cbd396198d",
+							"key": "display_name"
+						}
+					],
+					"applies_to_all_offerings": "false",
+					"linking_id": "b4b52535dbe75090a786cd043a961951",
+					"cl_id": "7b8df32ddb30bd10101196cbd396198f",
+					"display_details": "Tan.CheeKeong@monash.edu",
+					"display_name": "Dr Tan Chee Keong ",
+					"offerings_formatted_contact": "<ul><li>First semester, Malaysia, On-campus</li><li>Second semester, Malaysia, On-campus</li></ul>",
+					"display_role_plural": "Unit Coordinator(s)",
+					"links": []
+				}
+			]
+		},
+		{
+			"role": "Chief Examiner(s)",
+			"contacts": [
+				{
+					"active": "true",
+					"contact_department": "",
+					"start_date": "",
+					"offering": {
+						"value": "",
+						"cl_id": null,
+						"key": "display_name"
+					},
+					"contact_role": {
+						"label": "Chief Examiner",
+						"value": "chief_examiner"
+					},
+					"contact_name": "Carsten Rudolph",
+					"role_detail": "",
+					"contact_organisation": "",
+					"contact_title": "Associate Professor",
+					"order": "1",
+					"contact_phone": "",
+					"end_date": "",
+					"location": {
+						"value": "",
+						"cl_id": null,
+						"key": "name"
+					},
+					"contact_email": "Carsten.Rudolph@monash.edu",
+					"contact_url": "",
+					"user": {
+						"value": "Carsten Rudolph",
+						"cl_id": "28d18bdcdb78b300580f42a01496198c",
+						"key": ""
+					},
+					"offerings": [
+						{
+							"value": "S2-01-CLAYTON-ON-CAMPUS",
+							"cl_id": "738df32ddb30bd10101196cbd396198e",
+							"key": "display_name"
+						},
+						{
+							"value": "S1-01-CLAYTON-ON-CAMPUS",
+							"cl_id": "7f8df32ddb30bd10101196cbd396198d",
+							"key": "display_name"
+						}
+					],
+					"applies_to_all_offerings": "false",
+					"linking_id": "5ce555871bc0c910f1eca68b274bcb33",
+					"cl_id": "778df32ddb30bd10101196cbd396198e",
+					"display_details": "Carsten.Rudolph@monash.edu",
+					"display_name": "Associate Professor Carsten Rudolph ",
+					"offerings_formatted_contact": "<ul><li>First semester, Clayton, On-campus</li><li>Second semester, Clayton, On-campus</li></ul>",
+					"display_role_plural": "Chief Examiner(s)",
+					"links": []
+				}
+			]
+		}
+	],
+	"links": [],
+	"yearSwitcher": [
+		{
+			"label": "2020",
+			"value": "2020",
+			"href": "/2020/units/FIT1047?year=2020"
+		},
+		{
+			"label": "2021",
+			"value": "2021",
+			"href": "/2021/units/FIT1047?year=2021"
+		},
+		{
+			"label": "2022",
+			"value": "2022",
+			"href": "/2022/units/FIT1047?year=2022"
+		},
+		{
+			"label": "2023",
+			"value": "2023",
+			"href": "/2023/units/FIT1047?year=2023"
+		}
+	],
+	"university": "Monash University"
+}

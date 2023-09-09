@@ -1,0 +1,648 @@
+{
+	"contentTypeLabel": "Unit",
+	"published_in_handbook": {
+		"label": "Yes",
+		"value": "1"
+	},
+	"implementation_year": "2023",
+	"duration_ft_max": "",
+	"asced_detailed": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"grading_schema": {
+		"label": null,
+		"value": null
+	},
+	"study_level": [],
+	"quota_enrolment_requirements": "",
+	"status": {
+		"label": "Accredited",
+		"value": "Active"
+	},
+	"duration_pt_max": "",
+	"duration_pt_std": "",
+	"credit_points": "6",
+	"parent_id": {
+		"value": "Master Record: FIT3094",
+		"cl_id": "baa42650dbf4b300580f42a01496190d",
+		"key": "code",
+		"type": "x_f5sl_cl_master_record"
+	},
+	"start_date": "",
+	"exclusions": "",
+	"unit_code": "FIT3094",
+	"academic_org": {
+		"value": "Faculty of Information Technology",
+		"cl_id": "c5684a53dba8a3406add773c349619a1",
+		"key": "name"
+	},
+	"sms_version": "",
+	"level": {
+		"label": "Level 3",
+		"value": "4"
+	},
+	"uac_code": "",
+	"special_requirements": "",
+	"duration_pt_min": "",
+	"special_unit_type": [],
+	"title": "Artificial life, artificial intelligence and virtual environments",
+	"duration_ft_std": "",
+	"version": "4",
+	"learning_experiences": null,
+	"duration_ft_min": "",
+	"callista_version": "",
+	"duration_ft_period": {
+		"label": null,
+		"value": null
+	},
+	"asced_narrow": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"subclass": {
+		"label": "Unit",
+		"value": "subject"
+	},
+	"type": {
+		"label": "Coursework",
+		"value": "600"
+	},
+	"quota_rationale": "",
+	"version_name": "2023.04",
+	"timetable_this_unit": "true",
+	"work_integrated_learning": [
+		{
+			"value": "None",
+			"cl_id": "8ef5d77bdb122300e5cf3391f496191d",
+			"key": "label"
+		}
+	],
+	"cl_id": "74e23a82dbc8f1502bdd077cd39619ff",
+	"school": {
+		"value": "Faculty of Information Technology",
+		"cl_id": "c5684a53dba8a3406add773c349619a1",
+		"key": "name"
+	},
+	"content": null,
+	"learning_and_teaching_resources": null,
+	"collaborating_disciplines": [],
+	"repeatable": "false",
+	"overview": "",
+	"end_date": "",
+	"duration_pt_period": {
+		"label": null,
+		"value": null
+	},
+	"sms_status": {
+		"label": null,
+		"value": null
+	},
+	"learning_materials": null,
+	"special_topic": "false",
+	"asced_broad": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"publish_tuition_fees": "true",
+	"placement_proportion": {
+		"label": null,
+		"value": null
+	},
+	"code": "FIT3094",
+	"other_unit_costs": "",
+	"eftsl": {
+		"label": "0.125",
+		"value": "0.125"
+	},
+	"contact_information": "",
+	"highest_sca_band": {
+		"label": "SCA Band 2",
+		"value": "2"
+	},
+	"lo_additional_information": "<p>On successful completion of this unit, you should be able to:</p>",
+	"handbook_assessment_summary": "",
+	"quota_information": "",
+	"attendance_requirements": "",
+	"workload_requirements": "<p>Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled teaching activities.</p>",
+	"organisational_contact_information": "",
+	"handbook_synopsis": "<p>This unit introduces topics in Artificial Intelligence (AI) and Artificial Life (ALife) suited to real-time simulation and computer games development. Using a practice-based and programming-led approach, the unit explores elements of the history of these fields, and their application to games, the fields’ fundamental concepts and theory, as well as practical techniques and algorithms that can be used to build real-time, interactive games, virtual environments and simulations. Starting with basic concepts in 2D discrete simulation, the unit progresses to continuous 3D models, agent-based models, bio-inspired intelligence and search algorithms. Programs are developed primarily using C++.</p>",
+	"special_note_to_students": "",
+	"undergrad_postgrad_both": {
+		"label": "Undergraduate",
+		"value": "undergraduate"
+	},
+	"area_of_study_links": "Advanced computer science<br />Games development<br />",
+	"fieldwork": "",
+	"unit_learning_outcomes": [
+		{
+			"lo_domain": [],
+			"order": "1",
+			"number": "1",
+			"code": "ULO1",
+			"lo_cl_id": "30e27a82dbc8f1502bdd077cd3961903",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "b04af86cdbf4b3003a731c0e04961959",
+			"academic_item": {
+				"value": "FIT3094",
+				"cl_id": "74e23a82dbc8f1502bdd077cd39619ff",
+				"key": "code"
+			},
+			"description": "<p>Explain the concepts and theories underlying AI and Artificial Life;</p>",
+			"cl_id": "30e27a82dbc8f1502bdd077cd3961903",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "3",
+			"number": "3",
+			"code": "ULO3",
+			"lo_cl_id": "78e27a82dbc8f1502bdd077cd3961903",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "23fa74ecdbf4b3003a731c0e04961932",
+			"academic_item": {
+				"value": "FIT3094",
+				"cl_id": "74e23a82dbc8f1502bdd077cd39619ff",
+				"key": "code"
+			},
+			"description": "<p>Apply evolutionary algorithms to devise novel agents and understand their application, and that of other search algorithms, to problems requiring the search of a solution space;</p>",
+			"cl_id": "78e27a82dbc8f1502bdd077cd3961903",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "2",
+			"number": "2",
+			"code": "ULO2",
+			"lo_cl_id": "b4e27a82dbc8f1502bdd077cd3961903",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "5cbab8acdbf4b3003a731c0e0496191f",
+			"academic_item": {
+				"value": "FIT3094",
+				"cl_id": "74e23a82dbc8f1502bdd077cd39619ff",
+				"key": "code"
+			},
+			"description": "<p>Evaluate and apply AI and/or ALife software techniques to model simple intelligent behaviour in discrete and continuous simulations and games</p>",
+			"cl_id": "b4e27a82dbc8f1502bdd077cd3961903",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "4",
+			"number": "4",
+			"code": "ULO4",
+			"lo_cl_id": "f0e27a82dbc8f1502bdd077cd3961903",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "5e8b7820db38b3003a731c0e04961961",
+			"academic_item": {
+				"value": "FIT3094",
+				"cl_id": "74e23a82dbc8f1502bdd077cd39619ff",
+				"key": "code"
+			},
+			"description": "<p>Apply - through practice-based learning - design, development, execution and validation of real-time interactive software using AI techniques</p>",
+			"cl_id": "f0e27a82dbc8f1502bdd077cd3961903",
+			"ga_map": []
+		}
+	],
+	"school_org_unit_data": [
+		{
+			"parent": {
+				"value": "",
+				"cl_id": null,
+				"key": "name"
+			},
+			"url": "https://www.monash.edu/it",
+			"name": "Faculty of Information Technology",
+			"cl_id": "c5684a53dba8a3406add773c349619a1"
+		}
+	],
+	"assessments": [
+		{
+			"subject": {
+				"value": "FIT3094",
+				"cl_id": "74e23a82dbc8f1502bdd077cd39619ff",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "1",
+			"weight": "25",
+			"cl_id": "3ce27a82dbc8f1502bdd077cd3961905",
+			"assessment_name": "Assignment 1: Path Finding",
+			"description": null,
+			"assessment_type": {
+				"label": "Assignment",
+				"value": "assignment"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT3094",
+				"cl_id": "74e23a82dbc8f1502bdd077cd39619ff",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "3",
+			"weight": "25",
+			"cl_id": "78e27a82dbc8f1502bdd077cd3961905",
+			"assessment_name": "Assignment 3: Evolution",
+			"description": null,
+			"assessment_type": {
+				"label": "Assignment",
+				"value": "assignment"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT3094",
+				"cl_id": "74e23a82dbc8f1502bdd077cd39619ff",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "4",
+			"weight": "25",
+			"cl_id": "b0e27a82dbc8f1502bdd077cd3961906",
+			"assessment_name": "Weekly assessment tasks",
+			"description": null,
+			"assessment_type": {
+				"label": "Other",
+				"value": "other"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT3094",
+				"cl_id": "74e23a82dbc8f1502bdd077cd39619ff",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "2",
+			"weight": "25",
+			"cl_id": "fce27a82dbc8f1502bdd077cd3961905",
+			"assessment_name": "Assignment 2: Agent Decision Making and Planning",
+			"description": null,
+			"assessment_type": {
+				"label": "Assignment",
+				"value": "assignment"
+			},
+			"offerings_formatted": ""
+		}
+	],
+	"enrolment_rules": [],
+	"requisites": [
+		{
+			"academic_item_code": "FIT3094",
+			"active": "true",
+			"requisite_cl_id": "bce27a82dbc8f1502bdd077cd3961900",
+			"description": "",
+			"requisite_type": {
+				"label": "Prerequisite",
+				"value": "prerequisite"
+			},
+			"cl_id": {
+				"value": "FIT3094",
+				"cl_id": "74e23a82dbc8f1502bdd077cd39619ff",
+				"key": "code"
+			},
+			"academic_item_version_number": "2023.04",
+			"order": "1",
+			"start_date": "",
+			"end_date": "",
+			"container": [
+				{
+					"cl_id": "7ce2720edb00f150101196cbd396190c",
+					"parent_container_table": "x_f5sl_cl_requisite",
+					"parent_record": {
+						"value": "Relationship Builder: FIT3094",
+						"cl_id": "bce27a82dbc8f1502bdd077cd3961900",
+						"key": "academic_item",
+						"type": "x_f5sl_cl_requisite"
+					},
+					"title": "Container 1",
+					"parent_connector": {
+						"label": "AND",
+						"value": "AND"
+					},
+					"containers": [],
+					"relationships": [
+						{
+							"academic_item": {
+								"value": "Unit: FIT2096",
+								"cl_id": "c9eaf42b1b3c5550653b206b274bcb79",
+								"key": "code",
+								"type": "x_f5sl_cl_subjects"
+							},
+							"parent_record": {
+								"value": "Container 1",
+								"cl_id": "7ce2720edb00f150101196cbd396190c",
+								"key": "title"
+							},
+							"order": "2",
+							"cl_id": "c9eaf42b1b3c5550653b206b274bcb79",
+							"academic_item_type": {
+								"label": "Unit",
+								"value": "subject"
+							},
+							"abbr_name": "GAMESPROG1",
+							"academic_item_version_name": "2023.01RO",
+							"academic_item_credit_points": "6",
+							"abbreviated_name_and_major": null,
+							"academic_item_name": "Games programming 1",
+							"academic_item_code": "FIT2096",
+							"academic_item_url": "/2023/units/FIT2096"
+						}
+					]
+				}
+			]
+		}
+	],
+	"unit_offering": [
+		{
+			"fees_domestic": "",
+			"publish": "true",
+			"location": {
+				"value": "Clayton",
+				"cl_id": "37f321e1db30a7406add773c3496192e",
+				"key": "name"
+			},
+			"name": "FIT3094-S1-01-ON-CAMPUS-CLAYTON",
+			"clarification_to_appear_in_handbook": "",
+			"display_name": "S1-01-CLAYTON-ON-CAMPUS",
+			"teaching_period": {
+				"value": "First semester",
+				"cl_id": "0da429a1db30a7406add773c3496190c",
+				"key": "name"
+			},
+			"attendance_mode": {
+				"value": "On-campus",
+				"cl_id": "7bf2311bdb68a3406add773c349619bb",
+				"key": "description"
+			},
+			"quota_number": "",
+			"study_level": {
+				"label": null,
+				"value": null
+			},
+			"offered": "true",
+			"self_enrol": "true",
+			"academic_item": {
+				"value": "FIT3094",
+				"cl_id": "74e23a82dbc8f1502bdd077cd39619ff",
+				"key": "code"
+			},
+			"fees_commonwealth": "",
+			"fees_international": "",
+			"course_restrictions": "",
+			"cl_id": "3ce27a82dbc8f1502bdd077cd3961901"
+		}
+	],
+	"enrolment_rules_group": [],
+	"learning_resources_grouped": [
+		{
+			"type": "Technology resources",
+			"order": 2,
+			"resources": [
+				{
+					"description": "<p>Visual Studio 2017 OR 2019 Community Edition (Windows Only) <a href=\"https://visualstudio.microsoft.com/vs/\">https://visualstudio.microsoft.com/vs/</a> </p>\n<p>On-campus students may use the software which is installed in the computing labs. Information about computer use for students is available from the ITS Student Resource Guide in the Monash University Handbook.</p>",
+					"type": {
+						"label": "Technology resources",
+						"value": "technology_resources"
+					},
+					"cl_id": "b8e27a82dbc8f1502bdd077cd3961904",
+					"academic_item": {
+						"value": "FIT3094",
+						"cl_id": "74e23a82dbc8f1502bdd077cd39619ff",
+						"key": "code"
+					},
+					"links": []
+				}
+			]
+		}
+	],
+	"study_abroad_unit": "Yes",
+	"academic_item_type": "Unit",
+	"learning_activities_grouped": [
+		{
+			"activity_type": "Lectures",
+			"activities": [
+				{
+					"subject": {
+						"value": "FIT3094",
+						"cl_id": "74e23a82dbc8f1502bdd077cd39619ff",
+						"key": "code"
+					},
+					"cl_id": "34e27a82dbc8f1502bdd077cd3961905",
+					"order": "",
+					"description": "",
+					"activity_type": {
+						"label": "Lectures",
+						"value": "lecture"
+					},
+					"duration_display": "24 hours",
+					"offerings_formatted_teaching_activities": "<ul><li>Applies to all offerings</li></ul>",
+					"links": []
+				}
+			]
+		},
+		{
+			"activity_type": "Studio activities",
+			"activities": [
+				{
+					"subject": {
+						"value": "FIT3094",
+						"cl_id": "74e23a82dbc8f1502bdd077cd39619ff",
+						"key": "code"
+					},
+					"cl_id": "b0e27a82dbc8f1502bdd077cd3961905",
+					"order": "",
+					"description": "",
+					"activity_type": {
+						"label": "Studio activities",
+						"value": "studio"
+					},
+					"duration_display": "24 hours",
+					"offerings_formatted_teaching_activities": "<ul><li>Applies to all offerings</li></ul>",
+					"links": []
+				}
+			]
+		}
+	],
+	"search_title": "FIT3094 - Artificial life, artificial intelligence and virtual environments",
+	"unit_search_title": "FIT3094 - Artificial life, artificial intelligence and virtual environments",
+	"teaching_approaches": [
+		{
+			"type": {
+				"label": "Active learning",
+				"value": "active_learning"
+			},
+			"academic_item": {
+				"value": "FIT3094",
+				"cl_id": "74e23a82dbc8f1502bdd077cd39619ff",
+				"key": "code"
+			},
+			"cl_id": "34e27a82dbc8f1502bdd077cd3961904",
+			"description": "<p>  </p>",
+			"links": []
+		},
+		{
+			"type": {
+				"label": "Peer assisted learning",
+				"value": "peer_assisted_learning"
+			},
+			"academic_item": {
+				"value": "FIT3094",
+				"cl_id": "74e23a82dbc8f1502bdd077cd39619ff",
+				"key": "code"
+			},
+			"cl_id": "70e27a82dbc8f1502bdd077cd3961904",
+			"description": "<p>  </p>",
+			"links": []
+		}
+	],
+	"handbook_statement": null,
+	"academic_contact_roles": [
+		{
+			"role": "Chief Examiner(s)",
+			"contacts": [
+				{
+					"active": "true",
+					"contact_department": "",
+					"start_date": "",
+					"offering": {
+						"value": "",
+						"cl_id": null,
+						"key": "display_name"
+					},
+					"contact_role": {
+						"label": "Chief Examiner",
+						"value": "chief_examiner"
+					},
+					"contact_name": "Alan Dorin",
+					"role_detail": "",
+					"contact_organisation": "",
+					"contact_title": "Associate Professor",
+					"order": "1",
+					"contact_phone": "",
+					"end_date": "",
+					"location": {
+						"value": "",
+						"cl_id": null,
+						"key": "name"
+					},
+					"contact_email": "alan.dorin@monash.edu",
+					"contact_url": "",
+					"user": {
+						"value": "Alan Dorin",
+						"cl_id": "d1107acc4fcf32009014a8fe0310c730",
+						"key": ""
+					},
+					"offerings": [],
+					"applies_to_all_offerings": "true",
+					"linking_id": "2458f5111b166450653b206b274bcbe2",
+					"cl_id": "74e27a82dbc8f1502bdd077cd3961902",
+					"display_details": "alan.dorin@monash.edu",
+					"display_name": "Associate Professor Alan Dorin ",
+					"offerings_formatted_contact": "<ul><li>Applies to all offerings</ul></li>",
+					"display_role_plural": "Chief Examiner(s)",
+					"links": []
+				}
+			]
+		},
+		{
+			"role": "Unit Coordinator(s)",
+			"contacts": [
+				{
+					"active": "true",
+					"contact_department": "",
+					"start_date": "",
+					"offering": {
+						"value": "",
+						"cl_id": null,
+						"key": "display_name"
+					},
+					"contact_role": {
+						"label": "Unit Coordinator",
+						"value": "unit_coordinator"
+					},
+					"contact_name": "Daniel Harabor",
+					"role_detail": "",
+					"contact_organisation": "",
+					"contact_title": "Dr",
+					"order": "0",
+					"contact_phone": "",
+					"end_date": "",
+					"location": {
+						"value": "",
+						"cl_id": null,
+						"key": "name"
+					},
+					"contact_email": "Daniel.Harabor@monash.edu",
+					"contact_url": "",
+					"user": {
+						"value": "Daniel Harabor",
+						"cl_id": "abbbf889db8ff3801092bd16f49619ad",
+						"key": ""
+					},
+					"offerings": [],
+					"applies_to_all_offerings": "true",
+					"linking_id": "a7477f6e1bc54510f1eca68b274bcb43",
+					"cl_id": "78e27a82dbc8f1502bdd077cd3961902",
+					"display_details": "Daniel.Harabor@monash.edu",
+					"display_name": "Dr Daniel Harabor ",
+					"offerings_formatted_contact": "<ul><li>Applies to all offerings</ul></li>",
+					"display_role_plural": "Unit Coordinator(s)",
+					"links": []
+				}
+			]
+		}
+	],
+	"links": [],
+	"yearSwitcher": [
+		{
+			"label": "2020",
+			"value": "2020",
+			"href": "/2020/units/FIT3094?year=2020"
+		},
+		{
+			"label": "2021",
+			"value": "2021",
+			"href": "/2021/units/FIT3094?year=2021"
+		},
+		{
+			"label": "2022",
+			"value": "2022",
+			"href": "/2022/units/FIT3094?year=2022"
+		},
+		{
+			"label": "2023",
+			"value": "2023",
+			"href": "/2023/units/FIT3094?year=2023"
+		}
+	],
+	"university": "Monash University"
+}

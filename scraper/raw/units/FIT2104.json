@@ -1,0 +1,697 @@
+{
+	"contentTypeLabel": "Unit",
+	"published_in_handbook": {
+		"label": "Yes",
+		"value": "1"
+	},
+	"implementation_year": "2023",
+	"duration_ft_max": "",
+	"asced_detailed": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"grading_schema": {
+		"label": null,
+		"value": null
+	},
+	"study_level": [],
+	"quota_enrolment_requirements": "",
+	"status": {
+		"label": "Accredited",
+		"value": "Active"
+	},
+	"duration_pt_max": "",
+	"duration_pt_std": "",
+	"credit_points": "6",
+	"parent_id": {
+		"value": "Master Record: FIT2104",
+		"cl_id": "b9a4a250dbf4b300580f42a014961963",
+		"key": "code",
+		"type": "x_f5sl_cl_master_record"
+	},
+	"start_date": "",
+	"exclusions": "",
+	"unit_code": "FIT2104",
+	"academic_org": {
+		"value": "Faculty of Information Technology",
+		"cl_id": "c5684a53dba8a3406add773c349619a1",
+		"key": "name"
+	},
+	"sms_version": "",
+	"level": {
+		"label": "Level 2",
+		"value": "3"
+	},
+	"uac_code": "",
+	"special_requirements": "",
+	"duration_pt_min": "",
+	"special_unit_type": [],
+	"title": "Web database interface",
+	"duration_ft_std": "",
+	"version": "5",
+	"learning_experiences": null,
+	"duration_ft_min": "",
+	"callista_version": "",
+	"duration_ft_period": {
+		"label": null,
+		"value": null
+	},
+	"asced_narrow": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"subclass": {
+		"label": "Unit",
+		"value": "subject"
+	},
+	"type": {
+		"label": "Coursework",
+		"value": "600"
+	},
+	"quota_rationale": "",
+	"version_name": "2023.05",
+	"timetable_this_unit": "true",
+	"work_integrated_learning": [
+		{
+			"value": "None",
+			"cl_id": "8ef5d77bdb122300e5cf3391f496191d",
+			"key": "label"
+		}
+	],
+	"cl_id": "6b7f8808db60f990101196cbd3961944",
+	"school": {
+		"value": "Faculty of Information Technology",
+		"cl_id": "c5684a53dba8a3406add773c349619a1",
+		"key": "name"
+	},
+	"content": null,
+	"learning_and_teaching_resources": null,
+	"collaborating_disciplines": [],
+	"repeatable": "false",
+	"overview": "",
+	"end_date": "",
+	"duration_pt_period": {
+		"label": null,
+		"value": null
+	},
+	"sms_status": {
+		"label": null,
+		"value": null
+	},
+	"learning_materials": null,
+	"special_topic": "false",
+	"asced_broad": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"publish_tuition_fees": "true",
+	"placement_proportion": {
+		"label": null,
+		"value": null
+	},
+	"code": "FIT2104",
+	"other_unit_costs": "",
+	"eftsl": {
+		"label": "0.125",
+		"value": "0.125"
+	},
+	"contact_information": "",
+	"highest_sca_band": {
+		"label": "SCA Band 2",
+		"value": "2"
+	},
+	"lo_additional_information": "<p>On successful completion of this unit, you should be able to:</p>",
+	"handbook_assessment_summary": "",
+	"quota_information": "",
+	"attendance_requirements": "",
+	"workload_requirements": "<p>Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled teaching activities.</p>",
+	"organisational_contact_information": "",
+	"handbook_synopsis": "<p>This unit provides students with the knowledge, understanding and skills required to analyse a business problems and develop a solution that uses a web interface to a back-end database. The unit assumes a sound basic knowledge of programming and database concepts and skills as developed in the introductory units in these areas. The emphasis in the unit is on mastery of the key concepts and the basic knowledge and skills required to build this kind of application. The unit will provide students with an awareness of the wide range of technologies that are used to support this kind of application, but will examine only a limited number of these technologies to demonstrate the key concepts and their application.</p>\n<p>The unit will take a strongly practical focus in examining the technology issues involved, and highlight the key issues which a developer needs to address in developing applications of this kind for real-world systems.</p>",
+	"special_note_to_students": "",
+	"undergrad_postgrad_both": {
+		"label": "Undergraduate",
+		"value": "undergraduate"
+	},
+	"area_of_study_links": "Software development<br />Web development<br />",
+	"fieldwork": "",
+	"unit_learning_outcomes": [
+		{
+			"lo_domain": [],
+			"order": "4",
+			"number": "4",
+			"code": "ULO4",
+			"lo_cl_id": "3b7f8808db60f990101196cbd39619ac",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "438b7820db38b3003a731c0e049619c2",
+			"academic_item": {
+				"value": "FIT2104",
+				"cl_id": "6b7f8808db60f990101196cbd3961944",
+				"key": "code"
+			},
+			"description": "<p>Implement the key features of programming languages which are commonly used for developing web database applications;</p>",
+			"cl_id": "3b7f8808db60f990101196cbd39619ac",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "2",
+			"number": "2",
+			"code": "ULO2",
+			"lo_cl_id": "737f8808db60f990101196cbd39619ad",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "d1dafcacdbf4b3003a731c0e04961927",
+			"academic_item": {
+				"value": "FIT2104",
+				"cl_id": "6b7f8808db60f990101196cbd3961944",
+				"key": "code"
+			},
+			"description": "<p>Describe and compare the key basic technologies which underly the development of web database applications;</p>",
+			"cl_id": "737f8808db60f990101196cbd39619ad",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "5",
+			"number": "5",
+			"code": "ULO5",
+			"lo_cl_id": "777f8808db60f990101196cbd39619ac",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "cdab7c20db38b3003a731c0e04961952",
+			"academic_item": {
+				"value": "FIT2104",
+				"cl_id": "6b7f8808db60f990101196cbd3961944",
+				"key": "code"
+			},
+			"description": "<p>Analyse, design, develop and implement a web database application using a commonly used programming language;</p>",
+			"cl_id": "777f8808db60f990101196cbd39619ac",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "3",
+			"number": "3",
+			"code": "ULO3",
+			"lo_cl_id": "b37f8808db60f990101196cbd39619ac",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "713b7cecdbf4b3003a731c0e04961967",
+			"academic_item": {
+				"value": "FIT2104",
+				"cl_id": "6b7f8808db60f990101196cbd3961944",
+				"key": "code"
+			},
+			"description": "<p>Evaluate and assess the key technological issues confronting developers when building applications of this type;</p>",
+			"cl_id": "b37f8808db60f990101196cbd39619ac",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "1",
+			"number": "1",
+			"code": "ULO1",
+			"lo_cl_id": "bf7f8808db60f990101196cbd39619ac",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "9d7ab0acdbf4b3003a731c0e04961932",
+			"academic_item": {
+				"value": "FIT2104",
+				"cl_id": "6b7f8808db60f990101196cbd3961944",
+				"key": "code"
+			},
+			"description": "<p>Explain the need and importance for application developers to have skills in this area of IT applications;</p>",
+			"cl_id": "bf7f8808db60f990101196cbd39619ac",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "6",
+			"number": "6",
+			"code": "ULO6",
+			"lo_cl_id": "fb7f8808db60f990101196cbd39619ac",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "26db7460db38b3003a731c0e0496190b",
+			"academic_item": {
+				"value": "FIT2104",
+				"cl_id": "6b7f8808db60f990101196cbd3961944",
+				"key": "code"
+			},
+			"description": "<p>Evaluate and critique proposed web database solutions to a business problem.</p>",
+			"cl_id": "fb7f8808db60f990101196cbd39619ac",
+			"ga_map": []
+		}
+	],
+	"school_org_unit_data": [
+		{
+			"parent": {
+				"value": "",
+				"cl_id": null,
+				"key": "name"
+			},
+			"url": "https://www.monash.edu/it",
+			"name": "Faculty of Information Technology",
+			"cl_id": "c5684a53dba8a3406add773c349619a1"
+		}
+	],
+	"assessments": [
+		{
+			"subject": {
+				"value": "FIT2104",
+				"cl_id": "6b7f8808db60f990101196cbd3961944",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "4",
+			"weight": "20",
+			"cl_id": "377f8808db60f990101196cbd39619af",
+			"assessment_name": "Business case analysis and design",
+			"description": null,
+			"assessment_type": {
+				"label": "Other",
+				"value": "other"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT2104",
+				"cl_id": "6b7f8808db60f990101196cbd3961944",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "3",
+			"weight": "20",
+			"cl_id": "737f8808db60f990101196cbd39619af",
+			"assessment_name": "Web app development fundamentals",
+			"description": null,
+			"assessment_type": {
+				"label": "Other",
+				"value": "other"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT2104",
+				"cl_id": "6b7f8808db60f990101196cbd3961944",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "5",
+			"weight": "20",
+			"cl_id": "bf7f8808db60f990101196cbd39619ae",
+			"assessment_name": " Implementation with rapid development framework",
+			"description": null,
+			"assessment_type": {
+				"label": "Other",
+				"value": "other"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT2104",
+				"cl_id": "6b7f8808db60f990101196cbd3961944",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "2",
+			"weight": "20",
+			"cl_id": "f77f8808db60f990101196cbd39619af",
+			"assessment_name": "Weekly lab exercise tasks",
+			"description": null,
+			"assessment_type": {
+				"label": "Other",
+				"value": "other"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT2104",
+				"cl_id": "6b7f8808db60f990101196cbd3961944",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "1",
+			"weight": "20",
+			"cl_id": "fb7f8808db60f990101196cbd39619ae",
+			"assessment_name": "Weekly quizzes",
+			"description": null,
+			"assessment_type": {
+				"label": "Other",
+				"value": "other"
+			},
+			"offerings_formatted": ""
+		}
+	],
+	"enrolment_rules": [],
+	"requisites": [
+		{
+			"academic_item_code": "FIT2104",
+			"active": "true",
+			"requisite_cl_id": "b37f8808db60f990101196cbd3961946",
+			"description": "",
+			"requisite_type": {
+				"label": "Prerequisite",
+				"value": "prerequisite"
+			},
+			"cl_id": {
+				"value": "FIT2104",
+				"cl_id": "6b7f8808db60f990101196cbd3961944",
+				"key": "code"
+			},
+			"academic_item_version_number": "2023.05",
+			"order": "1",
+			"start_date": "",
+			"end_date": "",
+			"container": [
+				{
+					"cl_id": "737f8808db60f990101196cbd3961997",
+					"parent_container_table": "x_f5sl_cl_requisite",
+					"parent_record": {
+						"value": "Relationship Builder: FIT2104",
+						"cl_id": "b37f8808db60f990101196cbd3961946",
+						"key": "academic_item",
+						"type": "x_f5sl_cl_requisite"
+					},
+					"title": "Container 1",
+					"parent_connector": {
+						"label": "OR",
+						"value": "OR"
+					},
+					"containers": [],
+					"relationships": [
+						{
+							"academic_item": {
+								"value": "Unit: FIT2094",
+								"cl_id": "385b996fdb926c10101196cbd3961965",
+								"key": "code",
+								"type": "x_f5sl_cl_subjects"
+							},
+							"parent_record": {
+								"value": "Container 1",
+								"cl_id": "737f8808db60f990101196cbd3961997",
+								"key": "title"
+							},
+							"order": "2",
+							"cl_id": "385b996fdb926c10101196cbd3961965",
+							"academic_item_type": {
+								"label": "Unit",
+								"value": "subject"
+							},
+							"abbr_name": "DATABASES",
+							"academic_item_version_name": "2021.05",
+							"academic_item_credit_points": "6",
+							"abbreviated_name_and_major": null,
+							"academic_item_name": "Databases",
+							"academic_item_code": "FIT2094",
+							"academic_item_url": "/2021/units/FIT2094"
+						},
+						{
+							"academic_item": {
+								"value": "Unit: FIT3171",
+								"cl_id": "2f957347db9aa810101196cbd3961983",
+								"key": "code",
+								"type": "x_f5sl_cl_subjects"
+							},
+							"parent_record": {
+								"value": "Container 1",
+								"cl_id": "737f8808db60f990101196cbd3961997",
+								"key": "title"
+							},
+							"order": "3",
+							"cl_id": "2f957347db9aa810101196cbd3961983",
+							"academic_item_type": {
+								"label": "Unit",
+								"value": "subject"
+							},
+							"abbr_name": "DB",
+							"academic_item_version_name": "2021.04",
+							"academic_item_credit_points": "6",
+							"abbreviated_name_and_major": null,
+							"academic_item_name": "Databases",
+							"academic_item_code": "FIT3171",
+							"academic_item_url": "/2021/units/FIT3171"
+						}
+					]
+				}
+			]
+		}
+	],
+	"unit_offering": [
+		{
+			"fees_domestic": "",
+			"publish": "true",
+			"location": {
+				"value": "Clayton",
+				"cl_id": "37f321e1db30a7406add773c3496192e",
+				"key": "name"
+			},
+			"name": "FIT2104-S2-01-ON-CAMPUS-CLAYTON",
+			"clarification_to_appear_in_handbook": "",
+			"display_name": "S2-01-CLAYTON-ON-CAMPUS",
+			"teaching_period": {
+				"value": "Second semester",
+				"cl_id": "85a429a1db30a7406add773c3496190d",
+				"key": "name"
+			},
+			"attendance_mode": {
+				"value": "On-campus",
+				"cl_id": "7bf2311bdb68a3406add773c349619bb",
+				"key": "description"
+			},
+			"quota_number": "",
+			"study_level": {
+				"label": null,
+				"value": null
+			},
+			"offered": "true",
+			"self_enrol": "true",
+			"academic_item": {
+				"value": "FIT2104",
+				"cl_id": "6b7f8808db60f990101196cbd3961944",
+				"key": "code"
+			},
+			"fees_commonwealth": "",
+			"fees_international": "",
+			"course_restrictions": "",
+			"cl_id": "377f8808db60f990101196cbd3961947"
+		}
+	],
+	"enrolment_rules_group": [],
+	"learning_resources_grouped": [],
+	"study_abroad_unit": "Yes",
+	"academic_item_type": "Unit",
+	"learning_activities_grouped": [
+		{
+			"activity_type": "Lectures",
+			"activities": [
+				{
+					"subject": {
+						"value": "FIT2104",
+						"cl_id": "6b7f8808db60f990101196cbd3961944",
+						"key": "code"
+					},
+					"cl_id": "377f8808db60f990101196cbd39619ae",
+					"order": "",
+					"description": "",
+					"activity_type": {
+						"label": "Lectures",
+						"value": "lecture"
+					},
+					"duration_display": "24 hours",
+					"offerings_formatted_teaching_activities": "<ul><li>Applies to all offerings</li></ul>",
+					"links": []
+				}
+			]
+		},
+		{
+			"activity_type": "Laboratories",
+			"activities": [
+				{
+					"subject": {
+						"value": "FIT2104",
+						"cl_id": "6b7f8808db60f990101196cbd3961944",
+						"key": "code"
+					},
+					"cl_id": "b77f8808db60f990101196cbd39619ae",
+					"order": "",
+					"description": "",
+					"activity_type": {
+						"label": "Laboratories",
+						"value": "laboratory"
+					},
+					"duration_display": "24 hours",
+					"offerings_formatted_teaching_activities": "<ul><li>Applies to all offerings</li></ul>",
+					"links": []
+				}
+			]
+		}
+	],
+	"search_title": "FIT2104 - Web database interface",
+	"unit_search_title": "FIT2104 - Web database interface",
+	"teaching_approaches": [
+		{
+			"type": {
+				"label": "Active learning",
+				"value": "active_learning"
+			},
+			"academic_item": {
+				"value": "FIT2104",
+				"cl_id": "6b7f8808db60f990101196cbd3961944",
+				"key": "code"
+			},
+			"cl_id": "3f7f8808db60f990101196cbd39619ad",
+			"description": "<p>&nbsp;</p>",
+			"links": []
+		}
+	],
+	"handbook_statement": null,
+	"academic_contact_roles": [
+		{
+			"role": "Chief Examiner(s)",
+			"contacts": [
+				{
+					"active": "true",
+					"contact_department": "",
+					"start_date": "",
+					"offering": {
+						"value": "",
+						"cl_id": null,
+						"key": "display_name"
+					},
+					"contact_role": {
+						"label": "Chief Examiner",
+						"value": "chief_examiner"
+					},
+					"contact_name": "Stephen Huxford",
+					"role_detail": "",
+					"contact_organisation": "",
+					"contact_title": "Mr",
+					"order": "0",
+					"contact_phone": "",
+					"end_date": "",
+					"location": {
+						"value": "",
+						"cl_id": null,
+						"key": "name"
+					},
+					"contact_email": "Stephen.Huxford@monash.edu",
+					"contact_url": "",
+					"user": {
+						"value": "Stephen Huxford",
+						"cl_id": "2d120b50dbb8b300580f42a01496192a",
+						"key": ""
+					},
+					"offerings": [],
+					"applies_to_all_offerings": "true",
+					"linking_id": "dc6e10831b8edc5013b555b81d4bcb6f",
+					"cl_id": "777f8808db60f990101196cbd39619ab",
+					"display_details": "Stephen.Huxford@monash.edu",
+					"display_name": "Mr Stephen Huxford ",
+					"offerings_formatted_contact": "<ul><li>Applies to all offerings</ul></li>",
+					"display_role_plural": "Chief Examiner(s)",
+					"links": []
+				}
+			]
+		},
+		{
+			"role": "Unit Coordinator(s)",
+			"contacts": [
+				{
+					"active": "true",
+					"contact_department": "",
+					"start_date": "",
+					"offering": {
+						"value": "",
+						"cl_id": null,
+						"key": "display_name"
+					},
+					"contact_role": {
+						"label": "Unit Coordinator",
+						"value": "unit_coordinator"
+					},
+					"contact_name": "Bill Gong",
+					"role_detail": "",
+					"contact_organisation": "",
+					"contact_title": "",
+					"order": "0",
+					"contact_phone": "",
+					"end_date": "",
+					"location": {
+						"value": "",
+						"cl_id": null,
+						"key": "name"
+					},
+					"contact_email": "Haofei.Gong@monash.edu",
+					"contact_url": "",
+					"user": {
+						"value": "Bill Gong",
+						"cl_id": "a0e1c310dbb8b300580f42a014961935",
+						"key": ""
+					},
+					"offerings": [],
+					"applies_to_all_offerings": "true",
+					"linking_id": "861800acdb5cf090101196cbd396193b",
+					"cl_id": "fb7f8808db60f990101196cbd39619ab",
+					"display_details": "Haofei.Gong@monash.edu",
+					"display_name": "Bill Gong ",
+					"offerings_formatted_contact": "<ul><li>Applies to all offerings</ul></li>",
+					"display_role_plural": "Unit Coordinator(s)",
+					"links": []
+				}
+			]
+		}
+	],
+	"links": [],
+	"yearSwitcher": [
+		{
+			"label": "2020",
+			"value": "2020",
+			"href": "/2020/units/FIT2104?year=2020"
+		},
+		{
+			"label": "2021",
+			"value": "2021",
+			"href": "/2021/units/FIT2104?year=2021"
+		},
+		{
+			"label": "2022",
+			"value": "2022",
+			"href": "/2022/units/FIT2104?year=2022"
+		},
+		{
+			"label": "2023",
+			"value": "2023",
+			"href": "/2023/units/FIT2104?year=2023"
+		}
+	],
+	"university": "Monash University"
+}

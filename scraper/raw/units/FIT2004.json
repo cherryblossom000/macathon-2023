@@ -1,0 +1,1019 @@
+{
+	"contentTypeLabel": "Unit",
+	"published_in_handbook": {
+		"label": "Yes",
+		"value": "1"
+	},
+	"implementation_year": "2023",
+	"duration_ft_max": "",
+	"asced_detailed": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"grading_schema": {
+		"label": null,
+		"value": null
+	},
+	"study_level": [],
+	"quota_enrolment_requirements": "",
+	"status": {
+		"label": "Accredited",
+		"value": "Active"
+	},
+	"duration_pt_max": "",
+	"duration_pt_std": "",
+	"credit_points": "6",
+	"parent_id": {
+		"value": "Master Record: FIT2004",
+		"cl_id": "f7946e10dbf4b300580f42a014961988",
+		"key": "code",
+		"type": "x_f5sl_cl_master_record"
+	},
+	"start_date": "",
+	"exclusions": "",
+	"unit_code": "FIT2004",
+	"academic_org": {
+		"value": "Faculty of Information Technology",
+		"cl_id": "c5684a53dba8a3406add773c349619a1",
+		"key": "name"
+	},
+	"sms_version": "",
+	"level": {
+		"label": "Level 2",
+		"value": "3"
+	},
+	"uac_code": "",
+	"special_requirements": "",
+	"duration_pt_min": "",
+	"special_unit_type": [],
+	"title": "Algorithms and data structures",
+	"duration_ft_std": "",
+	"version": "8",
+	"learning_experiences": null,
+	"duration_ft_min": "",
+	"callista_version": "",
+	"duration_ft_period": {
+		"label": null,
+		"value": null
+	},
+	"asced_narrow": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"subclass": {
+		"label": "Unit",
+		"value": "subject"
+	},
+	"type": {
+		"label": "Coursework",
+		"value": "600"
+	},
+	"quota_rationale": "",
+	"version_name": "2023.08",
+	"timetable_this_unit": "true",
+	"work_integrated_learning": [
+		{
+			"value": "None",
+			"cl_id": "8ef5d77bdb122300e5cf3391f496191d",
+			"key": "label"
+		}
+	],
+	"cl_id": "4fe32c19dbe8fd90101196cbd3961933",
+	"school": {
+		"value": "Faculty of Information Technology",
+		"cl_id": "c5684a53dba8a3406add773c349619a1",
+		"key": "name"
+	},
+	"content": null,
+	"learning_and_teaching_resources": null,
+	"collaborating_disciplines": [],
+	"repeatable": "false",
+	"overview": "",
+	"end_date": "",
+	"duration_pt_period": {
+		"label": null,
+		"value": null
+	},
+	"sms_status": {
+		"label": null,
+		"value": null
+	},
+	"learning_materials": null,
+	"special_topic": "false",
+	"asced_broad": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"publish_tuition_fees": "true",
+	"placement_proportion": {
+		"label": null,
+		"value": null
+	},
+	"code": "FIT2004",
+	"other_unit_costs": "",
+	"eftsl": {
+		"label": "0.125",
+		"value": "0.125"
+	},
+	"contact_information": "",
+	"highest_sca_band": {
+		"label": "SCA Band 2",
+		"value": "2"
+	},
+	"lo_additional_information": "<p>On successful completion of this unit, you should be able to:</p>",
+	"handbook_assessment_summary": "<p>This unit has threshold mark hurdles. You must achieve at least 45% of the available marks in the final scheduled assessment, at least 45% in total for in-semester assessments, and an overall unit mark of 50% or more to be able to pass the unit. If you do not achieve the threshold mark, you will receive a fail grade (NH) and a maximum mark of 45 for the unit.</p>",
+	"quota_information": "",
+	"attendance_requirements": "",
+	"workload_requirements": "<p>Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled teaching activities.</p>\n<p>Applied sessions are scheduled from Week 2 to Week 12.</p>",
+	"organisational_contact_information": "",
+	"handbook_synopsis": "<p>This unit introduces students to problem solving concepts and techniques fundamental to the science of programming. In doing this it covers problem specification, algorithmic design, analysis and implementation. Detailed topics include analysis of best, average and worst-case time and space complexity; introduction to numerical algorithms; recursion; advanced data structures such as heaps and B-trees; hashing; sorting algorithms; searching algorithms; graph algorithms; and numerical computing.</p>",
+	"special_note_to_students": "",
+	"undergrad_postgrad_both": {
+		"label": "Undergraduate",
+		"value": "undergraduate"
+	},
+	"area_of_study_links": "Computer science<br />Computational science<br />",
+	"fieldwork": "",
+	"unit_learning_outcomes": [
+		{
+			"lo_domain": [],
+			"order": "4",
+			"number": "4",
+			"code": "ULO4",
+			"lo_cl_id": "13e32c19dbe8fd90101196cbd396193b",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "c77bf420db38b3003a731c0e04961940",
+			"academic_item": {
+				"value": "FIT2004",
+				"cl_id": "4fe32c19dbe8fd90101196cbd3961933",
+				"key": "code"
+			},
+			"description": "<p>Develop and implement algorithms to solve computational problems.</p>",
+			"cl_id": "13e32c19dbe8fd90101196cbd396193b",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "2",
+			"number": "2",
+			"code": "ULO2",
+			"lo_cl_id": "5fe32c19dbe8fd90101196cbd396193b",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "5bcabcacdbf4b3003a731c0e04961915",
+			"academic_item": {
+				"value": "FIT2004",
+				"cl_id": "4fe32c19dbe8fd90101196cbd3961933",
+				"key": "code"
+			},
+			"description": "<p>Prove correctness of programs, analyse their space and time complexities;</p>",
+			"cl_id": "5fe32c19dbe8fd90101196cbd396193b",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "1",
+			"number": "1",
+			"code": "ULO1",
+			"lo_cl_id": "9be32c19dbe8fd90101196cbd396193b",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "b89ab4acdbf4b3003a731c0e04961902",
+			"academic_item": {
+				"value": "FIT2004",
+				"cl_id": "4fe32c19dbe8fd90101196cbd3961933",
+				"key": "code"
+			},
+			"description": "<p>Analyse general problem solving strategies and algorithmic paradigms, and apply them to solving new problems;</p>",
+			"cl_id": "9be32c19dbe8fd90101196cbd396193b",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "3",
+			"number": "3",
+			"code": "ULO3",
+			"lo_cl_id": "d7e32c19dbe8fd90101196cbd396193b",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "333bbcecdbf4b3003a731c0e04961984",
+			"academic_item": {
+				"value": "FIT2004",
+				"cl_id": "4fe32c19dbe8fd90101196cbd3961933",
+				"key": "code"
+			},
+			"description": "<p>Compare and contrast various abstract data types and use them appropriately;</p>",
+			"cl_id": "d7e32c19dbe8fd90101196cbd396193b",
+			"ga_map": []
+		}
+	],
+	"school_org_unit_data": [
+		{
+			"parent": {
+				"value": "",
+				"cl_id": null,
+				"key": "name"
+			},
+			"url": "https://www.monash.edu/it",
+			"name": "Faculty of Information Technology",
+			"cl_id": "c5684a53dba8a3406add773c349619a1"
+		}
+	],
+	"assessments": [
+		{
+			"subject": {
+				"value": "FIT2004",
+				"cl_id": "4fe32c19dbe8fd90101196cbd3961933",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": "Threshold",
+				"value": "threshold"
+			},
+			"hurdle_supplementary_assessment": "<p>This task is part of the in-semester assessment hurdle.</p>",
+			"number": "2",
+			"weight": "20",
+			"cl_id": "17e32c19dbe8fd90101196cbd3961973",
+			"assessment_name": "Assignment 1",
+			"description": null,
+			"assessment_type": {
+				"label": "Assignment",
+				"value": "assignment"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT2004",
+				"cl_id": "4fe32c19dbe8fd90101196cbd3961933",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": "Threshold",
+				"value": "threshold"
+			},
+			"hurdle_supplementary_assessment": "<p>This task is part of the in-semester assessment hurdle.</p>\n<p> </p>",
+			"number": "1",
+			"weight": "10",
+			"cl_id": "53e32c19dbe8fd90101196cbd3961973",
+			"assessment_name": "Quiz",
+			"description": null,
+			"assessment_type": {
+				"label": "Other",
+				"value": "other"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT2004",
+				"cl_id": "4fe32c19dbe8fd90101196cbd3961933",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": "Threshold",
+				"value": "threshold"
+			},
+			"hurdle_supplementary_assessment": "<p>This task is part of the in-semester assessment hurdle.</p>",
+			"number": "3",
+			"weight": "20",
+			"cl_id": "9be32c19dbe8fd90101196cbd3961972",
+			"assessment_name": "Assignment 2",
+			"description": null,
+			"assessment_type": {
+				"label": "Assignment",
+				"value": "assignment"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT2004",
+				"cl_id": "4fe32c19dbe8fd90101196cbd3961933",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": "Threshold",
+				"value": "threshold"
+			},
+			"hurdle_supplementary_assessment": "<p>The scheduled final assessment is a hurdle.</p>\n<p> </p>",
+			"number": "4",
+			"weight": "50",
+			"cl_id": "d7e32c19dbe8fd90101196cbd3961973",
+			"assessment_name": "Scheduled final assessment (2 hours and 10 minutes)",
+			"description": null,
+			"assessment_type": {
+				"label": "Exam",
+				"value": "exam"
+			},
+			"offerings_formatted": ""
+		}
+	],
+	"enrolment_rules": [],
+	"requisites": [
+		{
+			"academic_item_code": "FIT2004",
+			"active": "true",
+			"requisite_cl_id": "8be32c19dbe8fd90101196cbd3961936",
+			"description": "",
+			"requisite_type": {
+				"label": "Prerequisite",
+				"value": "prerequisite"
+			},
+			"cl_id": {
+				"value": "FIT2004",
+				"cl_id": "4fe32c19dbe8fd90101196cbd3961933",
+				"key": "code"
+			},
+			"academic_item_version_number": "2023.08",
+			"order": "1",
+			"start_date": "",
+			"end_date": "",
+			"container": [
+				{
+					"cl_id": "53e3ecd1dbecb1102bdd077cd3961962",
+					"parent_container_table": "x_f5sl_cl_requisite",
+					"parent_record": {
+						"value": "Relationship Builder: FIT2004",
+						"cl_id": "8be32c19dbe8fd90101196cbd3961936",
+						"key": "academic_item",
+						"type": "x_f5sl_cl_requisite"
+					},
+					"title": "Container 1",
+					"parent_connector": {
+						"label": "AND",
+						"value": "AND"
+					},
+					"containers": [
+						{
+							"cl_id": "1fe3ecd1dbecb1102bdd077cd3961962",
+							"parent_container_table": "x_f5sl_cl_relationship_groups",
+							"parent_record": {
+								"value": "Relationship Groups: Container 1",
+								"cl_id": "53e3ecd1dbecb1102bdd077cd3961962",
+								"key": "title",
+								"type": "x_f5sl_cl_relationship_groups"
+							},
+							"title": "Container 1.2",
+							"parent_connector": {
+								"label": "OR",
+								"value": "OR"
+							},
+							"containers": [],
+							"relationships": [
+								{
+									"academic_item": {
+										"value": "Unit: FIT1054",
+										"cl_id": "cbf974e71b3c5550653b206b274bcb46",
+										"key": "code",
+										"type": "x_f5sl_cl_subjects"
+									},
+									"parent_record": {
+										"value": "Container 1.2",
+										"cl_id": "1fe3ecd1dbecb1102bdd077cd3961962",
+										"key": "title"
+									},
+									"order": "4",
+									"cl_id": "cbf974e71b3c5550653b206b274bcb46",
+									"academic_item_type": {
+										"label": "Unit",
+										"value": "subject"
+									},
+									"abbr_name": "COMP SCIENCE ADV",
+									"academic_item_version_name": "2023.01RO",
+									"academic_item_credit_points": "6",
+									"abbreviated_name_and_major": null,
+									"academic_item_name": "Computer science (advanced)",
+									"academic_item_code": "FIT1054",
+									"academic_item_url": "/2023/units/FIT1054"
+								},
+								{
+									"academic_item": {
+										"value": "Unit: FIT2085",
+										"cl_id": "959a302b1b3c5550653b206b274bcbc2",
+										"key": "code",
+										"type": "x_f5sl_cl_subjects"
+									},
+									"parent_record": {
+										"value": "Container 1.2",
+										"cl_id": "1fe3ecd1dbecb1102bdd077cd3961962",
+										"key": "title"
+									},
+									"order": "5",
+									"cl_id": "959a302b1b3c5550653b206b274bcbc2",
+									"academic_item_type": {
+										"label": "Unit",
+										"value": "subject"
+									},
+									"abbr_name": "INTRO COMP SCIENCE",
+									"academic_item_version_name": "2023.01RO",
+									"academic_item_credit_points": "6",
+									"abbreviated_name_and_major": null,
+									"academic_item_name": "Introduction to computer science for engineers",
+									"academic_item_code": "FIT2085",
+									"academic_item_url": "/2023/units/FIT2085"
+								},
+								{
+									"academic_item": {
+										"value": "Unit: FIT1008",
+										"cl_id": "3c69b8a71b3c5550653b206b274bcb20",
+										"key": "code",
+										"type": "x_f5sl_cl_subjects"
+									},
+									"parent_record": {
+										"value": "Container 1.2",
+										"cl_id": "1fe3ecd1dbecb1102bdd077cd3961962",
+										"key": "title"
+									},
+									"order": "3",
+									"cl_id": "3c69b8a71b3c5550653b206b274bcb20",
+									"academic_item_type": {
+										"label": "Unit",
+										"value": "subject"
+									},
+									"abbr_name": "INTRO COMP SCIENCE",
+									"academic_item_version_name": "2023.01RO",
+									"academic_item_credit_points": "6",
+									"abbreviated_name_and_major": null,
+									"academic_item_name": "Introduction to computer science",
+									"academic_item_code": "FIT1008",
+									"academic_item_url": "/2023/units/FIT1008"
+								}
+							]
+						},
+						{
+							"cl_id": "53e3ecd1dbecb1102bdd077cd3961963",
+							"parent_container_table": "x_f5sl_cl_relationship_groups",
+							"parent_record": {
+								"value": "Relationship Groups: Container 1",
+								"cl_id": "53e3ecd1dbecb1102bdd077cd3961962",
+								"key": "title",
+								"type": "x_f5sl_cl_relationship_groups"
+							},
+							"title": "Container 1.6",
+							"parent_connector": {
+								"label": "OR",
+								"value": "OR"
+							},
+							"containers": [],
+							"relationships": [
+								{
+									"academic_item": {
+										"value": "Unit: MAT1841",
+										"cl_id": "303941631bbc5550653b206b274bcb13",
+										"key": "code",
+										"type": "x_f5sl_cl_subjects"
+									},
+									"parent_record": {
+										"value": "Container 1.6",
+										"cl_id": "53e3ecd1dbecb1102bdd077cd3961963",
+										"key": "title"
+									},
+									"order": "9",
+									"cl_id": "303941631bbc5550653b206b274bcb13",
+									"academic_item_type": {
+										"label": "Unit",
+										"value": "subject"
+									},
+									"abbr_name": "CONT MATHS COMPSCI",
+									"academic_item_version_name": "2023.01RO",
+									"academic_item_credit_points": "6",
+									"abbreviated_name_and_major": null,
+									"academic_item_name": "Continuous mathematics for computer science",
+									"academic_item_code": "MAT1841",
+									"academic_item_url": "/2023/units/MAT1841"
+								},
+								{
+									"academic_item": {
+										"value": "Unit: MTH1030",
+										"cl_id": "91dc05eb1bbc5550653b206b274bcb72",
+										"key": "code",
+										"type": "x_f5sl_cl_subjects"
+									},
+									"parent_record": {
+										"value": "Container 1.6",
+										"cl_id": "53e3ecd1dbecb1102bdd077cd3961963",
+										"key": "title"
+									},
+									"order": "10",
+									"cl_id": "91dc05eb1bbc5550653b206b274bcb72",
+									"academic_item_type": {
+										"label": "Unit",
+										"value": "subject"
+									},
+									"abbr_name": "TECHNQS.FOR MODLNG.",
+									"academic_item_version_name": "2023.01RO",
+									"academic_item_credit_points": "6",
+									"abbreviated_name_and_major": null,
+									"academic_item_name": "Techniques for modelling",
+									"academic_item_code": "MTH1030",
+									"academic_item_url": "/2023/units/MTH1030"
+								},
+								{
+									"academic_item": {
+										"value": "Unit: ENG1005",
+										"cl_id": "bf3801801b65d510f1eca68b274bcba4",
+										"key": "code",
+										"type": "x_f5sl_cl_subjects"
+									},
+									"parent_record": {
+										"value": "Container 1.6",
+										"cl_id": "53e3ecd1dbecb1102bdd077cd3961963",
+										"key": "title"
+									},
+									"order": "7",
+									"cl_id": "bf3801801b65d510f1eca68b274bcba4",
+									"academic_item_type": {
+										"label": "Unit",
+										"value": "subject"
+									},
+									"abbr_name": "ENGINEERING MATHS",
+									"academic_item_version_name": "2023.04",
+									"academic_item_credit_points": "6",
+									"abbreviated_name_and_major": null,
+									"academic_item_name": "Engineering mathematics",
+									"academic_item_code": "ENG1005",
+									"academic_item_url": "/2023/units/ENG1005"
+								},
+								{
+									"academic_item": {
+										"value": "Unit: MTH1035",
+										"cl_id": "29dc05eb1bbc5550653b206b274bcbcf",
+										"key": "code",
+										"type": "x_f5sl_cl_subjects"
+									},
+									"parent_record": {
+										"value": "Container 1.6",
+										"cl_id": "53e3ecd1dbecb1102bdd077cd3961963",
+										"key": "title"
+									},
+									"order": "11",
+									"cl_id": "29dc05eb1bbc5550653b206b274bcbcf",
+									"academic_item_type": {
+										"label": "Unit",
+										"value": "subject"
+									},
+									"abbr_name": "MODELLING (ADVANCED)",
+									"academic_item_version_name": "2023.01RO",
+									"academic_item_credit_points": "6",
+									"abbreviated_name_and_major": null,
+									"academic_item_name": "Techniques for modelling (advanced)",
+									"academic_item_code": "MTH1035",
+									"academic_item_url": "/2023/units/MTH1035"
+								},
+								{
+									"academic_item": {
+										"value": "Unit: MAT1830",
+										"cl_id": "aa2901631bbc5550653b206b274bcb87",
+										"key": "code",
+										"type": "x_f5sl_cl_subjects"
+									},
+									"parent_record": {
+										"value": "Container 1.6",
+										"cl_id": "53e3ecd1dbecb1102bdd077cd3961963",
+										"key": "title"
+									},
+									"order": "8",
+									"cl_id": "aa2901631bbc5550653b206b274bcb87",
+									"academic_item_type": {
+										"label": "Unit",
+										"value": "subject"
+									},
+									"abbr_name": "DISC MATH COMPSC",
+									"academic_item_version_name": "2023.01RO",
+									"academic_item_credit_points": "6",
+									"abbreviated_name_and_major": null,
+									"academic_item_name": "Discrete mathematics for computer science",
+									"academic_item_code": "MAT1830",
+									"academic_item_url": "/2023/units/MAT1830"
+								}
+							]
+						}
+					],
+					"relationships": []
+				}
+			]
+		}
+	],
+	"unit_offering": [
+		{
+			"fees_domestic": "",
+			"publish": "true",
+			"location": {
+				"value": "Malaysia",
+				"cl_id": "7bf321e1db30a7406add773c3496192f",
+				"key": "name"
+			},
+			"name": "FIT2004-S2-01-ON-CAMPUS-MALAYSIA",
+			"clarification_to_appear_in_handbook": "",
+			"display_name": "S2-01-MALAYSIA-ON-CAMPUS",
+			"teaching_period": {
+				"value": "Second semester",
+				"cl_id": "85a429a1db30a7406add773c3496190d",
+				"key": "name"
+			},
+			"attendance_mode": {
+				"value": "On-campus",
+				"cl_id": "7bf2311bdb68a3406add773c349619bb",
+				"key": "description"
+			},
+			"quota_number": "",
+			"study_level": {
+				"label": null,
+				"value": null
+			},
+			"offered": "true",
+			"self_enrol": "true",
+			"academic_item": {
+				"value": "FIT2004",
+				"cl_id": "4fe32c19dbe8fd90101196cbd3961933",
+				"key": "code"
+			},
+			"fees_commonwealth": "",
+			"fees_international": "",
+			"course_restrictions": "",
+			"cl_id": "13e32c19dbe8fd90101196cbd3961938"
+		},
+		{
+			"fees_domestic": "",
+			"publish": "true",
+			"location": {
+				"value": "Clayton",
+				"cl_id": "37f321e1db30a7406add773c3496192e",
+				"key": "name"
+			},
+			"name": "FIT2004-S2-01-ON-CAMPUS-CLAYTON",
+			"clarification_to_appear_in_handbook": "",
+			"display_name": "S2-01-CLAYTON-ON-CAMPUS",
+			"teaching_period": {
+				"value": "Second semester",
+				"cl_id": "85a429a1db30a7406add773c3496190d",
+				"key": "name"
+			},
+			"attendance_mode": {
+				"value": "On-campus",
+				"cl_id": "7bf2311bdb68a3406add773c349619bb",
+				"key": "description"
+			},
+			"quota_number": "",
+			"study_level": {
+				"label": null,
+				"value": null
+			},
+			"offered": "true",
+			"self_enrol": "true",
+			"academic_item": {
+				"value": "FIT2004",
+				"cl_id": "4fe32c19dbe8fd90101196cbd3961933",
+				"key": "code"
+			},
+			"fees_commonwealth": "",
+			"fees_international": "",
+			"course_restrictions": "",
+			"cl_id": "17e32c19dbe8fd90101196cbd3961939"
+		},
+		{
+			"fees_domestic": "",
+			"publish": "true",
+			"location": {
+				"value": "Clayton",
+				"cl_id": "37f321e1db30a7406add773c3496192e",
+				"key": "name"
+			},
+			"name": "FIT2004-S1-01-ON-CAMPUS-CLAYTON",
+			"clarification_to_appear_in_handbook": "",
+			"display_name": "S1-01-CLAYTON-ON-CAMPUS",
+			"teaching_period": {
+				"value": "First semester",
+				"cl_id": "0da429a1db30a7406add773c3496190c",
+				"key": "name"
+			},
+			"attendance_mode": {
+				"value": "On-campus",
+				"cl_id": "7bf2311bdb68a3406add773c349619bb",
+				"key": "description"
+			},
+			"quota_number": "",
+			"study_level": {
+				"label": null,
+				"value": null
+			},
+			"offered": "true",
+			"self_enrol": "true",
+			"academic_item": {
+				"value": "FIT2004",
+				"cl_id": "4fe32c19dbe8fd90101196cbd3961933",
+				"key": "code"
+			},
+			"fees_commonwealth": "",
+			"fees_international": "",
+			"course_restrictions": "",
+			"cl_id": "1fe32c19dbe8fd90101196cbd3961938"
+		},
+		{
+			"fees_domestic": "",
+			"publish": "true",
+			"location": {
+				"value": "Malaysia",
+				"cl_id": "7bf321e1db30a7406add773c3496192f",
+				"key": "name"
+			},
+			"name": "FIT2004-S1-01-ON-CAMPUS-MALAYSIA",
+			"clarification_to_appear_in_handbook": "",
+			"display_name": "S1-01-MALAYSIA-ON-CAMPUS",
+			"teaching_period": {
+				"value": "First semester",
+				"cl_id": "0da429a1db30a7406add773c3496190c",
+				"key": "name"
+			},
+			"attendance_mode": {
+				"value": "On-campus",
+				"cl_id": "7bf2311bdb68a3406add773c349619bb",
+				"key": "description"
+			},
+			"quota_number": "",
+			"study_level": {
+				"label": null,
+				"value": null
+			},
+			"offered": "true",
+			"self_enrol": "true",
+			"academic_item": {
+				"value": "FIT2004",
+				"cl_id": "4fe32c19dbe8fd90101196cbd3961933",
+				"key": "code"
+			},
+			"fees_commonwealth": "",
+			"fees_international": "",
+			"course_restrictions": "",
+			"cl_id": "53e32c19dbe8fd90101196cbd3961939"
+		}
+	],
+	"enrolment_rules_group": [],
+	"learning_resources_grouped": [
+		{
+			"type": "Technology resources",
+			"order": 2,
+			"resources": [
+				{
+					"description": "<p>Python (latest version) installed in the labs</p>",
+					"type": {
+						"label": "Technology resources",
+						"value": "technology_resources"
+					},
+					"cl_id": "5be32c19dbe8fd90101196cbd396196f",
+					"academic_item": {
+						"value": "FIT2004",
+						"cl_id": "4fe32c19dbe8fd90101196cbd3961933",
+						"key": "code"
+					},
+					"links": []
+				}
+			]
+		},
+		{
+			"type": "Recommended resources",
+			"order": 1,
+			"resources": [
+				{
+					"description": "<div>Additional reading:</div>\n<div> </div>\n<ul>\n<li>Introduction to Algorithms/ Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein (3rd Edition), McGraw Hill</li>\n<li>Data Structures and Algorithms in Python, Michael T. Goodrich, Roberto Tamassia, Michael Goldwasser</li>\n</ul>",
+					"type": {
+						"label": "Recommended resources",
+						"value": "recommended_resources"
+					},
+					"cl_id": "93e32c19dbe8fd90101196cbd396196f",
+					"academic_item": {
+						"value": "FIT2004",
+						"cl_id": "4fe32c19dbe8fd90101196cbd3961933",
+						"key": "code"
+					},
+					"links": []
+				}
+			]
+		}
+	],
+	"study_abroad_unit": "Yes",
+	"academic_item_type": "Unit",
+	"learning_activities_grouped": [
+		{
+			"activity_type": "Lectures",
+			"activities": [
+				{
+					"subject": {
+						"value": "FIT2004",
+						"cl_id": "4fe32c19dbe8fd90101196cbd3961933",
+						"key": "code"
+					},
+					"cl_id": "57e32c19dbe8fd90101196cbd3961972",
+					"order": "1",
+					"description": "",
+					"activity_type": {
+						"label": "Lectures",
+						"value": "lecture"
+					},
+					"duration_display": "24 hours",
+					"offerings_formatted_teaching_activities": "<ul><li>Applies to all offerings</li></ul>",
+					"links": []
+				}
+			]
+		},
+		{
+			"activity_type": "Tutorials",
+			"activities": [
+				{
+					"subject": {
+						"value": "FIT2004",
+						"cl_id": "4fe32c19dbe8fd90101196cbd3961933",
+						"key": "code"
+					},
+					"cl_id": "5fe32c19dbe8fd90101196cbd3961970",
+					"order": "0",
+					"description": "",
+					"activity_type": {
+						"label": "Tutorials",
+						"value": "tutorial"
+					},
+					"duration_display": "33 hours",
+					"offerings_formatted_teaching_activities": "<ul><li>First semester, Clayton, On-campus</li><li>First semester, Malaysia, On-campus</li></ul>",
+					"links": []
+				}
+			]
+		},
+		{
+			"activity_type": "Applied sessions",
+			"activities": [
+				{
+					"subject": {
+						"value": "FIT2004",
+						"cl_id": "4fe32c19dbe8fd90101196cbd3961933",
+						"key": "code"
+					},
+					"cl_id": "dbe32c19dbe8fd90101196cbd3961971",
+					"order": "2",
+					"description": "",
+					"activity_type": {
+						"label": "Applied sessions",
+						"value": "applied"
+					},
+					"duration_display": "33 hours",
+					"offerings_formatted_teaching_activities": "<ul><li>Second semester, Clayton, On-campus</li><li>Second semester, Malaysia, On-campus</li></ul>",
+					"links": []
+				}
+			]
+		}
+	],
+	"search_title": "FIT2004 - Algorithms and data structures",
+	"unit_search_title": "FIT2004 - Algorithms and data structures",
+	"teaching_approaches": [
+		{
+			"type": {
+				"label": "Active learning",
+				"value": "active_learning"
+			},
+			"academic_item": {
+				"value": "FIT2004",
+				"cl_id": "4fe32c19dbe8fd90101196cbd3961933",
+				"key": "code"
+			},
+			"cl_id": "dfe32c19dbe8fd90101196cbd396196f",
+			"description": "<p>&nbsp;</p>",
+			"links": []
+		}
+	],
+	"handbook_statement": null,
+	"academic_contact_roles": [
+		{
+			"role": "Unit Coordinator(s)",
+			"contacts": [
+				{
+					"active": "true",
+					"contact_department": "",
+					"start_date": "",
+					"offering": {
+						"value": "",
+						"cl_id": null,
+						"key": "display_name"
+					},
+					"contact_role": {
+						"label": "Unit Coordinator",
+						"value": "unit_coordinator"
+					},
+					"contact_name": "Lim Wern Han",
+					"role_detail": "(Malaysia)",
+					"contact_organisation": "",
+					"contact_title": "Dr",
+					"order": "0",
+					"contact_phone": "",
+					"end_date": "",
+					"location": {
+						"value": "",
+						"cl_id": null,
+						"key": "name"
+					},
+					"contact_email": "Lim.Wern.Han@monash.edu",
+					"contact_url": "",
+					"user": {
+						"value": "Lim Wern Han",
+						"cl_id": "335d0680db2ed090ffb02c530596196b",
+						"key": ""
+					},
+					"offerings": [
+						{
+							"value": "S2-01-MALAYSIA-ON-CAMPUS",
+							"cl_id": "13e32c19dbe8fd90101196cbd3961938",
+							"key": "display_name"
+						},
+						{
+							"value": "S1-01-MALAYSIA-ON-CAMPUS",
+							"cl_id": "53e32c19dbe8fd90101196cbd3961939",
+							"key": "display_name"
+						}
+					],
+					"applies_to_all_offerings": "false",
+					"linking_id": "43f5addd1b126450653b206b274bcb17",
+					"cl_id": "1be32c19dbe8fd90101196cbd3961939",
+					"display_details": "Lim.Wern.Han@monash.edu",
+					"display_name": "Dr Lim Wern Han ",
+					"offerings_formatted_contact": "<ul><li>First semester, Malaysia, On-campus</li><li>Second semester, Malaysia, On-campus</li></ul>",
+					"display_role_plural": "Unit Coordinator(s)",
+					"links": []
+				}
+			]
+		},
+		{
+			"role": "Chief Examiner(s)",
+			"contacts": [
+				{
+					"active": "true",
+					"contact_department": "",
+					"start_date": "",
+					"offering": {
+						"value": "",
+						"cl_id": null,
+						"key": "display_name"
+					},
+					"contact_role": {
+						"label": "Chief Examiner",
+						"value": "chief_examiner"
+					},
+					"contact_name": "Rafael Dowsley",
+					"role_detail": "",
+					"contact_organisation": "",
+					"contact_title": "Dr",
+					"order": "1",
+					"contact_phone": "",
+					"end_date": "",
+					"location": {
+						"value": "",
+						"cl_id": null,
+						"key": "name"
+					},
+					"contact_email": "Rafael.Dowsley@monash.edu",
+					"contact_url": "",
+					"user": {
+						"value": "Rafael Dowsley",
+						"cl_id": "bd2a3cfb1b188110653b206b274bcbc7",
+						"key": ""
+					},
+					"offerings": [],
+					"applies_to_all_offerings": "true",
+					"linking_id": "0c69adbb1bd88110f1eca68b274bcbf9",
+					"cl_id": "97e32c19dbe8fd90101196cbd396193a",
+					"display_details": "Rafael.Dowsley@monash.edu",
+					"display_name": "Dr Rafael Dowsley ",
+					"offerings_formatted_contact": "<ul><li>Applies to all offerings</ul></li>",
+					"display_role_plural": "Chief Examiner(s)",
+					"links": []
+				}
+			]
+		}
+	],
+	"links": [],
+	"yearSwitcher": [
+		{
+			"label": "2020",
+			"value": "2020",
+			"href": "/2020/units/FIT2004?year=2020"
+		},
+		{
+			"label": "2021",
+			"value": "2021",
+			"href": "/2021/units/FIT2004?year=2021"
+		},
+		{
+			"label": "2022",
+			"value": "2022",
+			"href": "/2022/units/FIT2004?year=2022"
+		},
+		{
+			"label": "2023",
+			"value": "2023",
+			"href": "/2023/units/FIT2004?year=2023"
+		}
+	],
+	"university": "Monash University"
+}

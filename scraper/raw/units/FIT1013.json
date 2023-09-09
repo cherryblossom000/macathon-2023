@@ -1,0 +1,559 @@
+{
+	"contentTypeLabel": "Unit",
+	"published_in_handbook": {
+		"label": "Yes",
+		"value": "1"
+	},
+	"implementation_year": "2023",
+	"duration_ft_max": "",
+	"asced_detailed": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"grading_schema": {
+		"label": null,
+		"value": null
+	},
+	"study_level": [],
+	"quota_enrolment_requirements": "",
+	"status": {
+		"label": "Accredited",
+		"value": "Active"
+	},
+	"duration_pt_max": "",
+	"duration_pt_std": "",
+	"credit_points": "6",
+	"parent_id": {
+		"value": "Master Record: FIT1013",
+		"cl_id": "e6946a10dbf4b300580f42a0149619ec",
+		"key": "code",
+		"type": "x_f5sl_cl_master_record"
+	},
+	"start_date": "",
+	"exclusions": "",
+	"unit_code": "FIT1013",
+	"academic_org": {
+		"value": "Faculty of Information Technology",
+		"cl_id": "c5684a53dba8a3406add773c349619a1",
+		"key": "name"
+	},
+	"sms_version": "",
+	"level": {
+		"label": "Level 1",
+		"value": "2"
+	},
+	"uac_code": "",
+	"special_requirements": "",
+	"duration_pt_min": "",
+	"special_unit_type": [],
+	"title": "Digital futures: IT for business",
+	"duration_ft_std": "",
+	"version": "5",
+	"learning_experiences": null,
+	"duration_ft_min": "",
+	"callista_version": "",
+	"duration_ft_period": {
+		"label": null,
+		"value": null
+	},
+	"asced_narrow": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"subclass": {
+		"label": "Unit",
+		"value": "subject"
+	},
+	"type": {
+		"label": "Coursework",
+		"value": "600"
+	},
+	"quota_rationale": "",
+	"version_name": "2023.05",
+	"timetable_this_unit": "true",
+	"work_integrated_learning": [
+		{
+			"value": "None",
+			"cl_id": "8ef5d77bdb122300e5cf3391f496191d",
+			"key": "label"
+		}
+	],
+	"cl_id": "df75bafcdb40fd102bdd077cd396192d",
+	"school": {
+		"value": "Faculty of Information Technology",
+		"cl_id": "c5684a53dba8a3406add773c349619a1",
+		"key": "name"
+	},
+	"content": null,
+	"learning_and_teaching_resources": null,
+	"collaborating_disciplines": [],
+	"repeatable": "false",
+	"overview": "",
+	"end_date": "",
+	"duration_pt_period": {
+		"label": null,
+		"value": null
+	},
+	"sms_status": {
+		"label": null,
+		"value": null
+	},
+	"learning_materials": null,
+	"special_topic": "false",
+	"asced_broad": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"publish_tuition_fees": "true",
+	"placement_proportion": {
+		"label": null,
+		"value": null
+	},
+	"code": "FIT1013",
+	"other_unit_costs": "",
+	"eftsl": {
+		"label": "0.125",
+		"value": "0.125"
+	},
+	"contact_information": "",
+	"highest_sca_band": {
+		"label": "SCA Band 2",
+		"value": "2"
+	},
+	"lo_additional_information": "<p>On successful completion of this unit, you should be able to:</p>",
+	"handbook_assessment_summary": "",
+	"quota_information": "",
+	"attendance_requirements": "",
+	"workload_requirements": "<p>Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled teaching activities.</p>",
+	"organisational_contact_information": "",
+	"handbook_synopsis": "<p>Introduction to business application tools and introduction to basic computing concepts. Principles of spreadsheets and relational databases, covering their use for the generation of business plans, reports, financial statements, etc. Both the spreadsheet and database components incorporate an introduction to programming with visual basic for applications (VBA). The database component covers principles of database design. The business application software packages used in the unit are Microsoft Excel and Microsoft Access.</p>",
+	"special_note_to_students": "",
+	"undergrad_postgrad_both": {
+		"label": "Undergraduate",
+		"value": "undergraduate"
+	},
+	"area_of_study_links": "IT for business<br />",
+	"fieldwork": "",
+	"unit_learning_outcomes": [
+		{
+			"lo_domain": [],
+			"order": "1",
+			"number": "1",
+			"code": "ULO1",
+			"lo_cl_id": "1b75fafcdb40fd102bdd077cd396198f",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "a67ab0acdbf4b3003a731c0e049619c3",
+			"academic_item": {
+				"value": "FIT1013",
+				"cl_id": "df75bafcdb40fd102bdd077cd396192d",
+				"key": "code"
+			},
+			"description": "<p>Apply spreadsheet functions to analyse and model organisational data.</p>",
+			"cl_id": "1b75fafcdb40fd102bdd077cd396198f",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "5",
+			"number": "5",
+			"code": "ULO5",
+			"lo_cl_id": "5775fafcdb40fd102bdd077cd396198f",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "64b332b01b501510f1eca68b274bcb0a",
+			"academic_item": {
+				"value": "FIT1013",
+				"cl_id": "df75bafcdb40fd102bdd077cd396192d",
+				"key": "code"
+			},
+			"description": "<p>Analyse relational databases and organisational information using Access</p>",
+			"cl_id": "5775fafcdb40fd102bdd077cd396198f",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "3",
+			"number": "3",
+			"code": "ULO3",
+			"lo_cl_id": "9375fafcdb40fd102bdd077cd396198f",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "052bb8ecdbf4b3003a731c0e049619c3",
+			"academic_item": {
+				"value": "FIT1013",
+				"cl_id": "df75bafcdb40fd102bdd077cd396192d",
+				"key": "code"
+			},
+			"description": "<p>Apply VBA as the programming language to automate spreadsheet applications.</p>",
+			"cl_id": "9375fafcdb40fd102bdd077cd396198f",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "4",
+			"number": "4",
+			"code": "ULO4",
+			"lo_cl_id": "db75fafcdb40fd102bdd077cd396198f",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "c5a3ba701b501510f1eca68b274bcbaf",
+			"academic_item": {
+				"value": "FIT1013",
+				"cl_id": "df75bafcdb40fd102bdd077cd396192d",
+				"key": "code"
+			},
+			"description": "<p>Evaluate VBA to construct applications for enhancing the appearance and usability of spreadsheets.</p>",
+			"cl_id": "db75fafcdb40fd102bdd077cd396198f",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "2",
+			"number": "2",
+			"code": "ULO2",
+			"lo_cl_id": "df75fafcdb40fd102bdd077cd396198e",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "a6aa78acdbf4b3003a731c0e04961920",
+			"academic_item": {
+				"value": "FIT1013",
+				"cl_id": "df75bafcdb40fd102bdd077cd396192d",
+				"key": "code"
+			},
+			"description": "<p>Describe the relevant data visualisation techniques to analyse organisational data.</p>",
+			"cl_id": "df75fafcdb40fd102bdd077cd396198e",
+			"ga_map": []
+		}
+	],
+	"school_org_unit_data": [
+		{
+			"parent": {
+				"value": "",
+				"cl_id": null,
+				"key": "name"
+			},
+			"url": "https://www.monash.edu/it",
+			"name": "Faculty of Information Technology",
+			"cl_id": "c5684a53dba8a3406add773c349619a1"
+		}
+	],
+	"assessments": [
+		{
+			"subject": {
+				"value": "FIT1013",
+				"cl_id": "df75bafcdb40fd102bdd077cd396192d",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "3",
+			"weight": "35",
+			"cl_id": "1375fafcdb40fd102bdd077cd3961993",
+			"assessment_name": "Assignment 2",
+			"description": null,
+			"assessment_type": {
+				"label": "Assignment",
+				"value": "assignment"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT1013",
+				"cl_id": "df75bafcdb40fd102bdd077cd396192d",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "2",
+			"weight": "25",
+			"cl_id": "5f75fafcdb40fd102bdd077cd3961993",
+			"assessment_name": "Assignment 1",
+			"description": null,
+			"assessment_type": {
+				"label": "Assignment",
+				"value": "assignment"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT1013",
+				"cl_id": "df75bafcdb40fd102bdd077cd396192d",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "1",
+			"weight": "10",
+			"cl_id": "9b75fafcdb40fd102bdd077cd3961993",
+			"assessment_name": "Fortnightly Quiz & Test",
+			"description": "<p>fortnightly, beginning in week 2</p>",
+			"assessment_type": {
+				"label": "Other",
+				"value": "other"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT1013",
+				"cl_id": "df75bafcdb40fd102bdd077cd396192d",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "4",
+			"weight": "30",
+			"cl_id": "d775fafcdb40fd102bdd077cd3961993",
+			"assessment_name": "Assignment 3",
+			"description": null,
+			"assessment_type": {
+				"label": "Assignment",
+				"value": "assignment"
+			},
+			"offerings_formatted": ""
+		}
+	],
+	"enrolment_rules": [],
+	"requisites": [],
+	"unit_offering": [
+		{
+			"fees_domestic": "",
+			"publish": "true",
+			"location": {
+				"value": "Clayton",
+				"cl_id": "37f321e1db30a7406add773c3496192e",
+				"key": "name"
+			},
+			"name": "FIT1013-S2-01-ON-CAMPUS-CLAYTON",
+			"clarification_to_appear_in_handbook": "",
+			"display_name": "S2-01-CLAYTON-ON-CAMPUS",
+			"teaching_period": {
+				"value": "Second semester",
+				"cl_id": "85a429a1db30a7406add773c3496190d",
+				"key": "name"
+			},
+			"attendance_mode": {
+				"value": "On-campus",
+				"cl_id": "7bf2311bdb68a3406add773c349619bb",
+				"key": "description"
+			},
+			"quota_number": "",
+			"study_level": {
+				"label": null,
+				"value": null
+			},
+			"offered": "true",
+			"self_enrol": "true",
+			"academic_item": {
+				"value": "FIT1013",
+				"cl_id": "df75bafcdb40fd102bdd077cd396192d",
+				"key": "code"
+			},
+			"fees_commonwealth": "",
+			"fees_international": "",
+			"course_restrictions": "",
+			"cl_id": "1f75fafcdb40fd102bdd077cd396198d"
+		}
+	],
+	"enrolment_rules_group": [],
+	"learning_resources_grouped": [
+		{
+			"type": "Technology resources",
+			"order": 2,
+			"resources": [
+				{
+					"description": "<p>Microsoft Excel 2016 and Microsoft Access 2016</p>",
+					"type": {
+						"label": "Technology resources",
+						"value": "technology_resources"
+					},
+					"cl_id": "5f75fafcdb40fd102bdd077cd3961991",
+					"academic_item": {
+						"value": "FIT1013",
+						"cl_id": "df75bafcdb40fd102bdd077cd396192d",
+						"key": "code"
+					},
+					"links": []
+				}
+			]
+		},
+		{
+			"type": "Recommended resources",
+			"order": 1,
+			"resources": [
+				{
+					"description": "<p>Parsons, Oja, Carey, Desjardins (2017). Microsoft Excel 2016, New Perspectives Series, Comprehensive Edition . Cengage Learning. <br/>\nShellman, Vodnik (2017). Microsoft Access 2016, New Perspectives Series, Comprehensive Edition . Cengage Learning.</p>",
+					"type": {
+						"label": "Recommended resources",
+						"value": "recommended_resources"
+					},
+					"cl_id": "9f75fafcdb40fd102bdd077cd3961990",
+					"academic_item": {
+						"value": "FIT1013",
+						"cl_id": "df75bafcdb40fd102bdd077cd396192d",
+						"key": "code"
+					},
+					"links": []
+				}
+			]
+		}
+	],
+	"study_abroad_unit": "Yes",
+	"academic_item_type": "Unit",
+	"learning_activities_grouped": [
+		{
+			"activity_type": "Applied sessions",
+			"activities": [
+				{
+					"subject": {
+						"value": "FIT1013",
+						"cl_id": "df75bafcdb40fd102bdd077cd396192d",
+						"key": "code"
+					},
+					"cl_id": "1b75fafcdb40fd102bdd077cd3961992",
+					"order": "4",
+					"description": "",
+					"activity_type": {
+						"label": "Applied sessions",
+						"value": "applied"
+					},
+					"duration_display": "24 hours",
+					"offerings_formatted_teaching_activities": "<ul><li>Applies to all offerings</li></ul>",
+					"links": []
+				}
+			]
+		},
+		{
+			"activity_type": "Workshops",
+			"activities": [
+				{
+					"subject": {
+						"value": "FIT1013",
+						"cl_id": "df75bafcdb40fd102bdd077cd396192d",
+						"key": "code"
+					},
+					"cl_id": "9b75fafcdb40fd102bdd077cd3961992",
+					"order": "3",
+					"description": "",
+					"activity_type": {
+						"label": "Workshops",
+						"value": "workshop"
+					},
+					"duration_display": "24 hours",
+					"offerings_formatted_teaching_activities": "<ul><li>Applies to all offerings</li></ul>",
+					"links": []
+				}
+			]
+		}
+	],
+	"search_title": "FIT1013 - Digital futures: IT for business",
+	"unit_search_title": "FIT1013 - Digital futures: IT for business",
+	"teaching_approaches": [
+		{
+			"type": {
+				"label": "Active learning",
+				"value": "active_learning"
+			},
+			"academic_item": {
+				"value": "FIT1013",
+				"cl_id": "df75bafcdb40fd102bdd077cd396192d",
+				"key": "code"
+			},
+			"cl_id": "9775fafcdb40fd102bdd077cd3961990",
+			"description": "<p>&nbsp;</p>",
+			"links": []
+		}
+	],
+	"handbook_statement": null,
+	"academic_contact_roles": [
+		{
+			"role": "Chief Examiner(s)",
+			"contacts": [
+				{
+					"active": "true",
+					"contact_department": "",
+					"start_date": "",
+					"offering": {
+						"value": "",
+						"cl_id": null,
+						"key": "display_name"
+					},
+					"contact_role": {
+						"label": "Chief Examiner",
+						"value": "chief_examiner"
+					},
+					"contact_name": "Anthony Wong",
+					"role_detail": "",
+					"contact_organisation": "",
+					"contact_title": "Dr",
+					"order": "1",
+					"contact_phone": "",
+					"end_date": "",
+					"location": {
+						"value": "",
+						"cl_id": null,
+						"key": "name"
+					},
+					"contact_email": "Anthony.Wong@monash.edu",
+					"contact_url": "",
+					"user": {
+						"value": "Anthony Wong",
+						"cl_id": "7ac107dcdb78b300580f42a0149619c4",
+						"key": ""
+					},
+					"offerings": [],
+					"applies_to_all_offerings": "true",
+					"linking_id": "0fa0456d1ba9a510f1eca68b274bcba1",
+					"cl_id": "5775fafcdb40fd102bdd077cd396198e",
+					"display_details": "Anthony.Wong@monash.edu",
+					"display_name": "Dr Anthony Wong ",
+					"offerings_formatted_contact": "<ul><li>Applies to all offerings</ul></li>",
+					"display_role_plural": "Chief Examiner(s)",
+					"links": []
+				}
+			]
+		}
+	],
+	"links": [],
+	"yearSwitcher": [
+		{
+			"label": "2020",
+			"value": "2020",
+			"href": "/2020/units/FIT1013?year=2020"
+		},
+		{
+			"label": "2021",
+			"value": "2021",
+			"href": "/2021/units/FIT1013?year=2021"
+		},
+		{
+			"label": "2022",
+			"value": "2022",
+			"href": "/2022/units/FIT1013?year=2022"
+		},
+		{
+			"label": "2023",
+			"value": "2023",
+			"href": "/2023/units/FIT1013?year=2023"
+		}
+	],
+	"university": "Monash University"
+}

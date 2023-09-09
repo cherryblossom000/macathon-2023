@@ -1,0 +1,11 @@
+{
+	"code": "FIT3139",
+	"title": "Computational modelling and simulation",
+	"offerings": [
+		"First semester"
+	],
+	"enrolmentRules": [
+		"<p>Prerequisites: One of MAT1841, ENG1091, ENG1005, MTH1030, MTH1035 or equivalent, plus any introductory programming unit (e.g. FIT1045, FIT1048, FIT1051, FIT1053,  ECE2071, or equivalent)</p>"
+	],
+	"requisites": []
+}

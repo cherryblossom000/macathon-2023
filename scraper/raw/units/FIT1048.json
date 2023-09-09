@@ -1,0 +1,573 @@
+{
+	"contentTypeLabel": "Unit",
+	"published_in_handbook": {
+		"label": "Yes",
+		"value": "1"
+	},
+	"implementation_year": "2023",
+	"duration_ft_max": "",
+	"asced_detailed": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"grading_schema": {
+		"label": null,
+		"value": null
+	},
+	"study_level": [],
+	"quota_enrolment_requirements": "",
+	"status": {
+		"label": "Accredited",
+		"value": "Active"
+	},
+	"duration_pt_max": "",
+	"duration_pt_std": "",
+	"credit_points": "6",
+	"parent_id": {
+		"value": "Master Record: FIT1048",
+		"cl_id": "0794aa10dbf4b300580f42a014961996",
+		"key": "code",
+		"type": "x_f5sl_cl_master_record"
+	},
+	"start_date": "",
+	"exclusions": "",
+	"unit_code": "FIT1048",
+	"academic_org": {
+		"value": "Faculty of Information Technology",
+		"cl_id": "c5684a53dba8a3406add773c349619a1",
+		"key": "name"
+	},
+	"sms_version": "",
+	"level": {
+		"label": "Level 1",
+		"value": "2"
+	},
+	"uac_code": "",
+	"special_requirements": "",
+	"duration_pt_min": "",
+	"special_unit_type": [],
+	"title": "Fundamentals of C++",
+	"duration_ft_std": "",
+	"version": "6",
+	"learning_experiences": null,
+	"duration_ft_min": "",
+	"callista_version": "",
+	"duration_ft_period": {
+		"label": null,
+		"value": null
+	},
+	"asced_narrow": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"subclass": {
+		"label": "Unit",
+		"value": "subject"
+	},
+	"type": {
+		"label": "Coursework",
+		"value": "600"
+	},
+	"quota_rationale": "",
+	"version_name": "2023.06",
+	"timetable_this_unit": "true",
+	"work_integrated_learning": [
+		{
+			"value": "None",
+			"cl_id": "8ef5d77bdb122300e5cf3391f496191d",
+			"key": "label"
+		}
+	],
+	"cl_id": "18f2bf56db8c35502bdd077cd3961989",
+	"school": {
+		"value": "Faculty of Information Technology",
+		"cl_id": "c5684a53dba8a3406add773c349619a1",
+		"key": "name"
+	},
+	"content": null,
+	"learning_and_teaching_resources": null,
+	"collaborating_disciplines": [],
+	"repeatable": "false",
+	"overview": "",
+	"end_date": "",
+	"duration_pt_period": {
+		"label": null,
+		"value": null
+	},
+	"sms_status": {
+		"label": null,
+		"value": null
+	},
+	"learning_materials": null,
+	"special_topic": "false",
+	"asced_broad": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"publish_tuition_fees": "true",
+	"placement_proportion": {
+		"label": null,
+		"value": null
+	},
+	"code": "FIT1048",
+	"other_unit_costs": "",
+	"eftsl": {
+		"label": "0.125",
+		"value": "0.125"
+	},
+	"contact_information": "",
+	"highest_sca_band": {
+		"label": "SCA Band 2",
+		"value": "2"
+	},
+	"lo_additional_information": "<p>On successful completion of this unit, you should be able to:</p>",
+	"handbook_assessment_summary": "",
+	"quota_information": "",
+	"attendance_requirements": "",
+	"workload_requirements": "<p>Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled teaching activities.</p>",
+	"organisational_contact_information": "",
+	"handbook_synopsis": "<p>This unit introduces programming fundamentals and the C++ language to students. The unit provides a foundational understanding of program design and implementation of algorithms to solve simple problems. Fundamental programming control structures, built in and complex data-types and mechanisms for modularity will be presented in C++. This unit also places a focus on object-oriented design principles, using object-oriented design as a process for program design and problem solving. More advanced object-oriented programming topics such as inheritance and polymorphism will also be covered. Other C++ fundamentals such as pointers and the STL will be presented, as will implementations of algorithms and data structures used in problem solving.</p>",
+	"special_note_to_students": "<p>Optional <a href=\"https://www.monash.edu/about/mentoring/peer-assisted-study-sessions-pass\" target=\"_blank\">Peer Assisted Study Sessions (PASS)</a> run in this unit.</p>",
+	"undergrad_postgrad_both": {
+		"label": "Undergraduate",
+		"value": "undergraduate"
+	},
+	"area_of_study_links": "Games development<br />Mobile apps developments<br />Web development<br />",
+	"fieldwork": "",
+	"unit_learning_outcomes": [
+		{
+			"lo_domain": [],
+			"order": "1",
+			"number": "1",
+			"code": "ULO1",
+			"lo_cl_id": "14f2bf56db8c35502bdd077cd396198d",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "ad7ab0acdbf4b3003a731c0e0496195a",
+			"academic_item": {
+				"value": "FIT1048",
+				"cl_id": "18f2bf56db8c35502bdd077cd3961989",
+				"key": "code"
+			},
+			"description": "<p>Design, implement, compile, execute and debug programs using fundamental C++ constructs;</p>",
+			"cl_id": "14f2bf56db8c35502bdd077cd396198d",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "4",
+			"number": "4",
+			"code": "ULO4",
+			"lo_cl_id": "18f2bf56db8c35502bdd077cd396198c",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "ac5b7020db38b3003a731c0e04961965",
+			"academic_item": {
+				"value": "FIT1048",
+				"cl_id": "18f2bf56db8c35502bdd077cd3961989",
+				"key": "code"
+			},
+			"description": "<p>Create C++ programs using pointers to demonstrate an understanding of efficient memory use and management;</p>",
+			"cl_id": "18f2bf56db8c35502bdd077cd396198c",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "3",
+			"number": "3",
+			"code": "ULO3",
+			"lo_cl_id": "50f2bf56db8c35502bdd077cd396198d",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "371b78ecdbf4b3003a731c0e049619bf",
+			"academic_item": {
+				"value": "FIT1048",
+				"cl_id": "18f2bf56db8c35502bdd077cd3961989",
+				"key": "code"
+			},
+			"description": "<p>Apply object-oriented design principles, including inheritance and polymorphism, to solve programming problems;</p>",
+			"cl_id": "50f2bf56db8c35502bdd077cd396198d",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "5",
+			"number": "5",
+			"code": "ULO5",
+			"lo_cl_id": "9cf2bf56db8c35502bdd077cd396198c",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "27abbc20db38b3003a731c0e049619b1",
+			"academic_item": {
+				"value": "FIT1048",
+				"cl_id": "18f2bf56db8c35502bdd077cd3961989",
+				"key": "code"
+			},
+			"description": "<p>Troubleshoot C++ program code using an Integrated Development Environment and its tools.</p>",
+			"cl_id": "9cf2bf56db8c35502bdd077cd396198c",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "2",
+			"number": "2",
+			"code": "ULO2",
+			"lo_cl_id": "d8f2bf56db8c35502bdd077cd396198c",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "44ea30ecdbf4b3003a731c0e049619cf",
+			"academic_item": {
+				"value": "FIT1048",
+				"cl_id": "18f2bf56db8c35502bdd077cd3961989",
+				"key": "code"
+			},
+			"description": "<p>Apply fundamental programming control structures, including conditional statements, iteration and recursion to solve programming problems;</p>",
+			"cl_id": "d8f2bf56db8c35502bdd077cd396198c",
+			"ga_map": []
+		}
+	],
+	"school_org_unit_data": [
+		{
+			"parent": {
+				"value": "",
+				"cl_id": null,
+				"key": "name"
+			},
+			"url": "https://www.monash.edu/it",
+			"name": "Faculty of Information Technology",
+			"cl_id": "c5684a53dba8a3406add773c349619a1"
+		}
+	],
+	"assessments": [
+		{
+			"subject": {
+				"value": "FIT1048",
+				"cl_id": "18f2bf56db8c35502bdd077cd3961989",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "<p> </p>\n<p> </p>",
+			"number": "4",
+			"weight": "30",
+			"cl_id": "2cf2bf56db8c35502bdd077cd396198f",
+			"assessment_name": "In-class coding project ",
+			"description": null,
+			"assessment_type": {
+				"label": "Other",
+				"value": "other"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT1048",
+				"cl_id": "18f2bf56db8c35502bdd077cd3961989",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "1",
+			"weight": "10",
+			"cl_id": "68f2bf56db8c35502bdd077cd396198f",
+			"assessment_name": " Task-oriented Project",
+			"description": null,
+			"assessment_type": {
+				"label": "Project",
+				"value": "project"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT1048",
+				"cl_id": "18f2bf56db8c35502bdd077cd3961989",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "3",
+			"weight": "35",
+			"cl_id": "a4f2bf56db8c35502bdd077cd396198f",
+			"assessment_name": "Final C++ Project Implementation",
+			"description": null,
+			"assessment_type": {
+				"label": "Project",
+				"value": "project"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT1048",
+				"cl_id": "18f2bf56db8c35502bdd077cd3961989",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "2",
+			"weight": "25",
+			"cl_id": "ecf2bf56db8c35502bdd077cd396198f",
+			"assessment_name": "Major Project - C++ Project Prototype and Design Documentation ",
+			"description": null,
+			"assessment_type": {
+				"label": "Project",
+				"value": "project"
+			},
+			"offerings_formatted": ""
+		}
+	],
+	"enrolment_rules": [
+		{
+			"description": "<p>Prohibition: FIT2071</p>",
+			"academic_item": {
+				"value": "FIT1048",
+				"cl_id": "18f2bf56db8c35502bdd077cd3961989",
+				"key": "code"
+			},
+			"type": {
+				"label": "Enrolment Rule",
+				"value": "info"
+			},
+			"cl_id": "58f2bf56db8c35502bdd077cd396198d"
+		}
+	],
+	"requisites": [],
+	"unit_offering": [
+		{
+			"fees_domestic": "",
+			"publish": "true",
+			"location": {
+				"value": "Clayton",
+				"cl_id": "37f321e1db30a7406add773c3496192e",
+				"key": "name"
+			},
+			"name": "FIT1048-S2-01-ON-CAMPUS-CLAYTON",
+			"clarification_to_appear_in_handbook": "",
+			"display_name": "S2-01-CLAYTON-ON-CAMPUS",
+			"teaching_period": {
+				"value": "Second semester",
+				"cl_id": "85a429a1db30a7406add773c3496190d",
+				"key": "name"
+			},
+			"attendance_mode": {
+				"value": "On-campus",
+				"cl_id": "7bf2311bdb68a3406add773c349619bb",
+				"key": "description"
+			},
+			"quota_number": "",
+			"study_level": {
+				"label": null,
+				"value": null
+			},
+			"offered": "true",
+			"self_enrol": "true",
+			"academic_item": {
+				"value": "FIT1048",
+				"cl_id": "18f2bf56db8c35502bdd077cd3961989",
+				"key": "code"
+			},
+			"fees_commonwealth": "",
+			"fees_international": "",
+			"course_restrictions": "",
+			"cl_id": "18f2bf56db8c35502bdd077cd396198b"
+		}
+	],
+	"enrolment_rules_group": [
+		{
+			"rule_group": "Enrolment Rule",
+			"rules": [
+				{
+					"description": "<p>Prohibition: FIT2071</p>",
+					"academic_item": {
+						"value": "FIT1048",
+						"cl_id": "18f2bf56db8c35502bdd077cd3961989",
+						"key": "code"
+					},
+					"type": {
+						"label": "Enrolment Rule",
+						"value": "info"
+					},
+					"cl_id": "58f2bf56db8c35502bdd077cd396198d",
+					"links": []
+				}
+			]
+		}
+	],
+	"learning_resources_grouped": [
+		{
+			"type": "Technology resources",
+			"order": 2,
+			"resources": [
+				{
+					"description": "<p>All coding for the unit will be undertaken using the Visual Studio development environment. While students may use any IDE they feel most comfortable with for code development, all demonstration and instruction will be done using Visual Studio. Also note that all assignments MUST be submitted as a Visual Studio project. Projects based on other IDEs will not be accepted for marking. Visual Studio is available for use in all FIT student labs.</p>\n<p>It is STRONGLY recommended that you implement a formal backup/version control system for your work. This may include, but is not limited to, external hard drive backup regimes and online repository systems. Work lost due to technology failure is not necessarily instant grounds for extension approvals.</p>\n<p>Moodle will be used for delivery of all material as well as submission of assignments. It is your responsibility ensure you have appropriate access and you check the discussion boards regularly for important unit announcements.</p>",
+					"type": {
+						"label": "Technology resources",
+						"value": "technology_resources"
+					},
+					"cl_id": "24f2bf56db8c35502bdd077cd396198e",
+					"academic_item": {
+						"value": "FIT1048",
+						"cl_id": "18f2bf56db8c35502bdd077cd3961989",
+						"key": "code"
+					},
+					"links": []
+				}
+			]
+		}
+	],
+	"study_abroad_unit": "Yes",
+	"academic_item_type": "Unit",
+	"learning_activities_grouped": [
+		{
+			"activity_type": "Studio activities",
+			"activities": [
+				{
+					"subject": {
+						"value": "FIT1048",
+						"cl_id": "18f2bf56db8c35502bdd077cd3961989",
+						"key": "code"
+					},
+					"cl_id": "60f2bf56db8c35502bdd077cd396198f",
+					"order": "1",
+					"description": "",
+					"activity_type": {
+						"label": "Studio activities",
+						"value": "studio"
+					},
+					"duration_display": "36 hours",
+					"offerings_formatted_teaching_activities": "<ul><li>Applies to all offerings</li></ul>",
+					"links": []
+				}
+			]
+		},
+		{
+			"activity_type": "Workshops",
+			"activities": [
+				{
+					"subject": {
+						"value": "FIT1048",
+						"cl_id": "18f2bf56db8c35502bdd077cd3961989",
+						"key": "code"
+					},
+					"cl_id": "ecf2bf56db8c35502bdd077cd396198e",
+					"order": "2",
+					"description": "",
+					"activity_type": {
+						"label": "Workshops",
+						"value": "workshop"
+					},
+					"duration_display": "24 hours",
+					"offerings_formatted_teaching_activities": "<ul><li>Applies to all offerings</li></ul>",
+					"links": []
+				}
+			]
+		}
+	],
+	"search_title": "FIT1048 - Fundamentals of C++",
+	"unit_search_title": "FIT1048 - Fundamentals of C++",
+	"teaching_approaches": [
+		{
+			"type": {
+				"label": "Active learning",
+				"value": "active_learning"
+			},
+			"academic_item": {
+				"value": "FIT1048",
+				"cl_id": "18f2bf56db8c35502bdd077cd3961989",
+				"key": "code"
+			},
+			"cl_id": "e4f2bf56db8c35502bdd077cd396198e",
+			"description": "<p>&nbsp;</p>",
+			"links": []
+		}
+	],
+	"handbook_statement": null,
+	"academic_contact_roles": [
+		{
+			"role": "Chief Examiner(s)",
+			"contacts": [
+				{
+					"active": "true",
+					"contact_department": "",
+					"start_date": "",
+					"offering": {
+						"value": "",
+						"cl_id": null,
+						"key": "display_name"
+					},
+					"contact_role": {
+						"label": "Chief Examiner",
+						"value": "chief_examiner"
+					},
+					"contact_name": "Cheryl Howard",
+					"role_detail": "",
+					"contact_organisation": "",
+					"contact_title": "Ms",
+					"order": "1",
+					"contact_phone": "",
+					"end_date": "",
+					"location": {
+						"value": "",
+						"cl_id": null,
+						"key": "name"
+					},
+					"contact_email": "Cheryl.Howard@monash.edu",
+					"contact_url": "",
+					"user": {
+						"value": "Cheryl Howard",
+						"cl_id": "34d1cbdcdb78b300580f42a0149619ea",
+						"key": ""
+					},
+					"offerings": [],
+					"applies_to_all_offerings": "true",
+					"linking_id": "0fce834f1b3e6110f1eca68b274bcb2c",
+					"cl_id": "50f2bf56db8c35502bdd077cd396198c",
+					"display_details": "Cheryl.Howard@monash.edu",
+					"display_name": "Ms Cheryl Howard ",
+					"offerings_formatted_contact": "<ul><li>Applies to all offerings</ul></li>",
+					"display_role_plural": "Chief Examiner(s)",
+					"links": []
+				}
+			]
+		}
+	],
+	"links": [],
+	"yearSwitcher": [
+		{
+			"label": "2020",
+			"value": "2020",
+			"href": "/2020/units/FIT1048?year=2020"
+		},
+		{
+			"label": "2021",
+			"value": "2021",
+			"href": "/2021/units/FIT1048?year=2021"
+		},
+		{
+			"label": "2022",
+			"value": "2022",
+			"href": "/2022/units/FIT1048?year=2022"
+		},
+		{
+			"label": "2023",
+			"value": "2023",
+			"href": "/2023/units/FIT1048?year=2023"
+		}
+	],
+	"university": "Monash University"
+}

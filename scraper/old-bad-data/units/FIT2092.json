@@ -1,7 +1,10 @@
 {
-	"code": "FIT3183",
-	"title": "Malicious AI and dark side security",
-	"offerings": [],
+	"code": "FIT2092",
+	"title": "Interactive media studio 2",
+	"offerings": [
+		"Second semester"
+	],
+	"enrolmentRules": [],
 	"requisites": [
 		{
 			"type": "prerequisite",
@@ -11,8 +14,7 @@
 					{
 						"operator": "AND",
 						"items": [
-							"FIT2093",
-							"FIT1045"
+							"FIT2091"
 						]
 					}
 				]

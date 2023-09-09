@@ -1,0 +1,791 @@
+{
+	"contentTypeLabel": "Unit",
+	"published_in_handbook": {
+		"label": "Yes",
+		"value": "1"
+	},
+	"implementation_year": "2023",
+	"duration_ft_max": "",
+	"asced_detailed": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"grading_schema": {
+		"label": null,
+		"value": null
+	},
+	"study_level": [],
+	"quota_enrolment_requirements": "",
+	"status": {
+		"label": "Accredited",
+		"value": "Active"
+	},
+	"duration_pt_max": "",
+	"duration_pt_std": "",
+	"credit_points": "6",
+	"parent_id": {
+		"value": "Master Record: FIT3047",
+		"cl_id": "e6a4e250dbf4b300580f42a0149619ae",
+		"key": "code",
+		"type": "x_f5sl_cl_master_record"
+	},
+	"start_date": "",
+	"exclusions": "",
+	"unit_code": "FIT3047",
+	"academic_org": {
+		"value": "Faculty of Information Technology",
+		"cl_id": "c5684a53dba8a3406add773c349619a1",
+		"key": "name"
+	},
+	"sms_version": "",
+	"level": {
+		"label": "Level 3",
+		"value": "4"
+	},
+	"uac_code": "",
+	"special_requirements": "",
+	"duration_pt_min": "",
+	"special_unit_type": [],
+	"title": "Industry experience studio project 1",
+	"duration_ft_std": "",
+	"version": "9",
+	"learning_experiences": null,
+	"duration_ft_min": "",
+	"callista_version": "",
+	"duration_ft_period": {
+		"label": null,
+		"value": null
+	},
+	"asced_narrow": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"subclass": {
+		"label": "Unit",
+		"value": "subject"
+	},
+	"type": {
+		"label": "Coursework",
+		"value": "600"
+	},
+	"quota_rationale": "",
+	"version_name": "2023.09",
+	"timetable_this_unit": "true",
+	"work_integrated_learning": [
+		{
+			"value": "None",
+			"cl_id": "8ef5d77bdb122300e5cf3391f496191d",
+			"key": "label"
+		}
+	],
+	"cl_id": "8aaa759bdb983990101196cbd3961905",
+	"school": {
+		"value": "Faculty of Information Technology",
+		"cl_id": "c5684a53dba8a3406add773c349619a1",
+		"key": "name"
+	},
+	"content": null,
+	"learning_and_teaching_resources": null,
+	"collaborating_disciplines": [],
+	"repeatable": "false",
+	"overview": "",
+	"end_date": "",
+	"duration_pt_period": {
+		"label": null,
+		"value": null
+	},
+	"sms_status": {
+		"label": null,
+		"value": null
+	},
+	"learning_materials": null,
+	"special_topic": "false",
+	"asced_broad": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"publish_tuition_fees": "true",
+	"placement_proportion": {
+		"label": null,
+		"value": null
+	},
+	"code": "FIT3047",
+	"other_unit_costs": "",
+	"eftsl": {
+		"label": "0.125",
+		"value": "0.125"
+	},
+	"contact_information": "",
+	"highest_sca_band": {
+		"label": "SCA Band 2",
+		"value": "2"
+	},
+	"lo_additional_information": "<p>On successful completion of this unit, you should be able to:</p>",
+	"handbook_assessment_summary": "<p>Supplementary assessment is not available for this unit. Check the <a href=\"https://www.monash.edu/students/admin/exams/changes/supplementary\">supplementary assessments</a> page for details about exemptions.</p>",
+	"quota_information": "",
+	"attendance_requirements": "",
+	"workload_requirements": "<p>Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled teaching activities.</p>",
+	"organisational_contact_information": "",
+	"handbook_synopsis": "<p>In their final year of study, students are given the opportunity to develop new skills and apply the knowledge and skills they have gained, in the development of an IT application for a real world client. In teams, students design, develop and deliver an IT applications for a client, manage the project through all its development stages, communicate effectively with all project stakeholders and develop project documentation to a professional standard. Students also present their project work to academics and other groups, attend unit seminars, and contribute in a professional and committed manner to the work of their team.</p>\n<p>FIT3047 is the first of two industry experience units for most majors in the Bachelor of Information Technology. After successful completion of this unit, students must enrol in and pass FIT3048 to complete their industry experience project requirements. </p>",
+	"special_note_to_students": "<p>Students must complete part 2 of the Industry experience studio project (FIT3048) in the semester after part 1 (FIT3047). </p>",
+	"undergrad_postgrad_both": {
+		"label": "Undergraduate",
+		"value": "undergraduate"
+	},
+	"area_of_study_links": "",
+	"fieldwork": "",
+	"unit_learning_outcomes": [
+		{
+			"lo_domain": [],
+			"order": "4",
+			"number": "4",
+			"code": "ULO4",
+			"lo_cl_id": "1aaa759bdb983990101196cbd39619c5",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "a37bf420db38b3003a731c0e0496196a",
+			"academic_item": {
+				"value": "FIT3047",
+				"cl_id": "8aaa759bdb983990101196cbd3961905",
+				"key": "code"
+			},
+			"description": "<p>Develop an IT application using a prescribed methodology, conducting all activities associated with the development methodology;</p>",
+			"cl_id": "1aaa759bdb983990101196cbd39619c5",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "7",
+			"number": "7",
+			"code": "ULO7",
+			"lo_cl_id": "1aaa759bdb983990101196cbd39619c6",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "dffbb860db38b3003a731c0e04961948",
+			"academic_item": {
+				"value": "FIT3047",
+				"cl_id": "8aaa759bdb983990101196cbd3961905",
+				"key": "code"
+			},
+			"description": "<p>Evaluate, assess and communicate both personal and team progress and learning, thus engaging in meaningful reflective practice.</p>",
+			"cl_id": "1aaa759bdb983990101196cbd39619c6",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "6",
+			"number": "6",
+			"code": "ULO6",
+			"lo_cl_id": "56aa759bdb983990101196cbd39619c6",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "f1ebf460db38b3003a731c0e0496190c",
+			"academic_item": {
+				"value": "FIT3047",
+				"cl_id": "8aaa759bdb983990101196cbd3961905",
+				"key": "code"
+			},
+			"description": "<p>Operate effectively as a member of a development team;</p>",
+			"cl_id": "56aa759bdb983990101196cbd39619c6",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "1",
+			"number": "1",
+			"code": "ULO1",
+			"lo_cl_id": "92aa759bdb983990101196cbd39619c6",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "bb6a70acdbf4b3003a731c0e04961940",
+			"academic_item": {
+				"value": "FIT3047",
+				"cl_id": "8aaa759bdb983990101196cbd3961905",
+				"key": "code"
+			},
+			"description": "<p>Explain how IT applications are developed, including all aspects of the development process;</p>",
+			"cl_id": "92aa759bdb983990101196cbd39619c6",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "5",
+			"number": "5",
+			"code": "ULO5",
+			"lo_cl_id": "9eaa759bdb983990101196cbd39619c6",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "8babbc20db38b3003a731c0e04961956",
+			"academic_item": {
+				"value": "FIT3047",
+				"cl_id": "8aaa759bdb983990101196cbd3961905",
+				"key": "code"
+			},
+			"description": "<p>Work with clients or client representatives, communicating effectively with them to meet their requirements;</p>",
+			"cl_id": "9eaa759bdb983990101196cbd39619c6",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "3",
+			"number": "3",
+			"code": "ULO3",
+			"lo_cl_id": "daaa759bdb983990101196cbd39619c6",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "e32b3cecdbf4b3003a731c0e0496193d",
+			"academic_item": {
+				"value": "FIT3047",
+				"cl_id": "8aaa759bdb983990101196cbd3961905",
+				"key": "code"
+			},
+			"description": "<p>Apply, in a practical setting, aspects of the theoretical work covered in their course;</p>",
+			"cl_id": "daaa759bdb983990101196cbd39619c6",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "2",
+			"number": "2",
+			"code": "ULO2",
+			"lo_cl_id": "deaa759bdb983990101196cbd39619c5",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "3fcabcacdbf4b3003a731c0e04961955",
+			"academic_item": {
+				"value": "FIT3047",
+				"cl_id": "8aaa759bdb983990101196cbd3961905",
+				"key": "code"
+			},
+			"description": "<p>Explain the roles and responsibilities of clients, system users, management and developers in a development project;</p>",
+			"cl_id": "deaa759bdb983990101196cbd39619c5",
+			"ga_map": []
+		}
+	],
+	"school_org_unit_data": [
+		{
+			"parent": {
+				"value": "",
+				"cl_id": null,
+				"key": "name"
+			},
+			"url": "https://www.monash.edu/it",
+			"name": "Faculty of Information Technology",
+			"cl_id": "c5684a53dba8a3406add773c349619a1"
+		}
+	],
+	"assessments": [
+		{
+			"subject": {
+				"value": "FIT3047",
+				"cl_id": "8aaa759bdb983990101196cbd3961905",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "3",
+			"weight": "15",
+			"cl_id": "1eaa759bdb983990101196cbd39619cc",
+			"assessment_name": "Engagement and Professionalism",
+			"description": null,
+			"assessment_type": {
+				"label": "Other",
+				"value": "other"
+			},
+			"offerings_formatted": "<ul><li>Second semester, Clayton, On-campus</li></ul>"
+		},
+		{
+			"subject": {
+				"value": "FIT3047",
+				"cl_id": "8aaa759bdb983990101196cbd3961905",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "1",
+			"weight": "75",
+			"cl_id": "56aa759bdb983990101196cbd39619cd",
+			"assessment_name": "Project Deliverables",
+			"description": null,
+			"assessment_type": {
+				"label": "Project",
+				"value": "project"
+			},
+			"offerings_formatted": "<ul><li>Second semester, Clayton, On-campus</li></ul>"
+		},
+		{
+			"subject": {
+				"value": "FIT3047",
+				"cl_id": "8aaa759bdb983990101196cbd3961905",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "6",
+			"weight": "10",
+			"cl_id": "5aaa759bdb983990101196cbd39619cc",
+			"assessment_name": "Client Engagement and Professionalism",
+			"description": null,
+			"assessment_type": {
+				"label": "Other",
+				"value": "other"
+			},
+			"offerings_formatted": "<ul><li>First semester, Clayton, On-campus</li></ul>"
+		},
+		{
+			"subject": {
+				"value": "FIT3047",
+				"cl_id": "8aaa759bdb983990101196cbd3961905",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "4",
+			"weight": "75",
+			"cl_id": "92aa759bdb983990101196cbd39619cc",
+			"assessment_name": "Project Deliverables",
+			"description": null,
+			"assessment_type": {
+				"label": "Project",
+				"value": "project"
+			},
+			"offerings_formatted": "<ul><li>First semester, Clayton, On-campus</li></ul>"
+		},
+		{
+			"subject": {
+				"value": "FIT3047",
+				"cl_id": "8aaa759bdb983990101196cbd3961905",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "5",
+			"weight": "15",
+			"cl_id": "92aa759bdb983990101196cbd39619cd",
+			"assessment_name": "Reflective Diary",
+			"description": null,
+			"assessment_type": {
+				"label": "Other",
+				"value": "other"
+			},
+			"offerings_formatted": "<ul><li>First semester, Clayton, On-campus</li></ul>"
+		},
+		{
+			"subject": {
+				"value": "FIT3047",
+				"cl_id": "8aaa759bdb983990101196cbd3961905",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "2",
+			"weight": "10",
+			"cl_id": "deaa759bdb983990101196cbd39619cc",
+			"assessment_name": "Reflective Diary",
+			"description": "<p>Evaluate, assess and communicate both personal and team progress and learning, thus engaging in meaningful reflective practice.</p>",
+			"assessment_type": {
+				"label": "Other",
+				"value": "other"
+			},
+			"offerings_formatted": "<ul><li>Second semester, Clayton, On-campus</li></ul>"
+		}
+	],
+	"enrolment_rules": [
+		{
+			"description": "<p>Prerequisites:</p>\n<p>For students in the Bachelor of Information Technology (C2000) and BCIS (4307): (One of FIT1045, FIT1048, FIT1051 or FIT1053) and FIT1047 and FIT1049 and (one of FIT2099 or FIT2001) and FIT2002 and (one of FIT2094 or FIT3171) and (12 points of FIT units at level 1) and (12 points of FIT units at level 2 or 3) and must be core in the student's degree program and completion of a total of 90 points towards the degree.</p>",
+			"academic_item": {
+				"value": "FIT3047",
+				"cl_id": "8aaa759bdb983990101196cbd3961905",
+				"key": "code"
+			},
+			"type": {
+				"label": "Enrolment Rule",
+				"value": "info"
+			},
+			"cl_id": "d2aa759bdb983990101196cbd39619c7"
+		},
+		{
+			"description": "<p>Prohibitions: FIT2032, FIT3039, FIT3040, FIT3045,</p>",
+			"academic_item": {
+				"value": "FIT3047",
+				"cl_id": "8aaa759bdb983990101196cbd3961905",
+				"key": "code"
+			},
+			"type": {
+				"label": "Enrolment Rule",
+				"value": "info"
+			},
+			"cl_id": "daaa759bdb983990101196cbd39619c7"
+		}
+	],
+	"requisites": [],
+	"unit_offering": [
+		{
+			"fees_domestic": "",
+			"publish": "true",
+			"location": {
+				"value": "Clayton",
+				"cl_id": "37f321e1db30a7406add773c3496192e",
+				"key": "name"
+			},
+			"name": "FIT3047-S2-01-ON-CAMPUS-CLAYTON",
+			"clarification_to_appear_in_handbook": "",
+			"display_name": "S2-01-CLAYTON-ON-CAMPUS",
+			"teaching_period": {
+				"value": "Second semester",
+				"cl_id": "85a429a1db30a7406add773c3496190d",
+				"key": "name"
+			},
+			"attendance_mode": {
+				"value": "On-campus",
+				"cl_id": "7bf2311bdb68a3406add773c349619bb",
+				"key": "description"
+			},
+			"quota_number": "",
+			"study_level": {
+				"label": null,
+				"value": null
+			},
+			"offered": "true",
+			"self_enrol": "true",
+			"academic_item": {
+				"value": "FIT3047",
+				"cl_id": "8aaa759bdb983990101196cbd3961905",
+				"key": "code"
+			},
+			"fees_commonwealth": "",
+			"fees_international": "",
+			"course_restrictions": "",
+			"cl_id": "92aa759bdb983990101196cbd3961909"
+		},
+		{
+			"fees_domestic": "",
+			"publish": "true",
+			"location": {
+				"value": "Clayton",
+				"cl_id": "37f321e1db30a7406add773c3496192e",
+				"key": "name"
+			},
+			"name": "FIT3047-S1-01-ON-CAMPUS-CLAYTON",
+			"clarification_to_appear_in_handbook": "",
+			"display_name": "S1-01-CLAYTON-ON-CAMPUS",
+			"teaching_period": {
+				"value": "First semester",
+				"cl_id": "0da429a1db30a7406add773c3496190c",
+				"key": "name"
+			},
+			"attendance_mode": {
+				"value": "On-campus",
+				"cl_id": "7bf2311bdb68a3406add773c349619bb",
+				"key": "description"
+			},
+			"quota_number": "",
+			"study_level": {
+				"label": null,
+				"value": null
+			},
+			"offered": "true",
+			"self_enrol": "true",
+			"academic_item": {
+				"value": "FIT3047",
+				"cl_id": "8aaa759bdb983990101196cbd3961905",
+				"key": "code"
+			},
+			"fees_commonwealth": "",
+			"fees_international": "",
+			"course_restrictions": "",
+			"cl_id": "9eaa759bdb983990101196cbd3961909"
+		}
+	],
+	"enrolment_rules_group": [
+		{
+			"rule_group": "Enrolment Rule",
+			"rules": [
+				{
+					"description": "<p>Prerequisites:</p>\n<p>For students in the Bachelor of Information Technology (C2000) and BCIS (4307): (One of FIT1045, FIT1048, FIT1051 or FIT1053) and FIT1047 and FIT1049 and (one of FIT2099 or FIT2001) and FIT2002 and (one of FIT2094 or FIT3171) and (12 points of FIT units at level 1) and (12 points of FIT units at level 2 or 3) and must be core in the student's degree program and completion of a total of 90 points towards the degree.</p>",
+					"academic_item": {
+						"value": "FIT3047",
+						"cl_id": "8aaa759bdb983990101196cbd3961905",
+						"key": "code"
+					},
+					"type": {
+						"label": "Enrolment Rule",
+						"value": "info"
+					},
+					"cl_id": "d2aa759bdb983990101196cbd39619c7",
+					"links": []
+				},
+				{
+					"description": "<p>Prohibitions: FIT2032, FIT3039, FIT3040, FIT3045,</p>",
+					"academic_item": {
+						"value": "FIT3047",
+						"cl_id": "8aaa759bdb983990101196cbd3961905",
+						"key": "code"
+					},
+					"type": {
+						"label": "Enrolment Rule",
+						"value": "info"
+					},
+					"cl_id": "daaa759bdb983990101196cbd39619c7",
+					"links": []
+				}
+			]
+		}
+	],
+	"learning_resources_grouped": [
+		{
+			"type": "Recommended resources",
+			"order": 1,
+			"resources": [
+				{
+					"description": "<p>These will vary on each campus - see your Moodle site for details. There are no recommended texts, however students are expected to have developed their own collection of texts, URLs and other reference materials during the course of their studies, and will be required to carry out research related to their specific project.</p>",
+					"type": {
+						"label": "Recommended resources",
+						"value": "recommended_resources"
+					},
+					"cl_id": "1eaa759bdb983990101196cbd39619c8",
+					"academic_item": {
+						"value": "FIT3047",
+						"cl_id": "8aaa759bdb983990101196cbd3961905",
+						"key": "code"
+					},
+					"links": []
+				}
+			]
+		},
+		{
+			"type": "Technology resources",
+			"order": 2,
+			"resources": [
+				{
+					"description": "<p>Students must regularly check Moodle for announcements.</p>\n<p>Bring your own laptop to the studios for this unit. All software used in the unit is either open source and free for anybody to use, or free for students to use. If you and your client require any additional software to complete the project, this will be negotiated with the Monash staff.</p>",
+					"type": {
+						"label": "Technology resources",
+						"value": "technology_resources"
+					},
+					"cl_id": "96aa759bdb983990101196cbd39619c9",
+					"academic_item": {
+						"value": "FIT3047",
+						"cl_id": "8aaa759bdb983990101196cbd3961905",
+						"key": "code"
+					},
+					"links": []
+				}
+			]
+		}
+	],
+	"study_abroad_unit": "No",
+	"academic_item_type": "Unit",
+	"learning_activities_grouped": [
+		{
+			"activity_type": "Applied sessions",
+			"activities": [
+				{
+					"subject": {
+						"value": "FIT3047",
+						"cl_id": "8aaa759bdb983990101196cbd3961905",
+						"key": "code"
+					},
+					"cl_id": "4c1bbd9bdb983990101196cbd39619f7",
+					"order": "4",
+					"description": "",
+					"activity_type": {
+						"label": "Applied sessions",
+						"value": "applied"
+					},
+					"duration_display": "48 hours",
+					"offerings_formatted_teaching_activities": "<ul><li>Second semester, Clayton, On-campus</li></ul>",
+					"links": []
+				},
+				{
+					"subject": {
+						"value": "FIT3047",
+						"cl_id": "8aaa759bdb983990101196cbd3961905",
+						"key": "code"
+					},
+					"cl_id": "d6aa759bdb983990101196cbd39619ca",
+					"order": "1",
+					"description": "",
+					"activity_type": {
+						"label": "Applied sessions",
+						"value": "applied"
+					},
+					"duration_display": "24 hours",
+					"offerings_formatted_teaching_activities": "<ul><li>First semester, Clayton, On-campus</li></ul>",
+					"links": []
+				}
+			]
+		},
+		{
+			"activity_type": "Workshops",
+			"activities": [
+				{
+					"subject": {
+						"value": "FIT3047",
+						"cl_id": "8aaa759bdb983990101196cbd3961905",
+						"key": "code"
+					},
+					"cl_id": "52aa759bdb983990101196cbd39619cb",
+					"order": "2",
+					"description": "",
+					"activity_type": {
+						"label": "Workshops",
+						"value": "workshop"
+					},
+					"duration_display": "12 hours",
+					"offerings_formatted_teaching_activities": "<ul><li>Applies to all offerings</li></ul>",
+					"links": []
+				}
+			]
+		},
+		{
+			"activity_type": "Tutorials",
+			"activities": [
+				{
+					"subject": {
+						"value": "FIT3047",
+						"cl_id": "8aaa759bdb983990101196cbd3961905",
+						"key": "code"
+					},
+					"cl_id": "5aaa759bdb983990101196cbd39619cb",
+					"order": "0",
+					"description": "",
+					"activity_type": {
+						"label": "Tutorials",
+						"value": "tutorial"
+					},
+					"duration_display": "24 hours",
+					"offerings_formatted_teaching_activities": "<ul><li>First semester, Clayton, On-campus</li></ul>",
+					"links": []
+				}
+			]
+		}
+	],
+	"search_title": "FIT3047 - Industry experience studio project 1",
+	"unit_search_title": "FIT3047 - Industry experience studio project 1",
+	"teaching_approaches": [
+		{
+			"type": {
+				"label": "Industry-based learning",
+				"value": "industry_based_learning"
+			},
+			"academic_item": {
+				"value": "FIT3047",
+				"cl_id": "8aaa759bdb983990101196cbd3961905",
+				"key": "code"
+			},
+			"cl_id": "56aa759bdb983990101196cbd39619c8",
+			"description": "&nbsp;",
+			"links": []
+		},
+		{
+			"type": {
+				"label": "Work-integrated learning",
+				"value": "work-integrated_learning"
+			},
+			"academic_item": {
+				"value": "FIT3047",
+				"cl_id": "8aaa759bdb983990101196cbd3961905",
+				"key": "code"
+			},
+			"cl_id": "d2aa759bdb983990101196cbd39619c9",
+			"description": "&nbsp;",
+			"links": []
+		}
+	],
+	"handbook_statement": null,
+	"academic_contact_roles": [
+		{
+			"role": "Chief Examiner(s)",
+			"contacts": [
+				{
+					"active": "true",
+					"contact_department": "",
+					"start_date": "",
+					"offering": {
+						"value": "",
+						"cl_id": null,
+						"key": "display_name"
+					},
+					"contact_role": {
+						"label": "Chief Examiner",
+						"value": "chief_examiner"
+					},
+					"contact_name": "Gail Bourne",
+					"role_detail": "",
+					"contact_organisation": "",
+					"contact_title": "Ms",
+					"order": "1",
+					"contact_phone": "",
+					"end_date": "",
+					"location": {
+						"value": "",
+						"cl_id": null,
+						"key": "name"
+					},
+					"contact_email": "Gail.Bourne@monash.edu",
+					"contact_url": "",
+					"user": {
+						"value": "Gail Bourne",
+						"cl_id": "84e14310dbb8b300580f42a0149619f4",
+						"key": ""
+					},
+					"offerings": [],
+					"applies_to_all_offerings": "true",
+					"linking_id": "5907715d1bd26450653b206b274bcb6d",
+					"cl_id": "d2aa759bdb983990101196cbd396190a",
+					"display_details": "Gail.Bourne@monash.edu",
+					"display_name": "Ms Gail Bourne ",
+					"offerings_formatted_contact": "<ul><li>Applies to all offerings</ul></li>",
+					"display_role_plural": "Chief Examiner(s)",
+					"links": []
+				}
+			]
+		}
+	],
+	"links": [],
+	"yearSwitcher": [
+		{
+			"label": "2020",
+			"value": "2020",
+			"href": "/2020/units/FIT3047?year=2020"
+		},
+		{
+			"label": "2021",
+			"value": "2021",
+			"href": "/2021/units/FIT3047?year=2021"
+		},
+		{
+			"label": "2022",
+			"value": "2022",
+			"href": "/2022/units/FIT3047?year=2022"
+		},
+		{
+			"label": "2023",
+			"value": "2023",
+			"href": "/2023/units/FIT3047?year=2023"
+		}
+	],
+	"university": "Monash University"
+}

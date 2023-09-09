@@ -1,0 +1,721 @@
+{
+	"contentTypeLabel": "Unit",
+	"published_in_handbook": {
+		"label": "Yes",
+		"value": "1"
+	},
+	"implementation_year": "2023",
+	"duration_ft_max": "",
+	"asced_detailed": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"grading_schema": {
+		"label": null,
+		"value": null
+	},
+	"study_level": [],
+	"quota_enrolment_requirements": "",
+	"status": {
+		"label": "Accredited",
+		"value": "Active"
+	},
+	"duration_pt_max": "",
+	"duration_pt_std": "",
+	"credit_points": "6",
+	"parent_id": {
+		"value": "Master Record: FIT2098",
+		"cl_id": "55a46250dbf4b300580f42a014961941",
+		"key": "code",
+		"type": "x_f5sl_cl_master_record"
+	},
+	"start_date": "",
+	"exclusions": "",
+	"unit_code": "FIT2098",
+	"academic_org": {
+		"value": "Faculty of Information Technology",
+		"cl_id": "c5684a53dba8a3406add773c349619a1",
+		"key": "name"
+	},
+	"sms_version": "",
+	"level": {
+		"label": "Level 2",
+		"value": "3"
+	},
+	"uac_code": "",
+	"special_requirements": "",
+	"duration_pt_min": "",
+	"special_unit_type": [],
+	"title": "Virtual and augmented reality",
+	"duration_ft_std": "",
+	"version": "4",
+	"learning_experiences": null,
+	"duration_ft_min": "",
+	"callista_version": "",
+	"duration_ft_period": {
+		"label": null,
+		"value": null
+	},
+	"asced_narrow": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"subclass": {
+		"label": "Unit",
+		"value": "subject"
+	},
+	"type": {
+		"label": "Coursework",
+		"value": "600"
+	},
+	"quota_rationale": "",
+	"version_name": "2023.04",
+	"timetable_this_unit": "true",
+	"work_integrated_learning": [
+		{
+			"value": "None",
+			"cl_id": "8ef5d77bdb122300e5cf3391f496191d",
+			"key": "label"
+		}
+	],
+	"cl_id": "94ac08c0db60f990101196cbd396191e",
+	"school": {
+		"value": "Faculty of Information Technology",
+		"cl_id": "c5684a53dba8a3406add773c349619a1",
+		"key": "name"
+	},
+	"content": null,
+	"learning_and_teaching_resources": null,
+	"collaborating_disciplines": [],
+	"repeatable": "false",
+	"overview": "",
+	"end_date": "",
+	"duration_pt_period": {
+		"label": null,
+		"value": null
+	},
+	"sms_status": {
+		"label": null,
+		"value": null
+	},
+	"learning_materials": null,
+	"special_topic": "false",
+	"asced_broad": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"publish_tuition_fees": "true",
+	"placement_proportion": {
+		"label": null,
+		"value": null
+	},
+	"code": "FIT2098",
+	"other_unit_costs": "",
+	"eftsl": {
+		"label": "0.125",
+		"value": "0.125"
+	},
+	"contact_information": "",
+	"highest_sca_band": {
+		"label": "SCA Band 2",
+		"value": "2"
+	},
+	"lo_additional_information": "<p>On successful completion of this unit, you should be able to:</p>",
+	"handbook_assessment_summary": "",
+	"quota_information": "",
+	"attendance_requirements": "",
+	"workload_requirements": "<p>Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled teaching activities.</p>",
+	"organisational_contact_information": "",
+	"handbook_synopsis": "<p>This unit explores the design principles and content creation process for Virtual reality (VR) and augmented reality (AR) applications. You will be given the opportunity to apply the interactive and cognitive functions of VR and AR systems, design and develop assets, and use VR and AR tools and platforms to deploy content.</p>",
+	"special_note_to_students": "",
+	"undergrad_postgrad_both": {
+		"label": "Undergraduate",
+		"value": "undergraduate"
+	},
+	"area_of_study_links": "Interactive media<br />",
+	"fieldwork": "",
+	"unit_learning_outcomes": [
+		{
+			"lo_domain": [],
+			"order": "1",
+			"number": "1",
+			"code": "ULO1",
+			"lo_cl_id": "10ac08c0db60f990101196cbd39619d3",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "267ab0acdbf4b3003a731c0e049619d4",
+			"academic_item": {
+				"value": "FIT2098",
+				"cl_id": "94ac08c0db60f990101196cbd396191e",
+				"key": "code"
+			},
+			"description": "<p>Demonstrate the use of software to create VR environments and AR objects</p>",
+			"cl_id": "10ac08c0db60f990101196cbd39619d3",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "2",
+			"number": "2",
+			"code": "ULO2",
+			"lo_cl_id": "5cac08c0db60f990101196cbd39619d2",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "bbaa78acdbf4b3003a731c0e049619e4",
+			"academic_item": {
+				"value": "FIT2098",
+				"cl_id": "94ac08c0db60f990101196cbd396191e",
+				"key": "code"
+			},
+			"description": "<p>Describe the principles of designing and deploying specific VR environments and AR applications</p>",
+			"cl_id": "5cac08c0db60f990101196cbd39619d2",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "5",
+			"number": "5",
+			"code": "ULO5",
+			"lo_cl_id": "94ac08c0db60f990101196cbd39619d3",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "d7bb3060db38b3003a731c0e04961989",
+			"academic_item": {
+				"value": "FIT2098",
+				"cl_id": "94ac08c0db60f990101196cbd396191e",
+				"key": "code"
+			},
+			"description": "<p>Develop applications of VR environments and AR technologies</p>",
+			"cl_id": "94ac08c0db60f990101196cbd39619d3",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "6",
+			"number": "6",
+			"code": "ULO6",
+			"lo_cl_id": "98ac08c0db60f990101196cbd39619d2",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "b5db3460db38b3003a731c0e049619ae",
+			"academic_item": {
+				"value": "FIT2098",
+				"cl_id": "94ac08c0db60f990101196cbd396191e",
+				"key": "code"
+			},
+			"description": "<p>Create VR environments and AR applications.</p>",
+			"cl_id": "98ac08c0db60f990101196cbd39619d2",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "4",
+			"number": "4",
+			"code": "ULO4",
+			"lo_cl_id": "d0ac08c0db60f990101196cbd39619d2",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "e97bb420db38b3003a731c0e0496195d",
+			"academic_item": {
+				"value": "FIT2098",
+				"cl_id": "94ac08c0db60f990101196cbd396191e",
+				"key": "code"
+			},
+			"description": "<p>Explain VR and AR User Interactions, Hardware, Capabilities & Sensors</p>",
+			"cl_id": "d0ac08c0db60f990101196cbd39619d2",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "3",
+			"number": "3",
+			"code": "ULO3",
+			"lo_cl_id": "d0ac08c0db60f990101196cbd39619d3",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "423b7cecdbf4b3003a731c0e049619b3",
+			"academic_item": {
+				"value": "FIT2098",
+				"cl_id": "94ac08c0db60f990101196cbd396191e",
+				"key": "code"
+			},
+			"description": "<p>Analyse the range of options and controls available through VR and AR software applications</p>",
+			"cl_id": "d0ac08c0db60f990101196cbd39619d3",
+			"ga_map": []
+		}
+	],
+	"school_org_unit_data": [
+		{
+			"parent": {
+				"value": "",
+				"cl_id": null,
+				"key": "name"
+			},
+			"url": "https://www.monash.edu/it",
+			"name": "Faculty of Information Technology",
+			"cl_id": "c5684a53dba8a3406add773c349619a1"
+		}
+	],
+	"assessments": [
+		{
+			"subject": {
+				"value": "FIT2098",
+				"cl_id": "94ac08c0db60f990101196cbd396191e",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "5",
+			"weight": "10",
+			"cl_id": "10ac08c0db60f990101196cbd39619d8",
+			"assessment_name": "Test 2",
+			"description": null,
+			"assessment_type": {
+				"label": "In class test",
+				"value": "in_class_test"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT2098",
+				"cl_id": "94ac08c0db60f990101196cbd396191e",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "4",
+			"weight": "10",
+			"cl_id": "14ac08c0db60f990101196cbd39619d7",
+			"assessment_name": "Test 1",
+			"description": null,
+			"assessment_type": {
+				"label": "In class test",
+				"value": "in_class_test"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT2098",
+				"cl_id": "94ac08c0db60f990101196cbd396191e",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "1",
+			"weight": "20",
+			"cl_id": "5cac08c0db60f990101196cbd39619d6",
+			"assessment_name": "Assignment 1",
+			"description": null,
+			"assessment_type": {
+				"label": "Assignment",
+				"value": "assignment"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT2098",
+				"cl_id": "94ac08c0db60f990101196cbd396191e",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "2",
+			"weight": "20",
+			"cl_id": "5cac08c0db60f990101196cbd39619d7",
+			"assessment_name": "Assignment 2",
+			"description": null,
+			"assessment_type": {
+				"label": "Assignment",
+				"value": "assignment"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT2098",
+				"cl_id": "94ac08c0db60f990101196cbd396191e",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "3",
+			"weight": "30",
+			"cl_id": "98ac08c0db60f990101196cbd39619d7",
+			"assessment_name": "Assignment 3",
+			"description": null,
+			"assessment_type": {
+				"label": "Assignment",
+				"value": "assignment"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT2098",
+				"cl_id": "94ac08c0db60f990101196cbd396191e",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "6",
+			"weight": "10",
+			"cl_id": "d4ac08c0db60f990101196cbd39619d7",
+			"assessment_name": "Test 3",
+			"description": null,
+			"assessment_type": {
+				"label": "In class test",
+				"value": "in_class_test"
+			},
+			"offerings_formatted": ""
+		}
+	],
+	"enrolment_rules": [],
+	"requisites": [
+		{
+			"academic_item_code": "FIT2098",
+			"active": "true",
+			"requisite_cl_id": "54ac08c0db60f990101196cbd39619cf",
+			"description": "",
+			"requisite_type": {
+				"label": "Prerequisite",
+				"value": "prerequisite"
+			},
+			"cl_id": {
+				"value": "FIT2098",
+				"cl_id": "94ac08c0db60f990101196cbd396191e",
+				"key": "code"
+			},
+			"academic_item_version_number": "2023.04",
+			"order": "",
+			"start_date": "",
+			"end_date": "",
+			"container": [
+				{
+					"cl_id": "64ac48c0db60f990101196cbd3961940",
+					"parent_container_table": "x_f5sl_cl_requisite",
+					"parent_record": {
+						"value": "Relationship Builder: FIT2098",
+						"cl_id": "54ac08c0db60f990101196cbd39619cf",
+						"key": "academic_item",
+						"type": "x_f5sl_cl_requisite"
+					},
+					"title": "Container 1",
+					"parent_connector": {
+						"label": "OR",
+						"value": "OR"
+					},
+					"containers": [],
+					"relationships": [
+						{
+							"academic_item": {
+								"value": "Unit: FIT1033",
+								"cl_id": "a694aa10dbf4b300580f42a014961901",
+								"key": "code",
+								"type": "x_f5sl_cl_subjects"
+							},
+							"parent_record": {
+								"value": "Container 1",
+								"cl_id": "64ac48c0db60f990101196cbd3961940",
+								"key": "title"
+							},
+							"order": "1",
+							"cl_id": "a694aa10dbf4b300580f42a014961901",
+							"academic_item_type": {
+								"label": "Unit",
+								"value": "subject"
+							},
+							"abbr_name": "F3D",
+							"academic_item_version_name": "2019.01",
+							"academic_item_credit_points": "6",
+							"abbreviated_name_and_major": null,
+							"academic_item_name": "Foundations of 3D",
+							"academic_item_code": "FIT1033",
+							"academic_item_url": "/2019/units/FIT1033"
+						},
+						{
+							"academic_item": {
+								"value": "Unit: DIS1911",
+								"cl_id": "0483a258dbb4b300580f42a0149619d9",
+								"key": "code",
+								"type": "x_f5sl_cl_subjects"
+							},
+							"parent_record": {
+								"value": "Container 1",
+								"cl_id": "64ac48c0db60f990101196cbd3961940",
+								"key": "title"
+							},
+							"order": "2",
+							"cl_id": "0483a258dbb4b300580f42a0149619d9",
+							"academic_item_type": {
+								"label": "Unit",
+								"value": "subject"
+							},
+							"abbr_name": "3D DESIGN & VISUAL",
+							"academic_item_version_name": "2019.01",
+							"academic_item_credit_points": "6",
+							"abbreviated_name_and_major": null,
+							"academic_item_name": "3D design and visualisation",
+							"academic_item_code": "DIS1911",
+							"academic_item_url": "/2019/units/DIS1911"
+						}
+					]
+				}
+			]
+		}
+	],
+	"unit_offering": [
+		{
+			"fees_domestic": "",
+			"publish": "true",
+			"location": {
+				"value": "Clayton",
+				"cl_id": "37f321e1db30a7406add773c3496192e",
+				"key": "name"
+			},
+			"name": "FIT2098-S2-01-ON-CAMPUS-CLAYTON",
+			"clarification_to_appear_in_handbook": "",
+			"display_name": "S2-01-CLAYTON-ON-CAMPUS",
+			"teaching_period": {
+				"value": "Second semester",
+				"cl_id": "85a429a1db30a7406add773c3496190d",
+				"key": "name"
+			},
+			"attendance_mode": {
+				"value": "On-campus",
+				"cl_id": "7bf2311bdb68a3406add773c349619bb",
+				"key": "description"
+			},
+			"quota_number": "",
+			"study_level": {
+				"label": null,
+				"value": null
+			},
+			"offered": "true",
+			"self_enrol": "true",
+			"academic_item": {
+				"value": "FIT2098",
+				"cl_id": "94ac08c0db60f990101196cbd396191e",
+				"key": "code"
+			},
+			"fees_commonwealth": "",
+			"fees_international": "",
+			"course_restrictions": "",
+			"cl_id": "1cac08c0db60f990101196cbd39619d0"
+		}
+	],
+	"enrolment_rules_group": [],
+	"learning_resources_grouped": [
+		{
+			"type": "Technology resources",
+			"order": 2,
+			"resources": [
+				{
+					"description": "<p>Autodesk Maya 2019 is recommended for the creation of assets needed for completing the assignments. This will be provided on campus lab computers, and students are encouraged to register with the Autodesk Education Community for their own educational trial version under the company's terms and conditions. Please visit <a href=\"https://www.autodesk.com/education/free-software/maya\">Autodesk Maya 2019</a></p>",
+					"type": {
+						"label": "Technology resources",
+						"value": "technology_resources"
+					},
+					"cl_id": "10ac08c0db60f990101196cbd39619d4",
+					"academic_item": {
+						"value": "FIT2098",
+						"cl_id": "94ac08c0db60f990101196cbd396191e",
+						"key": "code"
+					},
+					"links": []
+				},
+				{
+					"description": "<p>Specialised hardware - VR headsets, VR-ready laptops, and AR ready tablet computers - will be provided during tutorials and tests. However, assignments will require additional work outside of tutorials, either on campus lab computers or personal devices.</p>",
+					"type": {
+						"label": "Technology resources",
+						"value": "technology_resources"
+					},
+					"cl_id": "18ac08c0db60f990101196cbd39619d5",
+					"academic_item": {
+						"value": "FIT2098",
+						"cl_id": "94ac08c0db60f990101196cbd396191e",
+						"key": "code"
+					},
+					"links": []
+				},
+				{
+					"description": "<p>Unity 2018.3.0 will be provided on campus lab computers and students are encouraged to download the Unity free of charge for use at home. Please visit (and select the correct version) from <a href=\"https://unity3d.com/get-unity/download/archive\">https://unity3d.com/get-unity/download/archive</a> </p>",
+					"type": {
+						"label": "Technology resources",
+						"value": "technology_resources"
+					},
+					"cl_id": "d4ac08c0db60f990101196cbd39619d4",
+					"academic_item": {
+						"value": "FIT2098",
+						"cl_id": "94ac08c0db60f990101196cbd396191e",
+						"key": "code"
+					},
+					"links": []
+				}
+			]
+		}
+	],
+	"study_abroad_unit": "Yes",
+	"academic_item_type": "Unit",
+	"learning_activities_grouped": [
+		{
+			"activity_type": "Applied sessions",
+			"activities": [
+				{
+					"subject": {
+						"value": "FIT2098",
+						"cl_id": "94ac08c0db60f990101196cbd396191e",
+						"key": "code"
+					},
+					"cl_id": "18ac08c0db60f990101196cbd39619d6",
+					"order": "",
+					"description": "",
+					"activity_type": {
+						"label": "Applied sessions",
+						"value": "applied"
+					},
+					"duration_display": "36 hours",
+					"offerings_formatted_teaching_activities": "<ul><li>Applies to all offerings</li></ul>",
+					"links": []
+				}
+			]
+		},
+		{
+			"activity_type": "Lectures",
+			"activities": [
+				{
+					"subject": {
+						"value": "FIT2098",
+						"cl_id": "94ac08c0db60f990101196cbd396191e",
+						"key": "code"
+					},
+					"cl_id": "90ac08c0db60f990101196cbd39619d6",
+					"order": "",
+					"description": "",
+					"activity_type": {
+						"label": "Lectures",
+						"value": "lecture"
+					},
+					"duration_display": "12 hours",
+					"offerings_formatted_teaching_activities": "<ul><li>Applies to all offerings</li></ul>",
+					"links": []
+				}
+			]
+		}
+	],
+	"search_title": "FIT2098 - Virtual and augmented reality",
+	"unit_search_title": "FIT2098 - Virtual and augmented reality",
+	"teaching_approaches": [
+		{
+			"type": {
+				"label": "Active learning",
+				"value": "active_learning"
+			},
+			"academic_item": {
+				"value": "FIT2098",
+				"cl_id": "94ac08c0db60f990101196cbd396191e",
+				"key": "code"
+			},
+			"cl_id": "50ac08c0db60f990101196cbd39619d5",
+			"description": "<p>&nbsp;</p>",
+			"links": []
+		}
+	],
+	"handbook_statement": null,
+	"academic_contact_roles": [
+		{
+			"role": "Chief Examiner(s)",
+			"contacts": [
+				{
+					"active": "false",
+					"contact_department": "",
+					"start_date": "",
+					"offering": {
+						"value": "",
+						"cl_id": null,
+						"key": "display_name"
+					},
+					"contact_role": {
+						"label": "Chief Examiner",
+						"value": "chief_examiner"
+					},
+					"contact_name": "Barrett Ens",
+					"role_detail": "",
+					"contact_organisation": "",
+					"contact_title": "Dr",
+					"order": "",
+					"contact_phone": "",
+					"end_date": "",
+					"location": {
+						"value": "",
+						"cl_id": null,
+						"key": "name"
+					},
+					"contact_email": "Barrett.Ens@monash.edu",
+					"contact_url": "",
+					"user": {
+						"value": "Barrett Ens",
+						"cl_id": "53c147dcdb78b300580f42a0149619d6",
+						"key": ""
+					},
+					"offerings": [],
+					"applies_to_all_offerings": "true",
+					"linking_id": "5c10d06cdb74b3003a731c0e04961943",
+					"cl_id": "58ac08c0db60f990101196cbd39619d1",
+					"display_details": "Barrett.Ens@monash.edu",
+					"display_name": "Dr Barrett Ens ",
+					"offerings_formatted_contact": "<ul><li>Applies to all offerings</ul></li>",
+					"display_role_plural": "Chief Examiner(s)",
+					"links": []
+				}
+			]
+		}
+	],
+	"links": [],
+	"yearSwitcher": [
+		{
+			"label": "2020",
+			"value": "2020",
+			"href": "/2020/units/FIT2098?year=2020"
+		},
+		{
+			"label": "2021",
+			"value": "2021",
+			"href": "/2021/units/FIT2098?year=2021"
+		},
+		{
+			"label": "2022",
+			"value": "2022",
+			"href": "/2022/units/FIT2098?year=2022"
+		},
+		{
+			"label": "2023",
+			"value": "2023",
+			"href": "/2023/units/FIT2098?year=2023"
+		}
+	],
+	"university": "Monash University"
+}

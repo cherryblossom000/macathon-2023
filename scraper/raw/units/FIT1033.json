@@ -1,0 +1,627 @@
+{
+	"contentTypeLabel": "Unit",
+	"published_in_handbook": {
+		"label": "Yes",
+		"value": "1"
+	},
+	"implementation_year": "2023",
+	"duration_ft_max": "",
+	"asced_detailed": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"grading_schema": {
+		"label": null,
+		"value": null
+	},
+	"study_level": [],
+	"quota_enrolment_requirements": "",
+	"status": {
+		"label": "Accredited",
+		"value": "Active"
+	},
+	"duration_pt_max": "",
+	"duration_pt_std": "",
+	"credit_points": "6",
+	"parent_id": {
+		"value": "Master Record: FIT1033",
+		"cl_id": "a294aa10dbf4b300580f42a014961901",
+		"key": "code",
+		"type": "x_f5sl_cl_master_record"
+	},
+	"start_date": "",
+	"exclusions": "",
+	"unit_code": "FIT1033",
+	"academic_org": {
+		"value": "Faculty of Information Technology",
+		"cl_id": "c5684a53dba8a3406add773c349619a1",
+		"key": "name"
+	},
+	"sms_version": "",
+	"level": {
+		"label": "Level 1",
+		"value": "2"
+	},
+	"uac_code": "",
+	"special_requirements": "",
+	"duration_pt_min": "",
+	"special_unit_type": [],
+	"title": "Foundations of 3D",
+	"duration_ft_std": "",
+	"version": "5",
+	"learning_experiences": null,
+	"duration_ft_min": "",
+	"callista_version": "",
+	"duration_ft_period": {
+		"label": null,
+		"value": null
+	},
+	"asced_narrow": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"subclass": {
+		"label": "Unit",
+		"value": "subject"
+	},
+	"type": {
+		"label": "Coursework",
+		"value": "600"
+	},
+	"quota_rationale": "",
+	"version_name": "2023.05",
+	"timetable_this_unit": "true",
+	"work_integrated_learning": [
+		{
+			"value": "None",
+			"cl_id": "8ef5d77bdb122300e5cf3391f496191d",
+			"key": "label"
+		}
+	],
+	"cl_id": "85a23d5fdb583990101196cbd396196c",
+	"school": {
+		"value": "Faculty of Information Technology",
+		"cl_id": "c5684a53dba8a3406add773c349619a1",
+		"key": "name"
+	},
+	"content": null,
+	"learning_and_teaching_resources": null,
+	"collaborating_disciplines": [],
+	"repeatable": "false",
+	"overview": "",
+	"end_date": "",
+	"duration_pt_period": {
+		"label": null,
+		"value": null
+	},
+	"sms_status": {
+		"label": null,
+		"value": null
+	},
+	"learning_materials": null,
+	"special_topic": "false",
+	"asced_broad": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"publish_tuition_fees": "true",
+	"placement_proportion": {
+		"label": null,
+		"value": null
+	},
+	"code": "FIT1033",
+	"other_unit_costs": "",
+	"eftsl": {
+		"label": "0.125",
+		"value": "0.125"
+	},
+	"contact_information": "",
+	"highest_sca_band": {
+		"label": "SCA Band 2",
+		"value": "2"
+	},
+	"lo_additional_information": "<p>On successful completion of this unit, you should be able to:</p>",
+	"handbook_assessment_summary": "<p>In-semester assessment: 100%</p>",
+	"quota_information": "",
+	"attendance_requirements": "",
+	"workload_requirements": "<p>Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled teaching activities.</p>",
+	"organisational_contact_information": "",
+	"handbook_synopsis": "<p>This unit is an introduction to the techniques, frameworks and processes comprising 3D modelling and 3D imaging. Foundations of 3D aims to give students an understanding of 3D modelling by developing skills in 3D model creation for a variety of contexts, including 3D prototyping, 3D visualisation and 3D modelling for games and animation. Students will communicate their knowledge of 3D theory through the production of designs that demonstrate geometrical modelling, texture mapping, virtual lighting techniques, camera positioning, and rendering procedures.</p>",
+	"special_note_to_students": "",
+	"undergrad_postgrad_both": {
+		"label": "Undergraduate",
+		"value": "undergraduate"
+	},
+	"area_of_study_links": "Digital humanities<br />Games design<br />Games development<br />Interactive media<br />",
+	"fieldwork": "",
+	"unit_learning_outcomes": [
+		{
+			"lo_domain": [],
+			"order": "3",
+			"number": "3",
+			"code": "ULO3",
+			"lo_cl_id": "01a27d5fdb583990101196cbd3961946",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "ac3b3cecdbf4b3003a731c0e049619c8",
+			"academic_item": {
+				"value": "FIT1033",
+				"cl_id": "85a23d5fdb583990101196cbd396196c",
+				"key": "code"
+			},
+			"description": "<p>Develop and modify 3D models and 3D environments;</p>",
+			"cl_id": "01a27d5fdb583990101196cbd3961946",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "2",
+			"number": "2",
+			"code": "ULO2",
+			"lo_cl_id": "4da27d5fdb583990101196cbd3961946",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "cebaf8acdbf4b3003a731c0e0496191c",
+			"academic_item": {
+				"value": "FIT1033",
+				"cl_id": "85a23d5fdb583990101196cbd396196c",
+				"key": "code"
+			},
+			"description": "<p>Research, evaluate and implement 3D geometry, 3D texturing and 3D rendering techniques;</p>",
+			"cl_id": "4da27d5fdb583990101196cbd3961946",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "4",
+			"number": "4",
+			"code": "ULO4",
+			"lo_cl_id": "89a27d5fdb583990101196cbd3961946",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "1f6b3420db38b3003a731c0e049619ec",
+			"academic_item": {
+				"value": "FIT1033",
+				"cl_id": "85a23d5fdb583990101196cbd396196c",
+				"key": "code"
+			},
+			"description": "<p>Design, create and detail 3D models and 3D scenes for diverse media.</p>",
+			"cl_id": "89a27d5fdb583990101196cbd3961946",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "1",
+			"number": "1",
+			"code": "ULO1",
+			"lo_cl_id": "c5a27d5fdb583990101196cbd3961946",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "5c9a74acdbf4b3003a731c0e049619c2",
+			"academic_item": {
+				"value": "FIT1033",
+				"cl_id": "85a23d5fdb583990101196cbd396196c",
+				"key": "code"
+			},
+			"description": "<p>Evaluate and assess techniques used in the 3D creation process;</p>",
+			"cl_id": "c5a27d5fdb583990101196cbd3961946",
+			"ga_map": []
+		}
+	],
+	"school_org_unit_data": [
+		{
+			"parent": {
+				"value": "",
+				"cl_id": null,
+				"key": "name"
+			},
+			"url": "https://www.monash.edu/it",
+			"name": "Faculty of Information Technology",
+			"cl_id": "c5684a53dba8a3406add773c349619a1"
+		}
+	],
+	"assessments": [
+		{
+			"subject": {
+				"value": "FIT1033",
+				"cl_id": "85a23d5fdb583990101196cbd396196c",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "4",
+			"weight": "30",
+			"cl_id": "09a27d5fdb583990101196cbd396194b",
+			"assessment_name": "Studio Tests",
+			"description": null,
+			"assessment_type": {
+				"label": "In class test",
+				"value": "in_class_test"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT1033",
+				"cl_id": "85a23d5fdb583990101196cbd396196c",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "2",
+			"weight": "20",
+			"cl_id": "45a27d5fdb583990101196cbd396194b",
+			"assessment_name": "Assignment 2",
+			"description": null,
+			"assessment_type": {
+				"label": "Assignment",
+				"value": "assignment"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT1033",
+				"cl_id": "85a23d5fdb583990101196cbd396196c",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "1",
+			"weight": "20",
+			"cl_id": "8da27d5fdb583990101196cbd396194a",
+			"assessment_name": "Assignment 1",
+			"description": null,
+			"assessment_type": {
+				"label": "Assignment",
+				"value": "assignment"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT1033",
+				"cl_id": "85a23d5fdb583990101196cbd396196c",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "3",
+			"weight": "30",
+			"cl_id": "c9a27d5fdb583990101196cbd396194b",
+			"assessment_name": "Assignment 3",
+			"description": null,
+			"assessment_type": {
+				"label": "Assignment",
+				"value": "assignment"
+			},
+			"offerings_formatted": ""
+		}
+	],
+	"enrolment_rules": [],
+	"requisites": [
+		{
+			"academic_item_code": "FIT1033",
+			"active": "true",
+			"requisite_cl_id": "c1a23d5fdb583990101196cbd396196f",
+			"description": "",
+			"requisite_type": {
+				"label": "Prohibition",
+				"value": "prohibitions"
+			},
+			"cl_id": {
+				"value": "FIT1033",
+				"cl_id": "85a23d5fdb583990101196cbd396196c",
+				"key": "code"
+			},
+			"academic_item_version_number": "2023.05",
+			"order": "1",
+			"start_date": "",
+			"end_date": "",
+			"container": [
+				{
+					"cl_id": "8da23513db9039902bdd077cd396191b",
+					"parent_container_table": "x_f5sl_cl_requisite",
+					"parent_record": {
+						"value": "Relationship Builder: FIT1033",
+						"cl_id": "c1a23d5fdb583990101196cbd396196f",
+						"key": "academic_item",
+						"type": "x_f5sl_cl_requisite"
+					},
+					"title": "Container 1",
+					"parent_connector": {
+						"label": "AND",
+						"value": "AND"
+					},
+					"containers": [],
+					"relationships": [
+						{
+							"academic_item": {
+								"value": "Unit: DIS1911",
+								"cl_id": "c961cb28dbb25814ffb02c5305961908",
+								"key": "code",
+								"type": "x_f5sl_cl_subjects"
+							},
+							"parent_record": {
+								"value": "Container 1",
+								"cl_id": "8da23513db9039902bdd077cd396191b",
+								"key": "title"
+							},
+							"order": "2",
+							"cl_id": "c961cb28dbb25814ffb02c5305961908",
+							"academic_item_type": {
+								"label": "Unit",
+								"value": "subject"
+							},
+							"abbr_name": "3D DESIGN & VISUAL",
+							"academic_item_version_name": "2020.07",
+							"academic_item_credit_points": "6",
+							"abbreviated_name_and_major": null,
+							"academic_item_name": "3D design and visualisation",
+							"academic_item_code": "DIS1911",
+							"academic_item_url": "/2020/units/DIS1911"
+						}
+					]
+				}
+			]
+		}
+	],
+	"unit_offering": [
+		{
+			"fees_domestic": "",
+			"publish": "true",
+			"location": {
+				"value": "Clayton",
+				"cl_id": "37f321e1db30a7406add773c3496192e",
+				"key": "name"
+			},
+			"name": "FIT1033-S2-01-ON-CAMPUS-CLAYTON",
+			"clarification_to_appear_in_handbook": "",
+			"display_name": "S2-01-CLAYTON-ON-CAMPUS",
+			"teaching_period": {
+				"value": "Second semester",
+				"cl_id": "85a429a1db30a7406add773c3496190d",
+				"key": "name"
+			},
+			"attendance_mode": {
+				"value": "On-campus",
+				"cl_id": "7bf2311bdb68a3406add773c349619bb",
+				"key": "description"
+			},
+			"quota_number": "",
+			"study_level": {
+				"label": null,
+				"value": null
+			},
+			"offered": "true",
+			"self_enrol": "true",
+			"academic_item": {
+				"value": "FIT1033",
+				"cl_id": "85a23d5fdb583990101196cbd396196c",
+				"key": "code"
+			},
+			"fees_commonwealth": "",
+			"fees_international": "",
+			"course_restrictions": "",
+			"cl_id": "41a27d5fdb583990101196cbd3961944"
+		}
+	],
+	"enrolment_rules_group": [],
+	"learning_resources_grouped": [
+		{
+			"type": "Recommended resources",
+			"order": 1,
+			"resources": [
+				{
+					"description": "<p>The following titles are available on reserve or through a short term loan through the Monash library. Please note that though these mainly general references. There is also a considerable collection of books for specific 3D studies (3D characters, architecture, lighting and texturing) available at the Monash Caulfield library.</p>\n<p>See also:</p>\n<ul>\n<li>The Art of 3-D : Computer Animation and Imaging / Isaac Victor Kerlow (various editions)</li>\n<li>The Art of 3-D : Computer Animation and Effects / Isaac Victor Kerlow (various editions)</li>\n</ul>",
+					"type": {
+						"label": "Recommended resources",
+						"value": "recommended_resources"
+					},
+					"cl_id": "8da27d5fdb583990101196cbd3961947",
+					"academic_item": {
+						"value": "FIT1033",
+						"cl_id": "85a23d5fdb583990101196cbd396196c",
+						"key": "code"
+					},
+					"links": []
+				}
+			]
+		},
+		{
+			"type": "Required resources",
+			"order": 0,
+			"resources": [
+				{
+					"description": "<p>Autodesk® Maya® 2020 software will be provided on campus lab computers, and students are encouraged to register with the Autodesk Education Community for their own educational trial version of Autodesk® Maya® 2018 and related Autodesk software under the company's terms and conditions. Please visit: <br /><a href=\"http://www.autodesk.com/education/home​\">http://www.autodesk.com/education/home​</a> <br /><br />Adobe Photoshop will be used in the labs for digital image and texture editing. <br /><br />We will also be using Unity &lt;<a href=\"https://unity3d.com/get-unity/download/archive\">https://unity3d.com/get-unity/download/archive</a>&gt; for all Major Assignments. A download link will be provided for Unity software later in the semester.</p>",
+					"type": {
+						"label": "Required resources",
+						"value": "required_resources"
+					},
+					"cl_id": "c5a27d5fdb583990101196cbd3961947",
+					"academic_item": {
+						"value": "FIT1033",
+						"cl_id": "85a23d5fdb583990101196cbd396196c",
+						"key": "code"
+					},
+					"links": []
+				}
+			]
+		},
+		{
+			"type": "Technology resources",
+			"order": 2,
+			"resources": [
+				{
+					"description": "<p>Students may bring their own laptops to class, however they will need a copy of Autodesk® Maya® 2020 installed. <br /><br />Students will be importing their Maya scene to Unity (using a supplied file) and exporting a build from Unity &lt;<a href=\"https://unity3d.com/get-unity/download/archive\">https://unity3d.com/get-unity/download/archive</a>&gt; for their submission. Unity software is available in the labs and is also free to download as a student version. <br /><br />Regularly check Moodle for announcements.</p>",
+					"type": {
+						"label": "Technology resources",
+						"value": "technology_resources"
+					},
+					"cl_id": "cda27d5fdb583990101196cbd3961948",
+					"academic_item": {
+						"value": "FIT1033",
+						"cl_id": "85a23d5fdb583990101196cbd396196c",
+						"key": "code"
+					},
+					"links": []
+				}
+			]
+		}
+	],
+	"study_abroad_unit": "Yes",
+	"academic_item_type": "Unit",
+	"learning_activities_grouped": [
+		{
+			"activity_type": "Applied sessions",
+			"activities": [
+				{
+					"subject": {
+						"value": "FIT1033",
+						"cl_id": "85a23d5fdb583990101196cbd396196c",
+						"key": "code"
+					},
+					"cl_id": "45a27d5fdb583990101196cbd396194a",
+					"order": "2",
+					"description": "",
+					"activity_type": {
+						"label": "Applied sessions",
+						"value": "applied"
+					},
+					"duration_display": "36 hours",
+					"offerings_formatted_teaching_activities": "<ul><li>Applies to all offerings</li></ul>",
+					"links": []
+				}
+			]
+		},
+		{
+			"activity_type": "Seminars",
+			"activities": [
+				{
+					"subject": {
+						"value": "FIT1033",
+						"cl_id": "85a23d5fdb583990101196cbd396196c",
+						"key": "code"
+					},
+					"cl_id": "b013359fdb583990101196cbd3961990",
+					"order": "3",
+					"description": "",
+					"activity_type": {
+						"label": "Seminars",
+						"value": "seminar"
+					},
+					"duration_display": "12 hours",
+					"offerings_formatted_teaching_activities": "<ul><li>Applies to all offerings</li></ul>",
+					"links": []
+				}
+			]
+		}
+	],
+	"search_title": "FIT1033 - Foundations of 3D",
+	"unit_search_title": "FIT1033 - Foundations of 3D",
+	"teaching_approaches": [
+		{
+			"type": {
+				"label": "Peer assisted learning",
+				"value": "peer_assisted_learning"
+			},
+			"academic_item": {
+				"value": "FIT1033",
+				"cl_id": "85a23d5fdb583990101196cbd396196c",
+				"key": "code"
+			},
+			"cl_id": "09a27d5fdb583990101196cbd3961948",
+			"description": "<p><strong> </strong></p>",
+			"links": []
+		}
+	],
+	"handbook_statement": null,
+	"academic_contact_roles": [
+		{
+			"role": "Chief Examiner(s)",
+			"contacts": [
+				{
+					"active": "false",
+					"contact_department": "",
+					"start_date": "",
+					"offering": {
+						"value": "",
+						"cl_id": null,
+						"key": "display_name"
+					},
+					"contact_role": {
+						"label": "Chief Examiner",
+						"value": "chief_examiner"
+					},
+					"contact_name": "Thomas Chandler",
+					"role_detail": "",
+					"contact_organisation": "",
+					"contact_title": "Dr",
+					"order": "",
+					"contact_phone": "",
+					"end_date": "",
+					"location": {
+						"value": "",
+						"cl_id": null,
+						"key": "name"
+					},
+					"contact_email": "Tom.Chandler@monash.edu",
+					"contact_url": "",
+					"user": {
+						"value": "Thomas Chandler",
+						"cl_id": "b6128b50dbb8b300580f42a01496198f",
+						"key": ""
+					},
+					"offerings": [],
+					"applies_to_all_offerings": "true",
+					"linking_id": "4010d06cdb74b3003a731c0e0496191b",
+					"cl_id": "81a27d5fdb583990101196cbd3961945",
+					"display_details": "Tom.Chandler@monash.edu",
+					"display_name": "Dr Thomas Chandler ",
+					"offerings_formatted_contact": "<ul><li>Applies to all offerings</ul></li>",
+					"display_role_plural": "Chief Examiner(s)",
+					"links": []
+				}
+			]
+		}
+	],
+	"links": [],
+	"yearSwitcher": [
+		{
+			"label": "2020",
+			"value": "2020",
+			"href": "/2020/units/FIT1033?year=2020"
+		},
+		{
+			"label": "2021",
+			"value": "2021",
+			"href": "/2021/units/FIT1033?year=2021"
+		},
+		{
+			"label": "2022",
+			"value": "2022",
+			"href": "/2022/units/FIT1033?year=2022"
+		},
+		{
+			"label": "2023",
+			"value": "2023",
+			"href": "/2023/units/FIT1033?year=2023"
+		}
+	],
+	"university": "Monash University"
+}

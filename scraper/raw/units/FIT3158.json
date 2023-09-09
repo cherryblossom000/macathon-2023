@@ -1,0 +1,881 @@
+{
+	"contentTypeLabel": "Unit",
+	"published_in_handbook": {
+		"label": "Yes",
+		"value": "1"
+	},
+	"implementation_year": "2023",
+	"duration_ft_max": "",
+	"asced_detailed": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"grading_schema": {
+		"label": null,
+		"value": null
+	},
+	"study_level": [],
+	"quota_enrolment_requirements": "",
+	"status": {
+		"label": "Accredited",
+		"value": "Active"
+	},
+	"duration_pt_max": "",
+	"duration_pt_std": "",
+	"credit_points": "6",
+	"parent_id": {
+		"value": "Master Record: FIT3158",
+		"cl_id": "b3a46650dbf4b300580f42a014961982",
+		"key": "code",
+		"type": "x_f5sl_cl_master_record"
+	},
+	"start_date": "",
+	"exclusions": "",
+	"unit_code": "FIT3158",
+	"academic_org": {
+		"value": "Faculty of Information Technology",
+		"cl_id": "c5684a53dba8a3406add773c349619a1",
+		"key": "name"
+	},
+	"sms_version": "",
+	"level": {
+		"label": "Level 3",
+		"value": "4"
+	},
+	"uac_code": "",
+	"special_requirements": "",
+	"duration_pt_min": "",
+	"special_unit_type": [],
+	"title": "Business decision modelling",
+	"duration_ft_std": "",
+	"version": "8",
+	"learning_experiences": null,
+	"duration_ft_min": "",
+	"callista_version": "",
+	"duration_ft_period": {
+		"label": null,
+		"value": null
+	},
+	"asced_narrow": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"subclass": {
+		"label": "Unit",
+		"value": "subject"
+	},
+	"type": {
+		"label": "Coursework",
+		"value": "600"
+	},
+	"quota_rationale": "",
+	"version_name": "2023.08",
+	"timetable_this_unit": "true",
+	"work_integrated_learning": [
+		{
+			"value": "None",
+			"cl_id": "8ef5d77bdb122300e5cf3391f496191d",
+			"key": "label"
+		}
+	],
+	"cl_id": "b88739d2dbb43150101196cbd396194a",
+	"school": {
+		"value": "Faculty of Information Technology",
+		"cl_id": "c5684a53dba8a3406add773c349619a1",
+		"key": "name"
+	},
+	"content": null,
+	"learning_and_teaching_resources": null,
+	"collaborating_disciplines": [],
+	"repeatable": "false",
+	"overview": "",
+	"end_date": "",
+	"duration_pt_period": {
+		"label": null,
+		"value": null
+	},
+	"sms_status": {
+		"label": null,
+		"value": null
+	},
+	"learning_materials": null,
+	"special_topic": "false",
+	"asced_broad": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"publish_tuition_fees": "true",
+	"placement_proportion": {
+		"label": null,
+		"value": null
+	},
+	"code": "FIT3158",
+	"other_unit_costs": "",
+	"eftsl": {
+		"label": "0.125",
+		"value": "0.125"
+	},
+	"contact_information": "",
+	"highest_sca_band": {
+		"label": "SCA Band 2",
+		"value": "2"
+	},
+	"lo_additional_information": "<p>On successful completion of this unit, you should be able to:</p>",
+	"handbook_assessment_summary": "",
+	"quota_information": "",
+	"attendance_requirements": "",
+	"workload_requirements": "<p>Applied sessions start from Week 2.</p>\n<p>Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled teaching activities.</p>",
+	"organisational_contact_information": "",
+	"handbook_synopsis": "<div>\n<p>The objective of this unit is to introduce students to quantitative modelling techniques commonly used for business decision making. This includes the analytical methods used to understand, model and design business processes, and the application of IT tools to real-world decision making situations. Techniques covered include decision making under uncertainty, linear and nonlinear programming, sequential decision making, forecasting, and simulation.</p>\n<p>On completion of this unit, the students are expected to recognise a complex decision making situation and to build a corresponding quantitative model. They are also expected to solve the model by applying techniques covered in this unit, to interpret results and finally, to provide 'analyst-type' recommendations. The unit includes extensive use of advanced modelling tools available in Microsoft Excel. Students will also be made aware of simulation software as a tool for analysing business processes.</p>\n</div>\n<div> </div>",
+	"special_note_to_students": "",
+	"undergrad_postgrad_both": {
+		"label": "Undergraduate",
+		"value": "undergraduate"
+	},
+	"area_of_study_links": "Business information systems<br />",
+	"fieldwork": "",
+	"unit_learning_outcomes": [
+		{
+			"lo_domain": [],
+			"order": "4",
+			"number": "4",
+			"code": "ULO4",
+			"lo_cl_id": "308779d2dbb43150101196cbd3961970",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "9d6bf020db38b3003a731c0e049619db",
+			"academic_item": {
+				"value": "FIT3158",
+				"cl_id": "b88739d2dbb43150101196cbd396194a",
+				"key": "code"
+			},
+			"description": "<p>Critically assess the accuracy and applicability of modelling techniques;</p>",
+			"cl_id": "308779d2dbb43150101196cbd3961970",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "2",
+			"number": "2",
+			"code": "ULO2",
+			"lo_cl_id": "7c8779d2dbb43150101196cbd396196f",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "f5baf8acdbf4b3003a731c0e04961902",
+			"academic_item": {
+				"value": "FIT3158",
+				"cl_id": "b88739d2dbb43150101196cbd396194a",
+				"key": "code"
+			},
+			"description": "<p>Design and implement and analyse spreadsheet-based simulations and mathematical optimisation models;</p>",
+			"cl_id": "7c8779d2dbb43150101196cbd396196f",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "3",
+			"number": "3",
+			"code": "ULO3",
+			"lo_cl_id": "b48779d2dbb43150101196cbd396196f",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "d60bb4ecdbf4b3003a731c0e049619ad",
+			"academic_item": {
+				"value": "FIT3158",
+				"cl_id": "b88739d2dbb43150101196cbd396194a",
+				"key": "code"
+			},
+			"description": "<p>Interpret the results of mathematical decision models and conduct sensitivity analyses;</p>",
+			"cl_id": "b48779d2dbb43150101196cbd396196f",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "5",
+			"number": "5",
+			"code": "ULO5",
+			"lo_cl_id": "b48779d2dbb43150101196cbd3961970",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "c4bbbc20db38b3003a731c0e049619ef",
+			"academic_item": {
+				"value": "FIT3158",
+				"cl_id": "b88739d2dbb43150101196cbd396194a",
+				"key": "code"
+			},
+			"description": "<p>Communicate the results of model-based decision analysis.</p>",
+			"cl_id": "b48779d2dbb43150101196cbd3961970",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "1",
+			"number": "1",
+			"code": "ULO1",
+			"lo_cl_id": "f08779d2dbb43150101196cbd3961970",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "8f3ab86cdbf4b3003a731c0e0496198a",
+			"academic_item": {
+				"value": "FIT3158",
+				"cl_id": "b88739d2dbb43150101196cbd396194a",
+				"key": "code"
+			},
+			"description": "<p>Develop interactive decision models for business analysis and business process improvements;</p>",
+			"cl_id": "f08779d2dbb43150101196cbd3961970",
+			"ga_map": []
+		}
+	],
+	"school_org_unit_data": [
+		{
+			"parent": {
+				"value": "",
+				"cl_id": null,
+				"key": "name"
+			},
+			"url": "https://www.monash.edu/it",
+			"name": "Faculty of Information Technology",
+			"cl_id": "c5684a53dba8a3406add773c349619a1"
+		}
+	],
+	"assessments": [
+		{
+			"subject": {
+				"value": "FIT3158",
+				"cl_id": "b88739d2dbb43150101196cbd396194a",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "3",
+			"weight": "25",
+			"cl_id": "308779d2dbb43150101196cbd3961974",
+			"assessment_name": "Assignment 3",
+			"description": null,
+			"assessment_type": {
+				"label": "Assignment",
+				"value": "assignment"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT3158",
+				"cl_id": "b88739d2dbb43150101196cbd396194a",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "<p>.</p>",
+			"number": "2",
+			"weight": "30",
+			"cl_id": "7c8779d2dbb43150101196cbd3961974",
+			"assessment_name": "Assignment  2",
+			"description": null,
+			"assessment_type": {
+				"label": "Assignment",
+				"value": "assignment"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT3158",
+				"cl_id": "b88739d2dbb43150101196cbd396194a",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "1",
+			"weight": "30",
+			"cl_id": "b88779d2dbb43150101196cbd3961974",
+			"assessment_name": "Assignment 1",
+			"description": null,
+			"assessment_type": {
+				"label": "Assignment",
+				"value": "assignment"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT3158",
+				"cl_id": "b88739d2dbb43150101196cbd396194a",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "4",
+			"weight": "15",
+			"cl_id": "f48779d2dbb43150101196cbd3961974",
+			"assessment_name": "Quizzes",
+			"description": "<p>Quizzes focusing on weekly lecture content.</p>",
+			"assessment_type": {
+				"label": "In class test",
+				"value": "in_class_test"
+			},
+			"offerings_formatted": ""
+		}
+	],
+	"enrolment_rules": [
+		{
+			"description": "<p>Prerequisite: And completion of 24 points at Level 1 from FIT or BusEco</p>",
+			"academic_item": {
+				"value": "FIT3158",
+				"cl_id": "b88739d2dbb43150101196cbd396194a",
+				"key": "code"
+			},
+			"type": {
+				"label": "Enrolment Rule",
+				"value": "info"
+			},
+			"cl_id": "f88779d2dbb43150101196cbd3961970"
+		}
+	],
+	"requisites": [
+		{
+			"academic_item_code": "FIT3158",
+			"active": "true",
+			"requisite_cl_id": "388779d2dbb43150101196cbd396196b",
+			"description": "",
+			"requisite_type": {
+				"label": "Prerequisite",
+				"value": "prerequisite"
+			},
+			"cl_id": {
+				"value": "FIT3158",
+				"cl_id": "b88739d2dbb43150101196cbd396194a",
+				"key": "code"
+			},
+			"academic_item_version_number": "2023.08",
+			"order": "2",
+			"start_date": "",
+			"end_date": "",
+			"container": [
+				{
+					"cl_id": "1d8731dedbb0b5502bdd077cd3961942",
+					"parent_container_table": "x_f5sl_cl_requisite",
+					"parent_record": {
+						"value": "Relationship Builder: FIT3158",
+						"cl_id": "388779d2dbb43150101196cbd396196b",
+						"key": "academic_item",
+						"type": "x_f5sl_cl_requisite"
+					},
+					"title": "Container 1",
+					"parent_connector": {
+						"label": "OR",
+						"value": "OR"
+					},
+					"containers": [],
+					"relationships": [
+						{
+							"academic_item": {
+								"value": "Unit: ETS1102",
+								"cl_id": "912ee4691bf684d04a942f002d4bcb1d",
+								"key": "code",
+								"type": "x_f5sl_cl_subjects"
+							},
+							"parent_record": {
+								"value": "Container 1",
+								"cl_id": "1d8731dedbb0b5502bdd077cd3961942",
+								"key": "title"
+							},
+							"order": "4",
+							"cl_id": "912ee4691bf684d04a942f002d4bcb1d",
+							"academic_item_type": {
+								"label": "Unit",
+								"value": "subject"
+							},
+							"abbr_name": "BUS STATS",
+							"academic_item_version_name": "2020.04",
+							"academic_item_credit_points": "6",
+							"abbreviated_name_and_major": null,
+							"academic_item_name": "Business statistics",
+							"academic_item_code": "ETS1102",
+							"academic_item_url": "/2020/units/ETS1102"
+						},
+						{
+							"academic_item": {
+								"value": "Unit: FIT1006",
+								"cl_id": "54294ea81bd7c0504a942f002d4bcbca",
+								"key": "code",
+								"type": "x_f5sl_cl_subjects"
+							},
+							"parent_record": {
+								"value": "Container 1",
+								"cl_id": "1d8731dedbb0b5502bdd077cd3961942",
+								"key": "title"
+							},
+							"order": "5",
+							"cl_id": "54294ea81bd7c0504a942f002d4bcbca",
+							"academic_item_type": {
+								"label": "Unit",
+								"value": "subject"
+							},
+							"abbr_name": "BUS INFO ANALYSIS",
+							"academic_item_version_name": "2020.06",
+							"academic_item_credit_points": "6",
+							"abbreviated_name_and_major": null,
+							"academic_item_name": "Business information analysis",
+							"academic_item_code": "FIT1006",
+							"academic_item_url": "/2020/units/FIT1006"
+						},
+						{
+							"academic_item": {
+								"value": "Unit: STA1010",
+								"cl_id": "e8fd01061bdc14144a942f002d4bcb18",
+								"key": "code",
+								"type": "x_f5sl_cl_subjects"
+							},
+							"parent_record": {
+								"value": "Container 1",
+								"cl_id": "1d8731dedbb0b5502bdd077cd3961942",
+								"key": "title"
+							},
+							"order": "6",
+							"cl_id": "e8fd01061bdc14144a942f002d4bcb18",
+							"academic_item_type": {
+								"label": "Unit",
+								"value": "subject"
+							},
+							"abbr_name": "STAT.METHS FOR SCI",
+							"academic_item_version_name": "2020.07",
+							"academic_item_credit_points": "6",
+							"abbreviated_name_and_major": null,
+							"academic_item_name": "Statistical methods for science",
+							"academic_item_code": "STA1010",
+							"academic_item_url": "/2020/units/STA1010"
+						},
+						{
+							"academic_item": {
+								"value": "Unit: ETF1100",
+								"cl_id": "bf6546271bfb4c1013b555b81d4bcb86",
+								"key": "code",
+								"type": "x_f5sl_cl_subjects"
+							},
+							"parent_record": {
+								"value": "Container 1",
+								"cl_id": "1d8731dedbb0b5502bdd077cd3961942",
+								"key": "title"
+							},
+							"order": "3",
+							"cl_id": "bf6546271bfb4c1013b555b81d4bcb86",
+							"academic_item_type": {
+								"label": "Unit",
+								"value": "subject"
+							},
+							"abbr_name": "BUS STATS",
+							"academic_item_version_name": "2020.08",
+							"academic_item_credit_points": "6",
+							"abbreviated_name_and_major": null,
+							"academic_item_name": "Business statistics",
+							"academic_item_code": "ETF1100",
+							"academic_item_url": "/2020/units/ETF1100"
+						},
+						{
+							"academic_item": {
+								"value": "Unit: ETC1000",
+								"cl_id": "1c0b68b71b7a481413b555b81d4bcbe5",
+								"key": "code",
+								"type": "x_f5sl_cl_subjects"
+							},
+							"parent_record": {
+								"value": "Container 1",
+								"cl_id": "1d8731dedbb0b5502bdd077cd3961942",
+								"key": "title"
+							},
+							"order": "2",
+							"cl_id": "1c0b68b71b7a481413b555b81d4bcbe5",
+							"academic_item_type": {
+								"label": "Unit",
+								"value": "subject"
+							},
+							"abbr_name": "BUS & EC STATS",
+							"academic_item_version_name": "2020.05",
+							"academic_item_credit_points": "6",
+							"abbreviated_name_and_major": null,
+							"academic_item_name": "Business and economic statistics",
+							"academic_item_code": "ETC1000",
+							"academic_item_url": "/2020/units/ETC1000"
+						}
+					]
+				}
+			]
+		},
+		{
+			"academic_item_code": "FIT3158",
+			"active": "true",
+			"requisite_cl_id": "b08779d2dbb43150101196cbd396196c",
+			"description": "",
+			"requisite_type": {
+				"label": "Prohibition",
+				"value": "prohibitions"
+			},
+			"cl_id": {
+				"value": "FIT3158",
+				"cl_id": "b88739d2dbb43150101196cbd396194a",
+				"key": "code"
+			},
+			"academic_item_version_number": "2023.08",
+			"order": "1",
+			"start_date": "",
+			"end_date": "",
+			"container": [
+				{
+					"cl_id": "d587fd9edbb0b5502bdd077cd39619a5",
+					"parent_container_table": "x_f5sl_cl_requisite",
+					"parent_record": {
+						"value": "Relationship Builder: FIT3158",
+						"cl_id": "b08779d2dbb43150101196cbd396196c",
+						"key": "academic_item",
+						"type": "x_f5sl_cl_requisite"
+					},
+					"title": "Container 1",
+					"parent_connector": {
+						"label": "OR",
+						"value": "OR"
+					},
+					"containers": [],
+					"relationships": [
+						{
+							"academic_item": {
+								"value": "Unit: ETF2480",
+								"cl_id": "fbf50efa1bbe401413b555b81d4bcb25",
+								"key": "code",
+								"type": "x_f5sl_cl_subjects"
+							},
+							"parent_record": {
+								"value": "Container 1",
+								"cl_id": "d587fd9edbb0b5502bdd077cd39619a5",
+								"key": "title"
+							},
+							"order": "3",
+							"cl_id": "fbf50efa1bbe401413b555b81d4bcb25",
+							"academic_item_type": {
+								"label": "Unit",
+								"value": "subject"
+							},
+							"abbr_name": "BUS MODEL",
+							"academic_item_version_name": "2020.05",
+							"academic_item_credit_points": "6",
+							"abbreviated_name_and_major": null,
+							"academic_item_name": "Business modelling",
+							"academic_item_code": "ETF2480",
+							"academic_item_url": "/2020/units/ETF2480"
+						},
+						{
+							"academic_item": {
+								"value": "Unit: FZA3158",
+								"cl_id": "c8793eee1b9858144a942f002d4bcbba",
+								"key": "code",
+								"type": "x_f5sl_cl_subjects"
+							},
+							"parent_record": {
+								"value": "Container 1",
+								"cl_id": "d587fd9edbb0b5502bdd077cd39619a5",
+								"key": "title"
+							},
+							"order": "2",
+							"cl_id": "c8793eee1b9858144a942f002d4bcbba",
+							"academic_item_type": {
+								"label": "Unit",
+								"value": "subject"
+							},
+							"abbr_name": "BUS DECSN MODELLING",
+							"academic_item_version_name": "2020.02",
+							"academic_item_credit_points": "6",
+							"abbreviated_name_and_major": null,
+							"academic_item_name": "Business decision modelling",
+							"academic_item_code": "FZA3158",
+							"academic_item_url": "/2020/units/FZA3158"
+						}
+					]
+				}
+			]
+		}
+	],
+	"unit_offering": [
+		{
+			"fees_domestic": "",
+			"publish": "true",
+			"location": {
+				"value": "Clayton",
+				"cl_id": "37f321e1db30a7406add773c3496192e",
+				"key": "name"
+			},
+			"name": "FIT3158-S2-01-ON-CAMPUS-CLAYTON",
+			"clarification_to_appear_in_handbook": "",
+			"display_name": "S2-01-CLAYTON-ON-CAMPUS",
+			"teaching_period": {
+				"value": "Second semester",
+				"cl_id": "85a429a1db30a7406add773c3496190d",
+				"key": "name"
+			},
+			"attendance_mode": {
+				"value": "On-campus",
+				"cl_id": "7bf2311bdb68a3406add773c349619bb",
+				"key": "description"
+			},
+			"quota_number": "",
+			"study_level": {
+				"label": null,
+				"value": null
+			},
+			"offered": "true",
+			"self_enrol": "true",
+			"academic_item": {
+				"value": "FIT3158",
+				"cl_id": "b88739d2dbb43150101196cbd396194a",
+				"key": "code"
+			},
+			"fees_commonwealth": "",
+			"fees_international": "",
+			"course_restrictions": "",
+			"cl_id": "748779d2dbb43150101196cbd396196d"
+		}
+	],
+	"enrolment_rules_group": [
+		{
+			"rule_group": "Enrolment Rule",
+			"rules": [
+				{
+					"description": "<p>Prerequisite: And completion of 24 points at Level 1 from FIT or BusEco</p>",
+					"academic_item": {
+						"value": "FIT3158",
+						"cl_id": "b88739d2dbb43150101196cbd396194a",
+						"key": "code"
+					},
+					"type": {
+						"label": "Enrolment Rule",
+						"value": "info"
+					},
+					"cl_id": "f88779d2dbb43150101196cbd3961970",
+					"links": []
+				}
+			]
+		}
+	],
+	"learning_resources_grouped": [
+		{
+			"type": "Recommended resources",
+			"order": 1,
+			"resources": [
+				{
+					"description": "<div>\n<div>C T Ragsdale (2021) - Spreadsheet Modeling and Decision Analysis : A Practical Introduction to Business Analytics, Cengage (9th edition)</div>\n</div>\n<div>\n<div>Camm, J., et al, Essentials of Business<br />Analytics 2nd Ed, Cengage Learning 2017.<br />Powell, S. and Baker, K., Business<br />Analytics: The Art of Modeling With<br />Spreadsheets, 5th Ed, Wiley 2016.<br />Anderson D., et al, Quantitative Methods</div>\n<div>for Business 13th Ed, Cengage Learning<br />2015.</div>\n</div>",
+					"type": {
+						"label": "Recommended resources",
+						"value": "recommended_resources"
+					},
+					"cl_id": "788779d2dbb43150101196cbd3961971",
+					"academic_item": {
+						"value": "FIT3158",
+						"cl_id": "b88739d2dbb43150101196cbd396194a",
+						"key": "code"
+					},
+					"links": []
+				}
+			]
+		}
+	],
+	"study_abroad_unit": "Yes",
+	"academic_item_type": "Unit",
+	"learning_activities_grouped": [
+		{
+			"activity_type": "Applied sessions",
+			"activities": [
+				{
+					"subject": {
+						"value": "FIT3158",
+						"cl_id": "b88739d2dbb43150101196cbd396194a",
+						"key": "code"
+					},
+					"cl_id": "748779d2dbb43150101196cbd3961973",
+					"order": "0",
+					"description": "",
+					"activity_type": {
+						"label": "Applied sessions",
+						"value": "applied"
+					},
+					"duration_display": "22 hours",
+					"offerings_formatted_teaching_activities": "<ul><li>Applies to all offerings</li></ul>",
+					"links": []
+				}
+			]
+		},
+		{
+			"activity_type": "Seminars",
+			"activities": [
+				{
+					"subject": {
+						"value": "FIT3158",
+						"cl_id": "b88739d2dbb43150101196cbd396194a",
+						"key": "code"
+					},
+					"cl_id": "f88779d2dbb43150101196cbd3961973",
+					"order": "2",
+					"description": "",
+					"activity_type": {
+						"label": "Seminars",
+						"value": "seminar"
+					},
+					"duration_display": "24 hours",
+					"offerings_formatted_teaching_activities": "<ul><li>Applies to all offerings</li></ul>",
+					"links": []
+				}
+			]
+		}
+	],
+	"search_title": "FIT3158 - Business decision modelling",
+	"unit_search_title": "FIT3158 - Business decision modelling",
+	"teaching_approaches": [
+		{
+			"type": {
+				"label": "Active learning",
+				"value": "active_learning"
+			},
+			"academic_item": {
+				"value": "FIT3158",
+				"cl_id": "b88739d2dbb43150101196cbd396194a",
+				"key": "code"
+			},
+			"cl_id": "f48779d2dbb43150101196cbd3961972",
+			"description": "<p>&nbsp;</p>",
+			"links": []
+		}
+	],
+	"handbook_statement": null,
+	"academic_contact_roles": [
+		{
+			"role": "Chief Examiner(s)",
+			"contacts": [
+				{
+					"active": "true",
+					"contact_department": "",
+					"start_date": "",
+					"offering": {
+						"value": "",
+						"cl_id": null,
+						"key": "display_name"
+					},
+					"contact_role": {
+						"label": "Chief Examiner",
+						"value": "chief_examiner"
+					},
+					"contact_name": "David Dowe",
+					"role_detail": "",
+					"contact_organisation": "",
+					"contact_title": "Associate Professor",
+					"order": "1",
+					"contact_phone": "",
+					"end_date": "",
+					"location": {
+						"value": "",
+						"cl_id": null,
+						"key": "name"
+					},
+					"contact_email": "David.Dowe@monash.edu",
+					"contact_url": "",
+					"user": {
+						"value": "David Dowe",
+						"cl_id": "ced18fdcdb78b300580f42a0149619b6",
+						"key": ""
+					},
+					"offerings": [],
+					"applies_to_all_offerings": "true",
+					"linking_id": "93ff7e54db543d50101196cbd3961927",
+					"cl_id": "3c8779d2dbb43150101196cbd396196e",
+					"display_details": "David.Dowe@monash.edu",
+					"display_name": "Associate Professor David Dowe ",
+					"offerings_formatted_contact": "<ul><li>Applies to all offerings</ul></li>",
+					"display_role_plural": "Chief Examiner(s)",
+					"links": []
+				}
+			]
+		},
+		{
+			"role": "Unit Coordinator(s)",
+			"contacts": [
+				{
+					"active": "true",
+					"contact_department": "",
+					"start_date": "",
+					"offering": {
+						"value": "",
+						"cl_id": null,
+						"key": "display_name"
+					},
+					"contact_role": {
+						"label": "Unit Coordinator",
+						"value": "unit_coordinator"
+					},
+					"contact_name": "Heshan Kumarage",
+					"role_detail": "",
+					"contact_organisation": "",
+					"contact_title": "",
+					"order": "1",
+					"contact_phone": "",
+					"end_date": "",
+					"location": {
+						"value": "",
+						"cl_id": null,
+						"key": "name"
+					},
+					"contact_email": "Heshan.Kumarage@monash.edu",
+					"contact_url": "",
+					"user": {
+						"value": "Heshan Kumarage",
+						"cl_id": "05e1c310dbb8b300580f42a0149619bd",
+						"key": ""
+					},
+					"offerings": [],
+					"applies_to_all_offerings": "true",
+					"linking_id": "16e4d25f1b201d50f1eca68b274bcb60",
+					"cl_id": "b08779d2dbb43150101196cbd396196e",
+					"display_details": "Heshan.Kumarage@monash.edu",
+					"display_name": "Heshan Kumarage ",
+					"offerings_formatted_contact": "<ul><li>Applies to all offerings</ul></li>",
+					"display_role_plural": "Unit Coordinator(s)",
+					"links": []
+				}
+			]
+		}
+	],
+	"links": [],
+	"yearSwitcher": [
+		{
+			"label": "2020",
+			"value": "2020",
+			"href": "/2020/units/FIT3158?year=2020"
+		},
+		{
+			"label": "2021",
+			"value": "2021",
+			"href": "/2021/units/FIT3158?year=2021"
+		},
+		{
+			"label": "2022",
+			"value": "2022",
+			"href": "/2022/units/FIT3158?year=2022"
+		},
+		{
+			"label": "2023",
+			"value": "2023",
+			"href": "/2023/units/FIT3158?year=2023"
+		}
+	],
+	"university": "Monash University"
+}
