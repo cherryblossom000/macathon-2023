@@ -7,5 +7,10 @@
 	"enrolmentRules": [
 		"<p>Prerequisite: Completion of 24 points of FIT or BusEco units at level 1.</p>"
 	],
-	"requisites": []
+	"requisites": [],
+	"creditPointPrerequisite": {
+		"points": 24,
+		"fitOnly": true,
+		"levelOnly": 1
+	}
 }

@@ -1,0 +1,45 @@
+FIT2032 enrolment rules
+<p>Prerequisite:</p>
+<p>Available to students in all undergraduate degrees of the Faculty of IT who have been accepted into the Industry Based Learning program with at least 72 credit points including 60 FIT or MAT credit points.</p>
+<p>Prerequisite units: One of FIT1045, FIT1053, FIT1048, FIT1051 or ENG1003.</p>
+<ul>
+<li>In addition prerequisite units for C2001 BCS and C2000 BInfoTech students: FIT1049 or equivalent</li>
+<li>In addition for C2000 BInfoTech students completing the Business Information Systems major: FIT1013</li>
+</ul>
+
+FIT2090 enrolment rules
+<p>Prerequisite: Completion of 24 points of FIT or BusEco units at level 1.</p>
+
+FIT2108 enrolment rules
+Prerequisite: This unit is only available to students accepted into the Faculty of Information Technology Industry Based Learning Program.
+
+FIT3045 enrolment rules
+<p>Prerequisite:</p>
+<p>Available to students in all undergraduate degrees of the Faculty of IT who have been accepted into the Industry Based Learning program with at least 72 credit points including 60 FIT or MAT credit points</p>
+<p>Prerequisite units: One of FIT1045, FIT1053, FIT1048, FIT1051 or ENG1003.</p>
+<ul>
+<li>In addition prerequisite units for C2001 BCS and C2000 BInfoTech students: FIT1049 or equivalent</li>
+<li>In addition for C2000 BInfoTech students completing the Business Information Systems major: FIT1013</li>
+</ul>
+
+industry project:
+FIT3047 enrolment rules
+<p>Prerequisites:</p>
+<p>For students in the Bachelor of Information Technology (C2000) and BCIS (4307): (One of FIT1045, FIT1048, FIT1051 or FIT1053) and FIT1047 and FIT1049 and (one of FIT2099 or FIT2001) and FIT2002 and (one of FIT2094 or FIT3171) and (12 points of FIT units at level 1) and (12 points of FIT units at level 2 or 3) and must be core in the student's degree program and completion of a total of 90 points towards the degree.</p>
+<p>Prohibitions: FIT2032, FIT3039, FIT3040, FIT3045,</p>
+
+FIT3048 enrolment rules
+<p>Prohibitions: FIT2032, ,FIT3039, FIT3040, FIT3045</p>
+
+FIT3154 enrolment rules
+<p>Prerequisite: Or related statistical background</p>
+
+FIT3182 enrolment rules
+<p>Students should have an understanding of database concepts and SQL and Python programming background.</p>
+
+MAT1830 enrolment rules
+<p>Prerequisite: VCE Specialist Mathematics or Mathematical Methods units 3 and 4 with a raw study score of at least 25 or Further maths with a raw study score of at least 35.</p>
+<p>Prohibition: MAT1077, MTH1112</p>
+
+MAT1841 enrolment rules
+<p>Prerequisite: VCE Specialist Mathematics or Mathematical Methods units 3 and 4 with a study score of at least 25 or Further maths with a study score of at least 35.<br />Prohibitions: ENG1090, MTH1020, MAT2003</p>

@@ -27,5 +27,8 @@
 				]
 			}
 		}
-	]
+	],
+	"creditPointPrerequisite": {
+		"points": 90
+	}
 }

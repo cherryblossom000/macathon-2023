@@ -7,5 +7,9 @@
 	"enrolmentRules": [
 		"<p>Prerequisite: 24 credit points of second year units</p>"
 	],
-	"requisites": []
+	"requisites": [],
+	"creditPointPrerequisite": {
+		"points": 24,
+		"levelOnly": 2
+	}
 }

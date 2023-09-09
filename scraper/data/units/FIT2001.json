@@ -23,5 +23,9 @@
 				]
 			}
 		}
-	]
+	],
+	"creditPointPrerequisite": {
+		"points": 24,
+		"fitOnly": true
+	}
 }

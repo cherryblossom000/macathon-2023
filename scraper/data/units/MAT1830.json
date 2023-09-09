@@ -1,9 +1,7 @@
 {
 	"code": "MAT1830",
 	"title": "Discrete mathematics for computer science",
-	"offerings": [
-		"First semester"
-	],
+	"offerings": ["First semester"],
 	"enrolmentRules": [
 		"<p>Prerequisite: VCE Specialist Mathematics or Mathematical Methods units 3 and 4 with a raw study score of at least 25 or Further maths with a raw study score of at least 35.</p>",
 		"<p>Prohibition: MAT1077, MTH1112</p>"
@@ -16,9 +14,7 @@
 				"items": [
 					{
 						"operator": "AND",
-						"items": [
-							"ITI9004"
-						]
+						"items": ["ITI9004", "MAT1077", "MTH1112"]
 					}
 				]
 			}

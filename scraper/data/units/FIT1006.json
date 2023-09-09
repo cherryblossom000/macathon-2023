@@ -1,12 +1,30 @@
 {
 	"code": "FIT1006",
 	"title": "Business information analysis",
-	"offerings": [
-		"First semester"
-	],
+	"offerings": ["First semester"],
 	"enrolmentRules": [
 		"<p>Prerequisite: A study score of 25 in VCE Mathematics Methods or Specialist Maths units 3 &amp; 4 or 30 in Further Maths units 3 &amp; 4 or MTH1010 or equivalent</p>",
 		"<p>Prohibition: BUS1100, ETC1000, ETF1100, ETP1100, ETS1102, ETW1000, ETW1102, ETX1100, MAT1097, STA1010, SCI1020</p>"
 	],
-	"requisites": []
+	"requisites": [
+		{
+			"type": "prohibitions",
+			"requirement": {
+				"operator": "AND",
+				"items": [
+					"BUS1100",
+					"ETC1000",
+					"ETF1100",
+					"ETP1100",
+					"ETS1102",
+					"ETW1000",
+					"ETW1102",
+					"ETX1100",
+					"MAT1097",
+					"STA1010",
+					"SCI1020"
+				]
+			}
+		}
+	]
 }
