@@ -1,5 +1,5 @@
 import * as t from 'io-ts'
-import type {Unit} from './data.js'
+import type {Course, Specialisation, Unit} from './data.js'
 
 /** array of unit codes */
 export const Semester = t.array(t.string)
@@ -25,14 +25,12 @@ export const CreatePlanRequest = t.type({
 	unitCodes: t.array(t.string),
 })
 export type CreatePlanRequest = t.TypeOf<typeof CreatePlanRequest>
-
-export const CreatePlanResponse = Schedule
 export type CreatePlanResponse = Schedule
 
 export const ShufflePlanRequest = Schedule
 export type ShufflePlanRequest = Schedule
-
-export const ShufflePlanResponse = Schedule
 export type ShufflePlanResponse = Schedule
 
+export type GetCourseResponse = Course
+export type GetSpecialisationResponse = Specialisation
 export type GetUnitResponse = Unit

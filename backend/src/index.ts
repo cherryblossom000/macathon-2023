@@ -4,12 +4,14 @@ import * as E from 'fp-ts/Either'
 import {pipe} from 'fp-ts/function'
 import * as t from 'io-ts'
 import {
-	CreatePlanRequest,
-	ShufflePlanRequest,
-	type CreatePlanResponse,
+	CreateScheduleRequest,
+	ShuffleScheduleRequest,
+	type CreateScheduleResponse,
+	type GetCourseResponse,
 	type GetUnitResponse,
-	type ShufflePlanResponse,
+	type ShuffleScheduleResponse,
 	type Response,
+	type GetSpecialisationResponse,
 } from 'shared/dist/api.js'
 
 const app = express()
@@ -19,8 +21,8 @@ app.use(bodyParser.json())
 const handler =
 	<T, U>(
 		type: t.Decoder<unknown, T>,
+		prop: 'body' | 'params',
 		fn: (t: T) => U,
-		prop: 'body' | 'params' = 'body',
 	): express.RequestHandler<
 		unknown,
 		Response<U>,
@@ -37,20 +39,38 @@ const handler =
 			),
 		)
 
-app.post(
-	'/plan',
+const HandbookThingRequest = t.type({code: t.string})
+app.get(
+	'/course',
+	handler(HandbookThingRequest, 'params', ({code}): GetCourseResponse => {}),
+)
+app.get(
+	'/specialisation',
 	handler(
-		CreatePlanRequest,
-		({courseCode, unitCodes}): CreatePlanResponse => {},
+		HandbookThingRequest,
+		'params',
+		({code}): GetSpecialisationResponse => {},
+	),
+)
+app.get(
+	'/unit',
+	handler(HandbookThingRequest, 'params', ({code}): GetUnitResponse => {}),
+)
+
+app.post(
+	'/schedule',
+	handler(
+		CreateScheduleRequest,
+		'body',
+		({courseCode, unitCodes}): CreateScheduleResponse => {},
 	),
 )
 
 app.post(
-	'/shuffle-plan',
-	handler(ShufflePlanRequest, (plan): ShufflePlanResponse => {}),
-)
-
-app.get(
-	'/unit',
-	handler(t.type({code: t.string}), ({code}): GetUnitResponse => {}, 'params'),
+	'/shuffle-schedule',
+	handler(
+		ShuffleScheduleRequest,
+		'body',
+		(plan): ShuffleScheduleResponse => {},
+	),
 )
