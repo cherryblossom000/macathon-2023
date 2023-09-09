@@ -11,6 +11,7 @@
 	"scripts": {
 		"build": "tsc -b && pnpm -C frontend build",
 		"watch": "tsc -b -w",
+		"clean": "rm -rf {backend,frontend,shared,scraper}/{dist,*.tsbuildinfo} backend/data",
 		"lint": "eslint --ext cjs,ts,svelte .",
 		"copy-data": "cp -r scraper/data backend/data",
 		"deploy": "pnpm run copy-data && vc deploy"
