@@ -5,6 +5,7 @@
 	"scripts": {
 		"dev": "vite",
 		"build": "pnpm -C ../shared build && vite build",
+		"watch": "tsc -b -w",
 		"preview": "vite preview",
 		"check": "svelte-check --tsconfig ./tsconfig.json",
 		"lint": "eslint --cache --ext cjs,ts,svelte ."

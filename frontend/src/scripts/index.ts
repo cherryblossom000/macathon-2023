@@ -23,23 +23,21 @@ const genRanUnit = () => ({
 	title: 'Rizzing for IT Students',
 })
 
-const startPlan = Array(courseLength)
-	.fill('')
-	.map((v, i) => ({
-		id: startYear + i / 2,
-		year: startYear + Math.floor(i / 2),
-		units: Array.from({length: 4}).map(() =>
-			trueFalse() ? genRanUnit() : undefined,
-		),
-		teachingPeriod: i % 2 ? 'First semester' : 'Second semester',
-	}))
+const startPlan = Array.from({length: courseLength}, (_, i) => ({
+	id: startYear + i / 2,
+	year: startYear + Math.floor(i / 2),
+	units: Array.from({length: 4}, () =>
+		trueFalse() ? genRanUnit() : undefined,
+	),
+	teachingPeriod: i % 2 ? 'First semester' : 'Second semester',
+}))
 //////////////////////////////////////////////////////
 
 export interface ApplicationState {
-	coursePlan: Sem[]
+	coursePlan: readonly Sem[]
 	selectedUnit: Unit | undefined
 	stage: 'Init' | 'Electives' | 'Table'
-	formUnits: string[]
+	formUnits: readonly string[]
 }
 
 export const appState = writable<ApplicationState>({
