@@ -10,23 +10,20 @@
 	{unit
 		? `text-white bg-blue-600 border-4 border-blue-600`
 		: `text-black border-dashed border-black border`}
-		{//TODO This is fucked
-	unit !== undefined &&
-	$appState.selectedUnit !== undefined &&
-	$appState.selectedUnit.code === unit.code
+		{unit && $appState.selectedUnit?.code === unit.code
 		? `!border-green-500 border-4`
 		: ``}
 		"
 	on:click={() => selectUnit(unit)}
 >
 	{#if unit !== undefined}
-		<b>
+		<strong>
 			{unit.code}
-		</b>
+		</strong>
 		<p>
 			{unit.title}
 		</p>
 	{:else}
-		<b>Add unit</b>
+		<strong>Add unit</strong>
 	{/if}
 </td>
