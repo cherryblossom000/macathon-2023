@@ -7,6 +7,5 @@ export default (req: VercelRequest, res: VercelResponse): void => {
 		res.status(405).send('')
 		return
 	}
-	const body: api.GetUnitsResponse = data.units
-	res.status(200).json(body)
+	res.status(200).json(data.units satisfies api.GetUnitsResponse)
 }
