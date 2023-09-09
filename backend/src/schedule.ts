@@ -130,8 +130,8 @@ let satisfies_c2001 = (sched: Schedule): boolean => {
 		'FIT1045',
 		'FIT1047',
 		'FIT1049',
-		// 'MAT1830',
-		// 'MAT1841',
+		'MAT1830',
+		'MAT1841',
 		// 'FIT2014',
 		// 'FIT2004',
 		// 'FIT2099',
@@ -220,12 +220,15 @@ export let can_add = (
 
 let deepcopy = <A>(a: A): A => JSON.parse(JSON.stringify(a))
 
+let found = 0
+let FOUND_THRESHOLD = 1
+
 let construct_helper = (
 	current: Schedule,
 	params: ScheduleParameters,
 	all_units: Unit[],
 ): O.Option<Schedule[]> => {
-	// find missing
+	if (found > FOUND_THRESHOLD) return O.none
 
 	let missing: O.Option<{year: number; sem: number; ind: number}> = O.none
 
@@ -290,23 +293,37 @@ let construct_helper = (
 		res.push(current)
 	}
 
-	console.log(res.length)
-	return res.length == 0 ? O.none : O.some(res)
+	found += res.length
+	return res.length == 0 ? O.none : O.some(res.slice(0, Math.min(found, 10)))
 }
 
-export let construct_schedule = (
+export let construct_schedules = (
 	params: ScheduleParameters,
-): E.Either<string, Schedule> => {
+): E.Either<string, Schedule[]> => {
 	let all_units = read_all_units()
+	let all_schedules: Schedule[] = []
 
-	let empty: Schedule = {
-		years: Array.from({length: 3}, () => ({sem1_units: [], sem2_units: []})),
+	for (let i = 0; i < 1; i++) {
+		found = 0
+		let empty: Schedule = {
+			years: Array.from({length: 3}, () => ({sem1_units: [], sem2_units: []})),
+		}
+
+		all_units.sort(() => Math.random() - 0.5)
+
+		let all = pipe(
+			construct_helper(empty, params, all_units),
+			E.fromOption(() => 'Could not construct schedule with parameters'),
+			E.flatMap(a => {
+				all_schedules = all_schedules.concat(a)
+				return E.left('asiodjao')
+			}),
+		)
 	}
 
-	let all = pipe(
-		construct_helper(empty, params, all_units),
-		E.fromOption(() => 'Could not construct schedule with parameters'),
-	)
+	all_schedules.sort(() => Math.random() - 0.5)
 
-	return E.flatMap((x: Schedule[]) => E.right(x[0]!))(all)
+	return all_schedules.length == 0
+		? E.left('Could not construct schedules')
+		: E.right(all_schedules)
 }
