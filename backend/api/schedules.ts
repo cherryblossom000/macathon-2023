@@ -3,11 +3,11 @@ import * as E from 'fp-ts/lib/Either.js'
 import * as O from 'fp-ts/lib/Option.js'
 import {pipe} from 'fp-ts/lib/function.js'
 import {api} from 'shared'
-import {handler, type HandlerResult} from '../src/util.js'
+import {decodeHandler, type HandlerResult} from '../src/util.js'
 import * as data from '../src/data.js'
 import {constructSchedules} from '../src/schedule.js'
 
-export default handler(
+export default decodeHandler(
 	'POST',
 	api.GenerateSchedulesRequest,
 	'body',
