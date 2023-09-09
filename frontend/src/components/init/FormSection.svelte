@@ -1,6 +1,6 @@
 <script lang="ts">
-	import {type CourseRequirement} from 'shared'
-	import FormBox from './FormBox.svelte'
+	import UnitSelectBox from '../UnitSelectBox.svelte'
+	import type {CourseRequirement} from 'shared'
 
 	export let cur: CourseRequirement
 	export let depth: number = 0
@@ -25,7 +25,7 @@
 	{:else}
 		<div class="flex flex-row flex-wrap">
 			{#each cur.requirement.items as next (next)}
-				<FormBox value={next} selected={true} unit={true} />
+				<UnitSelectBox value={next} selected={true} unit={true} />
 			{/each}
 		</div>
 	{/if}
@@ -34,7 +34,7 @@
 		{#if isNestedReq(cur.requirement)}
 			<!--Inside is more requirements.-->
 			{#each cur.requirement.items as next (next.title)}
-				<FormBox
+				<UnitSelectBox
 					value={next.title}
 					selected={next.title === selected}
 					onclick={() => (selected = next.title)}
@@ -43,7 +43,7 @@
 		{:else}
 			<!--Inside is units-->
 			{#each cur.requirement.items as next (next)}
-				<FormBox
+				<UnitSelectBox
 					unit={true}
 					value={next}
 					selected={next === selected}

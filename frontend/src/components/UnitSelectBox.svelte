@@ -1,10 +1,10 @@
 <script lang="ts">
 	import {onDestroy, onMount} from 'svelte'
+	import {appState, type ApplicationState} from '../scripts'
 	import type {Updater} from 'svelte/store'
-	import {appState, type ApplicationState} from '../../scripts'
 
 	export let value: string
-	export let selected: boolean
+	export let selected = false
 	export let unit = false
 
 	const addUnit: Updater<ApplicationState> = s =>
