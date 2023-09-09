@@ -23,30 +23,21 @@
 											"title": "Data science project",
 											"requirement": {
 												"operator": "AND",
-												"items": [
-													"FIT3163",
-													"FIT3164"
-												]
+												"items": ["FIT3163", "FIT3164"]
 											}
 										},
 										{
 											"title": "Industry based learning",
 											"requirement": {
 												"operator": "OR",
-												"items": [
-													"FIT3045",
-													"FIT3199"
-												]
+												"items": ["FIT3045", "FIT3199"]
 											}
 										},
 										{
 											"title": "Computer science project",
 											"requirement": {
 												"operator": "AND",
-												"items": [
-													"FIT3161",
-													"FIT3162"
-												]
+												"items": ["FIT3161", "FIT3162"]
 											}
 										}
 									]
@@ -61,29 +52,21 @@
 											"title": "Data science",
 											"requirement": {
 												"operator": "AND",
-												"items": [
-													"FIT3164",
-													"FIT3163"
-												]
+												"items": ["FIT3164", "FIT3163"]
 											}
 										},
 										{
 											"title": "Industry based learning",
 											"requirement": {
 												"operator": "AND",
-												"items": [
-													"FIT3045"
-												]
+												"items": ["FIT3045"]
 											}
 										},
 										{
 											"title": "Computer science",
 											"requirement": {
 												"operator": "AND",
-												"items": [
-													"FIT3161",
-													"FIT3162"
-												]
+												"items": ["FIT3161", "FIT3162"]
 											}
 										}
 									]
@@ -97,8 +80,74 @@
 					"requirement": {
 						"operator": "OR",
 						"items": [
-							"DATASCI01",
-							"COMPSCI03"
+							{
+								"code": "DATASCI01",
+								"title": "Data science",
+								"requirement": {
+									"operator": "AND",
+									"items": [
+										{
+											"operator": "AND",
+											"items": ["FIT1043", "FIT2086", "FIT2094", "FIT3179"]
+										},
+										{
+											"operator": 2,
+											"items": [
+												"FIT3003",
+												"FIT3139",
+												"FIT3152",
+												"FIT3154",
+												"FIT3181",
+												"FIT3182",
+												"FIT3183"
+											]
+										}
+									]
+								}
+							},
+							{
+								"code": "COMPSCI03",
+								"title": "Advanced computer science",
+								"requirement": {
+									"operator": "AND",
+									"items": [
+										{
+											"operator": "AND",
+											"items": [
+												"FIT2099",
+												"FIT2102",
+												"FIT3143",
+												"FIT3155",
+												"FIT3171"
+											]
+										},
+										{
+											"operator": "OR",
+											"items": [
+												"FIT3031",
+												"FIT3077",
+												"FIT3080",
+												"FIT3081",
+												"FIT3088",
+												"FIT3094",
+												"FIT3139",
+												"FIT3142",
+												"FIT3146",
+												"FIT3152",
+												"FIT3159",
+												"FIT3165",
+												"FIT3173",
+												"FIT3175",
+												"FIT3181",
+												"FIT3182",
+												"FIT3183",
+												"MTH3170",
+												"MTH3175"
+											]
+										}
+									]
+								}
+							}
 						]
 					}
 				},
@@ -129,10 +178,7 @@
 					"title": "Part B. Professional skills study ",
 					"requirement": {
 						"operator": "OR",
-						"items": [
-							"FIT1049",
-							"FIT1055"
-						]
+						"items": ["FIT1049", "FIT1055"]
 					}
 				}
 			]
