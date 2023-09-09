@@ -1,13 +1,12 @@
 import {writable} from 'svelte/store'
-import type {ScheduleUnit, TeachingPeriod} from 'shared'
+import {getAllUnits} from './api'
+import type {SimpleUnit, TeachingPeriod, Unit} from 'shared'
 
 // TEMP COURSE MAP BULLSHIT ////////////////////////////////
-
-export type Unit = ScheduleUnit
 export interface Sem {
 	id: number
 	year: number
-	units: (undefined | Unit)[]
+	units: (undefined | SimpleUnit)[]
 	teachingPeriod: TeachingPeriod
 }
 
@@ -36,6 +35,7 @@ const startPlan: readonly Sem[] = Array.from(
 
 export type UnitIndices = [semIdx: number, unitIdx: number]
 export interface ApplicationState {
+	allUnits: Promise<readonly Unit[]>
 	coursePlan: readonly Sem[]
 	selectedUnit: UnitIndices | undefined
 	stage: 'Init' | 'Electives' | 'Table'
@@ -44,6 +44,7 @@ export interface ApplicationState {
 }
 
 export const appState = writable<ApplicationState>({
+	allUnits: getAllUnits(),
 	coursePlan: startPlan,
 	selectedUnit: undefined,
 	stage: 'Init',

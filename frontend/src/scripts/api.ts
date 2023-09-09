@@ -33,7 +33,7 @@ export const getSpecialisation = async (
 	handleAPIResponse<api.GetSpecialisationResponse>(
 		fetch(`${API_BASE}/specialisation?code=${code}`),
 	)
-export const getAllUnit = async (code: string): Promise<Unit> =>
+export const getUnit = async (code: string): Promise<Unit> =>
 	handleAPIResponse<api.GetUnitResponse>(fetch(`${API_BASE}/unit?code=${code}`))
 
 export const getAllUnits = async (): Promise<Unit[]> =>

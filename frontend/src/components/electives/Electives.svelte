@@ -2,7 +2,7 @@
 	import Button from '../Button.svelte'
 	import ChooseNItems from '../ChooseNItems.svelte'
 	import Error from '../Error.svelte'
-	import {appState, getAllUnits} from '../../scripts'
+	import {appState} from '../../scripts'
 
 	let selected: readonly string[] = []
 
@@ -11,7 +11,7 @@
 
 <div>
 	<h2>Choose at most {count} electives</h2>
-	{#await getAllUnits()}
+	{#await $appState.allUnits}
 		<p>Loading units…</p>
 	{:then allUnits}
 		<div>

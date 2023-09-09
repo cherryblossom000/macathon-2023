@@ -1,13 +1,8 @@
 <script lang="ts">
-	import type {Course} from 'shared'
-	import {
-		appState,
-		selectUnit,
-		type Unit,
-		type UnitIndices,
-	} from '../../scripts'
+	import {appState, selectUnit, type UnitIndices} from '../../scripts'
+	import type {SimpleUnit} from 'shared'
 
-	export let unit: Unit | undefined
+	export let unit: SimpleUnit | undefined
 	export let indices: UnitIndices
 </script>
 

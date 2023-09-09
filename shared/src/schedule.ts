@@ -13,15 +13,15 @@ export const ScheduleParameters = t.type({
 })
 export type ScheduleParameters = t.TypeOf<typeof ScheduleParameters>
 
-const ScheduleUnit = t.type({
+const SimpleUnit = t.type({
 	code: t.string,
 	title: t.string,
 })
-export type ScheduleUnit = t.TypeOf<typeof ScheduleUnit>
+export type SimpleUnit = t.TypeOf<typeof SimpleUnit>
 
 export const Year = t.type({
-	sem1Units: t.array(ScheduleUnit),
-	sem2Units: t.array(ScheduleUnit),
+	sem1Units: t.array(SimpleUnit),
+	sem2Units: t.array(SimpleUnit),
 })
 export type Year = t.TypeOf<typeof Year>
 
