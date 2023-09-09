@@ -6,7 +6,8 @@
 	"scripts": {
 		"build": "tsc -b",
 		"watch": "tsc -b -w",
-		"lint": "eslint --ext cjs,ts ."
+		"lint": "eslint --ext cjs,ts .",
+		"deploy": "pnpm -C .. run deploy"
 	},
 	"dependencies": {
 		"fp-ts": "^2.16.1",

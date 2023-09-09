@@ -11,7 +11,8 @@
 	"scripts": {
 		"build": "tsc -b && pnpm -C frontend build",
 		"watch": "tsc -b -w",
-		"lint": "eslint --ext cjs,ts,svelte ."
+		"lint": "eslint --ext cjs,ts,svelte .",
+		"deploy": "cp -r scraper/data backend/data && vc deploy"
 	},
 	"devDependencies": {
 		"@typescript-eslint/eslint-plugin": "^6.6.0",

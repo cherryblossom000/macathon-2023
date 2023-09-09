@@ -2,6 +2,7 @@ import * as E from 'fp-ts/lib/Either.js'
 import * as O from 'fp-ts/lib/Option.js'
 import A = require('fp-ts/lib/Array.js')
 import {pipe, identity as id} from 'fp-ts/lib/function.js'
+import {units} from './data.js'
 
 import fs = require('fs')
 
@@ -82,14 +83,7 @@ let fully_satisfies = (
 	return false
 }
 
-export let read_all_units = (): Unit[] =>
-	pipe(
-		fs.readdirSync('../scraper/data/units'),
-		A.map(file =>
-			JSON.parse(fs.readFileSync('../scraper/data/units/' + file).toString()),
-		),
-		A.filter((n: Unit) => n.code[3]! == '1'),
-	)
+export let read_all_units = (): Unit[] => units
 
 let can_add_prereq_helper = (
 	current: Schedule,

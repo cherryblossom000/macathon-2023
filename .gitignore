@@ -4,3 +4,4 @@ dist/
 .eslintcache
 pnpm-debug.log
 .vercel/
+backend/data/

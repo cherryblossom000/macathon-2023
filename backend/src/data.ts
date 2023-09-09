@@ -1,7 +1,7 @@
 import {readFile, readdir} from 'node:fs/promises'
 import type {Course, Specialisation, Unit} from 'shared'
 
-const dataDir = new URL('../../scraper/data/', import.meta.url)
+const dataDir = new URL('../data/', import.meta.url)
 
 const readStuff = async <T>(path: string): Promise<T[]> => {
 	const dir = new URL(path, dataDir)
