@@ -15,7 +15,7 @@
 
 <h2>{cur.title ?? ''}</h2>
 
-{#if cur.requirement?.operator === 'AND'}
+{#if cur.requirement.operator === 'AND'}
 	{#if isNestedReq(cur.requirement)}
 		{#each cur.requirement.items as next (next.title)}
 			<br />
@@ -28,7 +28,7 @@
 			{/each}
 		</div>
 	{/if}
-{:else if cur.requirement?.operator === 'OR'}
+{:else if cur.requirement.operator === 'OR'}
 	<div class="flex flex-row flex-wrap">
 		{#if isNestedReq(cur.requirement)}
 			<!--Inside is more requirements.-->

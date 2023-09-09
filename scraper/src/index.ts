@@ -62,26 +62,23 @@ const parseCourseRequirement = (
 	description?: string,
 ): CourseRequirement => ({
 	title,
-	requirement:
-		groups.length || units.length
-			? ({
-					// hacky workaround for incorrect data
-					operator: description?.includes('one of the following')
-						? 'OR'
-						: (groups[0] ?? units[0])!.parent_connector.value,
-					items: [
-						...groups.map(g =>
-							parseCourseRequirement(
-								g.container,
-								g.title,
-								g.relationship,
-								g.description,
-							),
-						),
-						...units.map(u => u.academic_item_code),
-					],
-			  } as CourseRequirement['requirement'])
-			: undefined,
+	requirement: {
+		// hacky workaround for incorrect data
+		operator: description?.includes('one of the following')
+			? 'OR'
+			: (groups[0] ?? units[0])?.parent_connector.value ?? 'AND',
+		items: [
+			...groups.map(g =>
+				parseCourseRequirement(
+					g.container,
+					g.title,
+					g.relationship,
+					g.description,
+				),
+			),
+			...units.map(u => u.academic_item_code),
+		],
+	} as CourseRequirement['requirement'],
 })
 
 // const courses = await Promise.all(
@@ -99,9 +96,9 @@ const parseCourseRequirement = (
 // )
 
 const getUnits = ({requirement}: CourseRequirement): UnitCode[] =>
-	requirement?.items.flatMap(item =>
+	requirement.items.flatMap(item =>
 		typeof item === 'string' ? item : getUnits(item),
-	) ?? []
+	)
 
 interface UnitRequisiteRelationship {
 	/** e.g. `FIT1045` */
