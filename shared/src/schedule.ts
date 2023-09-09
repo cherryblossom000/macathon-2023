@@ -1,23 +1,27 @@
 import * as t from 'io-ts'
 
-const ScheduleUnit = t.intersection([
+const ScheduleParametersUnit = t.intersection([
 	t.type({code: t.string}),
 	t.partial({semester: t.union([t.literal(1), t.literal(2), t.undefined])}),
 	t.partial({year: t.union([t.number, t.undefined])}),
 ])
-export type ScheduleUnit = t.TypeOf<typeof ScheduleUnit>
+export type ScheduleParametersUnit = t.TypeOf<typeof ScheduleParametersUnit>
 
 export const ScheduleParameters = t.type({
-	units: t.array(ScheduleUnit),
+	units: t.array(ScheduleParametersUnit),
 	numYears: t.union([t.literal(3), t.literal(4), t.literal(5)]),
 })
 export type ScheduleParameters = t.TypeOf<typeof ScheduleParameters>
 
+const ScheduleUnit = t.type({
+	code: t.string,
+	title: t.string,
+})
+export type ScheduleUnit = t.TypeOf<typeof ScheduleUnit>
+
 export const Year = t.type({
-	/** array of unit codes */
-	sem1Units: t.array(t.string),
-	/** array of unit codes */
-	sem2Units: t.array(t.string),
+	sem1Units: t.array(ScheduleUnit),
+	sem2Units: t.array(ScheduleUnit),
 })
 export type Year = t.TypeOf<typeof Year>
 

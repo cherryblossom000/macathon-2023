@@ -1,10 +1,15 @@
 <script lang="ts">
 	import UnitBox from './UnitBox.svelte'
-	import {appState, enumerate} from '../../scripts'
+	import {onMount} from 'svelte'
+	import {appState, enumerate, type Sem} from '../../scripts'
+
+	export let coursePlan: readonly Sem[]
+
+	onMount(() => appState.update(s => ({...s, coursePlan})))
 </script>
 
 <table class="w-full max-w-screen-md border-separate border-spacing-2">
-	{#each $appState.coursePlan as sem (sem.id)}
+	{#each coursePlan as sem (sem.id)}
 		<tr>
 			{#each enumerate(sem.units) as [i, unit] (i)}
 				<UnitBox {unit} />

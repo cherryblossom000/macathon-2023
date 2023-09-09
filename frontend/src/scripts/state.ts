@@ -1,16 +1,14 @@
 import {writable} from 'svelte/store'
+import type {ScheduleUnit, TeachingPeriod} from 'shared'
 
 // TEMP COURSE MAP BULLSHIT ////////////////////////////////
-export interface Unit {
-	code: string
-	title: string
-}
 
-interface Sem {
+export type Unit = ScheduleUnit
+export interface Sem {
 	id: number
 	year: number
 	units: (undefined | Unit)[]
-	teachingPeriod: string
+	teachingPeriod: TeachingPeriod
 }
 
 const courseLength = 6
@@ -23,14 +21,17 @@ const genRanUnit = () => ({
 	title: 'Rizzing for IT Students',
 })
 
-const startPlan = Array.from({length: courseLength}, (_, i) => ({
-	id: startYear + i / 2,
-	year: startYear + Math.floor(i / 2),
-	units: Array.from({length: 4}, () =>
-		trueFalse() ? genRanUnit() : undefined,
-	),
-	teachingPeriod: i % 2 ? 'First semester' : 'Second semester',
-}))
+const startPlan: readonly Sem[] = Array.from(
+	{length: courseLength},
+	(_, i) => ({
+		id: startYear + i / 2,
+		year: startYear + Math.floor(i / 2),
+		units: Array.from({length: 4}, () =>
+			trueFalse() ? genRanUnit() : undefined,
+		),
+		teachingPeriod: i % 2 ? 'First semester' : 'Second semester',
+	}),
+)
 //////////////////////////////////////////////////////
 
 export interface ApplicationState {

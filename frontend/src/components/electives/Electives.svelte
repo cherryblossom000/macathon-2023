@@ -1,6 +1,7 @@
 <script lang="ts">
-	import ChooseNItems from '../ChooseNItems.svelte'
 	import Button from '../Button.svelte'
+	import ChooseNItems from '../ChooseNItems.svelte'
+	import Error from '../Error.svelte'
 	import {appState, getAllUnits} from '../../scripts'
 
 	let selected: readonly string[] = []
@@ -24,13 +25,18 @@
 			/>
 		</div>
 	{:catch error}
+		<Error {error}>fetching units</Error>
 		<p>Error fetching units: {error}</p>
 	{/await}
 	<!-- TODO: back button? -->
 	<Button
 		disabled={selected.length === count}
 		onclick={() =>
-			appState.update(s => ({...s, stage: 'Table', finalUnits: s.formUnits}))}
+			appState.update(s => ({
+				...s,
+				stage: 'Table',
+				finalUnits: [...s.finalUnits, ...s.formUnits],
+			}))}
 	>
 		Done!
 	</Button>

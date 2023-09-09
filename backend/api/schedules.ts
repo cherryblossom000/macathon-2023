@@ -35,8 +35,14 @@ export default decodeHandler(
 						E.map(ss =>
 							ss.map(s => ({
 								years: s.years.map(y => ({
-									sem1Units: y.sem1Units.map(u => u.code),
-									sem2Units: y.sem2Units.map(u => u.code),
+									sem1Units: y.sem1Units.map(({code, title}) => ({
+										code,
+										title,
+									})),
+									sem2Units: y.sem2Units.map(({code, title}) => ({
+										code,
+										title,
+									})),
 								})),
 							})),
 						),
