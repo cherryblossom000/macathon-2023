@@ -4,7 +4,6 @@ import A = require('fp-ts/lib/Array.js')
 import {units} from './data.js'
 import assert from 'assert'
 import {pipe, identity as id} from 'fp-ts/lib/function.js'
-import {units} from './data.js'
 
 import fs = require('fs')
 
