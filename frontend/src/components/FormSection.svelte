@@ -19,7 +19,7 @@
 	{#if isArrString(cur.requirement)}
 		<div class="flex flex-row flex-wrap">
 			{#each cur.requirement.items as next (next)}
-				<FormBox sel={next} selected={true} />
+				<FormBox sel={next} selected={true} unit={true} />
 			{/each}
 		</div>
 	{:else}
@@ -34,6 +34,7 @@
 		{#if isArrString(cur.requirement)}
 			{#each cur.requirement.items as next (next)}
 				<FormBox
+					unit={true}
 					sel={next}
 					selected={next == selected}
 					onclick={() => (selected = next)}

@@ -1,8 +1,9 @@
 <script lang="ts">
 	import type {Course} from 'shared'
-	import {appState,selectUnit} from '../scripts/index'
+	import {type Unit} from '../scripts/index'
+	import {appState, selectUnit} from '../scripts/index'
 
-	export let unit: Course | undefined
+	export let unit: Unit | undefined
 </script>
 
 <td
@@ -11,17 +12,20 @@
 		? `text-white bg-blue-600 border-4 border-blue-600`
 		: `text-black border-dashed border-black border`}
 		{//TODO This is fucked
-		(unit != undefined && $appState.selectedUnit != undefined && $appState.selectedUnit.code == unit.code) ? `!border-green-500 border-4` : ``}
+	unit != undefined &&
+	$appState.selectedUnit != undefined &&
+	$appState.selectedUnit.code == unit.code
+		? `!border-green-500 border-4`
+		: ``}
 		"
-
-		on:click={() => selectUnit(unit)}
+	on:click={() => selectUnit(unit)}
 >
 	{#if unit != undefined}
 		<b>
 			{unit.code}
 		</b>
 		<p>
-			{unit.abbreviatedName}
+			{unit.title}
 		</p>
 	{:else}
 		<b>Add unit</b>
