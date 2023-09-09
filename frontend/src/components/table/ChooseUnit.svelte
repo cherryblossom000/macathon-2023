@@ -2,4 +2,6 @@
 	import {appState} from '../../scripts'
 </script>
 
-<h2>Choose a unit</h2>
+{#if $appState.selectedUnit}
+	<h2>Choose a unit</h2>
+{/if}
