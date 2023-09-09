@@ -12,10 +12,10 @@ import type {
 } from 'shared'
 
 type ScheduleParameters = Omit<_ScheduleParameters, 'wantedElectives'> & {
-	wantedElectives: (Unit & {semester: 1 | 2 | undefined})[]
+	wantedElectives: (Unit & {year: number | undefined, sem: 1 | 2 | undefined})[]
 }
 
-interface Year {
+export interface Year {
 	sem1Units: Unit[]
 	sem2Units: Unit[]
 }
@@ -171,15 +171,11 @@ export const getAllUnits = (schedule: Schedule): Unit[] => {
 	)
 }
 
-const toposort = (course: Course): Unit[] => {
-	const req = pipe(
-		getRequiredUnits(course),
-		A.map(x => units.find(n => n.code === x)!),
-	)
-	req.sort(() => Math.random() - 0.5)
-	const reqUnits = getRequiredUnits(course)
+let adj: Record<string, string[]> = {}
 
-	const adj: Record<string, string[]> = {}
+let setup_toposort = (all_units: Unit[]) => {
+  adj = {};
+  let all_codes = all_units.map(x=>x.code);
 
 	const findEdges = (r: UnitRequirement): Unit[] => {
 		let ret: Unit[] = []
@@ -195,21 +191,23 @@ const toposort = (course: Course): Unit[] => {
 		return ret
 	}
 
-	for (const unit of req) {
+	for (const unit of all_units) {
 		for (const req of unit.requisites) {
 			if (req.type === 'prerequisite') {
 				for (const to of findEdges(req.requirement)) {
 					if (!(to.code in adj)) {
 						adj[to.code] = []
 					}
-					if (reqUnits.includes(unit.code) && reqUnits.includes(to.code)) {
+					if (all_codes.includes(unit.code) && all_codes.includes(to.code)) {
 						adj[to.code]!.push(unit.code)
 					}
 				}
 			}
 		}
 	}
+}
 
+const toposort = (all_units: Unit[]): Unit[] => {
 	const seen: string[] = []
 	const topo: string[] = []
 
@@ -228,14 +226,12 @@ const toposort = (course: Course): Unit[] => {
 		topo.push(at)
 	}
 
-	for (const node of reqUnits) {
-		if (!seen.includes(node)) {
-			dfs(node)
-		}
-	}
-
+  for (let c of all_units) {
+    dfs(c.code);
+  }
 	topo.reverse()
-	return topo.map(s => req.find(u => u.code === s)!)
+
+	return topo.map(s => all_units.find(u => u.code === s)!)
 }
 
 export const constructSchedules = (
@@ -243,9 +239,17 @@ export const constructSchedules = (
 ): E.Either<string, Schedule[]> => {
 	const schedules: Schedule[] = []
 
+  let all_units: Unit[] = params.wantedElectives;
+
+  setup_toposort(params.wantedElectives);
+
 	while (schedules.length < 200) {
+    let with_constraint = params.wantedElectives.filter(x => typeof(x.year) != "undefined");
+    with_constraint.sort((a,b) => a.year! - b.year!)
+
+
 		// step 1: toposort important units
-		const sorted: (Unit | undefined)[] = toposort('C2001')
+    let sorted: (Unit | undefined)[] = toposort(all_units);
 
 		// step 2: add gaps inbetween
 		const gaps = params.numYears * 8 - sorted.length
@@ -325,6 +329,7 @@ export const constructSchedules = (
 			}),
 		}
 
+    // ======================== FILL IN SCHEDULE WITH CORE UNITs
 		for (let i = 0; i < sorted.length; i++) {
 			if (typeof sorted[i] !== 'undefined') {
 				if (i % 8 < 4) {
@@ -334,9 +339,10 @@ export const constructSchedules = (
 				}
 			}
 		}
-		const before: Unit[] = []
 
-		// REMOVE NULLS WITH ELECTIVES
+
+		// ======================== REPLACE UNDEFINEDS WITH ELECTIVES
+		const before: Unit[] = []
 		for (let i = 0; i < sorted.length; i++) {
 			const credBefore = Math.floor(i / 4) * 24
 
@@ -379,9 +385,9 @@ export const constructSchedules = (
 			}
 		}
 
+
+    // ======================== INSERT INTO THE SCHEDULE
 		const withoutNulls = sorted.filter(x => x !== undefined) as Unit[]
-		assert(withoutNulls.length === sorted.length)
-		assert(withoutNulls[0]!.code !== 'FIT2107')
 
 		const toSchedule = (x: Unit[]): Schedule => {
 			const a = {
@@ -400,16 +406,40 @@ export const constructSchedules = (
 			return a
 		}
 
-		assert(toSchedule(withoutNulls).years[0]?.sem1Units[0]!.code !== 'FIT2107')
 		schedules.push(toSchedule(withoutNulls))
 		// step 4: profit??
 	}
 
 	return E.right(schedules)
-	// let all = pipe(
-	// 	constructHelper(empty, params, allUnits),
-	// 	E.fromOption(() => 'Could not construct schedule with parameters'),
-	// )
-
-	// return E.flatMap((x: Schedule[]) => E.right(x[0]!))(all)
 }
+
+
+/*
+  TODO:
+
+  Rewrite the toposort so that it works with constraints.
+
+  My idea was, but I didn't have time to implement:
+
+
+  RANDOMISE UNTIL VALID FOUND:
+    STEP 1:
+    toposort everything, together (shuffle list beforehand)
+    split into constrained and nonconstrained, intersperse constrained with undefineds
+    e.g. [_,_,_,a,_,_,_,b] and [c,d,e,f] (latter is nonconstrained)
+    
+    STEP 2:
+    insert undefineds randomly into latter list until it is the size of the number of undefines,
+    then replace every undefined in the former with its corresponding value in the latter
+
+    STEP 3:
+    replace remaining undefines with random units
+
+    STEP 4:
+    validate
+
+  REPEAT UNTIL ENOUGH SCHEDULES ARE GENERATED
+
+
+
+*/
