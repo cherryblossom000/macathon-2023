@@ -24,14 +24,14 @@ export default decodeHandler(
 					),
 			),
 			E.fold(
-				us => E.left({code: 400, data: `invalid units: ${us.join(', ')}`}),
+				us => E.left({status: 400, data: `invalid units: ${us.join(', ')}`}),
 				us =>
 					pipe(
 						constructSchedules({
 							...params,
 							units: us,
 						}),
-						E.mapLeft(data => ({code: 500, data: data})),
+						E.mapLeft(data => ({status: 500, data: data})),
 						E.map(ss =>
 							ss.map(s => ({
 								years: s.years.map(y => ({

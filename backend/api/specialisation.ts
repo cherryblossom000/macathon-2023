@@ -15,6 +15,6 @@ export default decodeHandler(
 		const specialisation = data.specialisations.find(c => c.code === code)
 		return specialisation
 			? E.right(specialisation)
-			: E.left({code: 404, data: 'specialisation not found'})
+			: E.left({status: 404, data: 'specialisation not found'})
 	},
 )

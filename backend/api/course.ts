@@ -15,6 +15,6 @@ export default decodeHandler(
 		const course = data.courses.find(c => c.code === code)
 		return course
 			? E.right(course)
-			: E.left({code: 404, data: 'course not found'})
+			: E.left({status: 404, data: 'course not found'})
 	},
 )

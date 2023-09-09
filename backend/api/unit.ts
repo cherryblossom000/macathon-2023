@@ -13,6 +13,6 @@ export default decodeHandler(
 	'query',
 	({code}): HandlerResult<api.GetUnitResponse> => {
 		const unit = data.units.find(c => c.code === code)
-		return unit ? E.right(unit) : E.left({code: 404, data: 'unit not found'})
+		return unit ? E.right(unit) : E.left({status: 404, data: 'unit not found'})
 	},
 )
