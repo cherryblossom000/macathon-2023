@@ -34,9 +34,10 @@ const startPlan: readonly Sem[] = Array.from(
 )
 //////////////////////////////////////////////////////
 
+export type UnitIndices = [semIdx: number, unitIdx: number]
 export interface ApplicationState {
 	coursePlan: readonly Sem[]
-	selectedUnit: Unit | undefined
+	selectedUnit: UnitIndices | undefined
 	stage: 'Init' | 'Electives' | 'Table'
 	formUnits: readonly string[]
 	finalUnits: readonly string[]
@@ -52,7 +53,15 @@ export const appState = writable<ApplicationState>({
 
 appState.subscribe(s => console.log(s))
 
-export const selectUnit = (unit: Unit | undefined) => {
-	console.log(`Select unit: ${unit?.code}`)
-	appState.update(s => ({...s, selectedUnit: unit}))
+export const selectUnit = (unit: UnitIndices | undefined) => {
+	appState.update(s => {
+		// console.log(
+		// 	`Select unit: ${
+		// 		unit
+		// 			? s.coursePlan[unit[0]]?.units[unit[1]]?.code ?? 'nothing'
+		// 			: 'nothing'
+		// 	}`,
+		// )
+		return {...s, selectedUnit: unit}
+	})
 }

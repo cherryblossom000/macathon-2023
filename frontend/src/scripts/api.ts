@@ -8,7 +8,9 @@ import {
 } from 'shared'
 
 // const API_BASE = 'https://macathon-2023.vercel.app/api'
-const API_BASE = 'http://localhost:3000/api'
+const API_BASE =
+	'https://macathon-2023-cpr0gx1dd-cherryblossom000.vercel.app/api'
+// const API_BASE = 'http://localhost:3000/api'
 
 const handleAPIResponse = async <T>(res: Promise<Response>): Promise<T> => {
 	const result = (await (await res).json()) as api.Response<T>

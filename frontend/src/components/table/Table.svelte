@@ -31,10 +31,13 @@
 				teachingPeriod: 'Second semester',
 			},
 		])
+
+	const units = $appState.finalUnits.map(code => ({code}))
 </script>
 
 <div class="flex flex-row">
-	{#await generateSchedules($appState.finalUnits.map(code => ({code})))}
+	<!-- <UnitTable coursePlan={$appState.coursePlan} /> -->
+	{#await generateSchedules(units)}
 		Generating course plan…
 	{:then schedules}
 		{#if isNonEmpty(schedules)}

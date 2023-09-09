@@ -9,10 +9,10 @@
 </script>
 
 <table class="w-full max-w-screen-md border-separate border-spacing-2">
-	{#each coursePlan as sem (sem.id)}
+	{#each enumerate(coursePlan) as [i, sem] (sem.id)}
 		<tr>
-			{#each enumerate(sem.units) as [i, unit] (i)}
-				<UnitBox {unit} />
+			{#each enumerate(sem.units) as [j, unit] (i * 4 + j)}
+				<UnitBox {unit} indices={[i, j]} />
 			{/each}
 		</tr>
 	{/each}
@@ -20,9 +20,7 @@
 
 <style>
 	table,
-	tr,
-	th,
-	td {
+	tr {
 		@apply border-black m-1 p-1;
 	}
 </style>
