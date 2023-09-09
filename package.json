@@ -9,7 +9,7 @@
 		"node": ">=18"
 	},
 	"scripts": {
-		"build": "tsc -b",
+		"build": "tsc -b && pnpm -C frontend build",
 		"watch": "tsc -b -w",
 		"lint": "eslint --ext cjs,ts,svelte ."
 	},
@@ -21,6 +21,7 @@
 		"eslint-plugin-prettier": "^5.0.0",
 		"prettier": "^3.0.3",
 		"prettier-plugin-svelte": "^3.0.3",
-		"typescript": "~5.2.2"
+		"typescript": "~5.2.2",
+		"vercel": "^32.2.0"
 	}
 }
