@@ -18,7 +18,7 @@ export const specialisations =
 
 let bad = ["FIT3047", "FIT2032"]
 
-export const units = (await readStuff<Unit>('units/')).filter(x => x.code != "FIT3047" && x.code != "FIT2032" && x.code != "FIT3045")
+export const units = (await readStuff<Unit>('units/')).filter(x => x.code != "FIT3047" && x.code != "FIT2032" && x.code != "FIT3045" && x.code != "FIT2108")
 
 export const unitsMap: ReadonlyMap<string, Unit> = new Map<string, Unit>(
 	units.map(u => [u.code, u]),

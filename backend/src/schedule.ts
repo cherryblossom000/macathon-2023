@@ -76,17 +76,17 @@ let can_add_prohib_helper = (
 ): boolean => {
 	if (typeof req === 'string') {
 		let unit_name: string = req
-		return pipe(
+		let r = pipe(
 			get_all_units(current),
 			A.map((unit: Unit) => unit.code),
-			codes => !codes.includes(unit_name),
-		)
+			codes => !codes.includes(unit_name))
+    return r;
 	} else {
 		if (req.operator == 'AND') {
 			return pipe(
 				req.items,
 				A.map(r => can_add_prohib_helper(current, r)),
-				A.exists(id),
+				A.every(id),
 			)
 		} else if (req.operator == 'OR') {
 			return pipe(
@@ -128,7 +128,7 @@ export let can_add = (
 				let s = can_add_prereq_helper(current, before, req.requirement)
 
         if (unit.code == "FIT2107") {
-          console.log("GOT",s, before.map(x => x.code))
+          // console.log("GOT",s, before.map(x => x.code))
         }
         return s;
 			}
@@ -171,7 +171,7 @@ let get_required_units = (course: Course) => {
 export let get_all_units = (schedule: Schedule): Unit[] => {
 	return pipe(
 		schedule.years,
-		A.map(year => A.concat(year.sem1_units)(year.sem2_units)),
+		A.map(year => A.concat(year.sem2_units)(year.sem1_units)),
 		A.flatten,
 	)
 }
@@ -316,10 +316,20 @@ export let construct_schedules = (
     shuffled_units.sort(_=>Math.random()-0.5)
 
 
-
+    let blank_unit: Unit = {code:"",requisites:[],offerings:[],enrolmentRules:[],title:""};
     let sched: Schedule = {years: Array.from({length: 3}, () => {
-      return {sem1_units: [], sem2_units: []}
+      return {sem1_units: [blank_unit,blank_unit,blank_unit,blank_unit], sem2_units: [blank_unit,blank_unit,blank_unit,blank_unit]} as Year
     })};
+
+    for (let i = 0; i < sorted.length; i++) {
+      if (typeof sorted[i] != "undefined") {
+        if (i%8<4) {
+          sched.years[Math.floor(i/8)]!.sem1_units[i%4]! = sorted[i]!;
+        } else {
+          sched.years[Math.floor(i/8)]!.sem2_units[i%4]! = sorted[i]!;
+        }
+      }
+    }
     let before: Unit[] = [];
 
     // REMOVE NULLS WITH ELECTIVES
@@ -330,7 +340,7 @@ export let construct_schedules = (
       if (typeof sorted[i] == "undefined") {
         let possible = [];
         for (let unit of shuffled_units) {
-          if (can_add(sched, unit, before, i%8<4?"First semester":"Second semester") && (typeof unit.creditPointPrerequisite == "undefined" || unit.creditPointPrerequisite!.points < cred_before) && sorted.find(f => f==unit) == undefined) {
+          if (can_add(sched, unit, before, i%8<4?"First semester":"Second semester") && (typeof unit.creditPointPrerequisite == "undefined" || unit.creditPointPrerequisite!.points < cred_before) && sorted.find(f => f==unit) == undefined && unit.offerings.includes(i%8<4?"First semester":"Second semester")) {
             possible.push(unit);
           }
         }
@@ -340,6 +350,7 @@ export let construct_schedules = (
         }
 
         let take = possible[Math.floor(Math.random() * possible.length)]!
+
         sorted[i]! = take
       }
 
@@ -349,15 +360,12 @@ export let construct_schedules = (
         }
       }
 
-      if (i%8<4) {
-        sched.years[Math.floor(i/8)]!.sem1_units[i%4]! = sorted[i]!;
-      } else {
-        sched.years[Math.floor(i/8)]!.sem2_units[i%4]! = sorted[i]!;
-      }
+
     }
 
     let without_nulls = sorted.filter(x => x!=undefined) as Unit[];
-
+    assert(without_nulls.length == sorted.length)
+    assert(without_nulls[0]!.code != "FIT2107")
 
     let to_schedule = (x: Unit[]): Schedule => {
       let a = {years: Array.from({length: 3}, () => {return {sem1_units: [], sem2_units: []} as Year;})}
@@ -373,6 +381,7 @@ export let construct_schedules = (
     }
 
 
+    assert(to_schedule(without_nulls).years[0]?.sem1_units[0]!.code != "FIT2107")
 		if (good) {
 			schedules.push(to_schedule(without_nulls))
 		}
