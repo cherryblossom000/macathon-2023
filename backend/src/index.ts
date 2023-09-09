@@ -1,6 +1,8 @@
 import bodyParser from 'body-parser'
 import express from 'express'
+import * as A from 'fp-ts/lib/Array.js'
 import * as E from 'fp-ts/lib/Either.js'
+import * as O from 'fp-ts/lib/Option.js'
 import {pipe} from 'fp-ts/lib/function.js'
 import * as t from 'io-ts'
 import {
@@ -96,14 +98,31 @@ app.post(
 		'body',
 		(params): HandlerResult<CreateScheduleResponse> => {
 			return pipe(
-				construct_schedule(params),
-				E.mapLeft(data => ({code: 500, data: data})),
-				E.map(s => ({
-					years: s.years.map(y => ({
-						sem1_units: y.sem1_units.map(u => u.code),
-						sem2_units: y.sem2_units.map(u => u.code),
-					})),
-				})),
+				params.wanted_electives,
+				A.traverse(E.getApplicativeValidation(A.getSemigroup<string>()))(u =>
+					pipe(
+						data.unitsMap.get(u),
+						O.fromNullable,
+						E.fromOption(() => [u]),
+					),
+				),
+				E.fold(
+					us => E.left({code: 400, data: `invalid units: ${us.join(', ')}`}),
+					us =>
+						pipe(
+							construct_schedule({
+								...params,
+								wanted_electives: us,
+							}),
+							E.mapLeft(data => ({code: 500, data: data})),
+							E.map(s => ({
+								years: s.years.map(y => ({
+									sem1_units: y.sem1_units.map(u => u.code),
+									sem2_units: y.sem2_units.map(u => u.code),
+								})),
+							})),
+						),
+				),
 			)
 		},
 	),
@@ -114,7 +133,7 @@ app.post(
 	handler(
 		ShuffleScheduleRequest,
 		'body',
-		(plan): HandlerResult<ShuffleScheduleResponse> => {
+		(schedule): HandlerResult<ShuffleScheduleResponse> => {
 			throw 0
 		},
 	),

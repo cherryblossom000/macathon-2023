@@ -16,3 +16,7 @@ export const courses = await readStuff<Course>('courses/')
 export const specialisations =
 	await readStuff<Specialisation>('specialisations/')
 export const units = await readStuff<Unit>('units/')
+
+export const unitsMap: ReadonlyMap<string, Unit> = new Map<string, Unit>(
+	units.map(u => [u.code, u]),
+)
