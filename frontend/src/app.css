@@ -20,7 +20,3 @@
 		@apply text-lg;
 	}
 }
-
-.btn {
-	@apply bg-blue-600 text-white rounded p-2 disabled:opacity-75 disabled:cursor-not-allowed hover:bg-blue-500 transition-all;
-}
