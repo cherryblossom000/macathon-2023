@@ -4,7 +4,7 @@
 	"type": "module",
 	"main": "dist/index.js",
 	"scripts": {
-		"build": "tsc -b",
+		"build": "pnpm -C .. run copy-data && tsc -b",
 		"watch": "tsc -b -w",
 		"lint": "eslint --ext cjs,ts .",
 		"deploy": "pnpm -C .. run deploy",
