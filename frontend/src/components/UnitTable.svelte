@@ -1,7 +1,6 @@
 <script lang="ts">
 	import UnitBox from './UnitBox.svelte'
-
-	import {appState} from '../scripts/index'
+	import {appState} from '../scripts'
 </script>
 
 <table class="w-full border-separate border-spacing-2">
