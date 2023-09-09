@@ -5,12 +5,8 @@
 	import {C2001} from './scripts/course2'
 
 	import {appState} from './scripts/index'
-	import {get} from 'svelte/store'
 
-	const toElectives = () => {
-		if (get(appState).formUnits.length === 16)
-			appState.update(s => ({...s, stage: 'Table'}))
-	}
+	const toElectives = () => appState.update(s => ({...s, stage: 'Table'}))
 </script>
 
 <main class="w-full max-w-screen-md flex flex-col">
@@ -21,6 +17,12 @@
 
 	<div class={$appState.stage === `Init` ? '' : 'hidden'}>
 		<InitForm cur={C2001.requirement} />
-		<button on:click={toElectives}> Done! </button>
+		<button
+			on:click={toElectives}
+			disabled={$appState.formUnits.length !== 16}
+			class="bg-blue-600 text-white rounded p-2 disabled:opacity-75 disabled:cursor-not-allowed hover:bg-blue-500 transition-all"
+		>
+			Done!
+		</button>
 	</div>
 </main>
