@@ -24,3 +24,5 @@ export type ShuffleScheduleResponse = Schedule
 export type GetCourseResponse = Course
 export type GetSpecialisationResponse = Specialisation
 export type GetUnitResponse = Unit
+
+export type GetUnitsResponse = Unit[]

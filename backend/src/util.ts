@@ -11,22 +11,24 @@ export const handler =
 		prop: 'body' | 'query',
 		fn: (t: T) => HandlerResult<U>,
 	) =>
-	(req: VercelRequest, res: VercelResponse) => {
-		if (req.method !== method) return res.status(405)
-		pipe(
-			type.decode(req[prop]),
-			E.fold(
-				e => res.status(400).send({type: 'error', data: e}),
-				req =>
-					pipe(
-						fn(req),
-						E.fold(
-							({code, data}) => res.status(code).json({type: 'error', data}),
-							data => res.status(200).json({type: 'success', data}),
-						),
+	(req: VercelRequest, res: VercelResponse): void => {
+		req.method !== method
+			? res.status(405).send('')
+			: pipe(
+					type.decode(req[prop]),
+					E.fold(
+						e => res.status(400).send({type: 'error', data: e}),
+						req =>
+							pipe(
+								fn(req),
+								E.fold(
+									({code, data}) =>
+										res.status(code).json({type: 'error', data}),
+									data => res.status(200).json({type: 'success', data}),
+								),
+							),
 					),
-			),
-		)
+			  )
 	}
 
 export const HandbookThingRequest = t.type({code: t.string})
