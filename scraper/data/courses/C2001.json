@@ -176,7 +176,7 @@
 					}
 				},
 				{
-					"title": "Part B. Professional skills study ",
+					"title": "Part B. Professional skills study",
 					"requirement": {
 						"operator": "OR",
 						"items": ["FIT1049", "FIT1055"]

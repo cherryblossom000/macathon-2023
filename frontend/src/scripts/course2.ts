@@ -33,14 +33,14 @@ export const C2001: Course = {
 					},
 				},
 				{
-					title: 'Part B: Professional skills study ',
+					title: 'Part B: Professional skills study',
 					requirement: {
 						operator: 'AND',
 						items: ['FIT1049'],
 					},
 				},
 				{
-					title: 'Part C: Specialist discipline knowledge.',
+					title: 'Part C: Specialist discipline knowledge',
 					requirement: {
 						operator: 'OR',
 						items: [
