@@ -1,9 +1,4 @@
-import {
-	construct_schedules,
-	read_all_units,
-	get_all_units,
-	type Schedule,
-} from './schedule.js'
+import {construct_schedules, get_all_units, type Schedule} from './schedule.js'
 
 import * as E from 'fp-ts/lib/Either.js'
 import {pipe} from 'fp-ts/lib/function.js'
