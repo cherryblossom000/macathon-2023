@@ -20,6 +20,5 @@
 	},
 	"references": [
 		{"path": "../shared/tsconfig.json"},
-		{"path": "./tsconfig.node.json"}
 	]
 }
