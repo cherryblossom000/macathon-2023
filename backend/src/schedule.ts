@@ -33,6 +33,124 @@ export type Schedule = {
 
 type Course = 'C2001'
 
+let can_add_prereq_helper = (
+	current: Schedule,
+  before: Unit[],
+	req: UnitCode | UnitRequirement,
+): boolean => {
+	if (typeof req === 'string') {
+		let unit_name: string = req
+		return pipe(
+			before,
+			A.map((unit: Unit) => unit.code),
+			codes => codes.includes(unit_name),
+		)
+	} else {
+		if (req.operator == 'AND') {
+			return pipe(
+				req.items,
+				A.map(r => can_add_prereq_helper(current, before, r)),
+				A.every(id),
+			)
+		} else if (req.operator == 'OR') {
+			return pipe(
+				req.items,
+				A.map(r => can_add_prereq_helper(current, before, r)),
+				A.exists(id),
+			)
+		} else {
+			return (
+				pipe(
+					req.items,
+					A.map(r => (can_add_prereq_helper(current, before, r) ? 1 : 0)),
+					A.reduce(0, (before, at) => before + at),
+				) >= 2
+			)
+		}
+	}
+}
+
+let can_add_prohib_helper = (
+	current: Schedule,
+	req: UnitCode | UnitRequirement,
+): boolean => {
+	if (typeof req === 'string') {
+		let unit_name: string = req
+		return pipe(
+			get_all_units(current),
+			A.map((unit: Unit) => unit.code),
+			codes => !codes.includes(unit_name),
+		)
+	} else {
+		if (req.operator == 'AND') {
+			return pipe(
+				req.items,
+				A.map(r => can_add_prohib_helper(current, r)),
+				A.exists(id),
+			)
+		} else if (req.operator == 'OR') {
+			return pipe(
+				req.items,
+				A.map(r => can_add_prohib_helper(current, r)),
+				A.every(id),
+			)
+		} else {
+			return (
+				pipe(
+					req.items,
+					A.map(r => (can_add_prohib_helper(current, r) ? 1 : 0)),
+					A.reduce(0, (before, at) => before + at),
+				) < 2
+			)
+		}
+	}
+}
+
+export let can_add = (
+	current: Schedule,
+	unit: Unit,
+  before: Unit[],
+	sem: TeachingPeriod,
+): boolean => {
+  if (unit.code == "FIT3165" && get_all_units(current).length==0) {
+    console.log("YES")
+    console.log(unit.requisites)
+    console.log(before)
+  }
+	if (unit.requisites.length == 0) {
+		return (
+			unit.offerings.includes(sem) &&
+			get_all_units(current).find(
+				x => JSON.stringify(x) == JSON.stringify(unit),
+			) == undefined
+		)
+	}
+
+	return pipe(
+		unit.requisites,
+		A.map(req => {
+			if (req.type == 'prerequisite') {
+				let s = can_add_prereq_helper(current, before, req.requirement)
+        if (unit.code == "FIT3165") {
+          console.log("YES",s,before)
+        }
+        return s;
+			}
+			return can_add_prohib_helper(current, req.requirement)
+		}),
+		A.every(id),
+		b => {
+			return (
+				b &&
+				unit.offerings.includes(sem) &&
+				get_all_units(current).find(
+					x => JSON.stringify(x) == JSON.stringify(unit),
+				) == undefined
+			)
+		},
+	)
+}
+
 let get_required_units = (course: Course) => {
 	if (course == 'C2001') {
 		return [
@@ -199,7 +317,50 @@ export let construct_schedules = (
       continue;
     }
 
-    console.log("Got here!");
+    let shuffled_units = [...units]
+    shuffled_units.sort(_=>Math.random()-0.5)
+
+
+
+    let sched: Schedule = {years: Array.from({length: 3}, () => {
+      return {sem1_units: [], sem2_units: []}
+    })};
+    let before: Unit[] = [];
+
+    // REMOVE NULLS WITH ELECTIVES
+    for (let i = 0; i < sorted.length; i++) {
+      let cred_before = Math.floor(i/4) * 48
+
+      // Need to fill it up
+      if (typeof sorted[i] == "undefined") {
+        let possible = [];
+        for (let unit of shuffled_units) {
+          if (can_add(sched, unit, before, i%8<4?"First semester":"Second semester") && (typeof unit.creditPointPrerequisite == "undefined" || unit.creditPointPrerequisite!.points < cred_before)) {
+            // console.log(JSON.stringify(get_all_units(sched).map(x=>x.code)), unit.code)
+            possible.push(unit);
+          }
+        }
+
+        if(possible.length == 0) {
+          return E.left("Could not create schedule with given electives");
+        }
+
+        let take = possible[Math.floor(Math.random() * possible.length)]!
+        sorted[i]! = take
+      }
+
+      if (i%4==3) { // add ones before
+        for (let j = i-3; j <= i; j++) {
+          before.push(sorted[j]!!);
+        }
+      }
+
+      if (i%8<4) {
+        sched.years[Math.floor(i/8)]!.sem1_units[i%4]! = sorted[i]!;
+      } else {
+        sched.years[Math.floor(i/8)]!.sem2_units[i%4]! = sorted[i]!;
+      }
+    }
 
     let without_nulls = sorted.filter(x => x!=undefined) as Unit[];
 
