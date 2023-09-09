@@ -13,12 +13,13 @@
 		typeof req?.items[0] === 'object'
 </script>
 
-<h2>{cur.title ?? ''}</h2>
+<svelte:element this={`h${Math.min(depth + 2, 6)}`}
+	>{cur.title ?? ''}</svelte:element
+>
 
 {#if cur.requirement.operator === 'AND'}
 	{#if isNestedReq(cur.requirement)}
 		{#each cur.requirement.items as next (next.title)}
-			<br />
 			<svelte:self cur={next} depth={depth + 1} />
 		{/each}
 	{:else}

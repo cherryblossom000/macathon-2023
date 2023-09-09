@@ -5,7 +5,7 @@
 	import {appState} from './scripts'
 </script>
 
-<main class="w-full max-w-screen-md flex flex-col">
+<main class="w-full flex flex-col">
 	<Nav />
 	<div class={$appState.stage === `Init` ? '' : 'hidden'}>
 		<Init />

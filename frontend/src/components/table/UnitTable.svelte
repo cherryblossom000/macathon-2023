@@ -3,7 +3,7 @@
 	import {appState, enumerate} from '../../scripts'
 </script>
 
-<table class="w-full border-separate border-spacing-2">
+<table class="w-full max-w-screen-md border-separate border-spacing-2">
 	{#each $appState.coursePlan as sem (sem.id)}
 		<tr>
 			{#each enumerate(sem.units) as [i, unit] (i)}

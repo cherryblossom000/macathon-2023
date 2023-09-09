@@ -3,5 +3,7 @@
 	import UnitTable from './UnitTable.svelte'
 </script>
 
-<UnitTable />
-<ChooseUnit />
+<div class="flex flex-row">
+	<UnitTable />
+	<ChooseUnit />
+</div>
