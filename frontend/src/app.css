@@ -3,7 +3,11 @@
 @tailwind utilities;
 
 @layer base {
-	h2, h3, h4, h5, h6 {
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
 		@apply mb-3;
 	}
 	h2 {
@@ -15,4 +19,8 @@
 	h4 {
 		@apply text-lg;
 	}
+}
+
+.btn {
+	@apply bg-blue-600 text-white rounded p-2 disabled:opacity-75 disabled:cursor-not-allowed hover:bg-blue-500 transition-all;
 }

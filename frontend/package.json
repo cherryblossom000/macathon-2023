@@ -4,7 +4,7 @@
 	"type": "module",
 	"scripts": {
 		"dev": "vite",
-		"build": "pnpm -C ../shared build && tsc -b tsconfig.node.json && vite build",
+		"build": "pnpm -C ../shared build && tsc -b tsconfig.node.json && tsc -b && vite build",
 		"watch": "tsc -b -w",
 		"preview": "vite preview",
 		"check": "svelte-check --tsconfig ./tsconfig.json",
