@@ -4,6 +4,7 @@
 	"offerings": [
 		"Second semester"
 	],
+	"enrolmentRules": [],
 	"requisites": [
 		{
 			"type": "prohibitions",

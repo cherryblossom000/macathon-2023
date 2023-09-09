@@ -1,0 +1,632 @@
+{
+	"contentTypeLabel": "Unit",
+	"published_in_handbook": {
+		"label": "Yes",
+		"value": "1"
+	},
+	"implementation_year": "2023",
+	"duration_ft_max": "",
+	"asced_detailed": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"grading_schema": {
+		"label": null,
+		"value": null
+	},
+	"study_level": [],
+	"quota_enrolment_requirements": "",
+	"status": {
+		"label": "Accredited",
+		"value": "Active"
+	},
+	"duration_pt_max": "",
+	"duration_pt_std": "",
+	"credit_points": "6",
+	"parent_id": {
+		"value": "Master Record: FIT3154",
+		"cl_id": "efa46650dbf4b300580f42a014961922",
+		"key": "code",
+		"type": "x_f5sl_cl_master_record"
+	},
+	"start_date": "",
+	"exclusions": "",
+	"unit_code": "FIT3154",
+	"academic_org": {
+		"value": "Faculty of Information Technology",
+		"cl_id": "c5684a53dba8a3406add773c349619a1",
+		"key": "name"
+	},
+	"sms_version": "",
+	"level": {
+		"label": "Level 3",
+		"value": "4"
+	},
+	"uac_code": "",
+	"special_requirements": "",
+	"duration_pt_min": "",
+	"special_unit_type": [],
+	"title": "Advanced data analysis",
+	"duration_ft_std": "",
+	"version": "3",
+	"learning_experiences": null,
+	"duration_ft_min": "",
+	"callista_version": "",
+	"duration_ft_period": {
+		"label": null,
+		"value": null
+	},
+	"asced_narrow": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"subclass": {
+		"label": "Unit",
+		"value": "subject"
+	},
+	"type": {
+		"label": "Coursework",
+		"value": "600"
+	},
+	"quota_rationale": "",
+	"version_name": "2023.03",
+	"timetable_this_unit": "true",
+	"work_integrated_learning": [
+		{
+			"value": "None",
+			"cl_id": "8ef5d77bdb122300e5cf3391f496191d",
+			"key": "label"
+		}
+	],
+	"cl_id": "8c214693dbd83990101196cbd39619e2",
+	"school": {
+		"value": "Faculty of Information Technology",
+		"cl_id": "c5684a53dba8a3406add773c349619a1",
+		"key": "name"
+	},
+	"content": null,
+	"learning_and_teaching_resources": null,
+	"collaborating_disciplines": [],
+	"repeatable": "false",
+	"overview": "",
+	"end_date": "",
+	"duration_pt_period": {
+		"label": null,
+		"value": null
+	},
+	"sms_status": {
+		"label": null,
+		"value": null
+	},
+	"learning_materials": null,
+	"special_topic": "false",
+	"asced_broad": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"publish_tuition_fees": "true",
+	"placement_proportion": {
+		"label": null,
+		"value": null
+	},
+	"code": "FIT3154",
+	"other_unit_costs": "",
+	"eftsl": {
+		"label": "0.125",
+		"value": "0.125"
+	},
+	"contact_information": "",
+	"highest_sca_band": {
+		"label": "SCA Band 2",
+		"value": "2"
+	},
+	"lo_additional_information": "<p>On successful completion of this unit, you should be able to:</p>",
+	"handbook_assessment_summary": "<p>This unit has threshold mark hurdles. You must achieve at least 45% of the available marks in the final scheduled assessment, at least 45% in total for in-semester assessments, and an overall unit mark of 50% or more to be able to pass the unit. If you do not achieve the threshold mark, you will receive a fail grade (NH) and a maximum mark of 45 for the unit.</p>",
+	"quota_information": "",
+	"attendance_requirements": "",
+	"workload_requirements": "<p>Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled teaching activities.</p>",
+	"organisational_contact_information": "",
+	"handbook_synopsis": "<p>This unit introduces the problem of machine learning and the major kinds of statistical learning used in data analysis. Learning and the different kinds of learning will be covered and their usage discussed. Evaluation techniques and typical application contexts will presented. A series of different models and algorithms will be presented in an exploratory way: looking at typical data, the basic models and algorithms and their use: linear and logistic regression, support vector machines, Bayesian networks, decision trees, random forests, k-means and clustering, neural-networks, deep learning, and others. Finally, two specialist topics will be covered briefly, statistical learning theory and working with big data.</p>",
+	"special_note_to_students": "",
+	"undergrad_postgrad_both": {
+		"label": "Undergraduate",
+		"value": "undergraduate"
+	},
+	"area_of_study_links": "Business analytics<br />Computational science<br />Data science<br />",
+	"fieldwork": "",
+	"unit_learning_outcomes": [
+		{
+			"lo_domain": [],
+			"order": "6",
+			"number": "6",
+			"code": "ULO6",
+			"lo_cl_id": "08214693dbd83990101196cbd39619e9",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "07ebf460db38b3003a731c0e0496198a",
+			"academic_item": {
+				"value": "FIT3154",
+				"cl_id": "8c214693dbd83990101196cbd39619e2",
+				"key": "code"
+			},
+			"description": "<p>Compare and contrast the differences between big data applications and regular applications of algorithms;</p>",
+			"cl_id": "08214693dbd83990101196cbd39619e9",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "3",
+			"number": "3",
+			"code": "ULO3",
+			"lo_cl_id": "40214693dbd83990101196cbd39619ea",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "1c0b74ecdbf4b3003a731c0e049619a7",
+			"academic_item": {
+				"value": "FIT3154",
+				"cl_id": "8c214693dbd83990101196cbd39619e2",
+				"key": "code"
+			},
+			"description": "<p>Evaluate a machine learning algorithm in typical contexts;</p>",
+			"cl_id": "40214693dbd83990101196cbd39619ea",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "4",
+			"number": "4",
+			"code": "ULO4",
+			"lo_cl_id": "44214693dbd83990101196cbd39619e9",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "9e6b3420db38b3003a731c0e04961983",
+			"academic_item": {
+				"value": "FIT3154",
+				"cl_id": "8c214693dbd83990101196cbd39619e2",
+				"key": "code"
+			},
+			"description": "<p>Describe and apply the major models and algorithms for statistical learning;</p>",
+			"cl_id": "44214693dbd83990101196cbd39619e9",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "5",
+			"number": "5",
+			"code": "ULO5",
+			"lo_cl_id": "80214693dbd83990101196cbd39619e9",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "3a9bf820db38b3003a731c0e049619e4",
+			"academic_item": {
+				"value": "FIT3154",
+				"cl_id": "8c214693dbd83990101196cbd39619e2",
+				"key": "code"
+			},
+			"description": "<p>Identify the most competitive algorithms for typical contexts;</p>",
+			"cl_id": "80214693dbd83990101196cbd39619e9",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "7",
+			"number": "7",
+			"code": "ULO7",
+			"lo_cl_id": "8c214693dbd83990101196cbd39619e9",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "33fbb860db38b3003a731c0e0496198f",
+			"academic_item": {
+				"value": "FIT3154",
+				"cl_id": "8c214693dbd83990101196cbd39619e2",
+				"key": "code"
+			},
+			"description": "<p>Describe the theoretical limits of learning.</p>",
+			"cl_id": "8c214693dbd83990101196cbd39619e9",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "2",
+			"number": "2",
+			"code": "ULO2",
+			"lo_cl_id": "c8214693dbd83990101196cbd39619e8",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "3fcabcacdbf4b3003a731c0e04961952",
+			"academic_item": {
+				"value": "FIT3154",
+				"cl_id": "8c214693dbd83990101196cbd39619e2",
+				"key": "code"
+			},
+			"description": "<p>Differentiate kinds of statistical learning models and algorithms;</p>",
+			"cl_id": "c8214693dbd83990101196cbd39619e8",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "1",
+			"number": "1",
+			"code": "ULO1",
+			"lo_cl_id": "c8214693dbd83990101196cbd39619e9",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "9e7ab0acdbf4b3003a731c0e049619b6",
+			"academic_item": {
+				"value": "FIT3154",
+				"cl_id": "8c214693dbd83990101196cbd39619e2",
+				"key": "code"
+			},
+			"description": "<p>Describe what machine learning is;</p>",
+			"cl_id": "c8214693dbd83990101196cbd39619e9",
+			"ga_map": []
+		}
+	],
+	"school_org_unit_data": [
+		{
+			"parent": {
+				"value": "",
+				"cl_id": null,
+				"key": "name"
+			},
+			"url": "https://www.monash.edu/it",
+			"name": "Faculty of Information Technology",
+			"cl_id": "c5684a53dba8a3406add773c349619a1"
+		}
+	],
+	"assessments": [
+		{
+			"subject": {
+				"value": "FIT3154",
+				"cl_id": "8c214693dbd83990101196cbd39619e2",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": "Threshold",
+				"value": "threshold"
+			},
+			"hurdle_supplementary_assessment": "<p>This task is part of the in-semester assessment hurdle.</p>",
+			"number": "1",
+			"weight": "20",
+			"cl_id": "04214693dbd83990101196cbd39619ed",
+			"assessment_name": "Assignment 1",
+			"description": null,
+			"assessment_type": {
+				"label": "Assignment",
+				"value": "assignment"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT3154",
+				"cl_id": "8c214693dbd83990101196cbd39619e2",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": "Threshold",
+				"value": "threshold"
+			},
+			"hurdle_supplementary_assessment": "<p>This task is part of the in-semester assessment hurdle.</p>",
+			"number": "2",
+			"weight": "20",
+			"cl_id": "8c214693dbd83990101196cbd39619ed",
+			"assessment_name": "Assignment 2",
+			"description": null,
+			"assessment_type": {
+				"label": "Assignment",
+				"value": "assignment"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT3154",
+				"cl_id": "8c214693dbd83990101196cbd39619e2",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": "Threshold",
+				"value": "threshold"
+			},
+			"hurdle_supplementary_assessment": "<p>This task has a threshold mark hurdle, which means you must achieve at-least 45% of the available marks in the examination, at-least 45% in total non-examination assessments, and an overall unit mark of 50% or more to be able to pass the unit. If you do not achieve the threshold mark, you will receive a fail grade (NH) and a maximum mark of 45 for the unit.  </p>",
+			"number": "3",
+			"weight": "60",
+			"cl_id": "c8214693dbd83990101196cbd39619ed",
+			"assessment_name": "Scheduled final assessment (2 hours and 10 minutes)",
+			"description": null,
+			"assessment_type": {
+				"label": "Exam",
+				"value": "exam"
+			},
+			"offerings_formatted": ""
+		}
+	],
+	"enrolment_rules": [
+		{
+			"description": "<p>Prerequisite: Or related statistical background</p>",
+			"academic_item": {
+				"value": "FIT3154",
+				"cl_id": "8c214693dbd83990101196cbd39619e2",
+				"key": "code"
+			},
+			"type": {
+				"label": "Enrolment Rule",
+				"value": "info"
+			},
+			"cl_id": "84214693dbd83990101196cbd39619ea"
+		}
+	],
+	"requisites": [
+		{
+			"academic_item_code": "FIT3154",
+			"active": "true",
+			"requisite_cl_id": "c8214693dbd83990101196cbd39619e5",
+			"description": "",
+			"requisite_type": {
+				"label": "Prerequisite",
+				"value": "prerequisite"
+			},
+			"cl_id": {
+				"value": "FIT3154",
+				"cl_id": "8c214693dbd83990101196cbd39619e2",
+				"key": "code"
+			},
+			"academic_item_version_number": "2023.03",
+			"order": "1",
+			"start_date": "",
+			"end_date": "",
+			"container": [
+				{
+					"cl_id": "14214693dbd83990101196cbd39619da",
+					"parent_container_table": "x_f5sl_cl_requisite",
+					"parent_record": {
+						"value": "Relationship Builder: FIT3154",
+						"cl_id": "c8214693dbd83990101196cbd39619e5",
+						"key": "academic_item",
+						"type": "x_f5sl_cl_requisite"
+					},
+					"title": "Container 1",
+					"parent_connector": {
+						"label": "AND",
+						"value": "AND"
+					},
+					"containers": [],
+					"relationships": [
+						{
+							"academic_item": {
+								"value": "Unit: FIT2086",
+								"cl_id": "25af2d141bf784544a942f002d4bcbae",
+								"key": "code",
+								"type": "x_f5sl_cl_subjects"
+							},
+							"parent_record": {
+								"value": "Container 1",
+								"cl_id": "14214693dbd83990101196cbd39619da",
+								"key": "title"
+							},
+							"order": "2",
+							"cl_id": "25af2d141bf784544a942f002d4bcbae",
+							"academic_item_type": {
+								"label": "Unit",
+								"value": "subject"
+							},
+							"abbr_name": "MODELLING DATA",
+							"academic_item_version_name": "2020.04",
+							"academic_item_credit_points": "6",
+							"abbreviated_name_and_major": null,
+							"academic_item_name": "Modelling for data analysis",
+							"academic_item_code": "FIT2086",
+							"academic_item_url": "/2020/units/FIT2086"
+						}
+					]
+				}
+			]
+		}
+	],
+	"unit_offering": [
+		{
+			"fees_domestic": "",
+			"publish": "true",
+			"location": {
+				"value": "Clayton",
+				"cl_id": "37f321e1db30a7406add773c3496192e",
+				"key": "name"
+			},
+			"name": "FIT3154-S2-01-ON-CAMPUS-CLAYTON",
+			"clarification_to_appear_in_handbook": "",
+			"display_name": "S2-01-CLAYTON-ON-CAMPUS",
+			"teaching_period": {
+				"value": "Second semester",
+				"cl_id": "85a429a1db30a7406add773c3496190d",
+				"key": "name"
+			},
+			"attendance_mode": {
+				"value": "On-campus",
+				"cl_id": "7bf2311bdb68a3406add773c349619bb",
+				"key": "description"
+			},
+			"quota_number": "",
+			"study_level": {
+				"label": null,
+				"value": null
+			},
+			"offered": "true",
+			"self_enrol": "true",
+			"academic_item": {
+				"value": "FIT3154",
+				"cl_id": "8c214693dbd83990101196cbd39619e2",
+				"key": "code"
+			},
+			"fees_commonwealth": "",
+			"fees_international": "",
+			"course_restrictions": "",
+			"cl_id": "80214693dbd83990101196cbd39619e7"
+		}
+	],
+	"enrolment_rules_group": [
+		{
+			"rule_group": "Enrolment Rule",
+			"rules": [
+				{
+					"description": "<p>Prerequisite: Or related statistical background</p>",
+					"academic_item": {
+						"value": "FIT3154",
+						"cl_id": "8c214693dbd83990101196cbd39619e2",
+						"key": "code"
+					},
+					"type": {
+						"label": "Enrolment Rule",
+						"value": "info"
+					},
+					"cl_id": "84214693dbd83990101196cbd39619ea",
+					"links": []
+				}
+			]
+		}
+	],
+	"learning_resources_grouped": [],
+	"study_abroad_unit": "Yes",
+	"academic_item_type": "Unit",
+	"learning_activities_grouped": [
+		{
+			"activity_type": "Laboratories",
+			"activities": [
+				{
+					"subject": {
+						"value": "FIT3154",
+						"cl_id": "8c214693dbd83990101196cbd39619e2",
+						"key": "code"
+					},
+					"cl_id": "48214693dbd83990101196cbd39619ec",
+					"order": "0",
+					"description": "",
+					"activity_type": {
+						"label": "Laboratories",
+						"value": "laboratory"
+					},
+					"duration_display": "24 hours",
+					"offerings_formatted_teaching_activities": "<ul><li>Applies to all offerings</li></ul>",
+					"links": []
+				}
+			]
+		},
+		{
+			"activity_type": "Seminars",
+			"activities": [
+				{
+					"subject": {
+						"value": "FIT3154",
+						"cl_id": "8c214693dbd83990101196cbd39619e2",
+						"key": "code"
+					},
+					"cl_id": "c091ca93dbd83990101196cbd39619a3",
+					"order": "2",
+					"description": "",
+					"activity_type": {
+						"label": "Seminars",
+						"value": "seminar"
+					},
+					"duration_display": "24 hours",
+					"offerings_formatted_teaching_activities": "<ul><li>Applies to all offerings</li></ul>",
+					"links": []
+				}
+			]
+		}
+	],
+	"search_title": "FIT3154 - Advanced data analysis",
+	"unit_search_title": "FIT3154 - Advanced data analysis",
+	"teaching_approaches": [
+		{
+			"type": {
+				"label": "Active learning",
+				"value": "active_learning"
+			},
+			"academic_item": {
+				"value": "FIT3154",
+				"cl_id": "8c214693dbd83990101196cbd39619e2",
+				"key": "code"
+			},
+			"cl_id": "04214693dbd83990101196cbd39619eb",
+			"description": "<p>&nbsp;</p>",
+			"links": []
+		}
+	],
+	"handbook_statement": null,
+	"academic_contact_roles": [
+		{
+			"role": "Chief Examiner(s)",
+			"contacts": [
+				{
+					"active": "false",
+					"contact_department": "",
+					"start_date": "",
+					"offering": {
+						"value": "",
+						"cl_id": null,
+						"key": "display_name"
+					},
+					"contact_role": {
+						"label": "Chief Examiner",
+						"value": "chief_examiner"
+					},
+					"contact_name": "Daniel Schmidt",
+					"role_detail": "",
+					"contact_organisation": "",
+					"contact_title": "Dr",
+					"order": "",
+					"contact_phone": "",
+					"end_date": "",
+					"location": {
+						"value": "",
+						"cl_id": null,
+						"key": "name"
+					},
+					"contact_email": "Daniel.Schmidt@monash.edu",
+					"contact_url": "",
+					"user": {
+						"value": "Daniel Schmidt",
+						"cl_id": "71d18fdcdb78b300580f42a01496193e",
+						"key": ""
+					},
+					"offerings": [],
+					"applies_to_all_offerings": "true",
+					"linking_id": "a810d06cdb74b3003a731c0e04961956",
+					"cl_id": "cc214693dbd83990101196cbd39619e7",
+					"display_details": "Daniel.Schmidt@monash.edu",
+					"display_name": "Dr Daniel Schmidt ",
+					"offerings_formatted_contact": "<ul><li>Applies to all offerings</ul></li>",
+					"display_role_plural": "Chief Examiner(s)",
+					"links": []
+				}
+			]
+		}
+	],
+	"links": [],
+	"yearSwitcher": [
+		{
+			"label": "2020",
+			"value": "2020",
+			"href": "/2020/units/FIT3154?year=2020"
+		},
+		{
+			"label": "2021",
+			"value": "2021",
+			"href": "/2021/units/FIT3154?year=2021"
+		},
+		{
+			"label": "2022",
+			"value": "2022",
+			"href": "/2022/units/FIT3154?year=2022"
+		},
+		{
+			"label": "2023",
+			"value": "2023",
+			"href": "/2023/units/FIT3154?year=2023"
+		}
+	],
+	"university": "Monash University"
+}

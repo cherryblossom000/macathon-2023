@@ -1,0 +1,1043 @@
+{
+	"contentTypeLabel": "Unit",
+	"published_in_handbook": {
+		"label": "Yes",
+		"value": "1"
+	},
+	"implementation_year": "2023",
+	"duration_ft_max": "",
+	"asced_detailed": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"grading_schema": {
+		"label": null,
+		"value": null
+	},
+	"study_level": [],
+	"quota_enrolment_requirements": "",
+	"status": {
+		"label": "Accredited",
+		"value": "Active"
+	},
+	"duration_pt_max": "",
+	"duration_pt_std": "",
+	"credit_points": "6",
+	"parent_id": {
+		"value": "Master Record: FIT2101",
+		"cl_id": "a9a46250dbf4b300580f42a0149619d6",
+		"key": "code",
+		"type": "x_f5sl_cl_master_record"
+	},
+	"start_date": "",
+	"exclusions": "",
+	"unit_code": "FIT2101",
+	"academic_org": {
+		"value": "Faculty of Information Technology",
+		"cl_id": "c5684a53dba8a3406add773c349619a1",
+		"key": "name"
+	},
+	"sms_version": "",
+	"level": {
+		"label": "Level 2",
+		"value": "3"
+	},
+	"uac_code": "",
+	"special_requirements": "",
+	"duration_pt_min": "",
+	"special_unit_type": [],
+	"title": "Software engineering process and management",
+	"duration_ft_std": "",
+	"version": "7",
+	"learning_experiences": null,
+	"duration_ft_min": "",
+	"callista_version": "",
+	"duration_ft_period": {
+		"label": null,
+		"value": null
+	},
+	"asced_narrow": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"subclass": {
+		"label": "Unit",
+		"value": "subject"
+	},
+	"type": {
+		"label": "Coursework",
+		"value": "600"
+	},
+	"quota_rationale": "",
+	"version_name": "2023.07",
+	"timetable_this_unit": "true",
+	"work_integrated_learning": [
+		{
+			"value": "None",
+			"cl_id": "8ef5d77bdb122300e5cf3391f496191d",
+			"key": "label"
+		}
+	],
+	"cl_id": "b590d6fcdbac7d90101196cbd39619e8",
+	"school": {
+		"value": "Faculty of Information Technology",
+		"cl_id": "c5684a53dba8a3406add773c349619a1",
+		"key": "name"
+	},
+	"content": null,
+	"learning_and_teaching_resources": null,
+	"collaborating_disciplines": [],
+	"repeatable": "false",
+	"overview": "",
+	"end_date": "",
+	"duration_pt_period": {
+		"label": null,
+		"value": null
+	},
+	"sms_status": {
+		"label": null,
+		"value": null
+	},
+	"learning_materials": null,
+	"special_topic": "false",
+	"asced_broad": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"publish_tuition_fees": "true",
+	"placement_proportion": {
+		"label": null,
+		"value": null
+	},
+	"code": "FIT2101",
+	"other_unit_costs": "",
+	"eftsl": {
+		"label": "0.125",
+		"value": "0.125"
+	},
+	"contact_information": "",
+	"highest_sca_band": {
+		"label": "SCA Band 2",
+		"value": "2"
+	},
+	"lo_additional_information": "<p>On successful completion of this unit, you should be able to:</p>",
+	"handbook_assessment_summary": "",
+	"quota_information": "",
+	"attendance_requirements": "",
+	"workload_requirements": "<p>Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled teaching activities.</p>",
+	"organisational_contact_information": "",
+	"handbook_synopsis": "<p>A disciplined process is vital to the success of any major software development project. In this unit, you will learn essential skills for managing software development efforts and for working within coordinated teams. You will learn how to decide upon and document your team's structure and process model. Your team will be expected to follow the process model they have documented, and to evaluate its effectiveness.</p>\n<p>There are many factors that can potentially cause a software project to fail. This unit will equip you with techniques to identify and manage these risks, including ethical considerations, and will take a risk-focused approach to project organisation.</p>",
+	"special_note_to_students": "",
+	"undergrad_postgrad_both": {
+		"label": "Undergraduate",
+		"value": "undergraduate"
+	},
+	"area_of_study_links": "Software development<br />Software engineering<br />",
+	"fieldwork": "",
+	"unit_learning_outcomes": [
+		{
+			"lo_domain": [],
+			"order": "4",
+			"number": "4",
+			"code": "ULO4",
+			"lo_cl_id": "3d905afcdbac7d90101196cbd39619ee",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "5d1b38ecdbf4b3003a731c0e04961956",
+			"academic_item": {
+				"value": "FIT2101",
+				"cl_id": "b590d6fcdbac7d90101196cbd39619e8",
+				"key": "code"
+			},
+			"description": "<p>Identify relevant risks for a small-to-medium size software project, analyse their impact and likelihood, identify appropriate mitigations, and document these in a risk matrix.;</p>",
+			"cl_id": "3d905afcdbac7d90101196cbd39619ee",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "6",
+			"number": "6",
+			"code": "ULO6",
+			"lo_cl_id": "79905afcdbac7d90101196cbd39619ee",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "c2bbfc20db38b3003a731c0e049619e0",
+			"academic_item": {
+				"value": "FIT2101",
+				"cl_id": "b590d6fcdbac7d90101196cbd39619e8",
+				"key": "code"
+			},
+			"description": "<p>Apply a lightweight process to the development of a small software project in small groups, including the use of software engineering tools such as revision control and issue tracking systems, analyse their strengths and weaknesses and make recommendations for improving the process based on experience and observation.</p>",
+			"cl_id": "79905afcdbac7d90101196cbd39619ee",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "2",
+			"number": "2",
+			"code": "ULO2",
+			"lo_cl_id": "b1905afcdbac7d90101196cbd39619ef",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "05ea70ecdbf4b3003a731c0e04961970",
+			"academic_item": {
+				"value": "FIT2101",
+				"cl_id": "b590d6fcdbac7d90101196cbd39619e8",
+				"key": "code"
+			},
+			"description": "<p>Document a software process in a project management plan, including process model, team organisation, risk management, and time management;</p>",
+			"cl_id": "b1905afcdbac7d90101196cbd39619ef",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "3",
+			"number": "3",
+			"code": "ULO3",
+			"lo_cl_id": "b5905afcdbac7d90101196cbd39619ee",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "14c5f224db7861502bdd077cd3961999",
+			"academic_item": {
+				"value": "FIT2101",
+				"cl_id": "b590d6fcdbac7d90101196cbd39619e8",
+				"key": "code"
+			},
+			"description": "<p>Identify and apply relevant ethical considerations for software engineering projects and analyse them in light of ethical codes and standards;</p>",
+			"cl_id": "b5905afcdbac7d90101196cbd39619ee",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "5",
+			"number": "5",
+			"code": "ULO5",
+			"lo_cl_id": "fd905afcdbac7d90101196cbd39619ed",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "8b7bf420db38b3003a731c0e04961915",
+			"academic_item": {
+				"value": "FIT2101",
+				"cl_id": "b590d6fcdbac7d90101196cbd39619e8",
+				"key": "code"
+			},
+			"description": "<p>Elicit functional and non-functional requirements, including human aspects, for a small-to-medium size software project from stakeholders through interview and/or document analysis techniques, capture these using appropriate methods for the given process model (including user stories and use cases), and analyse these requirements for completeness including test-ability;</p>",
+			"cl_id": "fd905afcdbac7d90101196cbd39619ed",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "1",
+			"number": "1",
+			"code": "ULO1",
+			"lo_cl_id": "fd905afcdbac7d90101196cbd39619ee",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "41aa38acdbf4b3003a731c0e0496194e",
+			"academic_item": {
+				"value": "FIT2101",
+				"cl_id": "b590d6fcdbac7d90101196cbd39619e8",
+				"key": "code"
+			},
+			"description": "<p>Describe the nature and purpose of a software engineering process, including the historical evolution of the concept, and describe the major features of the most common process models;</p>",
+			"cl_id": "fd905afcdbac7d90101196cbd39619ee",
+			"ga_map": []
+		}
+	],
+	"school_org_unit_data": [
+		{
+			"parent": {
+				"value": "",
+				"cl_id": null,
+				"key": "name"
+			},
+			"url": "https://www.monash.edu/it",
+			"name": "Faculty of Information Technology",
+			"cl_id": "c5684a53dba8a3406add773c349619a1"
+		}
+	],
+	"assessments": [
+		{
+			"subject": {
+				"value": "FIT2101",
+				"cl_id": "b590d6fcdbac7d90101196cbd39619e8",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "1",
+			"weight": "10",
+			"cl_id": "0a905afcdbac7d90101196cbd39619f3",
+			"assessment_name": "Project inception",
+			"description": null,
+			"assessment_type": {
+				"label": "Project",
+				"value": "project"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT2101",
+				"cl_id": "b590d6fcdbac7d90101196cbd39619e8",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "5",
+			"weight": "15",
+			"cl_id": "46905afcdbac7d90101196cbd39619f3",
+			"assessment_name": "Retrospective report ",
+			"description": null,
+			"assessment_type": {
+				"label": "Report",
+				"value": "report"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT2101",
+				"cl_id": "b590d6fcdbac7d90101196cbd39619e8",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "4",
+			"weight": "20",
+			"cl_id": "82905afcdbac7d90101196cbd39619f3",
+			"assessment_name": "Project iteration 3",
+			"description": null,
+			"assessment_type": {
+				"label": "Project",
+				"value": "project"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT2101",
+				"cl_id": "b590d6fcdbac7d90101196cbd39619e8",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "6",
+			"weight": "25",
+			"cl_id": "8e905afcdbac7d90101196cbd39619f3",
+			"assessment_name": "Test",
+			"description": null,
+			"assessment_type": {
+				"label": "Other",
+				"value": "other"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT2101",
+				"cl_id": "b590d6fcdbac7d90101196cbd39619e8",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "2",
+			"weight": "15",
+			"cl_id": "ca905afcdbac7d90101196cbd39619f2",
+			"assessment_name": "Project iteration 1",
+			"description": null,
+			"assessment_type": {
+				"label": "Project",
+				"value": "project"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT2101",
+				"cl_id": "b590d6fcdbac7d90101196cbd39619e8",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "3",
+			"weight": "15",
+			"cl_id": "ca905afcdbac7d90101196cbd39619f3",
+			"assessment_name": "Project iteration 2",
+			"description": null,
+			"assessment_type": {
+				"label": "Project",
+				"value": "project"
+			},
+			"offerings_formatted": ""
+		}
+	],
+	"enrolment_rules": [],
+	"requisites": [
+		{
+			"academic_item_code": "FIT2101",
+			"active": "true",
+			"requisite_cl_id": "3d90d6fcdbac7d90101196cbd39619eb",
+			"description": "",
+			"requisite_type": {
+				"label": "Prerequisite",
+				"value": "prerequisite"
+			},
+			"cl_id": {
+				"value": "FIT2101",
+				"cl_id": "b590d6fcdbac7d90101196cbd39619e8",
+				"key": "code"
+			},
+			"academic_item_version_number": "2023.07",
+			"order": "",
+			"start_date": "",
+			"end_date": "",
+			"container": [
+				{
+					"cl_id": "8e905afcdbac7d90101196cbd396199e",
+					"parent_container_table": "x_f5sl_cl_requisite",
+					"parent_record": {
+						"value": "Relationship Builder: FIT2101",
+						"cl_id": "3d90d6fcdbac7d90101196cbd39619eb",
+						"key": "academic_item",
+						"type": "x_f5sl_cl_requisite"
+					},
+					"title": "Container 1",
+					"parent_connector": {
+						"label": "OR",
+						"value": "OR"
+					},
+					"containers": [
+						{
+							"cl_id": "c6905afcdbac7d90101196cbd396199f",
+							"parent_container_table": "x_f5sl_cl_relationship_groups",
+							"parent_record": {
+								"value": "Relationship Groups: Container 1",
+								"cl_id": "8e905afcdbac7d90101196cbd396199e",
+								"key": "title",
+								"type": "x_f5sl_cl_relationship_groups"
+							},
+							"title": "Container 1.2",
+							"parent_connector": {
+								"label": "AND",
+								"value": "AND"
+							},
+							"containers": [
+								{
+									"cl_id": "0e905afcdbac7d90101196cbd396199f",
+									"parent_container_table": "x_f5sl_cl_relationship_groups",
+									"parent_record": {
+										"value": "Relationship Groups: Container 1.2",
+										"cl_id": "c6905afcdbac7d90101196cbd396199f",
+										"key": "title",
+										"type": "x_f5sl_cl_relationship_groups"
+									},
+									"title": "Container 1.2.3",
+									"parent_connector": {
+										"label": "OR",
+										"value": "OR"
+									},
+									"containers": [],
+									"relationships": [
+										{
+											"academic_item": {
+												"value": "Unit: ENG1013",
+												"cl_id": "f230d40a1ba73810653b206b274bcb2f",
+												"key": "code",
+												"type": "x_f5sl_cl_subjects"
+											},
+											"parent_record": {
+												"value": "Container 1.2.3",
+												"cl_id": "0e905afcdbac7d90101196cbd396199f",
+												"key": "title"
+											},
+											"order": "5",
+											"cl_id": "f230d40a1ba73810653b206b274bcb2f",
+											"academic_item_type": {
+												"label": "Unit",
+												"value": "subject"
+											},
+											"abbr_name": "ENG SMARTSYS",
+											"academic_item_version_name": "2022.04",
+											"academic_item_credit_points": "6",
+											"abbreviated_name_and_major": null,
+											"academic_item_name": "Engineering smart systems",
+											"academic_item_code": "ENG1013",
+											"academic_item_url": "/2022/units/ENG1013"
+										},
+										{
+											"academic_item": {
+												"value": "Unit: ENG1003",
+												"cl_id": "50ce04861ba73810653b206b274bcbf7",
+												"key": "code",
+												"type": "x_f5sl_cl_subjects"
+											},
+											"parent_record": {
+												"value": "Container 1.2.3",
+												"cl_id": "0e905afcdbac7d90101196cbd396199f",
+												"key": "title"
+											},
+											"order": "4",
+											"cl_id": "50ce04861ba73810653b206b274bcbf7",
+											"academic_item_type": {
+												"label": "Unit",
+												"value": "subject"
+											},
+											"abbr_name": "ENGMOBILEAPPS",
+											"academic_item_version_name": "2022.06",
+											"academic_item_credit_points": "6",
+											"abbreviated_name_and_major": null,
+											"academic_item_name": "Engineering mobile apps",
+											"academic_item_code": "ENG1003",
+											"academic_item_url": "/2022/units/ENG1003"
+										}
+									]
+								},
+								{
+									"cl_id": "42905afcdbac7d90101196cbd39619a0",
+									"parent_container_table": "x_f5sl_cl_relationship_groups",
+									"parent_record": {
+										"value": "Relationship Groups: Container 1.2",
+										"cl_id": "c6905afcdbac7d90101196cbd396199f",
+										"key": "title",
+										"type": "x_f5sl_cl_relationship_groups"
+									},
+									"title": "Container 1.2.6",
+									"parent_connector": {
+										"label": "OR",
+										"value": "OR"
+									},
+									"containers": [],
+									"relationships": [
+										{
+											"academic_item": {
+												"value": "Unit: ENG1060",
+												"cl_id": "f3158b171b723050f1eca68b274bcb98",
+												"key": "code",
+												"type": "x_f5sl_cl_subjects"
+											},
+											"parent_record": {
+												"value": "Container 1.2.6",
+												"cl_id": "42905afcdbac7d90101196cbd39619a0",
+												"key": "title"
+											},
+											"order": "7",
+											"cl_id": "f3158b171b723050f1eca68b274bcb98",
+											"academic_item_type": {
+												"label": "Unit",
+												"value": "subject"
+											},
+											"abbr_name": "COMP FOR ENG",
+											"academic_item_version_name": "2022.05",
+											"academic_item_credit_points": "6",
+											"abbreviated_name_and_major": null,
+											"academic_item_name": "Computing for engineers",
+											"academic_item_code": "ENG1060",
+											"academic_item_url": "/2022/units/ENG1060"
+										},
+										{
+											"academic_item": {
+												"value": "Unit: ENG1014",
+												"cl_id": "97805c0a1ba73810653b206b274bcb6f",
+												"key": "code",
+												"type": "x_f5sl_cl_subjects"
+											},
+											"parent_record": {
+												"value": "Container 1.2.6",
+												"cl_id": "42905afcdbac7d90101196cbd39619a0",
+												"key": "title"
+											},
+											"order": "8",
+											"cl_id": "97805c0a1ba73810653b206b274bcb6f",
+											"academic_item_type": {
+												"label": "Unit",
+												"value": "subject"
+											},
+											"abbr_name": "ENG NUMERICAL ANALYSIS",
+											"academic_item_version_name": "2022.02",
+											"academic_item_credit_points": "6",
+											"abbreviated_name_and_major": null,
+											"academic_item_name": "Engineering numerical analysis",
+											"academic_item_code": "ENG1014",
+											"academic_item_url": "/2022/units/ENG1014"
+										}
+									]
+								}
+							],
+							"relationships": []
+						}
+					],
+					"relationships": [
+						{
+							"academic_item": {
+								"value": "Unit: FIT1048",
+								"cl_id": "29ccd75ddbb9b0d0101196cbd396198b",
+								"key": "code",
+								"type": "x_f5sl_cl_subjects"
+							},
+							"parent_record": {
+								"value": "Container 1",
+								"cl_id": "8e905afcdbac7d90101196cbd396199e",
+								"key": "title"
+							},
+							"order": "10",
+							"cl_id": "29ccd75ddbb9b0d0101196cbd396198b",
+							"academic_item_type": {
+								"label": "Unit",
+								"value": "subject"
+							},
+							"abbr_name": "FUNDAMENTALS OF C++",
+							"academic_item_version_name": "2022.03RO",
+							"academic_item_credit_points": "6",
+							"abbreviated_name_and_major": null,
+							"academic_item_name": "Fundamentals of C++",
+							"academic_item_code": "FIT1048",
+							"academic_item_url": "/2022/units/FIT1048"
+						},
+						{
+							"academic_item": {
+								"value": "Unit: FIT1051",
+								"cl_id": "1d1b0ad71bd7b810653b206b274bcba7",
+								"key": "code",
+								"type": "x_f5sl_cl_subjects"
+							},
+							"parent_record": {
+								"value": "Container 1",
+								"cl_id": "8e905afcdbac7d90101196cbd396199e",
+								"key": "title"
+							},
+							"order": "11",
+							"cl_id": "1d1b0ad71bd7b810653b206b274bcba7",
+							"academic_item_type": {
+								"label": "Unit",
+								"value": "subject"
+							},
+							"abbr_name": "PROGFUNDTALSINJAVA",
+							"academic_item_version_name": "2022.04",
+							"academic_item_credit_points": "6",
+							"abbreviated_name_and_major": null,
+							"academic_item_name": "Programming fundamentals in java",
+							"academic_item_code": "FIT1051",
+							"academic_item_url": "/2022/units/FIT1051"
+						},
+						{
+							"academic_item": {
+								"value": "Unit: FIT1045",
+								"cl_id": "2a4bbdd31b97b810653b206b274bcbee",
+								"key": "code",
+								"type": "x_f5sl_cl_subjects"
+							},
+							"parent_record": {
+								"value": "Container 1",
+								"cl_id": "8e905afcdbac7d90101196cbd396199e",
+								"key": "title"
+							},
+							"order": "9",
+							"cl_id": "2a4bbdd31b97b810653b206b274bcbee",
+							"academic_item_type": {
+								"label": "Unit",
+								"value": "subject"
+							},
+							"abbr_name": "ALG PROG FUN PYTHON",
+							"academic_item_version_name": "2022.04",
+							"academic_item_credit_points": "6",
+							"abbreviated_name_and_major": null,
+							"academic_item_name": "Algorithms and programming fundamentals in python",
+							"academic_item_code": "FIT1045",
+							"academic_item_url": "/2022/units/FIT1045"
+						},
+						{
+							"academic_item": {
+								"value": "Unit: FIT1053",
+								"cl_id": "eeb0fbdddb31f0d0101196cbd39619e3",
+								"key": "code",
+								"type": "x_f5sl_cl_subjects"
+							},
+							"parent_record": {
+								"value": "Container 1",
+								"cl_id": "8e905afcdbac7d90101196cbd396199e",
+								"key": "title"
+							},
+							"order": "12",
+							"cl_id": "eeb0fbdddb31f0d0101196cbd39619e3",
+							"academic_item_type": {
+								"label": "Unit",
+								"value": "subject"
+							},
+							"abbr_name": "ALG PROG PYTHON ADV",
+							"academic_item_version_name": "2022.03RO",
+							"academic_item_credit_points": "6",
+							"abbreviated_name_and_major": null,
+							"academic_item_name": "Algorithms and programming in python (advanced)",
+							"academic_item_code": "FIT1053",
+							"academic_item_url": "/2022/units/FIT1053"
+						}
+					]
+				}
+			]
+		}
+	],
+	"unit_offering": [
+		{
+			"fees_domestic": "",
+			"publish": "true",
+			"location": {
+				"value": "Malaysia",
+				"cl_id": "7bf321e1db30a7406add773c3496192f",
+				"key": "name"
+			},
+			"name": "FIT2101-S2-01-ON-CAMPUS-MALAYSIA",
+			"clarification_to_appear_in_handbook": "",
+			"display_name": "S2-01-MALAYSIA-ON-CAMPUS",
+			"teaching_period": {
+				"value": "Second semester",
+				"cl_id": "85a429a1db30a7406add773c3496190d",
+				"key": "name"
+			},
+			"attendance_mode": {
+				"value": "On-campus",
+				"cl_id": "7bf2311bdb68a3406add773c349619bb",
+				"key": "description"
+			},
+			"quota_number": "",
+			"study_level": {
+				"label": null,
+				"value": null
+			},
+			"offered": "true",
+			"self_enrol": "true",
+			"academic_item": {
+				"value": "FIT2101",
+				"cl_id": "b590d6fcdbac7d90101196cbd39619e8",
+				"key": "code"
+			},
+			"fees_commonwealth": "",
+			"fees_international": "",
+			"course_restrictions": "",
+			"cl_id": "71905afcdbac7d90101196cbd39619eb"
+		},
+		{
+			"fees_domestic": "",
+			"publish": "true",
+			"location": {
+				"value": "Clayton",
+				"cl_id": "37f321e1db30a7406add773c3496192e",
+				"key": "name"
+			},
+			"name": "FIT2101-S2-01-ON-CAMPUS-CLAYTON",
+			"clarification_to_appear_in_handbook": "",
+			"display_name": "S2-01-CLAYTON-ON-CAMPUS",
+			"teaching_period": {
+				"value": "Second semester",
+				"cl_id": "85a429a1db30a7406add773c3496190d",
+				"key": "name"
+			},
+			"attendance_mode": {
+				"value": "On-campus",
+				"cl_id": "7bf2311bdb68a3406add773c349619bb",
+				"key": "description"
+			},
+			"quota_number": "",
+			"study_level": {
+				"label": null,
+				"value": null
+			},
+			"offered": "true",
+			"self_enrol": "true",
+			"academic_item": {
+				"value": "FIT2101",
+				"cl_id": "b590d6fcdbac7d90101196cbd39619e8",
+				"key": "code"
+			},
+			"fees_commonwealth": "",
+			"fees_international": "",
+			"course_restrictions": "",
+			"cl_id": "7d905afcdbac7d90101196cbd39619eb"
+		}
+	],
+	"enrolment_rules_group": [],
+	"learning_resources_grouped": [
+		{
+			"type": "Technology resources",
+			"order": 2,
+			"resources": [
+				{
+					"description": "<p>Students are expected to check Moodle at least once a week for unit announcements. Any clarifications of assignment requirements posted to the Moodle discussion forums by lecturers or workshop facilitators will be considered authoritative.</p>",
+					"type": {
+						"label": "Technology resources",
+						"value": "technology_resources"
+					},
+					"cl_id": "0a905afcdbac7d90101196cbd39619f0",
+					"academic_item": {
+						"value": "FIT2101",
+						"cl_id": "b590d6fcdbac7d90101196cbd39619e8",
+						"key": "code"
+					},
+					"links": []
+				}
+			]
+		}
+	],
+	"study_abroad_unit": "Yes",
+	"academic_item_type": "Unit",
+	"learning_activities_grouped": [
+		{
+			"activity_type": "Workshops",
+			"activities": [
+				{
+					"subject": {
+						"value": "FIT2101",
+						"cl_id": "b590d6fcdbac7d90101196cbd39619e8",
+						"key": "code"
+					},
+					"cl_id": "02905afcdbac7d90101196cbd39619f2",
+					"order": "",
+					"description": "",
+					"activity_type": {
+						"label": "Workshops",
+						"value": "workshop"
+					},
+					"duration_display": "36 hours",
+					"offerings_formatted_teaching_activities": "<ul><li>Applies to all offerings</li></ul>",
+					"links": []
+				}
+			]
+		},
+		{
+			"activity_type": "Lectures",
+			"activities": [
+				{
+					"subject": {
+						"value": "FIT2101",
+						"cl_id": "b590d6fcdbac7d90101196cbd39619e8",
+						"key": "code"
+					},
+					"cl_id": "86905afcdbac7d90101196cbd39619f2",
+					"order": "",
+					"description": "",
+					"activity_type": {
+						"label": "Lectures",
+						"value": "lecture"
+					},
+					"duration_display": "12 hours",
+					"offerings_formatted_teaching_activities": "<ul><li>Applies to all offerings</li></ul>",
+					"links": []
+				}
+			]
+		}
+	],
+	"search_title": "FIT2101 - Software engineering process and management",
+	"unit_search_title": "FIT2101 - Software engineering process and management",
+	"teaching_approaches": [
+		{
+			"type": {
+				"label": "Active learning",
+				"value": "active_learning"
+			},
+			"academic_item": {
+				"value": "FIT2101",
+				"cl_id": "b590d6fcdbac7d90101196cbd39619e8",
+				"key": "code"
+			},
+			"cl_id": "ce905afcdbac7d90101196cbd39619f0",
+			"description": "<p>&nbsp;</p>",
+			"links": []
+		}
+	],
+	"handbook_statement": null,
+	"academic_contact_roles": [
+		{
+			"role": "Unit Coordinator(s)",
+			"contacts": [
+				{
+					"active": "true",
+					"contact_department": "",
+					"start_date": "",
+					"offering": {
+						"value": "",
+						"cl_id": null,
+						"key": "display_name"
+					},
+					"contact_role": {
+						"label": "Unit Coordinator",
+						"value": "unit_coordinator"
+					},
+					"contact_name": "Kamalashunee Velautham",
+					"role_detail": "(Malaysia)",
+					"contact_organisation": "",
+					"contact_title": "Ms",
+					"order": "1",
+					"contact_phone": "",
+					"end_date": "",
+					"location": {
+						"value": "",
+						"cl_id": null,
+						"key": "name"
+					},
+					"contact_email": "Kamalashunee.kvelautham@monash.edu",
+					"contact_url": "",
+					"user": {
+						"value": "Kamalashunee Velautham",
+						"cl_id": "f43f4e00db6ed090ffb02c5305961945",
+						"key": ""
+					},
+					"offerings": [
+						{
+							"value": "S2-01-MALAYSIA-ON-CAMPUS",
+							"cl_id": "71905afcdbac7d90101196cbd39619eb",
+							"key": "display_name"
+						}
+					],
+					"applies_to_all_offerings": "false",
+					"linking_id": "153ca935db6b5090a786cd043a9619ea",
+					"cl_id": "75905afcdbac7d90101196cbd39619ed",
+					"display_details": "Kamalashunee.kvelautham@monash.edu",
+					"display_name": "Ms Kamalashunee Velautham ",
+					"offerings_formatted_contact": "<ul><li>Second semester, Malaysia, On-campus</li></ul>",
+					"display_role_plural": "Unit Coordinator(s)",
+					"links": []
+				},
+				{
+					"active": "true",
+					"contact_department": "",
+					"start_date": "",
+					"offering": {
+						"value": "",
+						"cl_id": null,
+						"key": "display_name"
+					},
+					"contact_role": {
+						"label": "Unit Coordinator",
+						"value": "unit_coordinator"
+					},
+					"contact_name": "Nisal De Silva",
+					"role_detail": "",
+					"contact_organisation": "",
+					"contact_title": "",
+					"order": "2",
+					"contact_phone": "",
+					"end_date": "",
+					"location": {
+						"value": "",
+						"cl_id": null,
+						"key": "name"
+					},
+					"contact_email": "Nisal.DeSilva1@monash.edu",
+					"contact_url": "",
+					"user": {
+						"value": "Nisal De Silva",
+						"cl_id": "19020350dbb8b300580f42a0149619fc",
+						"key": ""
+					},
+					"offerings": [
+						{
+							"value": "S2-01-CLAYTON-ON-CAMPUS",
+							"cl_id": "7d905afcdbac7d90101196cbd39619eb",
+							"key": "display_name"
+						}
+					],
+					"applies_to_all_offerings": "false",
+					"linking_id": "67b856ca1ba36510f1eca68b274bcb53",
+					"cl_id": "fd905afcdbac7d90101196cbd39619ec",
+					"display_details": "Nisal.DeSilva1@monash.edu",
+					"display_name": "Nisal De Silva ",
+					"offerings_formatted_contact": "<ul><li>Second semester, Clayton, On-campus</li></ul>",
+					"display_role_plural": "Unit Coordinator(s)",
+					"links": []
+				}
+			]
+		},
+		{
+			"role": "Chief Examiner(s)",
+			"contacts": [
+				{
+					"active": "true",
+					"contact_department": "",
+					"start_date": "",
+					"offering": {
+						"value": "",
+						"cl_id": null,
+						"key": "display_name"
+					},
+					"contact_role": {
+						"label": "Chief Examiner",
+						"value": "chief_examiner"
+					},
+					"contact_name": "Rashina Hoda",
+					"role_detail": "",
+					"contact_organisation": "",
+					"contact_title": "Associate Professor",
+					"order": "1",
+					"contact_phone": "",
+					"end_date": "",
+					"location": {
+						"value": "",
+						"cl_id": null,
+						"key": "name"
+					},
+					"contact_email": "Rashina.Hoda@monash.edu",
+					"contact_url": "",
+					"user": {
+						"value": "Rashina Hoda",
+						"cl_id": "f0eef3201b3d1950f1eca68b274bcbc0",
+						"key": ""
+					},
+					"offerings": [],
+					"applies_to_all_offerings": "true",
+					"linking_id": "99bbca2fdbc359502bdd077cd39619ab",
+					"cl_id": "b1905afcdbac7d90101196cbd39619ec",
+					"display_details": "Rashina.Hoda@monash.edu",
+					"display_name": "Associate Professor Rashina Hoda ",
+					"offerings_formatted_contact": "<ul><li>Applies to all offerings</ul></li>",
+					"display_role_plural": "Chief Examiner(s)",
+					"links": []
+				}
+			]
+		}
+	],
+	"links": [],
+	"yearSwitcher": [
+		{
+			"label": "2020",
+			"value": "2020",
+			"href": "/2020/units/FIT2101?year=2020"
+		},
+		{
+			"label": "2021",
+			"value": "2021",
+			"href": "/2021/units/FIT2101?year=2021"
+		},
+		{
+			"label": "2022",
+			"value": "2022",
+			"href": "/2022/units/FIT2101?year=2022"
+		},
+		{
+			"label": "2023",
+			"value": "2023",
+			"href": "/2023/units/FIT2101?year=2023"
+		}
+	],
+	"university": "Monash University"
+}

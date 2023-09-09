@@ -5,6 +5,7 @@
 		"Second semester",
 		"First semester"
 	],
+	"enrolmentRules": [],
 	"requisites": [
 		{
 			"type": "prohibitions",

@@ -5,5 +5,8 @@
 		"First semester",
 		"Second semester"
 	],
+	"enrolmentRules": [
+		"<p>Prerequisite: Completion of 12 credit points of FIT units.</p>"
+	],
 	"requisites": []
 }

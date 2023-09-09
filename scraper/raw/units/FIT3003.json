@@ -1,0 +1,770 @@
+{
+	"contentTypeLabel": "Unit",
+	"published_in_handbook": {
+		"label": "Yes",
+		"value": "1"
+	},
+	"implementation_year": "2023",
+	"duration_ft_max": "",
+	"asced_detailed": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"grading_schema": {
+		"label": null,
+		"value": null
+	},
+	"study_level": [],
+	"quota_enrolment_requirements": "",
+	"status": {
+		"label": "Accredited",
+		"value": "Active"
+	},
+	"duration_pt_max": "",
+	"duration_pt_std": "",
+	"credit_points": "6",
+	"parent_id": {
+		"value": "Master Record: FIT3003",
+		"cl_id": "43488290db85bb003a731c0e04961960",
+		"key": "code",
+		"type": "x_f5sl_cl_master_record"
+	},
+	"start_date": "",
+	"exclusions": "",
+	"unit_code": "FIT3003",
+	"academic_org": {
+		"value": "Faculty of Information Technology",
+		"cl_id": "c5684a53dba8a3406add773c349619a1",
+		"key": "name"
+	},
+	"sms_version": "",
+	"level": {
+		"label": "Level 3",
+		"value": "4"
+	},
+	"uac_code": "",
+	"special_requirements": "",
+	"duration_pt_min": "",
+	"special_unit_type": [],
+	"title": "Business intelligence and data warehousing",
+	"duration_ft_std": "",
+	"version": "5",
+	"learning_experiences": null,
+	"duration_ft_min": "",
+	"callista_version": "",
+	"duration_ft_period": {
+		"label": null,
+		"value": null
+	},
+	"asced_narrow": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"subclass": {
+		"label": "Unit",
+		"value": "subject"
+	},
+	"type": {
+		"label": "Coursework",
+		"value": "600"
+	},
+	"quota_rationale": "",
+	"version_name": "2023.05",
+	"timetable_this_unit": "true",
+	"work_integrated_learning": [
+		{
+			"value": "None",
+			"cl_id": "8ef5d77bdb122300e5cf3391f496191d",
+			"key": "label"
+		}
+	],
+	"cl_id": "07dc6095db2cfd90101196cbd39619a4",
+	"school": {
+		"value": "Faculty of Information Technology",
+		"cl_id": "c5684a53dba8a3406add773c349619a1",
+		"key": "name"
+	},
+	"content": null,
+	"learning_and_teaching_resources": null,
+	"collaborating_disciplines": [],
+	"repeatable": "false",
+	"overview": "",
+	"end_date": "",
+	"duration_pt_period": {
+		"label": null,
+		"value": null
+	},
+	"sms_status": {
+		"label": null,
+		"value": null
+	},
+	"learning_materials": null,
+	"special_topic": "false",
+	"asced_broad": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"publish_tuition_fees": "true",
+	"placement_proportion": {
+		"label": null,
+		"value": null
+	},
+	"code": "FIT3003",
+	"other_unit_costs": "",
+	"eftsl": {
+		"label": "0.125",
+		"value": "0.125"
+	},
+	"contact_information": "",
+	"highest_sca_band": {
+		"label": "SCA Band 2",
+		"value": "2"
+	},
+	"lo_additional_information": "<p>On successful completion of this unit, you should be able to:  </p>",
+	"handbook_assessment_summary": "<p>This unit has threshold mark hurdles. You must achieve at least 45% of the available marks in the final scheduled assessment, at least 45% in total for in-semester assessments, and an overall unit mark of 50% or more to be able to pass the unit. If you do not achieve the threshold mark, you will receive a fail grade (NH) and a maximum mark of 45 for the unit.</p>",
+	"quota_information": "",
+	"attendance_requirements": "",
+	"workload_requirements": "<p>Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled teaching activities.</p>",
+	"organisational_contact_information": "",
+	"handbook_synopsis": "<p>Automation and the use of technological tools have resulted in the accumulation of vast volumes of data by modern business organisations. Data warehouses have been set up as repositories to store this data and improved techniques now result in the speedy collection and integration of such data. OLAP technology has resulted in the faster generation of reports and more flexible analysis based on the data repositories. This unit will explore the concepts of data warehousing and OLAP, covering the data processing technological requirements for data warehousing and OLAP and will provide hands on experience on designing data warehousing and OLAP systems.</p>",
+	"special_note_to_students": "",
+	"undergrad_postgrad_both": {
+		"label": "Undergraduate",
+		"value": "undergraduate"
+	},
+	"area_of_study_links": "Business analytics<br />Business information systems<br />Computational science<br />Data science<br />",
+	"fieldwork": "",
+	"unit_learning_outcomes": [
+		{
+			"lo_domain": [],
+			"order": "4",
+			"number": "4",
+			"code": "ULO4",
+			"lo_cl_id": "0fdca095db2cfd90101196cbd3961902",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "e7293495dbc13f003a731c0e04961980",
+			"academic_item": {
+				"value": "FIT3003",
+				"cl_id": "07dc6095db2cfd90101196cbd39619a4",
+				"key": "code"
+			},
+			"description": "<p>Explain the roles of data warehousing architecture and the concepts of granularity in data warehousing;</p>",
+			"cl_id": "0fdca095db2cfd90101196cbd3961902",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "2",
+			"number": "2",
+			"code": "ULO2",
+			"lo_cl_id": "4bdca095db2cfd90101196cbd3961902",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "eb293495dbc13f003a731c0e0496197f",
+			"academic_item": {
+				"value": "FIT3003",
+				"cl_id": "07dc6095db2cfd90101196cbd39619a4",
+				"key": "code"
+			},
+			"description": "<p>Use fact and dimensional modelling;</p>",
+			"cl_id": "4bdca095db2cfd90101196cbd3961902",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "1",
+			"number": "1",
+			"code": "ULO1",
+			"lo_cl_id": "87dca095db2cfd90101196cbd3961902",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "e3293495dbc13f003a731c0e0496197f",
+			"academic_item": {
+				"value": "FIT3003",
+				"cl_id": "07dc6095db2cfd90101196cbd39619a4",
+				"key": "code"
+			},
+			"description": "<p>Design multi-dimensional databases and data warehouses;</p>",
+			"cl_id": "87dca095db2cfd90101196cbd3961902",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "5",
+			"number": "5",
+			"code": "ULO5",
+			"lo_cl_id": "cfdca095db2cfd90101196cbd3961901",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "6f293495dbc13f003a731c0e04961980",
+			"academic_item": {
+				"value": "FIT3003",
+				"cl_id": "07dc6095db2cfd90101196cbd39619a4",
+				"key": "code"
+			},
+			"description": "<p>Create business intelligence reports using data warehouses and OLAP.</p>",
+			"cl_id": "cfdca095db2cfd90101196cbd3961901",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "3",
+			"number": "3",
+			"code": "ULO3",
+			"lo_cl_id": "cfdca095db2cfd90101196cbd3961902",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "63293495dbc13f003a731c0e04961980",
+			"academic_item": {
+				"value": "FIT3003",
+				"cl_id": "07dc6095db2cfd90101196cbd39619a4",
+				"key": "code"
+			},
+			"description": "<p>Implement online analytical processing (OLAP) queries;</p>",
+			"cl_id": "cfdca095db2cfd90101196cbd3961902",
+			"ga_map": []
+		}
+	],
+	"school_org_unit_data": [
+		{
+			"parent": {
+				"value": "",
+				"cl_id": null,
+				"key": "name"
+			},
+			"url": "https://www.monash.edu/it",
+			"name": "Faculty of Information Technology",
+			"cl_id": "c5684a53dba8a3406add773c349619a1"
+		}
+	],
+	"assessments": [
+		{
+			"subject": {
+				"value": "FIT3003",
+				"cl_id": "07dc6095db2cfd90101196cbd39619a4",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": "Threshold",
+				"value": "threshold"
+			},
+			"hurdle_supplementary_assessment": "<p>This task is part of the in-semester assessment hurdle.</p>\n<p> </p>",
+			"number": "3",
+			"weight": "5",
+			"cl_id": "17dca095db2cfd90101196cbd3961907",
+			"assessment_name": "OLAP Quiz",
+			"description": null,
+			"assessment_type": {
+				"label": "Other",
+				"value": "other"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT3003",
+				"cl_id": "07dc6095db2cfd90101196cbd39619a4",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": "Threshold",
+				"value": "threshold"
+			},
+			"hurdle_supplementary_assessment": "<p>This task is part of the in-semester assessment hurdle.</p>",
+			"number": "1",
+			"weight": "10",
+			"cl_id": "53dca095db2cfd90101196cbd3961907",
+			"assessment_name": "Take Home Test",
+			"description": null,
+			"assessment_type": {
+				"label": "Other",
+				"value": "other"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT3003",
+				"cl_id": "07dc6095db2cfd90101196cbd39619a4",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": "Threshold",
+				"value": "threshold"
+			},
+			"hurdle_supplementary_assessment": "<p>The scheduled final assessment is a hurdle.</p>",
+			"number": "4",
+			"weight": "60",
+			"cl_id": "9fdca095db2cfd90101196cbd3961906",
+			"assessment_name": "Scheduled final assessment (2 hours and 10 minutes)",
+			"description": null,
+			"assessment_type": {
+				"label": "Exam",
+				"value": "exam"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT3003",
+				"cl_id": "07dc6095db2cfd90101196cbd39619a4",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": "Threshold",
+				"value": "threshold"
+			},
+			"hurdle_supplementary_assessment": "<p>This task is part of the in-semester assessment hurdle.</p>",
+			"number": "2",
+			"weight": "25",
+			"cl_id": "d7dca095db2cfd90101196cbd3961906",
+			"assessment_name": "Major Assignment",
+			"description": null,
+			"assessment_type": {
+				"label": "Assignment",
+				"value": "assignment"
+			},
+			"offerings_formatted": ""
+		}
+	],
+	"enrolment_rules": [],
+	"requisites": [
+		{
+			"academic_item_code": "FIT3003",
+			"active": "true",
+			"requisite_cl_id": "43dc6095db2cfd90101196cbd39619a7",
+			"description": "",
+			"requisite_type": {
+				"label": "Prerequisite",
+				"value": "prerequisite"
+			},
+			"cl_id": {
+				"value": "FIT3003",
+				"cl_id": "07dc6095db2cfd90101196cbd39619a4",
+				"key": "code"
+			},
+			"academic_item_version_number": "2023.05",
+			"order": "1",
+			"start_date": "",
+			"end_date": "",
+			"container": [
+				{
+					"cl_id": "0bdce8dddbecb1102bdd077cd396196c",
+					"parent_container_table": "x_f5sl_cl_requisite",
+					"parent_record": {
+						"value": "Relationship Builder: FIT3003",
+						"cl_id": "43dc6095db2cfd90101196cbd39619a7",
+						"key": "academic_item",
+						"type": "x_f5sl_cl_requisite"
+					},
+					"title": "Container 1",
+					"parent_connector": {
+						"label": "OR",
+						"value": "OR"
+					},
+					"containers": [],
+					"relationships": [
+						{
+							"academic_item": {
+								"value": "Unit: FIT2094",
+								"cl_id": "65584f281b999dd0f1eca68b274bcb32",
+								"key": "code",
+								"type": "x_f5sl_cl_subjects"
+							},
+							"parent_record": {
+								"value": "Container 1",
+								"cl_id": "0bdce8dddbecb1102bdd077cd396196c",
+								"key": "title"
+							},
+							"order": "2",
+							"cl_id": "65584f281b999dd0f1eca68b274bcb32",
+							"academic_item_type": {
+								"label": "Unit",
+								"value": "subject"
+							},
+							"abbr_name": "DATABASES",
+							"academic_item_version_name": "2023.02",
+							"academic_item_credit_points": "6",
+							"abbreviated_name_and_major": null,
+							"academic_item_name": "Databases",
+							"academic_item_code": "FIT2094",
+							"academic_item_url": "/2023/units/FIT2094"
+						},
+						{
+							"academic_item": {
+								"value": "Unit: FIT3171",
+								"cl_id": "dfd8cb681b999dd0f1eca68b274bcb32",
+								"key": "code",
+								"type": "x_f5sl_cl_subjects"
+							},
+							"parent_record": {
+								"value": "Container 1",
+								"cl_id": "0bdce8dddbecb1102bdd077cd396196c",
+								"key": "title"
+							},
+							"order": "3",
+							"cl_id": "dfd8cb681b999dd0f1eca68b274bcb32",
+							"academic_item_type": {
+								"label": "Unit",
+								"value": "subject"
+							},
+							"abbr_name": "DB",
+							"academic_item_version_name": "2023.02",
+							"academic_item_credit_points": "6",
+							"abbreviated_name_and_major": null,
+							"academic_item_name": "Databases",
+							"academic_item_code": "FIT3171",
+							"academic_item_url": "/2023/units/FIT3171"
+						}
+					]
+				}
+			]
+		}
+	],
+	"unit_offering": [
+		{
+			"fees_domestic": "",
+			"publish": "true",
+			"location": {
+				"value": "Malaysia",
+				"cl_id": "7bf321e1db30a7406add773c3496192f",
+				"key": "name"
+			},
+			"name": "FIT3003-S2-01-ON-CAMPUS-MALAYSIA",
+			"clarification_to_appear_in_handbook": "",
+			"display_name": "S2-01-MALAYSIA-ON-CAMPUS",
+			"teaching_period": {
+				"value": "Second semester",
+				"cl_id": "85a429a1db30a7406add773c3496190d",
+				"key": "name"
+			},
+			"attendance_mode": {
+				"value": "On-campus",
+				"cl_id": "7bf2311bdb68a3406add773c349619bb",
+				"key": "description"
+			},
+			"quota_number": "",
+			"study_level": {
+				"label": null,
+				"value": null
+			},
+			"offered": "true",
+			"self_enrol": "true",
+			"academic_item": {
+				"value": "FIT3003",
+				"cl_id": "07dc6095db2cfd90101196cbd39619a4",
+				"key": "code"
+			},
+			"fees_commonwealth": "",
+			"fees_international": "",
+			"course_restrictions": "",
+			"cl_id": "c3dc6095db2cfd90101196cbd39619a9"
+		},
+		{
+			"fees_domestic": "",
+			"publish": "true",
+			"location": {
+				"value": "Clayton",
+				"cl_id": "37f321e1db30a7406add773c3496192e",
+				"key": "name"
+			},
+			"name": "FIT3003-S2-01-ON-CAMPUS-CLAYTON",
+			"clarification_to_appear_in_handbook": "",
+			"display_name": "S2-01-CLAYTON-ON-CAMPUS",
+			"teaching_period": {
+				"value": "Second semester",
+				"cl_id": "85a429a1db30a7406add773c3496190d",
+				"key": "name"
+			},
+			"attendance_mode": {
+				"value": "On-campus",
+				"cl_id": "7bf2311bdb68a3406add773c349619bb",
+				"key": "description"
+			},
+			"quota_number": "",
+			"study_level": {
+				"label": null,
+				"value": null
+			},
+			"offered": "true",
+			"self_enrol": "true",
+			"academic_item": {
+				"value": "FIT3003",
+				"cl_id": "07dc6095db2cfd90101196cbd39619a4",
+				"key": "code"
+			},
+			"fees_commonwealth": "",
+			"fees_international": "",
+			"course_restrictions": "",
+			"cl_id": "c7dc6095db2cfd90101196cbd39619a8"
+		}
+	],
+	"enrolment_rules_group": [],
+	"learning_resources_grouped": [
+		{
+			"type": "Technology resources",
+			"order": 2,
+			"resources": [
+				{
+					"description": "<p>ORACLE DBMS for applying the ETL process and building a star schema.</p>",
+					"type": {
+						"label": "Technology resources",
+						"value": "technology_resources"
+					},
+					"cl_id": "13dca095db2cfd90101196cbd3961904",
+					"academic_item": {
+						"value": "FIT3003",
+						"cl_id": "07dc6095db2cfd90101196cbd39619a4",
+						"key": "code"
+					},
+					"links": []
+				}
+			]
+		}
+	],
+	"study_abroad_unit": "Yes",
+	"academic_item_type": "Unit",
+	"learning_activities_grouped": [
+		{
+			"activity_type": "Laboratories",
+			"activities": [
+				{
+					"subject": {
+						"value": "FIT3003",
+						"cl_id": "07dc6095db2cfd90101196cbd39619a4",
+						"key": "code"
+					},
+					"cl_id": "1fdca095db2cfd90101196cbd3961905",
+					"order": "2",
+					"description": "",
+					"activity_type": {
+						"label": "Laboratories",
+						"value": "laboratory"
+					},
+					"duration_display": "24 hours",
+					"offerings_formatted_teaching_activities": "<ul><li>Applies to all offerings</li></ul>",
+					"links": []
+				}
+			]
+		},
+		{
+			"activity_type": "Lectures",
+			"activities": [
+				{
+					"subject": {
+						"value": "FIT3003",
+						"cl_id": "07dc6095db2cfd90101196cbd39619a4",
+						"key": "code"
+					},
+					"cl_id": "93dca095db2cfd90101196cbd3961906",
+					"order": "3",
+					"description": "",
+					"activity_type": {
+						"label": "Lectures",
+						"value": "lecture"
+					},
+					"duration_display": "24 hours",
+					"offerings_formatted_teaching_activities": "<ul><li>Applies to all offerings</li></ul>",
+					"links": []
+				}
+			]
+		}
+	],
+	"search_title": "FIT3003 - Business intelligence and data warehousing",
+	"unit_search_title": "FIT3003 - Business intelligence and data warehousing",
+	"teaching_approaches": [
+		{
+			"type": {
+				"label": "Active learning",
+				"value": "active_learning"
+			},
+			"academic_item": {
+				"value": "FIT3003",
+				"cl_id": "07dc6095db2cfd90101196cbd39619a4",
+				"key": "code"
+			},
+			"cl_id": "4bdca095db2cfd90101196cbd3961903",
+			"description": "<p>&nbsp;</p>",
+			"links": []
+		}
+	],
+	"handbook_statement": null,
+	"academic_contact_roles": [
+		{
+			"role": "Unit Coordinator(s)",
+			"contacts": [
+				{
+					"active": "true",
+					"contact_department": "",
+					"start_date": "",
+					"offering": {
+						"value": "",
+						"cl_id": null,
+						"key": "display_name"
+					},
+					"contact_role": {
+						"label": "Unit Coordinator",
+						"value": "unit_coordinator"
+					},
+					"contact_name": "Agnes Haryanto",
+					"role_detail": "",
+					"contact_organisation": "",
+					"contact_title": "",
+					"order": "1",
+					"contact_phone": "",
+					"end_date": "",
+					"location": {
+						"value": "",
+						"cl_id": null,
+						"key": "name"
+					},
+					"contact_email": "Agnes.Haryanto@monash.edu",
+					"contact_url": "",
+					"user": {
+						"value": "Agnes Haryanto",
+						"cl_id": "c9c183dcdb78b300580f42a014961928",
+						"key": ""
+					},
+					"offerings": [
+						{
+							"value": "S2-01-CLAYTON-ON-CAMPUS",
+							"cl_id": "c7dc6095db2cfd90101196cbd39619a8",
+							"key": "display_name"
+						}
+					],
+					"applies_to_all_offerings": "false",
+					"linking_id": "cf5a236a1b854510f1eca68b274bcbcf",
+					"cl_id": "0bdc6095db2cfd90101196cbd39619a9",
+					"display_details": "Agnes.Haryanto@monash.edu",
+					"display_name": "Agnes Haryanto ",
+					"offerings_formatted_contact": "<ul><li>Second semester, Clayton, On-campus</li></ul>",
+					"display_role_plural": "Unit Coordinator(s)",
+					"links": []
+				},
+				{
+					"active": "true",
+					"contact_department": "",
+					"start_date": "",
+					"offering": {
+						"value": "",
+						"cl_id": null,
+						"key": "display_name"
+					},
+					"contact_role": {
+						"label": "Unit Coordinator",
+						"value": "unit_coordinator"
+					},
+					"contact_name": "Soon Lay Ki",
+					"role_detail": "(Malaysia)",
+					"contact_organisation": "",
+					"contact_title": "Dr",
+					"order": "0",
+					"contact_phone": "",
+					"end_date": "",
+					"location": {
+						"value": "",
+						"cl_id": null,
+						"key": "name"
+					},
+					"contact_email": "Soon.LayKi@monash.edu",
+					"contact_url": "",
+					"user": {
+						"value": "Soon Lay Ki",
+						"cl_id": "2bee0600db6ed090ffb02c5305961946",
+						"key": ""
+					},
+					"offerings": [
+						{
+							"value": "S2-01-MALAYSIA-ON-CAMPUS",
+							"cl_id": "c3dc6095db2cfd90101196cbd39619a9",
+							"key": "display_name"
+						}
+					],
+					"applies_to_all_offerings": "false",
+					"linking_id": "0f20b17ddb6b5090a786cd043a961985",
+					"cl_id": "83dc6095db2cfd90101196cbd39619aa",
+					"display_details": "Soon.LayKi@monash.edu",
+					"display_name": "Dr Soon Lay Ki ",
+					"offerings_formatted_contact": "<ul><li>Second semester, Malaysia, On-campus</li></ul>",
+					"display_role_plural": "Unit Coordinator(s)",
+					"links": []
+				}
+			]
+		},
+		{
+			"role": "Chief Examiner(s)",
+			"contacts": [
+				{
+					"active": "false",
+					"contact_department": "",
+					"start_date": "",
+					"offering": {
+						"value": "",
+						"cl_id": null,
+						"key": "display_name"
+					},
+					"contact_role": {
+						"label": "Chief Examiner",
+						"value": "chief_examiner"
+					},
+					"contact_name": "David Taniar",
+					"role_detail": "",
+					"contact_organisation": "",
+					"contact_title": "Associate Professor",
+					"order": "",
+					"contact_phone": "",
+					"end_date": "",
+					"location": {
+						"value": "",
+						"cl_id": null,
+						"key": "name"
+					},
+					"contact_email": "David.Taniar@monash.edu",
+					"contact_url": "",
+					"user": {
+						"value": "David Taniar",
+						"cl_id": "1ad1cfdcdb78b300580f42a014961906",
+						"key": ""
+					},
+					"offerings": [],
+					"applies_to_all_offerings": "true",
+					"linking_id": "c6c7f455dbc13f003a731c0e049619fd",
+					"cl_id": "4bdca095db2cfd90101196cbd3961901",
+					"display_details": "David.Taniar@monash.edu",
+					"display_name": "Associate Professor David Taniar ",
+					"offerings_formatted_contact": "<ul><li>Applies to all offerings</ul></li>",
+					"display_role_plural": "Chief Examiner(s)",
+					"links": []
+				}
+			]
+		}
+	],
+	"links": [],
+	"yearSwitcher": [
+		{
+			"label": "2020",
+			"value": "2020",
+			"href": "/2020/units/FIT3003?year=2020"
+		},
+		{
+			"label": "2021",
+			"value": "2021",
+			"href": "/2021/units/FIT3003?year=2021"
+		},
+		{
+			"label": "2022",
+			"value": "2022",
+			"href": "/2022/units/FIT3003?year=2022"
+		},
+		{
+			"label": "2023",
+			"value": "2023",
+			"href": "/2023/units/FIT3003?year=2023"
+		}
+	],
+	"university": "Monash University"
+}

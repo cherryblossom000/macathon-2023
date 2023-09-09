@@ -5,6 +5,7 @@
 		"Summer semester B",
 		"First semester"
 	],
+	"enrolmentRules": [],
 	"requisites": [
 		{
 			"type": "prohibitions",

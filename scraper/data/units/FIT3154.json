@@ -4,6 +4,9 @@
 	"offerings": [
 		"Second semester"
 	],
+	"enrolmentRules": [
+		"<p>Prerequisite: Or related statistical background</p>"
+	],
 	"requisites": [
 		{
 			"type": "prerequisite",

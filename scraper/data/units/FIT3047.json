@@ -5,5 +5,9 @@
 		"Second semester",
 		"First semester"
 	],
+	"enrolmentRules": [
+		"<p>Prerequisites:</p>\n<p>For students in the Bachelor of Information Technology (C2000) and BCIS (4307): (One of FIT1045, FIT1048, FIT1051 or FIT1053) and FIT1047 and FIT1049 and (one of FIT2099 or FIT2001) and FIT2002 and (one of FIT2094 or FIT3171) and (12 points of FIT units at level 1) and (12 points of FIT units at level 2 or 3) and must be core in the student's degree program and completion of a total of 90 points towards the degree.</p>",
+		"<p>Prohibitions: FIT2032, FIT3039, FIT3040, FIT3045,</p>"
+	],
 	"requisites": []
 }

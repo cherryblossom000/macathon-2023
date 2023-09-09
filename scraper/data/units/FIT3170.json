@@ -5,6 +5,7 @@
 		"Full year",
 		"Second semester to Summer semester A"
 	],
+	"enrolmentRules": [],
 	"requisites": [
 		{
 			"type": "prerequisite",

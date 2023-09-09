@@ -4,6 +4,9 @@
 	"offerings": [
 		"Second semester"
 	],
+	"enrolmentRules": [
+		"<p>Prerequisite: MTH1010 or VCE Mathematics Methods or Specialist Mathematics units 3 &amp; 4 with a study score of 25 or equivalent.</p>"
+	],
 	"requisites": [
 		{
 			"type": "prohibitions",

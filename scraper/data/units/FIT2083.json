@@ -4,6 +4,7 @@
 	"offerings": [
 		"First semester"
 	],
+	"enrolmentRules": [],
 	"requisites": [
 		{
 			"type": "prerequisite",

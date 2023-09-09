@@ -4,6 +4,9 @@
 	"offerings": [
 		"First semester"
 	],
+	"enrolmentRules": [
+		"<p>Students should have an understanding of database concepts and SQL and Python programming background.</p>"
+	],
 	"requisites": [
 		{
 			"type": "prerequisite",

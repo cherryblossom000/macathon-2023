@@ -1,0 +1,872 @@
+{
+	"contentTypeLabel": "Unit",
+	"published_in_handbook": {
+		"label": "Yes",
+		"value": "1"
+	},
+	"implementation_year": "2023",
+	"duration_ft_max": "",
+	"asced_detailed": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"grading_schema": {
+		"label": null,
+		"value": null
+	},
+	"study_level": [],
+	"quota_enrolment_requirements": "",
+	"status": {
+		"label": "Accredited",
+		"value": "Active"
+	},
+	"duration_pt_max": "",
+	"duration_pt_std": "",
+	"credit_points": "6",
+	"parent_id": {
+		"value": "Master Record: FIT3182",
+		"cl_id": "36573affdb3f3b401092bd16f496196f",
+		"key": "code",
+		"type": "x_f5sl_cl_master_record"
+	},
+	"start_date": "",
+	"exclusions": "",
+	"unit_code": "FIT3182",
+	"academic_org": {
+		"value": "Faculty of Information Technology",
+		"cl_id": "c5684a53dba8a3406add773c349619a1",
+		"key": "name"
+	},
+	"sms_version": "",
+	"level": {
+		"label": "Level 3",
+		"value": "4"
+	},
+	"uac_code": "",
+	"special_requirements": "",
+	"duration_pt_min": "",
+	"special_unit_type": [],
+	"title": "Big data management and processing",
+	"duration_ft_std": "",
+	"version": "4",
+	"learning_experiences": null,
+	"duration_ft_min": "",
+	"callista_version": "",
+	"duration_ft_period": {
+		"label": null,
+		"value": null
+	},
+	"asced_narrow": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"subclass": {
+		"label": "Unit",
+		"value": "subject"
+	},
+	"type": {
+		"label": "Coursework",
+		"value": "600"
+	},
+	"quota_rationale": "",
+	"version_name": "2023.04",
+	"timetable_this_unit": "true",
+	"work_integrated_learning": [
+		{
+			"value": "None",
+			"cl_id": "8ef5d77bdb122300e5cf3391f496191d",
+			"key": "label"
+		}
+	],
+	"cl_id": "c94eb716dbcc35502bdd077cd39619f5",
+	"school": {
+		"value": "Faculty of Information Technology",
+		"cl_id": "c5684a53dba8a3406add773c349619a1",
+		"key": "name"
+	},
+	"content": null,
+	"learning_and_teaching_resources": null,
+	"collaborating_disciplines": [],
+	"repeatable": "false",
+	"overview": "",
+	"end_date": "",
+	"duration_pt_period": {
+		"label": null,
+		"value": null
+	},
+	"sms_status": {
+		"label": null,
+		"value": null
+	},
+	"learning_materials": null,
+	"special_topic": "false",
+	"asced_broad": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"publish_tuition_fees": "true",
+	"placement_proportion": {
+		"label": null,
+		"value": null
+	},
+	"code": "FIT3182",
+	"other_unit_costs": "",
+	"eftsl": {
+		"label": "0.125",
+		"value": "0.125"
+	},
+	"contact_information": "",
+	"highest_sca_band": {
+		"label": "SCA Band 2",
+		"value": "2"
+	},
+	"lo_additional_information": "<p>On successful completion of this unit, you should be able to:</p>",
+	"handbook_assessment_summary": "",
+	"quota_information": "",
+	"attendance_requirements": "",
+	"workload_requirements": "<p>Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled teaching activities.</p>",
+	"organisational_contact_information": "",
+	"handbook_synopsis": "<p>Data engineering is about developing the software (and hardware) infrastructure to support data science. This unit introduces software tools and techniques for data engineering, but not hardware. It will cover an introduction to big data processing, covering volume, variety, and velocity; large volume data processing using parallel technologies; variety data formats, including unstructured and semi-structured data, using NoSQL databases; and velocity data processing, covering data streaming.</p>",
+	"special_note_to_students": "",
+	"undergrad_postgrad_both": {
+		"label": "Undergraduate",
+		"value": "undergraduate"
+	},
+	"area_of_study_links": "",
+	"fieldwork": "",
+	"unit_learning_outcomes": [
+		{
+			"lo_domain": [],
+			"order": "1",
+			"number": "1",
+			"code": "ULO1",
+			"lo_cl_id": "194eb716dbcc35502bdd077cd39619fd",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "0059be73db7f3b401092bd16f49619ca",
+			"academic_item": {
+				"value": "FIT3182",
+				"cl_id": "c94eb716dbcc35502bdd077cd39619f5",
+				"key": "code"
+			},
+			"description": "<p>identify big data concepts and technologies;</p>",
+			"cl_id": "194eb716dbcc35502bdd077cd39619fd",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "4",
+			"number": "4",
+			"code": "ULO4",
+			"lo_cl_id": "554eb716dbcc35502bdd077cd39619fd",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "0ea9f2b3db7f3b401092bd16f49619ed",
+			"academic_item": {
+				"value": "FIT3182",
+				"cl_id": "c94eb716dbcc35502bdd077cd39619f5",
+				"key": "code"
+			},
+			"description": "<p>describe and compare NoSQL technologies;</p>",
+			"cl_id": "554eb716dbcc35502bdd077cd39619fd",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "5",
+			"number": "5",
+			"code": "ULO5",
+			"lo_cl_id": "914eb716dbcc35502bdd077cd39619fd",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "c1c9f2b3db7f3b401092bd16f49619ef",
+			"academic_item": {
+				"value": "FIT3182",
+				"cl_id": "c94eb716dbcc35502bdd077cd39619f5",
+				"key": "code"
+			},
+			"description": "<p>use big data streaming technologies.</p>",
+			"cl_id": "914eb716dbcc35502bdd077cd39619fd",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "3",
+			"number": "3",
+			"code": "ULO3",
+			"lo_cl_id": "d94eb716dbcc35502bdd077cd39619fc",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "cd8972b3db7f3b401092bd16f49619b9",
+			"academic_item": {
+				"value": "FIT3182",
+				"cl_id": "c94eb716dbcc35502bdd077cd39619f5",
+				"key": "code"
+			},
+			"description": "<p>use big data processing frameworks and technologies;</p>",
+			"cl_id": "d94eb716dbcc35502bdd077cd39619fc",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "2",
+			"number": "2",
+			"code": "ULO2",
+			"lo_cl_id": "d94eb716dbcc35502bdd077cd39619fd",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "f36972b3db7f3b401092bd16f49619b1",
+			"academic_item": {
+				"value": "FIT3182",
+				"cl_id": "c94eb716dbcc35502bdd077cd39619f5",
+				"key": "code"
+			},
+			"description": "<p>write and interpret parallel database processing algorithms and methods;</p>",
+			"cl_id": "d94eb716dbcc35502bdd077cd39619fd",
+			"ga_map": []
+		}
+	],
+	"school_org_unit_data": [
+		{
+			"parent": {
+				"value": "",
+				"cl_id": null,
+				"key": "name"
+			},
+			"url": "https://www.monash.edu/it",
+			"name": "Faculty of Information Technology",
+			"cl_id": "c5684a53dba8a3406add773c349619a1"
+		}
+	],
+	"assessments": [
+		{
+			"subject": {
+				"value": "FIT3182",
+				"cl_id": "c94eb716dbcc35502bdd077cd39619f5",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "3",
+			"weight": "10",
+			"cl_id": "114ef716dbcc35502bdd077cd396198b",
+			"assessment_name": "Quiz-2",
+			"description": null,
+			"assessment_type": {
+				"label": "Other",
+				"value": "other"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT3182",
+				"cl_id": "c94eb716dbcc35502bdd077cd39619f5",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "1",
+			"weight": "10",
+			"cl_id": "154ef716dbcc35502bdd077cd396198a",
+			"assessment_name": "Quiz-1 ",
+			"description": null,
+			"assessment_type": {
+				"label": "Other",
+				"value": "other"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT3182",
+				"cl_id": "c94eb716dbcc35502bdd077cd39619f5",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "4",
+			"weight": "25",
+			"cl_id": "5d4ef716dbcc35502bdd077cd396198a",
+			"assessment_name": "Assignment-2 ",
+			"description": null,
+			"assessment_type": {
+				"label": "Assignment",
+				"value": "assignment"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT3182",
+				"cl_id": "c94eb716dbcc35502bdd077cd39619f5",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "2",
+			"weight": "15",
+			"cl_id": "994ef716dbcc35502bdd077cd396198a",
+			"assessment_name": "Assignment-1",
+			"description": null,
+			"assessment_type": {
+				"label": "Assignment",
+				"value": "assignment"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT3182",
+				"cl_id": "c94eb716dbcc35502bdd077cd39619f5",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "6",
+			"weight": "30",
+			"cl_id": "d14ef716dbcc35502bdd077cd396198b",
+			"assessment_name": "Assignment-3 ",
+			"description": null,
+			"assessment_type": {
+				"label": "Assignment",
+				"value": "assignment"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT3182",
+				"cl_id": "c94eb716dbcc35502bdd077cd39619f5",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "5",
+			"weight": "10",
+			"cl_id": "d54ef716dbcc35502bdd077cd396198a",
+			"assessment_name": "Quiz-3 ",
+			"description": null,
+			"assessment_type": {
+				"label": "Other",
+				"value": "other"
+			},
+			"offerings_formatted": ""
+		}
+	],
+	"enrolment_rules": [
+		{
+			"description": "<p>Students should have an understanding of database concepts and SQL and Python programming background.</p>",
+			"academic_item": {
+				"value": "FIT3182",
+				"cl_id": "c94eb716dbcc35502bdd077cd39619f5",
+				"key": "code"
+			},
+			"type": {
+				"label": "Enrolment Rule",
+				"value": "info"
+			},
+			"cl_id": "514eb716dbcc35502bdd077cd39619fe"
+		}
+	],
+	"requisites": [
+		{
+			"academic_item_code": "FIT3182",
+			"active": "true",
+			"requisite_cl_id": "094eb716dbcc35502bdd077cd39619f8",
+			"description": "",
+			"requisite_type": {
+				"label": "Prerequisite",
+				"value": "prerequisite"
+			},
+			"cl_id": {
+				"value": "FIT3182",
+				"cl_id": "c94eb716dbcc35502bdd077cd39619f5",
+				"key": "code"
+			},
+			"academic_item_version_number": "2023.04",
+			"order": "1",
+			"start_date": "",
+			"end_date": "",
+			"container": [
+				{
+					"cl_id": "0d4ef716dbcc35502bdd077cd396196e",
+					"parent_container_table": "x_f5sl_cl_requisite",
+					"parent_record": {
+						"value": "Relationship Builder: FIT3182",
+						"cl_id": "094eb716dbcc35502bdd077cd39619f8",
+						"key": "academic_item",
+						"type": "x_f5sl_cl_requisite"
+					},
+					"title": "Container 1",
+					"parent_connector": {
+						"label": "AND",
+						"value": "AND"
+					},
+					"containers": [
+						{
+							"cl_id": "c54ef716dbcc35502bdd077cd396196f",
+							"parent_container_table": "x_f5sl_cl_relationship_groups",
+							"parent_record": {
+								"value": "Relationship Groups: Container 1",
+								"cl_id": "0d4ef716dbcc35502bdd077cd396196e",
+								"key": "title",
+								"type": "x_f5sl_cl_relationship_groups"
+							},
+							"title": "Container 1.2",
+							"parent_connector": {
+								"label": "OR",
+								"value": "OR"
+							},
+							"containers": [],
+							"relationships": [
+								{
+									"academic_item": {
+										"value": "Unit: FIT2094",
+										"cl_id": "69b6416ddb973f8082e291f38a961950",
+										"key": "code",
+										"type": "x_f5sl_cl_subjects"
+									},
+									"parent_record": {
+										"value": "Container 1.2",
+										"cl_id": "c54ef716dbcc35502bdd077cd396196f",
+										"key": "title"
+									},
+									"order": "3",
+									"cl_id": "69b6416ddb973f8082e291f38a961950",
+									"academic_item_type": {
+										"label": "Unit",
+										"value": "subject"
+									},
+									"abbr_name": "DATABASES",
+									"academic_item_version_name": "2020.01RO",
+									"academic_item_credit_points": "6",
+									"abbreviated_name_and_major": null,
+									"academic_item_name": "Databases",
+									"academic_item_code": "FIT2094",
+									"academic_item_url": "/2020/units/FIT2094"
+								},
+								{
+									"academic_item": {
+										"value": "Unit: FIT3171",
+										"cl_id": "c56649a9db973f8082e291f38a9619ba",
+										"key": "code",
+										"type": "x_f5sl_cl_subjects"
+									},
+									"parent_record": {
+										"value": "Container 1.2",
+										"cl_id": "c54ef716dbcc35502bdd077cd396196f",
+										"key": "title"
+									},
+									"order": "4",
+									"cl_id": "c56649a9db973f8082e291f38a9619ba",
+									"academic_item_type": {
+										"label": "Unit",
+										"value": "subject"
+									},
+									"abbr_name": "DB",
+									"academic_item_version_name": "2020.01RO",
+									"academic_item_credit_points": "6",
+									"abbreviated_name_and_major": null,
+									"academic_item_name": "Databases",
+									"academic_item_code": "FIT3171",
+									"academic_item_url": "/2020/units/FIT3171"
+								}
+							]
+						}
+					],
+					"relationships": [
+						{
+							"academic_item": {
+								"value": "Unit: FIT2004",
+								"cl_id": "c39c8deddb1b3f8082e291f38a9619e5",
+								"key": "code",
+								"type": "x_f5sl_cl_subjects"
+							},
+							"parent_record": {
+								"value": "Container 1",
+								"cl_id": "0d4ef716dbcc35502bdd077cd396196e",
+								"key": "title"
+							},
+							"order": "5",
+							"cl_id": "c39c8deddb1b3f8082e291f38a9619e5",
+							"academic_item_type": {
+								"label": "Unit",
+								"value": "subject"
+							},
+							"abbr_name": "A&DS",
+							"academic_item_version_name": "2020.01RO",
+							"academic_item_credit_points": "6",
+							"abbreviated_name_and_major": null,
+							"academic_item_name": "Algorithms and data structures",
+							"academic_item_code": "FIT2004",
+							"academic_item_url": "/2020/units/FIT2004"
+						}
+					]
+				}
+			]
+		}
+	],
+	"unit_offering": [
+		{
+			"fees_domestic": "",
+			"publish": "true",
+			"location": {
+				"value": "Clayton",
+				"cl_id": "37f321e1db30a7406add773c3496192e",
+				"key": "name"
+			},
+			"name": "FIT3182-S1-01-ON-CAMPUS-CLAYTON",
+			"clarification_to_appear_in_handbook": "",
+			"display_name": "S1-01-CLAYTON-ON-CAMPUS",
+			"teaching_period": {
+				"value": "First semester",
+				"cl_id": "0da429a1db30a7406add773c3496190c",
+				"key": "name"
+			},
+			"attendance_mode": {
+				"value": "On-campus",
+				"cl_id": "7bf2311bdb68a3406add773c349619bb",
+				"key": "description"
+			},
+			"quota_number": "",
+			"study_level": {
+				"label": null,
+				"value": null
+			},
+			"offered": "true",
+			"self_enrol": "true",
+			"academic_item": {
+				"value": "FIT3182",
+				"cl_id": "c94eb716dbcc35502bdd077cd39619f5",
+				"key": "code"
+			},
+			"fees_commonwealth": "",
+			"fees_international": "",
+			"course_restrictions": "",
+			"cl_id": "894eb716dbcc35502bdd077cd39619fa"
+		},
+		{
+			"fees_domestic": "",
+			"publish": "true",
+			"location": {
+				"value": "Malaysia",
+				"cl_id": "7bf321e1db30a7406add773c3496192f",
+				"key": "name"
+			},
+			"name": "FIT3182-S1-01-ON-CAMPUS-MALAYSIA",
+			"clarification_to_appear_in_handbook": "",
+			"display_name": "S1-01-MALAYSIA-ON-CAMPUS",
+			"teaching_period": {
+				"value": "First semester",
+				"cl_id": "0da429a1db30a7406add773c3496190c",
+				"key": "name"
+			},
+			"attendance_mode": {
+				"value": "On-campus",
+				"cl_id": "7bf2311bdb68a3406add773c349619bb",
+				"key": "description"
+			},
+			"quota_number": "",
+			"study_level": {
+				"label": null,
+				"value": null
+			},
+			"offered": "true",
+			"self_enrol": "true",
+			"academic_item": {
+				"value": "FIT3182",
+				"cl_id": "c94eb716dbcc35502bdd077cd39619f5",
+				"key": "code"
+			},
+			"fees_commonwealth": "",
+			"fees_international": "",
+			"course_restrictions": "",
+			"cl_id": "8d4eb716dbcc35502bdd077cd39619f9"
+		}
+	],
+	"enrolment_rules_group": [
+		{
+			"rule_group": "Enrolment Rule",
+			"rules": [
+				{
+					"description": "<p>Students should have an understanding of database concepts and SQL and Python programming background.</p>",
+					"academic_item": {
+						"value": "FIT3182",
+						"cl_id": "c94eb716dbcc35502bdd077cd39619f5",
+						"key": "code"
+					},
+					"type": {
+						"label": "Enrolment Rule",
+						"value": "info"
+					},
+					"cl_id": "514eb716dbcc35502bdd077cd39619fe",
+					"links": []
+				}
+			]
+		}
+	],
+	"learning_resources_grouped": [],
+	"study_abroad_unit": "Yes",
+	"academic_item_type": "Unit",
+	"learning_activities_grouped": [
+		{
+			"activity_type": "Laboratories",
+			"activities": [
+				{
+					"subject": {
+						"value": "FIT3182",
+						"cl_id": "c94eb716dbcc35502bdd077cd39619f5",
+						"key": "code"
+					},
+					"cl_id": "594ef716dbcc35502bdd077cd3961989",
+					"order": "",
+					"description": "",
+					"activity_type": {
+						"label": "Laboratories",
+						"value": "laboratory"
+					},
+					"duration_display": "24 hours",
+					"offerings_formatted_teaching_activities": "<ul><li>Applies to all offerings</li></ul>",
+					"links": []
+				}
+			]
+		},
+		{
+			"activity_type": "Lectures",
+			"activities": [
+				{
+					"subject": {
+						"value": "FIT3182",
+						"cl_id": "c94eb716dbcc35502bdd077cd39619f5",
+						"key": "code"
+					},
+					"cl_id": "dd4ef716dbcc35502bdd077cd3961989",
+					"order": "",
+					"description": "",
+					"activity_type": {
+						"label": "Lectures",
+						"value": "lecture"
+					},
+					"duration_display": "24 hours",
+					"offerings_formatted_teaching_activities": "<ul><li>Applies to all offerings</li></ul>",
+					"links": []
+				}
+			]
+		}
+	],
+	"search_title": "FIT3182 - Big data management and processing",
+	"unit_search_title": "FIT3182 - Big data management and processing",
+	"teaching_approaches": [
+		{
+			"type": {
+				"label": "Active learning",
+				"value": "active_learning"
+			},
+			"academic_item": {
+				"value": "FIT3182",
+				"cl_id": "c94eb716dbcc35502bdd077cd39619f5",
+				"key": "code"
+			},
+			"cl_id": "5d4ef716dbcc35502bdd077cd3961987",
+			"description": "&nbsp;",
+			"links": []
+		}
+	],
+	"handbook_statement": null,
+	"academic_contact_roles": [
+		{
+			"role": "Chief Examiner(s)",
+			"contacts": [
+				{
+					"active": "true",
+					"contact_department": "",
+					"start_date": "",
+					"offering": {
+						"value": "",
+						"cl_id": null,
+						"key": "display_name"
+					},
+					"contact_role": {
+						"label": "Chief Examiner",
+						"value": "chief_examiner"
+					},
+					"contact_name": "David Taniar",
+					"role_detail": "",
+					"contact_organisation": "",
+					"contact_title": "Associate Professor",
+					"order": "0",
+					"contact_phone": "",
+					"end_date": "",
+					"location": {
+						"value": "",
+						"cl_id": null,
+						"key": "name"
+					},
+					"contact_email": "David.Taniar@monash.edu",
+					"contact_url": "",
+					"user": {
+						"value": "David Taniar",
+						"cl_id": "1ad1cfdcdb78b300580f42a014961906",
+						"key": ""
+					},
+					"offerings": [],
+					"applies_to_all_offerings": "true",
+					"linking_id": "3cf7b633db7f3b401092bd16f496198e",
+					"cl_id": "554eb716dbcc35502bdd077cd39619fc",
+					"display_details": "David.Taniar@monash.edu",
+					"display_name": "Associate Professor David Taniar ",
+					"offerings_formatted_contact": "<ul><li>Applies to all offerings</ul></li>",
+					"display_role_plural": "Chief Examiner(s)",
+					"links": []
+				}
+			]
+		},
+		{
+			"role": "Unit Coordinator(s)",
+			"contacts": [
+				{
+					"active": "true",
+					"contact_department": "",
+					"start_date": "",
+					"offering": {
+						"value": "",
+						"cl_id": null,
+						"key": "display_name"
+					},
+					"contact_role": {
+						"label": "Unit Coordinator",
+						"value": "unit_coordinator"
+					},
+					"contact_name": "Lei Yang",
+					"role_detail": "",
+					"contact_organisation": "",
+					"contact_title": "Dr",
+					"order": "1",
+					"contact_phone": "",
+					"end_date": "",
+					"location": {
+						"value": "",
+						"cl_id": null,
+						"key": "name"
+					},
+					"contact_email": "Lei.Yang@monash.edu",
+					"contact_url": "",
+					"user": {
+						"value": "Lei Yang",
+						"cl_id": "95f18b10dbb8b300580f42a0149619aa",
+						"key": ""
+					},
+					"offerings": [
+						{
+							"value": "S1-01-CLAYTON-ON-CAMPUS",
+							"cl_id": "894eb716dbcc35502bdd077cd39619fa",
+							"key": "display_name"
+						}
+					],
+					"applies_to_all_offerings": "false",
+					"linking_id": "8842b8361b0d4510f1eca68b274bcbf9",
+					"cl_id": "5d4eb716dbcc35502bdd077cd39619fb",
+					"display_details": "Lei.Yang@monash.edu",
+					"display_name": "Dr Lei Yang ",
+					"offerings_formatted_contact": "<ul><li>First semester, Clayton, On-campus</li></ul>",
+					"display_role_plural": "Unit Coordinator(s)",
+					"links": []
+				},
+				{
+					"active": "true",
+					"contact_department": "",
+					"start_date": "",
+					"offering": {
+						"value": "",
+						"cl_id": null,
+						"key": "display_name"
+					},
+					"contact_role": {
+						"label": "Unit Coordinator",
+						"value": "unit_coordinator"
+					},
+					"contact_name": "Vishnu Monn",
+					"role_detail": "(Malaysia)",
+					"contact_organisation": "",
+					"contact_title": "Dr",
+					"order": "0",
+					"contact_phone": "",
+					"end_date": "",
+					"location": {
+						"value": "",
+						"cl_id": null,
+						"key": "name"
+					},
+					"contact_email": "Vishnu.Monn@monash.edu",
+					"contact_url": "",
+					"user": {
+						"value": "Vishnu Monn",
+						"cl_id": "6278eb571b6bcc144a942f002d4bcbea",
+						"key": ""
+					},
+					"offerings": [
+						{
+							"value": "S1-01-MALAYSIA-ON-CAMPUS",
+							"cl_id": "8d4eb716dbcc35502bdd077cd39619f9",
+							"key": "display_name"
+						}
+					],
+					"applies_to_all_offerings": "false",
+					"linking_id": "698142591b566450653b206b274bcbce",
+					"cl_id": "cd4eb716dbcc35502bdd077cd39619fa",
+					"display_details": "Vishnu.Monn@monash.edu",
+					"display_name": "Dr Vishnu Monn ",
+					"offerings_formatted_contact": "<ul><li>First semester, Malaysia, On-campus</li></ul>",
+					"display_role_plural": "Unit Coordinator(s)",
+					"links": []
+				}
+			]
+		}
+	],
+	"links": [],
+	"yearSwitcher": [
+		{
+			"label": "2020",
+			"value": "2020",
+			"href": "/2020/units/FIT3182?year=2020"
+		},
+		{
+			"label": "2021",
+			"value": "2021",
+			"href": "/2021/units/FIT3182?year=2021"
+		},
+		{
+			"label": "2022",
+			"value": "2022",
+			"href": "/2022/units/FIT3182?year=2022"
+		},
+		{
+			"label": "2023",
+			"value": "2023",
+			"href": "/2023/units/FIT3182?year=2023"
+		}
+	],
+	"university": "Monash University"
+}

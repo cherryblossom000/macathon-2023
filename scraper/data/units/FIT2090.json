@@ -4,5 +4,8 @@
 	"offerings": [
 		"Second semester"
 	],
+	"enrolmentRules": [
+		"<p>Prerequisite: Completion of 24 points of FIT or BusEco units at level 1.</p>"
+	],
 	"requisites": []
 }

@@ -5,6 +5,9 @@
 		"First semester",
 		"Second semester"
 	],
+	"enrolmentRules": [
+		"<p>Prohibitions: FIT2032, ,FIT3039, FIT3040, FIT3045</p>"
+	],
 	"requisites": [
 		{
 			"type": "prerequisite",

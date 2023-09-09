@@ -1,0 +1,617 @@
+{
+	"contentTypeLabel": "Unit",
+	"published_in_handbook": {
+		"label": "Yes",
+		"value": "1"
+	},
+	"implementation_year": "2023",
+	"duration_ft_max": "",
+	"asced_detailed": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"grading_schema": {
+		"label": null,
+		"value": null
+	},
+	"study_level": [],
+	"quota_enrolment_requirements": "",
+	"status": {
+		"label": "Accredited",
+		"value": "Active"
+	},
+	"duration_pt_max": "",
+	"duration_pt_std": "",
+	"credit_points": "6",
+	"parent_id": {
+		"value": "Master Record: FIT3183",
+		"cl_id": "0ddfd2631b5450544a942f002d4bcb7f",
+		"key": "code",
+		"type": "x_f5sl_cl_master_record"
+	},
+	"start_date": "",
+	"exclusions": "",
+	"unit_code": "FIT3183",
+	"academic_org": {
+		"value": "Faculty of Information Technology",
+		"cl_id": "c5684a53dba8a3406add773c349619a1",
+		"key": "name"
+	},
+	"sms_version": "",
+	"level": {
+		"label": "Level 3",
+		"value": "4"
+	},
+	"uac_code": "",
+	"special_requirements": "",
+	"duration_pt_min": "",
+	"special_unit_type": [],
+	"title": "Malicious AI and dark side security",
+	"duration_ft_std": "",
+	"version": "4",
+	"learning_experiences": null,
+	"duration_ft_min": "",
+	"callista_version": "",
+	"duration_ft_period": {
+		"label": null,
+		"value": null
+	},
+	"asced_narrow": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"subclass": {
+		"label": "Unit",
+		"value": "subject"
+	},
+	"type": {
+		"label": "Coursework",
+		"value": "600"
+	},
+	"quota_rationale": "",
+	"version_name": "2023.04",
+	"timetable_this_unit": "true",
+	"work_integrated_learning": [
+		{
+			"value": "None",
+			"cl_id": "8ef5d77bdb122300e5cf3391f496191d",
+			"key": "label"
+		}
+	],
+	"cl_id": "afbe3356dbcc35502bdd077cd3961925",
+	"school": {
+		"value": "Faculty of Information Technology",
+		"cl_id": "c5684a53dba8a3406add773c349619a1",
+		"key": "name"
+	},
+	"content": null,
+	"learning_and_teaching_resources": null,
+	"collaborating_disciplines": [],
+	"repeatable": "false",
+	"overview": "",
+	"end_date": "",
+	"duration_pt_period": {
+		"label": null,
+		"value": null
+	},
+	"sms_status": {
+		"label": null,
+		"value": null
+	},
+	"learning_materials": null,
+	"special_topic": "false",
+	"asced_broad": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"publish_tuition_fees": "true",
+	"placement_proportion": {
+		"label": null,
+		"value": null
+	},
+	"code": "FIT3183",
+	"other_unit_costs": "",
+	"eftsl": {
+		"label": "0.125",
+		"value": "0.125"
+	},
+	"contact_information": "",
+	"highest_sca_band": {
+		"label": "SCA Band 2",
+		"value": "2"
+	},
+	"lo_additional_information": "<p>On successful completion of this unit, you should be able to:</p>",
+	"handbook_assessment_summary": "<p>This unit has threshold mark hurdles. You must achieve at least 45% of the available marks in the final scheduled assessment, at least 45% in total for in-semester assessments, and an overall unit mark of 50% or more to be able to pass the unit. If you do not achieve the threshold mark, you will receive a fail grade (NH) and a maximum mark of 45 for the unit.</p>",
+	"quota_information": "",
+	"attendance_requirements": "",
+	"workload_requirements": "<p>Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled teaching activities.</p>",
+	"organisational_contact_information": "",
+	"handbook_synopsis": "<p>In this unit you will learn first-hand some of the required skills of a Chief Security Officer. You will be exposed to the latest technologies deployed by attackers against AI and security, and mechanisms to counter these malicious activities. This unit gives you the opportunity to engage in role-playing case studies wherein you will be required to participate against other students in a security warfare: security vs anti-security technologies, such as, deepfakes vs anti-deepfakes, forensics vs counter forensics.</p>",
+	"special_note_to_students": "",
+	"undergrad_postgrad_both": {
+		"label": "Undergraduate",
+		"value": "undergraduate"
+	},
+	"area_of_study_links": "",
+	"fieldwork": "",
+	"unit_learning_outcomes": [
+		{
+			"lo_domain": [],
+			"order": "2",
+			"number": "2",
+			"code": "ULO2",
+			"lo_cl_id": "37be3356dbcc35502bdd077cd396192c",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "e773ea2f1b5450544a942f002d4bcbc0",
+			"academic_item": {
+				"value": "FIT3183",
+				"cl_id": "afbe3356dbcc35502bdd077cd3961925",
+				"key": "code"
+			},
+			"description": "<p>implement counter-anti-security technologies to combat the anti-security techniques deployed by attackers.</p>",
+			"cl_id": "37be3356dbcc35502bdd077cd396192c",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "3",
+			"number": "3",
+			"code": "ULO3",
+			"lo_cl_id": "73be3356dbcc35502bdd077cd396192c",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "6593ee2f1b5450544a942f002d4bcb1d",
+			"academic_item": {
+				"value": "FIT3183",
+				"cl_id": "afbe3356dbcc35502bdd077cd3961925",
+				"key": "code"
+			},
+			"description": "<p>design and deploy security or anti-security techniques in real-world situations.</p>",
+			"cl_id": "73be3356dbcc35502bdd077cd396192c",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "5",
+			"number": "5",
+			"code": "ULO5",
+			"lo_cl_id": "bbbe3356dbcc35502bdd077cd396192b",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "13a3226f1b5450544a942f002d4bcbb0",
+			"academic_item": {
+				"value": "FIT3183",
+				"cl_id": "afbe3356dbcc35502bdd077cd3961925",
+				"key": "code"
+			},
+			"description": "<p>explain the ethical principles between the dark side and cybersecurity for social good.</p>",
+			"cl_id": "bbbe3356dbcc35502bdd077cd396192b",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "1",
+			"number": "1",
+			"code": "ULO1",
+			"lo_cl_id": "bbbe3356dbcc35502bdd077cd396192c",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "2f53662f1b5450544a942f002d4bcb9e",
+			"academic_item": {
+				"value": "FIT3183",
+				"cl_id": "afbe3356dbcc35502bdd077cd3961925",
+				"key": "code"
+			},
+			"description": "<p>identify and evaluate malicious technologies deployed by attackers against AI and security such as adversarial machine learning, deepfakes, ransomware, kleptography, cryptovirology, covert exfiltration, anti-forensics, subversion.</p>",
+			"cl_id": "bbbe3356dbcc35502bdd077cd396192c",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "4",
+			"number": "4",
+			"code": "ULO4",
+			"lo_cl_id": "f7be3356dbcc35502bdd077cd396192c",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "1ca3226f1b5450544a942f002d4bcbae",
+			"academic_item": {
+				"value": "FIT3183",
+				"cl_id": "afbe3356dbcc35502bdd077cd3961925",
+				"key": "code"
+			},
+			"description": "<p>critically assess the level of security offered by existing AI and security systems.</p>",
+			"cl_id": "f7be3356dbcc35502bdd077cd396192c",
+			"ga_map": []
+		}
+	],
+	"school_org_unit_data": [
+		{
+			"parent": {
+				"value": "",
+				"cl_id": null,
+				"key": "name"
+			},
+			"url": "https://www.monash.edu/it",
+			"name": "Faculty of Information Technology",
+			"cl_id": "c5684a53dba8a3406add773c349619a1"
+		}
+	],
+	"assessments": [
+		{
+			"subject": {
+				"value": "FIT3183",
+				"cl_id": "afbe3356dbcc35502bdd077cd3961925",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": "Threshold",
+				"value": "threshold"
+			},
+			"hurdle_supplementary_assessment": "<p>This task is part of the in-semester assessment hurdle.</p>",
+			"number": "4",
+			"weight": "10",
+			"cl_id": "37be3356dbcc35502bdd077cd39619ab",
+			"assessment_name": "Assignment Milestone 4",
+			"description": null,
+			"assessment_type": {
+				"label": "Assignment",
+				"value": "assignment"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT3183",
+				"cl_id": "afbe3356dbcc35502bdd077cd3961925",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": "Threshold",
+				"value": "threshold"
+			},
+			"hurdle_supplementary_assessment": "<p>This task is part of the in-semester assessment hurdle.</p>",
+			"number": "3",
+			"weight": "20",
+			"cl_id": "37be3356dbcc35502bdd077cd39619ac",
+			"assessment_name": "Assignment Milestone 3",
+			"description": null,
+			"assessment_type": {
+				"label": "Assignment",
+				"value": "assignment"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT3183",
+				"cl_id": "afbe3356dbcc35502bdd077cd3961925",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": "Threshold",
+				"value": "threshold"
+			},
+			"hurdle_supplementary_assessment": "<p>This task is part of the in-semester assessment hurdle.</p>\n<p> </p>",
+			"number": "2",
+			"weight": "8",
+			"cl_id": "73be3356dbcc35502bdd077cd39619ac",
+			"assessment_name": "Assignment Milestone 2",
+			"description": null,
+			"assessment_type": {
+				"label": "Assignment",
+				"value": "assignment"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT3183",
+				"cl_id": "afbe3356dbcc35502bdd077cd3961925",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": "Threshold",
+				"value": "threshold"
+			},
+			"hurdle_supplementary_assessment": "<p>The scheduled final assessment is a hurdle.</p>",
+			"number": "5",
+			"weight": "60",
+			"cl_id": "bfbe3356dbcc35502bdd077cd39619ab",
+			"assessment_name": "Scheduled final assessment (2 hours and 10 mins)",
+			"description": null,
+			"assessment_type": {
+				"label": "Exam",
+				"value": "exam"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT3183",
+				"cl_id": "afbe3356dbcc35502bdd077cd3961925",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": "Threshold",
+				"value": "threshold"
+			},
+			"hurdle_supplementary_assessment": "<p>This task is part of the in-semester assessment hurdle.</p>\n<p> </p>",
+			"number": "1",
+			"weight": "2",
+			"cl_id": "fbbe3356dbcc35502bdd077cd39619ab",
+			"assessment_name": "Assignment Milestone 1",
+			"description": null,
+			"assessment_type": {
+				"label": "Assignment",
+				"value": "assignment"
+			},
+			"offerings_formatted": ""
+		}
+	],
+	"enrolment_rules": [],
+	"requisites": [
+		{
+			"academic_item_code": "FIT3183",
+			"active": "true",
+			"requisite_cl_id": "fbbe3356dbcc35502bdd077cd3961928",
+			"description": "",
+			"requisite_type": {
+				"label": "Prerequisite",
+				"value": "prerequisite"
+			},
+			"cl_id": {
+				"value": "FIT3183",
+				"cl_id": "afbe3356dbcc35502bdd077cd3961925",
+				"key": "code"
+			},
+			"academic_item_version_number": "2023.04",
+			"order": "1",
+			"start_date": "",
+			"end_date": "",
+			"container": [
+				{
+					"cl_id": "7fbe3356dbcc35502bdd077cd3961941",
+					"parent_container_table": "x_f5sl_cl_requisite",
+					"parent_record": {
+						"value": "Relationship Builder: FIT3183",
+						"cl_id": "fbbe3356dbcc35502bdd077cd3961928",
+						"key": "academic_item",
+						"type": "x_f5sl_cl_requisite"
+					},
+					"title": "Container 1",
+					"parent_connector": {
+						"label": "AND",
+						"value": "AND"
+					},
+					"containers": [],
+					"relationships": [
+						{
+							"academic_item": {
+								"value": "Unit: FIT2093",
+								"cl_id": "db2b04061b5414144a942f002d4bcb2c",
+								"key": "code",
+								"type": "x_f5sl_cl_subjects"
+							},
+							"parent_record": {
+								"value": "Container 1",
+								"cl_id": "7fbe3356dbcc35502bdd077cd3961941",
+								"key": "title"
+							},
+							"order": "3",
+							"cl_id": "db2b04061b5414144a942f002d4bcb2c",
+							"academic_item_type": {
+								"label": "Unit",
+								"value": "subject"
+							},
+							"abbr_name": "INTRO TO CYBER SEC",
+							"academic_item_version_name": "2020.06",
+							"academic_item_credit_points": "6",
+							"abbreviated_name_and_major": null,
+							"academic_item_name": "Introduction to cyber security",
+							"academic_item_code": "FIT2093",
+							"academic_item_url": "/2020/units/FIT2093"
+						},
+						{
+							"academic_item": {
+								"value": "Unit: FIT1045",
+								"cl_id": "2d3ee8591b6add10f1eca68b274bcbe9",
+								"key": "code",
+								"type": "x_f5sl_cl_subjects"
+							},
+							"parent_record": {
+								"value": "Container 1",
+								"cl_id": "7fbe3356dbcc35502bdd077cd3961941",
+								"key": "title"
+							},
+							"order": "2",
+							"cl_id": "2d3ee8591b6add10f1eca68b274bcbe9",
+							"academic_item_type": {
+								"label": "Unit",
+								"value": "subject"
+							},
+							"abbr_name": "INTRO TO PROGRAMMING",
+							"academic_item_version_name": "2023.04",
+							"academic_item_credit_points": "6",
+							"abbreviated_name_and_major": null,
+							"academic_item_name": "Introduction to programming",
+							"academic_item_code": "FIT1045",
+							"academic_item_url": "/2023/units/FIT1045"
+						}
+					]
+				}
+			]
+		}
+	],
+	"unit_offering": [
+		{
+			"fees_domestic": "",
+			"publish": "true",
+			"location": {
+				"value": "Malaysia",
+				"cl_id": "7bf321e1db30a7406add773c3496192f",
+				"key": "name"
+			},
+			"name": "FIT3183-S2-01-ON-CAMPUS-MALAYSIA",
+			"clarification_to_appear_in_handbook": "",
+			"display_name": "S2-01-MALAYSIA-ON-CAMPUS",
+			"teaching_period": {
+				"value": "Second semester",
+				"cl_id": "85a429a1db30a7406add773c3496190d",
+				"key": "name"
+			},
+			"attendance_mode": {
+				"value": "On-campus",
+				"cl_id": "7bf2311bdb68a3406add773c349619bb",
+				"key": "description"
+			},
+			"quota_number": "",
+			"study_level": {
+				"label": null,
+				"value": null
+			},
+			"offered": "true",
+			"self_enrol": "true",
+			"academic_item": {
+				"value": "FIT3183",
+				"cl_id": "afbe3356dbcc35502bdd077cd3961925",
+				"key": "code"
+			},
+			"fees_commonwealth": "",
+			"fees_international": "",
+			"course_restrictions": "",
+			"cl_id": "73be3356dbcc35502bdd077cd396192a"
+		}
+	],
+	"enrolment_rules_group": [],
+	"learning_resources_grouped": [],
+	"study_abroad_unit": "Yes",
+	"academic_item_type": "Unit",
+	"learning_activities_grouped": [
+		{
+			"activity_type": "Lectures",
+			"activities": [
+				{
+					"subject": {
+						"value": "FIT3183",
+						"cl_id": "afbe3356dbcc35502bdd077cd3961925",
+						"key": "code"
+					},
+					"cl_id": "7bbe3356dbcc35502bdd077cd39619aa",
+					"order": "",
+					"description": "",
+					"activity_type": {
+						"label": "Lectures",
+						"value": "lecture"
+					},
+					"duration_display": "24 hours",
+					"offerings_formatted_teaching_activities": "<ul><li>Applies to all offerings</li></ul>",
+					"links": []
+				}
+			]
+		},
+		{
+			"activity_type": "Laboratories",
+			"activities": [
+				{
+					"subject": {
+						"value": "FIT3183",
+						"cl_id": "afbe3356dbcc35502bdd077cd3961925",
+						"key": "code"
+					},
+					"cl_id": "ffbe3356dbcc35502bdd077cd39619aa",
+					"order": "",
+					"description": "",
+					"activity_type": {
+						"label": "Laboratories",
+						"value": "laboratory"
+					},
+					"duration_display": "24 hours",
+					"offerings_formatted_teaching_activities": "<ul><li>Applies to all offerings</li></ul>",
+					"links": []
+				}
+			]
+		}
+	],
+	"search_title": "FIT3183 - Malicious AI and dark side security",
+	"unit_search_title": "FIT3183 - Malicious AI and dark side security",
+	"teaching_approaches": [],
+	"handbook_statement": null,
+	"academic_contact_roles": [
+		{
+			"role": "Chief Examiner(s)",
+			"contacts": [
+				{
+					"active": "true",
+					"contact_department": "",
+					"start_date": "",
+					"offering": {
+						"value": "",
+						"cl_id": null,
+						"key": "display_name"
+					},
+					"contact_role": {
+						"label": "Chief Examiner",
+						"value": "chief_examiner"
+					},
+					"contact_name": "Raphael Phan",
+					"role_detail": "",
+					"contact_organisation": "",
+					"contact_title": "Professor",
+					"order": "0",
+					"contact_phone": "",
+					"end_date": "",
+					"location": {
+						"value": "",
+						"cl_id": null,
+						"key": "name"
+					},
+					"contact_email": "Raphael.Phan@monash.edu",
+					"contact_url": "",
+					"user": {
+						"value": "Raphael Phan",
+						"cl_id": "2bb11c8c1ba4545413b555b81d4bcb7c",
+						"key": ""
+					},
+					"offerings": [],
+					"applies_to_all_offerings": "true",
+					"linking_id": "615458ae1b4c2494f1eca68b274bcba5",
+					"cl_id": "bfbe3356dbcc35502bdd077cd396192a",
+					"display_details": "Raphael.Phan@monash.edu",
+					"display_name": "Professor Raphael Phan ",
+					"offerings_formatted_contact": "<ul><li>Applies to all offerings</ul></li>",
+					"display_role_plural": "Chief Examiner(s)",
+					"links": []
+				}
+			]
+		}
+	],
+	"links": [],
+	"yearSwitcher": [
+		{
+			"label": "2020",
+			"value": "2020",
+			"href": "/2020/units/FIT3183?year=2020"
+		},
+		{
+			"label": "2021",
+			"value": "2021",
+			"href": "/2021/units/FIT3183?year=2021"
+		},
+		{
+			"label": "2022",
+			"value": "2022",
+			"href": "/2022/units/FIT3183?year=2022"
+		},
+		{
+			"label": "2023",
+			"value": "2023",
+			"href": "/2023/units/FIT3183?year=2023"
+		}
+	],
+	"university": "Monash University"
+}

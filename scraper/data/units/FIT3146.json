@@ -4,6 +4,9 @@
 	"offerings": [
 		"Second semester"
 	],
+	"enrolmentRules": [
+		"<p>Prerequisite: Plus 90 points of any units</p>"
+	],
 	"requisites": [
 		{
 			"type": "prerequisite",

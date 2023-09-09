@@ -1,0 +1,625 @@
+{
+	"contentTypeLabel": "Unit",
+	"published_in_handbook": {
+		"label": "Yes",
+		"value": "1"
+	},
+	"implementation_year": "2023",
+	"duration_ft_max": "",
+	"asced_detailed": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"grading_schema": {
+		"label": null,
+		"value": null
+	},
+	"study_level": [],
+	"quota_enrolment_requirements": "",
+	"status": {
+		"label": "Accredited",
+		"value": "Active"
+	},
+	"duration_pt_max": "",
+	"duration_pt_std": "",
+	"credit_points": "6",
+	"parent_id": {
+		"value": "Master Record: FIT3179",
+		"cl_id": "59b42a50dbf4b300580f42a014961980",
+		"key": "code",
+		"type": "x_f5sl_cl_master_record"
+	},
+	"start_date": "",
+	"exclusions": "",
+	"unit_code": "FIT3179",
+	"academic_org": {
+		"value": "Faculty of Information Technology",
+		"cl_id": "c5684a53dba8a3406add773c349619a1",
+		"key": "name"
+	},
+	"sms_version": "",
+	"level": {
+		"label": "Level 3",
+		"value": "4"
+	},
+	"uac_code": "",
+	"special_requirements": "",
+	"duration_pt_min": "",
+	"special_unit_type": [],
+	"title": "Data visualisation",
+	"duration_ft_std": "",
+	"version": "6",
+	"learning_experiences": null,
+	"duration_ft_min": "",
+	"callista_version": "",
+	"duration_ft_period": {
+		"label": null,
+		"value": null
+	},
+	"asced_narrow": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"subclass": {
+		"label": "Unit",
+		"value": "subject"
+	},
+	"type": {
+		"label": "Coursework",
+		"value": "600"
+	},
+	"quota_rationale": "",
+	"version_name": "2023.06",
+	"timetable_this_unit": "true",
+	"work_integrated_learning": [
+		{
+			"value": "None",
+			"cl_id": "8ef5d77bdb122300e5cf3391f496191d",
+			"key": "label"
+		}
+	],
+	"cl_id": "6ddbd431dbf0bd10101196cbd39619b5",
+	"school": {
+		"value": "Faculty of Information Technology",
+		"cl_id": "c5684a53dba8a3406add773c349619a1",
+		"key": "name"
+	},
+	"content": null,
+	"learning_and_teaching_resources": null,
+	"collaborating_disciplines": [],
+	"repeatable": "false",
+	"overview": "",
+	"end_date": "",
+	"duration_pt_period": {
+		"label": null,
+		"value": null
+	},
+	"sms_status": {
+		"label": null,
+		"value": null
+	},
+	"learning_materials": null,
+	"special_topic": "false",
+	"asced_broad": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"publish_tuition_fees": "true",
+	"placement_proportion": {
+		"label": null,
+		"value": null
+	},
+	"code": "FIT3179",
+	"other_unit_costs": "",
+	"eftsl": {
+		"label": "0.125",
+		"value": "0.125"
+	},
+	"contact_information": "",
+	"highest_sca_band": {
+		"label": "SCA Band 2",
+		"value": "2"
+	},
+	"lo_additional_information": "<p>On successful completion of this unit, you should be able to:</p>",
+	"handbook_assessment_summary": "",
+	"quota_information": "",
+	"attendance_requirements": "",
+	"workload_requirements": "<p>Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled teaching activities.</p>",
+	"organisational_contact_information": "",
+	"handbook_synopsis": "<p>Data visualisation is a powerful technique that allows us to use our visual system to understand data. Interactive data visualisation is now common in business, engineering and design and the social and physical sciences. This unit introduces the main kinds of information graphics and interactive visualisation systems and their areas of application. It investigates the reasons why visualisation can be effective and based on this students will gain experience in critically assessing data visualisations and in designing their own visualisations. You will learn how to create visualisations with representative computer tools and gain experience in creating a data visualisation for an application domain of their choice.</p>",
+	"special_note_to_students": "",
+	"undergrad_postgrad_both": {
+		"label": "Undergraduate",
+		"value": "undergraduate"
+	},
+	"area_of_study_links": "Business analytics<br />Computational science<br />Data science<br />Digital humanities<br />",
+	"fieldwork": "",
+	"unit_learning_outcomes": [
+		{
+			"lo_domain": [],
+			"order": "4",
+			"number": "4",
+			"code": "ULO4",
+			"lo_cl_id": "21dbd431dbf0bd10101196cbd39619bd",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "176b3420db38b3003a731c0e049619eb",
+			"academic_item": {
+				"value": "FIT3179",
+				"cl_id": "6ddbd431dbf0bd10101196cbd39619b5",
+				"key": "code"
+			},
+			"description": "<p>Describe the advantages, drawbacks and pitfalls of the visual presentation of data as compared to its presentation using other media.</p>",
+			"cl_id": "21dbd431dbf0bd10101196cbd39619bd",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "3",
+			"number": "3",
+			"code": "ULO3",
+			"lo_cl_id": "6ddbd431dbf0bd10101196cbd39619bd",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "c53b7cecdbf4b3003a731c0e04961905",
+			"academic_item": {
+				"value": "FIT3179",
+				"cl_id": "6ddbd431dbf0bd10101196cbd39619b5",
+				"key": "code"
+			},
+			"description": "<p>Describe the main applications of data visualisation in business, engineering and design, and the social and physical sciences;</p>",
+			"cl_id": "6ddbd431dbf0bd10101196cbd39619bd",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "2",
+			"number": "2",
+			"code": "ULO2",
+			"lo_cl_id": "a9dbd431dbf0bd10101196cbd39619bd",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "1dea70ecdbf4b3003a731c0e04961977",
+			"academic_item": {
+				"value": "FIT3179",
+				"cl_id": "6ddbd431dbf0bd10101196cbd39619b5",
+				"key": "code"
+			},
+			"description": "<p>Create effective data visualisations;</p>",
+			"cl_id": "a9dbd431dbf0bd10101196cbd39619bd",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "1",
+			"number": "1",
+			"code": "ULO1",
+			"lo_cl_id": "e5dbd431dbf0bd10101196cbd39619bd",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "adaa38acdbf4b3003a731c0e049619ae",
+			"academic_item": {
+				"value": "FIT3179",
+				"cl_id": "6ddbd431dbf0bd10101196cbd39619b5",
+				"key": "code"
+			},
+			"description": "<p>Critically analyse data visualisations;</p>",
+			"cl_id": "e5dbd431dbf0bd10101196cbd39619bd",
+			"ga_map": []
+		}
+	],
+	"school_org_unit_data": [
+		{
+			"parent": {
+				"value": "",
+				"cl_id": null,
+				"key": "name"
+			},
+			"url": "https://www.monash.edu/it",
+			"name": "Faculty of Information Technology",
+			"cl_id": "c5684a53dba8a3406add773c349619a1"
+		}
+	],
+	"assessments": [
+		{
+			"subject": {
+				"value": "FIT3179",
+				"cl_id": "6ddbd431dbf0bd10101196cbd39619b5",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "4",
+			"weight": "25",
+			"cl_id": "39dbd431dbf0bd10101196cbd39619c1",
+			"assessment_name": "Data Visualisation II",
+			"description": null,
+			"assessment_type": {
+				"label": "Assignment",
+				"value": "assignment"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT3179",
+				"cl_id": "6ddbd431dbf0bd10101196cbd39619b5",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "3",
+			"weight": "25",
+			"cl_id": "75dbd431dbf0bd10101196cbd39619c2",
+			"assessment_name": "Data Visualisation I",
+			"description": null,
+			"assessment_type": {
+				"label": "Assignment",
+				"value": "assignment"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT3179",
+				"cl_id": "6ddbd431dbf0bd10101196cbd39619b5",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "1",
+			"weight": "15",
+			"cl_id": "b1dbd431dbf0bd10101196cbd39619c2",
+			"assessment_name": "Tutorial Tasks",
+			"description": null,
+			"assessment_type": {
+				"label": "Participation",
+				"value": "participation"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT3179",
+				"cl_id": "6ddbd431dbf0bd10101196cbd39619b5",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "2",
+			"weight": "35",
+			"cl_id": "fddbd431dbf0bd10101196cbd39619c1",
+			"assessment_name": "Class Tests",
+			"description": null,
+			"assessment_type": {
+				"label": "In class test",
+				"value": "in_class_test"
+			},
+			"offerings_formatted": ""
+		}
+	],
+	"enrolment_rules": [
+		{
+			"description": "<p>Prerequisite: Completion of 24 points at first year.</p>",
+			"academic_item": {
+				"value": "FIT3179",
+				"cl_id": "6ddbd431dbf0bd10101196cbd39619b5",
+				"key": "code"
+			},
+			"type": {
+				"label": "Enrolment Rule",
+				"value": "info"
+			},
+			"cl_id": "a1dbd431dbf0bd10101196cbd39619be"
+		}
+	],
+	"requisites": [],
+	"unit_offering": [
+		{
+			"fees_domestic": "",
+			"publish": "true",
+			"location": {
+				"value": "Malaysia",
+				"cl_id": "7bf321e1db30a7406add773c3496192f",
+				"key": "name"
+			},
+			"name": "FIT3179-S2-01-ON-CAMPUS-MALAYSIA",
+			"clarification_to_appear_in_handbook": "",
+			"display_name": "S2-01-MALAYSIA-ON-CAMPUS",
+			"teaching_period": {
+				"value": "Second semester",
+				"cl_id": "85a429a1db30a7406add773c3496190d",
+				"key": "name"
+			},
+			"attendance_mode": {
+				"value": "On-campus",
+				"cl_id": "7bf2311bdb68a3406add773c349619bb",
+				"key": "description"
+			},
+			"quota_number": "",
+			"study_level": {
+				"label": null,
+				"value": null
+			},
+			"offered": "true",
+			"self_enrol": "true",
+			"academic_item": {
+				"value": "FIT3179",
+				"cl_id": "6ddbd431dbf0bd10101196cbd39619b5",
+				"key": "code"
+			},
+			"fees_commonwealth": "",
+			"fees_international": "",
+			"course_restrictions": "",
+			"cl_id": "a5dbd431dbf0bd10101196cbd39619ba"
+		},
+		{
+			"fees_domestic": "",
+			"publish": "true",
+			"location": {
+				"value": "Clayton",
+				"cl_id": "37f321e1db30a7406add773c3496192e",
+				"key": "name"
+			},
+			"name": "FIT3179-S2-01-ON-CAMPUS-CLAYTON",
+			"clarification_to_appear_in_handbook": "",
+			"display_name": "S2-01-CLAYTON-ON-CAMPUS",
+			"teaching_period": {
+				"value": "Second semester",
+				"cl_id": "85a429a1db30a7406add773c3496190d",
+				"key": "name"
+			},
+			"attendance_mode": {
+				"value": "On-campus",
+				"cl_id": "7bf2311bdb68a3406add773c349619bb",
+				"key": "description"
+			},
+			"quota_number": "",
+			"study_level": {
+				"label": null,
+				"value": null
+			},
+			"offered": "true",
+			"self_enrol": "true",
+			"academic_item": {
+				"value": "FIT3179",
+				"cl_id": "6ddbd431dbf0bd10101196cbd39619b5",
+				"key": "code"
+			},
+			"fees_commonwealth": "",
+			"fees_international": "",
+			"course_restrictions": "",
+			"cl_id": "a9dbd431dbf0bd10101196cbd39619b9"
+		}
+	],
+	"enrolment_rules_group": [
+		{
+			"rule_group": "Enrolment Rule",
+			"rules": [
+				{
+					"description": "<p>Prerequisite: Completion of 24 points at first year.</p>",
+					"academic_item": {
+						"value": "FIT3179",
+						"cl_id": "6ddbd431dbf0bd10101196cbd39619b5",
+						"key": "code"
+					},
+					"type": {
+						"label": "Enrolment Rule",
+						"value": "info"
+					},
+					"cl_id": "a1dbd431dbf0bd10101196cbd39619be",
+					"links": []
+				}
+			]
+		}
+	],
+	"learning_resources_grouped": [],
+	"study_abroad_unit": "Yes",
+	"academic_item_type": "Unit",
+	"learning_activities_grouped": [
+		{
+			"activity_type": "Studio activities",
+			"activities": [
+				{
+					"subject": {
+						"value": "FIT3179",
+						"cl_id": "6ddbd431dbf0bd10101196cbd39619b5",
+						"key": "code"
+					},
+					"cl_id": "7ddbd431dbf0bd10101196cbd39619c0",
+					"order": "",
+					"description": "",
+					"activity_type": {
+						"label": "Studio activities",
+						"value": "studio"
+					},
+					"duration_display": "24 hours",
+					"offerings_formatted_teaching_activities": "<ul><li>Applies to all offerings</li></ul>",
+					"links": []
+				}
+			]
+		},
+		{
+			"activity_type": "Workshops",
+			"activities": [
+				{
+					"subject": {
+						"value": "FIT3179",
+						"cl_id": "6ddbd431dbf0bd10101196cbd39619b5",
+						"key": "code"
+					},
+					"cl_id": "f1dbd431dbf0bd10101196cbd39619c1",
+					"order": "",
+					"description": "",
+					"activity_type": {
+						"label": "Workshops",
+						"value": "workshop"
+					},
+					"duration_display": "24 hours",
+					"offerings_formatted_teaching_activities": "<ul><li>Applies to all offerings</li></ul>",
+					"links": []
+				}
+			]
+		}
+	],
+	"search_title": "FIT3179 - Data visualisation",
+	"unit_search_title": "FIT3179 - Data visualisation",
+	"teaching_approaches": [
+		{
+			"type": {
+				"label": "Active learning",
+				"value": "active_learning"
+			},
+			"academic_item": {
+				"value": "FIT3179",
+				"cl_id": "6ddbd431dbf0bd10101196cbd39619b5",
+				"key": "code"
+			},
+			"cl_id": "fddbd431dbf0bd10101196cbd39619bf",
+			"description": "<p>&nbsp;</p>",
+			"links": []
+		}
+	],
+	"handbook_statement": null,
+	"academic_contact_roles": [
+		{
+			"role": "Chief Examiner(s)",
+			"contacts": [
+				{
+					"active": "false",
+					"contact_department": "",
+					"start_date": "",
+					"offering": {
+						"value": "",
+						"cl_id": null,
+						"key": "display_name"
+					},
+					"contact_role": {
+						"label": "Chief Examiner",
+						"value": "chief_examiner"
+					},
+					"contact_name": "Bernhard Jenny",
+					"role_detail": "",
+					"contact_organisation": "",
+					"contact_title": "Associate Professor",
+					"order": "",
+					"contact_phone": "",
+					"end_date": "",
+					"location": {
+						"value": "",
+						"cl_id": null,
+						"key": "name"
+					},
+					"contact_email": "Bernie.Jenny@monash.edu",
+					"contact_url": "",
+					"user": {
+						"value": "Bernhard Jenny",
+						"cl_id": "ebc187dcdb78b300580f42a0149619ed",
+						"key": ""
+					},
+					"offerings": [],
+					"applies_to_all_offerings": "true",
+					"linking_id": "6810d06cdb74b3003a731c0e0496197e",
+					"cl_id": "65dbd431dbf0bd10101196cbd39619bc",
+					"display_details": "Bernie.Jenny@monash.edu",
+					"display_name": "Associate Professor Bernhard Jenny ",
+					"offerings_formatted_contact": "<ul><li>Applies to all offerings</ul></li>",
+					"display_role_plural": "Chief Examiner(s)",
+					"links": []
+				}
+			]
+		},
+		{
+			"role": "Unit Coordinator(s)",
+			"contacts": [
+				{
+					"active": "true",
+					"contact_department": "",
+					"start_date": "",
+					"offering": {
+						"value": "",
+						"cl_id": null,
+						"key": "display_name"
+					},
+					"contact_role": {
+						"label": "Unit Coordinator",
+						"value": "unit_coordinator"
+					},
+					"contact_name": "Ting Chai Wen",
+					"role_detail": "(Malaysia)",
+					"contact_organisation": "",
+					"contact_title": "Dr",
+					"order": "0",
+					"contact_phone": "",
+					"end_date": "",
+					"location": {
+						"value": "",
+						"cl_id": null,
+						"key": "name"
+					},
+					"contact_email": "Ting.ChaiWen@monash.edu",
+					"contact_url": "",
+					"user": {
+						"value": "Ting Chai Wen",
+						"cl_id": "f2e7722e1bbed410f1eca68b274bcb7e",
+						"key": ""
+					},
+					"offerings": [
+						{
+							"value": "S2-01-MALAYSIA-ON-CAMPUS",
+							"cl_id": "a5dbd431dbf0bd10101196cbd39619ba",
+							"key": "display_name"
+						}
+					],
+					"applies_to_all_offerings": "false",
+					"linking_id": "d7f6f6ca1ba71090f1eca68b274bcbed",
+					"cl_id": "eddbd431dbf0bd10101196cbd39619bb",
+					"display_details": "Ting.ChaiWen@monash.edu",
+					"display_name": "Dr Ting Chai Wen ",
+					"offerings_formatted_contact": "<ul><li>Second semester, Malaysia, On-campus</li></ul>",
+					"display_role_plural": "Unit Coordinator(s)",
+					"links": []
+				}
+			]
+		}
+	],
+	"links": [],
+	"yearSwitcher": [
+		{
+			"label": "2020",
+			"value": "2020",
+			"href": "/2020/units/FIT3179?year=2020"
+		},
+		{
+			"label": "2021",
+			"value": "2021",
+			"href": "/2021/units/FIT3179?year=2021"
+		},
+		{
+			"label": "2022",
+			"value": "2022",
+			"href": "/2022/units/FIT3179?year=2022"
+		},
+		{
+			"label": "2023",
+			"value": "2023",
+			"href": "/2023/units/FIT3179?year=2023"
+		}
+	],
+	"university": "Monash University"
+}

@@ -4,5 +4,8 @@
 	"offerings": [
 		"Second semester"
 	],
+	"enrolmentRules": [
+		"<p>Prerequisite: Completion of 24 points at first year.</p>"
+	],
 	"requisites": []
 }

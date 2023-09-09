@@ -1,0 +1,721 @@
+{
+	"contentTypeLabel": "Unit",
+	"published_in_handbook": {
+		"label": "Yes",
+		"value": "1"
+	},
+	"implementation_year": "2023",
+	"duration_ft_max": "",
+	"asced_detailed": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"grading_schema": {
+		"label": null,
+		"value": null
+	},
+	"study_level": [],
+	"quota_enrolment_requirements": "",
+	"status": {
+		"label": "Accredited",
+		"value": "Active"
+	},
+	"duration_pt_max": "",
+	"duration_pt_std": "",
+	"credit_points": "6",
+	"parent_id": {
+		"value": "Master Record: FIT2001",
+		"cl_id": "2f946e10dbf4b300580f42a014961939",
+		"key": "code",
+		"type": "x_f5sl_cl_master_record"
+	},
+	"start_date": "",
+	"exclusions": "",
+	"unit_code": "FIT2001",
+	"academic_org": {
+		"value": "Faculty of Information Technology",
+		"cl_id": "c5684a53dba8a3406add773c349619a1",
+		"key": "name"
+	},
+	"sms_version": "",
+	"level": {
+		"label": "Level 2",
+		"value": "3"
+	},
+	"uac_code": "",
+	"special_requirements": "",
+	"duration_pt_min": "",
+	"special_unit_type": [],
+	"title": "Systems development",
+	"duration_ft_std": "",
+	"version": "7",
+	"learning_experiences": null,
+	"duration_ft_min": "",
+	"callista_version": "",
+	"duration_ft_period": {
+		"label": null,
+		"value": null
+	},
+	"asced_narrow": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"subclass": {
+		"label": "Unit",
+		"value": "subject"
+	},
+	"type": {
+		"label": "Coursework",
+		"value": "600"
+	},
+	"quota_rationale": "",
+	"version_name": "2023.07",
+	"timetable_this_unit": "true",
+	"work_integrated_learning": [
+		{
+			"value": "None",
+			"cl_id": "8ef5d77bdb122300e5cf3391f496191d",
+			"key": "label"
+		}
+	],
+	"cl_id": "782114c8db60f990101196cbd396196a",
+	"school": {
+		"value": "Faculty of Information Technology",
+		"cl_id": "c5684a53dba8a3406add773c349619a1",
+		"key": "name"
+	},
+	"content": null,
+	"learning_and_teaching_resources": null,
+	"collaborating_disciplines": [],
+	"repeatable": "false",
+	"overview": "",
+	"end_date": "",
+	"duration_pt_period": {
+		"label": null,
+		"value": null
+	},
+	"sms_status": {
+		"label": null,
+		"value": null
+	},
+	"learning_materials": null,
+	"special_topic": "false",
+	"asced_broad": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"publish_tuition_fees": "true",
+	"placement_proportion": {
+		"label": null,
+		"value": null
+	},
+	"code": "FIT2001",
+	"other_unit_costs": "",
+	"eftsl": {
+		"label": "0.125",
+		"value": "0.125"
+	},
+	"contact_information": "",
+	"highest_sca_band": {
+		"label": "SCA Band 2",
+		"value": "2"
+	},
+	"lo_additional_information": "<p>On successful completion of this unit, you should be able to:</p>",
+	"handbook_assessment_summary": "<p>This unit has threshold mark hurdles. You must achieve at least 45% of the available marks in the final scheduled assessment, at least 45% in total for in-semester assessments, and an overall unit mark of 50% or more to be able to pass the unit. If you do not achieve the threshold mark, you will receive a fail grade (NH) and a maximum mark of 45 for the unit.</p>",
+	"quota_information": "",
+	"attendance_requirements": "",
+	"workload_requirements": "<p>This unit has a requirement of 1-2 hours per week of asynchronous learning.</p>\n<p>Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled teaching activities.</p>",
+	"organisational_contact_information": "",
+	"handbook_synopsis": "<p>The unit introduces students to systems analysis and design as a problem solving activity, within the framework of a selected methodology. It will focus on contemporary industry practice; investigating understanding and documenting system requirements; a range of design and implementation activities; and professional skills required for systems development.</p>",
+	"special_note_to_students": "",
+	"undergrad_postgrad_both": {
+		"label": "Undergraduate",
+		"value": "undergraduate"
+	},
+	"area_of_study_links": "Business information systems<br />Software development<br />",
+	"fieldwork": "",
+	"unit_learning_outcomes": [
+		{
+			"lo_domain": [],
+			"order": "4",
+			"number": "4",
+			"code": "ULO4",
+			"lo_cl_id": "342114c8db60f990101196cbd3961971",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "1d8b3820db38b3003a731c0e0496196c",
+			"academic_item": {
+				"value": "FIT2001",
+				"cl_id": "782114c8db60f990101196cbd396196a",
+				"key": "code"
+			},
+			"description": "<p>Implement practical system development techniques at different levels of abstraction to a business problem within a contemporary development framework;</p>",
+			"cl_id": "342114c8db60f990101196cbd3961971",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "5",
+			"number": "5",
+			"code": "ULO5",
+			"lo_cl_id": "702114c8db60f990101196cbd3961971",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "4e9bf820db38b3003a731c0e0496196d",
+			"academic_item": {
+				"value": "FIT2001",
+				"cl_id": "782114c8db60f990101196cbd396196a",
+				"key": "code"
+			},
+			"description": "<p>Apply a range of professional skills required for effective systems development practice.</p>",
+			"cl_id": "702114c8db60f990101196cbd3961971",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "1",
+			"number": "1",
+			"code": "ULO1",
+			"lo_cl_id": "bc2114c8db60f990101196cbd3961970",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "538a74acdbf4b3003a731c0e04961942",
+			"academic_item": {
+				"value": "FIT2001",
+				"cl_id": "782114c8db60f990101196cbd396196a",
+				"key": "code"
+			},
+			"description": "<p>Identify a range of system development methodologies and key activities within those methodologies;</p>",
+			"cl_id": "bc2114c8db60f990101196cbd3961970",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "2",
+			"number": "2",
+			"code": "ULO2",
+			"lo_cl_id": "f42114c8db60f990101196cbd3961970",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "96ca7cacdbf4b3003a731c0e04961960",
+			"academic_item": {
+				"value": "FIT2001",
+				"cl_id": "782114c8db60f990101196cbd396196a",
+				"key": "code"
+			},
+			"description": "<p>Determine when to use relevant system development approaches based on the specific context;</p>",
+			"cl_id": "f42114c8db60f990101196cbd3961970",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "3",
+			"number": "3",
+			"code": "ULO3",
+			"lo_cl_id": "f42114c8db60f990101196cbd3961971",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "652bf8ecdbf4b3003a731c0e0496190c",
+			"academic_item": {
+				"value": "FIT2001",
+				"cl_id": "782114c8db60f990101196cbd396196a",
+				"key": "code"
+			},
+			"description": "<p>Apply techniques to conduct analysis, design and implementation activities based on the specific context;</p>",
+			"cl_id": "f42114c8db60f990101196cbd3961971",
+			"ga_map": []
+		}
+	],
+	"school_org_unit_data": [
+		{
+			"parent": {
+				"value": "",
+				"cl_id": null,
+				"key": "name"
+			},
+			"url": "https://www.monash.edu/it",
+			"name": "Faculty of Information Technology",
+			"cl_id": "c5684a53dba8a3406add773c349619a1"
+		}
+	],
+	"assessments": [
+		{
+			"subject": {
+				"value": "FIT2001",
+				"cl_id": "782114c8db60f990101196cbd396196a",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": "Threshold",
+				"value": "threshold"
+			},
+			"hurdle_supplementary_assessment": "<p>The scheduled final assessment is a hurdle.</p>",
+			"number": "5",
+			"weight": "40",
+			"cl_id": "382114c8db60f990101196cbd39619b4",
+			"assessment_name": "Scheduled final assessment (2 hours and 10 minutes)",
+			"description": null,
+			"assessment_type": {
+				"label": "Exam",
+				"value": "exam"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT2001",
+				"cl_id": "782114c8db60f990101196cbd396196a",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": "Threshold",
+				"value": "threshold"
+			},
+			"hurdle_supplementary_assessment": "<p>This task is part of the in-semester assessment hurdle.</p>",
+			"number": "4",
+			"weight": "14",
+			"cl_id": "742114c8db60f990101196cbd39619b4",
+			"assessment_name": "Assignment 3",
+			"description": null,
+			"assessment_type": {
+				"label": "Assignment",
+				"value": "assignment"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT2001",
+				"cl_id": "782114c8db60f990101196cbd396196a",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": "Threshold",
+				"value": "threshold"
+			},
+			"hurdle_supplementary_assessment": "<p>This task is part of the in-semester assessment hurdle.</p>",
+			"number": "3",
+			"weight": "25",
+			"cl_id": "b02114c8db60f990101196cbd39619b4",
+			"assessment_name": "Assignment 2 ",
+			"description": null,
+			"assessment_type": {
+				"label": "Assignment",
+				"value": "assignment"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT2001",
+				"cl_id": "782114c8db60f990101196cbd396196a",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": "Threshold",
+				"value": "threshold"
+			},
+			"hurdle_supplementary_assessment": "<p>This task is part of the in-semester assessment hurdle.</p>",
+			"number": "1",
+			"weight": "16",
+			"cl_id": "f82114c8db60f990101196cbd39619b3",
+			"assessment_name": "Tutorial participation and pre class activities",
+			"description": null,
+			"assessment_type": {
+				"label": "Other",
+				"value": "other"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT2001",
+				"cl_id": "782114c8db60f990101196cbd396196a",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": "Threshold",
+				"value": "threshold"
+			},
+			"hurdle_supplementary_assessment": "<p>This task is part of the in-semester assessment hurdle.</p>",
+			"number": "2",
+			"weight": "5",
+			"cl_id": "f82114c8db60f990101196cbd39619b4",
+			"assessment_name": "Assignment 1",
+			"description": null,
+			"assessment_type": {
+				"label": "Assignment",
+				"value": "assignment"
+			},
+			"offerings_formatted": ""
+		}
+	],
+	"enrolment_rules": [
+		{
+			"description": "<p>Prerequisite: 24 points of FIT units</p>",
+			"academic_item": {
+				"value": "FIT2001",
+				"cl_id": "782114c8db60f990101196cbd396196a",
+				"key": "code"
+			},
+			"type": {
+				"label": "Enrolment Rule",
+				"value": "info"
+			},
+			"cl_id": "3c2114c8db60f990101196cbd3961971"
+		}
+	],
+	"requisites": [
+		{
+			"academic_item_code": "FIT2001",
+			"active": "true",
+			"requisite_cl_id": "b42114c8db60f990101196cbd396196d",
+			"description": "",
+			"requisite_type": {
+				"label": "Prohibition",
+				"value": "prohibitions"
+			},
+			"cl_id": {
+				"value": "FIT2001",
+				"cl_id": "782114c8db60f990101196cbd396196a",
+				"key": "code"
+			},
+			"academic_item_version_number": "2023.07",
+			"order": "1",
+			"start_date": "",
+			"end_date": "",
+			"container": [
+				{
+					"cl_id": "b4211c8cdb28b9902bdd077cd39619a8",
+					"parent_container_table": "x_f5sl_cl_requisite",
+					"parent_record": {
+						"value": "Relationship Builder: FIT2001",
+						"cl_id": "b42114c8db60f990101196cbd396196d",
+						"key": "academic_item",
+						"type": "x_f5sl_cl_requisite"
+					},
+					"title": "Container 1",
+					"parent_connector": {
+						"label": "AND",
+						"value": "AND"
+					},
+					"containers": [],
+					"relationships": [
+						{
+							"academic_item": {
+								"value": "Unit: FZA2001",
+								"cl_id": "d61edbd1dbf9b0d0101196cbd3961964",
+								"key": "code",
+								"type": "x_f5sl_cl_subjects"
+							},
+							"parent_record": {
+								"value": "Container 1",
+								"cl_id": "b4211c8cdb28b9902bdd077cd39619a8",
+								"key": "title"
+							},
+							"order": "2",
+							"cl_id": "d61edbd1dbf9b0d0101196cbd3961964",
+							"academic_item_type": {
+								"label": "Unit",
+								"value": "subject"
+							},
+							"abbr_name": "SYS DEV",
+							"academic_item_version_name": "2022.03RO",
+							"academic_item_credit_points": "6",
+							"abbreviated_name_and_major": null,
+							"academic_item_name": "Systems development",
+							"academic_item_code": "FZA2001",
+							"academic_item_url": "/2022/units/FZA2001"
+						}
+					]
+				}
+			]
+		}
+	],
+	"unit_offering": [
+		{
+			"fees_domestic": "",
+			"publish": "true",
+			"location": {
+				"value": "Clayton",
+				"cl_id": "37f321e1db30a7406add773c3496192e",
+				"key": "name"
+			},
+			"name": "FIT2001-S1-01-ON-CAMPUS-CLAYTON",
+			"clarification_to_appear_in_handbook": "",
+			"display_name": "S1-01-CLAYTON-ON-CAMPUS",
+			"teaching_period": {
+				"value": "First semester",
+				"cl_id": "0da429a1db30a7406add773c3496190c",
+				"key": "name"
+			},
+			"attendance_mode": {
+				"value": "On-campus",
+				"cl_id": "7bf2311bdb68a3406add773c349619bb",
+				"key": "description"
+			},
+			"quota_number": "",
+			"study_level": {
+				"label": null,
+				"value": null
+			},
+			"offered": "true",
+			"self_enrol": "true",
+			"academic_item": {
+				"value": "FIT2001",
+				"cl_id": "782114c8db60f990101196cbd396196a",
+				"key": "code"
+			},
+			"fees_commonwealth": "",
+			"fees_international": "",
+			"course_restrictions": "",
+			"cl_id": "382114c8db60f990101196cbd396196f"
+		},
+		{
+			"fees_domestic": "",
+			"publish": "true",
+			"location": {
+				"value": "Clayton",
+				"cl_id": "37f321e1db30a7406add773c3496192e",
+				"key": "name"
+			},
+			"name": "FIT2001-S2-01-ON-CAMPUS-CLAYTON",
+			"clarification_to_appear_in_handbook": "",
+			"display_name": "S2-01-CLAYTON-ON-CAMPUS",
+			"teaching_period": {
+				"value": "Second semester",
+				"cl_id": "85a429a1db30a7406add773c3496190d",
+				"key": "name"
+			},
+			"attendance_mode": {
+				"value": "On-campus",
+				"cl_id": "7bf2311bdb68a3406add773c349619bb",
+				"key": "description"
+			},
+			"quota_number": "",
+			"study_level": {
+				"label": null,
+				"value": null
+			},
+			"offered": "true",
+			"self_enrol": "true",
+			"academic_item": {
+				"value": "FIT2001",
+				"cl_id": "782114c8db60f990101196cbd396196a",
+				"key": "code"
+			},
+			"fees_commonwealth": "",
+			"fees_international": "",
+			"course_restrictions": "",
+			"cl_id": "3c2114c8db60f990101196cbd396196e"
+		}
+	],
+	"enrolment_rules_group": [
+		{
+			"rule_group": "Enrolment Rule",
+			"rules": [
+				{
+					"description": "<p>Prerequisite: 24 points of FIT units</p>",
+					"academic_item": {
+						"value": "FIT2001",
+						"cl_id": "782114c8db60f990101196cbd396196a",
+						"key": "code"
+					},
+					"type": {
+						"label": "Enrolment Rule",
+						"value": "info"
+					},
+					"cl_id": "3c2114c8db60f990101196cbd3961971",
+					"links": []
+				}
+			]
+		}
+	],
+	"learning_resources_grouped": [
+		{
+			"type": "Recommended resources",
+			"order": 1,
+			"resources": [
+				{
+					"description": "<p>John W Satzinger, Robert B Jackson, Stephen D Burd. (2016). Systems Analysis And Design In A Changing World . (7th Edition) Course Technology Cengage Learning.</p>",
+					"type": {
+						"label": "Recommended resources",
+						"value": "recommended_resources"
+					},
+					"cl_id": "702114c8db60f990101196cbd3961973",
+					"academic_item": {
+						"value": "FIT2001",
+						"cl_id": "782114c8db60f990101196cbd396196a",
+						"key": "code"
+					},
+					"links": []
+				}
+			]
+		}
+	],
+	"study_abroad_unit": "Yes",
+	"academic_item_type": "Unit",
+	"learning_activities_grouped": [
+		{
+			"activity_type": "Seminars",
+			"activities": [
+				{
+					"subject": {
+						"value": "FIT2001",
+						"cl_id": "782114c8db60f990101196cbd396196a",
+						"key": "code"
+					},
+					"cl_id": "302114c8db60f990101196cbd39619b3",
+					"order": "1",
+					"description": "",
+					"activity_type": {
+						"label": "Seminars",
+						"value": "seminar"
+					},
+					"duration_display": "12 hours",
+					"offerings_formatted_teaching_activities": "<ul><li>Applies to all offerings</li></ul>",
+					"links": []
+				}
+			]
+		},
+		{
+			"activity_type": "Tutorials",
+			"activities": [
+				{
+					"subject": {
+						"value": "FIT2001",
+						"cl_id": "782114c8db60f990101196cbd396196a",
+						"key": "code"
+					},
+					"cl_id": "b02114c8db60f990101196cbd39619b3",
+					"order": "0",
+					"description": "",
+					"activity_type": {
+						"label": "Tutorials",
+						"value": "tutorial"
+					},
+					"duration_display": "36 hours",
+					"offerings_formatted_teaching_activities": "<ul><li>First semester, Clayton, On-campus</li></ul>",
+					"links": []
+				}
+			]
+		},
+		{
+			"activity_type": "Applied sessions",
+			"activities": [
+				{
+					"subject": {
+						"value": "FIT2001",
+						"cl_id": "782114c8db60f990101196cbd396196a",
+						"key": "code"
+					},
+					"cl_id": "b42114c8db60f990101196cbd39619b2",
+					"order": "2",
+					"description": "",
+					"activity_type": {
+						"label": "Applied sessions",
+						"value": "applied"
+					},
+					"duration_display": "36 hours",
+					"offerings_formatted_teaching_activities": "<ul><li>Second semester, Clayton, On-campus</li></ul>",
+					"links": []
+				}
+			]
+		}
+	],
+	"search_title": "FIT2001 - Systems development",
+	"unit_search_title": "FIT2001 - Systems development",
+	"teaching_approaches": [
+		{
+			"type": {
+				"label": "Active learning",
+				"value": "active_learning"
+			},
+			"academic_item": {
+				"value": "FIT2001",
+				"cl_id": "782114c8db60f990101196cbd396196a",
+				"key": "code"
+			},
+			"cl_id": "f82114c8db60f990101196cbd39619b1",
+			"description": "<p>&nbsp;</p>",
+			"links": []
+		}
+	],
+	"handbook_statement": null,
+	"academic_contact_roles": [
+		{
+			"role": "Chief Examiner(s)",
+			"contacts": [
+				{
+					"active": "true",
+					"contact_department": "",
+					"start_date": "",
+					"offering": {
+						"value": "",
+						"cl_id": null,
+						"key": "display_name"
+					},
+					"contact_role": {
+						"label": "Chief Examiner",
+						"value": "chief_examiner"
+					},
+					"contact_name": "Peter Huynh",
+					"role_detail": "",
+					"contact_organisation": "",
+					"contact_title": "Dr",
+					"order": "1",
+					"contact_phone": "",
+					"end_date": "",
+					"location": {
+						"value": "",
+						"cl_id": null,
+						"key": "name"
+					},
+					"contact_email": "Peter.Huynh@monash.edu",
+					"contact_url": "",
+					"user": {
+						"value": "Peter Huynh",
+						"cl_id": "8e028350dbb8b300580f42a01496195e",
+						"key": ""
+					},
+					"offerings": [],
+					"applies_to_all_offerings": "true",
+					"linking_id": "56849ad2dbbce5502bdd077cd3961990",
+					"cl_id": "7c2114c8db60f990101196cbd396196f",
+					"display_details": "Peter.Huynh@monash.edu",
+					"display_name": "Dr Peter Huynh ",
+					"offerings_formatted_contact": "<ul><li>Applies to all offerings</ul></li>",
+					"display_role_plural": "Chief Examiner(s)",
+					"links": []
+				}
+			]
+		}
+	],
+	"links": [],
+	"yearSwitcher": [
+		{
+			"label": "2020",
+			"value": "2020",
+			"href": "/2020/units/FIT2001?year=2020"
+		},
+		{
+			"label": "2021",
+			"value": "2021",
+			"href": "/2021/units/FIT2001?year=2021"
+		},
+		{
+			"label": "2022",
+			"value": "2022",
+			"href": "/2022/units/FIT2001?year=2022"
+		},
+		{
+			"label": "2023",
+			"value": "2023",
+			"href": "/2023/units/FIT2001?year=2023"
+		}
+	],
+	"university": "Monash University"
+}

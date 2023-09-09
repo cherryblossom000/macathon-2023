@@ -1,0 +1,733 @@
+{
+	"contentTypeLabel": "Unit",
+	"published_in_handbook": {
+		"label": "Yes",
+		"value": "1"
+	},
+	"implementation_year": "2023",
+	"duration_ft_max": "",
+	"asced_detailed": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"grading_schema": {
+		"label": null,
+		"value": null
+	},
+	"study_level": [],
+	"quota_enrolment_requirements": "",
+	"status": {
+		"label": "Accredited",
+		"value": "Active"
+	},
+	"duration_pt_max": "",
+	"duration_pt_std": "",
+	"credit_points": "6",
+	"parent_id": {
+		"value": "Master Record: FIT3159",
+		"cl_id": "7fa46650dbf4b300580f42a014961996",
+		"key": "code",
+		"type": "x_f5sl_cl_master_record"
+	},
+	"start_date": "",
+	"exclusions": "",
+	"unit_code": "FIT3159",
+	"academic_org": {
+		"value": "Faculty of Information Technology",
+		"cl_id": "c5684a53dba8a3406add773c349619a1",
+		"key": "name"
+	},
+	"sms_version": "",
+	"level": {
+		"label": "Level 3",
+		"value": "4"
+	},
+	"uac_code": "",
+	"special_requirements": "",
+	"duration_pt_min": "",
+	"special_unit_type": [],
+	"title": "Computer architecture",
+	"duration_ft_std": "",
+	"version": "6",
+	"learning_experiences": null,
+	"duration_ft_min": "",
+	"callista_version": "",
+	"duration_ft_period": {
+		"label": null,
+		"value": null
+	},
+	"asced_narrow": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"subclass": {
+		"label": "Unit",
+		"value": "subject"
+	},
+	"type": {
+		"label": "Coursework",
+		"value": "600"
+	},
+	"quota_rationale": "",
+	"version_name": "2023.06",
+	"timetable_this_unit": "true",
+	"work_integrated_learning": [
+		{
+			"value": "None",
+			"cl_id": "8ef5d77bdb122300e5cf3391f496191d",
+			"key": "label"
+		}
+	],
+	"cl_id": "ba901352db0c35502bdd077cd3961915",
+	"school": {
+		"value": "Faculty of Information Technology",
+		"cl_id": "c5684a53dba8a3406add773c349619a1",
+		"key": "name"
+	},
+	"content": null,
+	"learning_and_teaching_resources": null,
+	"collaborating_disciplines": [],
+	"repeatable": "false",
+	"overview": "",
+	"end_date": "",
+	"duration_pt_period": {
+		"label": null,
+		"value": null
+	},
+	"sms_status": {
+		"label": null,
+		"value": null
+	},
+	"learning_materials": null,
+	"special_topic": "false",
+	"asced_broad": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"publish_tuition_fees": "true",
+	"placement_proportion": {
+		"label": null,
+		"value": null
+	},
+	"code": "FIT3159",
+	"other_unit_costs": "",
+	"eftsl": {
+		"label": "0.125",
+		"value": "0.125"
+	},
+	"contact_information": "",
+	"highest_sca_band": {
+		"label": "SCA Band 2",
+		"value": "2"
+	},
+	"lo_additional_information": "<p>On successful completion of this unit, you should be able to:</p>",
+	"handbook_assessment_summary": "",
+	"quota_information": "",
+	"attendance_requirements": "",
+	"workload_requirements": "<p>Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled teaching activities.</p>",
+	"organisational_contact_information": "",
+	"handbook_synopsis": "<p>This unit covers the internal mechanism of computers and how they are organised and programmed. Topics include combinatorial and sequential logic, Boolean Algebra, counters, ripple adders, tree adders, memory/addressing, busses, speed, DMA, data representation, machine arithmetic, microprogramming, caches and cache architectures, virtual memory and translation look-aside buffers, vectored interrupts, polled interrupts, pipelined architecture, superscalar architecture, data dependency, hazards, CISC, RISC, VLIW machine architectures.</p>",
+	"special_note_to_students": "",
+	"undergrad_postgrad_both": {
+		"label": "Undergraduate",
+		"value": "undergraduate"
+	},
+	"area_of_study_links": "Advanced computer science<br />Computer networks and security<br />",
+	"fieldwork": "",
+	"unit_learning_outcomes": [
+		{
+			"lo_domain": [],
+			"order": "5",
+			"number": "5",
+			"code": "ULO5",
+			"lo_cl_id": "32901352db0c35502bdd077cd3961920",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "98ab3c20db38b3003a731c0e049619b8",
+			"academic_item": {
+				"value": "FIT3159",
+				"cl_id": "ba901352db0c35502bdd077cd3961915",
+				"key": "code"
+			},
+			"description": "<p>Use simulator programs to model computer system components.</p>",
+			"cl_id": "32901352db0c35502bdd077cd3961920",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "1",
+			"number": "1",
+			"code": "ULO1",
+			"lo_cl_id": "3e901352db0c35502bdd077cd3961945",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "057ab0acdbf4b3003a731c0e0496190f",
+			"academic_item": {
+				"value": "FIT3159",
+				"cl_id": "ba901352db0c35502bdd077cd3961915",
+				"key": "code"
+			},
+			"description": "<p>Analyse simple logic circuits;</p>",
+			"cl_id": "3e901352db0c35502bdd077cd3961945",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "2",
+			"number": "2",
+			"code": "ULO2",
+			"lo_cl_id": "76901352db0c35502bdd077cd3961946",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "29fa34ecdbf4b3003a731c0e0496190f",
+			"academic_item": {
+				"value": "FIT3159",
+				"cl_id": "ba901352db0c35502bdd077cd3961915",
+				"key": "code"
+			},
+			"description": "<p>Explain and analyse key processor components;</p>",
+			"cl_id": "76901352db0c35502bdd077cd3961946",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "4",
+			"number": "4",
+			"code": "ULO4",
+			"lo_cl_id": "b2901352db0c35502bdd077cd3961946",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "627bb420db38b3003a731c0e049619c8",
+			"academic_item": {
+				"value": "FIT3159",
+				"cl_id": "ba901352db0c35502bdd077cd3961915",
+				"key": "code"
+			},
+			"description": "<p>Write and debug simple assembly language programs;</p>",
+			"cl_id": "b2901352db0c35502bdd077cd3961946",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "3",
+			"number": "3",
+			"code": "ULO3",
+			"lo_cl_id": "fe901352db0c35502bdd077cd3961945",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "c53b7cecdbf4b3003a731c0e04961909",
+			"academic_item": {
+				"value": "FIT3159",
+				"cl_id": "ba901352db0c35502bdd077cd3961915",
+				"key": "code"
+			},
+			"description": "<p>Explain and analyse computer organisation;</p>",
+			"cl_id": "fe901352db0c35502bdd077cd3961945",
+			"ga_map": []
+		}
+	],
+	"school_org_unit_data": [
+		{
+			"parent": {
+				"value": "",
+				"cl_id": null,
+				"key": "name"
+			},
+			"url": "https://www.monash.edu/it",
+			"name": "Faculty of Information Technology",
+			"cl_id": "c5684a53dba8a3406add773c349619a1"
+		}
+	],
+	"assessments": [
+		{
+			"subject": {
+				"value": "FIT3159",
+				"cl_id": "ba901352db0c35502bdd077cd3961915",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "1",
+			"weight": "40",
+			"cl_id": "36901352db0c35502bdd077cd396194a",
+			"assessment_name": "Laboratory Exercises",
+			"description": null,
+			"assessment_type": {
+				"label": "Other",
+				"value": "other"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT3159",
+				"cl_id": "ba901352db0c35502bdd077cd3961915",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "2",
+			"weight": "20",
+			"cl_id": "72901352db0c35502bdd077cd396194a",
+			"assessment_name": "Tutorial Exercises",
+			"description": null,
+			"assessment_type": {
+				"label": "Other",
+				"value": "other"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT3159",
+				"cl_id": "ba901352db0c35502bdd077cd3961915",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "3",
+			"weight": "40",
+			"cl_id": "ba901352db0c35502bdd077cd3961949",
+			"assessment_name": "Applied Problem Solving Tasks ",
+			"description": null,
+			"assessment_type": {
+				"label": "Other",
+				"value": "other"
+			},
+			"offerings_formatted": ""
+		}
+	],
+	"enrolment_rules": [],
+	"requisites": [
+		{
+			"academic_item_code": "FIT3159",
+			"active": "true",
+			"requisite_cl_id": "7e901352db0c35502bdd077cd396191b",
+			"description": "",
+			"requisite_type": {
+				"label": "Prerequisite",
+				"value": "prerequisite"
+			},
+			"cl_id": {
+				"value": "FIT3159",
+				"cl_id": "ba901352db0c35502bdd077cd3961915",
+				"key": "code"
+			},
+			"academic_item_version_number": "2023.06",
+			"order": "1",
+			"start_date": "",
+			"end_date": "",
+			"container": [
+				{
+					"cl_id": "b690df12db0c35502bdd077cd39619c5",
+					"parent_container_table": "x_f5sl_cl_requisite",
+					"parent_record": {
+						"value": "Relationship Builder: FIT3159",
+						"cl_id": "7e901352db0c35502bdd077cd396191b",
+						"key": "academic_item",
+						"type": "x_f5sl_cl_requisite"
+					},
+					"title": "Container 1",
+					"parent_connector": {
+						"label": "OR",
+						"value": "OR"
+					},
+					"containers": [],
+					"relationships": [
+						{
+							"academic_item": {
+								"value": "Unit: FIT2085",
+								"cl_id": "5de8527b1bb8d550653b206b274bcba3",
+								"key": "code",
+								"type": "x_f5sl_cl_subjects"
+							},
+							"parent_record": {
+								"value": "Container 1",
+								"cl_id": "b690df12db0c35502bdd077cd39619c5",
+								"key": "title"
+							},
+							"order": "4",
+							"cl_id": "5de8527b1bb8d550653b206b274bcba3",
+							"academic_item_type": {
+								"label": "Unit",
+								"value": "subject"
+							},
+							"abbr_name": "INTRO COMP SCIENCE",
+							"academic_item_version_name": "2023.02",
+							"academic_item_credit_points": "6",
+							"abbreviated_name_and_major": null,
+							"academic_item_name": "Introduction to computer science for engineers",
+							"academic_item_code": "FIT2085",
+							"academic_item_url": "/2023/units/FIT2085"
+						},
+						{
+							"academic_item": {
+								"value": "Unit: FIT1047",
+								"cl_id": "48d04c701bdd9dd0f1eca68b274bcbd2",
+								"key": "code",
+								"type": "x_f5sl_cl_subjects"
+							},
+							"parent_record": {
+								"value": "Container 1",
+								"cl_id": "b690df12db0c35502bdd077cd39619c5",
+								"key": "title"
+							},
+							"order": "2",
+							"cl_id": "48d04c701bdd9dd0f1eca68b274bcbd2",
+							"academic_item_type": {
+								"label": "Unit",
+								"value": "subject"
+							},
+							"abbr_name": "INTRO CSN&SEC",
+							"academic_item_version_name": "2023.02",
+							"academic_item_credit_points": "6",
+							"abbreviated_name_and_major": null,
+							"academic_item_name": "Introduction to computer systems, networks and security",
+							"academic_item_code": "FIT1047",
+							"academic_item_url": "/2023/units/FIT1047"
+						},
+						{
+							"academic_item": {
+								"value": "Unit: FIT1008",
+								"cl_id": "3c69b8a71b3c5550653b206b274bcb20",
+								"key": "code",
+								"type": "x_f5sl_cl_subjects"
+							},
+							"parent_record": {
+								"value": "Container 1",
+								"cl_id": "b690df12db0c35502bdd077cd39619c5",
+								"key": "title"
+							},
+							"order": "3",
+							"cl_id": "3c69b8a71b3c5550653b206b274bcb20",
+							"academic_item_type": {
+								"label": "Unit",
+								"value": "subject"
+							},
+							"abbr_name": "INTRO COMP SCIENCE",
+							"academic_item_version_name": "2023.01RO",
+							"academic_item_credit_points": "6",
+							"abbreviated_name_and_major": null,
+							"academic_item_name": "Introduction to computer science",
+							"academic_item_code": "FIT1008",
+							"academic_item_url": "/2023/units/FIT1008"
+						}
+					]
+				}
+			]
+		}
+	],
+	"unit_offering": [
+		{
+			"fees_domestic": "",
+			"publish": "true",
+			"location": {
+				"value": "Malaysia",
+				"cl_id": "7bf321e1db30a7406add773c3496192f",
+				"key": "name"
+			},
+			"name": "FIT3159-S1-01-ON-CAMPUS-MALAYSIA",
+			"clarification_to_appear_in_handbook": "",
+			"display_name": "S1-01-MALAYSIA-ON-CAMPUS",
+			"teaching_period": {
+				"value": "First semester",
+				"cl_id": "0da429a1db30a7406add773c3496190c",
+				"key": "name"
+			},
+			"attendance_mode": {
+				"value": "On-campus",
+				"cl_id": "7bf2311bdb68a3406add773c349619bb",
+				"key": "description"
+			},
+			"quota_number": "",
+			"study_level": {
+				"label": null,
+				"value": null
+			},
+			"offered": "true",
+			"self_enrol": "true",
+			"academic_item": {
+				"value": "FIT3159",
+				"cl_id": "ba901352db0c35502bdd077cd3961915",
+				"key": "code"
+			},
+			"fees_commonwealth": "",
+			"fees_international": "",
+			"course_restrictions": "",
+			"cl_id": "72901352db0c35502bdd077cd396191e"
+		},
+		{
+			"fees_domestic": "",
+			"publish": "true",
+			"location": {
+				"value": "Clayton",
+				"cl_id": "37f321e1db30a7406add773c3496192e",
+				"key": "name"
+			},
+			"name": "FIT3159-S1-01-ON-CAMPUS-CLAYTON",
+			"clarification_to_appear_in_handbook": "",
+			"display_name": "S1-01-CLAYTON-ON-CAMPUS",
+			"teaching_period": {
+				"value": "First semester",
+				"cl_id": "0da429a1db30a7406add773c3496190c",
+				"key": "name"
+			},
+			"attendance_mode": {
+				"value": "On-campus",
+				"cl_id": "7bf2311bdb68a3406add773c349619bb",
+				"key": "description"
+			},
+			"quota_number": "",
+			"study_level": {
+				"label": null,
+				"value": null
+			},
+			"offered": "true",
+			"self_enrol": "true",
+			"academic_item": {
+				"value": "FIT3159",
+				"cl_id": "ba901352db0c35502bdd077cd3961915",
+				"key": "code"
+			},
+			"fees_commonwealth": "",
+			"fees_international": "",
+			"course_restrictions": "",
+			"cl_id": "76901352db0c35502bdd077cd396191d"
+		}
+	],
+	"enrolment_rules_group": [],
+	"learning_resources_grouped": [],
+	"study_abroad_unit": "Yes",
+	"academic_item_type": "Unit",
+	"learning_activities_grouped": [
+		{
+			"activity_type": "Tutorials",
+			"activities": [
+				{
+					"subject": {
+						"value": "FIT3159",
+						"cl_id": "ba901352db0c35502bdd077cd3961915",
+						"key": "code"
+					},
+					"cl_id": "76901352db0c35502bdd077cd3961949",
+					"order": "0",
+					"description": "",
+					"activity_type": {
+						"label": "Tutorials",
+						"value": "tutorial"
+					},
+					"duration_display": "12 hours",
+					"offerings_formatted_teaching_activities": "<ul><li>Applies to all offerings</li></ul>",
+					"links": []
+				}
+			]
+		},
+		{
+			"activity_type": "Workshops",
+			"activities": [
+				{
+					"subject": {
+						"value": "FIT3159",
+						"cl_id": "ba901352db0c35502bdd077cd3961915",
+						"key": "code"
+					},
+					"cl_id": "7e901352db0c35502bdd077cd3961948",
+					"order": "3",
+					"description": "",
+					"activity_type": {
+						"label": "Workshops",
+						"value": "workshop"
+					},
+					"duration_display": "24 hours",
+					"offerings_formatted_teaching_activities": "<ul><li>Applies to all offerings</li></ul>",
+					"links": []
+				}
+			]
+		},
+		{
+			"activity_type": "Laboratories",
+			"activities": [
+				{
+					"subject": {
+						"value": "FIT3159",
+						"cl_id": "ba901352db0c35502bdd077cd3961915",
+						"key": "code"
+					},
+					"cl_id": "f2901352db0c35502bdd077cd3961949",
+					"order": "2",
+					"description": "",
+					"activity_type": {
+						"label": "Laboratories",
+						"value": "laboratory"
+					},
+					"duration_display": "18 hours",
+					"offerings_formatted_teaching_activities": "<ul><li>Applies to all offerings</li></ul>",
+					"links": []
+				}
+			]
+		}
+	],
+	"search_title": "FIT3159 - Computer architecture",
+	"unit_search_title": "FIT3159 - Computer architecture",
+	"teaching_approaches": [
+		{
+			"type": {
+				"label": "Problem-based learning",
+				"value": "problem_based_learning"
+			},
+			"academic_item": {
+				"value": "FIT3159",
+				"cl_id": "ba901352db0c35502bdd077cd3961915",
+				"key": "code"
+			},
+			"cl_id": "32901352db0c35502bdd077cd3961947",
+			"description": "<p>   </p>",
+			"links": []
+		}
+	],
+	"handbook_statement": null,
+	"academic_contact_roles": [
+		{
+			"role": "Unit Coordinator(s)",
+			"contacts": [
+				{
+					"active": "true",
+					"contact_department": "",
+					"start_date": "",
+					"offering": {
+						"value": "",
+						"cl_id": null,
+						"key": "display_name"
+					},
+					"contact_role": {
+						"label": "Unit Coordinator",
+						"value": "unit_coordinator"
+					},
+					"contact_name": "Adamu Muhammad Buhari",
+					"role_detail": "",
+					"contact_organisation": "",
+					"contact_title": "Dr",
+					"order": "1",
+					"contact_phone": "",
+					"end_date": "",
+					"location": {
+						"value": "",
+						"cl_id": null,
+						"key": "name"
+					},
+					"contact_email": "AdamuMuhammad.Buhari@monash.edu",
+					"contact_url": "",
+					"user": {
+						"value": "Adamu Muhammad Buhari",
+						"cl_id": "b46cfc26db1715902bdd077cd39619d8",
+						"key": ""
+					},
+					"offerings": [
+						{
+							"value": "S1-01-MALAYSIA-ON-CAMPUS",
+							"cl_id": "72901352db0c35502bdd077cd396191e",
+							"key": "display_name"
+						}
+					],
+					"applies_to_all_offerings": "false",
+					"linking_id": "3dde44f8db6f1d902bdd077cd39619ba",
+					"cl_id": "b6901352db0c35502bdd077cd396191e",
+					"display_details": "AdamuMuhammad.Buhari@monash.edu",
+					"display_name": "Dr Adamu Muhammad Buhari ",
+					"offerings_formatted_contact": "<ul><li>First semester, Malaysia, On-campus</li></ul>",
+					"display_role_plural": "Unit Coordinator(s)",
+					"links": []
+				}
+			]
+		},
+		{
+			"role": "Chief Examiner(s)",
+			"contacts": [
+				{
+					"active": "false",
+					"contact_department": "",
+					"start_date": "",
+					"offering": {
+						"value": "",
+						"cl_id": null,
+						"key": "display_name"
+					},
+					"contact_role": {
+						"label": "Chief Examiner",
+						"value": "chief_examiner"
+					},
+					"contact_name": "Charith Kohomban Wickrama Jayasekara",
+					"role_detail": "",
+					"contact_organisation": "",
+					"contact_title": "Dr",
+					"order": "",
+					"contact_phone": "",
+					"end_date": "",
+					"location": {
+						"value": "",
+						"cl_id": null,
+						"key": "name"
+					},
+					"contact_email": "Charith.Jayasekara@monash.edu",
+					"contact_url": "",
+					"user": {
+						"value": "Charith Kohomban Wickrama Jayasekara",
+						"cl_id": "78d1cbdcdb78b300580f42a01496197c",
+						"key": ""
+					},
+					"offerings": [
+						{
+							"value": "S1-01-CLAYTON-ON-CAMPUS",
+							"cl_id": "76901352db0c35502bdd077cd396191d",
+							"key": "display_name"
+						}
+					],
+					"applies_to_all_offerings": "false",
+					"linking_id": "ec10d06cdb74b3003a731c0e04961959",
+					"cl_id": "f2901352db0c35502bdd077cd396191f",
+					"display_details": "Charith.Jayasekara@monash.edu",
+					"display_name": "Dr Charith Kohomban Wickrama Jayasekara ",
+					"offerings_formatted_contact": "<ul><li>First semester, Clayton, On-campus</li></ul>",
+					"display_role_plural": "Chief Examiner(s)",
+					"links": []
+				}
+			]
+		}
+	],
+	"links": [],
+	"yearSwitcher": [
+		{
+			"label": "2020",
+			"value": "2020",
+			"href": "/2020/units/FIT3159?year=2020"
+		},
+		{
+			"label": "2021",
+			"value": "2021",
+			"href": "/2021/units/FIT3159?year=2021"
+		},
+		{
+			"label": "2022",
+			"value": "2022",
+			"href": "/2022/units/FIT3159?year=2022"
+		},
+		{
+			"label": "2023",
+			"value": "2023",
+			"href": "/2023/units/FIT3159?year=2023"
+		}
+	],
+	"university": "Monash University"
+}

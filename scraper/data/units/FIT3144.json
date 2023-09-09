@@ -4,6 +4,7 @@
 	"offerings": [
 		"Full year"
 	],
+	"enrolmentRules": [],
 	"requisites": [
 		{
 			"type": "prerequisite",
