@@ -26,7 +26,7 @@
 		{#each cur.requirement.items as next (next.title)}
 			<br />
 			<svelte:self cur={next} depth={depth + 1} />
-		{:else}{/each}
+		{/each}
 	{/if}
 {:else if cur.requirement?.operator == 'OR'}
 	<div class="flex flex-row flex-wrap">

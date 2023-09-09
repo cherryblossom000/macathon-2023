@@ -57,14 +57,14 @@ interface CourseResponse {
 
 const parseCourseRequirement = (
 	groups: readonly CurriculumStructureContainer[],
+	title: string,
 	units: readonly CurriculumStructureRelationship[] = [],
-	title?: string,
 	description?: string,
 ): CourseRequirement => ({
 	title,
 	requirement:
 		groups.length || units.length
-			? {
+			? ({
 					// hacky workaround for incorrect data
 					operator: description?.includes('one of the following')
 						? 'OR'
@@ -73,14 +73,14 @@ const parseCourseRequirement = (
 						...groups.map(g =>
 							parseCourseRequirement(
 								g.container,
-								g.relationship,
 								g.title,
+								g.relationship,
 								g.description,
 							),
 						),
 						...units.map(u => u.academic_item_code),
 					],
-			  }
+			  } as CourseRequirement['requirement'])
 			: undefined,
 })
 
@@ -93,7 +93,7 @@ const parseCourseRequirement = (
 // 			code,
 // 			title,
 // 			abbreviatedName: abbreviated_name,
-// 			requirement: parseCourseRequirement(curriculumStructure.container),
+// 			requirement: parseCourseRequirement(curriculumStructure.container, title),
 // 		}
 // 	}),
 // )
@@ -150,13 +150,13 @@ const parseUnitRequirement = (
 		...('relationship' in group ? group.relationship : group.relationships).map(
 			u => u.academic_item_code,
 		),
-	],
+	] as UnitRequirement[],
 })
 
 console.log('done courses')
 
-const seq = async <T>(xs: readonly T[]): Promise<Awaited<T>[]> => {
-	const r: Awaited<T>[] = []
+const seq = async <T>(xs: readonly Promise<T>[]): Promise<T[]> => {
+	const r: T[] = []
 	for (const x of xs) r.push(await x)
 	return r
 }

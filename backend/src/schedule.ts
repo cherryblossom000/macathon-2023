@@ -1,6 +1,6 @@
 import assert from 'node:assert'
-import * as E from 'fp-ts/lib/Either.js'
 import * as A from 'fp-ts/lib/Array.js'
+import * as E from 'fp-ts/lib/Either.js'
 import {pipe, identity as id} from 'fp-ts/lib/function.js'
 import {units} from './data.js'
 import type {
@@ -42,22 +42,23 @@ const canAddPrereqHelper = (
 			codes => codes.includes(unitName),
 		)
 	} else {
+		const items: (UnitCode | UnitRequirement)[] = req.items
 		if (req.operator == 'AND') {
 			return pipe(
-				req.items,
+				items,
 				A.map(r => canAddPrereqHelper(current, before, r)),
 				A.every(id),
 			)
 		} else if (req.operator == 'OR') {
 			return pipe(
-				req.items,
+				items,
 				A.map(r => canAddPrereqHelper(current, before, r)),
 				A.exists(id),
 			)
 		} else {
 			return (
 				pipe(
-					req.items,
+					items,
 					A.map(r => (canAddPrereqHelper(current, before, r) ? 1 : 0)),
 					A.reduce(0, (before, at) => before + at),
 				) >= 2
@@ -79,22 +80,23 @@ const canAddProhibHelper = (
 		)
 		return r
 	} else {
+		const items: (UnitCode | UnitRequirement)[] = req.items
 		if (req.operator == 'AND') {
 			return pipe(
-				req.items,
+				items,
 				A.map(r => canAddProhibHelper(current, r)),
 				A.every(id),
 			)
 		} else if (req.operator == 'OR') {
 			return pipe(
-				req.items,
+				items,
 				A.map(r => canAddProhibHelper(current, r)),
 				A.every(id),
 			)
 		} else {
 			return (
 				pipe(
-					req.items,
+					items,
 					A.map(r => (canAddProhibHelper(current, r) ? 1 : 0)),
 					A.reduce(0, (before, at) => before + at),
 				) < 2
