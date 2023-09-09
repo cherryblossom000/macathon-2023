@@ -6,17 +6,15 @@ import * as O from 'fp-ts/lib/Option.js'
 import {pipe} from 'fp-ts/lib/function.js'
 import * as t from 'io-ts'
 import {
-	CreateScheduleRequest,
-	ShuffleScheduleRequest,
-	type CreateScheduleResponse,
+	CreateSchedulesRequest,
+	type CreateSchedulesResponse,
 	type GetCourseResponse,
 	type GetUnitResponse,
-	type ShuffleScheduleResponse,
 	type Response,
 	type GetSpecialisationResponse,
 } from 'shared/dist/api.js'
 import * as data from './data.js'
-import {construct_schedule} from './schedule.js'
+import {construct_schedules} from './schedule.js'
 
 const app = express()
 
@@ -92,11 +90,11 @@ app.get(
 )
 
 app.post(
-	'/schedule',
+	'/schedules',
 	handler(
-		CreateScheduleRequest,
+		CreateSchedulesRequest,
 		'body',
-		(params): HandlerResult<CreateScheduleResponse> => {
+		(params): HandlerResult<CreateSchedulesResponse> => {
 			return pipe(
 				params.wanted_electives,
 				A.traverse(E.getApplicativeValidation(A.getSemigroup<string>()))(u =>
@@ -110,31 +108,22 @@ app.post(
 					us => E.left({code: 400, data: `invalid units: ${us.join(', ')}`}),
 					us =>
 						pipe(
-							construct_schedule({
+							construct_schedules({
 								...params,
 								wanted_electives: us,
 							}),
 							E.mapLeft(data => ({code: 500, data: data})),
-							E.map(s => ({
-								years: s.years.map(y => ({
-									sem1_units: y.sem1_units.map(u => u.code),
-									sem2_units: y.sem2_units.map(u => u.code),
+							E.map(ss =>
+								ss.map(s => ({
+									years: s.years.map(y => ({
+										sem1_units: y.sem1_units.map(u => u.code),
+										sem2_units: y.sem2_units.map(u => u.code),
+									})),
 								})),
-							})),
+							),
 						),
 				),
 			)
-		},
-	),
-)
-
-app.post(
-	'/shuffle-schedule',
-	handler(
-		ShuffleScheduleRequest,
-		'body',
-		(schedule): HandlerResult<ShuffleScheduleResponse> => {
-			throw 0
 		},
 	),
 )

@@ -298,9 +298,9 @@ let construct_helper = (
 	return res.length == 0 ? O.none : O.some(res)
 }
 
-export let construct_schedule = (
+export let construct_schedules = (
 	params: ScheduleParameters,
-): E.Either<string, Schedule> => {
+): E.Either<string, Schedule[]> => {
 	let all_units = read_all_units()
 
 	let empty: Schedule = {
@@ -312,5 +312,5 @@ export let construct_schedule = (
 		E.fromOption(() => 'Could not construct schedule with parameters'),
 	)
 
-	return E.flatMap((x: Schedule[]) => E.right(x[0]!))(all)
+	return all
 }
