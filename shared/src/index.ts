@@ -46,10 +46,23 @@ export interface Requisite {
 	requirement: UnitRequirement
 }
 
+export interface CreditPointPrerequisite {
+	points: number
+	/**
+	 * if this is true, the CPs must be from FIT units
+	 * @default false
+	 */
+	fitOnly?: boolean
+	/** if this is present the CPs must be of this level */
+	levelOnly?: number
+}
+
 export interface Unit extends HandbookThing {
 	offerings: TeachingPeriod[]
 	requisites: Requisite[]
+	/** raw HTML data */
 	enrolmentRules: string[]
+	creditPointPrerequisite?: CreditPointPrerequisite
 }
 
 export interface Specialisation extends HandbookThing {
