@@ -56,8 +56,8 @@ export interface Specialisation extends HandbookThing {
 }
 
 export type ScheduleParameters = {
-  num_years: 3 | 4 | 5,
-  should_overload: boolean,
-  course: Course,
-  wanted_electives: Unit[]
+	num_years: 3 | 4 | 5
+	should_overload: boolean
+	course: 'C2001'
+	wanted_electives: Unit[]
 }
