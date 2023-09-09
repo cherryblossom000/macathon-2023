@@ -1,13 +1,12 @@
 <script lang="ts">
 	import UnitBox from './UnitBox.svelte'
-	import {appState} from '../scripts'
+	import {appState, enumerate} from '../scripts'
 </script>
 
 <table class="w-full border-separate border-spacing-2">
 	{#each $appState.coursePlan as sem (sem.id)}
 		<tr>
-			<!--TODO: ADD ID TO AVOID BUGS-->
-			{#each sem.units as unit}
+			{#each enumerate(sem.units) as [i, unit] (i)}
 				<UnitBox {unit} />
 			{/each}
 		</tr>
