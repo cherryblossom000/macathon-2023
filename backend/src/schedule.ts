@@ -32,11 +32,11 @@ const canAddPrereqHelper = (
 	req: UnitCode | UnitRequirement,
 ): boolean => {
 	if (typeof req === 'string') {
-		const unit_name = req
+		const unitName = req
 		return pipe(
 			before,
 			A.map((unit: Unit) => unit.code),
-			codes => codes.includes(unit_name),
+			codes => codes.includes(unitName),
 		)
 	} else {
 		if (req.operator == 'AND') {
@@ -68,11 +68,11 @@ const canAddProhibHelper = (
 	req: UnitCode | UnitRequirement,
 ): boolean => {
 	if (typeof req === 'string') {
-		const unit_name: string = req
+		const unitName = req
 		const r = pipe(
 			getAllUnits(current),
 			A.map((unit: Unit) => unit.code),
-			codes => !codes.includes(unit_name),
+			codes => !codes.includes(unitName),
 		)
 		return r
 	} else {
@@ -106,22 +106,22 @@ export const canAdd = (
 	before: Unit[],
 	sem: TeachingPeriod,
 ): boolean => {
-	if (unit.requisites.length == 0) {
+	if (unit.requisites.length === 0) {
 		return (
 			unit.offerings.includes(sem) &&
 			getAllUnits(current).find(
-				x => JSON.stringify(x) == JSON.stringify(unit),
-			) == undefined
+				x => JSON.stringify(x) === JSON.stringify(unit),
+			) === undefined
 		)
 	}
 
 	return pipe(
 		unit.requisites,
 		A.map(req => {
-			if (req.type == 'prerequisite') {
+			if (req.type === 'prerequisite') {
 				const s = canAddPrereqHelper(current, before, req.requirement)
 
-				if (unit.code == 'FIT2107') {
+				if (unit.code === 'FIT2107') {
 					// console.log("GOT",s, before.map(x => x.code))
 				}
 				return s
@@ -134,15 +134,16 @@ export const canAdd = (
 				b &&
 				unit.offerings.includes(sem) &&
 				getAllUnits(current).find(
-					x => JSON.stringify(x) == JSON.stringify(unit),
-				) == undefined
+					x => JSON.stringify(x) === JSON.stringify(unit),
+				) === undefined
 			)
 		},
 	)
 }
 
 const getRequiredUnits = (course: Course) => {
-	if (course == 'C2001') {
+	// eslint-disable-next-line @typescript-eslint/no-unnecessary-condition
+	if (course === 'C2001') {
 		return [
 			'FIT1008',
 			'FIT1045',
@@ -173,22 +174,22 @@ export const getAllUnits = (schedule: Schedule): Unit[] => {
 const toposort = (course: Course): Unit[] => {
 	const req = pipe(
 		getRequiredUnits(course),
-		A.map(x => units.find(n => n.code == x)!),
+		A.map(x => units.find(n => n.code === x)!),
 	)
 	req.sort(() => Math.random() - 0.5)
-	const req_units = getRequiredUnits(course)
+	const reqUnits = getRequiredUnits(course)
 
 	const adj: Record<string, string[]> = {}
 
-	const find_edges = (r: UnitRequirement): Unit[] => {
+	const findEdges = (r: UnitRequirement): Unit[] => {
 		let ret: Unit[] = []
 		for (const item of r.items) {
-			if (typeof item == 'string') {
-				if (units.find(n => n.code == item) != undefined) {
-					ret.push(units.find(n => n.code == item)!)
+			if (typeof item === 'string') {
+				if (units.find(n => n.code === item) !== undefined) {
+					ret.push(units.find(n => n.code === item)!)
 				}
 			} else {
-				ret = ret.concat(find_edges(item))
+				ret = ret.concat(findEdges(item))
 			}
 		}
 		return ret
@@ -196,12 +197,12 @@ const toposort = (course: Course): Unit[] => {
 
 	for (const unit of req) {
 		for (const req of unit.requisites) {
-			if (req.type == 'prerequisite') {
-				for (const to of find_edges(req.requirement)) {
+			if (req.type === 'prerequisite') {
+				for (const to of findEdges(req.requirement)) {
 					if (!(to.code in adj)) {
 						adj[to.code] = []
 					}
-					if (req_units.includes(unit.code) && req_units.includes(to.code)) {
+					if (reqUnits.includes(unit.code) && reqUnits.includes(to.code)) {
 						adj[to.code]!.push(unit.code)
 					}
 				}
@@ -227,14 +228,14 @@ const toposort = (course: Course): Unit[] => {
 		topo.push(at)
 	}
 
-	for (const node of req_units) {
+	for (const node of reqUnits) {
 		if (!seen.includes(node)) {
 			dfs(node)
 		}
 	}
 
 	topo.reverse()
-	return topo.map(s => req.find(u => u.code == s)!)
+	return topo.map(s => req.find(u => u.code === s)!)
 }
 
 export const constructSchedules = (
@@ -263,7 +264,7 @@ export const constructSchedules = (
 		for (let i = 0; i < sorted.length; i++) {
 			const before = Math.floor(i / 4) * 24
 			if (typeof sorted[i] !== 'undefined') {
-				if (sorted[i]!.creditPointPrerequisite != undefined) {
+				if (sorted[i]!.creditPointPrerequisite !== undefined) {
 					if (sorted[i]!.creditPointPrerequisite!.points > before) {
 						good = false
 						break
@@ -282,16 +283,16 @@ export const constructSchedules = (
 			const sem: TeachingPeriod =
 				Math.floor(i % 8) < 4 ? 'First semester' : 'Second semester'
 
-			if (typeof unit == 'undefined') {
+			if (typeof unit === 'undefined') {
 				continue
 			}
 
-			if (unit.creditPointPrerequisite != undefined) {
+			if (unit.creditPointPrerequisite !== undefined) {
 				const prereq = unit.creditPointPrerequisite
 				// FIT only, on current level only
-				const done_before = Math.floor(i / 4) * 24
+				const doneBefore = Math.floor(i / 4) * 24
 
-				if (done_before < prereq.points) {
+				if (doneBefore < prereq.points) {
 					good = false
 				}
 			}
@@ -305,10 +306,10 @@ export const constructSchedules = (
 			continue
 		}
 
-		const shuffled_units = [...units]
-		shuffled_units.sort(() => Math.random() - 0.5)
+		const shuffledUnits = [...units]
+		shuffledUnits.sort(() => Math.random() - 0.5)
 
-		const blank_unit: Unit = {
+		const blankUnit: Unit = {
 			code: '',
 			requisites: [],
 			offerings: [],
@@ -318,14 +319,14 @@ export const constructSchedules = (
 		const sched: Schedule = {
 			years: Array.from({length: 3}, () => {
 				return {
-					sem1Units: [blank_unit, blank_unit, blank_unit, blank_unit],
-					sem2Units: [blank_unit, blank_unit, blank_unit, blank_unit],
+					sem1Units: [blankUnit, blankUnit, blankUnit, blankUnit],
+					sem2Units: [blankUnit, blankUnit, blankUnit, blankUnit],
 				} as Year
 			}),
 		}
 
 		for (let i = 0; i < sorted.length; i++) {
-			if (typeof sorted[i] != 'undefined') {
+			if (typeof sorted[i] !== 'undefined') {
 				if (i % 8 < 4) {
 					sched.years[Math.floor(i / 8)]!.sem1Units[i % 4] = sorted[i]!
 				} else {
@@ -337,12 +338,12 @@ export const constructSchedules = (
 
 		// REMOVE NULLS WITH ELECTIVES
 		for (let i = 0; i < sorted.length; i++) {
-			const cred_before = Math.floor(i / 4) * 24
+			const credBefore = Math.floor(i / 4) * 24
 
 			// Need to fill it up
-			if (typeof sorted[i] == 'undefined') {
+			if (typeof sorted[i] === 'undefined') {
 				const possible = []
-				for (const unit of shuffled_units) {
+				for (const unit of shuffledUnits) {
 					if (
 						canAdd(
 							sched,
@@ -350,9 +351,9 @@ export const constructSchedules = (
 							before,
 							i % 8 < 4 ? 'First semester' : 'Second semester',
 						) &&
-						(typeof unit.creditPointPrerequisite == 'undefined' ||
-							unit.creditPointPrerequisite.points < cred_before) &&
-						sorted.find(f => f == unit) == undefined &&
+						(typeof unit.creditPointPrerequisite === 'undefined' ||
+							unit.creditPointPrerequisite.points < credBefore) &&
+						sorted.find(f => f === unit) === undefined &&
 						unit.offerings.includes(
 							i % 8 < 4 ? 'First semester' : 'Second semester',
 						)
@@ -361,7 +362,7 @@ export const constructSchedules = (
 					}
 				}
 
-				if (possible.length == 0) {
+				if (possible.length === 0) {
 					return E.left('Could not create schedule with given electives')
 				}
 
@@ -370,7 +371,7 @@ export const constructSchedules = (
 				sorted[i] = take
 			}
 
-			if (i % 4 == 3) {
+			if (i % 4 === 3) {
 				// add ones before
 				for (let j = i - 3; j <= i; j++) {
 					before.push(sorted[j]!)
@@ -378,11 +379,11 @@ export const constructSchedules = (
 			}
 		}
 
-		const without_nulls = sorted.filter(x => x != undefined) as Unit[]
-		assert(without_nulls.length == sorted.length)
-		assert(without_nulls[0]!.code != 'FIT2107')
+		const withoutNulls = sorted.filter(x => x !== undefined) as Unit[]
+		assert(withoutNulls.length === sorted.length)
+		assert(withoutNulls[0]!.code !== 'FIT2107')
 
-		const to_schedule = (x: Unit[]): Schedule => {
+		const toSchedule = (x: Unit[]): Schedule => {
 			const a = {
 				years: Array.from({length: 3}, () => {
 					return {sem1Units: [], sem2Units: []} as Year
@@ -399,14 +400,14 @@ export const constructSchedules = (
 			return a
 		}
 
-		assert(to_schedule(without_nulls).years[0]?.sem1Units[0]!.code != 'FIT2107')
-		schedules.push(to_schedule(without_nulls))
+		assert(toSchedule(withoutNulls).years[0]?.sem1Units[0]!.code !== 'FIT2107')
+		schedules.push(toSchedule(withoutNulls))
 		// step 4: profit??
 	}
 
 	return E.right(schedules)
 	// let all = pipe(
-	// 	construct_helper(empty, params, all_units),
+	// 	constructHelper(empty, params, allUnits),
 	// 	E.fromOption(() => 'Could not construct schedule with parameters'),
 	// )
 
