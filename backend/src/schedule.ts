@@ -12,7 +12,10 @@ import type {
 } from 'shared'
 
 type ScheduleParameters = Omit<_ScheduleParameters, 'wantedElectives'> & {
-	wantedElectives: (Unit & {year: number | undefined, sem: 1 | 2 | undefined})[]
+	wantedElectives: (Unit & {
+		year?: number | undefined
+		semester?: 1 | 2 | undefined
+	})[]
 }
 
 export interface Year {
@@ -173,9 +176,9 @@ export const getAllUnits = (schedule: Schedule): Unit[] => {
 
 let adj: Record<string, string[]> = {}
 
-let setup_toposort = (all_units: Unit[]) => {
-  adj = {};
-  let all_codes = all_units.map(x=>x.code);
+const setupToposort = (all_units: Unit[]) => {
+	adj = {}
+	const allCodes = all_units.map(x => x.code)
 
 	const findEdges = (r: UnitRequirement): Unit[] => {
 		let ret: Unit[] = []
@@ -198,7 +201,7 @@ let setup_toposort = (all_units: Unit[]) => {
 					if (!(to.code in adj)) {
 						adj[to.code] = []
 					}
-					if (all_codes.includes(unit.code) && all_codes.includes(to.code)) {
+					if (allCodes.includes(unit.code) && allCodes.includes(to.code)) {
 						adj[to.code]!.push(unit.code)
 					}
 				}
@@ -226,9 +229,9 @@ const toposort = (all_units: Unit[]): Unit[] => {
 		topo.push(at)
 	}
 
-  for (let c of all_units) {
-    dfs(c.code);
-  }
+	for (const c of all_units) {
+		dfs(c.code)
+	}
 	topo.reverse()
 
 	return topo.map(s => all_units.find(u => u.code === s)!)
@@ -239,17 +242,18 @@ export const constructSchedules = (
 ): E.Either<string, Schedule[]> => {
 	const schedules: Schedule[] = []
 
-  let all_units: Unit[] = params.wantedElectives;
+	const allUnits: Unit[] = params.wantedElectives
 
-  setup_toposort(params.wantedElectives);
+	setupToposort(params.wantedElectives)
 
 	while (schedules.length < 200) {
-    let with_constraint = params.wantedElectives.filter(x => typeof(x.year) != "undefined");
-    with_constraint.sort((a,b) => a.year! - b.year!)
-
+		const withConstraint = params.wantedElectives.filter(
+			x => typeof x.year != 'undefined',
+		)
+		withConstraint.sort((a, b) => a.year! - b.year!)
 
 		// step 1: toposort important units
-    let sorted: (Unit | undefined)[] = toposort(all_units);
+		const sorted: (Unit | undefined)[] = toposort(allUnits)
 
 		// step 2: add gaps inbetween
 		const gaps = params.numYears * 8 - sorted.length
@@ -329,7 +333,7 @@ export const constructSchedules = (
 			}),
 		}
 
-    // ======================== FILL IN SCHEDULE WITH CORE UNITs
+		// ======================== FILL IN SCHEDULE WITH CORE UNITs
 		for (let i = 0; i < sorted.length; i++) {
 			if (typeof sorted[i] !== 'undefined') {
 				if (i % 8 < 4) {
@@ -339,7 +343,6 @@ export const constructSchedules = (
 				}
 			}
 		}
-
 
 		// ======================== REPLACE UNDEFINEDS WITH ELECTIVES
 		const before: Unit[] = []
@@ -385,8 +388,7 @@ export const constructSchedules = (
 			}
 		}
 
-
-    // ======================== INSERT INTO THE SCHEDULE
+		// ======================== INSERT INTO THE SCHEDULE
 		const withoutNulls = sorted.filter(x => x !== undefined) as Unit[]
 
 		const toSchedule = (x: Unit[]): Schedule => {
@@ -413,7 +415,6 @@ export const constructSchedules = (
 	return E.right(schedules)
 }
 
-
 /*
   TODO:
 
@@ -421,25 +422,21 @@ export const constructSchedules = (
 
   My idea was, but I didn't have time to implement:
 
-
   RANDOMISE UNTIL VALID FOUND:
     STEP 1:
     toposort everything, together (shuffle list beforehand)
     split into constrained and nonconstrained, intersperse constrained with undefineds
     e.g. [_,_,_,a,_,_,_,b] and [c,d,e,f] (latter is nonconstrained)
-    
+
     STEP 2:
-    insert undefineds randomly into latter list until it is the size of the number of undefines,
+    insert undefineds randomly into latter list until it is the size of the number of undefineds,
     then replace every undefined in the former with its corresponding value in the latter
 
     STEP 3:
-    replace remaining undefines with random units
+    replace remaining undefineds with random units
 
     STEP 4:
     validate
 
   REPEAT UNTIL ENOUGH SCHEDULES ARE GENERATED
-
-
-
 */
