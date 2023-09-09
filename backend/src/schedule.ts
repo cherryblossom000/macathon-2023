@@ -141,30 +141,13 @@ export let construct_schedules = (
 		// step 2: add gaps inbetween
 		let gaps = params.num_years * 8 - sorted.length
 
-		// TODO: REMOVE, INDRA SHOULD SEND DATA
-		// THESE ARE NOT VALIDATED
-
-		let to_insert = []
-		let inds = []
-
 		for (let i = 0; i < gaps; i++) {
 			let u = units[0]!
 			while (sorted.includes(u)) {
 				u = units[Math.floor(Math.random() * sorted.length)]!
 			}
-			to_insert.push(u)
-
-			inds.push(Math.floor(Math.random() * sorted.length))
-			sorted.splice(inds[inds.length - 1]!, 0, undefined)
+			sorted.splice(Math.floor(Math.random()*sorted.length), 0, undefined)
 		}
-		let points = (a: Unit) => {
-			if (a.creditPointPrerequisite != undefined) {
-				return a.creditPointPrerequisite.points
-			}
-			return 0
-		}
-
-		to_insert.sort((a: Unit, b: Unit) => points(a) - points(b))
 
 		// step 3: add electives
 		let good = true
@@ -172,28 +155,29 @@ export let construct_schedules = (
 		let counter = 0
 		for (let i = 0; i < sorted.length; i++) {
 			let before = Math.floor(i / 4) * 24
-			if (typeof sorted[i] == 'undefined') {
-				if (before < points(to_insert[counter]!)) {
-					good = false
-					break
-				}
-				sorted[i] = to_insert[counter]
-				counter += 1
+			if (typeof sorted[i] !== 'undefined') {
+        if (sorted[i]!.creditPointPrerequisite != undefined) {
+          if (sorted[i]!.creditPointPrerequisite!.points > before) {
+            good=false;
+            break
+          }
+        }
 			}
 		}
 
 		if (!good) {
 			continue
 		}
-		console.log('Got here')
-		let without_nulls = sorted.filter(x => x != undefined) as Unit[]
-		assert(without_nulls.length == sorted.length)
 
 		// Validate semesters
 		for (let i = 0; i < sorted.length; i++) {
-			let unit = without_nulls[i]!
+			let unit = sorted[i]!
 			let sem: TeachingPeriod =
 				Math.floor(i % 8) < 4 ? 'First semester' : 'Second semester'
+      
+      if (typeof unit == "undefined") {
+        continue;
+      }
 
 			if (unit.creditPointPrerequisite != undefined) {
 				let prereq = unit.creditPointPrerequisite
@@ -211,12 +195,20 @@ export let construct_schedules = (
 			}
 		}
 
+    if (!good) {
+      continue;
+    }
+
+    console.log("Got here!");
+
+    let without_nulls = sorted.filter(x => x!=undefined) as Unit[];
+
 		if (good) {
 			schedules.push(without_nulls)
 
 			console.log(
-				without_nulls.map(u => {
-					if (typeof u == 'string') {
+				sorted.map(u => {
+					if (typeof u == 'undefined') {
 						return '_'
 					} else {
 						return u.code + ' '
@@ -227,16 +219,5 @@ export let construct_schedules = (
 		// step 4: profit??
 	}
 
-	schedules.forEach(x => {
-		console.log(
-			x.map(u => {
-				if (typeof u == 'string') {
-					return '_'
-				} else {
-					return u.code + ' '
-				}
-			}),
-		)
-	})
 	return E.left('kill me')
 }
