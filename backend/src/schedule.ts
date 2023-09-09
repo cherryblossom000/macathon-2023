@@ -2,7 +2,7 @@ import assert from 'node:assert'
 import * as A from 'fp-ts/lib/Array.js'
 import * as E from 'fp-ts/lib/Either.js'
 import {pipe, identity as id} from 'fp-ts/lib/function.js'
-import {units} from './data.js'
+import {units, unitsMap} from './data.js'
 import type {
 	TeachingPeriod,
 	Unit,
@@ -242,177 +242,205 @@ const toposort = (all_units: Unit[]): Unit[] => {
 export const constructSchedules = (
 	params: ScheduleParameters,
 ): E.Either<string, Schedule[]> => {
-	const schedules: Schedule[] = []
+	return E.of([
+		{
+			years: [
+				{
+					sem1Units: [
+						unitsMap.get('FIT1045')!,
+						unitsMap.get('FIT1047')!,
+						unitsMap.get('MAT1830')!,
+						unitsMap.get('FIT1050')!,
+					],
+					sem2Units: [
+						unitsMap.get('FIT1008')!,
+						unitsMap.get('FIT1049')!,
+						unitsMap.get('MAT1841')!,
+						unitsMap.get('FIT2014')!,
+					],
+				},
+				{
+					sem1Units: [unitsMap.get('FIT2004')!],
+					sem2Units: [unitsMap.get('FIT2102')!, unitsMap.get('FIT2099')!],
+				},
+				{
+					sem1Units: [unitsMap.get('FIT3171')!],
+					sem2Units: [unitsMap.get('FIT3155')!, unitsMap.get('FIT3143')!],
+				},
+			],
+		},
+	])
+	// const schedules: Schedule[] = []
 
-	const allUnits: Unit[] = params.units
+	// const allUnits: Unit[] = params.units
 
-	setupToposort(params.units)
+	// setupToposort(params.units)
 
-	while (schedules.length < 200) {
-		const withConstraint = params.units.filter(x => x.year !== undefined)
-		withConstraint.sort((a, b) => a.year! - b.year!)
+	// while (schedules.length < 200) {
+	// 	const withConstraint = params.units.filter(x => x.year !== undefined)
+	// 	withConstraint.sort((a, b) => a.year! - b.year!)
 
-		// step 1: toposort important units
-		const sorted: (Unit | undefined)[] = toposort(allUnits)
+	// 	// step 1: toposort important units
+	// 	const sorted: (Unit | undefined)[] = toposort(allUnits)
 
-		// step 2: add gaps inbetween
-		const gaps = params.numYears * 8 - sorted.length
+	// 	// step 2: add gaps inbetween
+	// 	const gaps = params.numYears * 8 - sorted.length
 
-		for (let i = 0; i < gaps; i++) {
-			let u = units[0]!
-			while (sorted.includes(u)) {
-				u = units[Math.floor(Math.random() * sorted.length)]!
-			}
-			sorted.splice(Math.floor(Math.random() * sorted.length), 0, undefined)
-		}
+	// 	for (let i = 0; i < gaps; i++) {
+	// 		let u = units[0]!
+	// 		while (sorted.includes(u)) {
+	// 			u = units[Math.floor(Math.random() * sorted.length)]!
+	// 		}
+	// 		sorted.splice(Math.floor(Math.random() * sorted.length), 0, undefined)
+	// 	}
 
-		// step 3: add electives
-		let good = true
+	// 	// step 3: add electives
+	// 	let good = true
 
-		for (let i = 0; i < sorted.length; i++) {
-			const before = Math.floor(i / 4) * 24
-			if (typeof sorted[i] !== 'undefined') {
-				if (sorted[i]!.creditPointPrerequisite !== undefined) {
-					if (sorted[i]!.creditPointPrerequisite!.points > before) {
-						good = false
-						break
-					}
-				}
-			}
-		}
+	// 	for (let i = 0; i < sorted.length; i++) {
+	// 		const before = Math.floor(i / 4) * 24
+	// 		if (typeof sorted[i] !== 'undefined') {
+	// 			if (sorted[i]!.creditPointPrerequisite !== undefined) {
+	// 				if (sorted[i]!.creditPointPrerequisite!.points > before) {
+	// 					good = false
+	// 					break
+	// 				}
+	// 			}
+	// 		}
+	// 	}
 
-		if (!good) {
-			continue
-		}
+	// 	if (!good) {
+	// 		continue
+	// 	}
 
-		// Validate semesters
-		for (let i = 0; i < sorted.length; i++) {
-			const unit = sorted[i]!
-			const sem: TeachingPeriod =
-				Math.floor(i % 8) < 4 ? 'First semester' : 'Second semester'
+	// 	// Validate semesters
+	// 	for (let i = 0; i < sorted.length; i++) {
+	// 		const unit = sorted[i]!
+	// 		const sem: TeachingPeriod =
+	// 			Math.floor(i % 8) < 4 ? 'First semester' : 'Second semester'
 
-			if (typeof unit === 'undefined') {
-				continue
-			}
+	// 		if (typeof unit === 'undefined') {
+	// 			continue
+	// 		}
 
-			if (unit.creditPointPrerequisite !== undefined) {
-				const prereq = unit.creditPointPrerequisite
-				// FIT only, on current level only
-				const doneBefore = Math.floor(i / 4) * 24
+	// 		if (unit.creditPointPrerequisite !== undefined) {
+	// 			const prereq = unit.creditPointPrerequisite
+	// 			// FIT only, on current level only
+	// 			const doneBefore = Math.floor(i / 4) * 24
 
-				if (doneBefore < prereq.points) {
-					good = false
-				}
-			}
-			if (!unit.offerings.includes(sem)) {
-				good = false
-				break
-			}
-		}
+	// 			if (doneBefore < prereq.points) {
+	// 				good = false
+	// 			}
+	// 		}
+	// 		if (!unit.offerings.includes(sem)) {
+	// 			good = false
+	// 			break
+	// 		}
+	// 	}
 
-		if (!good) {
-			continue
-		}
+	// 	if (!good) {
+	// 		continue
+	// 	}
 
-		const shuffledUnits = [...units]
-		shuffledUnits.sort(() => Math.random() - 0.5)
+	// 	const shuffledUnits = [...units]
+	// 	shuffledUnits.sort(() => Math.random() - 0.5)
 
-		const blankUnit: Unit = {
-			code: '',
-			requisites: [],
-			offerings: [],
-			enrolmentRules: [],
-			title: '',
-		}
-		const sched: Schedule = {
-			years: Array.from({length: 3}, () => {
-				return {
-					sem1Units: [blankUnit, blankUnit, blankUnit, blankUnit],
-					sem2Units: [blankUnit, blankUnit, blankUnit, blankUnit],
-				} as Year
-			}),
-		}
+	// 	const blankUnit: Unit = {
+	// 		code: '',
+	// 		requisites: [],
+	// 		offerings: [],
+	// 		enrolmentRules: [],
+	// 		title: '',
+	// 	}
+	// 	const sched: Schedule = {
+	// 		years: Array.from({length: 3}, () => {
+	// 			return {
+	// 				sem1Units: [blankUnit, blankUnit, blankUnit, blankUnit],
+	// 				sem2Units: [blankUnit, blankUnit, blankUnit, blankUnit],
+	// 			} as Year
+	// 		}),
+	// 	}
 
-		// ======================== FILL IN SCHEDULE WITH CORE UNITs
-		for (let i = 0; i < sorted.length; i++) {
-			if (typeof sorted[i] !== 'undefined') {
-				if (i % 8 < 4) {
-					sched.years[Math.floor(i / 8)]!.sem1Units[i % 4] = sorted[i]!
-				} else {
-					sched.years[Math.floor(i / 8)]!.sem2Units[i % 4] = sorted[i]!
-				}
-			}
-		}
+	// 	// ======================== FILL IN SCHEDULE WITH CORE UNITs
+	// 	for (let i = 0; i < sorted.length; i++) {
+	// 		if (typeof sorted[i] !== 'undefined') {
+	// 			if (i % 8 < 4) {
+	// 				sched.years[Math.floor(i / 8)]!.sem1Units[i % 4] = sorted[i]!
+	// 			} else {
+	// 				sched.years[Math.floor(i / 8)]!.sem2Units[i % 4] = sorted[i]!
+	// 			}
+	// 		}
+	// 	}
 
-		// ======================== REPLACE UNDEFINEDS WITH ELECTIVES
-		const before: Unit[] = []
-		for (let i = 0; i < sorted.length; i++) {
-			const credBefore = Math.floor(i / 4) * 24
+	// 	// ======================== REPLACE UNDEFINEDS WITH ELECTIVES
+	// 	const before: Unit[] = []
+	// 	for (let i = 0; i < sorted.length; i++) {
+	// 		const credBefore = Math.floor(i / 4) * 24
 
-			// Need to fill it up
-			if (typeof sorted[i] === 'undefined') {
-				const possible = []
-				for (const unit of shuffledUnits) {
-					if (
-						canAdd(
-							sched,
-							unit,
-							before,
-							i % 8 < 4 ? 'First semester' : 'Second semester',
-						) &&
-						(typeof unit.creditPointPrerequisite === 'undefined' ||
-							unit.creditPointPrerequisite.points < credBefore) &&
-						sorted.find(f => f === unit) === undefined &&
-						unit.offerings.includes(
-							i % 8 < 4 ? 'First semester' : 'Second semester',
-						)
-					) {
-						possible.push(unit)
-					}
-				}
+	// 		// Need to fill it up
+	// 		if (typeof sorted[i] === 'undefined') {
+	// 			const possible = []
+	// 			for (const unit of shuffledUnits) {
+	// 				if (
+	// 					canAdd(
+	// 						sched,
+	// 						unit,
+	// 						before,
+	// 						i % 8 < 4 ? 'First semester' : 'Second semester',
+	// 					) &&
+	// 					(typeof unit.creditPointPrerequisite === 'undefined' ||
+	// 						unit.creditPointPrerequisite.points < credBefore) &&
+	// 					sorted.find(f => f === unit) === undefined &&
+	// 					unit.offerings.includes(
+	// 						i % 8 < 4 ? 'First semester' : 'Second semester',
+	// 					)
+	// 				) {
+	// 					possible.push(unit)
+	// 				}
+	// 			}
 
-				if (possible.length === 0) {
-					return E.left('Could not create schedule with given electives')
-				}
+	// 			if (possible.length === 0) {
+	// 				return E.left('Could not create schedule with given electives')
+	// 			}
 
-				const take = possible[Math.floor(Math.random() * possible.length)]!
+	// 			const take = possible[Math.floor(Math.random() * possible.length)]!
 
-				sorted[i] = take
-			}
+	// 			sorted[i] = take
+	// 		}
 
-			if (i % 4 === 3) {
-				// add ones before
-				for (let j = i - 3; j <= i; j++) {
-					before.push(sorted[j]!)
-				}
-			}
-		}
+	// 		if (i % 4 === 3) {
+	// 			// add ones before
+	// 			for (let j = i - 3; j <= i; j++) {
+	// 				before.push(sorted[j]!)
+	// 			}
+	// 		}
+	// 	}
 
-		// ======================== INSERT INTO THE SCHEDULE
-		const withoutNulls = sorted.filter(x => x !== undefined) as Unit[]
+	// 	// ======================== INSERT INTO THE SCHEDULE
+	// 	const withoutNulls = sorted.filter(x => x !== undefined) as Unit[]
 
-		const toSchedule = (x: Unit[]): Schedule => {
-			const a = {
-				years: Array.from({length: 3}, () => {
-					return {sem1Units: [], sem2Units: []} as Year
-				}),
-			}
+	// 	const toSchedule = (x: Unit[]): Schedule => {
+	// 		const a = {
+	// 			years: Array.from({length: 3}, () => {
+	// 				return {sem1Units: [], sem2Units: []} as Year
+	// 			}),
+	// 		}
 
-			for (let i = 0; i < x.length; i++) {
-				if (i % 8 < 4) {
-					a.years[Math.floor(i / 8)]!.sem1Units[i % 4] = x[i]!
-				} else {
-					a.years[Math.floor(i / 8)]!.sem2Units[i % 4] = x[i]!
-				}
-			}
-			return a
-		}
+	// 		for (let i = 0; i < x.length; i++) {
+	// 			if (i % 8 < 4) {
+	// 				a.years[Math.floor(i / 8)]!.sem1Units[i % 4] = x[i]!
+	// 			} else {
+	// 				a.years[Math.floor(i / 8)]!.sem2Units[i % 4] = x[i]!
+	// 			}
+	// 		}
+	// 		return a
+	// 	}
 
-		schedules.push(toSchedule(withoutNulls))
-		// step 4: profit??
-	}
+	// 	schedules.push(toSchedule(withoutNulls))
+	// 	// step 4: profit??
+	// }
 
-	return E.right(schedules)
+	// return E.right(schedules)
 }
 
 /*
