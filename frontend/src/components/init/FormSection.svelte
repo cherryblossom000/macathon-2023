@@ -1,5 +1,5 @@
 <script lang="ts">
-	import UnitSelectBox from '../UnitSelectBox.svelte'
+	import UnitSelectBox from '../FormUnitBox.svelte'
 	import type {CourseRequirement} from 'shared'
 
 	export let cur: CourseRequirement

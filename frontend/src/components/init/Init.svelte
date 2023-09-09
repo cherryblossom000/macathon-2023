@@ -7,7 +7,12 @@
 <div class="max-w-screen-md">
 	<InitForm cur={C2001.requirement} />
 	<Button
-		onclick={() => appState.update(s => ({...s, stage: 'Electives'}))}
+		onclick={() =>
+			appState.update(s => ({
+				...s,
+				stage: 'Electives',
+				finalUnits: s.formUnits,
+			}))}
 		disabled={$appState.formUnits.length !== 16}
 	>
 		Done!

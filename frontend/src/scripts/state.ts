@@ -38,6 +38,7 @@ export interface ApplicationState {
 	selectedUnit: Unit | undefined
 	stage: 'Init' | 'Electives' | 'Table'
 	formUnits: readonly string[]
+	finalUnits: readonly string[]
 }
 
 export const appState = writable<ApplicationState>({
@@ -45,6 +46,7 @@ export const appState = writable<ApplicationState>({
 	selectedUnit: undefined,
 	stage: 'Init',
 	formUnits: [],
+	finalUnits: [],
 })
 
 appState.subscribe(s => console.log(s))

@@ -1,12 +1,12 @@
 <script lang="ts">
-	import UnitSelectBox from '../UnitSelectBox.svelte'
+	import UnitSelectBox from '../FormUnitBox.svelte'
 
 	export let unit: string
 	let selected = false
 </script>
 
 <UnitSelectBox
-	bind:selected
+	{selected}
 	value={unit}
 	unit={true}
 	onclick={() => (selected = !selected)}
