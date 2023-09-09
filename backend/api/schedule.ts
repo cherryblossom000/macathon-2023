@@ -5,7 +5,7 @@ import {pipe} from 'fp-ts/lib/function.js'
 import {api} from 'shared'
 import {handler, type HandlerResult} from '../src/util.js'
 import * as data from '../src/data.js'
-import {construct_schedules} from '../src/schedule.js'
+import {constructSchedules} from '../src/schedule.js'
 
 export default handler(
 	'POST',
@@ -13,7 +13,7 @@ export default handler(
 	'body',
 	(params): HandlerResult<api.CreateSchedulesResponse> => {
 		return pipe(
-			params.wanted_electives,
+			params.wantedElectives,
 			A.traverse(E.getApplicativeValidation(A.getSemigroup<string>()))(u =>
 				pipe(
 					data.unitsMap.get(u),
@@ -25,16 +25,16 @@ export default handler(
 				us => E.left({code: 400, data: `invalid units: ${us.join(', ')}`}),
 				us =>
 					pipe(
-						construct_schedules({
+						constructSchedules({
 							...params,
-							wanted_electives: us,
+							wantedElectives: us,
 						}),
 						E.mapLeft(data => ({code: 500, data: data})),
 						E.map(ss =>
 							ss.map(s => ({
 								years: s.years.map(y => ({
-									sem1_units: y.sem1_units.map(u => u.code),
-									sem2_units: y.sem2_units.map(u => u.code),
+									sem1Units: y.sem1Units.map(u => u.code),
+									sem2Units: y.sem2Units.map(u => u.code),
 								})),
 							})),
 						),
