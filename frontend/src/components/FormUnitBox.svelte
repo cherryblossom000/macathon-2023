@@ -4,9 +4,9 @@
 	import type {Updater} from 'svelte/store'
 
 	export let value: string
+	export let isUnit: boolean
 	export let disabled = false
 	export let selected = false
-	export let unit = false
 
 	const addUnit: Updater<ApplicationState> = s =>
 		s.formUnits.includes(value)
@@ -22,9 +22,9 @@
 	})
 	$: updateUnits = selected ? addUnit : removeUnit
 
-	$: if (unit) appState.update(updateUnits)
+	$: if (isUnit) appState.update(updateUnits)
 
-	if (unit) {
+	if (isUnit) {
 		onMount(() => appState.update(updateUnits))
 		onDestroy(() => appState.update(removeUnit))
 	}

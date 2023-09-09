@@ -1,5 +1,5 @@
 <script lang="ts">
-	import ChooseNUnits from '../ChooseNUnits.svelte'
+	import ChooseNItems from '../ChooseNItems.svelte'
 	import FormUnitBox from '../FormUnitBox.svelte'
 	import {isNestedReq} from '../../scripts'
 	import type {CourseRequirement} from 'shared'
@@ -22,17 +22,18 @@
 	{:else}
 		<div class="flex flex-row flex-wrap">
 			{#each cur.requirement.items as next (next)}
-				<FormUnitBox value={next} selected={true} unit={true} />
+				<FormUnitBox value={next} selected={true} isUnit={true} />
 			{/each}
 		</div>
 	{/if}
 {:else if cur.requirement.operator === 'OR'}
 	<div class="flex flex-row flex-wrap">
-		{#each isNestedReq(cur.requirement) ? cur.requirement.items.map(r => r.title) : cur.requirement.items as next (next)}
+		{#each isNestedReq(cur.requirement) ? cur.requirement.items.map( r => ({title: r.title, isUnit: false}), ) : cur.requirement.items.map( title => ({title, isUnit: true}), ) as { title, isUnit } (title)}
 			<FormUnitBox
-				value={next}
-				selected={next === selected[0]}
-				onclick={() => (selected = [next])}
+				{isUnit}
+				value={title}
+				selected={title === selected[0]}
+				onclick={() => (selected = [title])}
 			/>
 		{/each}
 	</div>
@@ -45,14 +46,15 @@
 {:else}
 	<!-- pick 2 of the units -->
 	<div class="flex flex-row flex-wrap">
-		<ChooseNUnits
+		<p>Choose 2</p>
+		<ChooseNItems
 			bind:selected
 			count={2}
-			units={isNestedReq(cur.requirement)
+			items={isNestedReq(cur.requirement)
 				? // Inside is more requirements
-				  cur.requirement.items.map(r => r.title)
+				  cur.requirement.items.map(r => ({value: r.title, isUnit: false}))
 				: // Inside is units
-				  cur.requirement.items}
+				  cur.requirement.items.map(value => ({value, isUnit: true}))}
 		/>
 	</div>
 	{#if selected.length === 2 && isNestedReq(cur.requirement)}
