@@ -1,0 +1,881 @@
+{
+	"contentTypeLabel": "Unit",
+	"published_in_handbook": {
+		"label": "Yes",
+		"value": "1"
+	},
+	"implementation_year": "2023",
+	"duration_ft_max": "",
+	"asced_detailed": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"grading_schema": {
+		"label": null,
+		"value": null
+	},
+	"study_level": [],
+	"quota_enrolment_requirements": "",
+	"status": {
+		"label": "Accredited",
+		"value": "Active"
+	},
+	"duration_pt_max": "",
+	"duration_pt_std": "",
+	"credit_points": "6",
+	"parent_id": {
+		"value": "Master Record: FIT3080",
+		"cl_id": "f6a4e250dbf4b300580f42a0149619ec",
+		"key": "code",
+		"type": "x_f5sl_cl_master_record"
+	},
+	"start_date": "",
+	"exclusions": "",
+	"unit_code": "FIT3080",
+	"academic_org": {
+		"value": "Faculty of Information Technology",
+		"cl_id": "c5684a53dba8a3406add773c349619a1",
+		"key": "name"
+	},
+	"sms_version": "",
+	"level": {
+		"label": "Level 3",
+		"value": "4"
+	},
+	"uac_code": "",
+	"special_requirements": "",
+	"duration_pt_min": "",
+	"special_unit_type": [],
+	"title": "Artificial intelligence",
+	"duration_ft_std": "",
+	"version": "8",
+	"learning_experiences": null,
+	"duration_ft_min": "",
+	"callista_version": "",
+	"duration_ft_period": {
+		"label": null,
+		"value": null
+	},
+	"asced_narrow": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"subclass": {
+		"label": "Unit",
+		"value": "subject"
+	},
+	"type": {
+		"label": "Coursework",
+		"value": "600"
+	},
+	"quota_rationale": "",
+	"version_name": "2023.08",
+	"timetable_this_unit": "true",
+	"work_integrated_learning": [
+		{
+			"value": "None",
+			"cl_id": "8ef5d77bdb122300e5cf3391f496191d",
+			"key": "label"
+		}
+	],
+	"cl_id": "fe2ee019db2cfd90101196cbd39619dc",
+	"school": {
+		"value": "Faculty of Information Technology",
+		"cl_id": "c5684a53dba8a3406add773c349619a1",
+		"key": "name"
+	},
+	"content": null,
+	"learning_and_teaching_resources": null,
+	"collaborating_disciplines": [],
+	"repeatable": "false",
+	"overview": "",
+	"end_date": "",
+	"duration_pt_period": {
+		"label": null,
+		"value": null
+	},
+	"sms_status": {
+		"label": null,
+		"value": null
+	},
+	"learning_materials": null,
+	"special_topic": "false",
+	"asced_broad": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"publish_tuition_fees": "true",
+	"placement_proportion": {
+		"label": null,
+		"value": null
+	},
+	"code": "FIT3080",
+	"other_unit_costs": "",
+	"eftsl": {
+		"label": "0.125",
+		"value": "0.125"
+	},
+	"contact_information": "",
+	"highest_sca_band": {
+		"label": "SCA Band 2",
+		"value": "2"
+	},
+	"lo_additional_information": "<p>On successful completion of this unit, you should be able to:</p>",
+	"handbook_assessment_summary": "",
+	"quota_information": "",
+	"attendance_requirements": "",
+	"workload_requirements": "<p>Applied sessions start from Week 2. </p>\n<p>Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled teaching activities.</p>",
+	"organisational_contact_information": "",
+	"handbook_synopsis": "<p>This unit includes history of artificial intelligence; intelligent agents; problem solving and search (problem representation, heuristic search, iterative improvement, game playing); knowledge representation and reasoning (extension of material on propositional and first-order logic for artificial intelligence applications, planning, frames and semantic networks); reasoning under uncertainty (belief networks); machine learning (decision trees, Naive Bayes, neural nets and genetic algorithms); language technology.</p>",
+	"special_note_to_students": "",
+	"undergrad_postgrad_both": {
+		"label": "Undergraduate",
+		"value": "undergraduate"
+	},
+	"area_of_study_links": "Advanced computer science<br />",
+	"fieldwork": "",
+	"unit_learning_outcomes": [
+		{
+			"lo_domain": [],
+			"order": "7",
+			"number": "7",
+			"code": "ULO7",
+			"lo_cl_id": "322e2419db2cfd90101196cbd3961985",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "66fb7860db38b3003a731c0e049619b2",
+			"academic_item": {
+				"value": "FIT3080",
+				"cl_id": "fe2ee019db2cfd90101196cbd39619dc",
+				"key": "code"
+			},
+			"description": "<p>Describe, analyse, apply and evaluate machine learning techniques;</p>",
+			"cl_id": "322e2419db2cfd90101196cbd3961985",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "6",
+			"number": "6",
+			"code": "ULO6",
+			"lo_cl_id": "322e2419db2cfd90101196cbd3961986",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "04ebb460db38b3003a731c0e04961902",
+			"academic_item": {
+				"value": "FIT3080",
+				"cl_id": "fe2ee019db2cfd90101196cbd39619dc",
+				"key": "code"
+			},
+			"description": "<p>Describe, analyse and apply probabilistic inference mechanisms for reasoning under uncertainty;</p>",
+			"cl_id": "322e2419db2cfd90101196cbd3961986",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "3",
+			"number": "3",
+			"code": "ULO3",
+			"lo_cl_id": "7e2e2419db2cfd90101196cbd3961985",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "853b7cecdbf4b3003a731c0e04961925",
+			"academic_item": {
+				"value": "FIT3080",
+				"cl_id": "fe2ee019db2cfd90101196cbd39619dc",
+				"key": "code"
+			},
+			"description": "<p>Explain the and understand the practical and ethical implications of Artificial Intelligence in real world contexts.</p>",
+			"cl_id": "7e2e2419db2cfd90101196cbd3961985",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "5",
+			"number": "5",
+			"code": "ULO5",
+			"lo_cl_id": "b62e2419db2cfd90101196cbd3961986",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "fcbbfc20db38b3003a731c0e04961942",
+			"academic_item": {
+				"value": "FIT3080",
+				"cl_id": "fe2ee019db2cfd90101196cbd39619dc",
+				"key": "code"
+			},
+			"description": "<p>Describe, analyse and apply basic knowledge representation and reasoning mechanisms;</p>",
+			"cl_id": "b62e2419db2cfd90101196cbd3961986",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "1",
+			"number": "1",
+			"code": "ULO1",
+			"lo_cl_id": "ba2e2419db2cfd90101196cbd3961985",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "b84af86cdbf4b3003a731c0e0496194c",
+			"academic_item": {
+				"value": "FIT3080",
+				"cl_id": "fe2ee019db2cfd90101196cbd39619dc",
+				"key": "code"
+			},
+			"description": "<p>Describe the historical and conceptual development of AI</p>",
+			"cl_id": "ba2e2419db2cfd90101196cbd3961985",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "4",
+			"number": "4",
+			"code": "ULO4",
+			"lo_cl_id": "f22e2419db2cfd90101196cbd3961986",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "508bf420db38b3003a731c0e049619ef",
+			"academic_item": {
+				"value": "FIT3080",
+				"cl_id": "fe2ee019db2cfd90101196cbd39619dc",
+				"key": "code"
+			},
+			"description": "<p>Describe, analyse, apply and evaluate heuristic AI for problem solving;</p>",
+			"cl_id": "f22e2419db2cfd90101196cbd3961986",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "2",
+			"number": "2",
+			"code": "ULO2",
+			"lo_cl_id": "f62e2419db2cfd90101196cbd3961985",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "f6da30ecdbf4b3003a731c0e04961916",
+			"academic_item": {
+				"value": "FIT3080",
+				"cl_id": "fe2ee019db2cfd90101196cbd39619dc",
+				"key": "code"
+			},
+			"description": "<p>Explain, apply and evaluate the goals of AI and the main paradigms for achieving them including logical inference, search, machine learning and Bayesian inference;</p>",
+			"cl_id": "f62e2419db2cfd90101196cbd3961985",
+			"ga_map": []
+		}
+	],
+	"school_org_unit_data": [
+		{
+			"parent": {
+				"value": "",
+				"cl_id": null,
+				"key": "name"
+			},
+			"url": "https://www.monash.edu/it",
+			"name": "Faculty of Information Technology",
+			"cl_id": "c5684a53dba8a3406add773c349619a1"
+		}
+	],
+	"assessments": [
+		{
+			"subject": {
+				"value": "FIT3080",
+				"cl_id": "fe2ee019db2cfd90101196cbd39619dc",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "1",
+			"weight": "22",
+			"cl_id": "3a2e2419db2cfd90101196cbd396198a",
+			"assessment_name": "Tutorial exercises",
+			"description": "<p>weekly over 11 weeks.</p>",
+			"assessment_type": {
+				"label": "Other",
+				"value": "other"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT3080",
+				"cl_id": "fe2ee019db2cfd90101196cbd39619dc",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "2",
+			"weight": "31",
+			"cl_id": "762e2419db2cfd90101196cbd396198a",
+			"assessment_name": "Assignment 1: State-space Search",
+			"description": null,
+			"assessment_type": {
+				"label": "Assignment",
+				"value": "assignment"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT3080",
+				"cl_id": "fe2ee019db2cfd90101196cbd39619dc",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "3",
+			"weight": "15",
+			"cl_id": "be2e2419db2cfd90101196cbd3961989",
+			"assessment_name": "Assignment 2: Knowledge Representation",
+			"description": null,
+			"assessment_type": {
+				"label": "Assignment",
+				"value": "assignment"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT3080",
+				"cl_id": "fe2ee019db2cfd90101196cbd39619dc",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "4",
+			"weight": "32",
+			"cl_id": "fa2e2419db2cfd90101196cbd396198a",
+			"assessment_name": "Reinforcement and Machine Learning",
+			"description": null,
+			"assessment_type": {
+				"label": "Assignment",
+				"value": "assignment"
+			},
+			"offerings_formatted": ""
+		}
+	],
+	"enrolment_rules": [],
+	"requisites": [
+		{
+			"academic_item_code": "FIT3080",
+			"active": "true",
+			"requisite_cl_id": "f62e2419db2cfd90101196cbd3961981",
+			"description": "",
+			"requisite_type": {
+				"label": "Prerequisite",
+				"value": "prerequisite"
+			},
+			"cl_id": {
+				"value": "FIT3080",
+				"cl_id": "fe2ee019db2cfd90101196cbd39619dc",
+				"key": "code"
+			},
+			"academic_item_version_number": "2023.08",
+			"order": "1",
+			"start_date": "",
+			"end_date": "",
+			"container": [
+				{
+					"cl_id": "4f2e2091db20f1102bdd077cd396199b",
+					"parent_container_table": "x_f5sl_cl_requisite",
+					"parent_record": {
+						"value": "Relationship Builder: FIT3080",
+						"cl_id": "f62e2419db2cfd90101196cbd3961981",
+						"key": "academic_item",
+						"type": "x_f5sl_cl_requisite"
+					},
+					"title": "Container 1",
+					"parent_connector": {
+						"label": "AND",
+						"value": "AND"
+					},
+					"containers": [
+						{
+							"cl_id": "072e2091db20f1102bdd077cd396199c",
+							"parent_container_table": "x_f5sl_cl_relationship_groups",
+							"parent_record": {
+								"value": "Relationship Groups: Container 1",
+								"cl_id": "4f2e2091db20f1102bdd077cd396199b",
+								"key": "title",
+								"type": "x_f5sl_cl_relationship_groups"
+							},
+							"title": "Container 1.4",
+							"parent_connector": {
+								"label": "OR",
+								"value": "OR"
+							},
+							"containers": [],
+							"relationships": [
+								{
+									"academic_item": {
+										"value": "Unit: ENG1005",
+										"cl_id": "bf3801801b65d510f1eca68b274bcba4",
+										"key": "code",
+										"type": "x_f5sl_cl_subjects"
+									},
+									"parent_record": {
+										"value": "Container 1.4",
+										"cl_id": "072e2091db20f1102bdd077cd396199c",
+										"key": "title"
+									},
+									"order": "8",
+									"cl_id": "bf3801801b65d510f1eca68b274bcba4",
+									"academic_item_type": {
+										"label": "Unit",
+										"value": "subject"
+									},
+									"abbr_name": "ENGINEERING MATHS",
+									"academic_item_version_name": "2023.04",
+									"academic_item_credit_points": "6",
+									"abbreviated_name_and_major": null,
+									"academic_item_name": "Engineering mathematics",
+									"academic_item_code": "ENG1005",
+									"academic_item_url": "/2023/units/ENG1005"
+								},
+								{
+									"academic_item": {
+										"value": "Unit: MAT1841",
+										"cl_id": "1114b98d1b591114f1eca68b274bcb60",
+										"key": "code",
+										"type": "x_f5sl_cl_subjects"
+									},
+									"parent_record": {
+										"value": "Container 1.4",
+										"cl_id": "072e2091db20f1102bdd077cd396199c",
+										"key": "title"
+									},
+									"order": "5",
+									"cl_id": "1114b98d1b591114f1eca68b274bcb60",
+									"academic_item_type": {
+										"label": "Unit",
+										"value": "subject"
+									},
+									"abbr_name": "CONT MATHS COMPSCI",
+									"academic_item_version_name": "2023.02",
+									"academic_item_credit_points": "6",
+									"abbreviated_name_and_major": null,
+									"academic_item_name": "Continuous mathematics for computer science",
+									"academic_item_code": "MAT1841",
+									"academic_item_url": "/2023/units/MAT1841"
+								},
+								{
+									"academic_item": {
+										"value": "Unit: MTH1030",
+										"cl_id": "8e33e22b1bb15150653b206b274bcb15",
+										"key": "code",
+										"type": "x_f5sl_cl_subjects"
+									},
+									"parent_record": {
+										"value": "Container 1.4",
+										"cl_id": "072e2091db20f1102bdd077cd396199c",
+										"key": "title"
+									},
+									"order": "6",
+									"cl_id": "8e33e22b1bb15150653b206b274bcb15",
+									"academic_item_type": {
+										"label": "Unit",
+										"value": "subject"
+									},
+									"abbr_name": "TECHNQS.FOR MODLNG.",
+									"academic_item_version_name": "2023.02",
+									"academic_item_credit_points": "6",
+									"abbreviated_name_and_major": null,
+									"academic_item_name": "Techniques for modelling",
+									"academic_item_code": "MTH1030",
+									"academic_item_url": "/2023/units/MTH1030"
+								},
+								{
+									"academic_item": {
+										"value": "Unit: MTH1035",
+										"cl_id": "8891c26e1be29550653b206b274bcb09",
+										"key": "code",
+										"type": "x_f5sl_cl_subjects"
+									},
+									"parent_record": {
+										"value": "Container 1.4",
+										"cl_id": "072e2091db20f1102bdd077cd396199c",
+										"key": "title"
+									},
+									"order": "7",
+									"cl_id": "8891c26e1be29550653b206b274bcb09",
+									"academic_item_type": {
+										"label": "Unit",
+										"value": "subject"
+									},
+									"abbr_name": "MODELLING (ADVANCED)",
+									"academic_item_version_name": "2023.03",
+									"academic_item_credit_points": "6",
+									"abbreviated_name_and_major": null,
+									"academic_item_name": "Techniques for modelling (Advanced)",
+									"academic_item_code": "MTH1035",
+									"academic_item_url": "/2023/units/MTH1035"
+								}
+							]
+						}
+					],
+					"relationships": [
+						{
+							"academic_item": {
+								"value": "Unit: MAT1830",
+								"cl_id": "b9ee09811b951114f1eca68b274bcb44",
+								"key": "code",
+								"type": "x_f5sl_cl_subjects"
+							},
+							"parent_record": {
+								"value": "Container 1",
+								"cl_id": "4f2e2091db20f1102bdd077cd396199b",
+								"key": "title"
+							},
+							"order": "3",
+							"cl_id": "b9ee09811b951114f1eca68b274bcb44",
+							"academic_item_type": {
+								"label": "Unit",
+								"value": "subject"
+							},
+							"abbr_name": "DISC MATH COMPSC",
+							"academic_item_version_name": "2023.02",
+							"academic_item_credit_points": "6",
+							"abbreviated_name_and_major": null,
+							"academic_item_name": "Discrete mathematics for computer science",
+							"academic_item_code": "MAT1830",
+							"academic_item_url": "/2023/units/MAT1830"
+						},
+						{
+							"academic_item": {
+								"value": "Unit: FIT2004",
+								"cl_id": "b6bbdcc51b111114f1eca68b274bcb3e",
+								"key": "code",
+								"type": "x_f5sl_cl_subjects"
+							},
+							"parent_record": {
+								"value": "Container 1",
+								"cl_id": "4f2e2091db20f1102bdd077cd396199b",
+								"key": "title"
+							},
+							"order": "2",
+							"cl_id": "b6bbdcc51b111114f1eca68b274bcb3e",
+							"academic_item_type": {
+								"label": "Unit",
+								"value": "subject"
+							},
+							"abbr_name": "A&DS",
+							"academic_item_version_name": "2023.02",
+							"academic_item_credit_points": "6",
+							"abbreviated_name_and_major": null,
+							"academic_item_name": "Algorithms and data structures",
+							"academic_item_code": "FIT2004",
+							"academic_item_url": "/2023/units/FIT2004"
+						}
+					]
+				}
+			]
+		}
+	],
+	"unit_offering": [
+		{
+			"fees_domestic": "",
+			"publish": "true",
+			"location": {
+				"value": "Clayton",
+				"cl_id": "37f321e1db30a7406add773c3496192e",
+				"key": "name"
+			},
+			"name": "FIT3080-S2-01-ON-CAMPUS-CLAYTON",
+			"clarification_to_appear_in_handbook": "",
+			"display_name": "S2-01-CLAYTON-ON-CAMPUS",
+			"teaching_period": {
+				"value": "Second semester",
+				"cl_id": "85a429a1db30a7406add773c3496190d",
+				"key": "name"
+			},
+			"attendance_mode": {
+				"value": "On-campus",
+				"cl_id": "7bf2311bdb68a3406add773c349619bb",
+				"key": "description"
+			},
+			"quota_number": "",
+			"study_level": {
+				"label": null,
+				"value": null
+			},
+			"offered": "true",
+			"self_enrol": "true",
+			"academic_item": {
+				"value": "FIT3080",
+				"cl_id": "fe2ee019db2cfd90101196cbd39619dc",
+				"key": "code"
+			},
+			"fees_commonwealth": "",
+			"fees_international": "",
+			"course_restrictions": "",
+			"cl_id": "7a2e2419db2cfd90101196cbd3961983"
+		},
+		{
+			"fees_domestic": "",
+			"publish": "true",
+			"location": {
+				"value": "Malaysia",
+				"cl_id": "7bf321e1db30a7406add773c3496192f",
+				"key": "name"
+			},
+			"name": "FIT3080-S2-01-ON-CAMPUS-MALAYSIA",
+			"clarification_to_appear_in_handbook": "",
+			"display_name": "S2-01-MALAYSIA-ON-CAMPUS",
+			"teaching_period": {
+				"value": "Second semester",
+				"cl_id": "85a429a1db30a7406add773c3496190d",
+				"key": "name"
+			},
+			"attendance_mode": {
+				"value": "On-campus",
+				"cl_id": "7bf2311bdb68a3406add773c349619bb",
+				"key": "description"
+			},
+			"quota_number": "",
+			"study_level": {
+				"label": null,
+				"value": null
+			},
+			"offered": "true",
+			"self_enrol": "true",
+			"academic_item": {
+				"value": "FIT3080",
+				"cl_id": "fe2ee019db2cfd90101196cbd39619dc",
+				"key": "code"
+			},
+			"fees_commonwealth": "",
+			"fees_international": "",
+			"course_restrictions": "",
+			"cl_id": "7e2e2419db2cfd90101196cbd3961982"
+		}
+	],
+	"enrolment_rules_group": [],
+	"learning_resources_grouped": [
+		{
+			"type": "Technology resources",
+			"order": 2,
+			"resources": [
+				{
+					"description": "<p>Software: Netica, Weka</p>",
+					"type": {
+						"label": "Technology resources",
+						"value": "technology_resources"
+					},
+					"cl_id": "be2e2419db2cfd90101196cbd3961987",
+					"academic_item": {
+						"value": "FIT3080",
+						"cl_id": "fe2ee019db2cfd90101196cbd39619dc",
+						"key": "code"
+					},
+					"links": []
+				}
+			]
+		}
+	],
+	"study_abroad_unit": "Yes",
+	"academic_item_type": "Unit",
+	"learning_activities_grouped": [
+		{
+			"activity_type": "Lectures",
+			"activities": [
+				{
+					"subject": {
+						"value": "FIT3080",
+						"cl_id": "fe2ee019db2cfd90101196cbd39619dc",
+						"key": "code"
+					},
+					"cl_id": "7a2e2419db2cfd90101196cbd3961989",
+					"order": "",
+					"description": "",
+					"activity_type": {
+						"label": "Lectures",
+						"value": "lecture"
+					},
+					"duration_display": "24 hours",
+					"offerings_formatted_teaching_activities": "<ul><li>Applies to all offerings</li></ul>",
+					"links": []
+				}
+			]
+		},
+		{
+			"activity_type": "Applied sessions",
+			"activities": [
+				{
+					"subject": {
+						"value": "FIT3080",
+						"cl_id": "fe2ee019db2cfd90101196cbd39619dc",
+						"key": "code"
+					},
+					"cl_id": "f22e2419db2cfd90101196cbd3961989",
+					"order": "",
+					"description": "",
+					"activity_type": {
+						"label": "Applied sessions",
+						"value": "applied"
+					},
+					"duration_display": "22 hours",
+					"offerings_formatted_teaching_activities": "<ul><li>Applies to all offerings</li></ul>",
+					"links": []
+				}
+			]
+		}
+	],
+	"search_title": "FIT3080 - Artificial intelligence",
+	"unit_search_title": "FIT3080 - Artificial intelligence",
+	"teaching_approaches": [
+		{
+			"type": {
+				"label": "Active learning",
+				"value": "active_learning"
+			},
+			"academic_item": {
+				"value": "FIT3080",
+				"cl_id": "fe2ee019db2cfd90101196cbd39619dc",
+				"key": "code"
+			},
+			"cl_id": "762e2419db2cfd90101196cbd3961988",
+			"description": "<p>&nbsp;</p>",
+			"links": []
+		}
+	],
+	"handbook_statement": null,
+	"academic_contact_roles": [
+		{
+			"role": "Unit Coordinator(s)",
+			"contacts": [
+				{
+					"active": "true",
+					"contact_department": "",
+					"start_date": "",
+					"offering": {
+						"value": "",
+						"cl_id": null,
+						"key": "display_name"
+					},
+					"contact_role": {
+						"label": "Unit Coordinator",
+						"value": "unit_coordinator"
+					},
+					"contact_name": "Ting Chee Ming",
+					"role_detail": "(Malaysia) Semester 2",
+					"contact_organisation": "",
+					"contact_title": "Associate Professor",
+					"order": "0",
+					"contact_phone": "",
+					"end_date": "",
+					"location": {
+						"value": "",
+						"cl_id": null,
+						"key": "name"
+					},
+					"contact_email": "Ting.CheeMing@monash.edu",
+					"contact_url": "",
+					"user": {
+						"value": "Ting Chee Ming",
+						"cl_id": "1acdce8cdb2ed090ffb02c530596195e",
+						"key": ""
+					},
+					"offerings": [
+						{
+							"value": "S2-01-MALAYSIA-ON-CAMPUS",
+							"cl_id": "7e2e2419db2cfd90101196cbd3961982",
+							"key": "display_name"
+						}
+					],
+					"applies_to_all_offerings": "false",
+					"linking_id": "9c367041db60bc50101196cbd3961942",
+					"cl_id": "362e2419db2cfd90101196cbd3961984",
+					"display_details": "Ting.CheeMing@monash.edu",
+					"display_name": "Associate Professor Ting Chee Ming ",
+					"offerings_formatted_contact": "<ul><li>Second semester, Malaysia, On-campus</li></ul>",
+					"display_role_plural": "Unit Coordinator(s)",
+					"links": []
+				}
+			]
+		},
+		{
+			"role": "Chief Examiner(s)",
+			"contacts": [
+				{
+					"active": "true",
+					"contact_department": "",
+					"start_date": "",
+					"offering": {
+						"value": "",
+						"cl_id": null,
+						"key": "display_name"
+					},
+					"contact_role": {
+						"label": "Chief Examiner",
+						"value": "chief_examiner"
+					},
+					"contact_name": "Daniel Harabor",
+					"role_detail": "",
+					"contact_organisation": "",
+					"contact_title": "Dr",
+					"order": "1",
+					"contact_phone": "",
+					"end_date": "",
+					"location": {
+						"value": "",
+						"cl_id": null,
+						"key": "name"
+					},
+					"contact_email": "Daniel.Harabor@monash.edu",
+					"contact_url": "",
+					"user": {
+						"value": "Daniel Harabor",
+						"cl_id": "abbbf889db8ff3801092bd16f49619ad",
+						"key": ""
+					},
+					"offerings": [],
+					"applies_to_all_offerings": "true",
+					"linking_id": "8e9bd80bdb005d102bdd077cd39619a8",
+					"cl_id": "be2e2419db2cfd90101196cbd3961983",
+					"display_details": "Daniel.Harabor@monash.edu",
+					"display_name": "Dr Daniel Harabor ",
+					"offerings_formatted_contact": "<ul><li>Applies to all offerings</ul></li>",
+					"display_role_plural": "Chief Examiner(s)",
+					"links": []
+				}
+			]
+		}
+	],
+	"links": [],
+	"yearSwitcher": [
+		{
+			"label": "2020",
+			"value": "2020",
+			"href": "/2020/units/FIT3080?year=2020"
+		},
+		{
+			"label": "2021",
+			"value": "2021",
+			"href": "/2021/units/FIT3080?year=2021"
+		},
+		{
+			"label": "2022",
+			"value": "2022",
+			"href": "/2022/units/FIT3080?year=2022"
+		},
+		{
+			"label": "2023",
+			"value": "2023",
+			"href": "/2023/units/FIT3080?year=2023"
+		}
+	],
+	"university": "Monash University"
+}

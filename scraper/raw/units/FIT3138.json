@@ -1,0 +1,636 @@
+{
+	"contentTypeLabel": "Unit",
+	"published_in_handbook": {
+		"label": "Yes",
+		"value": "1"
+	},
+	"implementation_year": "2023",
+	"duration_ft_max": "",
+	"asced_detailed": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"grading_schema": {
+		"label": null,
+		"value": null
+	},
+	"study_level": [],
+	"quota_enrolment_requirements": "",
+	"status": {
+		"label": "Accredited",
+		"value": "Active"
+	},
+	"duration_pt_max": "",
+	"duration_pt_std": "",
+	"credit_points": "6",
+	"parent_id": {
+		"value": "Master Record: FIT3138",
+		"cl_id": "03a42650dbf4b300580f42a014961958",
+		"key": "code",
+		"type": "x_f5sl_cl_master_record"
+	},
+	"start_date": "",
+	"exclusions": "",
+	"unit_code": "FIT3138",
+	"academic_org": {
+		"value": "Faculty of Information Technology",
+		"cl_id": "c5684a53dba8a3406add773c349619a1",
+		"key": "name"
+	},
+	"sms_version": "",
+	"level": {
+		"label": "Level 3",
+		"value": "4"
+	},
+	"uac_code": "",
+	"special_requirements": "",
+	"duration_pt_min": "",
+	"special_unit_type": [],
+	"title": "Real time enterprise systems",
+	"duration_ft_std": "",
+	"version": "4",
+	"learning_experiences": null,
+	"duration_ft_min": "",
+	"callista_version": "",
+	"duration_ft_period": {
+		"label": null,
+		"value": null
+	},
+	"asced_narrow": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"subclass": {
+		"label": "Unit",
+		"value": "subject"
+	},
+	"type": {
+		"label": "Coursework",
+		"value": "600"
+	},
+	"quota_rationale": "",
+	"version_name": "2023.04",
+	"timetable_this_unit": "true",
+	"work_integrated_learning": [
+		{
+			"value": "None",
+			"cl_id": "8ef5d77bdb122300e5cf3391f496191d",
+			"key": "label"
+		}
+	],
+	"cl_id": "3df37ec2dbc8f1502bdd077cd39619be",
+	"school": {
+		"value": "Faculty of Information Technology",
+		"cl_id": "c5684a53dba8a3406add773c349619a1",
+		"key": "name"
+	},
+	"content": null,
+	"learning_and_teaching_resources": null,
+	"collaborating_disciplines": [],
+	"repeatable": "false",
+	"overview": "",
+	"end_date": "",
+	"duration_pt_period": {
+		"label": null,
+		"value": null
+	},
+	"sms_status": {
+		"label": null,
+		"value": null
+	},
+	"learning_materials": null,
+	"special_topic": "false",
+	"asced_broad": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"publish_tuition_fees": "true",
+	"placement_proportion": {
+		"label": null,
+		"value": null
+	},
+	"code": "FIT3138",
+	"other_unit_costs": "",
+	"eftsl": {
+		"label": "0.125",
+		"value": "0.125"
+	},
+	"contact_information": "",
+	"highest_sca_band": {
+		"label": "SCA Band 2",
+		"value": "2"
+	},
+	"lo_additional_information": "<p>On successful completion of this unit, you should be able to:</p>",
+	"handbook_assessment_summary": "<p>This unit has threshold mark hurdles. You must achieve at least 45% of the available marks in the final scheduled assessment, at least 45% in total for in-semester assessments, and an overall unit mark of 50% or more to be able to pass the unit. If you do not achieve the threshold mark, you will receive a fail grade (NH) and a maximum mark of 45 for the unit.</p>",
+	"quota_information": "",
+	"attendance_requirements": "",
+	"workload_requirements": "<p>Applied sessions start in week 2.</p>\n<p>Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled teaching activities.</p>",
+	"organisational_contact_information": "",
+	"handbook_synopsis": "<p>This unit provides both a theoretical and practical overview of real time enterprise systems. Real time enterprise systems are configurable information systems packages, implemented on-line that integrate people, technology and information processing. The three integrated processes within and across functional areas are seamlessly interconnected and almost time-lag free in an organisation. Topics include systems and technology background, ES evolution, ES lifecycle, implementation and configuration, ES and electronic commerce and ES success and failure factors. The theoretical component will be augmented by detailed case studies which focus on problems faced by real-life companies. For the practical component, laboratory exercises using a well-known enterprise system will be used to deepen student understanding.</p>",
+	"special_note_to_students": "",
+	"undergrad_postgrad_both": {
+		"label": "Undergraduate",
+		"value": "undergraduate"
+	},
+	"area_of_study_links": "Business information systems<br />",
+	"fieldwork": "",
+	"unit_learning_outcomes": [
+		{
+			"lo_domain": [],
+			"order": "3",
+			"number": "3",
+			"code": "ULO3",
+			"lo_cl_id": "3df37ec2dbc8f1502bdd077cd39619c4",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "fb1b78ecdbf4b3003a731c0e049619db",
+			"academic_item": {
+				"value": "FIT3138",
+				"cl_id": "3df37ec2dbc8f1502bdd077cd39619be",
+				"key": "code"
+			},
+			"description": "<p>Describe system-wide concepts such as workflow, reporting, and the exchange of information between business partners and employees;</p>",
+			"cl_id": "3df37ec2dbc8f1502bdd077cd39619c4",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "4",
+			"number": "4",
+			"code": "ULO4",
+			"lo_cl_id": "75f37ec2dbc8f1502bdd077cd39619c5",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "795bb020db38b3003a731c0e04961930",
+			"academic_item": {
+				"value": "FIT3138",
+				"cl_id": "3df37ec2dbc8f1502bdd077cd39619be",
+				"key": "code"
+			},
+			"description": "<p>Critically evaluate the benefits of enterprise systems in terms of integration, world-wide flexibility, interactive processing, client-server platform, cloud computing, SOA, open systems, and the capacity to be configured for all business types;</p>",
+			"cl_id": "75f37ec2dbc8f1502bdd077cd39619c5",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "6",
+			"number": "6",
+			"code": "ULO6",
+			"lo_cl_id": "79f37ec2dbc8f1502bdd077cd39619c4",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "f1ebb460db38b3003a731c0e049619ff",
+			"academic_item": {
+				"value": "FIT3138",
+				"cl_id": "3df37ec2dbc8f1502bdd077cd39619be",
+				"key": "code"
+			},
+			"description": "<p>Demonstrate the capability to project manage a real-time enterprise endeavour by developing clear communication, and team management skills supported by examples from actual business cases.</p>",
+			"cl_id": "79f37ec2dbc8f1502bdd077cd39619c4",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "5",
+			"number": "5",
+			"code": "ULO5",
+			"lo_cl_id": "b1f37ec2dbc8f1502bdd077cd39619c4",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "cb9b3c20db38b3003a731c0e04961917",
+			"academic_item": {
+				"value": "FIT3138",
+				"cl_id": "3df37ec2dbc8f1502bdd077cd39619be",
+				"key": "code"
+			},
+			"description": "<p>Critically discuss the major factors that impact on stakeholders during an enterprise system implementation that can influence the project triple constraints and business success identified from both theoretical knowledge and actual business cases;</p>",
+			"cl_id": "b1f37ec2dbc8f1502bdd077cd39619c4",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "2",
+			"number": "2",
+			"code": "ULO2",
+			"lo_cl_id": "b1f37ec2dbc8f1502bdd077cd39619c5",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "81faf0ecdbf4b3003a731c0e049619c5",
+			"academic_item": {
+				"value": "FIT3138",
+				"cl_id": "3df37ec2dbc8f1502bdd077cd39619be",
+				"key": "code"
+			},
+			"description": "<p>Demonstrate a capacity to describe and perform navigation functions and create master data objects in a real-time enterprise system;</p>",
+			"cl_id": "b1f37ec2dbc8f1502bdd077cd39619c5",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "1",
+			"number": "1",
+			"code": "ULO1",
+			"lo_cl_id": "fdf37ec2dbc8f1502bdd077cd39619c4",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "137af0acdbf4b3003a731c0e04961928",
+			"academic_item": {
+				"value": "FIT3138",
+				"cl_id": "3df37ec2dbc8f1502bdd077cd39619be",
+				"key": "code"
+			},
+			"description": "<p>Critically analyse the characteristics, features and functionality of real time enterprise systems and their role in the modern and fast-paced business environment;</p>",
+			"cl_id": "fdf37ec2dbc8f1502bdd077cd39619c4",
+			"ga_map": []
+		}
+	],
+	"school_org_unit_data": [
+		{
+			"parent": {
+				"value": "",
+				"cl_id": null,
+				"key": "name"
+			},
+			"url": "https://www.monash.edu/it",
+			"name": "Faculty of Information Technology",
+			"cl_id": "c5684a53dba8a3406add773c349619a1"
+		}
+	],
+	"assessments": [
+		{
+			"subject": {
+				"value": "FIT3138",
+				"cl_id": "3df37ec2dbc8f1502bdd077cd39619be",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": "Threshold",
+				"value": "threshold"
+			},
+			"hurdle_supplementary_assessment": "<p>This task is part of the in-semester assessment hurdle.</p>",
+			"number": "1",
+			"weight": "20",
+			"cl_id": "75f3bec2dbc8f1502bdd077cd396192d",
+			"assessment_name": "Assignment 1",
+			"description": null,
+			"assessment_type": {
+				"label": "Assignment",
+				"value": "assignment"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT3138",
+				"cl_id": "3df37ec2dbc8f1502bdd077cd39619be",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": "Threshold",
+				"value": "threshold"
+			},
+			"hurdle_supplementary_assessment": "<p>The scheduled final assessment is a hurdle.</p>",
+			"number": "3",
+			"weight": "60",
+			"cl_id": "b1f3bec2dbc8f1502bdd077cd396192d",
+			"assessment_name": "Scheduled final assessment (2 hours and 10 minutes)",
+			"description": null,
+			"assessment_type": {
+				"label": "Exam",
+				"value": "exam"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT3138",
+				"cl_id": "3df37ec2dbc8f1502bdd077cd39619be",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": "Threshold",
+				"value": "threshold"
+			},
+			"hurdle_supplementary_assessment": "<p>This task is part of the in-semester assessment hurdle.</p>",
+			"number": "2",
+			"weight": "20",
+			"cl_id": "f1f37ec2dbc8f1502bdd077cd39619c9",
+			"assessment_name": "Assignment 2",
+			"description": null,
+			"assessment_type": {
+				"label": "Assignment",
+				"value": "assignment"
+			},
+			"offerings_formatted": ""
+		}
+	],
+	"enrolment_rules": [
+		{
+			"description": "<p>Prerequisite: Completion of 12 points of level two units from Information Technology, Science or Engineering or equivalent.</p>",
+			"academic_item": {
+				"value": "FIT3138",
+				"cl_id": "3df37ec2dbc8f1502bdd077cd39619be",
+				"key": "code"
+			},
+			"type": {
+				"label": "Enrolment Rule",
+				"value": "info"
+			},
+			"cl_id": "b9f37ec2dbc8f1502bdd077cd39619c5"
+		}
+	],
+	"requisites": [],
+	"unit_offering": [
+		{
+			"fees_domestic": "",
+			"publish": "true",
+			"location": {
+				"value": "Clayton",
+				"cl_id": "37f321e1db30a7406add773c3496192e",
+				"key": "name"
+			},
+			"name": "FIT3138-S2-01-ON-CAMPUS-CLAYTON",
+			"clarification_to_appear_in_handbook": "",
+			"display_name": "S2-01-CLAYTON-ON-CAMPUS",
+			"teaching_period": {
+				"value": "Second semester",
+				"cl_id": "85a429a1db30a7406add773c3496190d",
+				"key": "name"
+			},
+			"attendance_mode": {
+				"value": "On-campus",
+				"cl_id": "7bf2311bdb68a3406add773c349619bb",
+				"key": "description"
+			},
+			"quota_number": "",
+			"study_level": {
+				"label": null,
+				"value": null
+			},
+			"offered": "true",
+			"self_enrol": "true",
+			"academic_item": {
+				"value": "FIT3138",
+				"cl_id": "3df37ec2dbc8f1502bdd077cd39619be",
+				"key": "code"
+			},
+			"fees_commonwealth": "",
+			"fees_international": "",
+			"course_restrictions": "",
+			"cl_id": "75f37ec2dbc8f1502bdd077cd39619c2"
+		}
+	],
+	"enrolment_rules_group": [
+		{
+			"rule_group": "Enrolment Rule",
+			"rules": [
+				{
+					"description": "<p>Prerequisite: Completion of 12 points of level two units from Information Technology, Science or Engineering or equivalent.</p>",
+					"academic_item": {
+						"value": "FIT3138",
+						"cl_id": "3df37ec2dbc8f1502bdd077cd39619be",
+						"key": "code"
+					},
+					"type": {
+						"label": "Enrolment Rule",
+						"value": "info"
+					},
+					"cl_id": "b9f37ec2dbc8f1502bdd077cd39619c5",
+					"links": []
+				}
+			]
+		}
+	],
+	"learning_resources_grouped": [
+		{
+			"type": "Recommended resources",
+			"order": 1,
+			"resources": [
+				{
+					"description": "<p>Ellen Monk, Bret Wagner. (2013). Concepts in Enterprise Resource Planning. (4e) Course Technology, Cengage Learning. <br/>\nMagal S & Word J. (2009). Essentials of Business Processes & Information Systems . (1st) Wiley. <br/>\nMagal S & Word J. (2011). Integrated Business Processes with ERP Systems . (1st) Wiley. <br/>\nDimitris N. Chorafas. (2005). The Real-Time Enterprise. (1st) CRC Press Company. (e-book available via the university library)</p>",
+					"type": {
+						"label": "Recommended resources",
+						"value": "recommended_resources"
+					},
+					"cl_id": "39f37ec2dbc8f1502bdd077cd39619c6",
+					"academic_item": {
+						"value": "FIT3138",
+						"cl_id": "3df37ec2dbc8f1502bdd077cd39619be",
+						"key": "code"
+					},
+					"links": []
+				}
+			]
+		},
+		{
+			"type": "Required resources",
+			"order": 0,
+			"resources": [
+				{
+					"description": "<p>The unit will use SAP S/4 HANA and ERPSim. Instructions will be given to students during tutorials to install the application on their own device.</p>",
+					"type": {
+						"label": "Required resources",
+						"value": "required_resources"
+					},
+					"cl_id": "fdf37ec2dbc8f1502bdd077cd39619c6",
+					"academic_item": {
+						"value": "FIT3138",
+						"cl_id": "3df37ec2dbc8f1502bdd077cd39619be",
+						"key": "code"
+					},
+					"links": []
+				}
+			]
+		}
+	],
+	"study_abroad_unit": "Yes",
+	"academic_item_type": "Unit",
+	"learning_activities_grouped": [
+		{
+			"activity_type": "Applied sessions",
+			"activities": [
+				{
+					"subject": {
+						"value": "FIT3138",
+						"cl_id": "3df37ec2dbc8f1502bdd077cd39619be",
+						"key": "code"
+					},
+					"cl_id": "39f37ec2dbc8f1502bdd077cd39619c8",
+					"order": "1",
+					"description": "",
+					"activity_type": {
+						"label": "Applied sessions",
+						"value": "applied"
+					},
+					"duration_display": "22 hours",
+					"offerings_formatted_teaching_activities": "<ul><li>Applies to all offerings</li></ul>",
+					"links": []
+				}
+			]
+		},
+		{
+			"activity_type": "Lectures",
+			"activities": [
+				{
+					"subject": {
+						"value": "FIT3138",
+						"cl_id": "3df37ec2dbc8f1502bdd077cd39619be",
+						"key": "code"
+					},
+					"cl_id": "bdf37ec2dbc8f1502bdd077cd39619c8",
+					"order": "0",
+					"description": "",
+					"activity_type": {
+						"label": "Lectures",
+						"value": "lecture"
+					},
+					"duration_display": "24 hours",
+					"offerings_formatted_teaching_activities": "<ul><li>Applies to all offerings</li></ul>",
+					"links": []
+				}
+			]
+		}
+	],
+	"search_title": "FIT3138 - Real time enterprise systems",
+	"unit_search_title": "FIT3138 - Real time enterprise systems",
+	"teaching_approaches": [
+		{
+			"type": {
+				"label": "Active learning",
+				"value": "active_learning"
+			},
+			"academic_item": {
+				"value": "FIT3138",
+				"cl_id": "3df37ec2dbc8f1502bdd077cd39619be",
+				"key": "code"
+			},
+			"cl_id": "b1f37ec2dbc8f1502bdd077cd39619c7",
+			"description": "<p>&nbsp;</p>",
+			"links": []
+		}
+	],
+	"handbook_statement": null,
+	"academic_contact_roles": [
+		{
+			"role": "Unit Coordinator(s)",
+			"contacts": [
+				{
+					"active": "true",
+					"contact_department": "",
+					"start_date": "",
+					"offering": {
+						"value": "",
+						"cl_id": null,
+						"key": "display_name"
+					},
+					"contact_role": {
+						"label": "Unit Coordinator",
+						"value": "unit_coordinator"
+					},
+					"contact_name": "Steve Paull",
+					"role_detail": "",
+					"contact_organisation": "",
+					"contact_title": "",
+					"order": "0",
+					"contact_phone": "",
+					"end_date": "",
+					"location": {
+						"value": "",
+						"cl_id": null,
+						"key": "name"
+					},
+					"contact_email": "Stephen.Paull@monash.edu",
+					"contact_url": "",
+					"user": {
+						"value": "Steve Paull",
+						"cl_id": "ad120b50dbb8b300580f42a014961934",
+						"key": ""
+					},
+					"offerings": [],
+					"applies_to_all_offerings": "true",
+					"linking_id": "da9945c51bd81510f1eca68b274bcbf8",
+					"cl_id": "b1f37ec2dbc8f1502bdd077cd39619c3",
+					"display_details": "Stephen.Paull@monash.edu",
+					"display_name": "Steve Paull ",
+					"offerings_formatted_contact": "<ul><li>Applies to all offerings</ul></li>",
+					"display_role_plural": "Unit Coordinator(s)",
+					"links": []
+				}
+			]
+		},
+		{
+			"role": "Chief Examiner(s)",
+			"contacts": [
+				{
+					"active": "false",
+					"contact_department": "",
+					"start_date": "",
+					"offering": {
+						"value": "",
+						"cl_id": null,
+						"key": "display_name"
+					},
+					"contact_role": {
+						"label": "Chief Examiner",
+						"value": "chief_examiner"
+					},
+					"contact_name": "Poh Lim",
+					"role_detail": "",
+					"contact_organisation": "",
+					"contact_title": "Ms",
+					"order": "",
+					"contact_phone": "",
+					"end_date": "",
+					"location": {
+						"value": "",
+						"cl_id": null,
+						"key": "name"
+					},
+					"contact_email": "poh.lim@monash.edu",
+					"contact_url": "",
+					"user": {
+						"value": "Poh Lim",
+						"cl_id": "9a028350dbb8b300580f42a0149619d1",
+						"key": ""
+					},
+					"offerings": [],
+					"applies_to_all_offerings": "true",
+					"linking_id": "ac10d06cdb74b3003a731c0e04961951",
+					"cl_id": "b9f37ec2dbc8f1502bdd077cd39619c3",
+					"display_details": "poh.lim@monash.edu",
+					"display_name": "Ms Poh Lim ",
+					"offerings_formatted_contact": "<ul><li>Applies to all offerings</ul></li>",
+					"display_role_plural": "Chief Examiner(s)",
+					"links": []
+				}
+			]
+		}
+	],
+	"links": [],
+	"yearSwitcher": [
+		{
+			"label": "2020",
+			"value": "2020",
+			"href": "/2020/units/FIT3138?year=2020"
+		},
+		{
+			"label": "2021",
+			"value": "2021",
+			"href": "/2021/units/FIT3138?year=2021"
+		},
+		{
+			"label": "2022",
+			"value": "2022",
+			"href": "/2022/units/FIT3138?year=2022"
+		},
+		{
+			"label": "2023",
+			"value": "2023",
+			"href": "/2023/units/FIT3138?year=2023"
+		}
+	],
+	"university": "Monash University"
+}

@@ -1,0 +1,936 @@
+{
+	"contentTypeLabel": "Unit",
+	"published_in_handbook": {
+		"label": "Yes",
+		"value": "1"
+	},
+	"implementation_year": "2023",
+	"duration_ft_max": "",
+	"asced_detailed": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"grading_schema": {
+		"label": null,
+		"value": null
+	},
+	"study_level": [],
+	"quota_enrolment_requirements": "",
+	"status": {
+		"label": "Accredited",
+		"value": "Active"
+	},
+	"duration_pt_max": "",
+	"duration_pt_std": "",
+	"credit_points": "6",
+	"parent_id": {
+		"value": "Master Record: FIT3077",
+		"cl_id": "7ea4e250dbf4b300580f42a0149619d7",
+		"key": "code",
+		"type": "x_f5sl_cl_master_record"
+	},
+	"start_date": "",
+	"exclusions": "",
+	"unit_code": "FIT3077",
+	"academic_org": {
+		"value": "Faculty of Information Technology",
+		"cl_id": "c5684a53dba8a3406add773c349619a1",
+		"key": "name"
+	},
+	"sms_version": "",
+	"level": {
+		"label": "Level 3",
+		"value": "4"
+	},
+	"uac_code": "",
+	"special_requirements": "",
+	"duration_pt_min": "",
+	"special_unit_type": [],
+	"title": "Software engineering: Architecture and design",
+	"duration_ft_std": "",
+	"version": "8",
+	"learning_experiences": null,
+	"duration_ft_min": "",
+	"callista_version": "",
+	"duration_ft_period": {
+		"label": null,
+		"value": null
+	},
+	"asced_narrow": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"subclass": {
+		"label": "Unit",
+		"value": "subject"
+	},
+	"type": {
+		"label": "Coursework",
+		"value": "600"
+	},
+	"quota_rationale": "",
+	"version_name": "2023.08",
+	"timetable_this_unit": "true",
+	"work_integrated_learning": [
+		{
+			"value": "None",
+			"cl_id": "8ef5d77bdb122300e5cf3391f496191d",
+			"key": "label"
+		}
+	],
+	"cl_id": "0b913e02dbc8f1502bdd077cd3961991",
+	"school": {
+		"value": "Faculty of Information Technology",
+		"cl_id": "c5684a53dba8a3406add773c349619a1",
+		"key": "name"
+	},
+	"content": null,
+	"learning_and_teaching_resources": null,
+	"collaborating_disciplines": [],
+	"repeatable": "false",
+	"overview": "",
+	"end_date": "",
+	"duration_pt_period": {
+		"label": null,
+		"value": null
+	},
+	"sms_status": {
+		"label": null,
+		"value": null
+	},
+	"learning_materials": null,
+	"special_topic": "false",
+	"asced_broad": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"publish_tuition_fees": "true",
+	"placement_proportion": {
+		"label": null,
+		"value": null
+	},
+	"code": "FIT3077",
+	"other_unit_costs": "",
+	"eftsl": {
+		"label": "0.125",
+		"value": "0.125"
+	},
+	"contact_information": "",
+	"highest_sca_band": {
+		"label": "SCA Band 2",
+		"value": "2"
+	},
+	"lo_additional_information": "<p>On successful completion of this unit, you should be able to:</p>",
+	"handbook_assessment_summary": "<p>In-semester assessment: 100%</p>",
+	"quota_information": "",
+	"attendance_requirements": "",
+	"workload_requirements": "<p>Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled teaching activities.</p>",
+	"organisational_contact_information": "",
+	"handbook_synopsis": "<p>This unit builds on introductory units to analysis and design. It provides the professional software engineer with advanced knowledge and skills in high-level architectural design, its theoretical foundations, industrial best practice, and relevant application context. In the software life-cycle, software architecture sits between analysis/specification and design/implementation. The field of software architecture has come of age with a thriving research community and numerous high-level models, methods, tools and practices widely used in industry.</p>",
+	"special_note_to_students": "",
+	"undergrad_postgrad_both": {
+		"label": "Undergraduate",
+		"value": "undergraduate"
+	},
+	"area_of_study_links": "Advanced computer science<br />Software development<br />Software engineering<br />",
+	"fieldwork": "",
+	"unit_learning_outcomes": [
+		{
+			"lo_domain": [],
+			"order": "5",
+			"number": "5",
+			"code": "ULO5",
+			"lo_cl_id": "0f91be02dbc8f1502bdd077cd396190e",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "42cbb060db38b3003a731c0e0496194c",
+			"academic_item": {
+				"value": "FIT3077",
+				"cl_id": "0b913e02dbc8f1502bdd077cd3961991",
+				"key": "code"
+			},
+			"description": "<p>Evaluate and apply appropriate design patterns, frameworks and architectures in designing software;</p>",
+			"cl_id": "0f91be02dbc8f1502bdd077cd396190e",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "1",
+			"number": "1",
+			"code": "ULO1",
+			"lo_cl_id": "4791be02dbc8f1502bdd077cd396190f",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "1e3ab86cdbf4b3003a731c0e04961920",
+			"academic_item": {
+				"value": "FIT3077",
+				"cl_id": "0b913e02dbc8f1502bdd077cd3961991",
+				"key": "code"
+			},
+			"description": "<p>Model and design flexible software at the architectural level using various tools and techniques from the requirements;</p>",
+			"cl_id": "4791be02dbc8f1502bdd077cd396190f",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "4",
+			"number": "4",
+			"code": "ULO4",
+			"lo_cl_id": "4b91be02dbc8f1502bdd077cd396190e",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "bd8b3820db38b3003a731c0e049619ef",
+			"academic_item": {
+				"value": "FIT3077",
+				"cl_id": "0b913e02dbc8f1502bdd077cd3961991",
+				"key": "code"
+			},
+			"description": "<p>Select and use appropriate tools for iteratively incrementing the design and architecture of the system;</p>",
+			"cl_id": "4b91be02dbc8f1502bdd077cd396190e",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "6",
+			"number": "6",
+			"code": "ULO6",
+			"lo_cl_id": "8391be02dbc8f1502bdd077cd396190e",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "450344f0dbbc61502bdd077cd39619ef",
+			"academic_item": {
+				"value": "FIT3077",
+				"cl_id": "0b913e02dbc8f1502bdd077cd3961991",
+				"key": "code"
+			},
+			"description": "<p>Justify design decisions in the context of a project and effectively communicate these decisions to project stakeholders</p>",
+			"cl_id": "8391be02dbc8f1502bdd077cd396190e",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "3",
+			"number": "3",
+			"code": "ULO3",
+			"lo_cl_id": "8391be02dbc8f1502bdd077cd396190f",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "010b74ecdbf4b3003a731c0e049619f0",
+			"academic_item": {
+				"value": "FIT3077",
+				"cl_id": "0b913e02dbc8f1502bdd077cd3961991",
+				"key": "code"
+			},
+			"description": "<p>Take requirements for systems and develop software designs and architectures following object-oriented principles;</p>",
+			"cl_id": "8391be02dbc8f1502bdd077cd396190f",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "2",
+			"number": "2",
+			"code": "ULO2",
+			"lo_cl_id": "cf91be02dbc8f1502bdd077cd396190e",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "45dafcacdbf4b3003a731c0e04961904",
+			"academic_item": {
+				"value": "FIT3077",
+				"cl_id": "0b913e02dbc8f1502bdd077cd3961991",
+				"key": "code"
+			},
+			"description": "<p>Analyse, design, and refactor software systems taking into consideration various quality attributes and requirements</p>",
+			"cl_id": "cf91be02dbc8f1502bdd077cd396190e",
+			"ga_map": []
+		}
+	],
+	"school_org_unit_data": [
+		{
+			"parent": {
+				"value": "",
+				"cl_id": null,
+				"key": "name"
+			},
+			"url": "https://www.monash.edu/it",
+			"name": "Faculty of Information Technology",
+			"cl_id": "c5684a53dba8a3406add773c349619a1"
+		}
+	],
+	"assessments": [
+		{
+			"subject": {
+				"value": "FIT3077",
+				"cl_id": "0b913e02dbc8f1502bdd077cd3961991",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "2",
+			"weight": "25",
+			"cl_id": "1391be02dbc8f1502bdd077cd3961913",
+			"assessment_name": "Sprint Two",
+			"description": null,
+			"assessment_type": {
+				"label": "Assignment",
+				"value": "assignment"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT3077",
+				"cl_id": "0b913e02dbc8f1502bdd077cd3961991",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "1",
+			"weight": "20",
+			"cl_id": "5f91be02dbc8f1502bdd077cd3961913",
+			"assessment_name": "Sprint One ",
+			"description": null,
+			"assessment_type": {
+				"label": "Assignment",
+				"value": "assignment"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT3077",
+				"cl_id": "0b913e02dbc8f1502bdd077cd3961991",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "4",
+			"weight": "30",
+			"cl_id": "9b91be02dbc8f1502bdd077cd3961913",
+			"assessment_name": "Sprint Four",
+			"description": null,
+			"assessment_type": {
+				"label": "Assignment",
+				"value": "assignment"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT3077",
+				"cl_id": "0b913e02dbc8f1502bdd077cd3961991",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "3",
+			"weight": "25",
+			"cl_id": "d791be02dbc8f1502bdd077cd3961913",
+			"assessment_name": "Sprint Three",
+			"description": null,
+			"assessment_type": {
+				"label": "Assignment",
+				"value": "assignment"
+			},
+			"offerings_formatted": ""
+		}
+	],
+	"enrolment_rules": [],
+	"requisites": [
+		{
+			"academic_item_code": "FIT3077",
+			"active": "true",
+			"requisite_cl_id": "4391be02dbc8f1502bdd077cd396190a",
+			"description": "",
+			"requisite_type": {
+				"label": "Prohibition",
+				"value": "prohibitions"
+			},
+			"cl_id": {
+				"value": "FIT3077",
+				"cl_id": "0b913e02dbc8f1502bdd077cd3961991",
+				"key": "code"
+			},
+			"academic_item_version_number": "2023.08",
+			"order": "1",
+			"start_date": "",
+			"end_date": "",
+			"container": [
+				{
+					"cl_id": "9391be02dbc8f1502bdd077cd3961948",
+					"parent_container_table": "x_f5sl_cl_requisite",
+					"parent_record": {
+						"value": "Relationship Builder: FIT3077",
+						"cl_id": "4391be02dbc8f1502bdd077cd396190a",
+						"key": "academic_item",
+						"type": "x_f5sl_cl_requisite"
+					},
+					"title": "Container 1",
+					"parent_connector": {
+						"label": "AND",
+						"value": "AND"
+					},
+					"containers": [],
+					"relationships": [
+						{
+							"academic_item": {
+								"value": "Unit: FZA3077",
+								"cl_id": "2f315c821b9414144a942f002d4bcbdd",
+								"key": "code",
+								"type": "x_f5sl_cl_subjects"
+							},
+							"parent_record": {
+								"value": "Container 1",
+								"cl_id": "9391be02dbc8f1502bdd077cd3961948",
+								"key": "title"
+							},
+							"order": "2",
+							"cl_id": "2f315c821b9414144a942f002d4bcbdd",
+							"academic_item_type": {
+								"label": "Unit",
+								"value": "subject"
+							},
+							"abbr_name": "SE ARCHITECTURE",
+							"academic_item_version_name": "2021.02",
+							"academic_item_credit_points": "6",
+							"abbreviated_name_and_major": null,
+							"academic_item_name": "Software engineering: Architecture and design",
+							"academic_item_code": "FZA3077",
+							"academic_item_url": "/2021/units/FZA3077"
+						}
+					]
+				}
+			]
+		},
+		{
+			"academic_item_code": "FIT3077",
+			"active": "true",
+			"requisite_cl_id": "c791be02dbc8f1502bdd077cd3961909",
+			"description": "",
+			"requisite_type": {
+				"label": "Prerequisite",
+				"value": "prerequisite"
+			},
+			"cl_id": {
+				"value": "FIT3077",
+				"cl_id": "0b913e02dbc8f1502bdd077cd3961991",
+				"key": "code"
+			},
+			"academic_item_version_number": "2023.08",
+			"order": "2",
+			"start_date": "",
+			"end_date": "",
+			"container": [
+				{
+					"cl_id": "5b917e02dbc8f1502bdd077cd39619e9",
+					"parent_container_table": "x_f5sl_cl_requisite",
+					"parent_record": {
+						"value": "Relationship Builder: FIT3077",
+						"cl_id": "c791be02dbc8f1502bdd077cd3961909",
+						"key": "academic_item",
+						"type": "x_f5sl_cl_requisite"
+					},
+					"title": "Container 1",
+					"parent_connector": {
+						"label": "OR",
+						"value": "OR"
+					},
+					"containers": [
+						{
+							"cl_id": "13917e02dbc8f1502bdd077cd39619ea",
+							"parent_container_table": "x_f5sl_cl_relationship_groups",
+							"parent_record": {
+								"value": "Relationship Groups: Container 1",
+								"cl_id": "5b917e02dbc8f1502bdd077cd39619e9",
+								"key": "title",
+								"type": "x_f5sl_cl_relationship_groups"
+							},
+							"title": "Container 1.3",
+							"parent_connector": {
+								"label": "AND",
+								"value": "AND"
+							},
+							"containers": [
+								{
+									"cl_id": "57917e02dbc8f1502bdd077cd39619ea",
+									"parent_container_table": "x_f5sl_cl_relationship_groups",
+									"parent_record": {
+										"value": "Relationship Groups: Container 1.3",
+										"cl_id": "13917e02dbc8f1502bdd077cd39619ea",
+										"key": "title",
+										"type": "x_f5sl_cl_relationship_groups"
+									},
+									"title": "Container 1.3.5",
+									"parent_connector": {
+										"label": "OR",
+										"value": "OR"
+									},
+									"containers": [],
+									"relationships": [
+										{
+											"academic_item": {
+												"value": "Unit: FIT2004",
+												"cl_id": "b6bbdcc51b111114f1eca68b274bcb3e",
+												"key": "code",
+												"type": "x_f5sl_cl_subjects"
+											},
+											"parent_record": {
+												"value": "Container 1.3.5",
+												"cl_id": "57917e02dbc8f1502bdd077cd39619ea",
+												"key": "title"
+											},
+											"order": "6",
+											"cl_id": "b6bbdcc51b111114f1eca68b274bcb3e",
+											"academic_item_type": {
+												"label": "Unit",
+												"value": "subject"
+											},
+											"abbr_name": "A&DS",
+											"academic_item_version_name": "2023.02",
+											"academic_item_credit_points": "6",
+											"abbreviated_name_and_major": null,
+											"academic_item_name": "Algorithms and data structures",
+											"academic_item_code": "FIT2004",
+											"academic_item_url": "/2023/units/FIT2004"
+										},
+										{
+											"academic_item": {
+												"value": "Unit: FIT2081",
+												"cl_id": "f98f940d1b111114f1eca68b274bcbe2",
+												"key": "code",
+												"type": "x_f5sl_cl_subjects"
+											},
+											"parent_record": {
+												"value": "Container 1.3.5",
+												"cl_id": "57917e02dbc8f1502bdd077cd39619ea",
+												"key": "title"
+											},
+											"order": "7",
+											"cl_id": "f98f940d1b111114f1eca68b274bcbe2",
+											"academic_item_type": {
+												"label": "Unit",
+												"value": "subject"
+											},
+											"abbr_name": "MOBILE APPS DEV",
+											"academic_item_version_name": "2023.02",
+											"academic_item_credit_points": "6",
+											"abbreviated_name_and_major": null,
+											"academic_item_name": "Mobile application development",
+											"academic_item_code": "FIT2081",
+											"academic_item_url": "/2023/units/FIT2081"
+										}
+									]
+								}
+							],
+							"relationships": [
+								{
+									"academic_item": {
+										"value": "Unit: FIT2001",
+										"cl_id": "801b10c51b111114f1eca68b274bcb9e",
+										"key": "code",
+										"type": "x_f5sl_cl_subjects"
+									},
+									"parent_record": {
+										"value": "Container 1.3",
+										"cl_id": "13917e02dbc8f1502bdd077cd39619ea",
+										"key": "title"
+									},
+									"order": "4",
+									"cl_id": "801b10c51b111114f1eca68b274bcb9e",
+									"academic_item_type": {
+										"label": "Unit",
+										"value": "subject"
+									},
+									"abbr_name": "SYS DEV",
+									"academic_item_version_name": "2023.02",
+									"academic_item_credit_points": "6",
+									"abbreviated_name_and_major": null,
+									"academic_item_name": "Systems development",
+									"academic_item_code": "FIT2001",
+									"academic_item_url": "/2023/units/FIT2001"
+								}
+							]
+						}
+					],
+					"relationships": [
+						{
+							"academic_item": {
+								"value": "Unit: FIT2099",
+								"cl_id": "d00b782b1b3c5550653b206b274bcbca",
+								"key": "code",
+								"type": "x_f5sl_cl_subjects"
+							},
+							"parent_record": {
+								"value": "Container 1",
+								"cl_id": "5b917e02dbc8f1502bdd077cd39619e9",
+								"key": "title"
+							},
+							"order": "2",
+							"cl_id": "d00b782b1b3c5550653b206b274bcbca",
+							"academic_item_type": {
+								"label": "Unit",
+								"value": "subject"
+							},
+							"abbr_name": "OO DESIGN & IMPLEMEN",
+							"academic_item_version_name": "2023.01RO",
+							"academic_item_credit_points": "6",
+							"abbreviated_name_and_major": null,
+							"academic_item_name": "Object oriented design and implementation",
+							"academic_item_code": "FIT2099",
+							"academic_item_url": "/2023/units/FIT2099"
+						}
+					]
+				}
+			]
+		}
+	],
+	"unit_offering": [
+		{
+			"fees_domestic": "",
+			"publish": "true",
+			"location": {
+				"value": "Clayton",
+				"cl_id": "37f321e1db30a7406add773c3496192e",
+				"key": "name"
+			},
+			"name": "FIT3077-S1-01-ON-CAMPUS-CLAYTON",
+			"clarification_to_appear_in_handbook": "",
+			"display_name": "S1-01-CLAYTON-ON-CAMPUS",
+			"teaching_period": {
+				"value": "First semester",
+				"cl_id": "0da429a1db30a7406add773c3496190c",
+				"key": "name"
+			},
+			"attendance_mode": {
+				"value": "On-campus",
+				"cl_id": "7bf2311bdb68a3406add773c349619bb",
+				"key": "description"
+			},
+			"quota_number": "",
+			"study_level": {
+				"label": null,
+				"value": null
+			},
+			"offered": "true",
+			"self_enrol": "true",
+			"academic_item": {
+				"value": "FIT3077",
+				"cl_id": "0b913e02dbc8f1502bdd077cd3961991",
+				"key": "code"
+			},
+			"fees_commonwealth": "",
+			"fees_international": "",
+			"course_restrictions": "",
+			"cl_id": "4791be02dbc8f1502bdd077cd396190b"
+		},
+		{
+			"fees_domestic": "",
+			"publish": "true",
+			"location": {
+				"value": "Malaysia",
+				"cl_id": "7bf321e1db30a7406add773c3496192f",
+				"key": "name"
+			},
+			"name": "FIT3077-S1-01-ON-CAMPUS-MALAYSIA",
+			"clarification_to_appear_in_handbook": "",
+			"display_name": "S1-01-MALAYSIA-ON-CAMPUS",
+			"teaching_period": {
+				"value": "First semester",
+				"cl_id": "0da429a1db30a7406add773c3496190c",
+				"key": "name"
+			},
+			"attendance_mode": {
+				"value": "On-campus",
+				"cl_id": "7bf2311bdb68a3406add773c349619bb",
+				"key": "description"
+			},
+			"quota_number": "",
+			"study_level": {
+				"label": null,
+				"value": null
+			},
+			"offered": "true",
+			"self_enrol": "true",
+			"academic_item": {
+				"value": "FIT3077",
+				"cl_id": "0b913e02dbc8f1502bdd077cd3961991",
+				"key": "code"
+			},
+			"fees_commonwealth": "",
+			"fees_international": "",
+			"course_restrictions": "",
+			"cl_id": "8391be02dbc8f1502bdd077cd396190c"
+		}
+	],
+	"enrolment_rules_group": [],
+	"learning_resources_grouped": [],
+	"study_abroad_unit": "Yes",
+	"academic_item_type": "Unit",
+	"learning_activities_grouped": [
+		{
+			"activity_type": "Workshops",
+			"activities": [
+				{
+					"subject": {
+						"value": "FIT3077",
+						"cl_id": "0b913e02dbc8f1502bdd077cd3961991",
+						"key": "code"
+					},
+					"cl_id": "1791be02dbc8f1502bdd077cd3961912",
+					"order": "",
+					"description": "",
+					"activity_type": {
+						"label": "Workshops",
+						"value": "workshop"
+					},
+					"duration_display": "48 hours",
+					"offerings_formatted_teaching_activities": "<ul><li>Applies to all offerings</li></ul>",
+					"links": []
+				}
+			]
+		},
+		{
+			"activity_type": "Lectures",
+			"activities": [
+				{
+					"subject": {
+						"value": "FIT3077",
+						"cl_id": "0b913e02dbc8f1502bdd077cd3961991",
+						"key": "code"
+					},
+					"cl_id": "9b91be02dbc8f1502bdd077cd3961912",
+					"order": "",
+					"description": "",
+					"activity_type": {
+						"label": "Lectures",
+						"value": "lecture"
+					},
+					"duration_display": "12 hours",
+					"offerings_formatted_teaching_activities": "<ul><li>Applies to all offerings</li></ul>",
+					"links": []
+				}
+			]
+		}
+	],
+	"search_title": "FIT3077 - Software engineering: Architecture and design",
+	"unit_search_title": "FIT3077 - Software engineering: Architecture and design",
+	"teaching_approaches": [
+		{
+			"type": {
+				"label": "Peer assisted learning",
+				"value": "peer_assisted_learning"
+			},
+			"academic_item": {
+				"value": "FIT3077",
+				"cl_id": "0b913e02dbc8f1502bdd077cd3961991",
+				"key": "code"
+			},
+			"cl_id": "4791be02dbc8f1502bdd077cd3961911",
+			"description": "<p><strong> </strong></p>",
+			"links": []
+		},
+		{
+			"type": {
+				"label": "Active learning",
+				"value": "active_learning"
+			},
+			"academic_item": {
+				"value": "FIT3077",
+				"cl_id": "0b913e02dbc8f1502bdd077cd3961991",
+				"key": "code"
+			},
+			"cl_id": "8391be02dbc8f1502bdd077cd3961910",
+			"description": "<p><strong> </strong></p>",
+			"links": []
+		}
+	],
+	"handbook_statement": null,
+	"academic_contact_roles": [
+		{
+			"role": "Unit Coordinator(s)",
+			"contacts": [
+				{
+					"active": "true",
+					"contact_department": "",
+					"start_date": "",
+					"offering": {
+						"value": "",
+						"cl_id": null,
+						"key": "display_name"
+					},
+					"contact_role": {
+						"label": "Unit Coordinator",
+						"value": "unit_coordinator"
+					},
+					"contact_name": "Chong Chun Yong",
+					"role_detail": "(Malaysia)",
+					"contact_organisation": "",
+					"contact_title": "Dr",
+					"order": "0",
+					"contact_phone": "",
+					"end_date": "",
+					"location": {
+						"value": "",
+						"cl_id": null,
+						"key": "name"
+					},
+					"contact_email": "Chong.ChunYong@monash.edu",
+					"contact_url": "",
+					"user": {
+						"value": "Chong Chun Yong",
+						"cl_id": "2bdd4e80db2ed090ffb02c53059619c5",
+						"key": ""
+					},
+					"offerings": [
+						{
+							"value": "S1-01-MALAYSIA-ON-CAMPUS",
+							"cl_id": "8391be02dbc8f1502bdd077cd396190c",
+							"key": "display_name"
+						}
+					],
+					"applies_to_all_offerings": "false",
+					"linking_id": "f4c4f5f5dbab5090a786cd043a961909",
+					"cl_id": "4791be02dbc8f1502bdd077cd396190d",
+					"display_details": "Chong.ChunYong@monash.edu",
+					"display_name": "Dr Chong Chun Yong ",
+					"offerings_formatted_contact": "<ul><li>First semester, Malaysia, On-campus</li></ul>",
+					"display_role_plural": "Unit Coordinator(s)",
+					"links": []
+				},
+				{
+					"active": "true",
+					"contact_department": "",
+					"start_date": "",
+					"offering": {
+						"value": "",
+						"cl_id": null,
+						"key": "display_name"
+					},
+					"contact_role": {
+						"label": "Unit Coordinator",
+						"value": "unit_coordinator"
+					},
+					"contact_name": "Rashina Hoda",
+					"role_detail": "",
+					"contact_organisation": "",
+					"contact_title": "Associate Professor",
+					"order": "1",
+					"contact_phone": "",
+					"end_date": "",
+					"location": {
+						"value": "",
+						"cl_id": null,
+						"key": "name"
+					},
+					"contact_email": "Rashina.Hoda@monash.edu",
+					"contact_url": "",
+					"user": {
+						"value": "Rashina Hoda",
+						"cl_id": "f0eef3201b3d1950f1eca68b274bcbc0",
+						"key": ""
+					},
+					"offerings": [
+						{
+							"value": "S1-01-CLAYTON-ON-CAMPUS",
+							"cl_id": "4791be02dbc8f1502bdd077cd396190b",
+							"key": "display_name"
+						}
+					],
+					"applies_to_all_offerings": "false",
+					"linking_id": "8dac2b2e1b854510f1eca68b274bcbbe",
+					"cl_id": "c791be02dbc8f1502bdd077cd396190c",
+					"display_details": "Rashina.Hoda@monash.edu",
+					"display_name": "Associate Professor Rashina Hoda ",
+					"offerings_formatted_contact": "<ul><li>First semester, Clayton, On-campus</li></ul>",
+					"display_role_plural": "Unit Coordinator(s)",
+					"links": []
+				}
+			]
+		},
+		{
+			"role": "Chief Examiner(s)",
+			"contacts": [
+				{
+					"active": "true",
+					"contact_department": "",
+					"start_date": "",
+					"offering": {
+						"value": "",
+						"cl_id": null,
+						"key": "display_name"
+					},
+					"contact_role": {
+						"label": "Chief Examiner",
+						"value": "chief_examiner"
+					},
+					"contact_name": "Jean-Guy Schneider",
+					"role_detail": "",
+					"contact_organisation": "",
+					"contact_title": "Professor",
+					"order": "1",
+					"contact_phone": "",
+					"end_date": "",
+					"location": {
+						"value": "",
+						"cl_id": null,
+						"key": "name"
+					},
+					"contact_email": "Jean-Guy.Schneider@monash.edu",
+					"contact_url": "",
+					"user": {
+						"value": "Jean-Guy Schneider",
+						"cl_id": "9a26eb811b65d150653b206b274bcb0a",
+						"key": ""
+					},
+					"offerings": [],
+					"applies_to_all_offerings": "true",
+					"linking_id": "f28cb671db5f51902bdd077cd3961947",
+					"cl_id": "cb91be02dbc8f1502bdd077cd396190d",
+					"display_details": "Jean-Guy.Schneider@monash.edu",
+					"display_name": "Professor Jean-Guy Schneider ",
+					"offerings_formatted_contact": "<ul><li>Applies to all offerings</ul></li>",
+					"display_role_plural": "Chief Examiner(s)",
+					"links": []
+				}
+			]
+		}
+	],
+	"links": [],
+	"yearSwitcher": [
+		{
+			"label": "2020",
+			"value": "2020",
+			"href": "/2020/units/FIT3077?year=2020"
+		},
+		{
+			"label": "2021",
+			"value": "2021",
+			"href": "/2021/units/FIT3077?year=2021"
+		},
+		{
+			"label": "2022",
+			"value": "2022",
+			"href": "/2022/units/FIT3077?year=2022"
+		},
+		{
+			"label": "2023",
+			"value": "2023",
+			"href": "/2023/units/FIT3077?year=2023"
+		}
+	],
+	"university": "Monash University"
+}

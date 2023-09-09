@@ -1,7 +1,10 @@
 {
-	"code": "FIT3081",
-	"title": "Image processing",
-	"offerings": [],
+	"code": "FIT2091",
+	"title": "Interactive media studio 1",
+	"offerings": [
+		"First semester"
+	],
+	"enrolmentRules": [],
 	"requisites": [
 		{
 			"type": "prerequisite",
@@ -9,10 +12,9 @@
 				"operator": "AND",
 				"items": [
 					{
-						"operator": "OR",
+						"operator": "AND",
 						"items": [
-							"FIT1008",
-							"FIT2085"
+							"FIT1046"
 						]
 					}
 				]

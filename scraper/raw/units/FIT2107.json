@@ -1,0 +1,960 @@
+{
+	"contentTypeLabel": "Unit",
+	"published_in_handbook": {
+		"label": "Yes",
+		"value": "1"
+	},
+	"implementation_year": "2023",
+	"duration_ft_max": "",
+	"asced_detailed": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"grading_schema": {
+		"label": null,
+		"value": null
+	},
+	"study_level": [],
+	"quota_enrolment_requirements": "",
+	"status": {
+		"label": "Accredited",
+		"value": "Active"
+	},
+	"duration_pt_max": "",
+	"duration_pt_std": "",
+	"credit_points": "6",
+	"parent_id": {
+		"value": "Master Record: FIT2107",
+		"cl_id": "caa4a250dbf4b300580f42a0149619d7",
+		"key": "code",
+		"type": "x_f5sl_cl_master_record"
+	},
+	"start_date": "",
+	"exclusions": "",
+	"unit_code": "FIT2107",
+	"academic_org": {
+		"value": "Faculty of Information Technology",
+		"cl_id": "c5684a53dba8a3406add773c349619a1",
+		"key": "name"
+	},
+	"sms_version": "",
+	"level": {
+		"label": "Level 2",
+		"value": "3"
+	},
+	"uac_code": "",
+	"special_requirements": "",
+	"duration_pt_min": "",
+	"special_unit_type": [],
+	"title": "Software quality and testing",
+	"duration_ft_std": "",
+	"version": "13",
+	"learning_experiences": null,
+	"duration_ft_min": "",
+	"callista_version": "",
+	"duration_ft_period": {
+		"label": null,
+		"value": null
+	},
+	"asced_narrow": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"subclass": {
+		"label": "Unit",
+		"value": "subject"
+	},
+	"type": {
+		"label": "Coursework",
+		"value": "600"
+	},
+	"quota_rationale": "",
+	"version_name": "2023.13",
+	"timetable_this_unit": "true",
+	"work_integrated_learning": [
+		{
+			"value": "None",
+			"cl_id": "8ef5d77bdb122300e5cf3391f496191d",
+			"key": "label"
+		}
+	],
+	"cl_id": "c07e6f2ddbfc7d10101196cbd396195d",
+	"school": {
+		"value": "Faculty of Information Technology",
+		"cl_id": "c5684a53dba8a3406add773c349619a1",
+		"key": "name"
+	},
+	"content": null,
+	"learning_and_teaching_resources": null,
+	"collaborating_disciplines": [],
+	"repeatable": "false",
+	"overview": "",
+	"end_date": "",
+	"duration_pt_period": {
+		"label": null,
+		"value": null
+	},
+	"sms_status": {
+		"label": null,
+		"value": null
+	},
+	"learning_materials": null,
+	"special_topic": "false",
+	"asced_broad": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"publish_tuition_fees": "true",
+	"placement_proportion": {
+		"label": null,
+		"value": null
+	},
+	"code": "FIT2107",
+	"other_unit_costs": "",
+	"eftsl": {
+		"label": "0.125",
+		"value": "0.125"
+	},
+	"contact_information": "",
+	"highest_sca_band": {
+		"label": "SCA Band 2",
+		"value": "2"
+	},
+	"lo_additional_information": "<p>On successful completion of this unit, you should be able to:</p>",
+	"handbook_assessment_summary": "",
+	"quota_information": "",
+	"attendance_requirements": "",
+	"workload_requirements": "<p>Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled teaching activities.</p>",
+	"organisational_contact_information": "",
+	"handbook_synopsis": "<p>This unit focuses on modern software quality assurance and testing tools and techniques to assure the quality of software systems. Students will learn different quality aspects of quality attributes, e.g., reliability, human, and security. Students will design test cases and apply systematic testing techniques in the context of individual modules and entire systems, using appropriate tools and techniques to automate the testing process where possible. Finally, students will analyze and report code quality issues using modern code review practices with tools and measures.</p>",
+	"special_note_to_students": "",
+	"undergrad_postgrad_both": {
+		"label": "Undergraduate",
+		"value": "undergraduate"
+	},
+	"area_of_study_links": "Software development<br />Software engineering<br />",
+	"fieldwork": "",
+	"unit_learning_outcomes": [
+		{
+			"lo_domain": [],
+			"order": "4",
+			"number": "4",
+			"code": "ULO4",
+			"lo_cl_id": "087e6f2ddbfc7d10101196cbd39619bb",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "9f4b3020db38b3003a731c0e0496199e",
+			"academic_item": {
+				"value": "FIT2107",
+				"cl_id": "c07e6f2ddbfc7d10101196cbd396195d",
+				"key": "code"
+			},
+			"description": "<p>Conduct automated unit testing using continuous integration frameworks and system testing;</p>",
+			"cl_id": "087e6f2ddbfc7d10101196cbd39619bb",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "1",
+			"number": "1",
+			"code": "ULO1",
+			"lo_cl_id": "087e6f2ddbfc7d10101196cbd39619bc",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "374a3c6cdbf4b3003a731c0e049619c3",
+			"academic_item": {
+				"value": "FIT2107",
+				"cl_id": "c07e6f2ddbfc7d10101196cbd396195d",
+				"key": "code"
+			},
+			"description": "<p>Analyze and identify software quality attributes for a small to medium-sized software system;</p>",
+			"cl_id": "087e6f2ddbfc7d10101196cbd39619bc",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "5",
+			"number": "5",
+			"code": "ULO5",
+			"lo_cl_id": "447e6f2ddbfc7d10101196cbd39619bc",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "5cab3c20db38b3003a731c0e049619c2",
+			"academic_item": {
+				"value": "FIT2107",
+				"cl_id": "c07e6f2ddbfc7d10101196cbd396195d",
+				"key": "code"
+			},
+			"description": "<p>Analyze and report code quality issues using modern code review practices with tools and measures.</p>",
+			"cl_id": "447e6f2ddbfc7d10101196cbd39619bc",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "3",
+			"number": "3",
+			"code": "ULO3",
+			"lo_cl_id": "807e6f2ddbfc7d10101196cbd39619bc",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "8d3b7cecdbf4b3003a731c0e04961929",
+			"academic_item": {
+				"value": "FIT2107",
+				"cl_id": "c07e6f2ddbfc7d10101196cbd396195d",
+				"key": "code"
+			},
+			"description": "<p>Design test cases using black-box and white-box testing techniques based on user requirements;</p>",
+			"cl_id": "807e6f2ddbfc7d10101196cbd39619bc",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "2",
+			"number": "2",
+			"code": "ULO2",
+			"lo_cl_id": "cc7e6f2ddbfc7d10101196cbd39619bb",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "a3aa78acdbf4b3003a731c0e049619d9",
+			"academic_item": {
+				"value": "FIT2107",
+				"cl_id": "c07e6f2ddbfc7d10101196cbd396195d",
+				"key": "code"
+			},
+			"description": "<p>Develop a software testing plan by selecting appropriate quality assurance and testing strategies;</p>",
+			"cl_id": "cc7e6f2ddbfc7d10101196cbd39619bb",
+			"ga_map": []
+		}
+	],
+	"school_org_unit_data": [
+		{
+			"parent": {
+				"value": "",
+				"cl_id": null,
+				"key": "name"
+			},
+			"url": "https://www.monash.edu/it",
+			"name": "Faculty of Information Technology",
+			"cl_id": "c5684a53dba8a3406add773c349619a1"
+		}
+	],
+	"assessments": [
+		{
+			"subject": {
+				"value": "FIT2107",
+				"cl_id": "c07e6f2ddbfc7d10101196cbd396195d",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "3",
+			"weight": "25",
+			"cl_id": "007e6f2ddbfc7d10101196cbd39619c0",
+			"assessment_name": "Assignment 3; Whitebox Testing",
+			"description": null,
+			"assessment_type": {
+				"label": "Assignment",
+				"value": "assignment"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT2107",
+				"cl_id": "c07e6f2ddbfc7d10101196cbd396195d",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "2",
+			"weight": "25",
+			"cl_id": "487e6f2ddbfc7d10101196cbd39619bf",
+			"assessment_name": "Assignment 2:  Blackbox Testing",
+			"description": null,
+			"assessment_type": {
+				"label": "Assignment",
+				"value": "assignment"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT2107",
+				"cl_id": "c07e6f2ddbfc7d10101196cbd396195d",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "4",
+			"weight": "25",
+			"cl_id": "847e6f2ddbfc7d10101196cbd39619c0",
+			"assessment_name": "Assignment 4; Code Review and Code Quality",
+			"description": null,
+			"assessment_type": {
+				"label": "Assignment",
+				"value": "assignment"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT2107",
+				"cl_id": "c07e6f2ddbfc7d10101196cbd396195d",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "1",
+			"weight": "25",
+			"cl_id": "c07e6f2ddbfc7d10101196cbd39619c0",
+			"assessment_name": "Assignment 1: Quality Attributes + Test Plans",
+			"description": "<p>Group work</p>",
+			"assessment_type": {
+				"label": "Assignment",
+				"value": "assignment"
+			},
+			"offerings_formatted": ""
+		}
+	],
+	"enrolment_rules": [],
+	"requisites": [
+		{
+			"academic_item_code": "FIT2107",
+			"active": "true",
+			"requisite_cl_id": "007e6f2ddbfc7d10101196cbd3961960",
+			"description": "",
+			"requisite_type": {
+				"label": "Prerequisite",
+				"value": "prerequisite"
+			},
+			"cl_id": {
+				"value": "FIT2107",
+				"cl_id": "c07e6f2ddbfc7d10101196cbd396195d",
+				"key": "code"
+			},
+			"academic_item_version_number": "2023.13",
+			"order": "",
+			"start_date": "",
+			"end_date": "",
+			"container": [
+				{
+					"cl_id": "5c7ee365dbf8f1502bdd077cd396190d",
+					"parent_container_table": "x_f5sl_cl_requisite",
+					"parent_record": {
+						"value": "Relationship Builder: FIT2107",
+						"cl_id": "007e6f2ddbfc7d10101196cbd3961960",
+						"key": "academic_item",
+						"type": "x_f5sl_cl_requisite"
+					},
+					"title": "Container 1",
+					"parent_connector": {
+						"label": "OR",
+						"value": "OR"
+					},
+					"containers": [
+						{
+							"cl_id": "947ee365dbf8f1502bdd077cd396190e",
+							"parent_container_table": "x_f5sl_cl_relationship_groups",
+							"parent_record": {
+								"value": "Relationship Groups: Container 1",
+								"cl_id": "5c7ee365dbf8f1502bdd077cd396190d",
+								"key": "title",
+								"type": "x_f5sl_cl_relationship_groups"
+							},
+							"title": "Container 1.13",
+							"parent_connector": {
+								"label": "AND",
+								"value": "AND"
+							},
+							"containers": [
+								{
+									"cl_id": "107ee365dbf8f1502bdd077cd396190f",
+									"parent_container_table": "x_f5sl_cl_relationship_groups",
+									"parent_record": {
+										"value": "Relationship Groups: Container 1.13",
+										"cl_id": "947ee365dbf8f1502bdd077cd396190e",
+										"key": "title",
+										"type": "x_f5sl_cl_relationship_groups"
+									},
+									"title": "Container 1.13.15",
+									"parent_connector": {
+										"label": "OR",
+										"value": "OR"
+									},
+									"containers": [],
+									"relationships": [
+										{
+											"academic_item": {
+												"value": "Unit: ENG1060",
+												"cl_id": "09b8b8e31b3c5550653b206b274bcb44",
+												"key": "code",
+												"type": "x_f5sl_cl_subjects"
+											},
+											"parent_record": {
+												"value": "Container 1.13.15",
+												"cl_id": "107ee365dbf8f1502bdd077cd396190f",
+												"key": "title"
+											},
+											"order": "18",
+											"cl_id": "09b8b8e31b3c5550653b206b274bcb44",
+											"academic_item_type": {
+												"label": "Unit",
+												"value": "subject"
+											},
+											"abbr_name": "COMP FOR ENG",
+											"academic_item_version_name": "2023.01RO",
+											"academic_item_credit_points": "6",
+											"abbreviated_name_and_major": null,
+											"academic_item_name": "Computing for engineers",
+											"academic_item_code": "ENG1060",
+											"academic_item_url": "/2023/units/ENG1060"
+										},
+										{
+											"academic_item": {
+												"value": "Unit: ENG1014",
+												"cl_id": "cf5711cc1b65d510f1eca68b274bcb5a",
+												"key": "code",
+												"type": "x_f5sl_cl_subjects"
+											},
+											"parent_record": {
+												"value": "Container 1.13.15",
+												"cl_id": "107ee365dbf8f1502bdd077cd396190f",
+												"key": "title"
+											},
+											"order": "19",
+											"cl_id": "cf5711cc1b65d510f1eca68b274bcb5a",
+											"academic_item_type": {
+												"label": "Unit",
+												"value": "subject"
+											},
+											"abbr_name": "ENG NUMERICAL ANALYSIS",
+											"academic_item_version_name": "2023.03",
+											"academic_item_credit_points": "6",
+											"abbreviated_name_and_major": null,
+											"academic_item_name": "Engineering numerical analysis",
+											"academic_item_code": "ENG1014",
+											"academic_item_url": "/2023/units/ENG1014"
+										}
+									]
+								},
+								{
+									"cl_id": "d87ee365dbf8f1502bdd077cd396190e",
+									"parent_container_table": "x_f5sl_cl_relationship_groups",
+									"parent_record": {
+										"value": "Relationship Groups: Container 1.13",
+										"cl_id": "947ee365dbf8f1502bdd077cd396190e",
+										"key": "title",
+										"type": "x_f5sl_cl_relationship_groups"
+									},
+									"title": "Container 1.13.14",
+									"parent_connector": {
+										"label": "OR",
+										"value": "OR"
+									},
+									"containers": [],
+									"relationships": [
+										{
+											"academic_item": {
+												"value": "Unit: ENG1013",
+												"cl_id": "1a165d4c1b65d510f1eca68b274bcb31",
+												"key": "code",
+												"type": "x_f5sl_cl_subjects"
+											},
+											"parent_record": {
+												"value": "Container 1.13.14",
+												"cl_id": "d87ee365dbf8f1502bdd077cd396190e",
+												"key": "title"
+											},
+											"order": "17",
+											"cl_id": "1a165d4c1b65d510f1eca68b274bcb31",
+											"academic_item_type": {
+												"label": "Unit",
+												"value": "subject"
+											},
+											"abbr_name": "ENG SMARTSYS",
+											"academic_item_version_name": "2023.03",
+											"academic_item_credit_points": "6",
+											"abbreviated_name_and_major": null,
+											"academic_item_name": "Engineering smart systems",
+											"academic_item_code": "ENG1013",
+											"academic_item_url": "/2023/units/ENG1013"
+										},
+										{
+											"academic_item": {
+												"value": "Unit: ENG1003",
+												"cl_id": "b0a874e31b3c5550653b206b274bcb29",
+												"key": "code",
+												"type": "x_f5sl_cl_subjects"
+											},
+											"parent_record": {
+												"value": "Container 1.13.14",
+												"cl_id": "d87ee365dbf8f1502bdd077cd396190e",
+												"key": "title"
+											},
+											"order": "16",
+											"cl_id": "b0a874e31b3c5550653b206b274bcb29",
+											"academic_item_type": {
+												"label": "Unit",
+												"value": "subject"
+											},
+											"abbr_name": "ENGMOBILEAPPS",
+											"academic_item_version_name": "2023.01RO",
+											"academic_item_credit_points": "6",
+											"abbreviated_name_and_major": null,
+											"academic_item_name": "Engineering mobile apps",
+											"academic_item_code": "ENG1003",
+											"academic_item_url": "/2023/units/ENG1003"
+										}
+									]
+								}
+							],
+							"relationships": []
+						}
+					],
+					"relationships": [
+						{
+							"academic_item": {
+								"value": "Unit: FIT1048",
+								"cl_id": "29ccd75ddbb9b0d0101196cbd396198b",
+								"key": "code",
+								"type": "x_f5sl_cl_subjects"
+							},
+							"parent_record": {
+								"value": "Container 1",
+								"cl_id": "5c7ee365dbf8f1502bdd077cd396190d",
+								"key": "title"
+							},
+							"order": "10",
+							"cl_id": "29ccd75ddbb9b0d0101196cbd396198b",
+							"academic_item_type": {
+								"label": "Unit",
+								"value": "subject"
+							},
+							"abbr_name": "FUNDAMENTALS OF C++",
+							"academic_item_version_name": "2022.03RO",
+							"academic_item_credit_points": "6",
+							"abbreviated_name_and_major": null,
+							"academic_item_name": "Fundamentals of C++",
+							"academic_item_code": "FIT1048",
+							"academic_item_url": "/2022/units/FIT1048"
+						},
+						{
+							"academic_item": {
+								"value": "Unit: FIT1051",
+								"cl_id": "1d1b0ad71bd7b810653b206b274bcba7",
+								"key": "code",
+								"type": "x_f5sl_cl_subjects"
+							},
+							"parent_record": {
+								"value": "Container 1",
+								"cl_id": "5c7ee365dbf8f1502bdd077cd396190d",
+								"key": "title"
+							},
+							"order": "11",
+							"cl_id": "1d1b0ad71bd7b810653b206b274bcba7",
+							"academic_item_type": {
+								"label": "Unit",
+								"value": "subject"
+							},
+							"abbr_name": "PROGFUNDTALSINJAVA",
+							"academic_item_version_name": "2022.04",
+							"academic_item_credit_points": "6",
+							"abbreviated_name_and_major": null,
+							"academic_item_name": "Programming fundamentals in java",
+							"academic_item_code": "FIT1051",
+							"academic_item_url": "/2022/units/FIT1051"
+						},
+						{
+							"academic_item": {
+								"value": "Unit: FIT1045",
+								"cl_id": "2d3ee8591b6add10f1eca68b274bcbe9",
+								"key": "code",
+								"type": "x_f5sl_cl_subjects"
+							},
+							"parent_record": {
+								"value": "Container 1",
+								"cl_id": "5c7ee365dbf8f1502bdd077cd396190d",
+								"key": "title"
+							},
+							"order": "9",
+							"cl_id": "2d3ee8591b6add10f1eca68b274bcbe9",
+							"academic_item_type": {
+								"label": "Unit",
+								"value": "subject"
+							},
+							"abbr_name": "INTRO TO PROGRAMMING",
+							"academic_item_version_name": "2023.04",
+							"academic_item_credit_points": "6",
+							"abbreviated_name_and_major": null,
+							"academic_item_name": "Introduction to programming",
+							"academic_item_code": "FIT1045",
+							"academic_item_url": "/2023/units/FIT1045"
+						},
+						{
+							"academic_item": {
+								"value": "Unit: FIT1053",
+								"cl_id": "e7984a2bdbc359502bdd077cd396199d",
+								"key": "code",
+								"type": "x_f5sl_cl_subjects"
+							},
+							"parent_record": {
+								"value": "Container 1",
+								"cl_id": "5c7ee365dbf8f1502bdd077cd396190d",
+								"key": "title"
+							},
+							"order": "12",
+							"cl_id": "e7984a2bdbc359502bdd077cd396199d",
+							"academic_item_type": {
+								"label": "Unit",
+								"value": "subject"
+							},
+							"abbr_name": "INTRO PROGRAMMING ADV",
+							"academic_item_version_name": "2023.03",
+							"academic_item_credit_points": "6",
+							"abbreviated_name_and_major": null,
+							"academic_item_name": "Introduction to programming: Advanced",
+							"academic_item_code": "FIT1053",
+							"academic_item_url": "/2023/units/FIT1053"
+						}
+					]
+				}
+			]
+		}
+	],
+	"unit_offering": [
+		{
+			"fees_domestic": "",
+			"publish": "true",
+			"location": {
+				"value": "Malaysia",
+				"cl_id": "7bf321e1db30a7406add773c3496192f",
+				"key": "name"
+			},
+			"name": "FIT2107-S2-01-ON-CAMPUS-MALAYSIA",
+			"clarification_to_appear_in_handbook": "",
+			"display_name": "S2-01-MALAYSIA-ON-CAMPUS",
+			"teaching_period": {
+				"value": "Second semester",
+				"cl_id": "85a429a1db30a7406add773c3496190d",
+				"key": "name"
+			},
+			"attendance_mode": {
+				"value": "On-campus",
+				"cl_id": "7bf2311bdb68a3406add773c349619bb",
+				"key": "description"
+			},
+			"quota_number": "",
+			"study_level": {
+				"label": null,
+				"value": null
+			},
+			"offered": "true",
+			"self_enrol": "true",
+			"academic_item": {
+				"value": "FIT2107",
+				"cl_id": "c07e6f2ddbfc7d10101196cbd396195d",
+				"key": "code"
+			},
+			"fees_commonwealth": "",
+			"fees_international": "",
+			"course_restrictions": "",
+			"cl_id": "807e6f2ddbfc7d10101196cbd3961962"
+		},
+		{
+			"fees_domestic": "",
+			"publish": "true",
+			"location": {
+				"value": "Clayton",
+				"cl_id": "37f321e1db30a7406add773c3496192e",
+				"key": "name"
+			},
+			"name": "FIT2107-S2-01-ON-CAMPUS-CLAYTON",
+			"clarification_to_appear_in_handbook": "",
+			"display_name": "S2-01-CLAYTON-ON-CAMPUS",
+			"teaching_period": {
+				"value": "Second semester",
+				"cl_id": "85a429a1db30a7406add773c3496190d",
+				"key": "name"
+			},
+			"attendance_mode": {
+				"value": "On-campus",
+				"cl_id": "7bf2311bdb68a3406add773c349619bb",
+				"key": "description"
+			},
+			"quota_number": "",
+			"study_level": {
+				"label": null,
+				"value": null
+			},
+			"offered": "true",
+			"self_enrol": "true",
+			"academic_item": {
+				"value": "FIT2107",
+				"cl_id": "c07e6f2ddbfc7d10101196cbd396195d",
+				"key": "code"
+			},
+			"fees_commonwealth": "",
+			"fees_international": "",
+			"course_restrictions": "",
+			"cl_id": "847e6f2ddbfc7d10101196cbd3961961"
+		}
+	],
+	"enrolment_rules_group": [],
+	"learning_resources_grouped": [],
+	"study_abroad_unit": "Yes",
+	"academic_item_type": "Unit",
+	"learning_activities_grouped": [
+		{
+			"activity_type": "Seminars",
+			"activities": [
+				{
+					"subject": {
+						"value": "FIT2107",
+						"cl_id": "c07e6f2ddbfc7d10101196cbd396195d",
+						"key": "code"
+					},
+					"cl_id": "047e6f2ddbfc7d10101196cbd39619bf",
+					"order": "0",
+					"description": "",
+					"activity_type": {
+						"label": "Seminars",
+						"value": "seminar"
+					},
+					"duration_display": "12 hours",
+					"offerings_formatted_teaching_activities": "<ul><li>Applies to all offerings</li></ul>",
+					"links": []
+				}
+			]
+		},
+		{
+			"activity_type": "Studio activities",
+			"activities": [
+				{
+					"subject": {
+						"value": "FIT2107",
+						"cl_id": "c07e6f2ddbfc7d10101196cbd396195d",
+						"key": "code"
+					},
+					"cl_id": "8c7e6f2ddbfc7d10101196cbd39619be",
+					"order": "2",
+					"description": "",
+					"activity_type": {
+						"label": "Studio activities",
+						"value": "studio"
+					},
+					"duration_display": "24 hours",
+					"offerings_formatted_teaching_activities": "<ul><li>Applies to all offerings</li></ul>",
+					"links": []
+				}
+			]
+		}
+	],
+	"search_title": "FIT2107 - Software quality and testing",
+	"unit_search_title": "FIT2107 - Software quality and testing",
+	"teaching_approaches": [
+		{
+			"type": {
+				"label": "Active learning",
+				"value": "active_learning"
+			},
+			"academic_item": {
+				"value": "FIT2107",
+				"cl_id": "c07e6f2ddbfc7d10101196cbd396195d",
+				"key": "code"
+			},
+			"cl_id": "807e6f2ddbfc7d10101196cbd39619bd",
+			"description": "<p>&nbsp;</p>",
+			"links": []
+		}
+	],
+	"handbook_statement": null,
+	"academic_contact_roles": [
+		{
+			"role": "Chief Examiner(s)",
+			"contacts": [
+				{
+					"active": "true",
+					"contact_department": "",
+					"start_date": "",
+					"offering": {
+						"value": "",
+						"cl_id": null,
+						"key": "display_name"
+					},
+					"contact_role": {
+						"label": "Chief Examiner",
+						"value": "chief_examiner"
+					},
+					"contact_name": "Chakkrit Tantithamthavorn",
+					"role_detail": "",
+					"contact_organisation": "",
+					"contact_title": "Dr",
+					"order": "1",
+					"contact_phone": "",
+					"end_date": "",
+					"location": {
+						"value": "",
+						"cl_id": null,
+						"key": "name"
+					},
+					"contact_email": "Chakkrit.Tantithamthavorn@monash.edu",
+					"contact_url": "",
+					"user": {
+						"value": "Chakkrit Tantithamthavorn",
+						"cl_id": "24d1cbdcdb78b300580f42a01496193c",
+						"key": ""
+					},
+					"offerings": [],
+					"applies_to_all_offerings": "true",
+					"linking_id": "e9820dfd1b5240d013b555b81d4bcb3e",
+					"cl_id": "407e6f2ddbfc7d10101196cbd3961964",
+					"display_details": "Chakkrit.Tantithamthavorn@monash.edu",
+					"display_name": "Dr Chakkrit Tantithamthavorn ",
+					"offerings_formatted_contact": "<ul><li>Applies to all offerings</ul></li>",
+					"display_role_plural": "Chief Examiner(s)",
+					"links": []
+				}
+			]
+		},
+		{
+			"role": "Unit Coordinator(s)",
+			"contacts": [
+				{
+					"active": "true",
+					"contact_department": "",
+					"start_date": "",
+					"offering": {
+						"value": "",
+						"cl_id": null,
+						"key": "display_name"
+					},
+					"contact_role": {
+						"label": "Unit Coordinator",
+						"value": "unit_coordinator"
+					},
+					"contact_name": "Chakkrit Tantithamthavorn",
+					"role_detail": "",
+					"contact_organisation": "",
+					"contact_title": "Dr",
+					"order": "2",
+					"contact_phone": "",
+					"end_date": "",
+					"location": {
+						"value": "",
+						"cl_id": null,
+						"key": "name"
+					},
+					"contact_email": "Chakkrit.Tantithamthavorn@monash.edu",
+					"contact_url": "",
+					"user": {
+						"value": "Chakkrit Tantithamthavorn",
+						"cl_id": "24d1cbdcdb78b300580f42a01496193c",
+						"key": ""
+					},
+					"offerings": [
+						{
+							"value": "S2-01-CLAYTON-ON-CAMPUS",
+							"cl_id": "847e6f2ddbfc7d10101196cbd3961961",
+							"key": "display_name"
+						}
+					],
+					"applies_to_all_offerings": "false",
+					"linking_id": "0c5ac0271b9f6d50f1eca68b274bcbd4",
+					"cl_id": "c47e6f2ddbfc7d10101196cbd3961962",
+					"display_details": "Chakkrit.Tantithamthavorn@monash.edu",
+					"display_name": "Dr Chakkrit Tantithamthavorn ",
+					"offerings_formatted_contact": "<ul><li>Second semester, Clayton, On-campus</li></ul>",
+					"display_role_plural": "Unit Coordinator(s)",
+					"links": []
+				},
+				{
+					"active": "true",
+					"contact_department": "",
+					"start_date": "",
+					"offering": {
+						"value": "",
+						"cl_id": null,
+						"key": "display_name"
+					},
+					"contact_role": {
+						"label": "Unit Coordinator",
+						"value": "unit_coordinator"
+					},
+					"contact_name": "Lillian Wang",
+					"role_detail": "(Malaysia)",
+					"contact_organisation": "",
+					"contact_title": "Dr",
+					"order": "0",
+					"contact_phone": "",
+					"end_date": "",
+					"location": {
+						"value": "",
+						"cl_id": null,
+						"key": "name"
+					},
+					"contact_email": "lillian.wang@monash.edu",
+					"contact_url": "",
+					"user": {
+						"value": "Lillian Wang",
+						"cl_id": "300f8200db6ed090ffb02c53059619c4",
+						"key": ""
+					},
+					"offerings": [
+						{
+							"value": "S2-01-MALAYSIA-ON-CAMPUS",
+							"cl_id": "807e6f2ddbfc7d10101196cbd3961962",
+							"key": "display_name"
+						}
+					],
+					"applies_to_all_offerings": "false",
+					"linking_id": "0d9fedf9db6b5090a786cd043a9619aa",
+					"cl_id": "c87e6f2ddbfc7d10101196cbd3961963",
+					"display_details": "lillian.wang@monash.edu",
+					"display_name": "Dr Lillian Wang ",
+					"offerings_formatted_contact": "<ul><li>Second semester, Malaysia, On-campus</li></ul>",
+					"display_role_plural": "Unit Coordinator(s)",
+					"links": []
+				}
+			]
+		}
+	],
+	"links": [],
+	"yearSwitcher": [
+		{
+			"label": "2020",
+			"value": "2020",
+			"href": "/2020/units/FIT2107?year=2020"
+		},
+		{
+			"label": "2021",
+			"value": "2021",
+			"href": "/2021/units/FIT2107?year=2021"
+		},
+		{
+			"label": "2022",
+			"value": "2022",
+			"href": "/2022/units/FIT2107?year=2022"
+		},
+		{
+			"label": "2023",
+			"value": "2023",
+			"href": "/2023/units/FIT2107?year=2023"
+		}
+	],
+	"university": "Monash University"
+}

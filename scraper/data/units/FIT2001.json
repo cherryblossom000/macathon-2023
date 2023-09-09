@@ -5,6 +5,9 @@
 		"First semester",
 		"Second semester"
 	],
+	"enrolmentRules": [
+		"<p>Prerequisite: 24 points of FIT units</p>"
+	],
 	"requisites": [
 		{
 			"type": "prohibitions",
@@ -20,5 +23,9 @@
 				]
 			}
 		}
-	]
+	],
+	"creditPointPrerequisite": {
+		"points": 24,
+		"fitOnly": true
+	}
 }

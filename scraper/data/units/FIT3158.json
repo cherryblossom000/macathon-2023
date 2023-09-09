@@ -1,8 +1,9 @@
 {
 	"code": "FIT3158",
 	"title": "Business decision modelling",
-	"offerings": [
-		"Second semester"
+	"offerings": ["Second semester"],
+	"enrolmentRules": [
+		"<p>Prerequisite: And completion of 24 points at Level 1 from FIT or BusEco</p>"
 	],
 	"requisites": [
 		{
@@ -12,13 +13,7 @@
 				"items": [
 					{
 						"operator": "OR",
-						"items": [
-							"ETS1102",
-							"FIT1006",
-							"STA1010",
-							"ETF1100",
-							"ETC1000"
-						]
+						"items": ["ETS1102", "FIT1006", "STA1010", "ETF1100", "ETC1000"]
 					}
 				]
 			}
@@ -30,13 +25,15 @@
 				"items": [
 					{
 						"operator": "OR",
-						"items": [
-							"ETF2480",
-							"FZA3158"
-						]
+						"items": ["ETF2480", "FZA3158"]
 					}
 				]
 			}
 		}
-	]
+	],
+	"creditPointPrerequisite": {
+		"points": 24,
+		"fitOnly": true,
+		"levelOnly": 1
+	}
 }

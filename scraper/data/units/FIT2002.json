@@ -4,6 +4,9 @@
 	"offerings": [
 		"Second semester"
 	],
+	"enrolmentRules": [
+		"<p>Prerequisite: As well as completion of at least 36 credit points of study.</p>"
+	],
 	"requisites": [
 		{
 			"type": "prerequisite",
@@ -38,5 +41,9 @@
 				]
 			}
 		}
-	]
+	],
+	"creditPointPrerequisite": {
+		"points": 36,
+		"fitOnly": false
+	}
 }
