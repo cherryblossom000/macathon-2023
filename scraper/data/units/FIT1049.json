@@ -8,5 +8,9 @@
 	"enrolmentRules": [
 		"<p>Prerequisite: Completion of 12 credit points of FIT units.</p>"
 	],
-	"requisites": []
+	"requisites": [],
+	"creditPointPrerequisite": {
+		"points": 12,
+		"fitOnly": true
+	}
 }

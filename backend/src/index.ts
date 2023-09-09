@@ -1,6 +1,8 @@
 import bodyParser from 'body-parser'
 import express from 'express'
+import * as A from 'fp-ts/lib/Array.js'
 import * as E from 'fp-ts/lib/Either.js'
+import * as O from 'fp-ts/lib/Option.js'
 import {pipe} from 'fp-ts/lib/function.js'
 import * as t from 'io-ts'
 import {
@@ -14,6 +16,7 @@ import {
 	type GetSpecialisationResponse,
 } from 'shared/dist/api.js'
 import * as data from './data.js'
+import {construct_schedules} from './schedule.js'
 
 const app = express()
 
@@ -33,7 +36,6 @@ const handler =
 		Record<string, unknown>
 	> =>
 	(req, res) => {
-		console.log(req[prop])
 		pipe(
 			type.decode(req[prop]),
 			E.fold(
@@ -57,8 +59,10 @@ app.get(
 		HandbookThingRequest,
 		'query',
 		({code}): HandlerResult<GetCourseResponse> => {
-			const x = data.courses.find(c => c.code === code)
-			return x ? E.right(x) : E.left({code: 404, data: 'course not found'})
+			const course = data.courses.find(c => c.code === code)
+			return course
+				? E.right(course)
+				: E.left({code: 404, data: 'course not found'})
 		},
 	),
 )
@@ -68,8 +72,10 @@ app.get(
 		HandbookThingRequest,
 		'query',
 		({code}): HandlerResult<GetSpecialisationResponse> => {
-			const x = data.specialisations.find(c => c.code === code)
-			return x ? E.right(x) : E.left({code: 404, data: 'course not found'})
+			const specialisation = data.specialisations.find(c => c.code === code)
+			return specialisation
+				? E.right(specialisation)
+				: E.left({code: 404, data: 'specialisation not found'})
 		},
 	),
 )
@@ -80,9 +86,7 @@ app.get(
 		'query',
 		({code}): HandlerResult<GetUnitResponse> => {
 			const unit = data.units.find(c => c.code === code)
-			return unit
-				? E.right(unit)
-				: E.left({code: 404, data: 'course not found'})
+			return unit ? E.right(unit) : E.left({code: 404, data: 'unit not found'})
 		},
 	),
 )
@@ -92,8 +96,34 @@ app.post(
 	handler(
 		CreateScheduleRequest,
 		'body',
-		({courseCode, unitCodes}): HandlerResult<CreateScheduleResponse> => {
-			throw 0
+		(params): HandlerResult<CreateScheduleResponse> => {
+			return pipe(
+				params.wanted_electives,
+				A.traverse(E.getApplicativeValidation(A.getSemigroup<string>()))(u =>
+					pipe(
+						data.unitsMap.get(u),
+						O.fromNullable,
+						E.fromOption(() => [u]),
+					),
+				),
+				E.fold(
+					us => E.left({code: 400, data: `invalid units: ${us.join(', ')}`}),
+					us =>
+						pipe(
+							construct_schedules({
+								...params,
+								wanted_electives: us,
+							}),
+							E.mapLeft(data => ({code: 500, data: data})),
+							E.map(s => ({
+								years: s[0]!.years.map(y => ({
+									sem1_units: y.sem1_units.map(u => u.code),
+									sem2_units: y.sem2_units.map(u => u.code),
+								})),
+							})),
+						),
+				),
+			)
 		},
 	),
 )
@@ -103,7 +133,7 @@ app.post(
 	handler(
 		ShuffleScheduleRequest,
 		'body',
-		(plan): HandlerResult<ShuffleScheduleResponse> => {
+		(schedule): HandlerResult<ShuffleScheduleResponse> => {
 			throw 0
 		},
 	),

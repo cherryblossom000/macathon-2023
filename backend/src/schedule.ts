@@ -14,9 +14,13 @@ import type {
 	Unit,
 	UnitCode,
 	UnitRequirement,
-	ScheduleParameters,
 	Requisite,
+	ScheduleParameters as _ScheduleParameters,
 } from 'shared'
+
+type ScheduleParameters = Omit<_ScheduleParameters, 'wanted_electives'> & {
+	wanted_electives: Unit[]
+}
 
 type Year = {
 	sem1_units: Unit[]
