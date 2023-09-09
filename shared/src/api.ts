@@ -1,4 +1,5 @@
 import * as t from 'io-ts'
+import {ScheduleParameters} from './schedule.js'
 import type {Course, Specialisation, Unit} from './data.js'
 
 /** array of unit codes */
@@ -27,11 +28,8 @@ export type Response<T> =
 			data: t.Errors | string
 	  }
 
-export const CreateScheduleRequest = t.type({
-	courseCode: t.string,
-	unitCodes: t.array(t.string),
-})
-export type CreateScheduleRequest = t.TypeOf<typeof CreateScheduleRequest>
+export const CreateScheduleRequest = ScheduleParameters
+export type CreateScheduleRequest = ScheduleParameters
 export type CreateScheduleResponse = Schedule
 
 export const ShuffleScheduleRequest = Schedule
