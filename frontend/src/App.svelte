@@ -1,49 +1,26 @@
 <script lang="ts">
-	import svelteLogo from './assets/svelte.svg'
-	import viteLogo from '/vite.svg'
-	import Counter from './lib/Counter.svelte'
+	import UnitTable from './components/UnitTable.svelte'
+	import Nav from './components/Nav.svelte'
+	import InitForm from './components/FormSection.svelte'
+	import {C2001} from './scripts/course2'
+
+	import {appState} from './scripts/index'
+	import {get} from 'svelte/store'
+
+	const toElectives = () => {
+		if (get(appState).formUnits.length == 16)
+			appState.update(s => ({...s, stage: 'Table'}))
+	}
 </script>
 
-<main>
-	<div>
-		<a href="https://vitejs.dev" target="_blank" rel="noreferrer">
-			<img src={viteLogo} class="logo" alt="Vite Logo" />
-		</a>
-		<a href="https://svelte.dev" target="_blank" rel="noreferrer">
-			<img src={svelteLogo} class="logo svelte" alt="Svelte Logo" />
-		</a>
-	</div>
-	<h1>Vite + Svelte</h1>
-
-	<div class="card">
-		<Counter />
+<main class="w-full max-w-screen-md flex flex-col">
+	<Nav />
+	<div class={$appState.stage === `Table` ? '' : 'hidden'}>
+		<UnitTable />
 	</div>
 
-	<p>
-		Check out <a
-			href="https://github.com/sveltejs/kit#readme"
-			target="_blank"
-			rel="noreferrer">SvelteKit</a
-		>, the official Svelte app framework powered by Vite!
-	</p>
-
-	<p class="read-the-docs">Click on the Vite and Svelte logos to learn more</p>
+	<div class={$appState.stage === `Init` ? '' : 'hidden'}>
+		<InitForm cur={C2001.requirement} />
+		<button on:click={toElectives}> Done! </button>
+	</div>
 </main>
-
-<style>
-	.logo {
-		height: 6em;
-		padding: 1.5em;
-		will-change: filter;
-		transition: filter 300ms;
-	}
-	.logo:hover {
-		filter: drop-shadow(0 0 2em #646cffaa);
-	}
-	.logo.svelte:hover {
-		filter: drop-shadow(0 0 2em #ff3e00aa);
-	}
-	.read-the-docs {
-		color: #888;
-	}
-</style>
