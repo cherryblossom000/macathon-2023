@@ -22,7 +22,6 @@ pipe(
 		f => {},
 		s => {
 			for (let sc of s) {
-				// JSON.stringify(get_all_units(sc).map(a => a.code))
 			}
 		},
 	),

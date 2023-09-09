@@ -1,8 +1,8 @@
 {
+	"include": ["src/**/*.ts", "api/**/*.ts"],
 	"extends": "../tsconfig.settings.json",
 	"compilerOptions": {
-		"rootDir": "src",
-		"outDir": "dist",
+//		"noEmit": true,
 		"module": "Node16",
 		"moduleResolution": "Node16"
 	},

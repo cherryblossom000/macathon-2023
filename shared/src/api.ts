@@ -13,9 +13,9 @@ export type Response<T> =
 			data: t.Errors | string
 	  }
 
-export const CreateScheduleRequest = ScheduleParameters
-export type CreateScheduleRequest = ScheduleParameters
-export type CreateScheduleResponse = Schedule
+export const CreateSchedulesRequest = ScheduleParameters
+export type CreateSchedulesRequest = ScheduleParameters
+export type CreateSchedulesResponse = Schedule[]
 
 export const ShuffleScheduleRequest = Schedule
 export type ShuffleScheduleRequest = Schedule

@@ -3,3 +3,4 @@ dist/
 *.tsbuildinfo
 .eslintcache
 pnpm-debug.log
+.vercel/

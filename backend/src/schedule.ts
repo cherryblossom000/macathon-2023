@@ -112,11 +112,6 @@ export let can_add = (
   before: Unit[],
 	sem: TeachingPeriod,
 ): boolean => {
-  if (unit.code == "FIT3165" && get_all_units(current).length==0) {
-    console.log("YES")
-    console.log(unit.requisites)
-    console.log(before)
-  }
 	if (unit.requisites.length == 0) {
 		return (
 			unit.offerings.includes(sem) &&
@@ -131,9 +126,6 @@ export let can_add = (
 		A.map(req => {
 			if (req.type == 'prerequisite') {
 				let s = can_add_prereq_helper(current, before, req.requirement)
-        if (unit.code == "FIT3165") {
-          console.log("YES",s,before)
-        }
         return s;
 			}
 			return can_add_prohib_helper(current, req.requirement)
@@ -250,7 +242,7 @@ let toposort = (course: Course): Unit[] => {
 export let construct_schedules = (
 	params: ScheduleParameters,
 ): E.Either<string, Schedule[]> => {
-	let schedules = []
+	let schedules: Schedule[] = []
 
 	while (schedules.length < 200) {
 		// step 1: toposort important units
@@ -307,7 +299,6 @@ export let construct_schedules = (
 				}
 			}
 			if (!unit.offerings.includes(sem)) {
-				// console.log('Failed', unit.code, ' in ', sem)
 				good = false
 				break
 			}
@@ -336,7 +327,6 @@ export let construct_schedules = (
         let possible = [];
         for (let unit of shuffled_units) {
           if (can_add(sched, unit, before, i%8<4?"First semester":"Second semester") && (typeof unit.creditPointPrerequisite == "undefined" || unit.creditPointPrerequisite!.points < cred_before)) {
-            // console.log(JSON.stringify(get_all_units(sched).map(x=>x.code)), unit.code)
             possible.push(unit);
           }
         }
@@ -364,21 +354,32 @@ export let construct_schedules = (
 
     let without_nulls = sorted.filter(x => x!=undefined) as Unit[];
 
-		if (good) {
-			schedules.push(without_nulls)
 
-			console.log(
-				sorted.map(u => {
-					if (typeof u == 'undefined') {
-						return '_'
-					} else {
-						return u.code + ' '
-					}
-				}),
-			)
+    let to_schedule = (x: Unit[]): Schedule => {
+      let a = {years: Array.from({length: 3}, () => {return {sem1_units: [], sem2_units: []} as Year;})}
+
+      for (let i = 0; i < x.length; i++) {
+        if (i%8<4) {
+          a.years[Math.floor(i/8)]!.sem1_units[i%4] = x[i]!;
+        } else {
+          a.years[Math.floor(i/8)]!.sem2_units[i%4] = x[i]!;
+        }
+      }
+      return a;
+    }
+
+
+		if (good) {
+			schedules.push(to_schedule(without_nulls))
 		}
 		// step 4: profit??
 	}
 
-	return E.left('kill me')
+  return E.right(schedules)
+	// let all = pipe(
+	// 	construct_helper(empty, params, all_units),
+	// 	E.fromOption(() => 'Could not construct schedule with parameters'),
+	// )
+
+	// return E.flatMap((x: Schedule[]) => E.right(x[0]!))(all)
 }
