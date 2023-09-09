@@ -3,6 +3,7 @@
 	"title": "Bachelor of Computer Science",
 	"abbreviatedName": "BCompSci",
 	"requirement": {
+		"title": "Bachelor of Computer Science",
 		"requirement": {
 			"operator": "AND",
 			"items": [
