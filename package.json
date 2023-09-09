@@ -24,7 +24,6 @@
 		"typescript": "~5.2.2"
 	},
 	"dependencies": {
-		"fp-ts": "^2.16.1",
-		"fs": "0.0.1-security"
+		"fp-ts": "^2.16.1"
 	}
 }

@@ -69,9 +69,9 @@ export interface Specialisation extends HandbookThing {
 	requirement: UnitRequirement
 }
 
-export interface ScheduleParameters {
+export type ScheduleParameters = {
 	num_years: 3 | 4 | 5
 	should_overload: boolean
-	course: Course
+	course: 'C2001'
 	wanted_electives: Unit[]
 }
