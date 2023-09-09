@@ -1,0 +1,1076 @@
+{
+	"contentTypeLabel": "Unit",
+	"published_in_handbook": {
+		"label": "Yes",
+		"value": "1"
+	},
+	"implementation_year": "2023",
+	"duration_ft_max": "",
+	"asced_detailed": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"grading_schema": {
+		"label": null,
+		"value": null
+	},
+	"study_level": [],
+	"quota_enrolment_requirements": "",
+	"status": {
+		"label": "Accredited",
+		"value": "Active"
+	},
+	"duration_pt_max": "",
+	"duration_pt_std": "",
+	"credit_points": "6",
+	"parent_id": {
+		"value": "Master Record: FIT3162",
+		"cl_id": "8cb4a650dbf4b300580f42a014961944",
+		"key": "code",
+		"type": "x_f5sl_cl_master_record"
+	},
+	"start_date": "",
+	"exclusions": "",
+	"unit_code": "FIT3162",
+	"academic_org": {
+		"value": "Faculty of Information Technology",
+		"cl_id": "c5684a53dba8a3406add773c349619a1",
+		"key": "name"
+	},
+	"sms_version": "",
+	"level": {
+		"label": "Level 3",
+		"value": "4"
+	},
+	"uac_code": "",
+	"special_requirements": "",
+	"duration_pt_min": "",
+	"special_unit_type": [],
+	"title": "Computer science project 2",
+	"duration_ft_std": "",
+	"version": "8",
+	"learning_experiences": null,
+	"duration_ft_min": "",
+	"callista_version": "",
+	"duration_ft_period": {
+		"label": null,
+		"value": null
+	},
+	"asced_narrow": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"subclass": {
+		"label": "Unit",
+		"value": "subject"
+	},
+	"type": {
+		"label": "Coursework",
+		"value": "600"
+	},
+	"quota_rationale": "",
+	"version_name": "2023.08",
+	"timetable_this_unit": "true",
+	"work_integrated_learning": [
+		{
+			"value": "None",
+			"cl_id": "8ef5d77bdb122300e5cf3391f496191d",
+			"key": "label"
+		}
+	],
+	"cl_id": "eee91cc4dba0f990101196cbd39619ce",
+	"school": {
+		"value": "Faculty of Information Technology",
+		"cl_id": "c5684a53dba8a3406add773c349619a1",
+		"key": "name"
+	},
+	"content": null,
+	"learning_and_teaching_resources": null,
+	"collaborating_disciplines": [],
+	"repeatable": "false",
+	"overview": "",
+	"end_date": "",
+	"duration_pt_period": {
+		"label": null,
+		"value": null
+	},
+	"sms_status": {
+		"label": null,
+		"value": null
+	},
+	"learning_materials": null,
+	"special_topic": "false",
+	"asced_broad": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"publish_tuition_fees": "true",
+	"placement_proportion": {
+		"label": null,
+		"value": null
+	},
+	"code": "FIT3162",
+	"other_unit_costs": "",
+	"eftsl": {
+		"label": "0.125",
+		"value": "0.125"
+	},
+	"contact_information": "",
+	"highest_sca_band": {
+		"label": "SCA Band 2",
+		"value": "2"
+	},
+	"lo_additional_information": "<p>On successful completion of this unit, you should be able to:</p>",
+	"handbook_assessment_summary": "<p>Supplementary assessment is not available for this unit. Check the <a href=\"https://www.monash.edu/students/admin/exams/changes/supplementary\">supplementary assessments</a> page for details about exemptions.</p>",
+	"quota_information": "",
+	"attendance_requirements": "",
+	"workload_requirements": "<p>Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled teaching activities.</p>",
+	"organisational_contact_information": "",
+	"handbook_synopsis": "<p>This unit provides practical experience in researching, designing, developing and testing a non-trivial computer science project. Projects are generally software-based, although sometimes they may involve hardware development or investigation of theory. Projects cover the whole process of software (or hardware) development, from analysis through design to implementation and testing. Comprehensive written documentation on the project is required. Students are assigned in groups to a project supervisor. There are no lectures in this unit, although you will be expected to attend regular meetings with your project supervisor.</p>\n<p>The unit is the second part of a 12-credit point project sequence; the first part and entry point for the project is FIT3161.</p>",
+	"special_note_to_students": "",
+	"undergrad_postgrad_both": {
+		"label": "Undergraduate",
+		"value": "undergraduate"
+	},
+	"area_of_study_links": "",
+	"fieldwork": "",
+	"unit_learning_outcomes": [
+		{
+			"lo_domain": [],
+			"order": "2",
+			"number": "2",
+			"code": "ULO2",
+			"lo_cl_id": "2ae95cc4dba0f990101196cbd3961921",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "f8faf0ecdbf4b3003a731c0e04961999",
+			"academic_item": {
+				"value": "FIT3162",
+				"cl_id": "eee91cc4dba0f990101196cbd39619ce",
+				"key": "code"
+			},
+			"description": "<p>Search, access, and analyse research literature as part of the process of developing solutions to problems;</p>",
+			"cl_id": "2ae95cc4dba0f990101196cbd3961921",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "1",
+			"number": "1",
+			"code": "ULO1",
+			"lo_cl_id": "2ae95cc4dba0f990101196cbd3961922",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "4c5a3c6cdbf4b3003a731c0e049619de",
+			"academic_item": {
+				"value": "FIT3162",
+				"cl_id": "eee91cc4dba0f990101196cbd39619ce",
+				"key": "code"
+			},
+			"description": "<p>Evaluate and select research methods and techniques of data collection and analysis appropriate to a particular project;</p>",
+			"cl_id": "2ae95cc4dba0f990101196cbd3961922",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "5",
+			"number": "5",
+			"code": "ULO5",
+			"lo_cl_id": "66e95cc4dba0f990101196cbd3961922",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "37abbc20db38b3003a731c0e049619b7",
+			"academic_item": {
+				"value": "FIT3162",
+				"cl_id": "eee91cc4dba0f990101196cbd39619ce",
+				"key": "code"
+			},
+			"description": "<p>Explain and reflect upon the purpose, operation, success and value of the developed project in writing and orally;</p>",
+			"cl_id": "66e95cc4dba0f990101196cbd3961922",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "3",
+			"number": "3",
+			"code": "ULO3",
+			"lo_cl_id": "a2e95cc4dba0f990101196cbd3961922",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "3c4bfcecdbf4b3003a731c0e0496192d",
+			"academic_item": {
+				"value": "FIT3162",
+				"cl_id": "eee91cc4dba0f990101196cbd39619ce",
+				"key": "code"
+			},
+			"description": "<p>Work effectively in collaborative teams;</p>",
+			"cl_id": "a2e95cc4dba0f990101196cbd3961922",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "6",
+			"number": "6",
+			"code": "ULO6",
+			"lo_cl_id": "eae95cc4dba0f990101196cbd3961922",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "26db7460db38b3003a731c0e04961901",
+			"academic_item": {
+				"value": "FIT3162",
+				"cl_id": "eee91cc4dba0f990101196cbd39619ce",
+				"key": "code"
+			},
+			"description": "<p>Write a report explaining methodology, outlining their contributions and the contributions of others, and documenting the developed project from appropriate perspectives, for instance that of a user, researcher or developer.</p>",
+			"cl_id": "eae95cc4dba0f990101196cbd3961922",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "4",
+			"number": "4",
+			"code": "ULO4",
+			"lo_cl_id": "eee95cc4dba0f990101196cbd3961921",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "ba8b7820db38b3003a731c0e04961998",
+			"academic_item": {
+				"value": "FIT3162",
+				"cl_id": "eee91cc4dba0f990101196cbd39619ce",
+				"key": "code"
+			},
+			"description": "<p>Develop and test a substantial piece of software or hardware;</p>",
+			"cl_id": "eee95cc4dba0f990101196cbd3961921",
+			"ga_map": []
+		}
+	],
+	"school_org_unit_data": [
+		{
+			"parent": {
+				"value": "",
+				"cl_id": null,
+				"key": "name"
+			},
+			"url": "https://www.monash.edu/it",
+			"name": "Faculty of Information Technology",
+			"cl_id": "c5684a53dba8a3406add773c349619a1"
+		}
+	],
+	"assessments": [
+		{
+			"subject": {
+				"value": "FIT3162",
+				"cl_id": "eee91cc4dba0f990101196cbd39619ce",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "1",
+			"weight": "5",
+			"cl_id": "32e95cc4dba0f990101196cbd3961974",
+			"assessment_name": "Reflections",
+			"description": null,
+			"assessment_type": {
+				"label": "Other",
+				"value": "other"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT3162",
+				"cl_id": "eee91cc4dba0f990101196cbd39619ce",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "3",
+			"weight": "10",
+			"cl_id": "3ee95cc4dba0f990101196cbd3961974",
+			"assessment_name": "Final Presentation",
+			"description": null,
+			"assessment_type": {
+				"label": "Presentation",
+				"value": "presentation"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT3162",
+				"cl_id": "eee91cc4dba0f990101196cbd39619ce",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "4",
+			"weight": "25",
+			"cl_id": "7ae95cc4dba0f990101196cbd3961974",
+			"assessment_name": "Software Deliverables (Code Demonstration, User Guides, Test Report)",
+			"description": null,
+			"assessment_type": {
+				"label": "Project",
+				"value": "project"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT3162",
+				"cl_id": "eee91cc4dba0f990101196cbd39619ce",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "5",
+			"weight": "35",
+			"cl_id": "7ee95cc4dba0f990101196cbd3961973",
+			"assessment_name": "Final Report",
+			"description": null,
+			"assessment_type": {
+				"label": "Report",
+				"value": "report"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT3162",
+				"cl_id": "eee91cc4dba0f990101196cbd39619ce",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "7",
+			"weight": "5",
+			"cl_id": "b6e95cc4dba0f990101196cbd3961973",
+			"assessment_name": "Weekly Progress Updates",
+			"description": null,
+			"assessment_type": {
+				"label": "Other",
+				"value": "other"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT3162",
+				"cl_id": "eee91cc4dba0f990101196cbd39619ce",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "2",
+			"weight": "5",
+			"cl_id": "b6e95cc4dba0f990101196cbd3961974",
+			"assessment_name": "Interim Presentation",
+			"description": null,
+			"assessment_type": {
+				"label": "Presentation",
+				"value": "presentation"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT3162",
+				"cl_id": "eee91cc4dba0f990101196cbd39619ce",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "8",
+			"weight": "10",
+			"cl_id": "f2e95cc4dba0f990101196cbd3961974",
+			"assessment_name": "Project Management Report",
+			"description": null,
+			"assessment_type": {
+				"label": "Other",
+				"value": "other"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT3162",
+				"cl_id": "eee91cc4dba0f990101196cbd39619ce",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "6",
+			"weight": "5",
+			"cl_id": "fee95cc4dba0f990101196cbd3961974",
+			"assessment_name": "Team Management",
+			"description": null,
+			"assessment_type": {
+				"label": "Other",
+				"value": "other"
+			},
+			"offerings_formatted": ""
+		}
+	],
+	"enrolment_rules": [],
+	"requisites": [
+		{
+			"academic_item_code": "FIT3162",
+			"active": "true",
+			"requisite_cl_id": "22e95cc4dba0f990101196cbd396191d",
+			"description": "",
+			"requisite_type": {
+				"label": "Prerequisite",
+				"value": "prerequisite"
+			},
+			"cl_id": {
+				"value": "FIT3162",
+				"cl_id": "eee91cc4dba0f990101196cbd39619ce",
+				"key": "code"
+			},
+			"academic_item_version_number": "2023.08",
+			"order": "",
+			"start_date": "",
+			"end_date": "",
+			"container": [
+				{
+					"cl_id": "b2e95cc4dba0f990101196cbd3961907",
+					"parent_container_table": "x_f5sl_cl_requisite",
+					"parent_record": {
+						"value": "Relationship Builder: FIT3162",
+						"cl_id": "22e95cc4dba0f990101196cbd396191d",
+						"key": "academic_item",
+						"type": "x_f5sl_cl_requisite"
+					},
+					"title": "Container 1",
+					"parent_connector": {
+						"label": "AND",
+						"value": "AND"
+					},
+					"containers": [],
+					"relationships": [
+						{
+							"academic_item": {
+								"value": "Unit: FIT3161",
+								"cl_id": "04b46650dbf4b300580f42a0149619f2",
+								"key": "code",
+								"type": "x_f5sl_cl_subjects"
+							},
+							"parent_record": {
+								"value": "Container 1",
+								"cl_id": "b2e95cc4dba0f990101196cbd3961907",
+								"key": "title"
+							},
+							"order": "1",
+							"cl_id": "04b46650dbf4b300580f42a0149619f2",
+							"academic_item_type": {
+								"label": "Unit",
+								"value": "subject"
+							},
+							"abbr_name": "COMP SC PROJ 1",
+							"academic_item_version_name": "2019.01",
+							"academic_item_credit_points": "6",
+							"abbreviated_name_and_major": null,
+							"academic_item_name": "Computer science project 1",
+							"academic_item_code": "FIT3161",
+							"academic_item_url": "/2019/units/FIT3161"
+						}
+					]
+				}
+			]
+		},
+		{
+			"academic_item_code": "FIT3162",
+			"active": "true",
+			"requisite_cl_id": "a6e95cc4dba0f990101196cbd396191c",
+			"description": "",
+			"requisite_type": {
+				"label": "Prohibition",
+				"value": "prohibitions"
+			},
+			"cl_id": {
+				"value": "FIT3162",
+				"cl_id": "eee91cc4dba0f990101196cbd39619ce",
+				"key": "code"
+			},
+			"academic_item_version_number": "2023.08",
+			"order": "",
+			"start_date": "",
+			"end_date": "",
+			"container": [
+				{
+					"cl_id": "36e91cc4dba0f990101196cbd39619b3",
+					"parent_container_table": "x_f5sl_cl_requisite",
+					"parent_record": {
+						"value": "Relationship Builder: FIT3162",
+						"cl_id": "a6e95cc4dba0f990101196cbd396191c",
+						"key": "academic_item",
+						"type": "x_f5sl_cl_requisite"
+					},
+					"title": "Container 1",
+					"parent_connector": {
+						"label": "AND",
+						"value": "AND"
+					},
+					"containers": [],
+					"relationships": [
+						{
+							"academic_item": {
+								"value": "Unit: FIT3144",
+								"cl_id": "5f66d13edba840101092bd16f49619de",
+								"key": "code",
+								"type": "x_f5sl_cl_subjects"
+							},
+							"parent_record": {
+								"value": "Container 1",
+								"cl_id": "36e91cc4dba0f990101196cbd39619b3",
+								"key": "title"
+							},
+							"order": "2",
+							"cl_id": "5f66d13edba840101092bd16f49619de",
+							"academic_item_type": {
+								"label": "Unit",
+								"value": "subject"
+							},
+							"abbr_name": "ADV COMP SCI RES PROJ",
+							"academic_item_version_name": "2020.01",
+							"academic_item_credit_points": "12",
+							"abbreviated_name_and_major": null,
+							"academic_item_name": "Advanced computer science research project",
+							"academic_item_code": "FIT3144",
+							"academic_item_url": "/2020/units/FIT3144"
+						}
+					]
+				}
+			]
+		}
+	],
+	"unit_offering": [
+		{
+			"fees_domestic": "",
+			"publish": "true",
+			"location": {
+				"value": "Malaysia",
+				"cl_id": "7bf321e1db30a7406add773c3496192f",
+				"key": "name"
+			},
+			"name": "FIT3162-SSA-02-ON-CAMPUS-MALAYSIA",
+			"clarification_to_appear_in_handbook": "",
+			"display_name": "SSA-02-MALAYSIA-ON-CAMPUS",
+			"teaching_period": {
+				"value": "Summer semester A",
+				"cl_id": "05a4a5e1db30a7406add773c34961957",
+				"key": "name"
+			},
+			"attendance_mode": {
+				"value": "On-campus",
+				"cl_id": "7bf2311bdb68a3406add773c349619bb",
+				"key": "description"
+			},
+			"quota_number": "",
+			"study_level": {
+				"label": null,
+				"value": null
+			},
+			"offered": "true",
+			"self_enrol": "true",
+			"academic_item": {
+				"value": "FIT3162",
+				"cl_id": "eee91cc4dba0f990101196cbd39619ce",
+				"key": "code"
+			},
+			"fees_commonwealth": "",
+			"fees_international": "",
+			"course_restrictions": "",
+			"cl_id": "a2e95cc4dba0f990101196cbd396191e"
+		},
+		{
+			"fees_domestic": "",
+			"publish": "true",
+			"location": {
+				"value": "Malaysia",
+				"cl_id": "7bf321e1db30a7406add773c3496192f",
+				"key": "name"
+			},
+			"name": "FIT3162-S2-01-ON-CAMPUS-MALAYSIA",
+			"clarification_to_appear_in_handbook": "",
+			"display_name": "S2-01-MALAYSIA-ON-CAMPUS",
+			"teaching_period": {
+				"value": "Second semester",
+				"cl_id": "85a429a1db30a7406add773c3496190d",
+				"key": "name"
+			},
+			"attendance_mode": {
+				"value": "On-campus",
+				"cl_id": "7bf2311bdb68a3406add773c349619bb",
+				"key": "description"
+			},
+			"quota_number": "",
+			"study_level": {
+				"label": null,
+				"value": null
+			},
+			"offered": "true",
+			"self_enrol": "true",
+			"academic_item": {
+				"value": "FIT3162",
+				"cl_id": "eee91cc4dba0f990101196cbd39619ce",
+				"key": "code"
+			},
+			"fees_commonwealth": "",
+			"fees_international": "",
+			"course_restrictions": "",
+			"cl_id": "aae95cc4dba0f990101196cbd396191f"
+		},
+		{
+			"fees_domestic": "",
+			"publish": "true",
+			"location": {
+				"value": "Clayton",
+				"cl_id": "37f321e1db30a7406add773c3496192e",
+				"key": "name"
+			},
+			"name": "FIT3162-S2-01-ON-CAMPUS-CLAYTON",
+			"clarification_to_appear_in_handbook": "",
+			"display_name": "S2-01-CLAYTON-ON-CAMPUS",
+			"teaching_period": {
+				"value": "Second semester",
+				"cl_id": "85a429a1db30a7406add773c3496190d",
+				"key": "name"
+			},
+			"attendance_mode": {
+				"value": "On-campus",
+				"cl_id": "7bf2311bdb68a3406add773c349619bb",
+				"key": "description"
+			},
+			"quota_number": "",
+			"study_level": {
+				"label": null,
+				"value": null
+			},
+			"offered": "true",
+			"self_enrol": "true",
+			"academic_item": {
+				"value": "FIT3162",
+				"cl_id": "eee91cc4dba0f990101196cbd39619ce",
+				"key": "code"
+			},
+			"fees_commonwealth": "",
+			"fees_international": "",
+			"course_restrictions": "",
+			"cl_id": "aee95cc4dba0f990101196cbd396191e"
+		},
+		{
+			"fees_domestic": "",
+			"publish": "true",
+			"location": {
+				"value": "Clayton",
+				"cl_id": "37f321e1db30a7406add773c3496192e",
+				"key": "name"
+			},
+			"name": "FIT3162-S1-01-ON-CAMPUS-CLAYTON",
+			"clarification_to_appear_in_handbook": "",
+			"display_name": "S1-01-CLAYTON-ON-CAMPUS",
+			"teaching_period": {
+				"value": "First semester",
+				"cl_id": "0da429a1db30a7406add773c3496190c",
+				"key": "name"
+			},
+			"attendance_mode": {
+				"value": "On-campus",
+				"cl_id": "7bf2311bdb68a3406add773c349619bb",
+				"key": "description"
+			},
+			"quota_number": "",
+			"study_level": {
+				"label": null,
+				"value": null
+			},
+			"offered": "true",
+			"self_enrol": "true",
+			"academic_item": {
+				"value": "FIT3162",
+				"cl_id": "eee91cc4dba0f990101196cbd39619ce",
+				"key": "code"
+			},
+			"fees_commonwealth": "",
+			"fees_international": "",
+			"course_restrictions": "",
+			"cl_id": "e2e95cc4dba0f990101196cbd396191f"
+		},
+		{
+			"fees_domestic": "",
+			"publish": "true",
+			"location": {
+				"value": "Malaysia",
+				"cl_id": "7bf321e1db30a7406add773c3496192f",
+				"key": "name"
+			},
+			"name": "FIT3162-S1-01-ON-CAMPUS-MALAYSIA",
+			"clarification_to_appear_in_handbook": "",
+			"display_name": "S1-01-MALAYSIA-ON-CAMPUS",
+			"teaching_period": {
+				"value": "First semester",
+				"cl_id": "0da429a1db30a7406add773c3496190c",
+				"key": "name"
+			},
+			"attendance_mode": {
+				"value": "On-campus",
+				"cl_id": "7bf2311bdb68a3406add773c349619bb",
+				"key": "description"
+			},
+			"quota_number": "",
+			"study_level": {
+				"label": null,
+				"value": null
+			},
+			"offered": "true",
+			"self_enrol": "true",
+			"academic_item": {
+				"value": "FIT3162",
+				"cl_id": "eee91cc4dba0f990101196cbd39619ce",
+				"key": "code"
+			},
+			"fees_commonwealth": "",
+			"fees_international": "",
+			"course_restrictions": "",
+			"cl_id": "e6e95cc4dba0f990101196cbd396191f"
+		}
+	],
+	"enrolment_rules_group": [],
+	"learning_resources_grouped": [
+		{
+			"type": "Technology resources",
+			"order": 2,
+			"resources": [
+				{
+					"description": "<p>Students must regularly check Moodle for announcements.</p>\n<p>Software for coding and implementation of the project are freely available / downloadable in student labs.</p>",
+					"type": {
+						"label": "Technology resources",
+						"value": "technology_resources"
+					},
+					"cl_id": "a6e95cc4dba0f990101196cbd3961924",
+					"academic_item": {
+						"value": "FIT3162",
+						"cl_id": "eee91cc4dba0f990101196cbd39619ce",
+						"key": "code"
+					},
+					"links": []
+				}
+			]
+		},
+		{
+			"type": "Recommended resources",
+			"order": 1,
+			"resources": [
+				{
+					"description": "<p>Learning resources, including project specifications and project reading material, will be provided by the lecturers on Moodle. In addition, any research papers pertaining to the project will be available from the Monash Library.</p>",
+					"type": {
+						"label": "Recommended resources",
+						"value": "recommended_resources"
+					},
+					"cl_id": "e6e95cc4dba0f990101196cbd3961923",
+					"academic_item": {
+						"value": "FIT3162",
+						"cl_id": "eee91cc4dba0f990101196cbd39619ce",
+						"key": "code"
+					},
+					"links": []
+				}
+			]
+		}
+	],
+	"study_abroad_unit": "No",
+	"academic_item_type": "Unit",
+	"learning_activities_grouped": [
+		{
+			"activity_type": "Workshops",
+			"activities": [
+				{
+					"subject": {
+						"value": "FIT3162",
+						"cl_id": "eee91cc4dba0f990101196cbd39619ce",
+						"key": "code"
+					},
+					"cl_id": "36e95cc4dba0f990101196cbd3961971",
+					"order": "2",
+					"description": "",
+					"activity_type": {
+						"label": "Workshops",
+						"value": "workshop"
+					},
+					"duration_display": "24 hours",
+					"offerings_formatted_teaching_activities": "<ul><li>First semester, Clayton, On-campus</li><li>First semester, Malaysia, On-campus</li></ul>",
+					"links": []
+				}
+			]
+		},
+		{
+			"activity_type": "Studio activities",
+			"activities": [
+				{
+					"subject": {
+						"value": "FIT3162",
+						"cl_id": "eee91cc4dba0f990101196cbd39619ce",
+						"key": "code"
+					},
+					"cl_id": "36e95cc4dba0f990101196cbd3961972",
+					"order": "1",
+					"description": "",
+					"activity_type": {
+						"label": "Studio activities",
+						"value": "studio"
+					},
+					"duration_display": "24 hours",
+					"offerings_formatted_teaching_activities": "<ul><li>Second semester, Clayton, On-campus</li><li>Second semester, Malaysia, On-campus</li><li>Summer semester A, Malaysia, On-campus</li></ul>",
+					"links": []
+				}
+			]
+		},
+		{
+			"activity_type": "Seminars",
+			"activities": [
+				{
+					"subject": {
+						"value": "FIT3162",
+						"cl_id": "eee91cc4dba0f990101196cbd39619ce",
+						"key": "code"
+					},
+					"cl_id": "b2e95cc4dba0f990101196cbd3961972",
+					"order": "0",
+					"description": "",
+					"activity_type": {
+						"label": "Seminars",
+						"value": "seminar"
+					},
+					"duration_display": "24 hours",
+					"offerings_formatted_teaching_activities": "<ul><li>Applies to all offerings</li></ul>",
+					"links": []
+				}
+			]
+		}
+	],
+	"search_title": "FIT3162 - Computer science project 2",
+	"unit_search_title": "FIT3162 - Computer science project 2",
+	"teaching_approaches": [
+		{
+			"type": {
+				"label": "Problem-based learning",
+				"value": "problem_based_learning"
+			},
+			"academic_item": {
+				"value": "FIT3162",
+				"cl_id": "eee91cc4dba0f990101196cbd39619ce",
+				"key": "code"
+			},
+			"cl_id": "eee95cc4dba0f990101196cbd3961923",
+			"description": "<p>&nbsp;</p>",
+			"links": []
+		}
+	],
+	"handbook_statement": null,
+	"academic_contact_roles": [
+		{
+			"role": "Unit Coordinator(s)",
+			"contacts": [
+				{
+					"active": "true",
+					"contact_department": "",
+					"start_date": "",
+					"offering": {
+						"value": "",
+						"cl_id": null,
+						"key": "display_name"
+					},
+					"contact_role": {
+						"label": "Unit Coordinator",
+						"value": "unit_coordinator"
+					},
+					"contact_name": "Ting Chee Ming",
+					"role_detail": "Malaysia - Semester 1 & 2",
+					"contact_organisation": "",
+					"contact_title": "Associate Professor",
+					"order": "0",
+					"contact_phone": "",
+					"end_date": "",
+					"location": {
+						"value": "",
+						"cl_id": null,
+						"key": "name"
+					},
+					"contact_email": "Ting.CheeMing@monash.edu",
+					"contact_url": "",
+					"user": {
+						"value": "Ting Chee Ming",
+						"cl_id": "1acdce8cdb2ed090ffb02c530596195e",
+						"key": ""
+					},
+					"offerings": [
+						{
+							"value": "SSA-02-MALAYSIA-ON-CAMPUS",
+							"cl_id": "a2e95cc4dba0f990101196cbd396191e",
+							"key": "display_name"
+						},
+						{
+							"value": "S1-01-MALAYSIA-ON-CAMPUS",
+							"cl_id": "e6e95cc4dba0f990101196cbd396191f",
+							"key": "display_name"
+						}
+					],
+					"applies_to_all_offerings": "false",
+					"linking_id": "73d25ecddb262850101196cbd3961945",
+					"cl_id": "2ae95cc4dba0f990101196cbd3961920",
+					"display_details": "Ting.CheeMing@monash.edu",
+					"display_name": "Associate Professor Ting Chee Ming ",
+					"offerings_formatted_contact": "<ul><li>First semester, Malaysia, On-campus</li><li>Summer semester A, Malaysia, On-campus</li></ul>",
+					"display_role_plural": "Unit Coordinator(s)",
+					"links": []
+				},
+				{
+					"active": "true",
+					"contact_department": "",
+					"start_date": "",
+					"offering": {
+						"value": "",
+						"cl_id": null,
+						"key": "display_name"
+					},
+					"contact_role": {
+						"label": "Unit Coordinator",
+						"value": "unit_coordinator"
+					},
+					"contact_name": "Vishnu Monn",
+					"role_detail": "",
+					"contact_organisation": "",
+					"contact_title": "Dr",
+					"order": "1",
+					"contact_phone": "",
+					"end_date": "",
+					"location": {
+						"value": "",
+						"cl_id": null,
+						"key": "name"
+					},
+					"contact_email": "Vishnu.Monn@monash.edu",
+					"contact_url": "",
+					"user": {
+						"value": "Vishnu Monn",
+						"cl_id": "6278eb571b6bcc144a942f002d4bcbea",
+						"key": ""
+					},
+					"offerings": [
+						{
+							"value": "S2-01-MALAYSIA-ON-CAMPUS",
+							"cl_id": "aae95cc4dba0f990101196cbd396191f",
+							"key": "display_name"
+						}
+					],
+					"applies_to_all_offerings": "false",
+					"linking_id": "22f9b798dbd83d50101196cbd3961931",
+					"cl_id": "aee95cc4dba0f990101196cbd396191f",
+					"display_details": "Vishnu.Monn@monash.edu",
+					"display_name": "Dr Vishnu Monn ",
+					"offerings_formatted_contact": "<ul><li>Second semester, Malaysia, On-campus</li></ul>",
+					"display_role_plural": "Unit Coordinator(s)",
+					"links": []
+				}
+			]
+		},
+		{
+			"role": "Chief Examiner(s)",
+			"contacts": [
+				{
+					"active": "false",
+					"contact_department": "",
+					"start_date": "",
+					"offering": {
+						"value": "",
+						"cl_id": null,
+						"key": "display_name"
+					},
+					"contact_role": {
+						"label": "Chief Examiner",
+						"value": "chief_examiner"
+					},
+					"contact_name": "Bernhard Jenny",
+					"role_detail": "",
+					"contact_organisation": "",
+					"contact_title": "Associate Professor",
+					"order": "",
+					"contact_phone": "",
+					"end_date": "",
+					"location": {
+						"value": "",
+						"cl_id": null,
+						"key": "name"
+					},
+					"contact_email": "Bernie.Jenny@monash.edu",
+					"contact_url": "",
+					"user": {
+						"value": "Bernhard Jenny",
+						"cl_id": "ebc187dcdb78b300580f42a0149619ed",
+						"key": ""
+					},
+					"offerings": [],
+					"applies_to_all_offerings": "true",
+					"linking_id": "e010d06cdb74b3003a731c0e0496195c",
+					"cl_id": "a2e95cc4dba0f990101196cbd3961921",
+					"display_details": "Bernie.Jenny@monash.edu",
+					"display_name": "Associate Professor Bernhard Jenny ",
+					"offerings_formatted_contact": "<ul><li>Applies to all offerings</ul></li>",
+					"display_role_plural": "Chief Examiner(s)",
+					"links": []
+				}
+			]
+		}
+	],
+	"links": [],
+	"yearSwitcher": [
+		{
+			"label": "2020",
+			"value": "2020",
+			"href": "/2020/units/FIT3162?year=2020"
+		},
+		{
+			"label": "2021",
+			"value": "2021",
+			"href": "/2021/units/FIT3162?year=2021"
+		},
+		{
+			"label": "2022",
+			"value": "2022",
+			"href": "/2022/units/FIT3162?year=2022"
+		},
+		{
+			"label": "2023",
+			"value": "2023",
+			"href": "/2023/units/FIT3162?year=2023"
+		}
+	],
+	"university": "Monash University"
+}

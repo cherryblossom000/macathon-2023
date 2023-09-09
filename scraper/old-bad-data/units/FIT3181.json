@@ -1,18 +1,20 @@
 {
-	"code": "FIT3134",
-	"title": "Entrepreneurship",
-	"offerings": [],
+	"code": "FIT3181",
+	"title": "Deep learning",
+	"offerings": [
+		"Second semester"
+	],
+	"enrolmentRules": [],
 	"requisites": [
 		{
-			"type": "prohibitions",
+			"type": "prerequisite",
 			"requirement": {
 				"operator": "AND",
 				"items": [
 					{
 						"operator": "AND",
 						"items": [
-							"BEX3411",
-							"FZA3134"
+							"FIT2086"
 						]
 					}
 				]

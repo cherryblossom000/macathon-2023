@@ -5,5 +5,28 @@
 		"Second semester",
 		"First semester"
 	],
-	"requisites": []
+	"enrolmentRules": [
+		"<p>Prerequisite: (FIT2091 and (FIT2087 or FIT2098)) or (FIT2073 and FIT2096)</p>"
+	],
+	"requisites": [
+		{
+			"type": "prerequisite",
+			"requirement": {
+				"operator": "OR",
+				"items": [
+					{
+						"operator": "AND",
+						"items": [
+							"FIT2091",
+							{"operator": "OR", "items": ["FIT2087", "FIT2098"]}
+						]
+					},
+					{
+						"operator": "AND",
+						"items": ["FIT2073", "FIT2096"]
+					}
+				]
+			}
+		}
+	]
 }

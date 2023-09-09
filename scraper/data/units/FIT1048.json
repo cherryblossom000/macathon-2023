@@ -4,5 +4,8 @@
 	"offerings": [
 		"Second semester"
 	],
+	"enrolmentRules": [
+		"<p>Prohibition: FIT2071</p>"
+	],
 	"requisites": []
 }

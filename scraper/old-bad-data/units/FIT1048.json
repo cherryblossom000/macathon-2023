@@ -1,0 +1,11 @@
+{
+	"code": "FIT1048",
+	"title": "Fundamentals of C++",
+	"offerings": [
+		"Second semester"
+	],
+	"enrolmentRules": [
+		"<p>Prohibition: FIT2071</p>"
+	],
+	"requisites": []
+}

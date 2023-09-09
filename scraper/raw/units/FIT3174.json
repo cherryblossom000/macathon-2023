@@ -1,0 +1,580 @@
+{
+	"contentTypeLabel": "Unit",
+	"published_in_handbook": {
+		"label": "Yes",
+		"value": "1"
+	},
+	"implementation_year": "2023",
+	"duration_ft_max": "",
+	"asced_detailed": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"grading_schema": {
+		"label": null,
+		"value": null
+	},
+	"study_level": [],
+	"quota_enrolment_requirements": "",
+	"status": {
+		"label": "Accredited",
+		"value": "Active"
+	},
+	"duration_pt_max": "",
+	"duration_pt_std": "",
+	"credit_points": "6",
+	"parent_id": {
+		"value": "Master Record: FIT3174",
+		"cl_id": "4db42a50dbf4b300580f42a014961914",
+		"key": "code",
+		"type": "x_f5sl_cl_master_record"
+	},
+	"start_date": "",
+	"exclusions": "",
+	"unit_code": "FIT3174",
+	"academic_org": {
+		"value": "Faculty of Information Technology",
+		"cl_id": "c5684a53dba8a3406add773c349619a1",
+		"key": "name"
+	},
+	"sms_version": "",
+	"level": {
+		"label": "Level 3",
+		"value": "4"
+	},
+	"uac_code": "",
+	"special_requirements": "",
+	"duration_pt_min": "",
+	"special_unit_type": [],
+	"title": "IT strategy and governance",
+	"duration_ft_std": "",
+	"version": "3",
+	"learning_experiences": null,
+	"duration_ft_min": "",
+	"callista_version": "",
+	"duration_ft_period": {
+		"label": null,
+		"value": null
+	},
+	"asced_narrow": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"subclass": {
+		"label": "Unit",
+		"value": "subject"
+	},
+	"type": {
+		"label": "Coursework",
+		"value": "600"
+	},
+	"quota_rationale": "",
+	"version_name": "2023.03",
+	"timetable_this_unit": "true",
+	"work_integrated_learning": [
+		{
+			"value": "None",
+			"cl_id": "8ef5d77bdb122300e5cf3391f496191d",
+			"key": "label"
+		}
+	],
+	"cl_id": "0023e396db4c35502bdd077cd39619cd",
+	"school": {
+		"value": "Faculty of Information Technology",
+		"cl_id": "c5684a53dba8a3406add773c349619a1",
+		"key": "name"
+	},
+	"content": null,
+	"learning_and_teaching_resources": null,
+	"collaborating_disciplines": [],
+	"repeatable": "false",
+	"overview": "",
+	"end_date": "",
+	"duration_pt_period": {
+		"label": null,
+		"value": null
+	},
+	"sms_status": {
+		"label": null,
+		"value": null
+	},
+	"learning_materials": null,
+	"special_topic": "false",
+	"asced_broad": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"publish_tuition_fees": "true",
+	"placement_proportion": {
+		"label": null,
+		"value": null
+	},
+	"code": "FIT3174",
+	"other_unit_costs": "",
+	"eftsl": {
+		"label": "0.125",
+		"value": "0.125"
+	},
+	"contact_information": "",
+	"highest_sca_band": {
+		"label": "SCA Band 2",
+		"value": "2"
+	},
+	"lo_additional_information": "<p>On successful completion of this unit, you should be able to:</p>",
+	"handbook_assessment_summary": "<p>This unit has threshold mark hurdles. You must achieve at least 45% of the available marks in the final scheduled assessment, at least 45% in total for in-semester assessments, and an overall unit mark of 50% or more to be able to pass the unit. If you do not achieve the threshold mark, you will receive a fail grade (NH) and a maximum mark of 45 for the unit.</p>",
+	"quota_information": "",
+	"attendance_requirements": "",
+	"workload_requirements": "<p>Tutorials are scheduled from week 2 to week 12.</p>\n<p>Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled teaching activities.</p>",
+	"organisational_contact_information": "",
+	"handbook_synopsis": "<p>This unit provides students with an understanding of how to manage and govern the IT function in business organisations. It builds on themes relating to managing IT as an organisational resource and discusses IT function from strategy and governance perspectives. The unit also emphasises the relationship between theoretical knowledge and its practical application using cases and real examples.</p>\n<p>Core concepts discussed in this unit include the strategic context of IT management, alignment between business strategy and IT strategy, IT governance processes, various types of IT processes, organising and managing the IT function (including the role of the CIO), legal and ethical concerns of IT, evaluating IT portfolio management, IT provisioning issues, including outsourcing and budgeting.</p>",
+	"special_note_to_students": "",
+	"undergrad_postgrad_both": {
+		"label": "Undergraduate",
+		"value": "undergraduate"
+	},
+	"area_of_study_links": "Business information systems<br />",
+	"fieldwork": "",
+	"unit_learning_outcomes": [
+		{
+			"lo_domain": [],
+			"order": "1",
+			"number": "1",
+			"code": "ULO1",
+			"lo_cl_id": "0c23e396db4c35502bdd077cd39619d2",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "b45a7c6cdbf4b3003a731c0e0496193b",
+			"academic_item": {
+				"value": "FIT3174",
+				"cl_id": "0023e396db4c35502bdd077cd39619cd",
+				"key": "code"
+			},
+			"description": "<p>Demonstrate the capability to develop an appropriate type of IT strategy which is consistent with the corporate strategy of business organisations;</p>",
+			"cl_id": "0c23e396db4c35502bdd077cd39619d2",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "3",
+			"number": "3",
+			"code": "ULO3",
+			"lo_cl_id": "4823e396db4c35502bdd077cd39619d2",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "321b78ecdbf4b3003a731c0e04961939",
+			"academic_item": {
+				"value": "FIT3174",
+				"cl_id": "0023e396db4c35502bdd077cd39619cd",
+				"key": "code"
+			},
+			"description": "<p>Critically evaluate the benefits associated with various approaches to IT strategy and governance;</p>",
+			"cl_id": "4823e396db4c35502bdd077cd39619d2",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "4",
+			"number": "4",
+			"code": "ULO4",
+			"lo_cl_id": "8023e396db4c35502bdd077cd39619d2",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "d49bb820db38b3003a731c0e0496196e",
+			"academic_item": {
+				"value": "FIT3174",
+				"cl_id": "0023e396db4c35502bdd077cd39619cd",
+				"key": "code"
+			},
+			"description": "<p>Formulate plans for IT strategy and governance that can help organisations achieve business goals by leveraging IT systems.</p>",
+			"cl_id": "8023e396db4c35502bdd077cd39619d2",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "2",
+			"number": "2",
+			"code": "ULO2",
+			"lo_cl_id": "8023e396db4c35502bdd077cd39619d3",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "0cdabcacdbf4b3003a731c0e0496195f",
+			"academic_item": {
+				"value": "FIT3174",
+				"cl_id": "0023e396db4c35502bdd077cd39619cd",
+				"key": "code"
+			},
+			"description": "<p>Demonstrate a capacity to describe how IT governance can be applied to improve IT function and its performance;</p>",
+			"cl_id": "8023e396db4c35502bdd077cd39619d3",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "5",
+			"number": "5",
+			"code": "ULO5",
+			"lo_cl_id": "cc23e396db4c35502bdd077cd39619d2",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "a0dbf060db38b3003a731c0e049619ec",
+			"academic_item": {
+				"value": "FIT3174",
+				"cl_id": "0023e396db4c35502bdd077cd39619cd",
+				"key": "code"
+			},
+			"description": "<p>Demonstrate the ability to work in teams.</p>",
+			"cl_id": "cc23e396db4c35502bdd077cd39619d2",
+			"ga_map": []
+		}
+	],
+	"school_org_unit_data": [
+		{
+			"parent": {
+				"value": "",
+				"cl_id": null,
+				"key": "name"
+			},
+			"url": "https://www.monash.edu/it",
+			"name": "Faculty of Information Technology",
+			"cl_id": "c5684a53dba8a3406add773c349619a1"
+		}
+	],
+	"assessments": [
+		{
+			"subject": {
+				"value": "FIT3174",
+				"cl_id": "0023e396db4c35502bdd077cd39619cd",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": "Threshold",
+				"value": "threshold"
+			},
+			"hurdle_supplementary_assessment": "<p>This task is part of the in-semester assessment hurdle.</p>",
+			"number": "1",
+			"weight": "20",
+			"cl_id": "18236796db4c35502bdd077cd39619d5",
+			"assessment_name": "A critical assessment of IT strategy",
+			"description": null,
+			"assessment_type": {
+				"label": "Assignment",
+				"value": "assignment"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT3174",
+				"cl_id": "0023e396db4c35502bdd077cd39619cd",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": "Threshold",
+				"value": "threshold"
+			},
+			"hurdle_supplementary_assessment": "<p>The scheduled final assessment is a hurdle.</p>",
+			"number": "4",
+			"weight": "50",
+			"cl_id": "54236796db4c35502bdd077cd39619d5",
+			"assessment_name": "Scheduled final assessment ",
+			"description": null,
+			"assessment_type": {
+				"label": "Exam",
+				"value": "exam"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT3174",
+				"cl_id": "0023e396db4c35502bdd077cd39619cd",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": "Threshold",
+				"value": "threshold"
+			},
+			"hurdle_supplementary_assessment": "<p>This task is part of the in-semester assessment hurdle.</p>",
+			"number": "3",
+			"weight": "10",
+			"cl_id": "90236796db4c35502bdd077cd39619d5",
+			"assessment_name": "Class Participation",
+			"description": null,
+			"assessment_type": {
+				"label": "Participation",
+				"value": "participation"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT3174",
+				"cl_id": "0023e396db4c35502bdd077cd39619cd",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": "Threshold",
+				"value": "threshold"
+			},
+			"hurdle_supplementary_assessment": "<p>This task is part of the in-semester assessment hurdle.</p>\n<p> </p>",
+			"number": "2",
+			"weight": "20",
+			"cl_id": "d8236796db4c35502bdd077cd39619d4",
+			"assessment_name": "IT governance evaluation and application",
+			"description": null,
+			"assessment_type": {
+				"label": "Assignment",
+				"value": "assignment"
+			},
+			"offerings_formatted": ""
+		}
+	],
+	"enrolment_rules": [
+		{
+			"description": "<p>Prerequisite: Completion of 24 points of second year level of IT or its equivalent study</p>",
+			"academic_item": {
+				"value": "FIT3174",
+				"cl_id": "0023e396db4c35502bdd077cd39619cd",
+				"key": "code"
+			},
+			"type": {
+				"label": "Enrolment Rule",
+				"value": "info"
+			},
+			"cl_id": "84236796db4c35502bdd077cd39619d1"
+		}
+	],
+	"requisites": [],
+	"unit_offering": [
+		{
+			"fees_domestic": "",
+			"publish": "true",
+			"location": {
+				"value": "Clayton",
+				"cl_id": "37f321e1db30a7406add773c3496192e",
+				"key": "name"
+			},
+			"name": "FIT3174-S1-01-ON-CAMPUS-CLAYTON",
+			"clarification_to_appear_in_handbook": "",
+			"display_name": "S1-01-CLAYTON-ON-CAMPUS",
+			"teaching_period": {
+				"value": "First semester",
+				"cl_id": "0da429a1db30a7406add773c3496190c",
+				"key": "name"
+			},
+			"attendance_mode": {
+				"value": "On-campus",
+				"cl_id": "7bf2311bdb68a3406add773c349619bb",
+				"key": "description"
+			},
+			"quota_number": "",
+			"study_level": {
+				"label": null,
+				"value": null
+			},
+			"offered": "true",
+			"self_enrol": "true",
+			"academic_item": {
+				"value": "FIT3174",
+				"cl_id": "0023e396db4c35502bdd077cd39619cd",
+				"key": "code"
+			},
+			"fees_commonwealth": "",
+			"fees_international": "",
+			"course_restrictions": "",
+			"cl_id": "4823e396db4c35502bdd077cd39619d0"
+		}
+	],
+	"enrolment_rules_group": [
+		{
+			"rule_group": "Enrolment Rule",
+			"rules": [
+				{
+					"description": "<p>Prerequisite: Completion of 24 points of second year level of IT or its equivalent study</p>",
+					"academic_item": {
+						"value": "FIT3174",
+						"cl_id": "0023e396db4c35502bdd077cd39619cd",
+						"key": "code"
+					},
+					"type": {
+						"label": "Enrolment Rule",
+						"value": "info"
+					},
+					"cl_id": "84236796db4c35502bdd077cd39619d1",
+					"links": []
+				}
+			]
+		}
+	],
+	"learning_resources_grouped": [],
+	"study_abroad_unit": "Yes",
+	"academic_item_type": "Unit",
+	"learning_activities_grouped": [
+		{
+			"activity_type": "Lectures",
+			"activities": [
+				{
+					"subject": {
+						"value": "FIT3174",
+						"cl_id": "0023e396db4c35502bdd077cd39619cd",
+						"key": "code"
+					},
+					"cl_id": "00236796db4c35502bdd077cd39619d4",
+					"order": "",
+					"description": "",
+					"activity_type": {
+						"label": "Lectures",
+						"value": "lecture"
+					},
+					"duration_display": "24 hours",
+					"offerings_formatted_teaching_activities": "<ul><li>Applies to all offerings</li></ul>",
+					"links": []
+				}
+			]
+		},
+		{
+			"activity_type": "Tutorials",
+			"activities": [
+				{
+					"subject": {
+						"value": "FIT3174",
+						"cl_id": "0023e396db4c35502bdd077cd39619cd",
+						"key": "code"
+					},
+					"cl_id": "84236796db4c35502bdd077cd39619d4",
+					"order": "",
+					"description": "",
+					"activity_type": {
+						"label": "Tutorials",
+						"value": "tutorial"
+					},
+					"duration_display": "22 hours",
+					"offerings_formatted_teaching_activities": "<ul><li>Applies to all offerings</li></ul>",
+					"links": []
+				}
+			]
+		}
+	],
+	"search_title": "FIT3174 - IT strategy and governance",
+	"unit_search_title": "FIT3174 - IT strategy and governance",
+	"teaching_approaches": [
+		{
+			"type": {
+				"label": "Case-based teaching",
+				"value": "case_based_teaching"
+			},
+			"academic_item": {
+				"value": "FIT3174",
+				"cl_id": "0023e396db4c35502bdd077cd39619cd",
+				"key": "code"
+			},
+			"cl_id": "44236796db4c35502bdd077cd39619d3",
+			"description": "&nbsp;",
+			"links": []
+		},
+		{
+			"type": {
+				"label": "Role play",
+				"value": "role_play"
+			},
+			"academic_item": {
+				"value": "FIT3174",
+				"cl_id": "0023e396db4c35502bdd077cd39619cd",
+				"key": "code"
+			},
+			"cl_id": "80236796db4c35502bdd077cd39619d3",
+			"description": "&nbsp;",
+			"links": []
+		},
+		{
+			"type": {
+				"label": "Active learning",
+				"value": "active_learning"
+			},
+			"academic_item": {
+				"value": "FIT3174",
+				"cl_id": "0023e396db4c35502bdd077cd39619cd",
+				"key": "code"
+			},
+			"cl_id": "c8236796db4c35502bdd077cd39619d2",
+			"description": "&nbsp;",
+			"links": []
+		}
+	],
+	"handbook_statement": null,
+	"academic_contact_roles": [
+		{
+			"role": "Chief Examiner(s)",
+			"contacts": [
+				{
+					"active": "true",
+					"contact_department": "",
+					"start_date": "",
+					"offering": {
+						"value": "",
+						"cl_id": null,
+						"key": "display_name"
+					},
+					"contact_role": {
+						"label": "Chief Examiner",
+						"value": "chief_examiner"
+					},
+					"contact_name": "Anthony Wong",
+					"role_detail": "",
+					"contact_organisation": "",
+					"contact_title": "Dr",
+					"order": "1",
+					"contact_phone": "",
+					"end_date": "",
+					"location": {
+						"value": "",
+						"cl_id": null,
+						"key": "name"
+					},
+					"contact_email": "Anthony.Wong@monash.edu",
+					"contact_url": "",
+					"user": {
+						"value": "Anthony Wong",
+						"cl_id": "7ac107dcdb78b300580f42a0149619c4",
+						"key": ""
+					},
+					"offerings": [],
+					"applies_to_all_offerings": "true",
+					"linking_id": "0fe4b8f1db68e110101196cbd3961922",
+					"cl_id": "8423e396db4c35502bdd077cd39619d1",
+					"display_details": "Anthony.Wong@monash.edu",
+					"display_name": "Dr Anthony Wong ",
+					"offerings_formatted_contact": "<ul><li>Applies to all offerings</ul></li>",
+					"display_role_plural": "Chief Examiner(s)",
+					"links": []
+				}
+			]
+		}
+	],
+	"links": [],
+	"yearSwitcher": [
+		{
+			"label": "2020",
+			"value": "2020",
+			"href": "/2020/units/FIT3174?year=2020"
+		},
+		{
+			"label": "2021",
+			"value": "2021",
+			"href": "/2021/units/FIT3174?year=2021"
+		},
+		{
+			"label": "2022",
+			"value": "2022",
+			"href": "/2022/units/FIT3174?year=2022"
+		},
+		{
+			"label": "2023",
+			"value": "2023",
+			"href": "/2023/units/FIT3174?year=2023"
+		}
+	],
+	"university": "Monash University"
+}

@@ -1,0 +1,25 @@
+{
+	"code": "DATASCI01",
+	"title": "Data science",
+	"requirement": {
+		"operator": "AND",
+		"items": [
+			{
+				"operator": "AND",
+				"items": ["FIT1043", "FIT2086", "FIT2094", "FIT3179"]
+			},
+			{
+				"operator": 2,
+				"items": [
+					"FIT3003",
+					"FIT3139",
+					"FIT3152",
+					"FIT3154",
+					"FIT3181",
+					"FIT3182",
+					"FIT3183"
+				]
+			}
+		]
+	}
+}

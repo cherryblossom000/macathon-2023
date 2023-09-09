@@ -1,0 +1,602 @@
+{
+	"contentTypeLabel": "Unit",
+	"published_in_handbook": {
+		"label": "Yes",
+		"value": "1"
+	},
+	"implementation_year": "2023",
+	"duration_ft_max": "",
+	"asced_detailed": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"grading_schema": {
+		"label": null,
+		"value": null
+	},
+	"study_level": [],
+	"quota_enrolment_requirements": "",
+	"status": {
+		"label": "Accredited",
+		"value": "Active"
+	},
+	"duration_pt_max": "",
+	"duration_pt_std": "",
+	"credit_points": "6",
+	"parent_id": {
+		"value": "Master Record: FIT1006",
+		"cl_id": "1a946a10dbf4b300580f42a0149619b6",
+		"key": "code",
+		"type": "x_f5sl_cl_master_record"
+	},
+	"start_date": "",
+	"exclusions": "",
+	"unit_code": "FIT1006",
+	"academic_org": {
+		"value": "Faculty of Information Technology",
+		"cl_id": "c5684a53dba8a3406add773c349619a1",
+		"key": "name"
+	},
+	"sms_version": "",
+	"level": {
+		"label": "Level 1",
+		"value": "2"
+	},
+	"uac_code": "",
+	"special_requirements": "",
+	"duration_pt_min": "",
+	"special_unit_type": [],
+	"title": "Business information analysis",
+	"duration_ft_std": "",
+	"version": "5",
+	"learning_experiences": null,
+	"duration_ft_min": "",
+	"callista_version": "",
+	"duration_ft_period": {
+		"label": null,
+		"value": null
+	},
+	"asced_narrow": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"subclass": {
+		"label": "Unit",
+		"value": "subject"
+	},
+	"type": {
+		"label": "Coursework",
+		"value": "600"
+	},
+	"quota_rationale": "",
+	"version_name": "2023.05",
+	"timetable_this_unit": "true",
+	"work_integrated_learning": [
+		{
+			"value": "None",
+			"cl_id": "8ef5d77bdb122300e5cf3391f496191d",
+			"key": "label"
+		}
+	],
+	"cl_id": "c3f07eb8db40fd102bdd077cd39619da",
+	"school": {
+		"value": "Faculty of Information Technology",
+		"cl_id": "c5684a53dba8a3406add773c349619a1",
+		"key": "name"
+	},
+	"content": null,
+	"learning_and_teaching_resources": null,
+	"collaborating_disciplines": [],
+	"repeatable": "false",
+	"overview": "",
+	"end_date": "",
+	"duration_pt_period": {
+		"label": null,
+		"value": null
+	},
+	"sms_status": {
+		"label": null,
+		"value": null
+	},
+	"learning_materials": null,
+	"special_topic": "false",
+	"asced_broad": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"publish_tuition_fees": "true",
+	"placement_proportion": {
+		"label": null,
+		"value": null
+	},
+	"code": "FIT1006",
+	"other_unit_costs": "",
+	"eftsl": {
+		"label": "0.125",
+		"value": "0.125"
+	},
+	"contact_information": "",
+	"highest_sca_band": {
+		"label": "SCA Band 1",
+		"value": "1"
+	},
+	"lo_additional_information": "<p>On successful completion of this unit, you should be able to:</p>",
+	"handbook_assessment_summary": "",
+	"quota_information": "",
+	"attendance_requirements": "",
+	"workload_requirements": "<p>Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled teaching activities.</p>\n<p>Tutorials start in week 2.</p>",
+	"organisational_contact_information": "",
+	"handbook_synopsis": "<p>This unit is designed to give students an introduction to statistical and quantitative methods within a business-related framework and to provide students with a sound foundation for more advanced statistical and quantitative studies. The unit will provide opportunities for the student to gain skills in the presentation of business and economic data, the use of frequency distributions, measures of central tendency and dispersion, principles of probability, use of probability distributions, sampling theory, estimation, hypothesis testing, regression analysis, the use of indices and forecasting methods.</p>",
+	"special_note_to_students": "<p>Optional <a href=\"https://www.monash.edu/about/mentoring/peer-assisted-study-sessions-pass\" target=\"_blank\">Peer Assisted Study Sessions (PASS)</a> run in this unit.</p>",
+	"undergrad_postgrad_both": {
+		"label": "Undergraduate",
+		"value": "undergraduate"
+	},
+	"area_of_study_links": "Business information systems<br />IT for business<br />",
+	"fieldwork": "",
+	"unit_learning_outcomes": [
+		{
+			"lo_domain": [],
+			"order": "3",
+			"number": "3",
+			"code": "ULO3",
+			"lo_cl_id": "1ff0beb8db40fd102bdd077cd3961904",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "d83b3cecdbf4b3003a731c0e04961995",
+			"academic_item": {
+				"value": "FIT1006",
+				"cl_id": "c3f07eb8db40fd102bdd077cd39619da",
+				"key": "code"
+			},
+			"description": "<p>Create graphics and tables for effective communication of the results of data analysis;</p>",
+			"cl_id": "1ff0beb8db40fd102bdd077cd3961904",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "4",
+			"number": "4",
+			"code": "ULO4",
+			"lo_cl_id": "5bf0beb8db40fd102bdd077cd3961905",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "945b7020db38b3003a731c0e04961963",
+			"academic_item": {
+				"value": "FIT1006",
+				"cl_id": "c3f07eb8db40fd102bdd077cd39619da",
+				"key": "code"
+			},
+			"description": "<p>Analyse the factors that make statistics reliable, credible and trustworthy.</p>",
+			"cl_id": "5bf0beb8db40fd102bdd077cd3961905",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "2",
+			"number": "2",
+			"code": "ULO2",
+			"lo_cl_id": "97f0beb8db40fd102bdd077cd3961905",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "6fbaf8acdbf4b3003a731c0e049619dd",
+			"academic_item": {
+				"value": "FIT1006",
+				"cl_id": "c3f07eb8db40fd102bdd077cd39619da",
+				"key": "code"
+			},
+			"description": "<p>Communicate the results of statistical analysis effectively and accurately;</p>",
+			"cl_id": "97f0beb8db40fd102bdd077cd3961905",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "1",
+			"number": "1",
+			"code": "ULO1",
+			"lo_cl_id": "d3f0beb8db40fd102bdd077cd3961905",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "ac7a70acdbf4b3003a731c0e049619d8",
+			"academic_item": {
+				"value": "FIT1006",
+				"cl_id": "c3f07eb8db40fd102bdd077cd39619da",
+				"key": "code"
+			},
+			"description": "<p>Perform and justify the use of appropriate descriptive and inferential statistical analyses such as standard deviation, t-tests, and Pearson's correlation coefficients;</p>",
+			"cl_id": "d3f0beb8db40fd102bdd077cd3961905",
+			"ga_map": []
+		}
+	],
+	"school_org_unit_data": [
+		{
+			"parent": {
+				"value": "",
+				"cl_id": null,
+				"key": "name"
+			},
+			"url": "https://www.monash.edu/it",
+			"name": "Faculty of Information Technology",
+			"cl_id": "c5684a53dba8a3406add773c349619a1"
+		}
+	],
+	"assessments": [
+		{
+			"subject": {
+				"value": "FIT1006",
+				"cl_id": "c3f07eb8db40fd102bdd077cd39619da",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "1",
+			"weight": "15",
+			"cl_id": "13f0beb8db40fd102bdd077cd396190a",
+			"assessment_name": "Written report 1",
+			"description": null,
+			"assessment_type": {
+				"label": "Report",
+				"value": "report"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT1006",
+				"cl_id": "c3f07eb8db40fd102bdd077cd39619da",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "2",
+			"weight": "45",
+			"cl_id": "5ff0beb8db40fd102bdd077cd3961909",
+			"assessment_name": "Written report 2",
+			"description": null,
+			"assessment_type": {
+				"label": "Report",
+				"value": "report"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT1006",
+				"cl_id": "c3f07eb8db40fd102bdd077cd39619da",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "<p> </p>\n<p> </p>",
+			"number": "3",
+			"weight": "15",
+			"cl_id": "97f0beb8db40fd102bdd077cd3961909",
+			"assessment_name": "Take home test 1",
+			"description": null,
+			"assessment_type": {
+				"label": "Other",
+				"value": "other"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT1006",
+				"cl_id": "c3f07eb8db40fd102bdd077cd39619da",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "4",
+			"weight": "25",
+			"cl_id": "d3f0beb8db40fd102bdd077cd396190a",
+			"assessment_name": "Take home test 2",
+			"description": null,
+			"assessment_type": {
+				"label": "Other",
+				"value": "other"
+			},
+			"offerings_formatted": ""
+		}
+	],
+	"enrolment_rules": [
+		{
+			"description": "<p>Prerequisite: A study score of 25 in VCE Mathematics Methods or Specialist Maths units 3 &amp; 4 or 30 in Further Maths units 3 &amp; 4 or MTH1010 or equivalent</p>",
+			"academic_item": {
+				"value": "FIT1006",
+				"cl_id": "c3f07eb8db40fd102bdd077cd39619da",
+				"key": "code"
+			},
+			"type": {
+				"label": "Enrolment Rule",
+				"value": "info"
+			},
+			"cl_id": "97f0beb8db40fd102bdd077cd3961906"
+		},
+		{
+			"description": "<p>Prohibition: BUS1100, ETC1000, ETF1100, ETP1100, ETS1102, ETW1000, ETW1102, ETX1100, MAT1097, STA1010, SCI1020</p>",
+			"academic_item": {
+				"value": "FIT1006",
+				"cl_id": "c3f07eb8db40fd102bdd077cd39619da",
+				"key": "code"
+			},
+			"type": {
+				"label": "Enrolment Rule",
+				"value": "info"
+			},
+			"cl_id": "9ff0beb8db40fd102bdd077cd3961905"
+		}
+	],
+	"requisites": [],
+	"unit_offering": [
+		{
+			"fees_domestic": "",
+			"publish": "true",
+			"location": {
+				"value": "Clayton",
+				"cl_id": "37f321e1db30a7406add773c3496192e",
+				"key": "name"
+			},
+			"name": "FIT1006-S1-01-ON-CAMPUS-CLAYTON",
+			"clarification_to_appear_in_handbook": "",
+			"display_name": "S1-01-CLAYTON-ON-CAMPUS",
+			"teaching_period": {
+				"value": "First semester",
+				"cl_id": "0da429a1db30a7406add773c3496190c",
+				"key": "name"
+			},
+			"attendance_mode": {
+				"value": "On-campus",
+				"cl_id": "7bf2311bdb68a3406add773c349619bb",
+				"key": "description"
+			},
+			"quota_number": "",
+			"study_level": {
+				"label": null,
+				"value": null
+			},
+			"offered": "true",
+			"self_enrol": "true",
+			"academic_item": {
+				"value": "FIT1006",
+				"cl_id": "c3f07eb8db40fd102bdd077cd39619da",
+				"key": "code"
+			},
+			"fees_commonwealth": "",
+			"fees_international": "",
+			"course_restrictions": "",
+			"cl_id": "43f0beb8db40fd102bdd077cd3961903"
+		}
+	],
+	"enrolment_rules_group": [
+		{
+			"rule_group": "Enrolment Rule",
+			"rules": [
+				{
+					"description": "<p>Prerequisite: A study score of 25 in VCE Mathematics Methods or Specialist Maths units 3 &amp; 4 or 30 in Further Maths units 3 &amp; 4 or MTH1010 or equivalent</p>",
+					"academic_item": {
+						"value": "FIT1006",
+						"cl_id": "c3f07eb8db40fd102bdd077cd39619da",
+						"key": "code"
+					},
+					"type": {
+						"label": "Enrolment Rule",
+						"value": "info"
+					},
+					"cl_id": "97f0beb8db40fd102bdd077cd3961906",
+					"links": []
+				},
+				{
+					"description": "<p>Prohibition: BUS1100, ETC1000, ETF1100, ETP1100, ETS1102, ETW1000, ETW1102, ETX1100, MAT1097, STA1010, SCI1020</p>",
+					"academic_item": {
+						"value": "FIT1006",
+						"cl_id": "c3f07eb8db40fd102bdd077cd39619da",
+						"key": "code"
+					},
+					"type": {
+						"label": "Enrolment Rule",
+						"value": "info"
+					},
+					"cl_id": "9ff0beb8db40fd102bdd077cd3961905",
+					"links": []
+				}
+			]
+		}
+	],
+	"learning_resources_grouped": [
+		{
+			"type": "Required resources",
+			"order": 0,
+			"resources": [
+				{
+					"description": "<p>Selvanathan et al. (2017). Business Statistics (Abridged) Australia and New Zealand . (7th Edition) Cengage Learning (ISBN: 9780170369473)</p>",
+					"type": {
+						"label": "Required resources",
+						"value": "required_resources"
+					},
+					"cl_id": "13f0beb8db40fd102bdd077cd3961907",
+					"academic_item": {
+						"value": "FIT1006",
+						"cl_id": "c3f07eb8db40fd102bdd077cd39619da",
+						"key": "code"
+					},
+					"links": []
+				}
+			]
+		},
+		{
+			"type": "Technology resources",
+			"order": 2,
+			"resources": [
+				{
+					"description": "<div>Students may need to use the university laboratories to access statistical software during private study.</div>\n<div>Students will use SYSTAT and Microsoft Excel to perform computer-based statistical calculations.</div>\n<div>On campus students will participate in peer-assisted learning activities during lectures using their own mobile devices or laptops. Students DO NOT need to purchase additional equipment for these activities.</div>\n<div>Calculators (including Graphing calculators) are allowed in the exam.</div>",
+					"type": {
+						"label": "Technology resources",
+						"value": "technology_resources"
+					},
+					"cl_id": "9ff0beb8db40fd102bdd077cd3961907",
+					"academic_item": {
+						"value": "FIT1006",
+						"cl_id": "c3f07eb8db40fd102bdd077cd39619da",
+						"key": "code"
+					},
+					"links": []
+				}
+			]
+		}
+	],
+	"study_abroad_unit": "Yes",
+	"academic_item_type": "Unit",
+	"learning_activities_grouped": [
+		{
+			"activity_type": "Tutorials",
+			"activities": [
+				{
+					"subject": {
+						"value": "FIT1006",
+						"cl_id": "c3f07eb8db40fd102bdd077cd39619da",
+						"key": "code"
+					},
+					"cl_id": "53f0beb8db40fd102bdd077cd3961909",
+					"order": "2",
+					"description": "",
+					"activity_type": {
+						"label": "Tutorials",
+						"value": "tutorial"
+					},
+					"duration_display": "22 hours",
+					"offerings_formatted_teaching_activities": "<ul><li>Applies to all offerings</li></ul>",
+					"links": []
+				}
+			]
+		},
+		{
+			"activity_type": "Lectures",
+			"activities": [
+				{
+					"subject": {
+						"value": "FIT1006",
+						"cl_id": "c3f07eb8db40fd102bdd077cd39619da",
+						"key": "code"
+					},
+					"cl_id": "dbf0beb8db40fd102bdd077cd3961908",
+					"order": "1",
+					"description": "",
+					"activity_type": {
+						"label": "Lectures",
+						"value": "lecture"
+					},
+					"duration_display": "24 hours",
+					"offerings_formatted_teaching_activities": "<ul><li>Applies to all offerings</li></ul>",
+					"links": []
+				}
+			]
+		}
+	],
+	"search_title": "FIT1006 - Business information analysis",
+	"unit_search_title": "FIT1006 - Business information analysis",
+	"teaching_approaches": [
+		{
+			"type": {
+				"label": "Peer assisted learning",
+				"value": "peer_assisted_learning"
+			},
+			"academic_item": {
+				"value": "FIT1006",
+				"cl_id": "c3f07eb8db40fd102bdd077cd39619da",
+				"key": "code"
+			},
+			"cl_id": "d7f0beb8db40fd102bdd077cd3961907",
+			"description": "&nbsp;",
+			"links": []
+		}
+	],
+	"handbook_statement": null,
+	"academic_contact_roles": [
+		{
+			"role": "Chief Examiner(s)",
+			"contacts": [
+				{
+					"active": "true",
+					"contact_department": "",
+					"start_date": "",
+					"offering": {
+						"value": "",
+						"cl_id": null,
+						"key": "display_name"
+					},
+					"contact_role": {
+						"label": "Chief Examiner",
+						"value": "chief_examiner"
+					},
+					"contact_name": "Reuben Kirkham",
+					"role_detail": "",
+					"contact_organisation": "",
+					"contact_title": "Dr",
+					"order": "1",
+					"contact_phone": "",
+					"end_date": "",
+					"location": {
+						"value": "",
+						"cl_id": null,
+						"key": "name"
+					},
+					"contact_email": "Reuben.Kirkham@monash.edu",
+					"contact_url": "",
+					"user": {
+						"value": "Reuben Kirkham",
+						"cl_id": "24343815db525810ffb02c53059619fa",
+						"key": ""
+					},
+					"offerings": [],
+					"applies_to_all_offerings": "true",
+					"linking_id": "b0290d25db1711902bdd077cd39619c5",
+					"cl_id": "9ff0beb8db40fd102bdd077cd3961903",
+					"display_details": "Reuben.Kirkham@monash.edu",
+					"display_name": "Dr Reuben Kirkham ",
+					"offerings_formatted_contact": "<ul><li>Applies to all offerings</ul></li>",
+					"display_role_plural": "Chief Examiner(s)",
+					"links": []
+				}
+			]
+		}
+	],
+	"links": [],
+	"yearSwitcher": [
+		{
+			"label": "2020",
+			"value": "2020",
+			"href": "/2020/units/FIT1006?year=2020"
+		},
+		{
+			"label": "2021",
+			"value": "2021",
+			"href": "/2021/units/FIT1006?year=2021"
+		},
+		{
+			"label": "2022",
+			"value": "2022",
+			"href": "/2022/units/FIT1006?year=2022"
+		},
+		{
+			"label": "2023",
+			"value": "2023",
+			"href": "/2023/units/FIT1006?year=2023"
+		}
+	],
+	"university": "Monash University"
+}

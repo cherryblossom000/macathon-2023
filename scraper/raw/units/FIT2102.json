@@ -1,0 +1,697 @@
+{
+	"contentTypeLabel": "Unit",
+	"published_in_handbook": {
+		"label": "Yes",
+		"value": "1"
+	},
+	"implementation_year": "2023",
+	"duration_ft_max": "",
+	"asced_detailed": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"grading_schema": {
+		"label": null,
+		"value": null
+	},
+	"study_level": [],
+	"quota_enrolment_requirements": "",
+	"status": {
+		"label": "Accredited",
+		"value": "Active"
+	},
+	"duration_pt_max": "",
+	"duration_pt_std": "",
+	"credit_points": "6",
+	"parent_id": {
+		"value": "Master Record: FIT2102",
+		"cl_id": "75a46250dbf4b300580f42a0149619eb",
+		"key": "code",
+		"type": "x_f5sl_cl_master_record"
+	},
+	"start_date": "",
+	"exclusions": "",
+	"unit_code": "FIT2102",
+	"academic_org": {
+		"value": "Faculty of Information Technology",
+		"cl_id": "c5684a53dba8a3406add773c349619a1",
+		"key": "name"
+	},
+	"sms_version": "",
+	"level": {
+		"label": "Level 2",
+		"value": "3"
+	},
+	"uac_code": "",
+	"special_requirements": "",
+	"duration_pt_min": "",
+	"special_unit_type": [],
+	"title": "Programming paradigms",
+	"duration_ft_std": "",
+	"version": "5",
+	"learning_experiences": null,
+	"duration_ft_min": "",
+	"callista_version": "",
+	"duration_ft_period": {
+		"label": null,
+		"value": null
+	},
+	"asced_narrow": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"subclass": {
+		"label": "Unit",
+		"value": "subject"
+	},
+	"type": {
+		"label": "Coursework",
+		"value": "600"
+	},
+	"quota_rationale": "",
+	"version_name": "2023.05",
+	"timetable_this_unit": "true",
+	"work_integrated_learning": [
+		{
+			"value": "None",
+			"cl_id": "8ef5d77bdb122300e5cf3391f496191d",
+			"key": "label"
+		}
+	],
+	"cl_id": "d0cbe415db2cfd90101196cbd39619ed",
+	"school": {
+		"value": "Faculty of Information Technology",
+		"cl_id": "c5684a53dba8a3406add773c349619a1",
+		"key": "name"
+	},
+	"content": null,
+	"learning_and_teaching_resources": null,
+	"collaborating_disciplines": [],
+	"repeatable": "false",
+	"overview": "",
+	"end_date": "",
+	"duration_pt_period": {
+		"label": null,
+		"value": null
+	},
+	"sms_status": {
+		"label": null,
+		"value": null
+	},
+	"learning_materials": null,
+	"special_topic": "false",
+	"asced_broad": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"publish_tuition_fees": "true",
+	"placement_proportion": {
+		"label": null,
+		"value": null
+	},
+	"code": "FIT2102",
+	"other_unit_costs": "",
+	"eftsl": {
+		"label": "0.125",
+		"value": "0.125"
+	},
+	"contact_information": "",
+	"highest_sca_band": {
+		"label": "SCA Band 2",
+		"value": "2"
+	},
+	"lo_additional_information": "<p>On successful completion of this unit, you should be able to:</p>",
+	"handbook_assessment_summary": "<p>This unit has threshold mark hurdles. You must achieve at least 45% of the available marks for the in-semester assessment and at least 45% of available marks for the tutorial homework, and an overall unit mark of 50% or more to be able to pass the unit. If you do not achieve the threshold mark, you will receive a fail grade (NH) and a maximum mark of 45 for the unit.</p>",
+	"quota_information": "",
+	"attendance_requirements": "",
+	"workload_requirements": "<p>Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled teaching activities.</p>",
+	"organisational_contact_information": "",
+	"handbook_synopsis": "<p>Ability to code in differently constructed programming languages is analogous to speaking in different natural languages with varying grammars. Similar to natural languages, programming languages from different paradigms (styles) vary in their expressiveness and efficiency. One programming language may require many screens-full of complex code to accomplish a task for which another requires but a few expressive lines of code. Therefore, understanding the design principles of programming languages enables computational problems to be implemented in dramatically different and powerful ways; leading, in some cases, to solutions that are more elegant, correct, maintainable, efficient and/or extensible.</p>\n<p>This unit examines a selection of programming languages and paradigms and explores the evolution of language design from low-level paradigms that are closer to the execution model of the machine, to more high-level declarative paradigms that allow programmers to model a problem precisely rather than specify its solution. The unit covers paradigms such as functional and declarative programming styles, comparing and contrasting them to programming styles that students are already familiar with, including object-oriented, imperative and procedural programming paradigms. We compare type systems supported by various languages, from scripting languages like JavaScript with weak type systems, to gradual typing as in TypeScript, to advanced compiled languages with strong type correctness, such as Haskell. We see these applied to data-modeling techniques (covering polymorphism, mutability-versus-purity, state management, and side-effects) and different models of execution such as strict-versus-lazy evaluation.</p>\n<p>The unit provides practical experience with using modern functional programming techniques, non-procedural, non-object-oriented programming languages and discusses the influence of programming language theory on the design of current main-stream computer languages, and how the theory translates to practice. A focus of the unit is that these techniques are applicable and ubiquitous in a variety of modern languages, for example, we will see how functional programming techniques are used in relatively conventional imperative languages like JavaScript, and compare and contrast this with pure functional languages, such as Haskell.</p>",
+	"special_note_to_students": "",
+	"undergrad_postgrad_both": {
+		"label": "Undergraduate",
+		"value": "undergraduate"
+	},
+	"area_of_study_links": "Advanced computer science<br />Computational science<br />",
+	"fieldwork": "",
+	"unit_learning_outcomes": [
+		{
+			"lo_domain": [],
+			"order": "6",
+			"number": "6",
+			"code": "ULO6",
+			"lo_cl_id": "10cbe415db2cfd90101196cbd39619f4",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "24dbf060db38b3003a731c0e049619e2",
+			"academic_item": {
+				"value": "FIT2102",
+				"cl_id": "d0cbe415db2cfd90101196cbd39619ed",
+				"key": "code"
+			},
+			"description": "<p>Describe the theoretical aspects of modern programming paradigms and apply this theory to analysis and design of programs.</p>",
+			"cl_id": "10cbe415db2cfd90101196cbd39619f4",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "4",
+			"number": "4",
+			"code": "ULO4",
+			"lo_cl_id": "1ccbe415db2cfd90101196cbd39619f4",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "a37bf420db38b3003a731c0e0496196f",
+			"academic_item": {
+				"value": "FIT2102",
+				"cl_id": "d0cbe415db2cfd90101196cbd39619ed",
+				"key": "code"
+			},
+			"description": "<p>Evaluate the suitability of different paradigms for different problem types;</p>",
+			"cl_id": "1ccbe415db2cfd90101196cbd39619f4",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "2",
+			"number": "2",
+			"code": "ULO2",
+			"lo_cl_id": "58cbe415db2cfd90101196cbd39619f3",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "93eab0ecdbf4b3003a731c0e04961997",
+			"academic_item": {
+				"value": "FIT2102",
+				"cl_id": "d0cbe415db2cfd90101196cbd39619ed",
+				"key": "code"
+			},
+			"description": "<p>Describe the major features, strengths and weaknesses of important programming languages in the context of their historical development;</p>",
+			"cl_id": "58cbe415db2cfd90101196cbd39619f3",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "1",
+			"number": "1",
+			"code": "ULO1",
+			"lo_cl_id": "58cbe415db2cfd90101196cbd39619f4",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "786afc6cdbf4b3003a731c0e049619be",
+			"academic_item": {
+				"value": "FIT2102",
+				"cl_id": "d0cbe415db2cfd90101196cbd39619ed",
+				"key": "code"
+			},
+			"description": "<p>Describe the major attributes that differentiate programming paradigms considered;</p>",
+			"cl_id": "58cbe415db2cfd90101196cbd39619f4",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "3",
+			"number": "3",
+			"code": "ULO3",
+			"lo_cl_id": "94cbe415db2cfd90101196cbd39619f4",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "022bf8ecdbf4b3003a731c0e0496194e",
+			"academic_item": {
+				"value": "FIT2102",
+				"cl_id": "d0cbe415db2cfd90101196cbd39619ed",
+				"key": "code"
+			},
+			"description": "<p>Analyse and critique past, present and future programming languages;</p>",
+			"cl_id": "94cbe415db2cfd90101196cbd39619f4",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "5",
+			"number": "5",
+			"code": "ULO5",
+			"lo_cl_id": "d0cbe415db2cfd90101196cbd39619f4",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "88cb3060db38b3003a731c0e049619ff",
+			"academic_item": {
+				"value": "FIT2102",
+				"cl_id": "d0cbe415db2cfd90101196cbd39619ed",
+				"key": "code"
+			},
+			"description": "<p>Design and implement programs in several programming languages of different paradigms and demonstrate an ability to solve more complex problems in at least one non-procedural paradigm;</p>",
+			"cl_id": "d0cbe415db2cfd90101196cbd39619f4",
+			"ga_map": []
+		}
+	],
+	"school_org_unit_data": [
+		{
+			"parent": {
+				"value": "",
+				"cl_id": null,
+				"key": "name"
+			},
+			"url": "https://www.monash.edu/it",
+			"name": "Faculty of Information Technology",
+			"cl_id": "c5684a53dba8a3406add773c349619a1"
+		}
+	],
+	"assessments": [
+		{
+			"subject": {
+				"value": "FIT2102",
+				"cl_id": "d0cbe415db2cfd90101196cbd39619ed",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": "Threshold",
+				"value": "threshold"
+			},
+			"hurdle_supplementary_assessment": "<p>This task is part of the in-semester assessment hurdle. </p>",
+			"number": "2",
+			"weight": "30",
+			"cl_id": "10cb2815db2cfd90101196cbd39619b3",
+			"assessment_name": "Assignment 2 Haskell Programming",
+			"description": null,
+			"assessment_type": {
+				"label": "Assignment",
+				"value": "assignment"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT2102",
+				"cl_id": "d0cbe415db2cfd90101196cbd39619ed",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": "Threshold",
+				"value": "threshold"
+			},
+			"hurdle_supplementary_assessment": "<p>This task is an in-semester assessment hurdle. </p>",
+			"number": "3",
+			"weight": "40",
+			"cl_id": "5ccb2815db2cfd90101196cbd39619b2",
+			"assessment_name": "Tutorial Homework",
+			"description": null,
+			"assessment_type": {
+				"label": "Other",
+				"value": "other"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT2102",
+				"cl_id": "d0cbe415db2cfd90101196cbd39619ed",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": "Threshold",
+				"value": "threshold"
+			},
+			"hurdle_supplementary_assessment": "<p>This task is part of the in-semester assessment hurdle. 4</p>",
+			"number": "1",
+			"weight": "30",
+			"cl_id": "94cb2815db2cfd90101196cbd39619b2",
+			"assessment_name": "Assignment 1 Functional Reactive Programming ",
+			"description": null,
+			"assessment_type": {
+				"label": "Assignment",
+				"value": "assignment"
+			},
+			"offerings_formatted": ""
+		}
+	],
+	"enrolment_rules": [],
+	"requisites": [
+		{
+			"academic_item_code": "FIT2102",
+			"active": "true",
+			"requisite_cl_id": "10cbe415db2cfd90101196cbd39619f0",
+			"description": "",
+			"requisite_type": {
+				"label": "Prerequisite",
+				"value": "prerequisite"
+			},
+			"cl_id": {
+				"value": "FIT2102",
+				"cl_id": "d0cbe415db2cfd90101196cbd39619ed",
+				"key": "code"
+			},
+			"academic_item_version_number": "2023.05",
+			"order": "",
+			"start_date": "",
+			"end_date": "",
+			"container": [
+				{
+					"cl_id": "68cba09ddbecb1102bdd077cd3961985",
+					"parent_container_table": "x_f5sl_cl_requisite",
+					"parent_record": {
+						"value": "Relationship Builder: FIT2102",
+						"cl_id": "10cbe415db2cfd90101196cbd39619f0",
+						"key": "academic_item",
+						"type": "x_f5sl_cl_requisite"
+					},
+					"title": "Container 1",
+					"parent_connector": {
+						"label": "OR",
+						"value": "OR"
+					},
+					"containers": [],
+					"relationships": [
+						{
+							"academic_item": {
+								"value": "Unit: FIT1008",
+								"cl_id": "de946a10dbf4b300580f42a0149619d7",
+								"key": "code",
+								"type": "x_f5sl_cl_subjects"
+							},
+							"parent_record": {
+								"value": "Container 1",
+								"cl_id": "68cba09ddbecb1102bdd077cd3961985",
+								"key": "title"
+							},
+							"order": "1",
+							"cl_id": "de946a10dbf4b300580f42a0149619d7",
+							"academic_item_type": {
+								"label": "Unit",
+								"value": "subject"
+							},
+							"abbr_name": "INTRO COMP SCIENCE",
+							"academic_item_version_name": "2019.01",
+							"academic_item_credit_points": "6",
+							"abbreviated_name_and_major": null,
+							"academic_item_name": "Introduction to computer science",
+							"academic_item_code": "FIT1008",
+							"academic_item_url": "/2019/units/FIT1008"
+						},
+						{
+							"academic_item": {
+								"value": "Unit: FIT1054",
+								"cl_id": "57942e10dbf4b300580f42a014961994",
+								"key": "code",
+								"type": "x_f5sl_cl_subjects"
+							},
+							"parent_record": {
+								"value": "Container 1",
+								"cl_id": "68cba09ddbecb1102bdd077cd3961985",
+								"key": "title"
+							},
+							"order": "2",
+							"cl_id": "57942e10dbf4b300580f42a014961994",
+							"academic_item_type": {
+								"label": "Unit",
+								"value": "subject"
+							},
+							"abbr_name": "COMP SCIENCE ADV",
+							"academic_item_version_name": "2019.01",
+							"academic_item_credit_points": "6",
+							"abbreviated_name_and_major": null,
+							"academic_item_name": "Computer science (advanced)",
+							"academic_item_code": "FIT1054",
+							"academic_item_url": "/2019/units/FIT1054"
+						}
+					]
+				}
+			]
+		}
+	],
+	"unit_offering": [
+		{
+			"fees_domestic": "",
+			"publish": "true",
+			"location": {
+				"value": "Malaysia",
+				"cl_id": "7bf321e1db30a7406add773c3496192f",
+				"key": "name"
+			},
+			"name": "FIT2102-S2-01-ON-CAMPUS-MALAYSIA",
+			"clarification_to_appear_in_handbook": "",
+			"display_name": "S2-01-MALAYSIA-ON-CAMPUS",
+			"teaching_period": {
+				"value": "Second semester",
+				"cl_id": "85a429a1db30a7406add773c3496190d",
+				"key": "name"
+			},
+			"attendance_mode": {
+				"value": "On-campus",
+				"cl_id": "7bf2311bdb68a3406add773c349619bb",
+				"key": "description"
+			},
+			"quota_number": "",
+			"study_level": {
+				"label": null,
+				"value": null
+			},
+			"offered": "true",
+			"self_enrol": "true",
+			"academic_item": {
+				"value": "FIT2102",
+				"cl_id": "d0cbe415db2cfd90101196cbd39619ed",
+				"key": "code"
+			},
+			"fees_commonwealth": "",
+			"fees_international": "",
+			"course_restrictions": "",
+			"cl_id": "90cbe415db2cfd90101196cbd39619f2"
+		},
+		{
+			"fees_domestic": "",
+			"publish": "true",
+			"location": {
+				"value": "Clayton",
+				"cl_id": "37f321e1db30a7406add773c3496192e",
+				"key": "name"
+			},
+			"name": "FIT2102-S2-01-ON-CAMPUS-CLAYTON",
+			"clarification_to_appear_in_handbook": "",
+			"display_name": "S2-01-CLAYTON-ON-CAMPUS",
+			"teaching_period": {
+				"value": "Second semester",
+				"cl_id": "85a429a1db30a7406add773c3496190d",
+				"key": "name"
+			},
+			"attendance_mode": {
+				"value": "On-campus",
+				"cl_id": "7bf2311bdb68a3406add773c349619bb",
+				"key": "description"
+			},
+			"quota_number": "",
+			"study_level": {
+				"label": null,
+				"value": null
+			},
+			"offered": "true",
+			"self_enrol": "true",
+			"academic_item": {
+				"value": "FIT2102",
+				"cl_id": "d0cbe415db2cfd90101196cbd39619ed",
+				"key": "code"
+			},
+			"fees_commonwealth": "",
+			"fees_international": "",
+			"course_restrictions": "",
+			"cl_id": "94cbe415db2cfd90101196cbd39619f1"
+		}
+	],
+	"enrolment_rules_group": [],
+	"learning_resources_grouped": [],
+	"study_abroad_unit": "Yes",
+	"academic_item_type": "Unit",
+	"learning_activities_grouped": [
+		{
+			"activity_type": "Workshops",
+			"activities": [
+				{
+					"subject": {
+						"value": "FIT2102",
+						"cl_id": "d0cbe415db2cfd90101196cbd39619ed",
+						"key": "code"
+					},
+					"cl_id": "50cb2815db2cfd90101196cbd39619b2",
+					"order": "",
+					"description": "",
+					"activity_type": {
+						"label": "Workshops",
+						"value": "workshop"
+					},
+					"duration_display": "24 hours",
+					"offerings_formatted_teaching_activities": "<ul><li>Applies to all offerings</li></ul>",
+					"links": []
+				}
+			]
+		},
+		{
+			"activity_type": "Applied sessions",
+			"activities": [
+				{
+					"subject": {
+						"value": "FIT2102",
+						"cl_id": "d0cbe415db2cfd90101196cbd39619ed",
+						"key": "code"
+					},
+					"cl_id": "d8cb2815db2cfd90101196cbd39619b1",
+					"order": "",
+					"description": "",
+					"activity_type": {
+						"label": "Applied sessions",
+						"value": "applied"
+					},
+					"duration_display": "24 hours",
+					"offerings_formatted_teaching_activities": "<ul><li>Applies to all offerings</li></ul>",
+					"links": []
+				}
+			]
+		}
+	],
+	"search_title": "FIT2102 - Programming paradigms",
+	"unit_search_title": "FIT2102 - Programming paradigms",
+	"teaching_approaches": [
+		{
+			"type": {
+				"label": "Active learning",
+				"value": "active_learning"
+			},
+			"academic_item": {
+				"value": "FIT2102",
+				"cl_id": "d0cbe415db2cfd90101196cbd39619ed",
+				"key": "code"
+			},
+			"cl_id": "94cbe415db2cfd90101196cbd39619f5",
+			"description": "<p>&nbsp;</p>",
+			"links": []
+		}
+	],
+	"handbook_statement": null,
+	"academic_contact_roles": [
+		{
+			"role": "Chief Examiner(s)",
+			"contacts": [
+				{
+					"active": "false",
+					"contact_department": "",
+					"start_date": "",
+					"offering": {
+						"value": "",
+						"cl_id": null,
+						"key": "display_name"
+					},
+					"contact_role": {
+						"label": "Chief Examiner",
+						"value": "chief_examiner"
+					},
+					"contact_name": "Tim Dwyer",
+					"role_detail": "",
+					"contact_organisation": "",
+					"contact_title": "Dr",
+					"order": "",
+					"contact_phone": "",
+					"end_date": "",
+					"location": {
+						"value": "",
+						"cl_id": null,
+						"key": "name"
+					},
+					"contact_email": "Tim.Dwyer@monash.edu",
+					"contact_url": "",
+					"user": {
+						"value": "Tim Dwyer",
+						"cl_id": "a2128b50dbb8b300580f42a01496194c",
+						"key": ""
+					},
+					"offerings": [],
+					"applies_to_all_offerings": "true",
+					"linking_id": "1410d06cdb74b3003a731c0e04961946",
+					"cl_id": "d4cbe415db2cfd90101196cbd39619f2",
+					"display_details": "Tim.Dwyer@monash.edu",
+					"display_name": "Dr Tim Dwyer ",
+					"offerings_formatted_contact": "<ul><li>Applies to all offerings</ul></li>",
+					"display_role_plural": "Chief Examiner(s)",
+					"links": []
+				}
+			]
+		},
+		{
+			"role": "Unit Coordinator(s)",
+			"contacts": [
+				{
+					"active": "true",
+					"contact_department": "",
+					"start_date": "",
+					"offering": {
+						"value": "",
+						"cl_id": null,
+						"key": "display_name"
+					},
+					"contact_role": {
+						"label": "Unit Coordinator",
+						"value": "unit_coordinator"
+					},
+					"contact_name": "Arghya Pal",
+					"role_detail": "",
+					"contact_organisation": "",
+					"contact_title": "Dr",
+					"order": "1",
+					"contact_phone": "",
+					"end_date": "",
+					"location": {
+						"value": "",
+						"cl_id": null,
+						"key": "name"
+					},
+					"contact_email": "Arghya.Pal@monash.edu",
+					"contact_url": "",
+					"user": {
+						"value": "Arghya Pal",
+						"cl_id": "b8aea933dbd0ad50101196cbd396199d",
+						"key": ""
+					},
+					"offerings": [
+						{
+							"value": "S2-01-MALAYSIA-ON-CAMPUS",
+							"cl_id": "90cbe415db2cfd90101196cbd39619f2",
+							"key": "display_name"
+						}
+					],
+					"applies_to_all_offerings": "false",
+					"linking_id": "d6ad56c6db48f1502bdd077cd396196f",
+					"cl_id": "d8cbe415db2cfd90101196cbd39619f2",
+					"display_details": "Arghya.Pal@monash.edu",
+					"display_name": "Dr Arghya Pal ",
+					"offerings_formatted_contact": "<ul><li>Second semester, Malaysia, On-campus</li></ul>",
+					"display_role_plural": "Unit Coordinator(s)",
+					"links": []
+				}
+			]
+		}
+	],
+	"links": [],
+	"yearSwitcher": [
+		{
+			"label": "2020",
+			"value": "2020",
+			"href": "/2020/units/FIT2102?year=2020"
+		},
+		{
+			"label": "2021",
+			"value": "2021",
+			"href": "/2021/units/FIT2102?year=2021"
+		},
+		{
+			"label": "2022",
+			"value": "2022",
+			"href": "/2022/units/FIT2102?year=2022"
+		},
+		{
+			"label": "2023",
+			"value": "2023",
+			"href": "/2023/units/FIT2102?year=2023"
+		}
+	],
+	"university": "Monash University"
+}

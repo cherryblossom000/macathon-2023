@@ -1,0 +1,715 @@
+{
+	"contentTypeLabel": "Unit",
+	"published_in_handbook": {
+		"label": "Yes",
+		"value": "1"
+	},
+	"implementation_year": "2023",
+	"duration_ft_max": "",
+	"asced_detailed": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"grading_schema": {
+		"label": null,
+		"value": null
+	},
+	"study_level": [],
+	"quota_enrolment_requirements": "",
+	"status": {
+		"label": "Accredited",
+		"value": "Active"
+	},
+	"duration_pt_max": "",
+	"duration_pt_std": "",
+	"credit_points": "6",
+	"parent_id": {
+		"value": "Master Record: FIT3181",
+		"cl_id": "95b42a50dbf4b300580f42a0149619b6",
+		"key": "code",
+		"type": "x_f5sl_cl_master_record"
+	},
+	"start_date": "",
+	"exclusions": "",
+	"unit_code": "FIT3181",
+	"academic_org": {
+		"value": "Faculty of Information Technology",
+		"cl_id": "c5684a53dba8a3406add773c349619a1",
+		"key": "name"
+	},
+	"sms_version": "",
+	"level": {
+		"label": "Level 3",
+		"value": "4"
+	},
+	"uac_code": "",
+	"special_requirements": "",
+	"duration_pt_min": "",
+	"special_unit_type": [],
+	"title": "Deep learning",
+	"duration_ft_std": "",
+	"version": "6",
+	"learning_experiences": null,
+	"duration_ft_min": "",
+	"callista_version": "",
+	"duration_ft_period": {
+		"label": null,
+		"value": null
+	},
+	"asced_narrow": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"subclass": {
+		"label": "Unit",
+		"value": "subject"
+	},
+	"type": {
+		"label": "Coursework",
+		"value": "600"
+	},
+	"quota_rationale": "",
+	"version_name": "2023.06",
+	"timetable_this_unit": "true",
+	"work_integrated_learning": [
+		{
+			"value": "None",
+			"cl_id": "8ef5d77bdb122300e5cf3391f496191d",
+			"key": "label"
+		}
+	],
+	"cl_id": "7b22eca9db6cf1102bdd077cd39619dc",
+	"school": {
+		"value": "Faculty of Information Technology",
+		"cl_id": "c5684a53dba8a3406add773c349619a1",
+		"key": "name"
+	},
+	"content": null,
+	"learning_and_teaching_resources": null,
+	"collaborating_disciplines": [],
+	"repeatable": "false",
+	"overview": "",
+	"end_date": "",
+	"duration_pt_period": {
+		"label": null,
+		"value": null
+	},
+	"sms_status": {
+		"label": null,
+		"value": null
+	},
+	"learning_materials": null,
+	"special_topic": "false",
+	"asced_broad": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"publish_tuition_fees": "true",
+	"placement_proportion": {
+		"label": null,
+		"value": null
+	},
+	"code": "FIT3181",
+	"other_unit_costs": "",
+	"eftsl": {
+		"label": "0.125",
+		"value": "0.125"
+	},
+	"contact_information": "",
+	"highest_sca_band": {
+		"label": "SCA Band 2",
+		"value": "2"
+	},
+	"lo_additional_information": "<p>On successful completion of this unit, you should be able to:</p>",
+	"handbook_assessment_summary": "<p>This unit has threshold mark hurdles. You must attempt all assessments, achieve at least 40% in the midterm exam and an overall unit mark of 50% or more to pass the unit. If you do not achieve the threshold mark, you will receive a fail grade (NH) and a maximum mark of 45 for the unit.</p>",
+	"quota_information": "",
+	"attendance_requirements": "",
+	"workload_requirements": "<p>Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled teaching activities.</p>",
+	"organisational_contact_information": "",
+	"handbook_synopsis": "<p>Deep learning (DL) has been fuelling Artificial Intelligence (AI) and the Fourth Industrial Revolution in recent years. The success of DL in many applications, including generative AI such as ChatGPT or DALL·E, has gained rocketed attention and becomes a highly demanded skill across industries and sectors. It is transforming innovations, powering new applications and impact our society in everyday activities. In this unit, the students will learn the foundations of deep learning theory within a broader context of machine learning. At the same time, they will gain hands-on practical skills on how to apply DL to real-world applications across a range of AI cognitive tasks in computer vision such as image and object recognition, in natural language processing such as text classification using deep neural embeddings. Learning activities will focus on understand the fundamental concepts in DL such as neural networks (NN), convolutional NN, backpropagation and optimisation for deep learning, adversarial robustness, attention mechanism, transformer, important concepts in deep generative AI (VAE, GAN), in combination with laboratory sessions to gain hands-on experiences.</p>",
+	"special_note_to_students": "",
+	"undergrad_postgrad_both": {
+		"label": "Undergraduate",
+		"value": "undergraduate"
+	},
+	"area_of_study_links": "Data Science, Computer Science, Artificial Intelligence<br />",
+	"fieldwork": "",
+	"unit_learning_outcomes": [
+		{
+			"lo_domain": [],
+			"order": "1",
+			"number": "1",
+			"code": "ULO1",
+			"lo_cl_id": "372220e9db6cf1102bdd077cd3961992",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "bb7af0acdbf4b3003a731c0e0496198a",
+			"academic_item": {
+				"value": "FIT3181",
+				"cl_id": "7b22eca9db6cf1102bdd077cd39619dc",
+				"key": "code"
+			},
+			"description": "<p>Describe basic and advanced concepts of machine learning, AI, and deep learning</p>",
+			"cl_id": "372220e9db6cf1102bdd077cd3961992",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "4",
+			"number": "4",
+			"code": "ULO4",
+			"lo_cl_id": "732220e9db6cf1102bdd077cd3961992",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "c96bf020db38b3003a731c0e049619b2",
+			"academic_item": {
+				"value": "FIT3181",
+				"cl_id": "7b22eca9db6cf1102bdd077cd39619dc",
+				"key": "code"
+			},
+			"description": "<p>Construct deep neural networks, convolutional NNs, RNN, deep generative models and apply different strategies for training them</p>",
+			"cl_id": "732220e9db6cf1102bdd077cd3961992",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "3",
+			"number": "3",
+			"code": "ULO3",
+			"lo_cl_id": "bb2220e9db6cf1102bdd077cd3961992",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "7c1b38ecdbf4b3003a731c0e04961936",
+			"academic_item": {
+				"value": "FIT3181",
+				"cl_id": "7b22eca9db6cf1102bdd077cd39619dc",
+				"key": "code"
+			},
+			"description": "<p>Explain fundamental elements of deep learning.</p>",
+			"cl_id": "bb2220e9db6cf1102bdd077cd3961992",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "5",
+			"number": "5",
+			"code": "ULO5",
+			"lo_cl_id": "bf2220e9db6cf1102bdd077cd3961991",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "1b1abfc81b2b2190f1eca68b274bcb69",
+			"academic_item": {
+				"value": "FIT3181",
+				"cl_id": "7b22eca9db6cf1102bdd077cd39619dc",
+				"key": "code"
+			},
+			"description": "<p>Apply DL models in real-world applications such as image classification, text translation, image/text generation</p>",
+			"cl_id": "bf2220e9db6cf1102bdd077cd3961991",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "2",
+			"number": "2",
+			"code": "ULO2",
+			"lo_cl_id": "f72220e9db6cf1102bdd077cd3961991",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "81faf0ecdbf4b3003a731c0e049619c0",
+			"academic_item": {
+				"value": "FIT3181",
+				"cl_id": "7b22eca9db6cf1102bdd077cd39619dc",
+				"key": "code"
+			},
+			"description": "<p>Assess what deep learning is, what makes deep learning work or fail, and critique where they should be applied.</p>",
+			"cl_id": "f72220e9db6cf1102bdd077cd3961991",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "6",
+			"number": "6",
+			"code": "ULO6",
+			"lo_cl_id": "f72220e9db6cf1102bdd077cd3961992",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "cf2abfc81b2b2190f1eca68b274bcb6c",
+			"academic_item": {
+				"value": "FIT3181",
+				"cl_id": "7b22eca9db6cf1102bdd077cd39619dc",
+				"key": "code"
+			},
+			"description": "<p>Develop critical thinking and obtain hands-on experiences with practical deep learning models and frameworks</p>",
+			"cl_id": "f72220e9db6cf1102bdd077cd3961992",
+			"ga_map": []
+		}
+	],
+	"school_org_unit_data": [
+		{
+			"parent": {
+				"value": "",
+				"cl_id": null,
+				"key": "name"
+			},
+			"url": "https://www.monash.edu/it",
+			"name": "Faculty of Information Technology",
+			"cl_id": "c5684a53dba8a3406add773c349619a1"
+		}
+	],
+	"assessments": [
+		{
+			"subject": {
+				"value": "FIT3181",
+				"cl_id": "7b22eca9db6cf1102bdd077cd39619dc",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "1",
+			"weight": "25",
+			"cl_id": "0c3220e9db6cf1102bdd077cd3961995",
+			"assessment_name": "Assignment 1",
+			"description": null,
+			"assessment_type": {
+				"label": "Assignment",
+				"value": "assignment"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT3181",
+				"cl_id": "7b22eca9db6cf1102bdd077cd39619dc",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "4",
+			"weight": "10",
+			"cl_id": "0c3220e9db6cf1102bdd077cd3961996",
+			"assessment_name": "Quiz 2",
+			"description": null,
+			"assessment_type": {
+				"label": "Other",
+				"value": "other"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT3181",
+				"cl_id": "7b22eca9db6cf1102bdd077cd39619dc",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "3",
+			"weight": "20",
+			"cl_id": "483220e9db6cf1102bdd077cd3961996",
+			"assessment_name": "Assignment 2",
+			"description": null,
+			"assessment_type": {
+				"label": "Assignment",
+				"value": "assignment"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT3181",
+				"cl_id": "7b22eca9db6cf1102bdd077cd39619dc",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "2",
+			"weight": "10",
+			"cl_id": "843220e9db6cf1102bdd077cd3961996",
+			"assessment_name": "Quiz 1",
+			"description": null,
+			"assessment_type": {
+				"label": "Other",
+				"value": "other"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT3181",
+				"cl_id": "7b22eca9db6cf1102bdd077cd39619dc",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": "Threshold",
+				"value": "threshold"
+			},
+			"hurdle_supplementary_assessment": "<p>This task is part of the in-semester assessment hurdle.</p>",
+			"number": "5",
+			"weight": "35",
+			"cl_id": "c03220e9db6cf1102bdd077cd3961996",
+			"assessment_name": "Mid term test",
+			"description": null,
+			"assessment_type": {
+				"label": "Other",
+				"value": "other"
+			},
+			"offerings_formatted": ""
+		}
+	],
+	"enrolment_rules": [],
+	"requisites": [
+		{
+			"academic_item_code": "FIT3181",
+			"active": "true",
+			"requisite_cl_id": "b722eca9db6cf1102bdd077cd39619df",
+			"description": "",
+			"requisite_type": {
+				"label": "Prerequisite",
+				"value": "prerequisite"
+			},
+			"cl_id": {
+				"value": "FIT3181",
+				"cl_id": "7b22eca9db6cf1102bdd077cd39619dc",
+				"key": "code"
+			},
+			"academic_item_version_number": "2023.06",
+			"order": "",
+			"start_date": "",
+			"end_date": "",
+			"container": [
+				{
+					"cl_id": "8c326465db6831d0101196cbd3961980",
+					"parent_container_table": "x_f5sl_cl_requisite",
+					"parent_record": {
+						"value": "Relationship Builder: FIT3181",
+						"cl_id": "b722eca9db6cf1102bdd077cd39619df",
+						"key": "academic_item",
+						"type": "x_f5sl_cl_requisite"
+					},
+					"title": "Container 1",
+					"parent_connector": {
+						"label": "AND",
+						"value": "AND"
+					},
+					"containers": [],
+					"relationships": [
+						{
+							"academic_item": {
+								"value": "Unit: FIT2086",
+								"cl_id": "eca4ee10dbf4b300580f42a01496197d",
+								"key": "code",
+								"type": "x_f5sl_cl_subjects"
+							},
+							"parent_record": {
+								"value": "Container 1",
+								"cl_id": "8c326465db6831d0101196cbd3961980",
+								"key": "title"
+							},
+							"order": "1",
+							"cl_id": "eca4ee10dbf4b300580f42a01496197d",
+							"academic_item_type": {
+								"label": "Unit",
+								"value": "subject"
+							},
+							"abbr_name": "MODELLING DATA",
+							"academic_item_version_name": "2019.01",
+							"academic_item_credit_points": "6",
+							"abbreviated_name_and_major": null,
+							"academic_item_name": "Modelling for data analysis",
+							"academic_item_code": "FIT2086",
+							"academic_item_url": "/2019/units/FIT2086"
+						}
+					]
+				}
+			]
+		}
+	],
+	"unit_offering": [
+		{
+			"fees_domestic": "",
+			"publish": "true",
+			"location": {
+				"value": "Clayton",
+				"cl_id": "37f321e1db30a7406add773c3496192e",
+				"key": "name"
+			},
+			"name": "FIT3181-S2-01-ON-CAMPUS-CLAYTON",
+			"clarification_to_appear_in_handbook": "",
+			"display_name": "S2-01-CLAYTON-ON-CAMPUS",
+			"teaching_period": {
+				"value": "Second semester",
+				"cl_id": "85a429a1db30a7406add773c3496190d",
+				"key": "name"
+			},
+			"attendance_mode": {
+				"value": "On-campus",
+				"cl_id": "7bf2311bdb68a3406add773c349619bb",
+				"key": "description"
+			},
+			"quota_number": "",
+			"study_level": {
+				"label": null,
+				"value": null
+			},
+			"offered": "true",
+			"self_enrol": "true",
+			"academic_item": {
+				"value": "FIT3181",
+				"cl_id": "7b22eca9db6cf1102bdd077cd39619dc",
+				"key": "code"
+			},
+			"fees_commonwealth": "",
+			"fees_international": "",
+			"course_restrictions": "",
+			"cl_id": "3f22eca9db6cf1102bdd077cd39619e0"
+		},
+		{
+			"fees_domestic": "",
+			"publish": "true",
+			"location": {
+				"value": "Malaysia",
+				"cl_id": "7bf321e1db30a7406add773c3496192f",
+				"key": "name"
+			},
+			"name": "FIT3181-S2-01-ON-CAMPUS-MALAYSIA",
+			"clarification_to_appear_in_handbook": "",
+			"display_name": "S2-01-MALAYSIA-ON-CAMPUS",
+			"teaching_period": {
+				"value": "Second semester",
+				"cl_id": "85a429a1db30a7406add773c3496190d",
+				"key": "name"
+			},
+			"attendance_mode": {
+				"value": "On-campus",
+				"cl_id": "7bf2311bdb68a3406add773c349619bb",
+				"key": "description"
+			},
+			"quota_number": "",
+			"study_level": {
+				"label": null,
+				"value": null
+			},
+			"offered": "true",
+			"self_enrol": "true",
+			"academic_item": {
+				"value": "FIT3181",
+				"cl_id": "7b22eca9db6cf1102bdd077cd39619dc",
+				"key": "code"
+			},
+			"fees_commonwealth": "",
+			"fees_international": "",
+			"course_restrictions": "",
+			"cl_id": "3f22eca9db6cf1102bdd077cd39619e1"
+		}
+	],
+	"enrolment_rules_group": [],
+	"learning_resources_grouped": [],
+	"study_abroad_unit": "Yes",
+	"academic_item_type": "Unit",
+	"learning_activities_grouped": [
+		{
+			"activity_type": "Seminars",
+			"activities": [
+				{
+					"subject": {
+						"value": "FIT3181",
+						"cl_id": "7b22eca9db6cf1102bdd077cd39619dc",
+						"key": "code"
+					},
+					"cl_id": "403220e9db6cf1102bdd077cd3961995",
+					"order": "2",
+					"description": "",
+					"activity_type": {
+						"label": "Seminars",
+						"value": "seminar"
+					},
+					"duration_display": "24 hours",
+					"offerings_formatted_teaching_activities": "<ul><li>Applies to all offerings</li></ul>",
+					"links": []
+				}
+			]
+		},
+		{
+			"activity_type": "Laboratories",
+			"activities": [
+				{
+					"subject": {
+						"value": "FIT3181",
+						"cl_id": "7b22eca9db6cf1102bdd077cd39619dc",
+						"key": "code"
+					},
+					"cl_id": "c43220e9db6cf1102bdd077cd3961995",
+					"order": "1",
+					"description": "",
+					"activity_type": {
+						"label": "Laboratories",
+						"value": "laboratory"
+					},
+					"duration_display": "24 hours",
+					"offerings_formatted_teaching_activities": "<ul><li>Applies to all offerings</li></ul>",
+					"links": []
+				}
+			]
+		}
+	],
+	"search_title": "FIT3181 - Deep learning",
+	"unit_search_title": "FIT3181 - Deep learning",
+	"teaching_approaches": [
+		{
+			"type": {
+				"label": "Active learning",
+				"value": "active_learning"
+			},
+			"academic_item": {
+				"value": "FIT3181",
+				"cl_id": "7b22eca9db6cf1102bdd077cd39619dc",
+				"key": "code"
+			},
+			"cl_id": "fb2220e9db6cf1102bdd077cd3961993",
+			"description": "<p>&nbsp;</p>",
+			"links": []
+		}
+	],
+	"handbook_statement": null,
+	"academic_contact_roles": [
+		{
+			"role": "Chief Examiner(s)",
+			"contacts": [
+				{
+					"active": "true",
+					"contact_department": "",
+					"start_date": "",
+					"offering": {
+						"value": "",
+						"cl_id": null,
+						"key": "display_name"
+					},
+					"contact_role": {
+						"label": "Chief Examiner",
+						"value": "chief_examiner"
+					},
+					"contact_name": "Dinh Phung",
+					"role_detail": "",
+					"contact_organisation": "",
+					"contact_title": "Professor",
+					"order": "1",
+					"contact_phone": "",
+					"end_date": "",
+					"location": {
+						"value": "",
+						"cl_id": null,
+						"key": "name"
+					},
+					"contact_email": "Dinh.Phung@monash.edu",
+					"contact_url": "",
+					"user": {
+						"value": "Dinh Phung",
+						"cl_id": "62d1cfdcdb78b300580f42a0149619a9",
+						"key": ""
+					},
+					"offerings": [],
+					"applies_to_all_offerings": "true",
+					"linking_id": "9c6baa46dbdb91902bdd077cd3961942",
+					"cl_id": "7322eca9db6cf1102bdd077cd39619e2",
+					"display_details": "Dinh.Phung@monash.edu",
+					"display_name": "Professor Dinh Phung ",
+					"offerings_formatted_contact": "<ul><li>Applies to all offerings</ul></li>",
+					"display_role_plural": "Chief Examiner(s)",
+					"links": []
+				}
+			]
+		},
+		{
+			"role": "Unit Coordinator(s)",
+			"contacts": [
+				{
+					"active": "true",
+					"contact_department": "",
+					"start_date": "",
+					"offering": {
+						"value": "",
+						"cl_id": null,
+						"key": "display_name"
+					},
+					"contact_role": {
+						"label": "Unit Coordinator",
+						"value": "unit_coordinator"
+					},
+					"contact_name": "Lim Chern Hong",
+					"role_detail": "(Malaysia)",
+					"contact_organisation": "",
+					"contact_title": "Dr",
+					"order": "0",
+					"contact_phone": "",
+					"end_date": "",
+					"location": {
+						"value": "",
+						"cl_id": null,
+						"key": "name"
+					},
+					"contact_email": "Lim.ChernHong@monash.edu",
+					"contact_url": "",
+					"user": {
+						"value": "Lim Chern Hong",
+						"cl_id": "721ece8cdb2ed090ffb02c5305961965",
+						"key": ""
+					},
+					"offerings": [
+						{
+							"value": "S2-01-MALAYSIA-ON-CAMPUS",
+							"cl_id": "3f22eca9db6cf1102bdd077cd39619e1",
+							"key": "display_name"
+						}
+					],
+					"applies_to_all_offerings": "false",
+					"linking_id": "f5cb3ac61be71090f1eca68b274bcbd2",
+					"cl_id": "7b2220e9db6cf1102bdd077cd3961990",
+					"display_details": "Lim.ChernHong@monash.edu",
+					"display_name": "Dr Lim Chern Hong ",
+					"offerings_formatted_contact": "<ul><li>Second semester, Malaysia, On-campus</li></ul>",
+					"display_role_plural": "Unit Coordinator(s)",
+					"links": []
+				}
+			]
+		}
+	],
+	"links": [],
+	"yearSwitcher": [
+		{
+			"label": "2020",
+			"value": "2020",
+			"href": "/2020/units/FIT3181?year=2020"
+		},
+		{
+			"label": "2021",
+			"value": "2021",
+			"href": "/2021/units/FIT3181?year=2021"
+		},
+		{
+			"label": "2022",
+			"value": "2022",
+			"href": "/2022/units/FIT3181?year=2022"
+		},
+		{
+			"label": "2023",
+			"value": "2023",
+			"href": "/2023/units/FIT3181?year=2023"
+		}
+	],
+	"university": "Monash University"
+}

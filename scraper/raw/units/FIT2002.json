@@ -1,0 +1,906 @@
+{
+	"contentTypeLabel": "Unit",
+	"published_in_handbook": {
+		"label": "Yes",
+		"value": "1"
+	},
+	"implementation_year": "2023",
+	"duration_ft_max": "",
+	"asced_detailed": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"grading_schema": {
+		"label": null,
+		"value": null
+	},
+	"study_level": [],
+	"quota_enrolment_requirements": "",
+	"status": {
+		"label": "Accredited",
+		"value": "Active"
+	},
+	"duration_pt_max": "",
+	"duration_pt_std": "",
+	"credit_points": "6",
+	"parent_id": {
+		"value": "Master Record: FIT2002",
+		"cl_id": "ef946e10dbf4b300580f42a01496195a",
+		"key": "code",
+		"type": "x_f5sl_cl_master_record"
+	},
+	"start_date": "",
+	"exclusions": "",
+	"unit_code": "FIT2002",
+	"academic_org": {
+		"value": "Faculty of Information Technology",
+		"cl_id": "c5684a53dba8a3406add773c349619a1",
+		"key": "name"
+	},
+	"sms_version": "",
+	"level": {
+		"label": "Level 2",
+		"value": "3"
+	},
+	"uac_code": "",
+	"special_requirements": "",
+	"duration_pt_min": "",
+	"special_unit_type": [],
+	"title": "IT project management",
+	"duration_ft_std": "",
+	"version": "5",
+	"learning_experiences": null,
+	"duration_ft_min": "",
+	"callista_version": "",
+	"duration_ft_period": {
+		"label": null,
+		"value": null
+	},
+	"asced_narrow": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"subclass": {
+		"label": "Unit",
+		"value": "subject"
+	},
+	"type": {
+		"label": "Coursework",
+		"value": "600"
+	},
+	"quota_rationale": "",
+	"version_name": "2023.05",
+	"timetable_this_unit": "true",
+	"work_integrated_learning": [
+		{
+			"value": "None",
+			"cl_id": "8ef5d77bdb122300e5cf3391f496191d",
+			"key": "label"
+		}
+	],
+	"cl_id": "8e91d630dbec7d90101196cbd39619da",
+	"school": {
+		"value": "Faculty of Information Technology",
+		"cl_id": "c5684a53dba8a3406add773c349619a1",
+		"key": "name"
+	},
+	"content": null,
+	"learning_and_teaching_resources": null,
+	"collaborating_disciplines": [],
+	"repeatable": "false",
+	"overview": "",
+	"end_date": "",
+	"duration_pt_period": {
+		"label": null,
+		"value": null
+	},
+	"sms_status": {
+		"label": null,
+		"value": null
+	},
+	"learning_materials": null,
+	"special_topic": "false",
+	"asced_broad": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"publish_tuition_fees": "true",
+	"placement_proportion": {
+		"label": null,
+		"value": null
+	},
+	"code": "FIT2002",
+	"other_unit_costs": "",
+	"eftsl": {
+		"label": "0.125",
+		"value": "0.125"
+	},
+	"contact_information": "",
+	"highest_sca_band": {
+		"label": "SCA Band 4",
+		"value": "4"
+	},
+	"lo_additional_information": "<p>On successful completion of this unit, you should be able to:</p>",
+	"handbook_assessment_summary": "",
+	"quota_information": "",
+	"attendance_requirements": "",
+	"workload_requirements": "<p>This unit has a requirement of 1-2 hours per week of asynchronous learning.</p>\n<p>Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled teaching activities.</p>",
+	"organisational_contact_information": "",
+	"handbook_synopsis": "<p>This unit introduces students to the many concepts, tools and techniques for managing information technology projects. Exploring traditional and agile approaches for managing projects, topics include project lifecycles, project planning, project scheduling, team building, risk management, time and quality management. A case study approach will be used to provide learning opportunities, with an emphasis on the unique aspects of information technology projects.</p>",
+	"special_note_to_students": "",
+	"undergrad_postgrad_both": {
+		"label": "Undergraduate",
+		"value": "undergraduate"
+	},
+	"area_of_study_links": "",
+	"fieldwork": "",
+	"unit_learning_outcomes": [
+		{
+			"lo_domain": [],
+			"order": "5",
+			"number": "5",
+			"code": "ULO5",
+			"lo_cl_id": "0e915a30dbec7d90101196cbd3961988",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "33bb3060db38b3003a731c0e049619d7",
+			"academic_item": {
+				"value": "FIT2002",
+				"cl_id": "8e91d630dbec7d90101196cbd39619da",
+				"key": "code"
+			},
+			"description": "<p>Apply collaborative strategies to support effective teamwork in modern IT projects.</p>",
+			"cl_id": "0e915a30dbec7d90101196cbd3961988",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "3",
+			"number": "3",
+			"code": "ULO3",
+			"lo_cl_id": "0e915a30dbec7d90101196cbd3961989",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "9d4bfcecdbf4b3003a731c0e04961979",
+			"academic_item": {
+				"value": "FIT2002",
+				"cl_id": "8e91d630dbec7d90101196cbd39619da",
+				"key": "code"
+			},
+			"description": "<p>Recommend project management and critical thinking strategies and techniques for modern IT projects;</p>",
+			"cl_id": "0e915a30dbec7d90101196cbd3961989",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "4",
+			"number": "4",
+			"code": "ULO4",
+			"lo_cl_id": "4a915a30dbec7d90101196cbd3961989",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "e16bf020db38b3003a731c0e049619f5",
+			"academic_item": {
+				"value": "FIT2002",
+				"cl_id": "8e91d630dbec7d90101196cbd39619da",
+				"key": "code"
+			},
+			"description": "<p>Create a collaborative ICT project plan using the PMBOK areas for a given case-study;</p>",
+			"cl_id": "4a915a30dbec7d90101196cbd3961989",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "1",
+			"number": "1",
+			"code": "ULO1",
+			"lo_cl_id": "86915a30dbec7d90101196cbd3961989",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "5c9a74acdbf4b3003a731c0e049619db",
+			"academic_item": {
+				"value": "FIT2002",
+				"cl_id": "8e91d630dbec7d90101196cbd39619da",
+				"key": "code"
+			},
+			"description": "<p>Apply the 10 Project Management Body of Knowledge (PMBOK) areas to modern IT projects;</p>",
+			"cl_id": "86915a30dbec7d90101196cbd3961989",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "2",
+			"number": "2",
+			"code": "ULO2",
+			"lo_cl_id": "c2915a30dbec7d90101196cbd3961989",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "96ca7cacdbf4b3003a731c0e04961948",
+			"academic_item": {
+				"value": "FIT2002",
+				"cl_id": "8e91d630dbec7d90101196cbd39619da",
+				"key": "code"
+			},
+			"description": "<p>Create IT project governance &amp; compliance frameworks needed to manage modern IT projects;</p>",
+			"cl_id": "c2915a30dbec7d90101196cbd3961989",
+			"ga_map": []
+		}
+	],
+	"school_org_unit_data": [
+		{
+			"parent": {
+				"value": "",
+				"cl_id": null,
+				"key": "name"
+			},
+			"url": "https://www.monash.edu/it",
+			"name": "Faculty of Information Technology",
+			"cl_id": "c5684a53dba8a3406add773c349619a1"
+		}
+	],
+	"assessments": [
+		{
+			"subject": {
+				"value": "FIT2002",
+				"cl_id": "8e91d630dbec7d90101196cbd39619da",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "2",
+			"weight": "20",
+			"cl_id": "12915a30dbec7d90101196cbd396198e",
+			"assessment_name": "Portfolio and report",
+			"description": null,
+			"assessment_type": {
+				"label": "Other",
+				"value": "other"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT2002",
+				"cl_id": "8e91d630dbec7d90101196cbd39619da",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "3",
+			"weight": "40",
+			"cl_id": "9a915a30dbec7d90101196cbd396198e",
+			"assessment_name": "Assignment 2",
+			"description": null,
+			"assessment_type": {
+				"label": "Assignment",
+				"value": "assignment"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT2002",
+				"cl_id": "8e91d630dbec7d90101196cbd39619da",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "1",
+			"weight": "40",
+			"cl_id": "d6915a30dbec7d90101196cbd396198e",
+			"assessment_name": "Assignment 1",
+			"description": null,
+			"assessment_type": {
+				"label": "Assignment",
+				"value": "assignment"
+			},
+			"offerings_formatted": ""
+		}
+	],
+	"enrolment_rules": [
+		{
+			"description": "<p>Prerequisite: As well as completion of at least 36 credit points of study.</p>",
+			"academic_item": {
+				"value": "FIT2002",
+				"cl_id": "8e91d630dbec7d90101196cbd39619da",
+				"key": "code"
+			},
+			"type": {
+				"label": "Enrolment Rule",
+				"value": "info"
+			},
+			"cl_id": "42915a30dbec7d90101196cbd396198a"
+		}
+	],
+	"requisites": [
+		{
+			"academic_item_code": "FIT2002",
+			"active": "true",
+			"requisite_cl_id": "4a915a30dbec7d90101196cbd3961984",
+			"description": "",
+			"requisite_type": {
+				"label": "Prerequisite",
+				"value": "prerequisite"
+			},
+			"cl_id": {
+				"value": "FIT2002",
+				"cl_id": "8e91d630dbec7d90101196cbd39619da",
+				"key": "code"
+			},
+			"academic_item_version_number": "2023.05",
+			"order": "2",
+			"start_date": "",
+			"end_date": "",
+			"container": [
+				{
+					"cl_id": "96915a30dbec7d90101196cbd3961959",
+					"parent_container_table": "x_f5sl_cl_requisite",
+					"parent_record": {
+						"value": "Relationship Builder: FIT2002",
+						"cl_id": "4a915a30dbec7d90101196cbd3961984",
+						"key": "academic_item",
+						"type": "x_f5sl_cl_requisite"
+					},
+					"title": "Container 1",
+					"parent_connector": {
+						"label": "OR",
+						"value": "OR"
+					},
+					"containers": [],
+					"relationships": [
+						{
+							"academic_item": {
+								"value": "Unit: FIT1045",
+								"cl_id": "459d96b2db4929902bdd077cd39619c1",
+								"key": "code",
+								"type": "x_f5sl_cl_subjects"
+							},
+							"parent_record": {
+								"value": "Container 1",
+								"cl_id": "96915a30dbec7d90101196cbd3961959",
+								"key": "title"
+							},
+							"order": "2",
+							"cl_id": "459d96b2db4929902bdd077cd39619c1",
+							"academic_item_type": {
+								"label": "Unit",
+								"value": "subject"
+							},
+							"abbr_name": "INTRO TO PROGRAMMING",
+							"academic_item_version_name": "2023.05",
+							"academic_item_credit_points": "6",
+							"abbreviated_name_and_major": null,
+							"academic_item_name": "Introduction to programming",
+							"academic_item_code": "FIT1045",
+							"academic_item_url": "/2023/units/FIT1045"
+						},
+						{
+							"academic_item": {
+								"value": "Unit: ENG1003",
+								"cl_id": "45c7219c1b2da110f1eca68b274bcb47",
+								"key": "code",
+								"type": "x_f5sl_cl_subjects"
+							},
+							"parent_record": {
+								"value": "Container 1",
+								"cl_id": "96915a30dbec7d90101196cbd3961959",
+								"key": "title"
+							},
+							"order": "6",
+							"cl_id": "45c7219c1b2da110f1eca68b274bcb47",
+							"academic_item_type": {
+								"label": "Unit",
+								"value": "subject"
+							},
+							"abbr_name": "ENGMOBILEAPPS",
+							"academic_item_version_name": "2023.02",
+							"academic_item_credit_points": "6",
+							"abbreviated_name_and_major": null,
+							"academic_item_name": "Engineering mobile apps",
+							"academic_item_code": "ENG1003",
+							"academic_item_url": "/2023/units/ENG1003"
+						},
+						{
+							"academic_item": {
+								"value": "Unit: FIT1048",
+								"cl_id": "51d976a9db1f11902bdd077cd396192b",
+								"key": "code",
+								"type": "x_f5sl_cl_subjects"
+							},
+							"parent_record": {
+								"value": "Container 1",
+								"cl_id": "96915a30dbec7d90101196cbd3961959",
+								"key": "title"
+							},
+							"order": "3",
+							"cl_id": "51d976a9db1f11902bdd077cd396192b",
+							"academic_item_type": {
+								"label": "Unit",
+								"value": "subject"
+							},
+							"abbr_name": "FUNDAMENTALS OF C++",
+							"academic_item_version_name": "2023.02",
+							"academic_item_credit_points": "6",
+							"abbreviated_name_and_major": null,
+							"academic_item_name": "Fundamentals of C++",
+							"academic_item_code": "FIT1048",
+							"academic_item_url": "/2023/units/FIT1048"
+						},
+						{
+							"academic_item": {
+								"value": "Unit: ENG1013",
+								"cl_id": "88918221dbc86910101196cbd3961924",
+								"key": "code",
+								"type": "x_f5sl_cl_subjects"
+							},
+							"parent_record": {
+								"value": "Container 1",
+								"cl_id": "96915a30dbec7d90101196cbd3961959",
+								"key": "title"
+							},
+							"order": "7",
+							"cl_id": "88918221dbc86910101196cbd3961924",
+							"academic_item_type": {
+								"label": "Unit",
+								"value": "subject"
+							},
+							"abbr_name": "ENG SMARTSYS",
+							"academic_item_version_name": "2023.06",
+							"academic_item_credit_points": "6",
+							"abbreviated_name_and_major": null,
+							"academic_item_name": "Engineering smart systems",
+							"academic_item_code": "ENG1013",
+							"academic_item_url": "/2023/units/ENG1013"
+						},
+						{
+							"academic_item": {
+								"value": "Unit: FIT1051",
+								"cl_id": "56c4cc80dbd46150101196cbd39619ee",
+								"key": "code",
+								"type": "x_f5sl_cl_subjects"
+							},
+							"parent_record": {
+								"value": "Container 1",
+								"cl_id": "96915a30dbec7d90101196cbd3961959",
+								"key": "title"
+							},
+							"order": "4",
+							"cl_id": "56c4cc80dbd46150101196cbd39619ee",
+							"academic_item_type": {
+								"label": "Unit",
+								"value": "subject"
+							},
+							"abbr_name": "PROGFUNDTALSINJAVA",
+							"academic_item_version_name": "2023.05",
+							"academic_item_credit_points": "6",
+							"abbreviated_name_and_major": null,
+							"academic_item_name": "Programming fundamentals in java",
+							"academic_item_code": "FIT1051",
+							"academic_item_url": "/2023/units/FIT1051"
+						},
+						{
+							"academic_item": {
+								"value": "Unit: FIT1053",
+								"cl_id": "e7984a2bdbc359502bdd077cd396199d",
+								"key": "code",
+								"type": "x_f5sl_cl_subjects"
+							},
+							"parent_record": {
+								"value": "Container 1",
+								"cl_id": "96915a30dbec7d90101196cbd3961959",
+								"key": "title"
+							},
+							"order": "5",
+							"cl_id": "e7984a2bdbc359502bdd077cd396199d",
+							"academic_item_type": {
+								"label": "Unit",
+								"value": "subject"
+							},
+							"abbr_name": "INTRO PROGRAMMING ADV",
+							"academic_item_version_name": "2023.03",
+							"academic_item_credit_points": "6",
+							"abbreviated_name_and_major": null,
+							"academic_item_name": "Introduction to programming: Advanced",
+							"academic_item_code": "FIT1053",
+							"academic_item_url": "/2023/units/FIT1053"
+						}
+					]
+				}
+			]
+		},
+		{
+			"academic_item_code": "FIT2002",
+			"active": "true",
+			"requisite_cl_id": "c2915a30dbec7d90101196cbd3961985",
+			"description": "",
+			"requisite_type": {
+				"label": "Prohibition",
+				"value": "prohibitions"
+			},
+			"cl_id": {
+				"value": "FIT2002",
+				"cl_id": "8e91d630dbec7d90101196cbd39619da",
+				"key": "code"
+			},
+			"academic_item_version_number": "2023.05",
+			"order": "1",
+			"start_date": "",
+			"end_date": "",
+			"container": [
+				{
+					"cl_id": "5e915a30dbec7d90101196cbd396199e",
+					"parent_container_table": "x_f5sl_cl_requisite",
+					"parent_record": {
+						"value": "Relationship Builder: FIT2002",
+						"cl_id": "c2915a30dbec7d90101196cbd3961985",
+						"key": "academic_item",
+						"type": "x_f5sl_cl_requisite"
+					},
+					"title": "Container 1",
+					"parent_connector": {
+						"label": "AND",
+						"value": "AND"
+					},
+					"containers": [],
+					"relationships": [
+						{
+							"academic_item": {
+								"value": "Unit: FZA2002",
+								"cl_id": "254b655a1b18181413b555b81d4bcb5a",
+								"key": "code",
+								"type": "x_f5sl_cl_subjects"
+							},
+							"parent_record": {
+								"value": "Container 1",
+								"cl_id": "5e915a30dbec7d90101196cbd396199e",
+								"key": "title"
+							},
+							"order": "2",
+							"cl_id": "254b655a1b18181413b555b81d4bcb5a",
+							"academic_item_type": {
+								"label": "Unit",
+								"value": "subject"
+							},
+							"abbr_name": "IT PROJ MGMT",
+							"academic_item_version_name": "2020.02",
+							"academic_item_credit_points": "6",
+							"abbreviated_name_and_major": null,
+							"academic_item_name": "IT project management",
+							"academic_item_code": "FZA2002",
+							"academic_item_url": "/2020/units/FZA2002"
+						}
+					]
+				}
+			]
+		}
+	],
+	"unit_offering": [
+		{
+			"fees_domestic": "",
+			"publish": "true",
+			"location": {
+				"value": "Clayton",
+				"cl_id": "37f321e1db30a7406add773c3496192e",
+				"key": "name"
+			},
+			"name": "FIT2002-S2-01-ON-CAMPUS-CLAYTON",
+			"clarification_to_appear_in_handbook": "",
+			"display_name": "S2-01-CLAYTON-ON-CAMPUS",
+			"teaching_period": {
+				"value": "Second semester",
+				"cl_id": "85a429a1db30a7406add773c3496190d",
+				"key": "name"
+			},
+			"attendance_mode": {
+				"value": "On-campus",
+				"cl_id": "7bf2311bdb68a3406add773c349619bb",
+				"key": "description"
+			},
+			"quota_number": "",
+			"study_level": {
+				"label": null,
+				"value": null
+			},
+			"offered": "true",
+			"self_enrol": "true",
+			"academic_item": {
+				"value": "FIT2002",
+				"cl_id": "8e91d630dbec7d90101196cbd39619da",
+				"key": "code"
+			},
+			"fees_commonwealth": "",
+			"fees_international": "",
+			"course_restrictions": "",
+			"cl_id": "46915a30dbec7d90101196cbd3961986"
+		}
+	],
+	"enrolment_rules_group": [
+		{
+			"rule_group": "Enrolment Rule",
+			"rules": [
+				{
+					"description": "<p>Prerequisite: As well as completion of at least 36 credit points of study.</p>",
+					"academic_item": {
+						"value": "FIT2002",
+						"cl_id": "8e91d630dbec7d90101196cbd39619da",
+						"key": "code"
+					},
+					"type": {
+						"label": "Enrolment Rule",
+						"value": "info"
+					},
+					"cl_id": "42915a30dbec7d90101196cbd396198a",
+					"links": []
+				}
+			]
+		}
+	],
+	"learning_resources_grouped": [
+		{
+			"type": "Technology resources",
+			"order": 2,
+			"resources": [
+				{
+					"description": "<ul>\n<li>Microsoft Project 2013\n<ul>\n<li>Caulfield and Clayton on-campus students can download from <a href=\"http://msdnaa.monash.edu.au/fit\">http://msdnaa.monash.edu.au/fit</a> (install on your own computer).</li>\n<li>Malaysia can download from - <a href=\"http://www.its.monash.edu.my/student/msdnaa.html\">http://www.its.monash.edu.my/student/msdnaa.html</a> (install on your own computer).</li>\n<li>60 day evaluation copy available at <a href=\"http://www.microsoft.com/en-us/evalcenter/evaluate-project-professional-2013\">http://www.microsoft.com/en-us/evalcenter/evaluate-project-professional-2013</a>.</li>\n</ul>\n</li>\n<li>Other project management tool of your choice</li>\n</ul>",
+					"type": {
+						"label": "Technology resources",
+						"value": "technology_resources"
+					},
+					"cl_id": "86915a30dbec7d90101196cbd396198b",
+					"academic_item": {
+						"value": "FIT2002",
+						"cl_id": "8e91d630dbec7d90101196cbd39619da",
+						"key": "code"
+					},
+					"links": []
+				}
+			]
+		},
+		{
+			"type": "Recommended resources",
+			"order": 1,
+			"resources": [
+				{
+					"description": "<ul>\n<li>Brewer, J.L., &amp; Dittman, K.C.,. (2013). Methods of IT project management. (2nd Edition) Purdue University Press.</li>\n<li>Kerzner, H. (2013). Project Management: A Systems Approach to Planning, Scheduling, and Controlling. (11th Edition) John Wiley &amp; Sons</li>\n<li>A Guide to the Project Management Body of Knowledge, PMBOK 6th Edition. 2018. Project Management Institute. (Available as an e-book)</li>\n</ul>",
+					"type": {
+						"label": "Recommended resources",
+						"value": "recommended_resources"
+					},
+					"cl_id": "c6915a30dbec7d90101196cbd396198c",
+					"academic_item": {
+						"value": "FIT2002",
+						"cl_id": "8e91d630dbec7d90101196cbd39619da",
+						"key": "code"
+					},
+					"links": []
+				}
+			]
+		},
+		{
+			"type": "Required resources",
+			"order": 0,
+			"resources": [
+				{
+					"description": "<ul>\n<li>Schwalbe, K.. (2015). Information Technology Project Management. (8e) Cengage Learning.</li>\n</ul>",
+					"type": {
+						"label": "Required resources",
+						"value": "required_resources"
+					},
+					"cl_id": "ce915a30dbec7d90101196cbd396198a",
+					"academic_item": {
+						"value": "FIT2002",
+						"cl_id": "8e91d630dbec7d90101196cbd39619da",
+						"key": "code"
+					},
+					"links": []
+				}
+			]
+		}
+	],
+	"study_abroad_unit": "Yes",
+	"academic_item_type": "Unit",
+	"learning_activities_grouped": [
+		{
+			"activity_type": "Workshops",
+			"activities": [
+				{
+					"subject": {
+						"value": "FIT2002",
+						"cl_id": "8e91d630dbec7d90101196cbd39619da",
+						"key": "code"
+					},
+					"cl_id": "16915a30dbec7d90101196cbd396198d",
+					"order": "2",
+					"description": "",
+					"activity_type": {
+						"label": "Workshops",
+						"value": "workshop"
+					},
+					"duration_display": "24 hours",
+					"offerings_formatted_teaching_activities": "<ul><li>Applies to all offerings</li></ul>",
+					"links": []
+				}
+			]
+		},
+		{
+			"activity_type": "Applied sessions",
+			"activities": [
+				{
+					"subject": {
+						"value": "FIT2002",
+						"cl_id": "8e91d630dbec7d90101196cbd39619da",
+						"key": "code"
+					},
+					"cl_id": "9a915a30dbec7d90101196cbd396198d",
+					"order": "3",
+					"description": "",
+					"activity_type": {
+						"label": "Applied sessions",
+						"value": "applied"
+					},
+					"duration_display": "24 hours",
+					"offerings_formatted_teaching_activities": "<ul><li>Applies to all offerings</li></ul>",
+					"links": []
+				}
+			]
+		}
+	],
+	"search_title": "FIT2002 - IT project management",
+	"unit_search_title": "FIT2002 - IT project management",
+	"teaching_approaches": [
+		{
+			"type": {
+				"label": "Active learning",
+				"value": "active_learning"
+			},
+			"academic_item": {
+				"value": "FIT2002",
+				"cl_id": "8e91d630dbec7d90101196cbd39619da",
+				"key": "code"
+			},
+			"cl_id": "4a915a30dbec7d90101196cbd396198b",
+			"description": "<p>&nbsp;</p>",
+			"links": []
+		}
+	],
+	"handbook_statement": null,
+	"academic_contact_roles": [
+		{
+			"role": "Chief Examiner(s)",
+			"contacts": [
+				{
+					"active": "true",
+					"contact_department": "",
+					"start_date": "",
+					"offering": {
+						"value": "",
+						"cl_id": null,
+						"key": "display_name"
+					},
+					"contact_role": {
+						"label": "Chief Examiner",
+						"value": "chief_examiner"
+					},
+					"contact_name": "Patrick Olivier",
+					"role_detail": "",
+					"contact_organisation": "",
+					"contact_title": "Professor",
+					"order": "1",
+					"contact_phone": "",
+					"end_date": "",
+					"location": {
+						"value": "",
+						"cl_id": null,
+						"key": "name"
+					},
+					"contact_email": "Patrick.Olivier@monash.edu",
+					"contact_url": "",
+					"user": {
+						"value": "Patrick Olivier",
+						"cl_id": "ed024350dbb8b300580f42a014961991",
+						"key": ""
+					},
+					"offerings": [
+						{
+							"value": "S2-01-CLAYTON-ON-CAMPUS",
+							"cl_id": "46915a30dbec7d90101196cbd3961986",
+							"key": "display_name"
+						}
+					],
+					"applies_to_all_offerings": "false",
+					"linking_id": "16bf9bf6dbab81102bdd077cd3961914",
+					"cl_id": "86915a30dbec7d90101196cbd3961987",
+					"display_details": "Patrick.Olivier@monash.edu",
+					"display_name": "Professor Patrick Olivier ",
+					"offerings_formatted_contact": "<ul><li>Second semester, Clayton, On-campus</li></ul>",
+					"display_role_plural": "Chief Examiner(s)",
+					"links": []
+				},
+				{
+					"active": "true",
+					"contact_department": "",
+					"start_date": "",
+					"offering": {
+						"value": "",
+						"cl_id": null,
+						"key": "display_name"
+					},
+					"contact_role": {
+						"label": "Chief Examiner",
+						"value": "chief_examiner"
+					},
+					"contact_name": "Poh Lim",
+					"role_detail": "",
+					"contact_organisation": "",
+					"contact_title": "Ms",
+					"order": "0",
+					"contact_phone": "",
+					"end_date": "",
+					"location": {
+						"value": "",
+						"cl_id": null,
+						"key": "name"
+					},
+					"contact_email": "poh.lim@monash.edu",
+					"contact_url": "",
+					"user": {
+						"value": "Poh Lim",
+						"cl_id": "9a028350dbb8b300580f42a0149619d1",
+						"key": ""
+					},
+					"offerings": [
+						{
+							"value": "S1-01-CLAYTON-ON-CAMPUS",
+							"cl_id": "42915a30dbec7d90101196cbd3961987",
+							"key": "display_name"
+						}
+					],
+					"applies_to_all_offerings": "false",
+					"linking_id": "9e5700501be9c550653b206b274bcb7e",
+					"cl_id": "8e915a30dbec7d90101196cbd3961987",
+					"display_details": "poh.lim@monash.edu",
+					"display_name": "Ms Poh Lim ",
+					"offerings_formatted_contact": "<ul><li>First semester, Clayton, On-campus</li></ul>",
+					"display_role_plural": "Chief Examiner(s)",
+					"links": []
+				}
+			]
+		}
+	],
+	"links": [],
+	"yearSwitcher": [
+		{
+			"label": "2020",
+			"value": "2020",
+			"href": "/2020/units/FIT2002?year=2020"
+		},
+		{
+			"label": "2021",
+			"value": "2021",
+			"href": "/2021/units/FIT2002?year=2021"
+		},
+		{
+			"label": "2022",
+			"value": "2022",
+			"href": "/2022/units/FIT2002?year=2022"
+		},
+		{
+			"label": "2023",
+			"value": "2023",
+			"href": "/2023/units/FIT2002?year=2023"
+		}
+	],
+	"university": "Monash University"
+}

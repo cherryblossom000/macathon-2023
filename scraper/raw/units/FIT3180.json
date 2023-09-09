@@ -1,0 +1,699 @@
+{
+	"contentTypeLabel": "Unit",
+	"published_in_handbook": {
+		"label": "Yes",
+		"value": "1"
+	},
+	"implementation_year": "2023",
+	"duration_ft_max": "",
+	"asced_detailed": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"grading_schema": {
+		"label": null,
+		"value": null
+	},
+	"study_level": [],
+	"quota_enrolment_requirements": "",
+	"status": {
+		"label": "Accredited",
+		"value": "Active"
+	},
+	"duration_pt_max": "",
+	"duration_pt_std": "",
+	"credit_points": "6",
+	"parent_id": {
+		"value": "Master Record: FIT3180",
+		"cl_id": "15b42a50dbf4b300580f42a014961995",
+		"key": "code",
+		"type": "x_f5sl_cl_master_record"
+	},
+	"start_date": "",
+	"exclusions": "",
+	"unit_code": "FIT3180",
+	"academic_org": {
+		"value": "Faculty of Information Technology",
+		"cl_id": "c5684a53dba8a3406add773c349619a1",
+		"key": "name"
+	},
+	"sms_version": "",
+	"level": {
+		"label": "Level 3",
+		"value": "4"
+	},
+	"uac_code": "",
+	"special_requirements": "",
+	"duration_pt_min": "",
+	"special_unit_type": [],
+	"title": "Data management for health informatics",
+	"duration_ft_std": "",
+	"version": "3",
+	"learning_experiences": null,
+	"duration_ft_min": "",
+	"callista_version": "",
+	"duration_ft_period": {
+		"label": null,
+		"value": null
+	},
+	"asced_narrow": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"subclass": {
+		"label": "Unit",
+		"value": "subject"
+	},
+	"type": {
+		"label": "Coursework",
+		"value": "600"
+	},
+	"quota_rationale": "",
+	"version_name": "2023.03",
+	"timetable_this_unit": "true",
+	"work_integrated_learning": [
+		{
+			"value": "None",
+			"cl_id": "8ef5d77bdb122300e5cf3391f496191d",
+			"key": "label"
+		}
+	],
+	"cl_id": "bb8cf792dbcc35502bdd077cd396191f",
+	"school": {
+		"value": "Faculty of Information Technology",
+		"cl_id": "c5684a53dba8a3406add773c349619a1",
+		"key": "name"
+	},
+	"content": null,
+	"learning_and_teaching_resources": null,
+	"collaborating_disciplines": [],
+	"repeatable": "false",
+	"overview": "",
+	"end_date": "",
+	"duration_pt_period": {
+		"label": null,
+		"value": null
+	},
+	"sms_status": {
+		"label": null,
+		"value": null
+	},
+	"learning_materials": null,
+	"special_topic": "false",
+	"asced_broad": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"publish_tuition_fees": "true",
+	"placement_proportion": {
+		"label": null,
+		"value": null
+	},
+	"code": "FIT3180",
+	"other_unit_costs": "",
+	"eftsl": {
+		"label": "0.125",
+		"value": "0.125"
+	},
+	"contact_information": "",
+	"highest_sca_band": {
+		"label": "SCA Band 4",
+		"value": "4"
+	},
+	"lo_additional_information": "<p>On successful completion of this unit, you should be able to:</p>",
+	"handbook_assessment_summary": "",
+	"quota_information": "",
+	"attendance_requirements": "",
+	"workload_requirements": "<p>Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled teaching activities.</p>",
+	"organisational_contact_information": "",
+	"handbook_synopsis": "<p>The aim of this unit is to examine the role of information and communication technologies (ICT), systems and hardware infrastructure that underpins secure delivery of the modern health services. Case studies of Picture Archive and Communication Systems (PACS) and Radiology Information Systems (RIS) will be covered more in depth, together with an overview of other health related software applications such as the Electronic Patient Record (EPR), medical classification schemas/ontologies, medical data standards and interoperability. The opportunities that new data analytics and artificial intelligence approaches offer to transform the modern healthcare will be reviewed in practical sessions. Students will also explore project and change management issues and learn how they impact efficiency of medical practice.</p>",
+	"special_note_to_students": "",
+	"undergrad_postgrad_both": {
+		"label": "Undergraduate",
+		"value": "undergraduate"
+	},
+	"area_of_study_links": "Radiation sciences<br />",
+	"fieldwork": "",
+	"unit_learning_outcomes": [
+		{
+			"lo_domain": [],
+			"order": "5",
+			"number": "5",
+			"code": "ULO5",
+			"lo_cl_id": "009cf792dbcc35502bdd077cd3961926",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "a9ab7c20db38b3003a731c0e04961981",
+			"academic_item": {
+				"value": "FIT3180",
+				"cl_id": "bb8cf792dbcc35502bdd077cd396191f",
+				"key": "code"
+			},
+			"description": "<p>Critically evaluate the roles and interdependencies of the software applications of health information systems (eg, PACS, HER, clinical decision support systems, RIS, and their relationship with other health IT applications.</p>",
+			"cl_id": "009cf792dbcc35502bdd077cd3961926",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "1",
+			"number": "1",
+			"code": "ULO1",
+			"lo_cl_id": "0c9cf792dbcc35502bdd077cd3961926",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "e86afc6cdbf4b3003a731c0e04961978",
+			"academic_item": {
+				"value": "FIT3180",
+				"cl_id": "bb8cf792dbcc35502bdd077cd396191f",
+				"key": "code"
+			},
+			"description": "<p>Describe their obligations in relation to Patient Health Record Privacy and Security.</p>",
+			"cl_id": "0c9cf792dbcc35502bdd077cd3961926",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "4",
+			"number": "4",
+			"code": "ULO4",
+			"lo_cl_id": "489cf792dbcc35502bdd077cd3961926",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "5a7bb420db38b3003a731c0e0496199f",
+			"academic_item": {
+				"value": "FIT3180",
+				"cl_id": "bb8cf792dbcc35502bdd077cd396191f",
+				"key": "code"
+			},
+			"description": "<p>Explain how knowledge of ICT terminology facilitates more effective outcomes for users of health services.</p>",
+			"cl_id": "489cf792dbcc35502bdd077cd3961926",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "8",
+			"number": "8",
+			"code": "ULO8",
+			"lo_cl_id": "4c9cf792dbcc35502bdd077cd3961925",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "d10cf860db38b3003a731c0e04961959",
+			"academic_item": {
+				"value": "FIT3180",
+				"cl_id": "bb8cf792dbcc35502bdd077cd396191f",
+				"key": "code"
+			},
+			"description": "<p>Analyse Business Continuity and Disaster Recovery Plans for their Health IT applications.</p>",
+			"cl_id": "4c9cf792dbcc35502bdd077cd3961925",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "6",
+			"number": "6",
+			"code": "ULO6",
+			"lo_cl_id": "849cf792dbcc35502bdd077cd3961926",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "6aebf460db38b3003a731c0e04961968",
+			"academic_item": {
+				"value": "FIT3180",
+				"cl_id": "bb8cf792dbcc35502bdd077cd396191f",
+				"key": "code"
+			},
+			"description": "<p>Distinguish between the various components of the IT infrastructure including Network, Virtual Server environment and ICT support mechanisms.</p>",
+			"cl_id": "849cf792dbcc35502bdd077cd3961926",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "7",
+			"number": "7",
+			"code": "ULO7",
+			"lo_cl_id": "889cf792dbcc35502bdd077cd3961925",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "a0fb3860db38b3003a731c0e04961975",
+			"academic_item": {
+				"value": "FIT3180",
+				"cl_id": "bb8cf792dbcc35502bdd077cd396191f",
+				"key": "code"
+			},
+			"description": "<p>Apply the principles of Project Management and Change Management methodologies in their work.</p>",
+			"cl_id": "889cf792dbcc35502bdd077cd3961925",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "3",
+			"number": "3",
+			"code": "ULO3",
+			"lo_cl_id": "c09cf792dbcc35502bdd077cd3961926",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "582bb8ecdbf4b3003a731c0e04961948",
+			"academic_item": {
+				"value": "FIT3180",
+				"cl_id": "bb8cf792dbcc35502bdd077cd396191f",
+				"key": "code"
+			},
+			"description": "<p>Describe how interoperability and integration of clinical systems is achieved through implementation of medical ontologies.</p>",
+			"cl_id": "c09cf792dbcc35502bdd077cd3961926",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "2",
+			"number": "2",
+			"code": "ULO2",
+			"lo_cl_id": "c49cf792dbcc35502bdd077cd3961925",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "7eaa78acdbf4b3003a731c0e04961930",
+			"academic_item": {
+				"value": "FIT3180",
+				"cl_id": "bb8cf792dbcc35502bdd077cd396191f",
+				"key": "code"
+			},
+			"description": "<p>Explain how health informatics functions across the wider health domain.</p>",
+			"cl_id": "c49cf792dbcc35502bdd077cd3961925",
+			"ga_map": []
+		}
+	],
+	"school_org_unit_data": [
+		{
+			"parent": {
+				"value": "",
+				"cl_id": null,
+				"key": "name"
+			},
+			"url": "https://www.monash.edu/it",
+			"name": "Faculty of Information Technology",
+			"cl_id": "c5684a53dba8a3406add773c349619a1"
+		}
+	],
+	"assessments": [
+		{
+			"subject": {
+				"value": "FIT3180",
+				"cl_id": "bb8cf792dbcc35502bdd077cd396191f",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "3",
+			"weight": "25",
+			"cl_id": "049cf792dbcc35502bdd077cd396192a",
+			"assessment_name": "Class Test",
+			"description": null,
+			"assessment_type": {
+				"label": "In class test",
+				"value": "in_class_test"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT3180",
+				"cl_id": "bb8cf792dbcc35502bdd077cd396191f",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "4",
+			"weight": "20",
+			"cl_id": "4c9cf792dbcc35502bdd077cd3961929",
+			"assessment_name": "Assignment 1 (Case Study): Presentation",
+			"description": null,
+			"assessment_type": {
+				"label": "Presentation",
+				"value": "presentation"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT3180",
+				"cl_id": "bb8cf792dbcc35502bdd077cd396191f",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "2",
+			"weight": "15",
+			"cl_id": "4c9cf792dbcc35502bdd077cd396192a",
+			"assessment_name": "Individual weekly quiz ",
+			"description": null,
+			"assessment_type": {
+				"label": "Participation",
+				"value": "participation"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT3180",
+				"cl_id": "bb8cf792dbcc35502bdd077cd396191f",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "1",
+			"weight": "10",
+			"cl_id": "889cf792dbcc35502bdd077cd396192a",
+			"assessment_name": "Tutorials Participation & Discussion",
+			"description": null,
+			"assessment_type": {
+				"label": "Participation",
+				"value": "participation"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT3180",
+				"cl_id": "bb8cf792dbcc35502bdd077cd396191f",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "5",
+			"weight": "30",
+			"cl_id": "c49cf792dbcc35502bdd077cd396192a",
+			"assessment_name": "Assignment 1 (Case Study): Report",
+			"description": null,
+			"assessment_type": {
+				"label": "Report",
+				"value": "report"
+			},
+			"offerings_formatted": ""
+		}
+	],
+	"enrolment_rules": [],
+	"requisites": [
+		{
+			"academic_item_code": "FIT3180",
+			"active": "true",
+			"requisite_cl_id": "f78cf792dbcc35502bdd077cd3961922",
+			"description": "",
+			"requisite_type": {
+				"label": "Prerequisite",
+				"value": "prerequisite"
+			},
+			"cl_id": {
+				"value": "FIT3180",
+				"cl_id": "bb8cf792dbcc35502bdd077cd396191f",
+				"key": "code"
+			},
+			"academic_item_version_number": "2023.03",
+			"order": "1",
+			"start_date": "",
+			"end_date": "",
+			"container": [
+				{
+					"cl_id": "c89cb71edb043550101196cbd3961940",
+					"parent_container_table": "x_f5sl_cl_requisite",
+					"parent_record": {
+						"value": "Relationship Builder: FIT3180",
+						"cl_id": "f78cf792dbcc35502bdd077cd3961922",
+						"key": "academic_item",
+						"type": "x_f5sl_cl_requisite"
+					},
+					"title": "Container 1",
+					"parent_connector": {
+						"label": "AND",
+						"value": "AND"
+					},
+					"containers": [],
+					"relationships": [
+						{
+							"academic_item": {
+								"value": "Unit: FIT1052",
+								"cl_id": "91cfd31ddbf9b0d0101196cbd39619e6",
+								"key": "code",
+								"type": "x_f5sl_cl_subjects"
+							},
+							"parent_record": {
+								"value": "Container 1",
+								"cl_id": "c89cb71edb043550101196cbd3961940",
+								"key": "title"
+							},
+							"order": "2",
+							"cl_id": "91cfd31ddbf9b0d0101196cbd39619e6",
+							"academic_item_type": {
+								"label": "Unit",
+								"value": "subject"
+							},
+							"abbr_name": "DIG FUTURE: IT SOC",
+							"academic_item_version_name": "2022.03RO",
+							"academic_item_credit_points": "6",
+							"abbreviated_name_and_major": null,
+							"academic_item_name": "Digital futures: IT shaping society",
+							"academic_item_code": "FIT1052",
+							"academic_item_url": "/2022/units/FIT1052"
+						}
+					]
+				}
+			]
+		}
+	],
+	"unit_offering": [
+		{
+			"fees_domestic": "",
+			"publish": "true",
+			"location": {
+				"value": "Clayton",
+				"cl_id": "37f321e1db30a7406add773c3496192e",
+				"key": "name"
+			},
+			"name": "FIT3180-S2-01-ON-CAMPUS-CLAYTON",
+			"clarification_to_appear_in_handbook": "",
+			"display_name": "S2-01-CLAYTON-ON-CAMPUS",
+			"teaching_period": {
+				"value": "Second semester",
+				"cl_id": "85a429a1db30a7406add773c3496190d",
+				"key": "name"
+			},
+			"attendance_mode": {
+				"value": "On-campus",
+				"cl_id": "7bf2311bdb68a3406add773c349619bb",
+				"key": "description"
+			},
+			"quota_number": "",
+			"study_level": {
+				"label": null,
+				"value": null
+			},
+			"offered": "true",
+			"self_enrol": "true",
+			"academic_item": {
+				"value": "FIT3180",
+				"cl_id": "bb8cf792dbcc35502bdd077cd396191f",
+				"key": "code"
+			},
+			"fees_commonwealth": "",
+			"fees_international": "",
+			"course_restrictions": "",
+			"cl_id": "bf8cf792dbcc35502bdd077cd3961923"
+		}
+	],
+	"enrolment_rules_group": [],
+	"learning_resources_grouped": [
+		{
+			"type": "Technology resources",
+			"order": 2,
+			"resources": [
+				{
+					"description": "<p>Students must regularly check Moodle for announcements.</p>\n<p>Students must have SQL Developer installed.</p>\n<p>Students must have the Monash VPN (Cisco) installed if they want to access the student database from outside Clayton Campus. As the VPN is provided by eSolutions, the teaching team may not be able to provide full support - students will need to contact eSolutions help desk in their respective campuses.</p>",
+					"type": {
+						"label": "Technology resources",
+						"value": "technology_resources"
+					},
+					"cl_id": "849cf792dbcc35502bdd077cd3961927",
+					"academic_item": {
+						"value": "FIT3180",
+						"cl_id": "bb8cf792dbcc35502bdd077cd396191f",
+						"key": "code"
+					},
+					"links": []
+				}
+			]
+		},
+		{
+			"type": "Recommended resources",
+			"order": 1,
+			"resources": [
+				{
+					"description": "<p>This unit will make use of the Oracle 12 database running on a Monash server. All students will have an account on this server which will suffice for all database work this semester.</p>\n<p>To access this server, students will need to install and run the <a href=\"https://www.monash.edu/esolutions/network/vpn\">Monash VPN software</a>. The client software for accessing Oracle (SQLDeveloper) will be available in the labs. It will also be available via a download from the Moodle site for installation at home (very limited bandwidth) and also, after registration (free), from the Oracle site: </p>\n<ul>\n<li><a href=\"http://www.oracle.com/technology/software/products/sql/index.html\">http://www.oracle.com/technology/software/products/sql/index.html</a>.</li>\n</ul>",
+					"type": {
+						"label": "Recommended resources",
+						"value": "recommended_resources"
+					},
+					"cl_id": "8c9cf792dbcc35502bdd077cd3961928",
+					"academic_item": {
+						"value": "FIT3180",
+						"cl_id": "bb8cf792dbcc35502bdd077cd396191f",
+						"key": "code"
+					},
+					"links": []
+				}
+			]
+		},
+		{
+			"type": "Required resources",
+			"order": 0,
+			"resources": [
+				{
+					"description": "<ul>\n<li>Coronel, C., &amp; Morris, Steven (2017). Database systems: Design, implementation, and management. (12th ed.). ISBN: 9781305627482; ISBN: 9781305886841 (electronic bk.)</li>\n<li>Coronel, C., &amp; Morris, Steven (2019). Database systems: Design, implementation, and management (13th ed.).​ISBN9781337627900</li>\n</ul>\n<p>The Library also has limited copies of both editions 12 and 13, available for borrowing.</p>",
+					"type": {
+						"label": "Required resources",
+						"value": "required_resources"
+					},
+					"cl_id": "c89cf792dbcc35502bdd077cd3961928",
+					"academic_item": {
+						"value": "FIT3180",
+						"cl_id": "bb8cf792dbcc35502bdd077cd396191f",
+						"key": "code"
+					},
+					"links": []
+				}
+			]
+		}
+	],
+	"study_abroad_unit": "Yes",
+	"academic_item_type": "Unit",
+	"learning_activities_grouped": [
+		{
+			"activity_type": "Applied sessions",
+			"activities": [
+				{
+					"subject": {
+						"value": "FIT3180",
+						"cl_id": "bb8cf792dbcc35502bdd077cd396191f",
+						"key": "code"
+					},
+					"cl_id": "089cf792dbcc35502bdd077cd3961929",
+					"order": "",
+					"description": "",
+					"activity_type": {
+						"label": "Applied sessions",
+						"value": "applied"
+					},
+					"duration_display": "24 hours",
+					"offerings_formatted_teaching_activities": "<ul><li>Applies to all offerings</li></ul>",
+					"links": []
+				}
+			]
+		}
+	],
+	"search_title": "FIT3180 - Data management for health informatics",
+	"unit_search_title": "FIT3180 - Data management for health informatics",
+	"teaching_approaches": [
+		{
+			"type": {
+				"label": "Online learning",
+				"value": "online_learning"
+			},
+			"academic_item": {
+				"value": "FIT3180",
+				"cl_id": "bb8cf792dbcc35502bdd077cd396191f",
+				"key": "code"
+			},
+			"cl_id": "4c9cf792dbcc35502bdd077cd3961927",
+			"description": "<p>&nbsp;</p>",
+			"links": []
+		}
+	],
+	"handbook_statement": null,
+	"academic_contact_roles": [
+		{
+			"role": "Chief Examiner(s)",
+			"contacts": [
+				{
+					"active": "true",
+					"contact_department": "",
+					"start_date": "",
+					"offering": {
+						"value": "",
+						"cl_id": null,
+						"key": "display_name"
+					},
+					"contact_role": {
+						"label": "Chief Examiner",
+						"value": "chief_examiner"
+					},
+					"contact_name": "Pamela Spink",
+					"role_detail": "",
+					"contact_organisation": "",
+					"contact_title": "",
+					"order": "1",
+					"contact_phone": "",
+					"end_date": "",
+					"location": {
+						"value": "",
+						"cl_id": null,
+						"key": "name"
+					},
+					"contact_email": "Pamela.Spink@monash.edu",
+					"contact_url": "",
+					"user": {
+						"value": "Pamela Spink",
+						"cl_id": "69024350dbb8b300580f42a014961962",
+						"key": ""
+					},
+					"offerings": [],
+					"applies_to_all_offerings": "true",
+					"linking_id": "7ee133c7dbda2c102bdd077cd3961916",
+					"cl_id": "fb8cf792dbcc35502bdd077cd3961924",
+					"display_details": "Pamela.Spink@monash.edu",
+					"display_name": "Pamela Spink ",
+					"offerings_formatted_contact": "<ul><li>Applies to all offerings</ul></li>",
+					"display_role_plural": "Chief Examiner(s)",
+					"links": []
+				}
+			]
+		}
+	],
+	"links": [],
+	"yearSwitcher": [
+		{
+			"label": "2020",
+			"value": "2020",
+			"href": "/2020/units/FIT3180?year=2020"
+		},
+		{
+			"label": "2021",
+			"value": "2021",
+			"href": "/2021/units/FIT3180?year=2021"
+		},
+		{
+			"label": "2022",
+			"value": "2022",
+			"href": "/2022/units/FIT3180?year=2022"
+		},
+		{
+			"label": "2023",
+			"value": "2023",
+			"href": "/2023/units/FIT3180?year=2023"
+		}
+	],
+	"university": "Monash University"
+}

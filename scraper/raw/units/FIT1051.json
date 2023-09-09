@@ -1,0 +1,837 @@
+{
+	"contentTypeLabel": "Unit",
+	"published_in_handbook": {
+		"label": "Yes",
+		"value": "1"
+	},
+	"implementation_year": "2023",
+	"duration_ft_max": "",
+	"asced_detailed": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"grading_schema": {
+		"label": null,
+		"value": null
+	},
+	"study_level": [],
+	"quota_enrolment_requirements": "",
+	"status": {
+		"label": "Accredited",
+		"value": "Active"
+	},
+	"duration_pt_max": "",
+	"duration_pt_std": "",
+	"credit_points": "6",
+	"parent_id": {
+		"value": "Master Record: FIT1051",
+		"cl_id": "8b94ea10dbf4b300580f42a014961969",
+		"key": "code",
+		"type": "x_f5sl_cl_master_record"
+	},
+	"start_date": "",
+	"exclusions": "",
+	"unit_code": "FIT1051",
+	"academic_org": {
+		"value": "Faculty of Information Technology",
+		"cl_id": "c5684a53dba8a3406add773c349619a1",
+		"key": "name"
+	},
+	"sms_version": "",
+	"level": {
+		"label": "Level 1",
+		"value": "2"
+	},
+	"uac_code": "",
+	"special_requirements": "",
+	"duration_pt_min": "",
+	"special_unit_type": [],
+	"title": "Programming fundamentals in java",
+	"duration_ft_std": "",
+	"version": "7",
+	"learning_experiences": null,
+	"duration_ft_min": "",
+	"callista_version": "",
+	"duration_ft_period": {
+		"label": null,
+		"value": null
+	},
+	"asced_narrow": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"subclass": {
+		"label": "Unit",
+		"value": "subject"
+	},
+	"type": {
+		"label": "Coursework",
+		"value": "600"
+	},
+	"quota_rationale": "",
+	"version_name": "2023.07",
+	"timetable_this_unit": "true",
+	"work_integrated_learning": [
+		{
+			"value": "None",
+			"cl_id": "8ef5d77bdb122300e5cf3391f496191d",
+			"key": "label"
+		}
+	],
+	"cl_id": "f6626895dbe8fd90101196cbd3961984",
+	"school": {
+		"value": "Faculty of Information Technology",
+		"cl_id": "c5684a53dba8a3406add773c349619a1",
+		"key": "name"
+	},
+	"content": null,
+	"learning_and_teaching_resources": null,
+	"collaborating_disciplines": [],
+	"repeatable": "false",
+	"overview": "",
+	"end_date": "",
+	"duration_pt_period": {
+		"label": null,
+		"value": null
+	},
+	"sms_status": {
+		"label": null,
+		"value": null
+	},
+	"learning_materials": null,
+	"special_topic": "false",
+	"asced_broad": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"publish_tuition_fees": "true",
+	"placement_proportion": {
+		"label": null,
+		"value": null
+	},
+	"code": "FIT1051",
+	"other_unit_costs": "",
+	"eftsl": {
+		"label": "0.125",
+		"value": "0.125"
+	},
+	"contact_information": "",
+	"highest_sca_band": {
+		"label": "SCA Band 2",
+		"value": "2"
+	},
+	"lo_additional_information": "<p>On successful completion of this unit, you should be able to:</p>",
+	"handbook_assessment_summary": "",
+	"quota_information": "",
+	"attendance_requirements": "",
+	"workload_requirements": "<p>This unit has a requirement of 1-2 hours per week of asynchronous learning.</p>\n<p>Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled teaching activities.</p>",
+	"organisational_contact_information": "",
+	"handbook_synopsis": "<p>This unit will provide students with an overview of the fundamental knowledge and skills required to code applications. The topics covered will include: the context of programming in an industrial SDLC, dealing with code 'plumbing', data, using API library classes, common business logic patterns and their implementation using control structures, methods and modularity, value and reference types, coding custom driver and concept classes, class inheritance, interfaces, multi-class applications.</p>",
+	"special_note_to_students": "<p>Optional <a href=\"https://www.monash.edu/about/mentoring/peer-assisted-study-sessions-pass\" target=\"_blank\">Peer Assisted Study Sessions (PASS)</a> run in this unit.</p>",
+	"undergrad_postgrad_both": {
+		"label": "Undergraduate",
+		"value": "undergraduate"
+	},
+	"area_of_study_links": "Business information systems<br />Computer networks and security<br />IT for business<br />Mobile apps development<br />Software development<br />Software engineering<br />Web development<br />",
+	"fieldwork": "",
+	"unit_learning_outcomes": [
+		{
+			"lo_domain": [],
+			"order": "2",
+			"number": "2",
+			"code": "ULO2",
+			"lo_cl_id": "0f62a895dbe8fd90101196cbd3961921",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "d4dabcacdbf4b3003a731c0e04961981",
+			"academic_item": {
+				"value": "FIT1051",
+				"cl_id": "f6626895dbe8fd90101196cbd3961984",
+				"key": "code"
+			},
+			"description": "<p>Apply and demonstrate debugging processes to Java applications;</p>",
+			"cl_id": "0f62a895dbe8fd90101196cbd3961921",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "1",
+			"number": "1",
+			"code": "ULO1",
+			"lo_cl_id": "4b62a895dbe8fd90101196cbd3961921",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "b98a34acdbf4b3003a731c0e0496196b",
+			"academic_item": {
+				"value": "FIT1051",
+				"cl_id": "f6626895dbe8fd90101196cbd3961984",
+				"key": "code"
+			},
+			"description": "<p>Design and construct Java programs according to standard object-oriented principles;</p>",
+			"cl_id": "4b62a895dbe8fd90101196cbd3961921",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "4",
+			"number": "4",
+			"code": "ULO4",
+			"lo_cl_id": "8362a895dbe8fd90101196cbd3961922",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "605b7020db38b3003a731c0e0496196f",
+			"academic_item": {
+				"value": "FIT1051",
+				"cl_id": "f6626895dbe8fd90101196cbd3961984",
+				"key": "code"
+			},
+			"description": "<p>Document code according to specific programming standards;</p>",
+			"cl_id": "8362a895dbe8fd90101196cbd3961922",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "6",
+			"number": "6",
+			"code": "ULO6",
+			"lo_cl_id": "8762a895dbe8fd90101196cbd3961921",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "81db3460db38b3003a731c0e04961936",
+			"academic_item": {
+				"value": "FIT1051",
+				"cl_id": "f6626895dbe8fd90101196cbd3961984",
+				"key": "code"
+			},
+			"description": "<p>Explain and apply software engineering principles of maintainability, readability and modularisation.</p>",
+			"cl_id": "8762a895dbe8fd90101196cbd3961921",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "5",
+			"number": "5",
+			"code": "ULO5",
+			"lo_cl_id": "cb626895dbe8fd90101196cbd396198b",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "4e9bf820db38b3003a731c0e04961978",
+			"academic_item": {
+				"value": "FIT1051",
+				"cl_id": "f6626895dbe8fd90101196cbd3961984",
+				"key": "code"
+			},
+			"description": "<p>Identify and apply the &quot;object-oriented&quot; concepts of encapsulation, abstraction and polymorphism;</p>",
+			"cl_id": "cb626895dbe8fd90101196cbd396198b",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "3",
+			"number": "3",
+			"code": "ULO3",
+			"lo_cl_id": "cf62a895dbe8fd90101196cbd3961921",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "eafa34ecdbf4b3003a731c0e04961993",
+			"academic_item": {
+				"value": "FIT1051",
+				"cl_id": "f6626895dbe8fd90101196cbd3961984",
+				"key": "code"
+			},
+			"description": "<p>Develop strategies for efficient and effective program testing;</p>",
+			"cl_id": "cf62a895dbe8fd90101196cbd3961921",
+			"ga_map": []
+		}
+	],
+	"school_org_unit_data": [
+		{
+			"parent": {
+				"value": "",
+				"cl_id": null,
+				"key": "name"
+			},
+			"url": "https://www.monash.edu/it",
+			"name": "Faculty of Information Technology",
+			"cl_id": "c5684a53dba8a3406add773c349619a1"
+		}
+	],
+	"assessments": [
+		{
+			"subject": {
+				"value": "FIT1051",
+				"cl_id": "f6626895dbe8fd90101196cbd3961984",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "4",
+			"weight": "25",
+			"cl_id": "0f62a895dbe8fd90101196cbd3961926",
+			"assessment_name": "Assessment 3",
+			"description": null,
+			"assessment_type": {
+				"label": "Other",
+				"value": "other"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT1051",
+				"cl_id": "f6626895dbe8fd90101196cbd3961984",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "5",
+			"weight": "38",
+			"cl_id": "4b62a895dbe8fd90101196cbd3961926",
+			"assessment_name": "Assessment 4",
+			"description": null,
+			"assessment_type": {
+				"label": "Other",
+				"value": "other"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT1051",
+				"cl_id": "f6626895dbe8fd90101196cbd3961984",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "2",
+			"weight": "12",
+			"cl_id": "8762a895dbe8fd90101196cbd3961926",
+			"assessment_name": "Assessment 1",
+			"description": null,
+			"assessment_type": {
+				"label": "Other",
+				"value": "other"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT1051",
+				"cl_id": "f6626895dbe8fd90101196cbd3961984",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "1",
+			"weight": "10",
+			"cl_id": "cf62a895dbe8fd90101196cbd3961925",
+			"assessment_name": "Pre-reading quizzes",
+			"description": null,
+			"assessment_type": {
+				"label": "Other",
+				"value": "other"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT1051",
+				"cl_id": "f6626895dbe8fd90101196cbd3961984",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "3",
+			"weight": "15",
+			"cl_id": "cf62a895dbe8fd90101196cbd3961926",
+			"assessment_name": "Assessment 2",
+			"description": null,
+			"assessment_type": {
+				"label": "Other",
+				"value": "other"
+			},
+			"offerings_formatted": ""
+		}
+	],
+	"enrolment_rules": [],
+	"requisites": [],
+	"unit_offering": [
+		{
+			"fees_domestic": "",
+			"publish": "true",
+			"location": {
+				"value": "Clayton",
+				"cl_id": "37f321e1db30a7406add773c3496192e",
+				"key": "name"
+			},
+			"name": "FIT1051-S1-01-ON-CAMPUS-CLAYTON",
+			"clarification_to_appear_in_handbook": "",
+			"display_name": "S1-01-CLAYTON-ON-CAMPUS",
+			"teaching_period": {
+				"value": "First semester",
+				"cl_id": "0da429a1db30a7406add773c3496190c",
+				"key": "name"
+			},
+			"attendance_mode": {
+				"value": "On-campus",
+				"cl_id": "7bf2311bdb68a3406add773c349619bb",
+				"key": "description"
+			},
+			"quota_number": "",
+			"study_level": {
+				"label": null,
+				"value": null
+			},
+			"offered": "true",
+			"self_enrol": "true",
+			"academic_item": {
+				"value": "FIT1051",
+				"cl_id": "f6626895dbe8fd90101196cbd3961984",
+				"key": "code"
+			},
+			"fees_commonwealth": "",
+			"fees_international": "",
+			"course_restrictions": "",
+			"cl_id": "f2626895dbe8fd90101196cbd3961989"
+		},
+		{
+			"fees_domestic": "",
+			"publish": "true",
+			"location": {
+				"value": "Clayton",
+				"cl_id": "37f321e1db30a7406add773c3496192e",
+				"key": "name"
+			},
+			"name": "FIT1051-S2-01-ON-CAMPUS-CLAYTON",
+			"clarification_to_appear_in_handbook": "",
+			"display_name": "S2-01-CLAYTON-ON-CAMPUS",
+			"teaching_period": {
+				"value": "Second semester",
+				"cl_id": "85a429a1db30a7406add773c3496190d",
+				"key": "name"
+			},
+			"attendance_mode": {
+				"value": "On-campus",
+				"cl_id": "7bf2311bdb68a3406add773c349619bb",
+				"key": "description"
+			},
+			"quota_number": "",
+			"study_level": {
+				"label": null,
+				"value": null
+			},
+			"offered": "true",
+			"self_enrol": "true",
+			"academic_item": {
+				"value": "FIT1051",
+				"cl_id": "f6626895dbe8fd90101196cbd3961984",
+				"key": "code"
+			},
+			"fees_commonwealth": "",
+			"fees_international": "",
+			"course_restrictions": "",
+			"cl_id": "f6626895dbe8fd90101196cbd3961989"
+		},
+		{
+			"fees_domestic": "",
+			"publish": "true",
+			"location": {
+				"value": "Malaysia",
+				"cl_id": "7bf321e1db30a7406add773c3496192f",
+				"key": "name"
+			},
+			"name": "FIT1051-S2-01-ON-CAMPUS-MALAYSIA",
+			"clarification_to_appear_in_handbook": "",
+			"display_name": "S2-01-MALAYSIA-ON-CAMPUS",
+			"teaching_period": {
+				"value": "Second semester",
+				"cl_id": "85a429a1db30a7406add773c3496190d",
+				"key": "name"
+			},
+			"attendance_mode": {
+				"value": "On-campus",
+				"cl_id": "7bf2311bdb68a3406add773c349619bb",
+				"key": "description"
+			},
+			"quota_number": "",
+			"study_level": {
+				"label": null,
+				"value": null
+			},
+			"offered": "true",
+			"self_enrol": "true",
+			"academic_item": {
+				"value": "FIT1051",
+				"cl_id": "f6626895dbe8fd90101196cbd3961984",
+				"key": "code"
+			},
+			"fees_commonwealth": "",
+			"fees_international": "",
+			"course_restrictions": "",
+			"cl_id": "fa626895dbe8fd90101196cbd3961988"
+		},
+		{
+			"fees_domestic": "",
+			"publish": "true",
+			"location": {
+				"value": "Malaysia",
+				"cl_id": "7bf321e1db30a7406add773c3496192f",
+				"key": "name"
+			},
+			"name": "FIT1051-OCT-MY-01-ON-CAMPUS-MALAYSIA",
+			"clarification_to_appear_in_handbook": "",
+			"display_name": "OCT-MY-01-MALAYSIA-ON-CAMPUS",
+			"teaching_period": {
+				"value": "October intake teaching period, Malaysia campus",
+				"cl_id": "81a429a1db30a7406add773c3496190c",
+				"key": "name"
+			},
+			"attendance_mode": {
+				"value": "On-campus",
+				"cl_id": "7bf2311bdb68a3406add773c349619bb",
+				"key": "description"
+			},
+			"quota_number": "",
+			"study_level": {
+				"label": null,
+				"value": null
+			},
+			"offered": "true",
+			"self_enrol": "true",
+			"academic_item": {
+				"value": "FIT1051",
+				"cl_id": "f6626895dbe8fd90101196cbd3961984",
+				"key": "code"
+			},
+			"fees_commonwealth": "",
+			"fees_international": "",
+			"course_restrictions": "",
+			"cl_id": "fe626895dbe8fd90101196cbd3961987"
+		},
+		{
+			"fees_domestic": "",
+			"publish": "true",
+			"location": {
+				"value": "Malaysia",
+				"cl_id": "7bf321e1db30a7406add773c3496192f",
+				"key": "name"
+			},
+			"name": "FIT1051-S1-01-ON-CAMPUS-MALAYSIA",
+			"clarification_to_appear_in_handbook": "",
+			"display_name": "S1-01-MALAYSIA-ON-CAMPUS",
+			"teaching_period": {
+				"value": "First semester",
+				"cl_id": "0da429a1db30a7406add773c3496190c",
+				"key": "name"
+			},
+			"attendance_mode": {
+				"value": "On-campus",
+				"cl_id": "7bf2311bdb68a3406add773c349619bb",
+				"key": "description"
+			},
+			"quota_number": "",
+			"study_level": {
+				"label": null,
+				"value": null
+			},
+			"offered": "true",
+			"self_enrol": "true",
+			"academic_item": {
+				"value": "FIT1051",
+				"cl_id": "f6626895dbe8fd90101196cbd3961984",
+				"key": "code"
+			},
+			"fees_commonwealth": "",
+			"fees_international": "",
+			"course_restrictions": "",
+			"cl_id": "fe626895dbe8fd90101196cbd3961988"
+		}
+	],
+	"enrolment_rules_group": [],
+	"learning_resources_grouped": [
+		{
+			"type": "Technology resources",
+			"order": 2,
+			"resources": [
+				{
+					"description": "<p>Students will need the latest version of the Java Development Kit and IntelliJ IDE (both available free from the Internet).</p>",
+					"type": {
+						"label": "Technology resources",
+						"value": "technology_resources"
+					},
+					"cl_id": "c362a895dbe8fd90101196cbd3961924",
+					"academic_item": {
+						"value": "FIT1051",
+						"cl_id": "f6626895dbe8fd90101196cbd3961984",
+						"key": "code"
+					},
+					"links": []
+				}
+			]
+		}
+	],
+	"study_abroad_unit": "Yes",
+	"academic_item_type": "Unit",
+	"learning_activities_grouped": [
+		{
+			"activity_type": "Applied sessions",
+			"activities": [
+				{
+					"subject": {
+						"value": "FIT1051",
+						"cl_id": "f6626895dbe8fd90101196cbd3961984",
+						"key": "code"
+					},
+					"cl_id": "0762a895dbe8fd90101196cbd3961925",
+					"order": "4",
+					"description": "",
+					"activity_type": {
+						"label": "Applied sessions",
+						"value": "applied"
+					},
+					"duration_display": "24 hours",
+					"offerings_formatted_teaching_activities": "<ul><li>Applies to all offerings</li></ul>",
+					"links": []
+				}
+			]
+		},
+		{
+			"activity_type": "Workshops",
+			"activities": [
+				{
+					"subject": {
+						"value": "FIT1051",
+						"cl_id": "f6626895dbe8fd90101196cbd3961984",
+						"key": "code"
+					},
+					"cl_id": "8b62a895dbe8fd90101196cbd3961925",
+					"order": "3",
+					"description": "",
+					"activity_type": {
+						"label": "Workshops",
+						"value": "workshop"
+					},
+					"duration_display": "24 hours",
+					"offerings_formatted_teaching_activities": "<ul><li>Applies to all offerings</li></ul>",
+					"links": []
+				}
+			]
+		}
+	],
+	"search_title": "FIT1051 - Programming fundamentals in java",
+	"unit_search_title": "FIT1051 - Programming fundamentals in java",
+	"teaching_approaches": [
+		{
+			"type": {
+				"label": "Active learning",
+				"value": "active_learning"
+			},
+			"academic_item": {
+				"value": "FIT1051",
+				"cl_id": "f6626895dbe8fd90101196cbd3961984",
+				"key": "code"
+			},
+			"cl_id": "0f62a895dbe8fd90101196cbd3961923",
+			"description": "<p>&nbsp;</p>",
+			"links": []
+		}
+	],
+	"handbook_statement": null,
+	"academic_contact_roles": [
+		{
+			"role": "Unit Coordinator(s)",
+			"contacts": [
+				{
+					"active": "true",
+					"contact_department": "",
+					"start_date": "",
+					"offering": {
+						"value": "",
+						"cl_id": null,
+						"key": "display_name"
+					},
+					"contact_role": {
+						"label": "Unit Coordinator",
+						"value": "unit_coordinator"
+					},
+					"contact_name": "Xiaoning Du",
+					"role_detail": "",
+					"contact_organisation": "",
+					"contact_title": "Dr",
+					"order": "1",
+					"contact_phone": "",
+					"end_date": "",
+					"location": {
+						"value": "",
+						"cl_id": null,
+						"key": "name"
+					},
+					"contact_email": "Xiaoning.Du@monash.edu",
+					"contact_url": "",
+					"user": {
+						"value": "Xiaoning Du",
+						"cl_id": "c01c9dcb1bcd4510653b206b274bcb83",
+						"key": ""
+					},
+					"offerings": [
+						{
+							"value": "S1-01-CLAYTON-ON-CAMPUS",
+							"cl_id": "f2626895dbe8fd90101196cbd3961989",
+							"key": "display_name"
+						}
+					],
+					"applies_to_all_offerings": "false",
+					"linking_id": "b19169ccdbef59902bdd077cd3961957",
+					"cl_id": "7e626895dbe8fd90101196cbd396198a",
+					"display_details": "Xiaoning.Du@monash.edu",
+					"display_name": "Dr Xiaoning Du ",
+					"offerings_formatted_contact": "<ul><li>First semester, Clayton, On-campus</li></ul>",
+					"display_role_plural": "Unit Coordinator(s)",
+					"links": []
+				},
+				{
+					"active": "true",
+					"contact_department": "",
+					"start_date": "",
+					"offering": {
+						"value": "",
+						"cl_id": null,
+						"key": "display_name"
+					},
+					"contact_role": {
+						"label": "Unit Coordinator",
+						"value": "unit_coordinator"
+					},
+					"contact_name": "Lim Mei Kuan",
+					"role_detail": "(Malaysia)",
+					"contact_organisation": "",
+					"contact_title": "Dr",
+					"order": "0",
+					"contact_phone": "",
+					"end_date": "",
+					"location": {
+						"value": "",
+						"cl_id": null,
+						"key": "name"
+					},
+					"contact_email": "Lim.MeiKuan@monash.edu",
+					"contact_url": "",
+					"user": {
+						"value": "Lim Mei Kuan",
+						"cl_id": "8843f1be1b9608d013b555b81d4bcbd3",
+						"key": ""
+					},
+					"offerings": [
+						{
+							"value": "S2-01-MALAYSIA-ON-CAMPUS",
+							"cl_id": "fa626895dbe8fd90101196cbd3961988",
+							"key": "display_name"
+						},
+						{
+							"value": "S1-01-MALAYSIA-ON-CAMPUS",
+							"cl_id": "fe626895dbe8fd90101196cbd3961988",
+							"key": "display_name"
+						}
+					],
+					"applies_to_all_offerings": "false",
+					"linking_id": "3a86a975dbe75090a786cd043a96197d",
+					"cl_id": "fa626895dbe8fd90101196cbd3961989",
+					"display_details": "Lim.MeiKuan@monash.edu",
+					"display_name": "Dr Lim Mei Kuan ",
+					"offerings_formatted_contact": "<ul><li>First semester, Malaysia, On-campus</li><li>Second semester, Malaysia, On-campus</li></ul>",
+					"display_role_plural": "Unit Coordinator(s)",
+					"links": []
+				}
+			]
+		},
+		{
+			"role": "Chief Examiner(s)",
+			"contacts": [
+				{
+					"active": "true",
+					"contact_department": "",
+					"start_date": "",
+					"offering": {
+						"value": "",
+						"cl_id": null,
+						"key": "display_name"
+					},
+					"contact_role": {
+						"label": "Chief Examiner",
+						"value": "chief_examiner"
+					},
+					"contact_name": "Rebecca Robinson",
+					"role_detail": "",
+					"contact_organisation": "",
+					"contact_title": "",
+					"order": "1",
+					"contact_phone": "",
+					"end_date": "",
+					"location": {
+						"value": "",
+						"cl_id": null,
+						"key": "name"
+					},
+					"contact_email": "Rebecca.Robinson@monash.edu",
+					"contact_url": "",
+					"user": {
+						"value": "Rebecca Robinson",
+						"cl_id": "3602c350dbb8b300580f42a0149619b1",
+						"key": ""
+					},
+					"offerings": [],
+					"applies_to_all_offerings": "true",
+					"linking_id": "d9bc3aaddb1f11902bdd077cd3961913",
+					"cl_id": "c3626895dbe8fd90101196cbd396198b",
+					"display_details": "Rebecca.Robinson@monash.edu",
+					"display_name": "Rebecca Robinson ",
+					"offerings_formatted_contact": "<ul><li>Applies to all offerings</ul></li>",
+					"display_role_plural": "Chief Examiner(s)",
+					"links": []
+				}
+			]
+		}
+	],
+	"links": [],
+	"yearSwitcher": [
+		{
+			"label": "2020",
+			"value": "2020",
+			"href": "/2020/units/FIT1051?year=2020"
+		},
+		{
+			"label": "2021",
+			"value": "2021",
+			"href": "/2021/units/FIT1051?year=2021"
+		},
+		{
+			"label": "2022",
+			"value": "2022",
+			"href": "/2022/units/FIT1051?year=2022"
+		},
+		{
+			"label": "2023",
+			"value": "2023",
+			"href": "/2023/units/FIT1051?year=2023"
+		}
+	],
+	"university": "Monash University"
+}

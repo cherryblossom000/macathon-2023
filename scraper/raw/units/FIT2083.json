@@ -1,0 +1,904 @@
+{
+	"contentTypeLabel": "Unit",
+	"published_in_handbook": {
+		"label": "Yes",
+		"value": "1"
+	},
+	"implementation_year": "2023",
+	"duration_ft_max": "",
+	"asced_detailed": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"grading_schema": {
+		"label": null,
+		"value": null
+	},
+	"study_level": [],
+	"quota_enrolment_requirements": "",
+	"status": {
+		"label": "Accredited",
+		"value": "Active"
+	},
+	"duration_pt_max": "",
+	"duration_pt_std": "",
+	"credit_points": "6",
+	"parent_id": {
+		"value": "Master Record: FIT2083",
+		"cl_id": "10a4ee10dbf4b300580f42a01496192f",
+		"key": "code",
+		"type": "x_f5sl_cl_master_record"
+	},
+	"start_date": "",
+	"exclusions": "",
+	"unit_code": "FIT2083",
+	"academic_org": {
+		"value": "Faculty of Information Technology",
+		"cl_id": "c5684a53dba8a3406add773c349619a1",
+		"key": "name"
+	},
+	"sms_version": "",
+	"level": {
+		"label": "Level 2",
+		"value": "3"
+	},
+	"uac_code": "",
+	"special_requirements": "",
+	"duration_pt_min": "",
+	"special_unit_type": [],
+	"title": "Innovation and research in computer science",
+	"duration_ft_std": "",
+	"version": "4",
+	"learning_experiences": null,
+	"duration_ft_min": "",
+	"callista_version": "",
+	"duration_ft_period": {
+		"label": null,
+		"value": null
+	},
+	"asced_narrow": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"subclass": {
+		"label": "Unit",
+		"value": "subject"
+	},
+	"type": {
+		"label": "Coursework",
+		"value": "600"
+	},
+	"quota_rationale": "",
+	"version_name": "2023.04",
+	"timetable_this_unit": "true",
+	"work_integrated_learning": [
+		{
+			"value": "None",
+			"cl_id": "8ef5d77bdb122300e5cf3391f496191d",
+			"key": "label"
+		}
+	],
+	"cl_id": "7640ebc9dbc031502bdd077cd396198e",
+	"school": {
+		"value": "Faculty of Information Technology",
+		"cl_id": "c5684a53dba8a3406add773c349619a1",
+		"key": "name"
+	},
+	"content": null,
+	"learning_and_teaching_resources": null,
+	"collaborating_disciplines": [],
+	"repeatable": "false",
+	"overview": "",
+	"end_date": "",
+	"duration_pt_period": {
+		"label": null,
+		"value": null
+	},
+	"sms_status": {
+		"label": null,
+		"value": null
+	},
+	"learning_materials": null,
+	"special_topic": "false",
+	"asced_broad": {
+		"value": "",
+		"cl_id": null,
+		"key": "display_value"
+	},
+	"publish_tuition_fees": "true",
+	"placement_proportion": {
+		"label": null,
+		"value": null
+	},
+	"code": "FIT2083",
+	"other_unit_costs": "",
+	"eftsl": {
+		"label": "0.125",
+		"value": "0.125"
+	},
+	"contact_information": "",
+	"highest_sca_band": {
+		"label": "SCA Band 2",
+		"value": "2"
+	},
+	"lo_additional_information": "<p>On successful completion of this unit, you should be able to:</p>",
+	"handbook_assessment_summary": "",
+	"quota_information": "",
+	"attendance_requirements": "",
+	"workload_requirements": "<p>Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled teaching activities.</p>",
+	"organisational_contact_information": "",
+	"handbook_synopsis": "<p>This unit equips students to be effective innovators and researchers in Computer Science. It introduces students to the issues, concepts, methods and techniques associated with IT research in general, but focuses on those most commonly used for research in Computer Science. It introduces students to professional practice and research ethics, the principles of research design, research methods and techniques of data collection and analysis appropriate to Computer Science. It covers oral and written communication skills.</p>\n<p>Skills developed and knowledge acquired from this unit will prepare students to conduct and to communicate their own research, as well as to be knowledgeable consumers of others' research.</p>",
+	"special_note_to_students": "",
+	"undergrad_postgrad_both": {
+		"label": "Undergraduate",
+		"value": "undergraduate"
+	},
+	"area_of_study_links": "Advanced computer science<br />",
+	"fieldwork": "",
+	"unit_learning_outcomes": [
+		{
+			"lo_domain": [],
+			"order": "7",
+			"number": "7",
+			"code": "ULO7",
+			"lo_cl_id": "3e40ebc9dbc031502bdd077cd3961994",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "c6fb7860db38b3003a731c0e04961974",
+			"academic_item": {
+				"value": "FIT2083",
+				"cl_id": "7640ebc9dbc031502bdd077cd396198e",
+				"key": "code"
+			},
+			"description": "<p>Explain the technical, professional and socio-economic contexts that motivate research, and the implications of research outcomes;</p>",
+			"cl_id": "3e40ebc9dbc031502bdd077cd3961994",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "8",
+			"number": "8",
+			"code": "ULO8",
+			"lo_cl_id": "3e40ebc9dbc031502bdd077cd3961995",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "d10cf860db38b3003a731c0e04961943",
+			"academic_item": {
+				"value": "FIT2083",
+				"cl_id": "7640ebc9dbc031502bdd077cd396198e",
+				"key": "code"
+			},
+			"description": "<p>Plan, design and execute a simple research study.</p>",
+			"cl_id": "3e40ebc9dbc031502bdd077cd3961995",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "4",
+			"number": "4",
+			"code": "ULO4",
+			"lo_cl_id": "7640ebc9dbc031502bdd077cd3961996",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "508bf420db38b3003a731c0e049619e2",
+			"academic_item": {
+				"value": "FIT2083",
+				"cl_id": "7640ebc9dbc031502bdd077cd396198e",
+				"key": "code"
+			},
+			"description": "<p>Recognise the main research methodologies of Information Technology research generally;</p>",
+			"cl_id": "7640ebc9dbc031502bdd077cd3961996",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "3",
+			"number": "3",
+			"code": "ULO3",
+			"lo_cl_id": "7a40ebc9dbc031502bdd077cd3961995",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "3a0bb4ecdbf4b3003a731c0e049619fa",
+			"academic_item": {
+				"value": "FIT2083",
+				"cl_id": "7640ebc9dbc031502bdd077cd396198e",
+				"key": "code"
+			},
+			"description": "<p>Explain the ethical and professional issues that may arise in research;</p>",
+			"cl_id": "7a40ebc9dbc031502bdd077cd3961995",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "6",
+			"number": "6",
+			"code": "ULO6",
+			"lo_cl_id": "b240ebc9dbc031502bdd077cd3961996",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "92db3460db38b3003a731c0e049619f5",
+			"academic_item": {
+				"value": "FIT2083",
+				"cl_id": "7640ebc9dbc031502bdd077cd396198e",
+				"key": "code"
+			},
+			"description": "<p>Select and justify an appropriate research methodology for tackling a specified Computer Science problem;</p>",
+			"cl_id": "b240ebc9dbc031502bdd077cd3961996",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "1",
+			"number": "1",
+			"code": "ULO1",
+			"lo_cl_id": "b640ebc9dbc031502bdd077cd3961995",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "6c9a74acdbf4b3003a731c0e049619f4",
+			"academic_item": {
+				"value": "FIT2083",
+				"cl_id": "7640ebc9dbc031502bdd077cd396198e",
+				"key": "code"
+			},
+			"description": "<p>Review and critique Computer Science research literature, research design and reported findings;</p>",
+			"cl_id": "b640ebc9dbc031502bdd077cd3961995",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "5",
+			"number": "5",
+			"code": "ULO5",
+			"lo_cl_id": "f240ebc9dbc031502bdd077cd3961995",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "dacbb060db38b3003a731c0e04961986",
+			"academic_item": {
+				"value": "FIT2083",
+				"cl_id": "7640ebc9dbc031502bdd077cd396198e",
+				"key": "code"
+			},
+			"description": "<p>Describe the most common data collection and analysis methods used in Computer Science research;</p>",
+			"cl_id": "f240ebc9dbc031502bdd077cd3961995",
+			"ga_map": []
+		},
+		{
+			"lo_domain": [],
+			"order": "2",
+			"number": "2",
+			"code": "ULO2",
+			"lo_cl_id": "fe40ebc9dbc031502bdd077cd3961995",
+			"lo_domain_description": "",
+			"offerings": [],
+			"linking_id": "b8dabcacdbf4b3003a731c0e049619e0",
+			"academic_item": {
+				"value": "FIT2083",
+				"cl_id": "7640ebc9dbc031502bdd077cd396198e",
+				"key": "code"
+			},
+			"description": "<p>Communicate research findings, orally and in writing, in research settings;</p>",
+			"cl_id": "fe40ebc9dbc031502bdd077cd3961995",
+			"ga_map": []
+		}
+	],
+	"school_org_unit_data": [
+		{
+			"parent": {
+				"value": "",
+				"cl_id": null,
+				"key": "name"
+			},
+			"url": "https://www.monash.edu/it",
+			"name": "Faculty of Information Technology",
+			"cl_id": "c5684a53dba8a3406add773c349619a1"
+		}
+	],
+	"assessments": [
+		{
+			"subject": {
+				"value": "FIT2083",
+				"cl_id": "7640ebc9dbc031502bdd077cd396198e",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "3",
+			"weight": "10",
+			"cl_id": "3240ebc9dbc031502bdd077cd396199b",
+			"assessment_name": "Task 2a) & 2b) Propose a research method and design a study",
+			"description": null,
+			"assessment_type": {
+				"label": "Research assignment",
+				"value": "research_assignment"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT2083",
+				"cl_id": "7640ebc9dbc031502bdd077cd396198e",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "5",
+			"weight": "20",
+			"cl_id": "3e40ebc9dbc031502bdd077cd396199b",
+			"assessment_name": "Task 4) Complete a research study, write, edit and submit your paper for review",
+			"description": null,
+			"assessment_type": {
+				"label": "Research assignment",
+				"value": "research_assignment"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT2083",
+				"cl_id": "7640ebc9dbc031502bdd077cd396198e",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "2",
+			"weight": "10",
+			"cl_id": "7a40ebc9dbc031502bdd077cd396199b",
+			"assessment_name": "Task 1b) Motivate/justify a research question",
+			"description": null,
+			"assessment_type": {
+				"label": "Research assignment",
+				"value": "research_assignment"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT2083",
+				"cl_id": "7640ebc9dbc031502bdd077cd396198e",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "1",
+			"weight": "10",
+			"cl_id": "7e40ebc9dbc031502bdd077cd396199a",
+			"assessment_name": "Task 1a) Propose a research question",
+			"description": null,
+			"assessment_type": {
+				"label": "Research assignment",
+				"value": "research_assignment"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT2083",
+				"cl_id": "7640ebc9dbc031502bdd077cd396198e",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "4",
+			"weight": "10",
+			"cl_id": "b640ebc9dbc031502bdd077cd396199b",
+			"assessment_name": "Task 3) Pitch",
+			"description": null,
+			"assessment_type": {
+				"label": "Research assignment",
+				"value": "research_assignment"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT2083",
+				"cl_id": "7640ebc9dbc031502bdd077cd396198e",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "6",
+			"weight": "30",
+			"cl_id": "ba40ebc9dbc031502bdd077cd396199a",
+			"assessment_name": "Task 5a) Review a research study and 5b) Refine a research paper",
+			"description": null,
+			"assessment_type": {
+				"label": "Research assignment",
+				"value": "research_assignment"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT2083",
+				"cl_id": "7640ebc9dbc031502bdd077cd396198e",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "0",
+			"weight": "0",
+			"cl_id": "f240ebc9dbc031502bdd077cd396199a",
+			"assessment_name": "Task 0) What is research? Home exercise",
+			"description": null,
+			"assessment_type": {
+				"label": "Research assignment",
+				"value": "research_assignment"
+			},
+			"offerings_formatted": ""
+		},
+		{
+			"subject": {
+				"value": "FIT2083",
+				"cl_id": "7640ebc9dbc031502bdd077cd396198e",
+				"key": "code"
+			},
+			"hurdle_type": {
+				"label": null,
+				"value": null
+			},
+			"hurdle_supplementary_assessment": "",
+			"number": "7",
+			"weight": "10",
+			"cl_id": "f240ebc9dbc031502bdd077cd396199b",
+			"assessment_name": "Task 6a) & 6b) Present your work at a conference, and promote it",
+			"description": null,
+			"assessment_type": {
+				"label": "Research assignment",
+				"value": "research_assignment"
+			},
+			"offerings_formatted": ""
+		}
+	],
+	"enrolment_rules": [],
+	"requisites": [
+		{
+			"academic_item_code": "FIT2083",
+			"active": "true",
+			"requisite_cl_id": "3e40ebc9dbc031502bdd077cd3961991",
+			"description": "",
+			"requisite_type": {
+				"label": "Prerequisite",
+				"value": "prerequisite"
+			},
+			"cl_id": {
+				"value": "FIT2083",
+				"cl_id": "7640ebc9dbc031502bdd077cd396198e",
+				"key": "code"
+			},
+			"academic_item_version_number": "2023.04",
+			"order": "1",
+			"start_date": "",
+			"end_date": "",
+			"container": [
+				{
+					"cl_id": "b2402bc9db0cfd10101196cbd39619f8",
+					"parent_container_table": "x_f5sl_cl_requisite",
+					"parent_record": {
+						"value": "Relationship Builder: FIT2083",
+						"cl_id": "3e40ebc9dbc031502bdd077cd3961991",
+						"key": "academic_item",
+						"type": "x_f5sl_cl_requisite"
+					},
+					"title": "Container 1",
+					"parent_connector": {
+						"label": "OR",
+						"value": "OR"
+					},
+					"containers": [],
+					"relationships": [
+						{
+							"academic_item": {
+								"value": "Unit: MAT1841",
+								"cl_id": "f94de98edb0c80101092bd16f496190b",
+								"key": "code",
+								"type": "x_f5sl_cl_subjects"
+							},
+							"parent_record": {
+								"value": "Container 1",
+								"cl_id": "b2402bc9db0cfd10101196cbd39619f8",
+								"key": "title"
+							},
+							"order": "2",
+							"cl_id": "f94de98edb0c80101092bd16f496190b",
+							"academic_item_type": {
+								"label": "Unit",
+								"value": "subject"
+							},
+							"abbr_name": "CONT MATHS COMPSCI",
+							"academic_item_version_name": "2020.02",
+							"academic_item_credit_points": "6",
+							"abbreviated_name_and_major": null,
+							"academic_item_name": "Continuous mathematics for computer science",
+							"academic_item_code": "MAT1841",
+							"academic_item_url": "/2020/units/MAT1841"
+						},
+						{
+							"academic_item": {
+								"value": "Unit: MTH1030",
+								"cl_id": "63c170c21bd814144a942f002d4bcb6d",
+								"key": "code",
+								"type": "x_f5sl_cl_subjects"
+							},
+							"parent_record": {
+								"value": "Container 1",
+								"cl_id": "b2402bc9db0cfd10101196cbd39619f8",
+								"key": "title"
+							},
+							"order": "3",
+							"cl_id": "63c170c21bd814144a942f002d4bcb6d",
+							"academic_item_type": {
+								"label": "Unit",
+								"value": "subject"
+							},
+							"abbr_name": "TECHNQS.FOR MODLNG.",
+							"academic_item_version_name": "2020.12",
+							"academic_item_credit_points": "6",
+							"abbreviated_name_and_major": null,
+							"academic_item_name": "Techniques for modelling",
+							"academic_item_code": "MTH1030",
+							"academic_item_url": "/2020/units/MTH1030"
+						},
+						{
+							"academic_item": {
+								"value": "Unit: MTH1035",
+								"cl_id": "312234061bd814144a942f002d4bcb8f",
+								"key": "code",
+								"type": "x_f5sl_cl_subjects"
+							},
+							"parent_record": {
+								"value": "Container 1",
+								"cl_id": "b2402bc9db0cfd10101196cbd39619f8",
+								"key": "title"
+							},
+							"order": "4",
+							"cl_id": "312234061bd814144a942f002d4bcb8f",
+							"academic_item_type": {
+								"label": "Unit",
+								"value": "subject"
+							},
+							"abbr_name": "MODELLING (ADVANCED)",
+							"academic_item_version_name": "2020.08",
+							"academic_item_credit_points": "6",
+							"abbreviated_name_and_major": null,
+							"academic_item_name": "Techniques for modelling (advanced)",
+							"academic_item_code": "MTH1035",
+							"academic_item_url": "/2020/units/MTH1035"
+						}
+					]
+				}
+			]
+		},
+		{
+			"academic_item_code": "FIT2083",
+			"active": "true",
+			"requisite_cl_id": "b240ebc9dbc031502bdd077cd3961991",
+			"description": "",
+			"requisite_type": {
+				"label": "Prohibition",
+				"value": "prohibitions"
+			},
+			"cl_id": {
+				"value": "FIT2083",
+				"cl_id": "7640ebc9dbc031502bdd077cd396198e",
+				"key": "code"
+			},
+			"academic_item_version_number": "2023.04",
+			"order": "2",
+			"start_date": "",
+			"end_date": "",
+			"container": [
+				{
+					"cl_id": "b2402bc9db0cfd10101196cbd39619c1",
+					"parent_container_table": "x_f5sl_cl_requisite",
+					"parent_record": {
+						"value": "Relationship Builder: FIT2083",
+						"cl_id": "b240ebc9dbc031502bdd077cd3961991",
+						"key": "academic_item",
+						"type": "x_f5sl_cl_requisite"
+					},
+					"title": "Container 1",
+					"parent_connector": {
+						"label": "AND",
+						"value": "AND"
+					},
+					"containers": [],
+					"relationships": [
+						{
+							"academic_item": {
+								"value": "Unit: FIT4005",
+								"cl_id": "fa3df4eb1b3c5550653b206b274bcb77",
+								"key": "code",
+								"type": "x_f5sl_cl_subjects"
+							},
+							"parent_record": {
+								"value": "Container 1",
+								"cl_id": "b2402bc9db0cfd10101196cbd39619c1",
+								"key": "title"
+							},
+							"order": "2",
+							"cl_id": "fa3df4eb1b3c5550653b206b274bcb77",
+							"academic_item_type": {
+								"label": "Unit",
+								"value": "subject"
+							},
+							"abbr_name": "RES METHS IT",
+							"academic_item_version_name": "2023.01RO",
+							"academic_item_credit_points": "6",
+							"abbreviated_name_and_major": null,
+							"academic_item_name": "Research methods in information technology",
+							"academic_item_code": "FIT4005",
+							"academic_item_url": "/2023/units/FIT4005"
+						}
+					]
+				}
+			]
+		}
+	],
+	"unit_offering": [
+		{
+			"fees_domestic": "",
+			"publish": "true",
+			"location": {
+				"value": "Clayton",
+				"cl_id": "37f321e1db30a7406add773c3496192e",
+				"key": "name"
+			},
+			"name": "FIT2083-S1-01-ON-CAMPUS-CLAYTON",
+			"clarification_to_appear_in_handbook": "",
+			"display_name": "S1-01-CLAYTON-ON-CAMPUS",
+			"teaching_period": {
+				"value": "First semester",
+				"cl_id": "0da429a1db30a7406add773c3496190c",
+				"key": "name"
+			},
+			"attendance_mode": {
+				"value": "On-campus",
+				"cl_id": "7bf2311bdb68a3406add773c349619bb",
+				"key": "description"
+			},
+			"quota_number": "",
+			"study_level": {
+				"label": null,
+				"value": null
+			},
+			"offered": "true",
+			"self_enrol": "true",
+			"academic_item": {
+				"value": "FIT2083",
+				"cl_id": "7640ebc9dbc031502bdd077cd396198e",
+				"key": "code"
+			},
+			"fees_commonwealth": "",
+			"fees_international": "",
+			"course_restrictions": "",
+			"cl_id": "3240ebc9dbc031502bdd077cd3961993"
+		}
+	],
+	"enrolment_rules_group": [],
+	"learning_resources_grouped": [
+		{
+			"type": "Technology resources",
+			"order": 2,
+			"resources": [
+				{
+					"description": "<p>Students should regularly check Moodle and their e-mails for announcements and other relevant communications. <br /><br />Students may be required to use Web browsers, word processing (e.g., LaTeX, MicroSoft-Word), spread sheets and slide presentation packages to complete their assignments. These are available in University computer labs. If in doubt, discuss with the lecturer in advance.</p>",
+					"type": {
+						"label": "Technology resources",
+						"value": "technology_resources"
+					},
+					"cl_id": "3240ebc9dbc031502bdd077cd3961998",
+					"academic_item": {
+						"value": "FIT2083",
+						"cl_id": "7640ebc9dbc031502bdd077cd396198e",
+						"key": "code"
+					},
+					"links": []
+				}
+			]
+		},
+		{
+			"type": "Recommended resources",
+			"order": 1,
+			"resources": [
+				{
+					"description": "<p>Lists of recommended readings will be associated with individual weeks. See Moodle for further details. </p>",
+					"type": {
+						"label": "Recommended resources",
+						"value": "recommended_resources"
+					},
+					"cl_id": "7a40ebc9dbc031502bdd077cd3961997",
+					"academic_item": {
+						"value": "FIT2083",
+						"cl_id": "7640ebc9dbc031502bdd077cd396198e",
+						"key": "code"
+					},
+					"links": []
+				}
+			]
+		},
+		{
+			"type": "Required resources",
+			"order": 0,
+			"resources": [
+				{
+					"description": "<p>There is no required prescribed textbook for this unit. Students are expected to read notes and references provided for each module prior to the start of each week's classes. </p>",
+					"type": {
+						"label": "Required resources",
+						"value": "required_resources"
+					},
+					"cl_id": "f240ebc9dbc031502bdd077cd3961998",
+					"academic_item": {
+						"value": "FIT2083",
+						"cl_id": "7640ebc9dbc031502bdd077cd396198e",
+						"key": "code"
+					},
+					"links": []
+				}
+			]
+		}
+	],
+	"study_abroad_unit": "No",
+	"academic_item_type": "Unit",
+	"learning_activities_grouped": [
+		{
+			"activity_type": "Workshops",
+			"activities": [
+				{
+					"subject": {
+						"value": "FIT2083",
+						"cl_id": "7640ebc9dbc031502bdd077cd396198e",
+						"key": "code"
+					},
+					"cl_id": "7e40ebc9dbc031502bdd077cd3961999",
+					"order": "0",
+					"description": "",
+					"activity_type": {
+						"label": "Workshops",
+						"value": "workshop"
+					},
+					"duration_display": "24 hours",
+					"offerings_formatted_teaching_activities": "<ul><li>Applies to all offerings</li></ul>",
+					"links": []
+				}
+			]
+		},
+		{
+			"activity_type": "Applied sessions",
+			"activities": [
+				{
+					"subject": {
+						"value": "FIT2083",
+						"cl_id": "7640ebc9dbc031502bdd077cd396198e",
+						"key": "code"
+					},
+					"cl_id": "f640ebc9dbc031502bdd077cd3961999",
+					"order": "1",
+					"description": "",
+					"activity_type": {
+						"label": "Applied sessions",
+						"value": "applied"
+					},
+					"duration_display": "24 hours",
+					"offerings_formatted_teaching_activities": "<ul><li>Applies to all offerings</li></ul>",
+					"links": []
+				}
+			]
+		}
+	],
+	"search_title": "FIT2083 - Innovation and research in computer science",
+	"unit_search_title": "FIT2083 - Innovation and research in computer science",
+	"teaching_approaches": [
+		{
+			"type": {
+				"label": "Peer assisted learning",
+				"value": "peer_assisted_learning"
+			},
+			"academic_item": {
+				"value": "FIT2083",
+				"cl_id": "7640ebc9dbc031502bdd077cd396198e",
+				"key": "code"
+			},
+			"cl_id": "7240ebc9dbc031502bdd077cd3961997",
+			"description": "<p>  </p>",
+			"links": []
+		}
+	],
+	"handbook_statement": null,
+	"academic_contact_roles": [
+		{
+			"role": "Chief Examiner(s)",
+			"contacts": [
+				{
+					"active": "true",
+					"contact_department": "",
+					"start_date": "",
+					"offering": {
+						"value": "",
+						"cl_id": null,
+						"key": "display_name"
+					},
+					"contact_role": {
+						"label": "Chief Examiner",
+						"value": "chief_examiner"
+					},
+					"contact_name": "Alan Dorin",
+					"role_detail": "",
+					"contact_organisation": "",
+					"contact_title": "Associate Professor",
+					"order": "1",
+					"contact_phone": "",
+					"end_date": "",
+					"location": {
+						"value": "",
+						"cl_id": null,
+						"key": "name"
+					},
+					"contact_email": "alan.dorin@monash.edu",
+					"contact_url": "",
+					"user": {
+						"value": "Alan Dorin",
+						"cl_id": "d1107acc4fcf32009014a8fe0310c730",
+						"key": ""
+					},
+					"offerings": [],
+					"applies_to_all_offerings": "true",
+					"linking_id": "909ec3001b0bc4104a942f002d4bcb00",
+					"cl_id": "be40ebc9dbc031502bdd077cd3961993",
+					"display_details": "alan.dorin@monash.edu",
+					"display_name": "Associate Professor Alan Dorin ",
+					"offerings_formatted_contact": "<ul><li>Applies to all offerings</ul></li>",
+					"display_role_plural": "Chief Examiner(s)",
+					"links": []
+				}
+			]
+		}
+	],
+	"links": [],
+	"yearSwitcher": [
+		{
+			"label": "2020",
+			"value": "2020",
+			"href": "/2020/units/FIT2083?year=2020"
+		},
+		{
+			"label": "2021",
+			"value": "2021",
+			"href": "/2021/units/FIT2083?year=2021"
+		},
+		{
+			"label": "2022",
+			"value": "2022",
+			"href": "/2022/units/FIT2083?year=2022"
+		},
+		{
+			"label": "2023",
+			"value": "2023",
+			"href": "/2023/units/FIT2083?year=2023"
+		}
+	],
+	"university": "Monash University"
+}
