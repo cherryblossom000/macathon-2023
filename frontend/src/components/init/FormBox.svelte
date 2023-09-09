@@ -1,7 +1,7 @@
 <script lang="ts">
 	import {onDestroy, onMount} from 'svelte'
 	import type {Updater} from 'svelte/store'
-	import {appState, type ApplicationState} from '../scripts'
+	import {appState, type ApplicationState} from '../../scripts'
 
 	export let value: string
 	export let selected: boolean

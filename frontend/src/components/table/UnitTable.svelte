@@ -1,6 +1,6 @@
 <script lang="ts">
 	import UnitBox from './UnitBox.svelte'
-	import {appState, enumerate} from '../scripts'
+	import {appState, enumerate} from '../../scripts'
 </script>
 
 <table class="w-full border-separate border-spacing-2">

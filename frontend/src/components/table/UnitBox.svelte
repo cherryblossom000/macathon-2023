@@ -1,6 +1,6 @@
 <script lang="ts">
 	import type {Course} from 'shared'
-	import {appState, selectUnit, type Unit} from '../scripts'
+	import {appState, selectUnit, type Unit} from '../../scripts'
 
 	export let unit: Unit | undefined
 </script>

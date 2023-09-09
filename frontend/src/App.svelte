@@ -1,26 +1,17 @@
 <script lang="ts">
-	import UnitTable from './components/UnitTable.svelte'
 	import Nav from './components/Nav.svelte'
-	import InitForm from './components/FormSection.svelte'
-	import {C2001, appState} from './scripts'
-
-	const toElectives = () => appState.update(s => ({...s, stage: 'Table'}))
+	import Init from './components/init/Init.svelte'
+	import Table from './components/table/Table.svelte'
+	import {appState} from './scripts'
 </script>
 
 <main class="w-full max-w-screen-md flex flex-col">
 	<Nav />
-	<div class={$appState.stage === `Table` ? '' : 'hidden'}>
-		<UnitTable />
+	<div class={$appState.stage === `Init` ? '' : 'hidden'}>
+		<Init />
 	</div>
 
-	<div class={$appState.stage === `Init` ? '' : 'hidden'}>
-		<InitForm cur={C2001.requirement} />
-		<button
-			on:click={toElectives}
-			disabled={$appState.formUnits.length !== 16}
-			class="bg-blue-600 text-white rounded p-2 disabled:opacity-75 disabled:cursor-not-allowed hover:bg-blue-500 transition-all"
-		>
-			Done!
-		</button>
+	<div class={$appState.stage === `Table` ? '' : 'hidden'}>
+		<Table />
 	</div>
 </main>
