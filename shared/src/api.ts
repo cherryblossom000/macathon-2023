@@ -13,13 +13,9 @@ export type Response<T> =
 			data: t.Errors | string
 	  }
 
-export const CreateSchedulesRequest = ScheduleParameters
-export type CreateSchedulesRequest = ScheduleParameters
-export type CreateSchedulesResponse = Schedule[]
-
-export const ShuffleScheduleRequest = Schedule
-export type ShuffleScheduleRequest = Schedule
-export type ShuffleScheduleResponse = Schedule
+export const GenerateSchedulesRequest = ScheduleParameters
+export type GenerateSchedulesRequest = ScheduleParameters
+export type GenerateSchedulesResponse = Schedule[]
 
 export type GetCourseResponse = Course
 export type GetSpecialisationResponse = Specialisation

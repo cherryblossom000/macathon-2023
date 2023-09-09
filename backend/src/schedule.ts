@@ -11,8 +11,8 @@ import type {
 	ScheduleParameters as _ScheduleParameters,
 } from 'shared'
 
-type ScheduleParameters = Omit<_ScheduleParameters, 'wantedElectives'> & {
-	wantedElectives: (Unit & {
+type ScheduleParameters = Omit<_ScheduleParameters, 'units'> & {
+	units: (Unit & {
 		year?: number | undefined
 		semester?: 1 | 2 | undefined
 	})[]
@@ -43,13 +43,13 @@ const canAddPrereqHelper = (
 		)
 	} else {
 		const items: (UnitCode | UnitRequirement)[] = req.items
-		if (req.operator == 'AND') {
+		if (req.operator === 'AND') {
 			return pipe(
 				items,
 				A.map(r => canAddPrereqHelper(current, before, r)),
 				A.every(id),
 			)
-		} else if (req.operator == 'OR') {
+		} else if (req.operator === 'OR') {
 			return pipe(
 				items,
 				A.map(r => canAddPrereqHelper(current, before, r)),
@@ -81,13 +81,13 @@ const canAddProhibHelper = (
 		return r
 	} else {
 		const items: (UnitCode | UnitRequirement)[] = req.items
-		if (req.operator == 'AND') {
+		if (req.operator === 'AND') {
 			return pipe(
 				items,
 				A.map(r => canAddProhibHelper(current, r)),
 				A.every(id),
 			)
-		} else if (req.operator == 'OR') {
+		} else if (req.operator === 'OR') {
 			return pipe(
 				items,
 				A.map(r => canAddProhibHelper(current, r)),
@@ -244,14 +244,12 @@ export const constructSchedules = (
 ): E.Either<string, Schedule[]> => {
 	const schedules: Schedule[] = []
 
-	const allUnits: Unit[] = params.wantedElectives
+	const allUnits: Unit[] = params.units
 
-	setupToposort(params.wantedElectives)
+	setupToposort(params.units)
 
 	while (schedules.length < 200) {
-		const withConstraint = params.wantedElectives.filter(
-			x => typeof x.year != 'undefined',
-		)
+		const withConstraint = params.units.filter(x => x.year !== undefined)
 		withConstraint.sort((a, b) => a.year! - b.year!)
 
 		// step 1: toposort important units

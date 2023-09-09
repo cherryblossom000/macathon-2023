@@ -36,7 +36,7 @@ gets all units
 
 ## POST `/schedules`
 
-generates a schedule
+generates schedules
 
-- JSON body: `api.CreateSchedulesRequest`
-- returns `api.CreateSchedulesResponse`
+- JSON body: `api.GenerateSchedulesRequest`
+- returns `api.GenerateSchedulesResponse`

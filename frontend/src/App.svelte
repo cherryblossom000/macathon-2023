@@ -2,8 +2,7 @@
 	import UnitTable from './components/UnitTable.svelte'
 	import Nav from './components/Nav.svelte'
 	import InitForm from './components/FormSection.svelte'
-	import {C2001} from './scripts/course2'
-	import {appState} from './scripts'
+	import {C2001, appState} from './scripts'
 
 	const toElectives = () => appState.update(s => ({...s, stage: 'Table'}))
 </script>

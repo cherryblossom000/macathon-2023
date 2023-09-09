@@ -1,13 +1,14 @@
 import * as t from 'io-ts'
 
-const WantedElective = t.intersection([
+const ScheduleUnit = t.intersection([
 	t.type({code: t.string}),
 	t.partial({semester: t.union([t.literal(1), t.literal(2), t.undefined])}),
 	t.partial({year: t.union([t.number, t.undefined])}),
 ])
+export type ScheduleUnit = t.TypeOf<typeof ScheduleUnit>
 
 export const ScheduleParameters = t.type({
-	wantedElectives: t.array(WantedElective),
+	units: t.array(ScheduleUnit),
 	numYears: t.union([t.literal(3), t.literal(4), t.literal(5)]),
 })
 export type ScheduleParameters = t.TypeOf<typeof ScheduleParameters>

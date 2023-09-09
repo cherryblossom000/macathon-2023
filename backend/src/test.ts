@@ -27,16 +27,22 @@ import {units} from './data.js'
 //   can_add(empty, units.find(f=>f.code=="FIT1045")!, [], "Second sem")
 //   )
 
-let u = (n: string): (Unit & {year: number | undefined, sem: 1 | 2 | undefined}) => {
-  return {...units.find(f=>f.code==n)!, year: undefined, sem: undefined}
+let u = (
+	n: string,
+): Unit & {year: number | undefined; sem: 1 | 2 | undefined} => {
+	return {...units.find(f => f.code == n)!, year: undefined, sem: undefined}
 }
 
-let v = (n: string, x: number, y: 1 | 2): (Unit & {year: number | undefined, sem: 1 | 2 | undefined}) => {
-  return {...units.find(f=>f.code==n)!, year: x, sem: y}
+let v = (
+	n: string,
+	x: number,
+	y: 1 | 2,
+): Unit & {year: number | undefined; sem: 1 | 2 | undefined} => {
+	return {...units.find(f => f.code == n)!, year: x, sem: y}
 }
 let all = constructSchedules({
 	numYears: 3,
-	wantedElectives: [u("FIT1045"), v("FIT1008", 0, 2), v("FIT2004", 1, 1)],
+	units: [u('FIT1045'), v('FIT1008', 0, 2), v('FIT2004', 1, 1)],
 })
 
 pipe(

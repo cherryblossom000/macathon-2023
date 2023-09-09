@@ -9,11 +9,11 @@ import {constructSchedules} from '../src/schedule.js'
 
 export default handler(
 	'POST',
-	api.CreateSchedulesRequest,
+	api.GenerateSchedulesRequest,
 	'body',
-	(params): HandlerResult<api.CreateSchedulesResponse> => {
+	(params): HandlerResult<api.GenerateSchedulesResponse> => {
 		return pipe(
-			params.wantedElectives,
+			params.units,
 			A.traverse(E.getApplicativeValidation(A.getSemigroup<string>()))(
 				({code, semester}) =>
 					pipe(
@@ -29,7 +29,7 @@ export default handler(
 					pipe(
 						constructSchedules({
 							...params,
-							wantedElectives: us,
+							units: us,
 						}),
 						E.mapLeft(data => ({code: 500, data: data})),
 						E.map(ss =>
