@@ -20,16 +20,16 @@ export type Response<T> =
 	| {type: 'success'; data: T}
 	| {type: 'error'; data: t.Errors}
 
-export const CreatePlanRequest = t.type({
+export const CreateScheduleRequest = t.type({
 	courseCode: t.string,
 	unitCodes: t.array(t.string),
 })
-export type CreatePlanRequest = t.TypeOf<typeof CreatePlanRequest>
-export type CreatePlanResponse = Schedule
+export type CreateScheduleRequest = t.TypeOf<typeof CreateScheduleRequest>
+export type CreateScheduleResponse = Schedule
 
-export const ShufflePlanRequest = Schedule
-export type ShufflePlanRequest = Schedule
-export type ShufflePlanResponse = Schedule
+export const ShuffleScheduleRequest = Schedule
+export type ShuffleScheduleRequest = Schedule
+export type ShuffleScheduleResponse = Schedule
 
 export type GetCourseResponse = Course
 export type GetSpecialisationResponse = Specialisation
