@@ -18,7 +18,14 @@ export type Schedule = t.TypeOf<typeof Schedule>
 
 export type Response<T> =
 	| {type: 'success'; data: T}
-	| {type: 'error'; data: t.Errors}
+	| {
+			type: 'error'
+			/**
+			 * - `t.Errors` is for an io-ts error (invalid request)
+			 * - `string` is for an arbitrary error message
+			 */
+			data: t.Errors | string
+	  }
 
 export const CreateScheduleRequest = t.type({
 	courseCode: t.string,
