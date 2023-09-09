@@ -1,0 +1,42 @@
+{
+	"code": "FIT2004",
+	"title": "Algorithms and data structures",
+	"offerings": [
+		"Second semester",
+		"First semester"
+	],
+	"enrolmentRules": [],
+	"requisites": [
+		{
+			"type": "prerequisite",
+			"requirement": {
+				"operator": "AND",
+				"items": [
+					{
+						"operator": "AND",
+						"items": [
+							{
+								"operator": "OR",
+								"items": [
+									"FIT1054",
+									"FIT2085",
+									"FIT1008"
+								]
+							},
+							{
+								"operator": "OR",
+								"items": [
+									"MAT1841",
+									"MTH1030",
+									"ENG1005",
+									"MTH1035",
+									"MAT1830"
+								]
+							}
+						]
+					}
+				]
+			}
+		}
+	]
+}

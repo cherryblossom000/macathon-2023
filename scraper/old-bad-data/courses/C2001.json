@@ -1,0 +1,141 @@
+{
+	"code": "C2001",
+	"title": "Bachelor of Computer Science",
+	"abbreviatedName": "BCompSci",
+	"requirement": {
+		"requirement": {
+			"operator": "AND",
+			"items": [
+				{
+					"title": "Part F. Free elective study"
+				},
+				{
+					"title": "Part E. Applied practice",
+					"requirement": {
+						"operator": "OR",
+						"items": [
+							{
+								"title": "Malaysia option",
+								"requirement": {
+									"operator": "OR",
+									"items": [
+										{
+											"title": "Data science project",
+											"requirement": {
+												"operator": "AND",
+												"items": [
+													"FIT3163",
+													"FIT3164"
+												]
+											}
+										},
+										{
+											"title": "Industry based learning",
+											"requirement": {
+												"operator": "OR",
+												"items": [
+													"FIT3045",
+													"FIT3199"
+												]
+											}
+										},
+										{
+											"title": "Computer science project",
+											"requirement": {
+												"operator": "AND",
+												"items": [
+													"FIT3161",
+													"FIT3162"
+												]
+											}
+										}
+									]
+								}
+							},
+							{
+								"title": "Clayton option",
+								"requirement": {
+									"operator": "OR",
+									"items": [
+										{
+											"title": "Data science",
+											"requirement": {
+												"operator": "AND",
+												"items": [
+													"FIT3164",
+													"FIT3163"
+												]
+											}
+										},
+										{
+											"title": "Industry based learning",
+											"requirement": {
+												"operator": "AND",
+												"items": [
+													"FIT3045"
+												]
+											}
+										},
+										{
+											"title": "Computer science",
+											"requirement": {
+												"operator": "AND",
+												"items": [
+													"FIT3161",
+													"FIT3162"
+												]
+											}
+										}
+									]
+								}
+							}
+						]
+					}
+				},
+				{
+					"title": "Part C. Specialist discipline knowledge and Part D. Problem solving and analytical skills",
+					"requirement": {
+						"operator": "OR",
+						"items": [
+							"DATASCI01",
+							"COMPSCI03"
+						]
+					}
+				},
+				{
+					"title": "Part A. Foundational computer science study",
+					"requirement": {
+						"operator": "AND",
+						"items": [
+							{
+								"title": "Core units",
+								"requirement": {
+									"operator": "AND",
+									"items": [
+										"MAT1830",
+										"FIT1047",
+										"FIT1045",
+										"MAT1841",
+										"FIT1008",
+										"FIT2014",
+										"FIT2004"
+									]
+								}
+							}
+						]
+					}
+				},
+				{
+					"title": "Part B. Professional skills study ",
+					"requirement": {
+						"operator": "OR",
+						"items": [
+							"FIT1049",
+							"FIT1055"
+						]
+					}
+				}
+			]
+		}
+	}
+}

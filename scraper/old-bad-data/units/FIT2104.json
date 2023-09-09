@@ -1,0 +1,25 @@
+{
+	"code": "FIT2104",
+	"title": "Web database interface",
+	"offerings": [
+		"Second semester"
+	],
+	"enrolmentRules": [],
+	"requisites": [
+		{
+			"type": "prerequisite",
+			"requirement": {
+				"operator": "AND",
+				"items": [
+					{
+						"operator": "OR",
+						"items": [
+							"FIT2094",
+							"FIT3171"
+						]
+					}
+				]
+			}
+		}
+	]
+}

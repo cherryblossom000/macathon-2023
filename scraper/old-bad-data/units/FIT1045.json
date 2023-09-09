@@ -1,0 +1,25 @@
+{
+	"code": "FIT1045",
+	"title": "Introduction to programming",
+	"offerings": [
+		"First semester",
+		"Second semester"
+	],
+	"enrolmentRules": [],
+	"requisites": [
+		{
+			"type": "prohibitions",
+			"requirement": {
+				"operator": "AND",
+				"items": [
+					{
+						"operator": "AND",
+						"items": [
+							"FIT1053"
+						]
+					}
+				]
+			}
+		}
+	]
+}

@@ -1,0 +1,39 @@
+{
+	"code": "FIT3144",
+	"title": "Advanced computer science research project",
+	"offerings": [
+		"Full year"
+	],
+	"enrolmentRules": [],
+	"requisites": [
+		{
+			"type": "prerequisite",
+			"requirement": {
+				"operator": "AND",
+				"items": [
+					{
+						"operator": "AND",
+						"items": [
+							"FIT2083",
+							"FIT2004"
+						]
+					}
+				]
+			}
+		},
+		{
+			"type": "prohibitions",
+			"requirement": {
+				"operator": "AND",
+				"items": [
+					{
+						"operator": "AND",
+						"items": [
+							"FIT3036"
+						]
+					}
+				]
+			}
+		}
+	]
+}

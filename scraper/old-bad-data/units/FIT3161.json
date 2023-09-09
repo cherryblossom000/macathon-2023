@@ -1,0 +1,40 @@
+{
+	"code": "FIT3161",
+	"title": "Computer science project 1",
+	"offerings": [
+		"First semester",
+		"Second semester"
+	],
+	"enrolmentRules": [],
+	"requisites": [
+		{
+			"type": "prerequisite",
+			"requirement": {
+				"operator": "AND",
+				"items": [
+					{
+						"operator": "AND",
+						"items": [
+							"FIT2004"
+						]
+					}
+				]
+			}
+		},
+		{
+			"type": "prohibitions",
+			"requirement": {
+				"operator": "AND",
+				"items": [
+					{
+						"operator": "AND",
+						"items": [
+							"FIT3144",
+							"FIT3163"
+						]
+					}
+				]
+			}
+		}
+	]
+}

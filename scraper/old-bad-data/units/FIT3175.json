@@ -1,0 +1,34 @@
+{
+	"code": "FIT3175",
+	"title": "Usability",
+	"offerings": [
+		"Summer semester B",
+		"First semester"
+	],
+	"enrolmentRules": [],
+	"requisites": [
+		{
+			"type": "prerequisite",
+			"requirement": {
+				"operator": "AND",
+				"items": [
+					{
+						"operator": "AND",
+						"items": [
+							{
+								"operator": "OR",
+								"items": [
+									"FIT1045",
+									"FIT1053",
+									"FIT2085",
+									"FIT1048",
+									"FIT1051"
+								]
+							}
+						]
+					}
+				]
+			}
+		}
+	]
+}

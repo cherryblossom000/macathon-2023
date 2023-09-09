@@ -1,0 +1,43 @@
+{
+	"code": "FIT1008",
+	"title": "Introduction to computer science",
+	"offerings": [
+		"Second semester",
+		"First semester"
+	],
+	"enrolmentRules": [
+		"<p>Prerequisites: Students beginning FIT1008 are assumed to be able to: Identify the main components of an algorithm (variables, operators, expressions, etc), and write the algorithm associated to the specification of a simple problem. Be able to translate a simple algorithm into a program containing variable declarations, selection, repetition, and lists and/or arrays.</p>"
+	],
+	"requisites": [
+		{
+			"type": "prohibitions",
+			"requirement": {
+				"operator": "AND",
+				"items": [
+					{
+						"operator": "AND",
+						"items": [
+							"FIT2085",
+							"FIT1054"
+						]
+					}
+				]
+			}
+		},
+		{
+			"type": "prerequisite",
+			"requirement": {
+				"operator": "AND",
+				"items": [
+					{
+						"operator": "OR",
+						"items": [
+							"FIT1045",
+							"FIT1053"
+						]
+					}
+				]
+			}
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"code": "FIT3048",
+	"title": "Industry experience studio project 2",
+	"offerings": [
+		"First semester",
+		"Second semester"
+	],
+	"enrolmentRules": [
+		"<p>Prohibitions: FIT2032, ,FIT3039, FIT3040, FIT3045</p>"
+	],
+	"requisites": [
+		{
+			"type": "prerequisite",
+			"requirement": {
+				"operator": "AND",
+				"items": [
+					{
+						"operator": "AND",
+						"items": [
+							"FIT3047"
+						]
+					}
+				]
+			}
+		}
+	]
+}

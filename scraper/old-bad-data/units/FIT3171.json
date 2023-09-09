@@ -1,0 +1,49 @@
+{
+	"code": "FIT3171",
+	"title": "Databases",
+	"offerings": [
+		"Second semester",
+		"First semester"
+	],
+	"enrolmentRules": [],
+	"requisites": [
+		{
+			"type": "prohibitions",
+			"requirement": {
+				"operator": "AND",
+				"items": [
+					{
+						"operator": "AND",
+						"items": [
+							"FIT2094"
+						]
+					}
+				]
+			}
+		},
+		{
+			"type": "prerequisite",
+			"requirement": {
+				"operator": "AND",
+				"items": [
+					{
+						"operator": "AND",
+						"items": [
+							{
+								"operator": "OR",
+								"items": [
+									"FIT1053",
+									"FIT1045",
+									"ENG1003",
+									"FIT1048",
+									"ENG1013",
+									"FIT1051"
+								]
+							}
+						]
+					}
+				]
+			}
+		}
+	]
+}

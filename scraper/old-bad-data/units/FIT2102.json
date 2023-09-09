@@ -1,0 +1,25 @@
+{
+	"code": "FIT2102",
+	"title": "Programming paradigms",
+	"offerings": [
+		"Second semester"
+	],
+	"enrolmentRules": [],
+	"requisites": [
+		{
+			"type": "prerequisite",
+			"requirement": {
+				"operator": "AND",
+				"items": [
+					{
+						"operator": "OR",
+						"items": [
+							"FIT1008",
+							"FIT1054"
+						]
+					}
+				]
+			}
+		}
+	]
+}

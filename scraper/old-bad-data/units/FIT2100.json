@@ -1,0 +1,26 @@
+{
+	"code": "FIT2100",
+	"title": "Operating systems",
+	"offerings": [
+		"Second semester"
+	],
+	"enrolmentRules": [],
+	"requisites": [
+		{
+			"type": "prerequisite",
+			"requirement": {
+				"operator": "AND",
+				"items": [
+					{
+						"operator": "OR",
+						"items": [
+							"ENG1003",
+							"FIT1047",
+							"ENG1013"
+						]
+					}
+				]
+			}
+		}
+	]
+}

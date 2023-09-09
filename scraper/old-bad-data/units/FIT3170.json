@@ -1,0 +1,41 @@
+{
+	"code": "FIT3170",
+	"title": "Software engineering practice",
+	"offerings": [
+		"Full year",
+		"Second semester to Summer semester A"
+	],
+	"enrolmentRules": [],
+	"requisites": [
+		{
+			"type": "prerequisite",
+			"requirement": {
+				"operator": "AND",
+				"items": [
+					{
+						"operator": "AND",
+						"items": [
+							"FIT2101",
+							"FIT2107"
+						]
+					}
+				]
+			}
+		},
+		{
+			"type": "corequisite",
+			"requirement": {
+				"operator": "AND",
+				"items": [
+					{
+						"operator": "AND",
+						"items": [
+							"FIT3077",
+							"FIT2004"
+						]
+					}
+				]
+			}
+		}
+	]
+}

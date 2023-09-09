@@ -1,0 +1,28 @@
+{
+	"code": "FIT3165",
+	"title": "Computer networks",
+	"offerings": [
+		"First semester"
+	],
+	"enrolmentRules": [],
+	"requisites": [
+		{
+			"type": "prerequisite",
+			"requirement": {
+				"operator": "AND",
+				"items": [
+					{
+						"operator": "OR",
+						"items": [
+							"FIT1053",
+							"FIT1048",
+							"FIT1051",
+							"FIT1045",
+							"FIT1008"
+						]
+					}
+				]
+			}
+		}
+	]
+}

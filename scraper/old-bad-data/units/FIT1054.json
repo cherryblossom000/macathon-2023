@@ -1,0 +1,40 @@
+{
+	"code": "FIT1054",
+	"title": "Computer science (Advanced)",
+	"offerings": [
+		"Second semester"
+	],
+	"enrolmentRules": [],
+	"requisites": [
+		{
+			"type": "prohibitions",
+			"requirement": {
+				"operator": "AND",
+				"items": [
+					{
+						"operator": "AND",
+						"items": [
+							"FIT1008",
+							"FIT2085"
+						]
+					}
+				]
+			}
+		},
+		{
+			"type": "prerequisite",
+			"requirement": {
+				"operator": "AND",
+				"items": [
+					{
+						"operator": "OR",
+						"items": [
+							"FIT1045",
+							"FIT1053"
+						]
+					}
+				]
+			}
+		}
+	]
+}

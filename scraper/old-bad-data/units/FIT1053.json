@@ -1,0 +1,26 @@
+{
+	"code": "FIT1053",
+	"title": "Introduction to programming: Advanced",
+	"offerings": [
+		"First semester"
+	],
+	"enrolmentRules": [
+		"<p>Prerequisite: Students must be enrolled in the Bachelor of Computer Science Advanced (Honours) (C3001) or have achieved an ATAR score of 95 or above.</p>"
+	],
+	"requisites": [
+		{
+			"type": "prohibitions",
+			"requirement": {
+				"operator": "AND",
+				"items": [
+					{
+						"operator": "OR",
+						"items": [
+							"FIT1045"
+						]
+					}
+				]
+			}
+		}
+	]
+}

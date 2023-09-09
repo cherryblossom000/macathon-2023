@@ -1,0 +1,24 @@
+{
+	"code": "FIT1073",
+	"title": "Game design",
+	"offerings": [
+		"First semester"
+	],
+	"enrolmentRules": [],
+	"requisites": [
+		{
+			"type": "prohibitions",
+			"requirement": {
+				"operator": "AND",
+				"items": [
+					{
+						"operator": "AND",
+						"items": [
+							"FIT2073"
+						]
+					}
+				]
+			}
+		}
+	]
+}

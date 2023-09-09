@@ -1,0 +1,34 @@
+{
+	"code": "FIT3080",
+	"title": "Artificial intelligence",
+	"offerings": [
+		"Second semester"
+	],
+	"enrolmentRules": [],
+	"requisites": [
+		{
+			"type": "prerequisite",
+			"requirement": {
+				"operator": "AND",
+				"items": [
+					{
+						"operator": "AND",
+						"items": [
+							{
+								"operator": "OR",
+								"items": [
+									"ENG1005",
+									"MAT1841",
+									"MTH1030",
+									"MTH1035"
+								]
+							},
+							"MAT1830",
+							"FIT2004"
+						]
+					}
+				]
+			}
+		}
+	]
+}

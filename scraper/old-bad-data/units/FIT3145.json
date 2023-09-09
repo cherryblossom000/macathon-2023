@@ -1,0 +1,25 @@
+{
+	"code": "FIT3145",
+	"title": "Game design studio 2",
+	"offerings": [
+		"Second semester"
+	],
+	"enrolmentRules": [],
+	"requisites": [
+		{
+			"type": "prerequisite",
+			"requirement": {
+				"operator": "AND",
+				"items": [
+					{
+						"operator": "AND",
+						"items": [
+							"FIT2096",
+							"FIT2073"
+						]
+					}
+				]
+			}
+		}
+	]
+}

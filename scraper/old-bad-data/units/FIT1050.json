@@ -1,0 +1,24 @@
+{
+	"code": "FIT1050",
+	"title": "Web fundamentals",
+	"offerings": [
+		"First semester"
+	],
+	"enrolmentRules": [],
+	"requisites": [
+		{
+			"type": "prohibitions",
+			"requirement": {
+				"operator": "AND",
+				"items": [
+					{
+						"operator": "AND",
+						"items": [
+							"FZA1050"
+						]
+					}
+				]
+			}
+		}
+	]
+}

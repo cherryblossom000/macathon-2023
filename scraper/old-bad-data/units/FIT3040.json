@@ -1,0 +1,25 @@
+{
+	"code": "FIT3040",
+	"title": "Studio project 2",
+	"offerings": [
+		"First semester",
+		"Second semester"
+	],
+	"enrolmentRules": [],
+	"requisites": [
+		{
+			"type": "prerequisite",
+			"requirement": {
+				"operator": "AND",
+				"items": [
+					{
+						"operator": "AND",
+						"items": [
+							"FIT3039"
+						]
+					}
+				]
+			}
+		}
+	]
+}

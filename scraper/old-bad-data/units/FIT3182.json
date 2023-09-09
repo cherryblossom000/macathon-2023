@@ -1,0 +1,33 @@
+{
+	"code": "FIT3182",
+	"title": "Big data management and processing",
+	"offerings": [
+		"First semester"
+	],
+	"enrolmentRules": [
+		"<p>Students should have an understanding of database concepts and SQL and Python programming background.</p>"
+	],
+	"requisites": [
+		{
+			"type": "prerequisite",
+			"requirement": {
+				"operator": "AND",
+				"items": [
+					{
+						"operator": "AND",
+						"items": [
+							{
+								"operator": "OR",
+								"items": [
+									"FIT2094",
+									"FIT3171"
+								]
+							},
+							"FIT2004"
+						]
+					}
+				]
+			}
+		}
+	]
+}

@@ -1,0 +1,47 @@
+{
+	"code": "FIT3173",
+	"title": "Software security",
+	"offerings": [
+		"Summer semester B",
+		"First semester"
+	],
+	"enrolmentRules": [],
+	"requisites": [
+		{
+			"type": "prohibitions",
+			"requirement": {
+				"operator": "AND",
+				"items": [
+					{
+						"operator": "AND",
+						"items": [
+							"FZA3173"
+						]
+					}
+				]
+			}
+		},
+		{
+			"type": "prerequisite",
+			"requirement": {
+				"operator": "AND",
+				"items": [
+					{
+						"operator": "AND",
+						"items": [
+							{
+								"operator": "OR",
+								"items": [
+									"FIT1045",
+									"FIT1048",
+									"FIT1051",
+									"FIT1053"
+								]
+							}
+						]
+					}
+				]
+			}
+		}
+	]
+}

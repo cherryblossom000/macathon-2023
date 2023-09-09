@@ -1,0 +1,25 @@
+{
+	"code": "FIT3169",
+	"title": "Immersive environments",
+	"offerings": [
+		"First semester"
+	],
+	"enrolmentRules": [],
+	"requisites": [
+		{
+			"type": "prerequisite",
+			"requirement": {
+				"operator": "AND",
+				"items": [
+					{
+						"operator": "OR",
+						"items": [
+							"FIT1033",
+							"DIS1911"
+						]
+					}
+				]
+			}
+		}
+	]
+}

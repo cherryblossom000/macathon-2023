@@ -1,0 +1,12 @@
+{
+	"code": "FIT3039",
+	"title": "Studio project 1",
+	"offerings": [
+		"Second semester",
+		"First semester"
+	],
+	"enrolmentRules": [
+		"<p>Prerequisite: (FIT2091 and (FIT2087 or FIT2098)) or (FIT2073 and FIT2096)</p>"
+	],
+	"requisites": []
+}

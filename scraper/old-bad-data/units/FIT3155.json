@@ -1,0 +1,25 @@
+{
+	"code": "FIT3155",
+	"title": "Advanced data structures and algorithms",
+	"offerings": [
+		"Second semester",
+		"First semester"
+	],
+	"enrolmentRules": [],
+	"requisites": [
+		{
+			"type": "prerequisite",
+			"requirement": {
+				"operator": "AND",
+				"items": [
+					{
+						"operator": "AND",
+						"items": [
+							"FIT2004"
+						]
+					}
+				]
+			}
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"code": "FIT1033",
+	"title": "Foundations of 3D",
+	"offerings": [
+		"Second semester"
+	],
+	"enrolmentRules": [],
+	"requisites": [
+		{
+			"type": "prohibitions",
+			"requirement": {
+				"operator": "AND",
+				"items": [
+					{
+						"operator": "AND",
+						"items": [
+							"DIS1911"
+						]
+					}
+				]
+			}
+		}
+	]
+}

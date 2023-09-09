@@ -1,0 +1,24 @@
+{
+	"code": "FIT1056",
+	"title": "Collaborative engineering for web applications ",
+	"offerings": [
+		"Second semester"
+	],
+	"enrolmentRules": [],
+	"requisites": [
+		{
+			"type": "prohibitions",
+			"requirement": {
+				"operator": "AND",
+				"items": [
+					{
+						"operator": "AND",
+						"items": [
+							"ENG1003"
+						]
+					}
+				]
+			}
+		}
+	]
+}

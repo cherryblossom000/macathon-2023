@@ -1,0 +1,28 @@
+{
+	"code": "FIT3178",
+	"title": "iOS app development",
+	"offerings": [
+		"First semester"
+	],
+	"enrolmentRules": [],
+	"requisites": [
+		{
+			"type": "prerequisite",
+			"requirement": {
+				"operator": "AND",
+				"items": [
+					{
+						"operator": "OR",
+						"items": [
+							"FIT1048",
+							"FIT1051",
+							"FIT1045",
+							"FIT1053",
+							"FIT2085"
+						]
+					}
+				]
+			}
+		}
+	]
+}

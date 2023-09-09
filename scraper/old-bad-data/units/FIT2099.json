@@ -1,0 +1,54 @@
+{
+	"code": "FIT2099",
+	"title": "Object oriented design and implementation",
+	"offerings": [
+		"Second semester",
+		"First semester"
+	],
+	"enrolmentRules": [],
+	"requisites": [
+		{
+			"type": "prerequisite",
+			"requirement": {
+				"operator": "AND",
+				"items": [
+					{
+						"operator": "OR",
+						"items": [
+							{
+								"operator": "AND",
+								"items": [
+									{
+										"operator": "OR",
+										"items": [
+											"ENG1003",
+											"ENG1013"
+										]
+									},
+									{
+										"operator": "OR",
+										"items": [
+											"ENG1060",
+											"ENG1014"
+										]
+									}
+								]
+							},
+							{
+								"operator": "OR",
+								"items": [
+									"FIT1051",
+									"FIT1045",
+									"FIT1053",
+									"FIT1054",
+									"FIT1048",
+									"FIT1008"
+								]
+							}
+						]
+					}
+				]
+			}
+		}
+	]
+}
