@@ -1,11 +1,11 @@
 <script lang="ts">
-	import UnitSelectBox from '../FormUnitBox.svelte'
+	import FormUnitBox from '../FormUnitBox.svelte'
 
 	export let unit: string
 	let selected = false
 </script>
 
-<UnitSelectBox
+<FormUnitBox
 	{selected}
 	value={unit}
 	unit={true}

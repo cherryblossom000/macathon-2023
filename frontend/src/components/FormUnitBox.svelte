@@ -4,6 +4,7 @@
 	import type {Updater} from 'svelte/store'
 
 	export let value: string
+	export let disabled = false
 	export let selected = false
 	export let unit = false
 
@@ -33,5 +34,8 @@
 
 <button
 	on:click={onclick}
-	class="p-2 border {selected ? 'border-green-500' : ''}">{value}</button
+	{disabled}
+	class="disabled:cursor-not-allowed p-2 border {selected
+		? 'border-green-500'
+		: ''}">{value}</button
 >
