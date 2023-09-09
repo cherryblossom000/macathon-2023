@@ -19,7 +19,7 @@ const startYear = 2024
 const trueFalse = () => Math.random() < 0.5
 
 const genRanUnit = () => ({
-	code: `FIT${Math.floor(Math.random() * 3000)}`,
+	code: `FIT${String(Math.floor(Math.random() * 3000)).padStart(4, '0')}`,
 	title: 'Rizzing for IT Students',
 })
 
