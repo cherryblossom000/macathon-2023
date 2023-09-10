@@ -1,6 +1,27 @@
-1. A one sentence elevator pitch describing what your project is.
-Our project generates a valid course plan for a student based on their course and what electives they would like to do.
+## Inspiration
 
-2. A brief 300 word description of the project, including the problem you wanted to solve, your solution, how you built it, and any challenges you ran into.
+Creating a university course plan can be difficult, especially for a new student. There are a few units that a student needs to take in order to complete their course depending on their specialisation or major, and there are even more units they can choose from as their electives. Some units have prerequisites or prohibitions, and some units only run in semester 1 or 2. Researching what units are required for a course and what semesters they are available in, as well as figuring out what order to do them so that prerequisites are met is a tedious process. While there can be course maps available from the university, if people wish to do particular units as electives it is even more tedious and time-consuming to plan out their course.
 
-Our project generates
+## What it does
+
+Our solution is a web application that allows students studying Bachelor of Computer Science at Monash to automate creating their course plans. Users can input their specialisation and what electives they would like to take, and then the website generates a valid course map that ensures the user completes the requirements for their course and the units they wish to do.
+
+## How we built it
+
+The website is built using TypeScript, Svelte, and Tailwind. Scraping the unit data from the handbook was done in TypeScript and Node.js.
+
+## Challenges we ran into
+
+The most significant challenge we ran into was generating the course plan/schedule. It was quite difficult to come up with an algorithm that would efficiently generate a plan that would satisfy all the requirements and constraints in a reasonable amount of time. Another challenge we faced was our project structure and sharing types across the different things our team members were working on. A fair bit of code was required to convert objects from one type to another as we sometimes defined our own similar but slightly different types to represent the same thing.
+
+## Accomplishments that we're proud of
+
+We are proud that we were able to create a working algorithm to generate the course schedule.
+
+## What we learned
+
+One thing we learned is to start off
+
+## What's next for Course Plan Generator
+
+We could extend this project by supporting a greater range of units and courses.
