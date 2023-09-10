@@ -33,11 +33,14 @@
 		])
 
 	const units = $appState.finalUnits.map(code => ({code}))
+	const f = new Promise<Schedule[]>(resolve =>
+		setTimeout(() => resolve(generateSchedules(units)), 50),
+	)
 </script>
 
 <div class="flex flex-row">
 	<!-- <UnitTable coursePlan={$appState.coursePlan} /> -->
-	{#await generateSchedules(units)}
+	{#await f}
 		Generating course plan…
 	{:then schedules}
 		{#if isNonEmpty(schedules)}

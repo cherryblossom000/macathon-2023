@@ -13,7 +13,7 @@
 				stage: 'Electives',
 				finalUnits: s.formUnits,
 			}))}
-		disabled={$appState.formUnits.length !== 16}
+		disabled={$appState.formUnits.length !== 6}
 	>
 		Done!
 	</Button>

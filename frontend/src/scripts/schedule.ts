@@ -28,6 +28,8 @@ export interface Schedule {
 
 type Course = 'C2001'
 
+const TIMEOUT = 30_000
+
 export const main = (units: Unit[]) => {
 	const canAddPrereqHelper = (
 		current: Schedule,
@@ -347,10 +349,10 @@ export const main = (units: Unit[]) => {
 		// TODO: how many to return? as many in time?
 
 		// TODO: how to validate if impossible? timer? CURRENT TIMING OUT
-		while (valid.length < 5) {
+		while (valid.length < 1) {
 			const currTime = performance.now()
 
-			if (currTime - startTime > 5000) {
+			if (currTime - startTime > TIMEOUT) {
 				return valid.length == 0
 					? E.left(
 							'Timed out: could not find schedules, please try again or change parameters',
