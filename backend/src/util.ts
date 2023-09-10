@@ -1,17 +1,35 @@
+import type express from 'express'
 import * as E from 'fp-ts/lib/Either.js'
 import {pipe} from 'fp-ts/lib/function.js'
 import * as t from 'io-ts'
-import type {VercelRequest, VercelResponse} from '@vercel/node'
 import type {api} from 'shared'
 
 export type HandlerResult<T> = E.Either<
 	{status: number; data: t.Errors | string},
 	T
 >
+type Handler<T> = express.RequestHandler<
+	unknown,
+	api.Response<T>,
+	unknown,
+	unknown,
+	Record<string, unknown>
+>
 
 export const handler =
-	<T>(method: 'GET' | 'POST', fn: (req: VercelRequest) => HandlerResult<T>) =>
-	(req: VercelRequest, res: VercelResponse): void => {
+	<T>(
+		method: 'GET' | 'POST',
+		fn: (
+			req: express.Request<
+				unknown,
+				api.Response<T>,
+				unknown,
+				unknown,
+				Record<string, unknown>
+			>,
+		) => HandlerResult<T>,
+	): Handler<T> =>
+	(req, res): void => {
 		res.setHeader('access-control-allow-credentials', 'true')
 		res.setHeader('access-control-allow-origin', '*')
 		res.setHeader('access-control-allow-methods', 'OPTIONS,GET,POST')
@@ -46,7 +64,7 @@ export const decodeHandler = <T, U>(
 	type: t.Decoder<unknown, T>,
 	prop: 'body' | 'query',
 	fn: (t: T) => HandlerResult<U>,
-) =>
+): Handler<U> =>
 	handler(method, req =>
 		pipe(
 			type.decode(req[prop]),

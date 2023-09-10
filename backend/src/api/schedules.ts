@@ -3,9 +3,9 @@ import * as E from 'fp-ts/lib/Either.js'
 import * as O from 'fp-ts/lib/Option.js'
 import {pipe} from 'fp-ts/lib/function.js'
 import {api} from 'shared'
-import {decodeHandler, type HandlerResult} from '../src/util.js'
-import * as data from '../src/data.js'
-import {constructSchedules} from '../src/schedule.js'
+import {decodeHandler, type HandlerResult} from '../util.js'
+import * as data from '../data.js'
+import {constructSchedules} from '../schedule.js'
 
 export default decodeHandler(
 	'POST',

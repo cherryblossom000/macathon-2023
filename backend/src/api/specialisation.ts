@@ -3,8 +3,8 @@ import {
 	decodeHandler,
 	HandbookThingRequest,
 	type HandlerResult,
-} from '../src/util.js'
-import * as data from '../src/data.js'
+} from '../util.js'
+import * as data from '../data.js'
 import type {api} from 'shared'
 
 export default decodeHandler(
