@@ -10,10 +10,12 @@ import type {
 	UnitRequirement,
 	ScheduleParameters as _ScheduleParameters,
 } from 'shared'
+import {every} from 'fp-ts/lib/ReadonlyRecord.js'
 
 type ScheduleParameters = Omit<_ScheduleParameters, 'wantedElectives'> & {
-	wantedElectives: (Unit & {year: number | undefined, sem: 1 | 2 | undefined})[]
+	wantedElectives: (Unit & {year: number | undefined; sem: 1 | 2 | undefined})[]
 }
+type UnitConstrained = Unit & {year: number | undefined; sem: 1 | 2 | undefined}
 
 export interface Year {
 	sem1Units: Unit[]
@@ -164,18 +166,21 @@ const getRequiredUnits = (course: Course) => {
 }
 
 export const getAllUnits = (schedule: Schedule): Unit[] => {
-	return pipe(
+	let x = pipe(
 		schedule.years,
-		A.map(year => A.concat(year.sem2Units)(year.sem1Units)),
+		A.map(year =>
+			A.filter(a => a != undefined)(A.concat(year.sem2Units)(year.sem1Units)),
+		),
 		A.flatten,
 	)
+	return x
 }
 
 let adj: Record<string, string[]> = {}
 
 let setup_toposort = (all_units: Unit[]) => {
-  adj = {};
-  let all_codes = all_units.map(x=>x.code);
+	adj = {}
+	let all_codes = all_units.map(x => x.code)
 
 	const findEdges = (r: UnitRequirement): Unit[] => {
 		let ret: Unit[] = []
@@ -206,7 +211,34 @@ let setup_toposort = (all_units: Unit[]) => {
 		}
 	}
 }
+const toposortConstrained = (
+	all_units: UnitConstrained[],
+): UnitConstrained[] => {
+	const seen: string[] = []
+	const topo: string[] = []
 
+	const dfs = (at: string) => {
+		seen.push(at)
+
+		if (!(at in adj)) {
+			adj[at] = []
+		}
+
+		for (const to of adj[at]!) {
+			if (!seen.includes(to)) {
+				dfs(to)
+			}
+		}
+		topo.push(at)
+	}
+
+	for (let c of all_units) {
+		dfs(c.code)
+	}
+	topo.reverse()
+
+	return topo.map(s => all_units.find(u => u.code === s)!)
+}
 const toposort = (all_units: Unit[]): Unit[] => {
 	const seen: string[] = []
 	const topo: string[] = []
@@ -226,193 +258,181 @@ const toposort = (all_units: Unit[]): Unit[] => {
 		topo.push(at)
 	}
 
-  for (let c of all_units) {
-    dfs(c.code);
-  }
+	for (let c of all_units) {
+		dfs(c.code)
+	}
 	topo.reverse()
 
 	return topo.map(s => all_units.find(u => u.code === s)!)
 }
 
+// Pass in an array of units (multiple of 4 length), it checks prereqs
+const prereqs_valid = (units: (Unit | undefined)[]) => {
+	let in_prev_semesters: Unit[] = []
+	let curr_schedule: Schedule = {
+		years: Array.from({length: Math.floor(units.length / 8)}, () => ({
+			sem1Units: [],
+			sem2Units: [],
+		})),
+	}
+
+	for (let i = 0; i < units.length; i++) {
+		if (units[i]! != undefined) {
+			if (
+				!canAdd(
+					curr_schedule,
+					units[i]!,
+					in_prev_semesters,
+					i % 8 < 4 ? 'First semester' : 'Second semester',
+				) ||
+				!units[i]!.offerings.includes(
+					i % 8 < 4 ? 'First semester' : 'Second semester',
+				)
+			) {
+				return false
+			}
+
+			if (i % 8 < 4) {
+				curr_schedule.years[Math.floor(i / 8)]!.sem1Units[i % 4] = units[i]!
+			} else {
+				curr_schedule.years[Math.floor(i / 8)]!.sem2Units[i % 4] = units[i]!
+			}
+		}
+
+		if (i % 4 == 3) {
+			for (let j = i - 3; j <= i; j++) {
+				if (units[j]! != undefined) {
+					in_prev_semesters.push(units[j]!!)
+				}
+			}
+		}
+	}
+
+	return true
+}
+
 export const constructSchedules = (
 	params: ScheduleParameters,
 ): E.Either<string, Schedule[]> => {
-	const schedules: Schedule[] = []
+	let valid = []
 
-  let all_units: Unit[] = params.wantedElectives;
+	while (valid.length < 5) {
+		let all_units: UnitConstrained[] = params.wantedElectives
+		all_units.sort(_ => Math.random() - 0.5)
 
-  setup_toposort(params.wantedElectives);
+		let toposorted: UnitConstrained[] = toposortConstrained(all_units)
+		let constrained = toposorted.filter(x => x.year != undefined)
 
-	while (schedules.length < 200) {
-    let with_constraint = params.wantedElectives.filter(x => typeof(x.year) != "undefined");
-    with_constraint.sort((a,b) => a.year! - b.year!)
+		// STEP 1:
+		let with_constrained: (undefined | Unit)[] = Array.from(
+			{length: 8 * params.numYears},
+			() => undefined,
+		)
 
-
-		// step 1: toposort important units
-    let sorted: (Unit | undefined)[] = toposort(all_units);
-
-		// step 2: add gaps inbetween
-		const gaps = params.numYears * 8 - sorted.length
-
-		for (let i = 0; i < gaps; i++) {
-			let u = units[0]!
-			while (sorted.includes(u)) {
-				u = units[Math.floor(Math.random() * sorted.length)]!
+		for (let c of constrained) {
+			// Randomly put in the sem
+			let ind = c.year! * 8 + (c.sem! - 1) * 4 + Math.floor(Math.random() * 4)
+			while (with_constrained[ind]! != undefined) {
+				ind = c.year! * 8 + (c.sem! - 1) * 4 + Math.floor(Math.random() * 4)
 			}
-			sorted.splice(Math.floor(Math.random() * sorted.length), 0, undefined)
+
+			with_constrained[ind] = c
 		}
 
-		// step 3: add electives
-		let good = true
+		let without_constrained: (Unit | undefined)[] = all_units.filter(
+			x => x.year === undefined,
+		)
 
-		for (let i = 0; i < sorted.length; i++) {
-			const before = Math.floor(i / 4) * 24
-			if (typeof sorted[i] !== 'undefined') {
-				if (sorted[i]!.creditPointPrerequisite !== undefined) {
-					if (sorted[i]!.creditPointPrerequisite!.points > before) {
-						good = false
-						break
+		// Step 2:
+		let cnt =
+			with_constrained.filter(x => x == undefined).length -
+			without_constrained.length
+
+		let second_list = Array.from(
+			{length: with_constrained.length},
+			() => undefined,
+		)
+
+		for (let i = 0; i < cnt; i++) {
+			let ind = Math.floor(Math.random() * (without_constrained.length + 1))
+			without_constrained.splice(ind, 0, undefined)
+		}
+
+		let without_ind = 0
+
+		let with_both: (undefined | Unit)[] = Array.from(
+			{length: with_constrained.length},
+			() => undefined,
+		)
+
+		let r = 0
+
+		for (let i = 0; i < with_constrained.length; i++) {
+			if (with_constrained[i]! != undefined) {
+				with_both[i] = with_constrained[i]!
+			} else {
+				with_both[i] = without_constrained[r]
+				r += 1
+			}
+		}
+
+		// STEP 4 add random things
+
+		let every_unit: Unit[] = units
+		every_unit.sort(_ => Math.random() - 0.5)
+		for (let i = 0; i < with_both.length; i++) {
+			if (with_both[i]! == undefined) {
+				let possible_units = []
+				for (let unit of every_unit) {
+					let temp = [...with_both]
+					assert(temp[i]! == undefined)
+					temp[i]! = unit
+					for (let j = i + 1; j < temp.length; j++) {
+						temp[j] = undefined
 					}
-				}
-			}
-		}
-
-		if (!good) {
-			continue
-		}
-
-		// Validate semesters
-		for (let i = 0; i < sorted.length; i++) {
-			const unit = sorted[i]!
-			const sem: TeachingPeriod =
-				Math.floor(i % 8) < 4 ? 'First semester' : 'Second semester'
-
-			if (typeof unit === 'undefined') {
-				continue
-			}
-
-			if (unit.creditPointPrerequisite !== undefined) {
-				const prereq = unit.creditPointPrerequisite
-				// FIT only, on current level only
-				const doneBefore = Math.floor(i / 4) * 24
-
-				if (doneBefore < prereq.points) {
-					good = false
-				}
-			}
-			if (!unit.offerings.includes(sem)) {
-				good = false
-				break
-			}
-		}
-
-		if (!good) {
-			continue
-		}
-
-		const shuffledUnits = [...units]
-		shuffledUnits.sort(() => Math.random() - 0.5)
-
-		const blankUnit: Unit = {
-			code: '',
-			requisites: [],
-			offerings: [],
-			enrolmentRules: [],
-			title: '',
-		}
-		const sched: Schedule = {
-			years: Array.from({length: 3}, () => {
-				return {
-					sem1Units: [blankUnit, blankUnit, blankUnit, blankUnit],
-					sem2Units: [blankUnit, blankUnit, blankUnit, blankUnit],
-				} as Year
-			}),
-		}
-
-    // ======================== FILL IN SCHEDULE WITH CORE UNITs
-		for (let i = 0; i < sorted.length; i++) {
-			if (typeof sorted[i] !== 'undefined') {
-				if (i % 8 < 4) {
-					sched.years[Math.floor(i / 8)]!.sem1Units[i % 4] = sorted[i]!
-				} else {
-					sched.years[Math.floor(i / 8)]!.sem2Units[i % 4] = sorted[i]!
-				}
-			}
-		}
-
-
-		// ======================== REPLACE UNDEFINEDS WITH ELECTIVES
-		const before: Unit[] = []
-		for (let i = 0; i < sorted.length; i++) {
-			const credBefore = Math.floor(i / 4) * 24
-
-			// Need to fill it up
-			if (typeof sorted[i] === 'undefined') {
-				const possible = []
-				for (const unit of shuffledUnits) {
-					if (
-						canAdd(
-							sched,
-							unit,
-							before,
-							i % 8 < 4 ? 'First semester' : 'Second semester',
-						) &&
-						(typeof unit.creditPointPrerequisite === 'undefined' ||
-							unit.creditPointPrerequisite.points < credBefore) &&
-						sorted.find(f => f === unit) === undefined &&
-						unit.offerings.includes(
-							i % 8 < 4 ? 'First semester' : 'Second semester',
-						)
-					) {
-						possible.push(unit)
+					// console.log('Trying', temp)
+					// console.log(prereqs_valid(temp))
+					// console.log('\n\n\n')
+					if (prereqs_valid(temp) && !with_both.includes(unit)) {
+						possible_units.push(unit)
 					}
 				}
 
-				if (possible.length === 0) {
-					return E.left('Could not create schedule with given electives')
+				if (possible_units.length == 0) {
+					continue
 				}
-
-				const take = possible[Math.floor(Math.random() * possible.length)]!
-
-				sorted[i] = take
-			}
-
-			if (i % 4 === 3) {
-				// add ones before
-				for (let j = i - 3; j <= i; j++) {
-					before.push(sorted[j]!)
-				}
+				let take =
+					possible_units[Math.floor(Math.random() * possible_units.length)]
+				// console.log('ADDING', take)
+				with_both[i] = take
 			}
 		}
 
-
-    // ======================== INSERT INTO THE SCHEDULE
-		const withoutNulls = sorted.filter(x => x !== undefined) as Unit[]
-
-		const toSchedule = (x: Unit[]): Schedule => {
-			const a = {
-				years: Array.from({length: 3}, () => {
-					return {sem1Units: [], sem2Units: []} as Year
-				}),
-			}
-
-			for (let i = 0; i < x.length; i++) {
-				if (i % 8 < 4) {
-					a.years[Math.floor(i / 8)]!.sem1Units[i % 4] = x[i]!
-				} else {
-					a.years[Math.floor(i / 8)]!.sem2Units[i % 4] = x[i]!
-				}
-			}
-			return a
+		if (prereqs_valid(with_both)) {
+			valid.push(with_both)
+			console.log('Done')
 		}
-
-		schedules.push(toSchedule(withoutNulls))
-		// step 4: profit??
 	}
 
-	return E.right(schedules)
-}
+	let to_schedule = (units: Unit[]): Schedule => {
+		let curr_schedule: Schedule = {
+			years: Array.from({length: params.numYears}, () => ({
+				sem1Units: [],
+				sem2Units: [],
+			})),
+		}
+		for (let i = 0; i < units.length; i++) {
+			if (i % 8 < 4) {
+				curr_schedule.years[Math.floor(i / 8)]!.sem1Units[i % 4] = units[i]!
+			} else {
+				curr_schedule.years[Math.floor(i / 8)]!.sem2Units[i % 4] = units[i]!
+			}
+		}
+		return curr_schedule
+	}
 
+	return E.right(valid.map(units => to_schedule(units as Unit[])))
+}
 
 /*
   TODO:
