@@ -6,7 +6,7 @@
 	export let count: number
 </script>
 
-<div>
+<div class="flex flex-row flex-wrap">
 	{#each items as { value, isUnit } (value)}
 		<FormUnitBox
 			{isUnit}

@@ -45,18 +45,16 @@
 	{/if}
 {:else}
 	<!-- pick 2 of the units -->
-	<div class="flex flex-row flex-wrap">
-		<p>Choose 2</p>
-		<ChooseNItems
-			bind:selected
-			count={2}
-			items={isNestedReq(cur.requirement)
-				? // Inside is more requirements
-				  cur.requirement.items.map(r => ({value: r.title, isUnit: false}))
-				: // Inside is units
-				  cur.requirement.items.map(value => ({value, isUnit: true}))}
-		/>
-	</div>
+	<p>Choose 2</p>
+	<ChooseNItems
+		bind:selected
+		count={2}
+		items={isNestedReq(cur.requirement)
+			? // Inside is more requirements
+			  cur.requirement.items.map(r => ({value: r.title, isUnit: false}))
+			: // Inside is units
+			  cur.requirement.items.map(value => ({value, isUnit: true}))}
+	/>
 	{#if selected.length === 2 && isNestedReq(cur.requirement)}
 		<!-- TODO: investigate wtf prettier is doing here? -->
 		{#each cur.requirement.items.filter( v => selected.includes(v.title), ) as next}
