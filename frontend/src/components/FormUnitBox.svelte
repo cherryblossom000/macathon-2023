@@ -2,6 +2,7 @@
 	import {onDestroy, onMount} from 'svelte'
 	import {appState, type ApplicationState} from '../scripts'
 	import type {Updater} from 'svelte/store'
+	import {unitsMap} from '../scripts/data'
 
 	export let value: string
 	export let isUnit: boolean
@@ -35,7 +36,12 @@
 <button
 	on:click={onclick}
 	{disabled}
-	class="disabled:cursor-not-allowed p-2 border {selected
-		? 'border-green-500'
-		: ''}">{value}</button
->
+	class="disabled:cursor-not-allowed p-2 border text-left
+	{selected ? 'border-green-500' : ''}"
+	><strong>
+		{value}
+	</strong><br />
+	{#if isUnit}
+		{unitsMap.get(value)?.title}
+	{/if}
+</button>

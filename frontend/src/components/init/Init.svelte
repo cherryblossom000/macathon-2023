@@ -6,6 +6,7 @@
 
 <div class="max-w-screen-md w-full">
 	<InitForm cur={C2001.requirement} />
+	<br />
 	<Button
 		onclick={() =>
 			appState.update(s => ({
