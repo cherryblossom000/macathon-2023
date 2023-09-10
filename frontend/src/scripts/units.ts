@@ -1747,6 +1747,6 @@ const units: Unit[] = [
 		description:
 			'<p>The unit covers linear algebra (vectors, equations of lines and planes, solutions of simultaneous equations, determinates, Gauss elimination, Gauss-Jordan method), calculus topics (differentiation, parametric differentiation, fundamental theorem of calculus, and numerical integration), an introduction to multivariable calculus (functions of several variables, partial derivatives, tangent planes and directional derivatives), and the construction of splines and Taylor series expansions are also covered.</p>',
 	},
-]
+] as Unit[]
 
 export default units
