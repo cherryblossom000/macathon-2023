@@ -14,7 +14,7 @@ import {
 	type Unit,
 } from 'shared'
 import * as data from './data.js'
-import {constructSchedules} from './schedule.js'
+import {main} from './schedule.js'
 
 // const API_BASE = 'https://macathon-2023.cherryblossom00.repl.co/api'
 // const API_BASE = 'https://macathon-2023.vercel.app/api'
@@ -33,7 +33,7 @@ const handleAPIResponse = <T>(res: api.Response<T>): T => {
 }
 
 export const getCourse = async (code: string): Promise<Course> => {
-	const course = data.courses.find(c => c.code === code)
+	const course = (await data.courses).find(c => c.code === code)
 	return handleAPIResponse(
 		course
 			? {type: 'success', data: course}
@@ -43,7 +43,7 @@ export const getCourse = async (code: string): Promise<Course> => {
 export const getSpecialisation = async (
 	code: string,
 ): Promise<Specialisation> => {
-	const specialisation = data.specialisations.find(c => c.code === code)
+	const specialisation = (await data.specialisations).find(c => c.code === code)
 	return handleAPIResponse(
 		specialisation
 			? {type: 'success', data: specialisation}
@@ -51,7 +51,7 @@ export const getSpecialisation = async (
 	)
 }
 export const getUnit = async (code: string): Promise<Unit> => {
-	const unit = data.units.find(u => u.code === code)
+	const unit = (await data.units).find(u => u.code === code)
 	return handleAPIResponse(
 		unit
 			? {type: 'success', data: unit}
@@ -62,18 +62,22 @@ export const getUnit = async (code: string): Promise<Unit> => {
 export const getAllUnits = async (): Promise<Unit[]> =>
 	handleAPIResponse({type: 'success', data: data.units})
 
-const _generateSchedules = (
+const _generateSchedules = async (
 	params: api.GenerateSchedulesRequest,
-): E.Either<
-	{status: number; data: t.Errors | string},
-	api.GenerateSchedulesResponse
-> =>
-	pipe(
+): Promise<
+	E.Either<
+		{status: number; data: t.Errors | string},
+		api.GenerateSchedulesResponse
+	>
+> => {
+	const {constructSchedules} = main(await data.units)
+	const unitsMap = await data.unitsMap
+	return pipe(
 		params.units,
 		A.traverse(E.getApplicativeValidation(A.getSemigroup<string>()))(
 			({code, semester}) =>
 				pipe(
-					data.unitsMap.get(code),
+					unitsMap.get(code),
 					O.fromNullable,
 					E.fromOption(() => [code]),
 					E.map(u => ({...u, semester})),
@@ -105,6 +109,7 @@ const _generateSchedules = (
 				),
 		),
 	)
+}
 
 export const generateSchedules = async (
 	units: ScheduleParametersUnit[],
@@ -112,7 +117,7 @@ export const generateSchedules = async (
 ): Promise<Schedule[]> =>
 	handleAPIResponse(
 		pipe(
-			_generateSchedules({units, numYears}),
+			await _generateSchedules({units, numYears}),
 			E.foldW(
 				({data}) => ({type: 'error', data}),
 				data => ({type: 'success', data}),

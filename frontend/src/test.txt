@@ -1,0 +1,60 @@
+import {
+	constructSchedules,
+	canAdd,
+	getAllUnits,
+	type Schedule,
+} from './schedule.js'
+
+import * as E from 'fp-ts/lib/Either.js'
+import {pipe} from 'fp-ts/lib/function.js'
+
+import {type Unit} from 'shared'
+import {units} from './data.js'
+
+// let empty: Schedule = {
+// 	years: Array.from({length: 3}, () => ({sem1_units: [], sem2_units: []})),
+// }
+
+// empty.years[0]!.sem1_units[0]! = units.find(f=>f.code=="FIT1053")!;
+// empty.years[0]!.sem1_units[1]! = units.find(f=>f.code=="FIT1053")!;
+// empty.years[0]!.sem1_units[2]! = units.find(f=>f.code=="FIT1053")!;
+// empty.years[0]!.sem1_units[3]! = units.find(f=>f.code=="FIT1053")!;
+// empty.years[0]!.sem2_units[0]! = units.find(f=>f.code=="FIT1053")!;
+// empty.years[0]!.sem2_units[1]! = units.find(f=>f.code=="FIT1053")!;
+// empty.years[0]!.sem2_units[2]! = units.find(f=>f.code=="FIT1053")!;
+// empty.years[0]!.sem2_units[3]! = units.find(f=>f.code=="FIT1053")!;
+// console.log(
+//   can_add(empty, units.find(f=>f.code=="FIT1045")!, [], "Second sem")
+//   )
+
+let u = (
+	n: string,
+): Unit & {year: number | undefined; sem: 1 | 2 | undefined} => {
+	return {...units.find(f => f.code == n)!, year: undefined, sem: undefined}
+}
+
+let v = (
+	n: string,
+	x: number,
+	y: 1 | 2,
+): Unit & {year: number | undefined; sem: 1 | 2 | undefined} => {
+	return {...units.find(f => f.code == n)!, year: x, sem: y}
+}
+let all = constructSchedules({
+	numYears: 3,
+	wantedElectives: [u('FIT1045'), v('FIT1008', 0, 2), v('FIT2004', 2, 1)],
+})
+
+pipe(
+	all,
+	E.fold(
+		f => {
+			console.log(f)
+		},
+		s => {
+			for (let sc of s) {
+				console.log(JSON.stringify(getAllUnits(sc).map(a => a.code)))
+			}
+		},
+	),
+)
