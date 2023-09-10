@@ -9,11 +9,11 @@ import getUnits from './api/unit.js'
 const app = express()
 
 app.use(bodyParser.json())
-app.get('/course', getCourse)
-app.get('/specialisation', getSpecialisation)
-app.get('/unit', getUnit)
-app.get('/units', getUnits)
-app.post('/schedules', generateSchedules)
+app.get('/api/course', getCourse)
+app.get('/api/specialisation', getSpecialisation)
+app.get('/api/unit', getUnit)
+app.get('/api/units', getUnits)
+app.post('/api/schedules', generateSchedules)
 
 const port = Number(process.env.PORT ?? 3000)
 app.listen(port, () => console.log('listening on port', port))
