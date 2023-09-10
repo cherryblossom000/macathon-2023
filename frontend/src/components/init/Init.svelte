@@ -4,8 +4,9 @@
 	import {C2001, appState} from '../../scripts'
 </script>
 
-<div class="max-w-screen-md">
+<div class="max-w-screen-md w-full">
 	<InitForm cur={C2001.requirement} />
+	<br />
 	<Button
 		onclick={() =>
 			appState.update(s => ({

@@ -20,14 +20,14 @@
 			<svelte:self cur={next} depth={depth + 1} />
 		{/each}
 	{:else}
-		<div class="flex flex-row flex-wrap">
+		<div class="flex flex-row flex-wrap gap-5">
 			{#each cur.requirement.items as next (next)}
 				<FormUnitBox value={next} selected={true} isUnit={true} />
 			{/each}
 		</div>
 	{/if}
 {:else if cur.requirement.operator === 'OR'}
-	<div class="flex flex-row flex-wrap">
+	<div class="flex flex-row flex-wrap gap-5">
 		{#each isNestedReq(cur.requirement) ? cur.requirement.items.map( r => ({title: r.title, isUnit: false}), ) : cur.requirement.items.map( title => ({title, isUnit: true}), ) as { title, isUnit } (title)}
 			<FormUnitBox
 				{isUnit}

@@ -51,7 +51,7 @@ export const getSpecialisation = async (
 	)
 }
 export const getUnit = async (code: string): Promise<Unit> => {
-	const unit = (await data.units).find(u => u.code === code)
+	const unit = data.units.find(u => u.code === code)
 	return handleAPIResponse(
 		unit
 			? {type: 'success', data: unit}
@@ -70,8 +70,8 @@ const _generateSchedules = async (
 		api.GenerateSchedulesResponse
 	>
 > => {
-	const {constructSchedules} = main(await data.units)
-	const unitsMap = await data.unitsMap
+	const {constructSchedules} = main(data.units)
+	const unitsMap = data.unitsMap
 	return pipe(
 		params.units,
 		A.traverse(E.getApplicativeValidation(A.getSemigroup<string>()))(

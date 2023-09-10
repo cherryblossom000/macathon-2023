@@ -8,7 +8,9 @@
 	onMount(() => appState.update(s => ({...s, coursePlan})))
 </script>
 
-<table class="w-full max-w-screen-md border-separate border-spacing-2">
+<table
+	class="w-full table-fixed max-w-screen-md border-separate border-spacing-2"
+>
 	{#each enumerate(coursePlan) as [i, sem] (sem.id)}
 		<tr>
 			{#each enumerate(sem.units) as [j, unit] (i * 4 + j)}
