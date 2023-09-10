@@ -292,6 +292,14 @@ const prereqs_valid = (units: (Unit | undefined)[]) => {
 				return false
 			}
 
+      let units_before = Math.floor(i/4) * 24;
+      if (units[i]!.creditPointPrerequisite != undefined) {
+        if (units_before < units[i]!.creditPointPrerequisite!.points)  { 
+          // TODO: proper logic here
+          return false;
+        }
+      }
+
 			if (i % 8 < 4) {
 				curr_schedule.years[Math.floor(i / 8)]!.sem1Units[i % 4] = units[i]!
 			} else {
@@ -314,9 +322,39 @@ const prereqs_valid = (units: (Unit | undefined)[]) => {
 export const constructSchedules = (
 	params: ScheduleParameters,
 ): E.Either<string, Schedule[]> => {
-	let valid = []
+	let valid: Unit[][] = []
 
+  let startTime = performance.now();
+
+
+	let to_schedule = (units: Unit[]): Schedule => {
+		let curr_schedule: Schedule = {
+			years: Array.from({length: params.numYears}, () => ({
+				sem1Units: [],
+				sem2Units: [],
+			})),
+		}
+		for (let i = 0; i < units.length; i++) {
+			if (i % 8 < 4) {
+				curr_schedule.years[Math.floor(i / 8)]!.sem1Units[i % 4] = units[i]!
+			} else {
+				curr_schedule.years[Math.floor(i / 8)]!.sem2Units[i % 4] = units[i]!
+			}
+		}
+		return curr_schedule
+	}
+
+
+
+  // TODO: how many to return? as many in time?
+
+  // TODO: how to validate if impossible? timer? CURRENT TIMING OUT
 	while (valid.length < 5) {
+    let currTime = performance.now();
+
+    if (currTime-startTime > 5000) {
+      return valid.length == 0 ? E.left("Timed out: could not find schedules, please try again or change parameters") : E.right(valid.map(x => to_schedule(x)))
+    }
 		let all_units: UnitConstrained[] = params.wantedElectives
 		all_units.sort(_ => Math.random() - 0.5)
 
@@ -390,16 +428,14 @@ export const constructSchedules = (
 					for (let j = i + 1; j < temp.length; j++) {
 						temp[j] = undefined
 					}
-					// console.log('Trying', temp)
-					// console.log(prereqs_valid(temp))
-					// console.log('\n\n\n')
+
 					if (prereqs_valid(temp) && !with_both.includes(unit)) {
 						possible_units.push(unit)
 					}
 				}
 
 				if (possible_units.length == 0) {
-					continue
+          break;
 				}
 				let take =
 					possible_units[Math.floor(Math.random() * possible_units.length)]
@@ -408,35 +444,17 @@ export const constructSchedules = (
 			}
 		}
 
+    if (with_both.includes(undefined)) {
+      continue;
+    }
 		if (prereqs_valid(with_both)) {
-			valid.push(with_both)
-			console.log('Done')
+			valid.push(with_both as Unit[])
 		}
 	}
-
-	let to_schedule = (units: Unit[]): Schedule => {
-		let curr_schedule: Schedule = {
-			years: Array.from({length: params.numYears}, () => ({
-				sem1Units: [],
-				sem2Units: [],
-			})),
-		}
-		for (let i = 0; i < units.length; i++) {
-			if (i % 8 < 4) {
-				curr_schedule.years[Math.floor(i / 8)]!.sem1Units[i % 4] = units[i]!
-			} else {
-				curr_schedule.years[Math.floor(i / 8)]!.sem2Units[i % 4] = units[i]!
-			}
-		}
-		return curr_schedule
-	}
-
 	return E.right(valid.map(units => to_schedule(units as Unit[])))
 }
 
 /*
-  TODO:
-
   Rewrite the toposort so that it works with constraints.
 
   My idea was, but I didn't have time to implement:

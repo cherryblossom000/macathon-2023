@@ -42,13 +42,15 @@ let v = (
 }
 let all = constructSchedules({
 	numYears: 3,
-	wantedElectives: [u('FIT1045'), v('FIT1008', 2, 1), v('FIT2004', 2, 2)],
+	wantedElectives: [u('FIT1045'), v('FIT1008', 0, 2), v('FIT2004', 2, 1)],
 })
 
 pipe(
 	all,
 	E.fold(
-		f => {},
+		f => {
+      console.log(f)
+    },
 		s => {
 			for (let sc of s) {
 				console.log(JSON.stringify(getAllUnits(sc).map(a => a.code)))
