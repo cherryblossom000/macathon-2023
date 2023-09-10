@@ -167,7 +167,7 @@ export const main = (units: Unit[]) => {
 	}
 
 	const getAllUnits = (schedule: Schedule): Unit[] => {
-		let x = pipe(
+		const x = pipe(
 			schedule.years,
 			A.map(year =>
 				A.filter(a => a != undefined)(A.concat(year.sem2Units)(year.sem1Units)),
@@ -179,9 +179,9 @@ export const main = (units: Unit[]) => {
 
 	let adj: Record<string, string[]> = {}
 
-	let setup_toposort = (all_units: Unit[]) => {
+	const setup_toposort = (all_units: Unit[]) => {
 		adj = {}
-		let all_codes = all_units.map(x => x.code)
+		const all_codes = all_units.map(x => x.code)
 
 		const findEdges = (r: UnitRequirement): Unit[] => {
 			let ret: Unit[] = []
@@ -233,7 +233,7 @@ export const main = (units: Unit[]) => {
 			topo.push(at)
 		}
 
-		for (let c of all_units) {
+		for (const c of all_units) {
 			dfs(c.code)
 		}
 		topo.reverse()
@@ -259,7 +259,7 @@ export const main = (units: Unit[]) => {
 			topo.push(at)
 		}
 
-		for (let c of all_units) {
+		for (const c of all_units) {
 			dfs(c.code)
 		}
 		topo.reverse()
@@ -269,8 +269,8 @@ export const main = (units: Unit[]) => {
 
 	// Pass in an array of units (multiple of 4 length), it checks prereqs
 	const prereqs_valid = (units: (Unit | undefined)[]) => {
-		let in_prev_semesters: Unit[] = []
-		let curr_schedule: Schedule = {
+		const in_prev_semesters: Unit[] = []
+		const curr_schedule: Schedule = {
 			years: Array.from({length: Math.floor(units.length / 8)}, () => ({
 				sem1Units: [],
 				sem2Units: [],
@@ -293,7 +293,7 @@ export const main = (units: Unit[]) => {
 					return false
 				}
 
-				let units_before = Math.floor(i / 4) * 24
+				const units_before = Math.floor(i / 4) * 24
 				if (units[i]!.creditPointPrerequisite != undefined) {
 					if (units_before < units[i]!.creditPointPrerequisite!.points) {
 						// TODO: proper logic here
@@ -311,7 +311,7 @@ export const main = (units: Unit[]) => {
 			if (i % 4 == 3) {
 				for (let j = i - 3; j <= i; j++) {
 					if (units[j]! != undefined) {
-						in_prev_semesters.push(units[j]!!)
+						in_prev_semesters.push(units[j]!)
 					}
 				}
 			}
@@ -323,12 +323,12 @@ export const main = (units: Unit[]) => {
 	const constructSchedules = (
 		params: ScheduleParameters,
 	): E.Either<string, Schedule[]> => {
-		let valid: Unit[][] = []
+		const valid: Unit[][] = []
 
-		let startTime = performance.now()
+		const startTime = performance.now()
 
-		let to_schedule = (units: Unit[]): Schedule => {
-			let curr_schedule: Schedule = {
+		const to_schedule = (units: Unit[]): Schedule => {
+			const curr_schedule: Schedule = {
 				years: Array.from({length: params.numYears}, () => ({
 					sem1Units: [],
 					sem2Units: [],
@@ -348,7 +348,7 @@ export const main = (units: Unit[]) => {
 
 		// TODO: how to validate if impossible? timer? CURRENT TIMING OUT
 		while (valid.length < 5) {
-			let currTime = performance.now()
+			const currTime = performance.now()
 
 			if (currTime - startTime > 5000) {
 				return valid.length == 0
@@ -357,19 +357,19 @@ export const main = (units: Unit[]) => {
 					  )
 					: E.right(valid.map(x => to_schedule(x)))
 			}
-			let all_units: UnitConstrained[] = params.units
+			const all_units: UnitConstrained[] = params.units
 			all_units.sort(_ => Math.random() - 0.5)
 
-			let toposorted: UnitConstrained[] = toposortConstrained(all_units)
-			let constrained = toposorted.filter(x => x.year != undefined)
+			const toposorted: UnitConstrained[] = toposortConstrained(all_units)
+			const constrained = toposorted.filter(x => x.year != undefined)
 
 			// STEP 1:
-			let with_constrained: (undefined | Unit)[] = Array.from(
+			const with_constrained: (undefined | Unit)[] = Array.from(
 				{length: 8 * params.numYears},
 				() => undefined,
 			)
 
-			for (let c of constrained) {
+			for (const c of constrained) {
 				// Randomly put in the sem
 				let ind = c.year! * 8 + (c.sem! - 1) * 4 + Math.floor(Math.random() * 4)
 				while (with_constrained[ind]! != undefined) {
@@ -379,28 +379,28 @@ export const main = (units: Unit[]) => {
 				with_constrained[ind] = c
 			}
 
-			let without_constrained: (Unit | undefined)[] = all_units.filter(
+			const without_constrained: (Unit | undefined)[] = all_units.filter(
 				x => x.year === undefined,
 			)
 
 			// Step 2:
-			let cnt =
+			const cnt =
 				with_constrained.filter(x => x == undefined).length -
 				without_constrained.length
 
-			let second_list = Array.from(
+			const second_list = Array.from(
 				{length: with_constrained.length},
 				() => undefined,
 			)
 
 			for (let i = 0; i < cnt; i++) {
-				let ind = Math.floor(Math.random() * (without_constrained.length + 1))
+				const ind = Math.floor(Math.random() * (without_constrained.length + 1))
 				without_constrained.splice(ind, 0, undefined)
 			}
 
-			let without_ind = 0
+			const without_ind = 0
 
-			let with_both: (undefined | Unit)[] = Array.from(
+			const with_both: (undefined | Unit)[] = Array.from(
 				{length: with_constrained.length},
 				() => undefined,
 			)
@@ -418,17 +418,17 @@ export const main = (units: Unit[]) => {
 
 			// STEP 4 add random things
 
-			let every_unit: Unit[] = units
+			const every_unit: Unit[] = units
 			every_unit.sort(_ => Math.random() - 0.5)
 			for (let i = 0; i < with_both.length; i++) {
 				if (with_both[i]! == undefined) {
-					let possible_units = []
-					for (let unit of every_unit) {
-						let temp = [...with_both]
+					const possible_units = []
+					for (const unit of every_unit) {
+						const temp = [...with_both]
 						if (temp[i]! !== undefined) {
 							throw new Error('assertion error')
 						}
-						temp[i]! = unit
+						temp[i] = unit
 						for (let j = i + 1; j < temp.length; j++) {
 							temp[j] = undefined
 						}
@@ -441,7 +441,7 @@ export const main = (units: Unit[]) => {
 					if (possible_units.length == 0) {
 						break
 					}
-					let take =
+					const take =
 						possible_units[Math.floor(Math.random() * possible_units.length)]
 					// console.log('ADDING', take)
 					with_both[i] = take
@@ -455,7 +455,7 @@ export const main = (units: Unit[]) => {
 				valid.push(with_both as Unit[])
 			}
 		}
-		return E.right(valid.map(units => to_schedule(units as Unit[])))
+		return E.right(valid.map(units => to_schedule(units)))
 	}
 
 	return {constructSchedules, getAllUnits, canAdd}
