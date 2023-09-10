@@ -7,7 +7,7 @@
 		"build": "pnpm -C .. run copy-data && tsc -b",
 		"watch": "tsc -b -w",
 		"lint": "eslint --ext cjs,ts .",
-		"test": "tsc -b tsconfig.test.json && node dist/test.js"
+		"test": "tsc -b && node dist/test.js"
 	},
 	"dependencies": {
 		"body-parser": "^1.20.2",
