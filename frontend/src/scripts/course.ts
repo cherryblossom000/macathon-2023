@@ -123,8 +123,6 @@ export const C2001: Course = {
 													'FIT3181',
 													'FIT3182',
 													'FIT3183',
-													'MTH3170',
-													'MTH3175',
 												],
 											},
 										},
