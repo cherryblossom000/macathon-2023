@@ -40,14 +40,10 @@ export interface Course extends HandbookThing {
 	abbreviatedName: string
 }
 
-export type UnitRequirement = {
+export interface UnitRequirement {
 	operator: Operator
-} & (
-	| {items: UnitCode[]}
-	| {
-			items: UnitRequirement[]
-	  }
-)
+	items: (UnitCode | UnitRequirement)[]
+}
 
 export interface Requisite {
 	type: RequisiteType

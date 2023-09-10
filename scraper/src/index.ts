@@ -134,6 +134,7 @@ interface UnitResponse {
 		requisite_type: {value: RequisiteType}
 		container: UnitRequisiteContainer[]
 	}[]
+	handbook_synopsis: string
 }
 
 const parseUnitRequirement = (
@@ -164,7 +165,8 @@ const rawDir = new URL('../raw/', import.meta.url)
 const fetchUnit = async (code: UnitCode): Promise<void> => {
 	// console.log(code)
 	const rawData = await getNextJSData<UnitResponse>(`units/${code}`)
-	const {title, unit_offering, enrolment_rules, requisites} = rawData
+	const {title, unit_offering, enrolment_rules, requisites, handbook_synopsis} =
+		rawData
 	const offerings = unit_offering?.filter(o => o.location.value === 'Clayton')
 	if (!offerings?.length) {
 		console.log(`${code} not offered in Clayton`)
@@ -182,6 +184,7 @@ const fetchUnit = async (code: UnitCode): Promise<void> => {
 				items: r.container.map(parseUnitRequirement),
 			},
 		})),
+		description: handbook_synopsis,
 	}
 	const path = `units/${code}.json`
 	await Promise.all([

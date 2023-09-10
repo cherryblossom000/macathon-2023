@@ -89,14 +89,14 @@ export const main = (units: Unit[]) => {
 				)
 			} else if (req.operator == 'OR') {
 				return pipe(
-					req.items as (string | UnitRequirement)[],
+					req.items,
 					A.map(r => canAddProhibHelper(current, r)),
 					A.every(id),
 				)
 			} else {
 				return (
 					pipe(
-						req.items as (string | UnitRequirement)[],
+						req.items,
 						A.map(r => (canAddProhibHelper(current, r) ? 1 : 0)),
 						A.reduce(0, (before, at) => before + at),
 					) < 2
