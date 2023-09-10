@@ -3,4 +3,4 @@ Our project generates a valid course plan for a student based on their course an
 
 2. A brief 300 word description of the project, including the problem you wanted to solve, your solution, how you built it, and any challenges you ran into.
 
-Our project
+Our project generates

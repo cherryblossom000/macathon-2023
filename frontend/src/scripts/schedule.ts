@@ -1,4 +1,3 @@
-import assert from 'node:assert'
 import * as A from 'fp-ts/lib/Array.js'
 import * as E from 'fp-ts/lib/Either.js'
 import {pipe, identity as id} from 'fp-ts/lib/function.js'

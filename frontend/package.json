@@ -11,6 +11,8 @@
 		"lint": "eslint --cache --ext cjs,ts,svelte ."
 	},
 	"dependencies": {
+		"fp-ts": "^2.16.1",
+		"io-ts": "^2.2.20",
 		"shared": "workspace:^1.0.0"
 	},
 	"devDependencies": {

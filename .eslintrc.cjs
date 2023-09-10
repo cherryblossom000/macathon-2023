@@ -3,8 +3,10 @@
 const path = require('node:path')
 const tsconfigRootDir = __dirname
 const projects = [
+	// 'backend/tsconfig.json',
 	'frontend/tsconfig.json',
-	'backend/tsconfig.json',
+	'frontend/tsconfig.node.json',
+	'scraper/tsconfig.json',
 	'shared/tsconfig.json',
 ]
 
@@ -40,13 +42,7 @@ module.exports = {
 				},
 			},
 			parserOptions: {
-				project: [
-					'backend/tsconfig.json',
-					'frontend/tsconfig.json',
-					'frontend/tsconfig.node.json',
-					'scraper/tsconfig.json',
-					'shared/tsconfig.json',
-				],
+				project: projects,
 				tsconfigRootDir: __dirname,
 				warnOnUnsupportedTypeScriptVersion: false,
 				EXPERIMENTAL_useSourceOfProjectReferenceRedirect: true,

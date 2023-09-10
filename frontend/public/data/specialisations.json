@@ -1,0 +1,64 @@
+[
+	{
+		"code": "COMPSCI03",
+		"title": "Advanced computer science",
+		"requirement": {
+			"operator": "AND",
+			"items": [
+				{
+					"operator": "AND",
+					"items": ["FIT2099", "FIT2102", "FIT3143", "FIT3155", "FIT3171"]
+				},
+				{
+					"operator": "OR",
+					"items": [
+						"FIT3031",
+						"FIT3077",
+						"FIT3080",
+						"FIT3081",
+						"FIT3088",
+						"FIT3094",
+						"FIT3139",
+						"FIT3142",
+						"FIT3146",
+						"FIT3152",
+						"FIT3159",
+						"FIT3165",
+						"FIT3173",
+						"FIT3175",
+						"FIT3181",
+						"FIT3182",
+						"FIT3183",
+						"MTH3170",
+						"MTH3175"
+					]
+				}
+			]
+		}
+	},
+	{
+		"code": "DATASCI01",
+		"title": "Data science",
+		"requirement": {
+			"operator": "AND",
+			"items": [
+				{
+					"operator": "AND",
+					"items": ["FIT1043", "FIT2086", "FIT2094", "FIT3179"]
+				},
+				{
+					"operator": 2,
+					"items": [
+						"FIT3003",
+						"FIT3139",
+						"FIT3152",
+						"FIT3154",
+						"FIT3181",
+						"FIT3182",
+						"FIT3183"
+					]
+				}
+			]
+		}
+	}
+]

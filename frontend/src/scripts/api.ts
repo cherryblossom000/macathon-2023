@@ -1,3 +1,10 @@
+/* eslint-disable @typescript-eslint/require-await */
+
+import * as A from 'fp-ts/lib/Array.js'
+import * as E from 'fp-ts/lib/Either.js'
+import * as O from 'fp-ts/lib/Option.js'
+import {pipe} from 'fp-ts/lib/function.js'
+import * as t from 'io-ts'
 import {
 	api,
 	type Course,
@@ -6,51 +13,109 @@ import {
 	type Specialisation,
 	type Unit,
 } from 'shared'
+import * as data from './data.js'
+import {constructSchedules} from './schedule.js'
 
-const API_BASE = 'https://macathon-2023.cherryblossom00.repl.co/api'
+// const API_BASE = 'https://macathon-2023.cherryblossom00.repl.co/api'
 // const API_BASE = 'https://macathon-2023.vercel.app/api'
 // const API_BASE =
 // 	'https://macathon-2023-cpr0gx1dd-cherryblossom000.vercel.app/api'
 // const API_BASE = 'http://localhost:3000/api'
 
-const handleAPIResponse = async <T>(res: Promise<Response>): Promise<T> => {
-	const result = (await (await res).json()) as api.Response<T>
-	if (result.type === 'error')
+const handleAPIResponse = <T>(res: api.Response<T>): T => {
+	if (res.type === 'error')
 		throw new Error(
-			typeof result.data === 'string'
-				? result.data
-				: JSON.stringify(result.data, null, 2),
+			typeof res.data === 'string'
+				? res.data
+				: JSON.stringify(res.data, null, 2),
 		)
-	return result.data
+	return res.data
 }
 
-export const getCourse = async (code: string): Promise<Course> =>
-	handleAPIResponse<api.GetCourseResponse>(
-		fetch(`${API_BASE}/course?code=${code}`),
+export const getCourse = async (code: string): Promise<Course> => {
+	const course = data.courses.find(c => c.code === code)
+	return handleAPIResponse(
+		course
+			? {type: 'success', data: course}
+			: {type: 'error', data: 'course not found'},
 	)
+}
 export const getSpecialisation = async (
 	code: string,
-): Promise<Specialisation> =>
-	handleAPIResponse<api.GetSpecialisationResponse>(
-		fetch(`${API_BASE}/specialisation?code=${code}`),
+): Promise<Specialisation> => {
+	const specialisation = data.specialisations.find(c => c.code === code)
+	return handleAPIResponse(
+		specialisation
+			? {type: 'success', data: specialisation}
+			: {type: 'error', data: 'specialisation not found'},
 	)
-export const getUnit = async (code: string): Promise<Unit> =>
-	handleAPIResponse<api.GetUnitResponse>(fetch(`${API_BASE}/unit?code=${code}`))
+}
+export const getUnit = async (code: string): Promise<Unit> => {
+	const unit = data.units.find(u => u.code === code)
+	return handleAPIResponse(
+		unit
+			? {type: 'success', data: unit}
+			: {type: 'error', data: 'unit not found'},
+	)
+}
 
 export const getAllUnits = async (): Promise<Unit[]> =>
-	handleAPIResponse<api.GetUnitsResponse>(fetch(`${API_BASE}/units`))
+	handleAPIResponse({type: 'success', data: data.units})
+
+const _generateSchedules = (
+	params: api.GenerateSchedulesRequest,
+): E.Either<
+	{status: number; data: t.Errors | string},
+	api.GenerateSchedulesResponse
+> =>
+	pipe(
+		params.units,
+		A.traverse(E.getApplicativeValidation(A.getSemigroup<string>()))(
+			({code, semester}) =>
+				pipe(
+					data.unitsMap.get(code),
+					O.fromNullable,
+					E.fromOption(() => [code]),
+					E.map(u => ({...u, semester})),
+				),
+		),
+		E.fold(
+			us => E.left({status: 400, data: `invalid units: ${us.join(', ')}`}),
+			us =>
+				pipe(
+					constructSchedules({
+						...params,
+						units: us,
+					}),
+					E.mapLeft(data => ({status: 500, data: data})),
+					E.map(ss =>
+						ss.map(s => ({
+							years: s.years.map(y => ({
+								sem1Units: y.sem1Units.map(({code, title}) => ({
+									code,
+									title,
+								})),
+								sem2Units: y.sem2Units.map(({code, title}) => ({
+									code,
+									title,
+								})),
+							})),
+						})),
+					),
+				),
+		),
+	)
 
 export const generateSchedules = async (
 	units: ScheduleParametersUnit[],
 	numYears: 3 | 4 | 5 = 3,
 ): Promise<Schedule[]> =>
-	handleAPIResponse<api.GenerateSchedulesResponse>(
-		fetch(`${API_BASE}/schedules`, {
-			method: 'POST',
-			headers: {'content-type': 'application/json'},
-			body: JSON.stringify({
-				units,
-				numYears,
-			} satisfies api.GenerateSchedulesRequest),
-		}),
+	handleAPIResponse(
+		pipe(
+			_generateSchedules({units, numYears}),
+			E.foldW(
+				({data}) => ({type: 'error', data}),
+				data => ({type: 'success', data}),
+			),
+		),
 	)
