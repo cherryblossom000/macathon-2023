@@ -8,11 +8,13 @@
 
 <main class="w-full flex flex-col">
 	<Nav />
-	{#if $appState.stage === 'Init'}
-		<Init />
-	{:else if $appState.stage === 'Electives'}
-		<Electives />
-	{:else}
-		<Table />
-	{/if}
+	<div class="flex flex-col items-center w-full">
+		{#if $appState.stage === 'Init'}
+			<Init />
+		{:else if $appState.stage === 'Electives'}
+			<Electives />
+		{:else}
+			<Table />
+		{/if}
+	</div>
 </main>
