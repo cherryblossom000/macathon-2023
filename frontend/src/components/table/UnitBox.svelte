@@ -18,7 +18,7 @@
 				$appState.selectedUnit &&
 				$appState.selectedUnit[0] === indices[0] &&
 				$appState.selectedUnit[1] === indices[1]
-					? '!border-green-500'
+					? '!border-red-500'
 					: ''
 			}`
 		: 'text-black border-dashed border-black border'}
