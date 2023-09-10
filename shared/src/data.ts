@@ -71,6 +71,7 @@ export interface Unit extends HandbookThing {
 	/** raw HTML data */
 	enrolmentRules: string[]
 	creditPointPrerequisite?: CreditPointPrerequisite
+	description: string
 }
 
 export interface Specialisation extends HandbookThing {
