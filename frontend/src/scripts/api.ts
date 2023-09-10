@@ -118,9 +118,9 @@ export const generateSchedules = async (
 	handleAPIResponse(
 		pipe(
 			await _generateSchedules({units, numYears}),
-			E.foldW(
-				({data}) => ({type: 'error', data}),
-				data => ({type: 'success', data}),
+			E.fold(
+				({data}) => ({type: 'error', data}) as api.Response<Schedule[]>,
+				data => ({type: 'success', data}) as api.Response<Schedule[]>,
 			),
 		),
 	)
